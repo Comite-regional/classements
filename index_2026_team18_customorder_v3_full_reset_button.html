@@ -1,0 +1,2288 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<title>Classements – Pays de la Loire (FFTA)</title>
+<style>
+    :root{--bg:#0f172a;--panel:#111827;--muted:#94a3b8;--text:#e5e7eb;--accent:#22c55e;--chip:#1f2937;--border:#374151}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,"Noto Sans";background:var(--bg);color:var(--text)}
+    header{padding:20px 16px;border-bottom:1px solid var(--border);background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,0));position:sticky;top:0;backdrop-filter:blur(6px);z-index:10}
+    h1{margin:0;font-size:20px}
+    .container{max-width:1200px;margin:0 auto;padding:16px}
+    .filters{display:grid;grid-template-columns:repeat(12,1fr);gap:12px}
+    .card{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:14px}
+    .field{display:flex;flex-direction:column;gap:6px}
+    label{font-size:12px;color:var(--muted)}
+    select,input[type="search"]{width:100%;padding:10px 12px;border-radius:10px;border:1px solid var(--border);background:#0b1220;color:var(--text)}
+    .chips{display:flex;gap:8px;flex-wrap:wrap}
+    .chip{padding:6px 10px;border-radius:999px;background:var(--chip);border:1px solid var(--border);font-size:12px}
+    .row{display:grid;grid-template-columns:1fr;gap:12px}
+    @media(min-width:900px){.row{grid-template-columns:2fr 1fr}}
+    table{width:100%;border-collapse:separate;border-spacing:0 8px}
+    th,td{padding:10px 12px;text-align:left}
+    thead th{font-size:12px;color:var(--muted);font-weight:600}
+    tbody tr{background:var(--panel);border:1px solid var(--border)}
+    tbody tr td{border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+    tbody tr td:first-child{border-left:1px solid var(--border);border-top-left-radius:10px;border-bottom-left-radius:10px}
+    tbody tr td:last-child{border-right:1px solid var(--border);border-top-right-radius:10px;border-bottom-right-radius:10px}
+    .toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    button{padding:10px 12px;border-radius:10px;border:1px solid var(--border);background:#0b1220;color:var(--text);cursor:pointer}
+    button.primary{background:var(--accent);border-color:transparent;color:#052e0e;font-weight:700}
+    .hint{font-size:12px;color:var(--muted)}
+    .hidden{display:none!important}
+    .note{padding:12px;border:1px dashed var(--border);border-radius:12px;background:rgba(255,255,255,0.03);font-size:14px;color:var(--muted)}
+    /* Badges divisions équipe */
+    .badge{display:inline-block;padding:3px 10px;border-radius:999px;font-weight:800;font-size:12px;border:1px solid transparent;white-space:nowrap}
+    .badge-dr{background:#000;color:#fff;border-color:#000}
+    .badge-d2{background:#1e40af;color:#fde047;border-color:#1e40af}
+    .badge-d1{background:#ffd700;color:#111827;border-color:#eab308}
+    /* Lien cliquable pour le nom d’équipe */
+    .link-btn{background:none;border:none;color:#60a5fa;cursor:pointer;padding:0;font:inherit;text-decoration:underline}
+    /* Modal */
+    .modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:60}
+    .modal{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);max-width:720px;width:92vw;background:var(--panel);border:1px solid var(--border);border-radius:14px;z-index:70;box-shadow:0 20px 60px rgba(0,0,0,.4)}
+    .modal.hidden,.modal-overlay.hidden{display:none}
+    .modal-header{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid var(--border)}
+    .modal-body{padding:12px 16px}
+    .modal h3{margin:0;font-size:16px}
+    .close-btn{background:none;border:1px solid var(--border);border-radius:8px;padding:6px 10px;color:var(--text);cursor:pointer}
+    .mini-table{width:100%;border-collapse:collapse}
+    .mini-table th,.mini-table td{padding:8px;border-bottom:1px solid var(--border);text-align:left}
+  
+/* Colonne Inscr. (après Moyenne) */
+th.inscr-col, td.inscr-col{ text-align:center; white-space:nowrap; }
+
+/* qi-leftbar */
+tr.qi-ok  td:first-child{ box-shadow: inset 4px 0 rgba(34,197,94,0.6); }
+tr.qi-warn td:first-child{ box-shadow: inset 4px 0 rgba(234,88,12,0.6); }
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<style id="force-inter-font">
+  body, table, th, td, input, select, button, .btn, .rp-card, .rp-body, .rp-head {
+    font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue",
+                 Arial, "Noto Sans", "Liberation Sans", sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+</style>
+<script id="csv-cp1252-shims">
+// Force le décodage CP1252 pour tous les CSV, y compris Papa.parse(download:true)
+(function(){
+  if (window.__csv_cp1252_fetch_patched__) return;
+  window.__csv_cp1252_fetch_patched__ = true;
+  var origFetch = window.fetch;
+  window.fetch = function(input, init){
+    var url = (typeof input === 'string') ? input : (input && input.url) || '';
+    return origFetch(input, init).then(function(resp){
+      try {
+        if (/\.csv(\?|$)/i.test(url)) {
+          var origText = resp.text.bind(resp);
+          resp.text = function(){
+            return resp.arrayBuffer().then(function(buf){
+              try{ return new TextDecoder('windows-1252').decode(buf); }catch(e){ return origText(); }
+            });
+          };
+        }
+      } catch(e){}
+      return resp;
+    });
+  };
+})();
+(function(){
+  function installInterceptor(){
+    if (!window.Papa || window.Papa.__cp1252_patched__) return;
+    var origParse = window.Papa.parse;
+    window.Papa.__cp1252_patched__ = true;
+    window.Papa.parse = function(input, options){
+      options = options || {};
+      if (typeof input === 'string' && /\.csv(\?|$)/i.test(input) && options.download === true){
+        fetch(input, { cache: 'no-store' })
+          .then(function(resp){ return resp.arrayBuffer(); })
+          .then(function(buf){
+            var txt = new TextDecoder('windows-1252').decode(buf);
+            var opts = {}; for (var k in options){ opts[k] = options[k]; }
+            opts.download = false;
+            return origParse.call(window.Papa, txt, opts);
+          })
+          .catch(function(err){
+            try { if (typeof options.error === 'function') options.error(err); } catch(e){}
+          });
+        return;
+      }
+      return origParse.apply(window.Papa, arguments);
+    };
+  }
+  if (document.readyState !== 'loading') installInterceptor();
+  else document.addEventListener('DOMContentLoaded', installInterceptor);
+})();
+
+
+// --- Popup multi-discipline (Option B) ---
+function renderLicencePopup(allRows, preferredDisc){
+  // Build set of disciplines present
+  const discs = Array.from(new Set(allRows.map(r => r.DISCIPLINE || r.DISC || r.discipline || '')));
+  // Sort with preferred first
+  discs.sort((a,b)=> (a===preferredDisc?-1:(b===preferredDisc?1: (a.localeCompare(b)) )));
+  // Create tabs
+  const tabs = discs.map(d => {
+    const label = DISC_LABELS[d] || d || ' ';
+    return `<button class="tab-btn" data-disc="${d}">${label}</button>`;
+  }).join('');
+
+  // Basic styles for tabs (scoped)
+  const styles = `<style>
+    .tabs { display:flex; gap:.5rem; flex-wrap:wrap; margin-bottom:.75rem; }
+    .tab-btn { padding:.35rem .6rem; border:1px solid #ddd; border-radius:.5rem; cursor:pointer; background:#f8f8f8; }
+    .tab-btn.active { background:#eaeaea; font-weight:600; }
+    .tab-content { border-top:1px solid #eee; padding-top:.5rem; }
+    .popup-table { width:100%; border-collapse:collapse; }
+    .popup-table th, .popup-table td { border-bottom:1px solid #f0f0f0; padding:.35rem .4rem; text-align:left; font-size: .9rem; }
+    .muted { color:#777; font-size:.85rem; }
+  </style>`;
+
+  function tableForDisc(d){
+    const rows = allRows.filter(r => (r.DISCIPLINE||r.DISC||r.discipline||'')===d);
+    const head = `<tr>
+      <th>Discipline</th><th>Nom</th><th>Prénom</th><th>Licence</th><th>Club</th><th>Catégorie</th><th>Arme</th><th>Sexe</th><th>Points</th><th>Rang</th>
+    </tr>`;
+    const body = rows.map(r => {
+      const disc = DISC_LABELS[(r.DISCIPLINE||r.DISC||r.discipline||'')] || (r.DISCIPLINE||r.DISC||r.discipline||'');
+      const nom = r.NOM_PERSONNE||r.NOM||'';
+      const prenom = r.PRENOM_PERSONNE||r.PRENOM||'';
+      const lic = r.NUM_LICENCE||r.LICENCE||r.NUMERO_LICENCE||'';
+      const club = [r.NOM_STRUCTURE, r.NOM_CLUB, r.STRUCTURE].filter(Boolean).join(' ') || '';
+      const cat = r.CATEGORIE||r.CAT||r.CATEGORIE_CLUB||'';
+      const arme = r.ARME||r.ARC||'';
+      const sexe = r.SEXE||'';
+      const pts = r.POINTS||r.SCORE||r.TOTAL||r.BEST||'';
+      const rang = r.RANG||r.RANK||'';
+      return `<tr>
+        <td>${disc}</td><td>${nom}</td><td>${prenom}</td><td>${lic}</td><td>${club}</td>
+        <td>${cat}</td><td>${arme}</td><td>${sexe}</td><td>${pts}</td><td>${rang}</td>
+      </tr>`;
+    }).join('');
+    const empty = rows.length===0 ? `<div class="muted">Aucun résultat dans cette discipline.</div>` : "";
+    return empty || `<table class="popup-table"><thead>${head}</thead><tbody>${body}</tbody></table>`;
+  }
+
+  const first = discs[0] || '';
+  const htmlTabs = `${styles}<div class="tabs">${tabs}</div><div id="tabZone" class="tab-content"></div>`;
+  const bodyEl = document.getElementById('modalBody');
+  bodyEl.innerHTML = htmlTabs;
+  function activate(d){
+    // button states
+    bodyEl.querySelectorAll('.tab-btn').forEach(btn => btn.classList.toggle('active', btn.getAttribute('data-disc')===d));
+    // content
+    bodyEl.querySelector('#tabZone').innerHTML = tableForDisc(d);
+  }
+  // listeners
+  bodyEl.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', e => activate(btn.getAttribute('data-disc')));
+  });
+  activate(preferredDisc && discs.includes(preferredDisc) ? preferredDisc : first);
+}
+
+</script>
+<style id="rp-modal-styles">
+  .rp-modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,.25);z-index:9999}
+  .rp-modal.open{display:flex}
+  .rp-card{background:#fff;color:#0b0f19;border:1px solid #e5e7eb;border-radius:16px;max-width:1100px;width:96%;max-height:85vh;overflow:auto}
+  .rp-head{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #e5e7eb;padding:14px 16px}
+  .rp-body{padding:14px 16px}
+  .rp-btn{background:#dc2626;border:none;color:#fff;border-radius:8px;padding:8px 12px;cursor:pointer}
+  .rp-btn:hover{filter:brightness(.95)}
+  .rp-small{font-size:12px}.rp-muted{color:#667085}
+  .rp-body table{width:100%;border-collapse:separate;border-spacing:0 8px}
+  .rp-body thead th{background:#eef5ff;color:#0b5394;border:1px solid #e5e7eb;text-align:center;padding:10px;font-size:12px}
+  .rp-body tbody td{background:#fff;color:#111827;border:1px solid #e5e7eb;text-align:center;padding:10px}
+  .rp-body tbody td:first-child{border-top-left-radius:12px;border-bottom-left-radius:12px}
+  .rp-body tbody td:last-child{border-top-right-radius:12px;border-bottom-right-radius:12px}
+</style>
+<!-- === LOCK LIGHT THEME + WHITE UI === -->
+<meta content="light" name="color-scheme"/>
+<meta content="#ffffff" name="theme-color"/>
+<style id="pdl-light-ui">
+  :root{
+    --bg:#ffffff;
+    --text:#1f2358;
+    --muted:#667085;
+    --border:#e5e7eb;
+    --filter-bg:#f2f4f7;   /* gris clair pour les filtres */
+    --thead:#eef2ff;       /* bleu très pâle pour entêtes */
+    color-scheme: light;
+  }
+  html, body{ background:var(--bg) !important; color:var(--text) !important; }
+  /* surfaces principales en blanc */
+  :where(header, main, section, aside, footer, .container, .panel, .card, .table-wrap, .content, .layout, .grid, .column){
+    background:var(--bg) !important; color:var(--text) !important; border-color:var(--border) !important;
+  }
+  /* zone des filtres : gris clair */
+  :where(.filters, .filter-bar, .filter-panel, form, fieldset){
+    background:var(--filter-bg) !important; color:var(--text) !important; border:1px solid var(--border) !important;
+    border-radius:12px;
+  }
+  /* contrôles */
+  :where(select, input[type="text"], input[type="search"], input[type="number"], button){
+    background:#fff !important; color:var(--text) !important; border:1px solid var(--border) !important; box-shadow:none !important;
+  }
+  /* entêtes de tableau et badges */
+  table thead th{ background:var(--thead) !important; color:#354072 !important; }
+  table tbody tr{ background:#fff !important; }
+  .chip, .pill{ background:#eef2ff !important; border:1px solid #d9def2 !important; color:#283593 !important; }
+  /* quotas banner */
+  .quota-banner{
+    display:flex; align-items:center; gap:12px; padding:10px 14px; margin:12px auto 8px; max-width:1200px;
+    border:1px solid var(--border); background:#f8fafc; color:var(--text); border-left:4px solid #283593; border-radius:12px;
+    box-shadow:0 3px 12px rgba(40,53,147,.06); font-weight:600;
+  }
+  .quota-banner .pill{ padding:4px 10px; border-radius:999px; }
+  /* couleurs lignes */
+  tr.cr-ok{ background:#ecfdf5 !important; }
+  tr.cr-over{ background:#fff7ed !important; }
+</style>
+<script id="force-light-theme">
+(function(){
+  const force = () => {
+    document.documentElement.classList.remove('dark');
+    document.body.classList.remove('dark');
+    document.documentElement.setAttribute('data-theme','light');
+    document.querySelectorAll('[data-theme]').forEach(el=>el.setAttribute('data-theme','light'));
+  };
+  force();
+  new MutationObserver(force).observe(document.documentElement,{subtree:true,attributes:true,attributeFilter:['class','data-theme']});
+})();
+</script>
+</meta><style id="cr-below-panel-style">
+/* Panel des inscriptions — placé SOUS le tableau, pas d'impact sur la grille */
+#inscriptions-panel{
+  margin: 16px auto;
+  max-width: 1200px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,.04);
+  padding: 12px 14px;
+}
+#inscriptions-panel header{
+  display:flex; align-items:center; gap:8px; margin-bottom:8px; font-weight:800; color:#1f2358;
+}
+#inscriptions-panel .list{
+  display:grid; grid-template-columns: repeat(auto-fill, minmax(260px,1fr)); gap:8px;
+}
+#inscriptions-panel .item{
+  display:flex; align-items:center; justify-content:space-between;
+  gap:10px; padding:8px 10px; border:1px solid #f0f2f7; border-radius:10px; background:#fafbff;
+}
+#inscriptions-panel .left{
+  display:flex; flex-direction:column; min-width:0;
+}
+#inscriptions-panel .name{ font-weight:700; color:#1f2358; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+#inscriptions-panel .meta{ font-size:12px; color:#667085; }
+.badge{
+  padding:2px 8px; border-radius:999px; border:1px solid #d9def2; background:#eef2ff; color:#283593; font-weight:700; white-space:nowrap;
+}
+.badge.ok{ background:#ecfdf5; border-color:#bbf7d0; color:#065f46; }
+.badge.over{ background:#fff7ed; border-color:#fed7aa; color:#9a3412; }
+.badge .tick{ margin-left:6px; }
+tr.hover-sync, #inscriptions-panel .item.hover-sync{ outline: 2px solid #94a3b8; outline-offset: 1px; }
+</style>
+<style id="sticky-thead-added">
+/* Sticky table header (safe addition) */
+.table-container thead th, thead th { position: sticky; top: 0; z-index: 1; background: inherit; }
+</style>
+
+  <!-- Injected by ChatGPT: brand colors from logo -->
+  <style id="brand-colors-from-logo">
+    :root {
+      --brand-blue: #2d2885;
+      --brand-red:  #e30613;
+      --brand-cyan: #00B5E2;
+    }
+    /* Titre principal */
+    header h1, h1 {
+      color: var(--brand-blue) !important;
+    }
+    /* Bouton Réinitialiser = rouge (logo) */
+    #resetFilters {
+      background: var(--brand-red) !important;
+      border-color: var(--brand-red) !important;
+      color: #fff !important;
+      font-weight: 700;
+    }
+    #resetFilters:hover { filter: brightness(.95); }
+    /* Bouton Exporter = bleu cyan */
+    #exportCSV {
+      background: var(--brand-cyan) !important;
+      border-color: var(--brand-cyan) !important;
+      color: #ffffff !important;
+      font-weight: 700;
+    }
+    #exportCSV:hover { filter: brightness(.95); }
+  </style>
+
+
+  <!-- Injected by ChatGPT: hide team note & file chip -->
+  <style id="hide-note-chip-everywhere">
+    #team-note{ display:none !important; }
+    #fichierChip{ display:none !important; }
+  </style>
+
+
+  <!-- Injected by ChatGPT: encadré bleu ciel pour filtres PARA -->
+  <style id="para-encadre-style">
+    #para-section{
+      background:#eff6ff !important;           /* bleu ciel léger */
+      border:1px solid #c7d2fe !important;     /* bordure bleu pâle */
+      border-radius:14px !important;
+      padding:12px 14px !important;
+      display:grid; gap:12px;
+    }
+    #para-section.hidden{ display:none !important; }
+    #para-section .field label{
+      color:#0b5394; font-weight:600;
+    }
+    #para-section select{
+      background:#ffffff; border:1px solid #bcd0ff;
+      border-radius:10px; padding:8px 10px; color:#1b2430;
+    }
+  </style>
+
+
+  <!-- Injected by ChatGPT: brand UI polish -->
+  <style id="brand-ui-polish">
+    :root{
+      --ink:#1b2430;
+      --muted:#667085;
+      --surface:#ffffff;
+      --surface-2:#f5f7fb;
+      --line:rgba(0,0,0,.08);
+    }
+    a{ color: var(--brand-blue); }
+    a:hover{ text-decoration: underline; }
+    .card, .note{
+      border:1px solid var(--line);
+      border-radius:16px;
+      background:var(--surface);
+    }
+    table thead th{
+      background: #eef2ff;         /* bleu très clair */
+      color: var(--brand-blue);
+      font-weight: 700;
+      border-bottom: 1px solid var(--line);
+    }
+    table tbody tr:hover{
+      background: var(--surface-2);
+    }
+    .chip{
+      border:1px solid var(--line);
+      background: var(--surface-2);
+      border-radius:999px;
+      padding:4px 10px;
+    }
+  </style>
+
+
+  <!-- Injected by ChatGPT: club nowrap style -->
+  <style id="club-nowrap-style">
+    .col-club-nowrap { white-space: nowrap !important; }
+  </style>
+
+
+  <!-- Injected by ChatGPT: team modal white background + red close -->
+  <style id="team-modal-white">
+    /* Fond modal équipes en blanc */
+    #teamModal{
+      background:#ffffff !important;
+      color:#111827 !important;
+      border:1px solid #e5e7eb !important;
+      border-radius:14px !important;
+      box-shadow:0 20px 60px rgba(0,0,0,.15) !important;
+    }
+    #teamModal .modal-header{
+      background:#f8fafc !important;
+      border-bottom:1px solid #e5e7eb !important;
+    }
+    #teamModal .modal-body{
+      background:#ffffff !important;
+    }
+    /* Bouton Fermer en rouge (charte) */
+    #modalClose{
+      background:var(--brand-red, #e30613) !important;
+      color:#ffffff !important;
+      border:none !important;
+      font-weight:700 !important;
+    }
+    #modalClose:hover{ filter:brightness(.95); }
+    /* Table interne plus lisible en clair */
+    #teamModal .mini-table th{
+      background:#eef5ff !important;
+      color:#0b5394 !important;
+      border-bottom:1px solid #e5e7eb !important;
+    }
+    #teamModal .mini-table td{
+      background:#ffffff !important;
+      color:#111827 !important;
+    }
+    /* Overlay légèrement assombri */
+    #modalOverlay{ background: rgba(0,0,0,.45) !important; }
+  </style>
+
+
+  <!-- Injected by ChatGPT: hide top banner + header hint -->
+  <style id="hide-top-banner-and-hint">
+    #quota-banner { display:none !important; visibility:hidden !important; height:0 !important; padding:0 !important; margin:0 !important; border:0 !important; }
+    header .hint { display:none !important; visibility:hidden !important; height:0 !important; padding:0 !important; margin:0 !important; }
+  </style>
+
+
+<script>
+function labelifyDisc(x){
+  if(!x) return '';
+  var raw = String(x).trim();
+  var up = raw.toUpperCase();
+  // Strip 'NATIONAL_' prefix if present
+  if(/^NATIONAL_/.test(up)) up = up.replace(/^NATIONAL_/, '');
+  // Collapse 'TAE I' or 'TAE N' variants to 'T'
+  if(/^TAE\s+[IN]$/.test(up)) up = 'T';
+  // Map short codes
+  var map = { 'T':'TAE','S':'TIR À 18M','3':'3D','C':'CAMPAGNE','N':'NATURE','H':'PARA-TIR EXT.','I':'PARA-TIR 18M' };
+  if(map[up]) return map[up];
+  // If it still looks like 'X' return as-is
+  return raw;
+}
+</script>
+
+
+<style id="custom-export-style">
+  /* Bigger title */
+  h1 { font-size: 2rem; line-height: 1.15; }
+  /* Hide dataset hint line */
+  #dataset-hint { display: none !important; }
+  /* Green Export button */
+  #btnExportVisible {
+    background: #16a34a !important; /* green-600 */
+    color: #fff !important;
+  }
+  #btnExportVisible:hover { background: #15803d !important; } /* green-700 */
+</style>
+
+</head>
+<body>
+<div class="quota-banner" hidden="" id="quota-banner"></div>
+<header>
+<div class="container">
+<h1>Classements – Pays de la Loire</h1>
+<div class="hint">Source : fichiers CSV bruts FFTA (placer les 7 fichiers + <code>equipes.csv</code> à côté de cette page).</div>
+</div>
+</header>
+<main class="container">
+<div class="card" id="filters-card">
+<div class="filters" style="margin-bottom:12px">
+<div class="field" style="grid-column: span 3">
+<label for="viewMode">Vue</label>
+<select id="viewMode">
+<option selected="" value="indiv">Individuel</option>
+<option value="team">Équipe</option>
+</select>
+</div>
+<div class="field" style="grid-column: span 3">
+<label for="discipline">Discipline</label>
+<select id="discipline">
+<option value="">— Choisir —</option>
+<!-- INDIV: liste fixe (sera remplacée en TEAM) -->
+<option value="3D">3D</option>
+<option value="Campagne">Campagne</option>
+<option value="Tir 18m">Tir à 18m</option>
+<option value="TAE I">TAE I</option>
+<option value="TAE N">TAE N</option>
+<option value="Nature">Nature</option>
+<option value="Para 18m">Para‑tir à l’arc à 18m</option>
+<option value="Para ext">Para‑tir à l’arc en extérieur</option>
+</select>
+</div>
+<div class="field" style="grid-column: span 2">
+<label for="categorie">Catégorie</label>
+<select id="categorie"><option value="">Toutes</option></select>
+</div>
+<div class="field" id="sexe-field" style="grid-column: span 2">
+<label for="sexe">Sexe</label>
+<select id="sexe"><option value="">Tous</option><option value="H">Homme</option><option value="F">Femme</option></select>
+</div>
+<div class="field" id="arme-field" style="grid-column: span 2">
+<label for="arme">Arme</label>
+<select id="arme"><option value="">Toutes</option></select>
+</div>
+<div class="field" style="grid-column: span 4">
+<label for="departement">Département</label>
+<select id="departement">
+<option value="">Tous</option>
+<option value="44">Loire‑Atlantique (44)</option>
+<option value="49">Maine‑et‑Loire (49)</option>
+<option value="53">Mayenne (53)</option>
+<option value="72">Sarthe (72)</option>
+<option value="85">Vendée (85)</option>
+</select>
+</div>
+<div class="field" style="grid-column: span 4">
+<label for="search">Recherche rapide</label>
+<input id="search" placeholder="Nom, club, ou nom d’équipe" type="search"/>
+</div>
+<div class="field" style="grid-column: span 2">
+<label> </label>
+<button type="button" id="resetFilters" title="Réinitialiser">Réinitialiser</button>
+</div>
+</div>
+<!-- Section TAE (Distance & Blason) -->
+<div class="chips hidden" id="tae-section">
+<div class="field" style="min-width:200px">
+<label for="distance">Distance (TAE/Para ext)</label>
+<select id="distance"><option value="">Toutes</option></select>
+</div>
+<div class="field" style="min-width:200px">
+<label for="blason">Blason (TAE/Para ext)</label>
+<select id="blason"><option value="">Tous</option></select>
+</div>
+</div>
+<!-- Section PARA (catégories spécifiques) -->
+<div class="chips hidden" id="para-section" style="margin-top:12px">
+<div class="field" style="min-width:220px">
+<label for="catClass">Catégorie de classement (Para)</label>
+<select id="catClass"><option value="">Toutes</option></select>
+</div>
+<div class="field" style="min-width:220px">
+<label for="catTir">Catégorie de tir (Para)</label>
+<select id="catTir"><option value="">Toutes</option></select>
+</div>
+</div>
+<div class="note hidden" id="team-note" style="margin-top:12px">
+        Vue « Équipe » : disciplines issues de <code>equipes.csv</code> (C/T/3/N, <strong>S</strong> exclu) +
+        <strong>Tir à 18m</strong> (auto, depuis <code>Tir 18m.csv</code>).
+        Pour <strong>TAE</strong>, deux catégories auto sont disponibles : « Arc Classique Mixte U13‑U15 » et « Arc Classique Mixte U18‑U21 » (à partir de <code>TAE.csv</code> TYPE=I, arme CL).
+      </div>
+</div>
+<div class="row">
+<div class="card">
+<div class="toolbar" style="margin-bottom:10px">
+<span class="hint" id="dataset-hint">Aucun fichier chargé.</span>
+<button type="button" class="primary" id="exportCSV">Exporter le filtre</button>
+</div>
+<div style="overflow:auto">
+<div id="row-count" style="margin:8px 0 6px;font-size:13px;color:var(--muted)" aria-live="polite">0 lignes</div>
+<table id="tableau">
+<thead><tr id="thead-row"></tr></thead>
+<tbody id="tbody"></tbody>
+</table>
+</div>
+</div>
+<div class="card">
+<div class="chips">
+<span class="chip" id="totalChip">0 lignes</span>
+<span class="chip" id="disciplineChip">—</span>
+<span class="chip" id="fichierChip">—</span>
+</div>
+<p class="hint" style="margin-top:8px">Astuce : la recherche marche sur nom/prénom, club/compagnie, ou nom d’équipe.</p>
+</div>
+</div>
+</main>
+<!-- Modal Equipe auto -->
+<div class="modal-overlay hidden" id="modalOverlay"></div>
+<div aria-labelledby="modalTitle" aria-modal="true" class="modal hidden" id="teamModal" role="dialog">
+<div class="modal-header">
+<h3 id="modalTitle">Équipe</h3>
+<button type="button" aria-label="Fermer" class="close-btn" id="modalClose">Fermer</button>
+</div>
+<div class="modal-body" id="modalBody"></div>
+</div>
+<script>
+    // ========= ÉTAT =========
+    const state = {
+      rawByDiscipline: new Map(), // Individuel
+      teamRaw: null,              // Équipe (equipes.csv)
+      viewMode: 'indiv',
+      disciplineIndiv: '',
+      disciplineTeam: '', // 'C','T','3','N' ou '18M_AUTO'
+      filters: { categorie:'', sexe:'', arme:'', departement:'', distance:'', blason:'', catClass:'', catTir:'', search:'' }
+    };
+
+// Libellés lisibles pour codes de discipline
+const DISC_LABELS = {
+  'National_C': 'Campagne',
+  'National_N': 'Nature',
+  'National_T': 'TAE',
+  'National_S': 'Tir à 18m',
+  'National_3': '3D',
+  'National_H': 'Para-tir à l\'arc en extérieur',
+  'National_I': 'Para-tir à l\'arc à 18m'
+};
+
+
+    // ========= FICHIERS =========
+    const filesMap = { '3D':'3D.csv','Campagne':'Campagne.csv','Tir 18m':'Tir 18m.csv','Nature':'Nature.csv','Para ext':'para ext.csv','Para 18m':'Para salle 18m.csv','TAE I':'TAE.csv','TAE N':'TAE.csv' };
+    const TEAM_FILE = 'equipes.csv';
+    const TEAM18_FILE = filesMap['Tir 18m'];
+
+    // ========= HELPERS CSV =========
+    function detectDelimiter(sample){ const sc=(sample.match(/;/g)||[]).length; const cc=(sample.match(/,/g)||[]).length; return sc>=cc?';':','; }
+    function splitCSVLine(line, delim){ const out=[]; let cur='', inQ=false; for(let i=0;i<line.length;i++){ const ch=line[i]; if(ch==='"'){ if(inQ && line[i+1]==='"'){cur+='"'; i++;} else inQ=!inQ; } else if(ch===delim && !inQ){ out.push(cur); cur=''; } else cur+=ch; } out.push(cur); return out; }
+    async function loadCSV(fileName){ try{ const res=await fetch(encodeURI(fileName), { cache: "no-store" }); if(!res.ok) return []; const text=await res.text(); const lines=text.split(/\r?\n/); while(lines.length && !lines[lines.length-1].trim()) lines.pop(); if(!lines.length) return []; const delim=detectDelimiter(lines.slice(0,10).join('\n')); const headers=splitCSVLine(lines.shift(),delim).map(h=>h.trim()); return lines.filter(Boolean).map(line=>{ const cols=splitCSVLine(line,delim); const o={}; headers.forEach((h,i)=> o[h]=(cols[i]??'').trim()); return o; }); }catch(e){ console.warn('loadCSV',fileName,e); return []; } }
+    function getDeptFromCodeStructure(code){ if(!code) return ''; const m=String(code).match(/\d{4,}/); if(!m) return ''; const s=m[0]; return s.length>=4 ? s.slice(2,4) : ''; }
+    const uniqueSorted = arr => [...new Set(arr.filter(v=>v!=null && String(v).trim()!=='').map(v=>String(v)))].sort((a,b)=>a.localeCompare(b,'fr',{numeric:true}));
+    const toNum = v => { if(v==null) return NaN; const n=parseFloat(String(v).replace(',','.')); return Number.isFinite(n)?n:NaN; };
+
+    // ========= UI HELPERS =========
+    const DISC_SELECT = document.getElementById('discipline');
+    const INDIV_OPTIONS_HTML = DISC_SELECT.innerHTML; // sauvegarde liste INDIV
+    function fillSelect(sel, values, firstIsAll=false, selectedVal=''){ sel.innerHTML=''; values.forEach((v,i)=>{ const opt=document.createElement('option'); opt.value = (firstIsAll && i===0)? '' : v; opt.textContent=v; if(String(opt.value)===String(selectedVal)) opt.selected=true; sel.appendChild(opt); }); }
+    function showHideSectionsIndiv(){ const disc=state.disciplineIndiv; const tae=document.getElementById('tae-section'); const para=document.getElementById('para-section'); tae.classList.toggle('hidden', !['TAE I','TAE N','Para ext'].includes(disc)); para.classList.toggle('hidden', !['Para ext','Para 18m'].includes(disc)); }
+    function updateChips(){ const isTeam = state.viewMode==='team'; let disc=isTeam? (state.disciplineTeam||'—') : (state.disciplineIndiv||'—'); if(isTeam){ if(disc==='18M_AUTO') disc='Tir à 18m'; if(disc==='T') disc='TAE'; if(disc==='3') disc='3D'; if(disc==='C') disc='Campagne'; if(disc==='N') disc='Nature'; }
+      const file = isTeam ? (state.disciplineTeam==='18M_AUTO' ? TEAM18_FILE : TEAM_FILE) : (filesMap[state.disciplineIndiv]||'—');
+      document.getElementById('disciplineChip').textContent=disc; document.getElementById('fichierChip').textContent=file; }
+
+    // ========= INDIVIDUEL =========
+    async function ensureDisciplineLoadedIndiv(){ const disc=state.disciplineIndiv; if(!disc) return []; if(state.rawByDiscipline.has(disc)) return state.rawByDiscipline.get(disc); const file=filesMap[disc]; if(!file) return []; const raw=await loadCSV(file); let filtered=raw; if(disc==='TAE I') filtered=raw.filter(r=>(r.TYPE||'').trim().toUpperCase()==='I'); if(disc==='TAE N') filtered=raw.filter(r=>(r.TYPE||'').trim().toUpperCase()==='N'); state.rawByDiscipline.set(disc,filtered); return filtered; }
+
+// ====== NEW: load all individual disciplines for multi-discipline quick search ======
+async function ensureAllIndivLoaded(){
+  const sel = document.getElementById('discipline');
+  const options = Array.from(sel ? sel.options : []).map(o=>o.value).filter(v=>v && v!=='Tous' && v!=='Toutes');
+  const prev = state.disciplineIndiv;
+  let union = [];
+  for(const disc of options){
+    state.disciplineIndiv = disc;
+    const part = await ensureDisciplineLoadedIndiv();
+    const withDisc = part.map(r => {
+      if (r && (r.DISCIPLINE || r.DISC || r.discipline)) return r;
+      const copy = Object.assign({}, r);
+      copy.DISCIPLINE = (DISC_LABELS[disc]||disc);
+      return copy;
+    });
+    union = union.concat(withDisc);
+  }
+  state.disciplineIndiv = prev;
+  return union;
+}
+
+    function populateDependentFiltersIndiv(data){ const cat=document.getElementById('categorie'); const arme=document.getElementById('arme'); const distance=document.getElementById('distance'); const blason=document.getElementById('blason'); const catClass=document.getElementById('catClass'); const catTir=document.getElementById('catTir'); const catKeys=['CAT','CATEGORIE','CATEGORIE_CLUB','CATEGORIE_AGE','CATEGORIE_TIR']; const cats=uniqueSorted(data.map(r=> catKeys.map(k=>r[k]).find(Boolean))); fillSelect(cat, ['Toutes', ...cats], true, state.filters.categorie); const armes=uniqueSorted(data.map(r=> r.ARME||r.AR)); fillSelect(arme, ['Toutes', ...armes], true, state.filters.arme); const dists=uniqueSorted(data.map(r=> r.distance||r.DISTANCE)); const blasons=uniqueSorted(data.map(r=> r.blason||r.BLASON)); fillSelect(distance, ['Toutes', ...dists], true, state.filters.distance); fillSelect(blason, ['Tous', ...blasons], true, state.filters.blason); const cc=uniqueSorted(data.map(r=> r.CAT_CLASS)); const ct=uniqueSorted(data.map(r=> r.CAT_TIR)); fillSelect(catClass, ['Toutes', ...cc], true, state.filters.catClass); fillSelect(catTir, ['Toutes', ...ct], true, state.filters.catTir); }
+    function buildDisplayRowIndiv(r){  const club=[r.NOM_STRUCTURE,r.NOM_ABREGE].filter(Boolean).join(' - '); return { DISCIPLINE:(DISC_LABELS[(r.DISCIPLINE||r.DISC||r.discipline||'')] || (r.DISCIPLINE||r.DISC||r.discipline||'')), RANG:r.Rang_ligue||r.RANG||r.Rang||'', NO_LICENCE:r.NO_LICENCE||'', NOM_PRENOM:[r.NOM_PERSONNE,r.PRENOM_PERSONNE].filter(Boolean).join(' '), DEPARTEMENT:getDeptFromCodeStructure(r.CODE_STRUCTURE), CLUB:club, SCORE1:r.SCORE1||'', SCORE2:r.SCORE2||'', SCORE3:r.SCORE3||'', MOY_SCORE:r.MOY_SCORE||r.MOYENNE||'', distance:r.distance||r.DISTANCE||'', blason:r.blason||r.BLASON||'', CAT_TIR:r.CAT_TIR||'', CAT_CLASS:r.CAT_CLASS||'' }; }
+    function headersForIndiv(){ const disc=state.disciplineIndiv; const base=[{key:'RANG',label:'Rang'},{key:'NO_LICENCE',label:'N° licence'},{key:'NOM_PRENOM',label:'Nom prénom'},{key:'CLUB',label:'Club / Cie'},{key:'SCORE1',label:'Score 1'},{key:'SCORE2',label:'Score 2'},{key:'SCORE3',label:'Score 3'},{key:'MOY_SCORE',label:'Moyenne'}]; if((!state.disciplineIndiv||state.disciplineIndiv==='') && state.filters && state.filters.search){ base.unshift({key:'DISCIPLINE',label:'Discipline'}); }  if(state.filters.departement){ base.splice(3,0,{key:'DEPARTEMENT',label:'Département'},{key:'RANG_DEP',label:'Rang dép.'}); } if(['TAE I','TAE N','Para ext'].includes(disc)){ base.push({key:'distance',label:'Distance'},{key:'blason',label:'Blason'}); } if(['Para ext','Para 18m'].includes(disc)){ base.push({key:'CAT_TIR',label:'Catégorie de tir'},{key:'CAT_CLASS',label:'Catégorie de classement'}); } return base; }
+    function applyFiltersIndiv(data){ const f=state.filters; const disc=state.disciplineIndiv; return data.filter(r=>{ if(f.categorie){ const v=(r.CAT||r.CATEGORIE||r.CATEGORIE_CLUB||r.CATEGORIE_AGE||r.CATEGORIE_TIR||'').toString(); if(v!==f.categorie) return false; } if(f.sexe){ const sex=(r.SEXE||r.GENRE||'').toString().toUpperCase(); if(sex && sex!==f.sexe.toUpperCase()) return false; if(!sex){ const c=(r.CAT||r.CATEGORIE||'').toString().toUpperCase(); if(f.sexe==='H' && c.endsWith('F')) return false; if(f.sexe==='F' && c.endsWith('H')) return false; } } if(f.arme){ const a=(r.ARME||r.AR||'').toString(); if(a!==f.arme) return false; } if(f.departement){ const dep=getDeptFromCodeStructure(r.CODE_STRUCTURE); if(dep!==f.departement) return false; } if(['TAE I','TAE N','Para ext'].includes(disc)){ if(f.distance && String(r.distance||r.DISTANCE||'')!==f.distance) return false; if(f.blason && String(r.blason||r.BLASON||'')!==f.blason) return false; } if(['Para 18m','Para ext'].includes(disc)){ if(f.catClass && String(r.CAT_CLASS||'')!==f.catClass) return false; if(f.catTir && String(r.CAT_TIR||'')!==f.catTir) return false; } if(f.search){ const q=f.search.toLowerCase(); const nom=((r.NOM_PERSONNE||'')+' '+(r.PRENOM_PERSONNE||'')).toLowerCase(); const club=((r.NOM_STRUCTURE||'')+' '+(r.NOM_ABREGE||'')).toLowerCase(); if(!nom.includes(q) && !club.includes(q)) return false; } return true; }); }
+    function renderTableIndiv(rows){ const thead=document.getElementById('thead-row'); const tbody=document.getElementById('tbody'); thead.innerHTML=''; tbody.innerHTML=''; const headers=headersForIndiv(); headers.forEach(h=>{ const th=document.createElement('th'); th.textContent=h.label; thead.appendChild(th); }); let displayed=rows.slice(); const depFilter=state.filters.departement||''; const depIdx=new Map(); if(depFilter){ const ligueRank = r=> (parseInt(r.Rang_ligue||r.RANG||r.Rang||'999999')||999999); displayed.sort((a,b)=> ligueRank(a)-ligueRank(b) || (toNum(b.MOY_SCORE)-toNum(a.MOY_SCORE)) ); displayed.forEach((r,i)=> depIdx.set(r,i+1)); } displayed.forEach(r=>{ const disp=buildDisplayRowIndiv(r); if(depFilter) disp.RANG_DEP=depIdx.get(r)||''; const tr=document.createElement('tr'); headers.forEach(h=>{ const td=document.createElement('td'); td.textContent = (h.key==='RANG_DEP') ? (disp.RANG_DEP||'') : (disp[h.key]??''); tr.appendChild(td); }); tbody.appendChild(tr); }); document.getElementById('totalChip').textContent = displayed.length + ' ligne' + (displayed.length>1?'s':''); }
+
+    // ========= ÉQUIPE (equipes.csv + 18m auto + TAE auto via catégories) =========
+    const CODE_TO_LABEL = { 'C':'Campagne','T':'TAE','3':'3D','N':'Nature' };
+    const TEAM18_GROUPS = [
+      'Arc Classique Femme','Arc Classique Homme','Arc à Poulie Femme','Arc à Poulie Homme','Arc à Poulie Mixte','Arc Nu Mixte','Arc Classique U13 - U15','Arc Classique U18 - U21'
+    ];
+    const TEAMTAEI_GROUPS = [
+      'Arc Classique Mixte U13 - U15',
+      'Arc Classique Mixte U18 - U21'
+    ];
+    async function ensureTeamLoaded(){ if(state.teamRaw) return state.teamRaw; state.teamRaw = await loadCSV(TEAM_FILE); return state.teamRaw; }
+    function getTeamDisciplineCode(row){ const keys=['DISCIPLINE','DISC','CODE_DISCIPLINE','CODE_DISC','TYPE','COD_DISC','DISC_CODE']; for(const k of keys){ if(row[k] && String(row[k]).trim()!=='') return String(row[k]).trim().toUpperCase(); } return ''; }
+    function teamDisciplineList(raw){ const base=uniqueSorted(raw.map(getTeamDisciplineCode).filter(c=>c && c!=='S')); return base; }
+    function populateDisciplineForTeam(){ const sel=DISC_SELECT; const keep=state.disciplineTeam? String(state.disciplineTeam).toUpperCase():''; sel.innerHTML='<option value="">— Choisir —</option>'; const raw=state.teamRaw||[]; teamDisciplineList(raw).forEach(code=>{ const opt=document.createElement('option'); opt.value=code; opt.textContent=CODE_TO_LABEL[code]||code; if(keep && String(code).toUpperCase()===keep) opt.selected=true; sel.appendChild(opt); }); // Ajoute l’option 18m auto
+      const opt18=document.createElement('option'); opt18.value='18M_AUTO'; opt18.textContent='Tir à 18m'; if(keep==='18M_AUTO') opt18.selected=true; sel.appendChild(opt18); }
+
+    function populateTeamCategories(){ const sel=document.getElementById('categorie'); const disc=(state.disciplineTeam||'').toUpperCase(); if(disc==='18M_AUTO'){ fillSelect(sel, TEAM18_GROUPS, false, state.filters.categorie||TEAM18_GROUPS[0]); return; }
+      const raw=state.teamRaw||[]; let baseCats = uniqueSorted( raw.filter(r=> getTeamDisciplineCode(r)!=='S' && (!disc || getTeamDisciplineCode(r)===disc)).map(r=> r.CATEGORIE_CLASSEMENT || r.CAT_CLASS).filter(v=> v && String(v).trim()!=='') );
+      if(disc==='T') baseCats = [...baseCats, ...TEAMTAEI_GROUPS];
+      fillSelect(sel, ['Toutes', ...baseCats], true, state.filters.categorie); }
+
+    function normalizedDivisionText(r){ const raw=(r.PRE_INSCRIT||r.DIVISION||r.DIV||r.NIVEAU||r.SERIE||'').toString().toUpperCase(); if(!raw) return ''; if(raw.includes('DR')) return 'DR'; if(raw.includes('D2')) return 'D2'; if(raw.includes('D1')) return 'D1'; return raw; }
+    function divisionBadgeHTML(text){ const up=(text||'').toUpperCase(); if(!text) return ''; if(up==='D1') return '<span class="badge badge-d1">D1</span>'; if(up==='D2') return '<span class="badge badge-d2">D2</span>'; if(up==='DR') return '<span class="badge badge-dr">DR</span>'; return '<span class="badge">'+text+'</span>'; }
+
+    function headersForTeam_Normal(){ const h=[ {key:'RANG_NAT',label:'Rang national'}, {key:'RANG_CR',label:'Rang comité (PDL)'} ]; const depActive=!!state.filters.departement; const code=(state.disciplineTeam||'').toUpperCase(); const isTAEIAutoCat = (code==='T') && TEAMTAEI_GROUPS.includes(state.filters.categorie||''); if(depActive){ h.push({key:'DEPARTEMENT',label:'Département'},{key:'RANG_DEP',label:'Rang dép.'}); } if(code==='T' && !isTAEIAutoCat){ h.push({key:'DIVISION',label:'Division'}); } h.push({key:'CLUB',label:'Club / Cie'},{key:'SCORE1',label:'Score 1'},{key:'SCORE2',label:'Score 2'},{key:'SCORE3',label:'Score 3'},{key:'MOY_SCORE',label:'Moyenne'}); return h; }
+
+    function renderTableTeam_Normal(rows){ const thead=document.getElementById('thead-row'); const tbody=document.getElementById('tbody'); thead.innerHTML=''; tbody.innerHTML=''; const headers=headersForTeam_Normal(); headers.forEach(h=>{ const th=document.createElement('th'); th.textContent=h.label; thead.appendChild(th); }); const code=(state.disciplineTeam||'').toUpperCase(); const displayed = rows.slice().sort((a,b)=> (toNum(b.MOY_SCORE)-toNum(a.MOY_SCORE)) || ((parseInt(a.RANG||a.RANG_NAT||'999999')||999999) - (parseInt(b.RANG||b.RANG_NAT||'999999')||999999)) ); const region = displayed.filter(r=> ['44','49','53','72','85'].includes(getDeptFromCodeStructure(r.CODE_STRUCTURE))); const crIdx=new Map(); region.forEach((r,i)=> crIdx.set(r,i+1)); const depFilter=state.filters.departement||''; const depIdx=new Map(); if(depFilter){ const onlyDep=displayed.filter(r=> getDeptFromCodeStructure(r.CODE_STRUCTURE)===depFilter); onlyDep.forEach((r,i)=> depIdx.set(r,i+1)); } displayed.forEach(r=>{ const tr=document.createElement('tr'); const dep=getDeptFromCodeStructure(r.CODE_STRUCTURE); const club=[r.NOM_STRUCTURE,r.NOM_ABREGE].filter(Boolean).join(' - '); const nat=parseInt(r.RANG_NAT||r.RANG)||''; const cr=crIdx.get(r)||''; const divHTML = (code==='T' && !TEAMTAEI_GROUPS.includes(state.filters.categorie||'')) ? divisionBadgeHTML(normalizedDivisionText(r)) : ''; const obj={ RANG_NAT:nat, RANG_CR:cr, DEPARTEMENT:dep, RANG_DEP:(depIdx.get(r)||''), DIVISION:divHTML, CLUB:club, SCORE1:r.SCORE1||'', SCORE2:r.SCORE2||'', SCORE3:r.SCORE3||'', MOY_SCORE:r.MOY_SCORE||r.MOYENNE||'' }; headers.forEach(h=>{ const td=document.createElement('td'); if(h.key==='DIVISION') td.innerHTML=obj[h.key]; else td.textContent=obj[h.key]??''; tr.appendChild(td); }); tbody.appendChild(tr); }); document.getElementById('totalChip').textContent = displayed.length + ' ligne' + (displayed.length>1?'s':''); }
+
+    // ---- 18m auto ----
+    function sexOf(row){ const s=(row.SEXE||row.GENRE||'').toString().toUpperCase(); if(s==='H'||s==='F') return s; const c=(row.CAT||row.CATEGORIE||'').toString().toUpperCase(); if(/F$/.test(c)) return 'F'; if(/H$/.test(c)) return 'H'; return ''; }
+    function armeOf(row){ return (row.ARME||row.AR||'').toString().toUpperCase(); }
+    function ageCode(row){ const c=(row.CAT||row.CATEGORIE||'').toUpperCase(); if(c.includes('U13')) return 13; if(c.includes('U15')) return 15; if(c.includes('U18')) return 18; if(c.includes('U21')) return 21; if(/S1/.test(c)) return 31; if(/S2/.test(c)) return 32; if(/S3/.test(c)) return 33; if(/\bS\b/.test(c)) return 30; return 0; }
+    function inBand(row,min,max){ const a=ageCode(row); return a>=min && a<=max; }
+    function qualifies18(row, group){ const s=sexOf(row); const ar=armeOf(row); switch(group){ case 'Arc Classique Femme': return (s==='F')&&inBand(row,18,33)&&(ar==='CL'); case 'Arc Classique Homme': return (s==='H')&&inBand(row,18,33)&&(ar==='CL'); case 'Arc à Poulie Femme': return (s==='F')&&inBand(row,18,33)&&(ar==='CO'); case 'Arc à Poulie Homme': return (s==='H')&&inBand(row,18,33)&&(ar==='CO'); case 'Arc à Poulie Mixte': return inBand(row,18,33)&&(ar==='CO'); case 'Arc Nu Mixte': return inBand(row,21,33)&&(ar==='BB'); case 'Arc Classique U13 - U15': return inBand(row,13,15)&&(ar==='CL'); case 'Arc Classique U18 - U21': return inBand(row,18,21)&&(ar==='CL'); default: return false; } }
+    function has3scores(r){ const s1=toNum(r.SCORE1), s2=toNum(r.SCORE2), s3=toNum(r.SCORE3); return Number.isFinite(s1)&&Number.isFinite(s2)&&Number.isFinite(s3); }
+    function moyOf(r){ let m=toNum(r.MOY_SCORE); if(!Number.isFinite(m)){ const s1=toNum(r.SCORE1), s2=toNum(r.SCORE2), s3=toNum(r.SCORE3); if(Number.isFinite(s1)&&Number.isFinite(s2)&&Number.isFinite(s3)) m=(s1+s2+s3)/3; } return m; }
+    function clubKey(row){ return (row.CODE_STRUCTURE && row.CODE_STRUCTURE.trim()) || (row.NOM_STRUCTURE||''); }
+    function clubName(row){ return [row.NOM_STRUCTURE,row.NOM_ABREGE].filter(Boolean).join(' - '); }
+    function buildTeams18(data, group){ const rows=data.filter(r=> qualifies18(r,group) && has3scores(r)); const byClub=new Map(); rows.forEach(r=>{ const k=clubKey(r); if(!byClub.has(k)) byClub.set(k,[]); byClub.get(k).push(r); }); const teams=[]; byClub.forEach(list=>{ list.sort((a,b)=> moyOf(b)-moyOf(a)); const top=list.slice(0,3); if(top.length<3) return; const avgs=top.map(moyOf); const total=avgs.reduce((s,x)=>s+x,0); const dep=getDeptFromCodeStructure(top[0].CODE_STRUCTURE); teams.push({ RANG:0, CLUB:clubName(top[0]), CODE_STRUCTURE:top[0].CODE_STRUCTURE, DEPARTEMENT:dep, TOTAL_EQ:total, SCORES_INT: avgs.map(v=> Math.round(v)), MEMBERS: top.map(r=>({ nom:(r.NOM_PERSONNE||'')+' '+(r.PRENOM_PERSONNE||''), moy: moyOf(r) })) }); }); teams.sort((a,b)=> (b.TOTAL_EQ-a.TOTAL_EQ) || a.CLUB.localeCompare(b.CLUB,'fr')); teams.forEach((t,i)=> t.RANG=i+1); return teams; }
+    let team18Cache=[];
+    function openTeam18Modal(idx){ const t=team18Cache[idx]; if(!t) return; const overlay=document.getElementById('modalOverlay'); const modal=document.getElementById('teamModal'); const body=document.getElementById('modalBody'); const title=document.getElementById('modalTitle'); title.textContent = 'Équipe – ' + t.CLUB; const rows=t.MEMBERS.map(m=>'<tr><td>'+m.nom+'</td><td>'+Math.round(m.moy)+'</td></tr>').join(''); body.innerHTML = '<table class="mini-table"><thead><tr><th>Archer</th><th>Moyenne</th></tr></thead><tbody>'+rows+'</tbody></table>'; overlay.classList.remove('hidden'); modal.classList.remove('hidden'); }
+
+    // ---- TAE I auto (via catégorie dans T) ----
+    let teamTAECache=[];
+    function qualifiesTAEI(row, group){ const type=(row.TYPE||'').toString().toUpperCase(); if(type!=='I') return false; const ar=(row.ARME||row.AR||'').toString().toUpperCase(); if(ar!=='CL') return false; if(group.includes('U13')||group.includes('U15')) return inBand(row,13,15); if(group.includes('U18')||group.includes('U21')) return inBand(row,18,21); return false; }
+    function buildTeamsTAEI(data, group){ const rows=data.filter(r=> qualifiesTAEI(r,group) && has3scores(r)); const byClub=new Map(); rows.forEach(r=>{ const k=clubKey(r); if(!byClub.has(k)) byClub.set(k,[]); byClub.get(k).push(r); }); const teams=[]; byClub.forEach(list=>{ list.sort((a,b)=> moyOf(b)-moyOf(a)); const top=list.slice(0,3); if(top.length<3) return; const avgs=top.map(moyOf); const total=avgs.reduce((s,x)=>s+x,0); const dep=getDeptFromCodeStructure(top[0].CODE_STRUCTURE); teams.push({ RANG:0, CLUB:clubName(top[0]), CODE_STRUCTURE:top[0].CODE_STRUCTURE, DEPARTEMENT:dep, TOTAL_EQ:total, SCORES_INT: avgs.map(v=> Math.round(v)), MEMBERS: top.map(r=>({ nom:(r.NOM_PERSONNE||'')+' '+(r.PRENOM_PERSONNE||''), moy: moyOf(r) })) }); }); teams.sort((a,b)=> (b.TOTAL_EQ-a.TOTAL_EQ) || a.CLUB.localeCompare(b.CLUB,'fr')); teams.forEach((t,i)=> t.RANG=i+1); return teams; }
+    function openTeamTAEIModal(idx){ const t=teamTAECache[idx]; if(!t) return; const overlay=document.getElementById('modalOverlay'); const modal=document.getElementById('teamModal'); const body=document.getElementById('modalBody'); const title=document.getElementById('modalTitle'); title.textContent = 'Équipe – ' + t.CLUB; const rows=t.MEMBERS.map(m=>'<tr><td>'+m.nom+'</td><td>'+Math.round(m.moy)+'</td></tr>').join(''); body.innerHTML = '<table class="mini-table"><thead><tr><th>Archer</th><th>Moyenne</th></tr></thead><tbody>'+rows+'</tbody></table>'; overlay.classList.remove('hidden'); modal.classList.remove('hidden'); }
+
+    function renderTableTeam_18mAuto(){ const thead=document.getElementById('thead-row'); const tbody=document.getElementById('tbody'); thead.innerHTML=''; tbody.innerHTML=''; const group = state.filters.categorie || TEAM18_GROUPS[0]; fillSelect(document.getElementById('categorie'), TEAM18_GROUPS, false, group); loadCSV(TEAM18_FILE).then(all=>{ const teams=buildTeams18(all, group); team18Cache=teams; const depFilter=state.filters.departement||''; const headers=[{key:'RANG',label:'Rang'}]; if(depFilter){ headers.push({key:'DEPARTEMENT',label:'Département'},{key:'RANG_DEP',label:'Rang dép.'}); } headers.push({key:'CLUB',label:'Équipe'},{key:'SCORES',label:'3 scores'},{key:'TOTAL_EQ',label:'Total équipe'}); headers.forEach(h=>{ const th=document.createElement('th'); th.textContent=h.label; thead.appendChild(th); }); const depIdx=new Map(); if(depFilter){ const onlyDep=teams.filter(t=> t.DEPARTEMENT===depFilter); onlyDep.forEach((t,i)=> depIdx.set(t,i+1)); } teams.forEach((t,idx)=>{ if(depFilter && t.DEPARTEMENT!==depFilter) return; const tr=document.createElement('tr'); const obj={ RANG:t.RANG, DEPARTEMENT:t.DEPARTEMENT, RANG_DEP:(depIdx.get(t)||''), CLUB:t.CLUB, SCORES:t.SCORES_INT.join(' / '), TOTAL_EQ:Math.round(t.TOTAL_EQ) }; headers.forEach(h=>{ const td=document.createElement('td'); if(h.key==='CLUB'){ const btn=document.createElement('button'); btn.className='link-btn'; btn.textContent=obj.CLUB; btn.addEventListener('click',()=>openTeam18Modal(idx)); td.appendChild(btn); } else { td.textContent=obj[h.key]??''; } tr.appendChild(td); }); tbody.appendChild(tr); }); document.getElementById('totalChip').textContent=(depFilter? teams.filter(t=>t.DEPARTEMENT===depFilter).length : teams.length)+ ' équipe(s)'; document.getElementById('dataset-hint').textContent = TEAM18_FILE+' chargé — 18m auto (« '+group+' »)'; }); }
+
+    function renderTableTeam_TAEIAuto(){ const thead=document.getElementById('thead-row'); const tbody=document.getElementById('tbody'); thead.innerHTML=''; tbody.innerHTML=''; const group = state.filters.categorie || TEAMTAEI_GROUPS[0]; fillSelect(document.getElementById('categorie'), TEAMTAEI_GROUPS, false, group); loadCSV(filesMap['TAE I']).then(all=>{ const teams=buildTeamsTAEI(all, group); teamTAECache=teams; const depFilter=state.filters.departement||''; const headers=[{key:'RANG',label:'Rang'}]; if(depFilter){ headers.push({key:'DEPARTEMENT',label:'Département'},{key:'RANG_DEP',label:'Rang dép.'}); } headers.push({key:'CLUB',label:'Équipe'},{key:'SCORES',label:'3 scores'},{key:'TOTAL_EQ',label:'Total équipe'}); headers.forEach(h=>{ const th=document.createElement('th'); th.textContent=h.label; thead.appendChild(th); }); const depIdx=new Map(); if(depFilter){ const onlyDep=teams.filter(t=> t.DEPARTEMENT===depFilter); onlyDep.forEach((t,i)=> depIdx.set(t,i+1)); } teams.forEach((t,idx)=>{ if(depFilter && t.DEPARTEMENT!==depFilter) return; const tr=document.createElement('tr'); const obj={ RANG:t.RANG, DEPARTEMENT:t.DEPARTEMENT, RANG_DEP:(depIdx.get(t)||''), CLUB:t.CLUB, SCORES:t.SCORES_INT.join(' / '), TOTAL_EQ:Math.round(t.TOTAL_EQ) }; headers.forEach(h=>{ const td=document.createElement('td'); if(h.key==='CLUB'){ const btn=document.createElement('button'); btn.className='link-btn'; btn.textContent=obj.CLUB; btn.addEventListener('click',()=>openTeamTAEIModal(idx)); td.appendChild(btn); } else { td.textContent=obj[h.key]??''; } tr.appendChild(td); }); tbody.appendChild(tr); }); document.getElementById('totalChip').textContent=(depFilter? teams.filter(t=>t.DEPARTEMENT===depFilter).length : teams.length)+ ' équipe(s)'; document.getElementById('dataset-hint').textContent = filesMap['TAE I']+' chargé — TAE I auto (« '+group+' »)'; }); }
+
+    function applyFiltersTeam_Normal(data){ const f=state.filters; const disc=(state.disciplineTeam||'').toUpperCase(); return data.filter(r=>{ const code=getTeamDisciplineCode(r); if(code==='S') return false; if(disc && code!==disc) return false; if(f.categorie){ const v=(r.CATEGORIE_CLASSEMENT||r.CAT_CLASS||'').toString(); if(v!==f.categorie) return false; } if(f.departement){ const dep=getDeptFromCodeStructure(r.CODE_STRUCTURE); if(dep!==f.departement) return false; } if(f.search){ const q=f.search.toLowerCase(); const eq=(r.NOM_EQ||r.NOM_EQUIPE||r.EQUIPE||'').toLowerCase(); const club=((r.NOM_STRUCTURE||'')+' '+(r.NOM_ABREGE||'')).toLowerCase(); if(!eq.includes(q) && !club.includes(q)) return false; } return true; }); }
+
+    // ========= REFRESH =========
+    async function refresh(){ updateChips(); const hint=document.getElementById('dataset-hint'); const teamNote=document.getElementById('team-note'); const sexeField=document.getElementById('sexe-field'); const armeField=document.getElementById('arme-field'); sexeField && sexeField.classList && sexeField.classList.toggle('hidden', state.viewMode==='team'); armeField && armeField.classList && armeField.classList.toggle('hidden', state.viewMode==='team'); if(state.viewMode==='team'){ teamNote.classList.remove('hidden'); document.getElementById('tae-section').classList.add('hidden'); document.getElementById('para-section').classList.add('hidden'); DISC_SELECT.innerHTML='<option value="">— Choisir —</option>'; await ensureTeamLoaded(); populateDisciplineForTeam(); DISC_SELECT.value=state.disciplineTeam||''; populateTeamCategories(); document.getElementById('categorie').value=state.filters.categorie||''; const disc=(state.disciplineTeam||'').toUpperCase(); const is18=(disc==='18M_AUTO'); // masquer ces filtres en équipe
+        sexeField && sexeField.classList && sexeField.classList.toggle('hidden', true);
+        armeField && armeField.classList && armeField.classList.toggle('hidden', true); if(!disc){ hint.textContent='Sélectionnez une discipline (Équipe).'; document.getElementById('thead-row').innerHTML=''; document.getElementById('tbody').innerHTML=''; document.getElementById('totalChip').textContent='0 lignes'; return; } if(is18){ renderTableTeam_18mAuto(); return; } const isTAEIAutoCat = (disc==='T') && TEAMTAEI_GROUPS.includes(state.filters.categorie||''); if(isTAEIAutoCat){ renderTableTeam_TAEIAuto(); return; } const filtered=applyFiltersTeam_Normal(state.teamRaw||[]); hint.textContent=TEAM_FILE+' chargé ('+(state.teamRaw||[]).length+' lignes).'; renderTableTeam_Normal(filtered); return; } // INDIV
+      teamNote.classList.add('hidden'); DISC_SELECT.innerHTML=INDIV_OPTIONS_HTML; DISC_SELECT.value=state.disciplineIndiv||''; showHideSectionsIndiv(); if(!state.disciplineIndiv){
+        const q = (state.filters && state.filters.search || '').trim();
+        if(!q){
+          hint.textContent='Saisissez une recherche ou choisissez une discipline.';
+          document.getElementById('table').innerHTML='';
+          document.getElementById('totalChip').textContent='0 lignes';
+          return;
+        }
+        // Recherche multi-discipline (aucune discipline sélectionnée)
+        const all = await ensureAllIndivLoaded();
+        const prevDisc = state.disciplineIndiv;
+        state.disciplineIndiv = '';
+        const filteredInd = applyFiltersIndiv(all);
+        state.disciplineIndiv = prevDisc;
+        hint.textContent='Recherche multi-discipline ('+filteredInd.length+' lignes).';
+        renderTableIndiv(filteredInd);
+        return;
+      } const data=await ensureDisciplineLoadedIndiv(); hint.textContent=filesMap[state.disciplineIndiv]+' chargé ('+data.length+' lignes).'; populateDependentFiltersIndiv(data); document.getElementById('categorie').value=state.filters.categorie||''; document.getElementById('arme').value=state.filters.arme||''; document.getElementById('distance').value=state.filters.distance||''; document.getElementById('blason').value=state.filters.blason||''; document.getElementById('catClass').value=state.filters.catClass||''; document.getElementById('catTir').value=state.filters.catTir||''; const filteredInd=applyFiltersIndiv(data); renderTableIndiv(filteredInd); }
+
+    // ========= EXPORT =========
+    function exportCurrentCSV(){ if(state.viewMode==='team'){ const disc=(state.disciplineTeam||'').toUpperCase(); if(!disc){ alert('Choisissez une discipline (Équipe).'); return; } if(disc==='18M_AUTO'){ const group = state.filters.categorie || TEAM18_GROUPS[0]; loadCSV(TEAM18_FILE).then(all=>{ const teams=buildTeams18(all, group); const depFilter=state.filters.departement||''; const filtered = depFilter? teams.filter(t=> t.DEPARTEMENT===depFilter) : teams; const headers=['Rang']; if(depFilter){ headers.push('Département','Rang dép.'); } headers.push('Équipe','3 scores','Total équipe'); const csvRows = filtered.map((t,i)=>{ const rankDep = depFilter? (i+1) : ''; const row = depFilter? [t.RANG, t.DEPARTEMENT, rankDep, t.CLUB, t.SCORES_INT.join(' / '), Math.round(t.TOTAL_EQ)] : [t.RANG, t.CLUB, t.SCORES_INT.join(' / '), Math.round(t.TOTAL_EQ)]; return row.map(v=> '"'+String(v).replaceAll('"','""')+'"').join(';'); }); const csv=[headers.join(';')].concat(csvRows).join('\n'); const blob=new Blob([csv],{type:'text/csv;charset=utf-8'}); const url=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download='equipes_18m_'+group.replaceAll(' ','_')+'.csv'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url); }); return; } if(disc==='T' && TEAMTAEI_GROUPS.includes(state.filters.categorie||'')){ const group = state.filters.categorie || TEAMTAEI_GROUPS[0]; loadCSV(filesMap['TAE I']).then(all=>{ const teams=buildTeamsTAEI(all, group); const depFilter=state.filters.departement||''; const filtered = depFilter? teams.filter(t=> t.DEPARTEMENT===depFilter) : teams; const headers=['Rang']; if(depFilter){ headers.push('Département','Rang dép.'); } headers.push('Équipe','3 scores','Total équipe'); const csvRows = filtered.map((t,i)=>{ const rankDep = depFilter? (i+1) : ''; const row = depFilter? [t.RANG, t.DEPARTEMENT, rankDep, t.CLUB, t.SCORES_INT.join(' / '), Math.round(t.TOTAL_EQ)] : [t.RANG, t.CLUB, t.SCORES_INT.join(' / '), Math.round(t.TOTAL_EQ)]; return row.map(v=> '"'+String(v).replaceAll('"','""')+'"').join(';'); }); const csv=[headers.join(';')].concat(csvRows).join('\n'); const blob=new Blob([csv],{type:'text/csv;charset=utf-8'}); const url=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download='equipes_TAEI_'+group.replaceAll(' ','_')+'.csv'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url); }); return; } // EXPORT NORMAL
+        const rows=applyFiltersTeam_Normal(state.teamRaw||[]); const headersDef=headersForTeam_Normal(); const headers=headersDef.map(h=>h.label); const keys=headersDef.map(h=>h.key); const code=(state.disciplineTeam||'').toUpperCase(); const displayed = rows.slice().sort((a,b)=> (toNum(b.MOY_SCORE)-toNum(a.MOY_SCORE)) || ((parseInt(a.RANG||a.RANG_NAT||'999999')||999999) - (parseInt(b.RANG||b.RANG_NAT||'999999')||999999)) ); const region = displayed.filter(r=> ['44','49','53','72','85'].includes(getDeptFromCodeStructure(r.CODE_STRUCTURE))); const crIdx=new Map(); region.forEach((r,i)=> crIdx.set(r,i+1)); const depFilter=state.filters.departement||''; const depIdx=new Map(); if(depFilter){ const onlyDep=displayed.filter(r=> getDeptFromCodeStructure(r.CODE_STRUCTURE)===depFilter); onlyDep.forEach((r,i)=> depIdx.set(r,i+1)); } const csvRows = displayed.map(r=>{ const dep=getDeptFromCodeStructure(r.CODE_STRUCTURE); const club=[r.NOM_STRUCTURE,r.NOM_ABREGE].filter(Boolean).join(' - '); const nat=parseInt(r.RANG_NAT||r.RANG)||''; const cr=crIdx.get(r)||''; const div=(code==='T')? normalizedDivisionText(r):''; const obj={ RANG_NAT:nat, RANG_CR:cr, DEPARTEMENT:dep, RANG_DEP:(depIdx.get(r)||''), DIVISION:div, CLUB:club, SCORE1:r.SCORE1||'', SCORE2:r.SCORE2||'', SCORE3:r.SCORE3||'', MOY_SCORE:r.MOY_SCORE||r.MOYENNE||'' }; return keys.map(k=> String(obj[k]??'').replaceAll('"','""')); }); const csv=[headers.join(';')].concat(csvRows.map(cols=> cols.map(v=>'"'+v+'"').join(';'))).join('\n'); const blob=new Blob([csv],{type:'text/csv;charset=utf-8'}); const url=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download='classement_equipes_'+(state.disciplineTeam||'toutes')+'.csv'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url); return; }
+      // INDIV
+      if(!state.disciplineIndiv){ alert('Choisissez une discipline (Individuel).'); return; } const data=state.rawByDiscipline.get(state.disciplineIndiv)||[]; const filtered=applyFiltersIndiv(data); const depFilter=state.filters.departement||''; let displayed=filtered.slice(); const depIdx=new Map(); if(depFilter){ const ligueRank = r=> (parseInt(r.Rang_ligue||r.RANG||r.Rang||'999999')||999999); displayed.sort((a,b)=> ligueRank(a)-ligueRank(b) || (toNum(b.MOY_SCORE)-toNum(a.MOY_SCORE)) ); displayed.forEach((r,i)=> depIdx.set(r,i+1)); } const headersDef=headersForIndiv(); const headers=headersDef.map(h=>h.label); const keys=headersDef.map(h=>h.key); const csvRows=displayed.map(r=>{ const disp=buildDisplayRowIndiv(r); if(depFilter) disp.RANG_DEP=depIdx.get(r)||''; return keys.map(k=> String((k==='RANG_DEP'?disp.RANG_DEP:disp[k])??'').replaceAll('"','""')); }); const csv=[headers.join(';')].concat(csvRows.map(cols=> cols.map(v=>'"'+v+'"').join(';'))).join('\n'); const blob=new Blob([csv],{type:'text/csv;charset=utf-8'}); const url=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download='classement_'+state.disciplineIndiv.replaceAll(' ','_')+'.csv'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url); }
+
+    // ========= EVENTS =========
+    function wire(){ const viewMode=document.getElementById('viewMode'); const teamNote=document.getElementById('team-note'); viewMode.addEventListener('change',()=>{ state.viewMode=viewMode.value; state.filters.categorie=''; if(state.viewMode==='team'){ DISC_SELECT.innerHTML='<option value="">— Choisir —</option>'; ensureTeamLoaded().then(()=>{ populateDisciplineForTeam(); refresh(); }); teamNote.classList.remove('hidden'); } else { DISC_SELECT.innerHTML=INDIV_OPTIONS_HTML; teamNote.classList.add('hidden'); refresh(); } }); DISC_SELECT.addEventListener('change',()=>{ if(state.viewMode==='team'){ state.disciplineTeam=DISC_SELECT.value; } else { state.disciplineIndiv=DISC_SELECT.value; } state.filters={...state.filters,categorie:'',arme:'',distance:'',blason:'',catClass:'',catTir:''}; ['categorie','arme','distance','blason','catClass','catTir'].forEach(id=>{ const el=document.getElementById(id); if(el && el.tagName==='SELECT') el.value=''; }); if(state.viewMode==='team'){ populateTeamCategories(); } refresh(); }); const ids={ categorie:'categorie', sexe:'sexe', arme:'arme', departement:'departement', distance:'distance', blason:'blason', catClass:'catClass', catTir:'catTir' }; Object.entries(ids).forEach(function(pair){ const k=pair[0]; const id=pair[1]; const el=document.getElementById(id); el.addEventListener('change',function(){ state.filters[k]=el.value; refresh(); }); }); document.getElementById('search').addEventListener('input',function(e){ state.filters.search=e.target.value.trim(); refresh(); }); document.getElementById('resetFilters').addEventListener('click',function(){ document.getElementById('viewMode').value='indiv'; state.viewMode='indiv'; state.disciplineIndiv=''; state.disciplineTeam=''; DISC_SELECT.innerHTML=INDIV_OPTIONS_HTML; DISC_SELECT.value=''; ['categorie','sexe','arme','departement','distance','blason','catClass','catTir','search'].forEach(function(id){ const el=document.getElementById(id); if(el && el.tagName==='SELECT') el.value=''; else if(el) el.value=''; }); state.filters={ categorie:'', sexe:'', arme:'', departement:'', distance:'', blason:'', catClass:'', catTir:'', search:'' }; refresh(); }); document.getElementById('exportCSV').addEventListener('click', exportCurrentCSV); document.getElementById('modalClose').addEventListener('click', function(){ document.getElementById('modalOverlay').classList.add('hidden'); document.getElementById('teamModal').classList.add('hidden'); }); document.getElementById('modalOverlay').addEventListener('click', function(){ document.getElementById('modalOverlay').classList.add('hidden'); document.getElementById('teamModal').classList.add('hidden'); }); window.addEventListener('keydown', function(e){ if(e.key==='Escape'){ document.getElementById('modalOverlay').classList.add('hidden'); document.getElementById('teamModal').classList.add('hidden'); } }); }
+
+    wire();
+    refresh();
+  
+// === Row count updater ===
+(function(){
+  function updateRowCount(){
+    try{
+      const rc = document.getElementById('row-count');
+      const tbody = document.getElementById('tbody');
+      if (!rc || !tbody) return;
+      const n = tbody.querySelectorAll('tr').length;
+      rc.textContent = n + ' ligne' + (n>1?'s':'');
+    }catch(e){}
+  }
+  // Update on load
+  document.addEventListener('DOMContentLoaded', updateRowCount);
+  // Update on any change inside tbody
+  const tbody = document.getElementById('tbody');
+  if (tbody){
+    const mo = new MutationObserver(updateRowCount);
+    mo.observe(tbody, {childList:true, subtree:false});
+  }
+  // Expose for manual calls
+  window.__updateRowCount = updateRowCount;
+  try{ if (window.__updateRowCount) __updateRowCount(); }catch(e){}
+
+  try{ widenClubColumn(380); }catch(e){}
+})();
+
+
+// === Hide "astuce" / "fichier consulté" side blocks (SAFE) ===
+(function(){
+  function hideByHints(){
+    const table = document.getElementById('tableau');
+    const sel = '[class*="astuce"],[id*="astuce"],[class*="tips"],[id*="tips"],[class*="fichier"],[id*="fichier"],aside';
+    const candidates = Array.from(document.querySelectorAll(sel));
+    candidates.forEach(el=>{
+      if (!el) return;
+      // Ne pas masquer le tableau ni ses ancêtres/descendants
+      if (table && (el === table || el.contains(table) || table.contains(el))) return;
+      el.style.display = 'none';
+    });
+  }
+  document.addEventListener('DOMContentLoaded', hideByHints);
+})();
+
+// === Widen "Club / Cie" column ===
+function widenClubColumn(px){
+  try{
+    px = px || 360;
+    const table = document.getElementById('tableau');
+    const theadRow = table ? table.querySelector('thead tr') : null;
+    if (!theadRow) return;
+    const headers = Array.from(theadRow.children).map(th => (th.textContent||'').trim().toUpperCase());
+    const idx = headers.findIndex(h => h.includes('CLUB'));
+    if (idx < 0) return;
+
+    const colgroup = table.querySelector('colgroup');
+    if (colgroup && colgroup.children[idx]){
+      const col = colgroup.children[idx];
+      col.style.width = px+'px';
+      col.style.minWidth = px+'px';
+    }
+
+    const th = theadRow.children[idx];
+    if (th){
+      th.style.width = px+'px';
+      th.style.minWidth = px+'px';
+    }
+
+    const rows = table.querySelectorAll('tbody tr');
+    rows.forEach(tr => {
+      const td = tr.children[idx];
+      if (td){
+        td.style.width = px+'px';
+        td.style.minWidth = px+'px';
+      }
+    });
+  }catch(e){}
+}
+
+</script>
+<!-- injected: popup modal -->
+<div aria-hidden="true" class="rp-modal" id="rp-results-modal">
+<div aria-labelledby="rp-modal-title" aria-modal="true" class="rp-card" role="dialog">
+<div class="rp-head">
+<strong id="rp-modal-title">Résultats</strong>
+<button class="rp-btn" id="rp-modal-close" type="button">Fermer</button>
+</div>
+<div class="rp-body">
+<div class="rp-small rp-muted" id="rp-modal-sub"></div>
+<div id="rp-results-container" style="overflow:auto;margin-top:8px;"></div>
+</div>
+</div>
+</div>
+<script id="rp-popup-logic">
+// === Helpers ajoutés (robustes / FFTA-ready) ===
+function normToken(x){
+  // Uppercase, sans accents, trim, enlève guillemets, remplace espaces par "_"
+  let s = String(x || "")
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .toUpperCase().trim()
+    .replace(/^[\"']|[\"']$/g, "")
+    .replace(/\s+/g, "_");
+  return s;
+}
+function firstAlpha(x){
+  let m = String(x||"").toUpperCase().match(/[A-Z0-9]/);
+  return m ? m[0] : "";
+}
+function licenceFromRow(row){
+  // Tolérant : tente plusieurs clés + détection "N° licence"
+  var v = row.LICENCE || row.NO_LICENCE || row.no_licence || row.licence || "";
+  if (String(v).trim()) return String(v).trim();
+  var found = "";
+  for (var k in row){
+    if (!Object.prototype.hasOwnProperty.call(row,k)) continue;
+    var key = String(k || "").toLowerCase()
+      .normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    if (/\b(n|no|n°)\b.*licen/.test(key) || /licen/.test(key)){
+      found = String(row[k] || "").trim();
+      if (found) break;
+    }
+  }
+  return found;
+}
+function rowDiscTokenFromRow(row){
+  var raw = row.DISCIPLINE || row.Discipline || row.discipline || "";
+  return normToken(raw);
+}
+function isDiscMatchFFTA(rowToken, wantCode){
+  // rowToken: ex 'S', 'NATIONAL_S', 'TAE', '3D', 'TIR_A_18M', etc.
+  // wantCode: 'S','I','T','H','N','C','3'
+  var t = String(rowToken||"").toUpperCase();
+  var w = String(wantCode||"").toUpperCase();
+  if (!w) return true;
+
+  // Règle générale : accepte le code pur et sa variante NATIONAL_*
+  if (t === w || t === ("NATIONAL_" + w)) return true;
+
+  // Synonymes acceptés par code (y compris variantes NATIONAL_*)
+  var synonyms = {
+    "3": ["3D"],
+    "T": ["TAE"],
+    "C": ["CAMPAGNE"],
+    "N": ["NATURE"],
+    "S": ["TIR_A_18M","TIR_18M"],
+    "I": ["PARA_TIR_A_18M","PARA_18M"],
+    "H": ["PARA_EXT","PARA_EXTERIEUR","PARA_TIR_A_L_EXTERIEUR","PARA_TIR_A_EXTERIEUR"]
+  };
+  var list = synonyms[w] || [];
+  for (var i=0;i<list.length;i++){
+    var s = list[i];
+    if (t === s || t === ("NATIONAL_" + s)) return true;
+  }
+
+  // Fallback : si la 1re lettre/char numérique du token matche le code (utile pour '3D'~'3')
+  if (firstAlpha(t) === w) return true;
+
+  return false;
+}
+
+(function(){
+  var RESULTS_CSV_PATH = "Resultat indiv.csv";
+  var PAPA_CDN = "https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js";
+
+  function ensurePapa(cb){
+    if (window.Papa) return cb();
+    var s = document.createElement("script");
+    s.src = PAPA_CDN; s.async = true; s.onload = cb; s.onerror = cb;
+    document.head.appendChild(s);
+  }
+  function getEl(id){ return document.getElementById(id); }
+  function openModal(){ var m=getEl("rp-results-modal"); if(m){ m.classList.add("open"); m.setAttribute("aria-hidden","false"); } }
+  function closeModal(){ var m=getEl("rp-results-modal"); if(m){ m.classList.remove("open"); m.setAttribute("aria-hidden","true"); } }
+  function fmtDate(d){ d=(d||'').trim(); var m=d.match(/^(\d{4})[-\/](\d{2})[-\/](\d{2})$/); return m? (m[3]+'/'+m[2]+'/'+m[1]) : (d||'—'); }
+  function esc(s){ return String(s).replace(/[&<>\"']/g, function(m){ return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[m]); }); }
+
+  function getSelectTextByIdOrName(key){
+    var el = document.getElementById(key) || document.querySelector('select[name*="'+key+'"]');
+    if (!el){
+      var sels = document.querySelectorAll('select');
+      for (var i=0;i<sels.length;i++){
+        var idn = ((sels[i].id||'')+' '+(sels[i].name||'')).toLowerCase();
+        if (idn.indexOf(key.toLowerCase())>=0){ el = sels[i]; break; }
+      }
+    }
+    if (!el) return "";
+    var opt = el.options[el.selectedIndex] || null;
+    return (opt ? (opt.text || opt.value || "") : (el.value || "")).trim();
+  }
+  function getSel(){
+    return {
+      disciplineText: getSelectTextByIdOrName("discipline"),
+      categorieText:  getSelectTextByIdOrName("categorie")
+    };
+  }
+  function mapDiscCode(discText, catText){
+    var t = (String(discText||"") + " " + String(catText||"")).toLowerCase();
+    try { t = t.normalize("NFD").replace(/[\u0300-\u036f]/g,''); } catch(e){}
+    if (/\bpara\b/.test(t)){
+      if (/ext|exter|exterieur|exte?rieur/.test(t)) return "H";
+      if (/\b18\b|18m|salle|indoor/.test(t)) return "I";
+      return null;
+    }
+    if (/^(tae|tir.*exter|exterieur|exterior)/.test(t)) return "T";
+    if (/^(salle|18m|tir 18m|indoor)/.test(t)) return "S";
+    if (/^3d\b/.test(t)) return "3";
+    if (/^campagne/.test(t)) return "C";
+    if (/^nature/.test(t)) return "N";
+    if (/^beursault|beurs/.test(t)) return "B";
+    if (/^[hstncihb3]$/.test(t)) return t.toUpperCase();
+    return null;
+  }
+
+  // ====== Règles TAE I / TAE N (correspondance catégorie+arme -> distance/blason) ======
+  var TAE_RULES = {
+    I: { // TAE International
+      "U11 CL": [20,80], "U13 CL": [30,80], "U15 CL": [40,80],
+      "U18 CL": [60,122], "U21 CL": [70,122], "S1 CL": [70,122], "S2 CL": [70,122], "S3 CL": [60,122],
+      "U18 CO": [50,80], "U21 CO": [50,80], "S1 CO": [50,80], "S2 CO": [50,80], "S3 CO": [50,80]
+    },
+    N: { // TAE National
+      "U13 CO": [30,80], "U15 CO": [30,80],
+      "U13 CL": [20,80], "U15 CL": [30,80],
+      "U18 CL": [50,122], "U21 CL": [50,122], "S1 CL": [50,122], "S2 CL": [50,122], "S3 CL": [50,122],
+      "U18 CO": [50,122], "U21 CO": [50,122], "S1 CO": [50,122], "S2 CO": [50,122], "S3 CO": [50,122],
+      "BB": [50,122]
+    }
+  };
+  function normUp(s){
+    s = String(s||"").trim();
+    try { s = s.normalize("NFD").replace(/[\u0300-\u036f]/g,""); } catch(e){}
+    return s.toUpperCase();
+  }
+  function getTaeKeyFromRow(row, fallbackCategorieText){
+    var cat = row.CATEGORIE || row.CATEGORIE_SPORTIVE || row.CAT || row.CATEGORIE_AGE || fallbackCategorieText || "";
+    var arme = row.ARME || row.ARC || row.ARME_SPORTIVE || "";
+    var upCat = normUp(cat);
+    var upArme = normUp(arme);
+    if (/BB\b/.test(upCat) || /BB\b/.test(upArme)) return "BB";
+    var m = upCat.match(/\b(U\d{2}|S[123])\b/);
+    var age = m ? m[1] : "";
+    var arm = /CO\b/.test(upCat+ " " + upArme) ? "CO" :
+              /CL\b/.test(upCat+ " " + upArme) ? "CL" : "";
+    if (age && arm) return age + " " + arm;
+    if (!age) {
+      var m2 = upArme.match(/\b(U\d{2}|S[123])\b/);
+      if (m2) age = m2[1];
+    }
+    if (!arm) {
+      if (/CO\b/.test(upArme)) arm = "CO";
+      else if (/CL\b/.test(upArme)) arm = "CL";
+    }
+    return (age && arm) ? (age + " " + arm) : (arm === "BB" ? "BB" : "");
+  }
+  function getDistBlasonFromRow(row){
+    function toNum(x){ var n = parseInt(String(x||"").replace(/\D+/g,""),10); return isNaN(n)? null : n; }
+    var dist = row.DISTANCE || row.DIST || row.DIST_M || row.DISTANCE_M || "";
+    var blas = row.BLASON || row.TAILLE_BLASON || row.BLAS || "";
+    var d = toNum(dist), b = toNum(blas);
+    if (d && b) return [d,b];
+    var label = row.EPRV_NOM || row.Epreuve || row.EPRV || row.EPREUVE || "";
+    var mDist = String(label).match(/\b(70|60|50|40|30|20)\b/);
+    var mBlas = String(label).match(/\b(122|80)\b/);
+    if (!d && mDist) d = parseInt(mDist[1],10);
+    if (!b && mBlas) b = parseInt(mBlas[1],10);
+    return (d && b) ? [d,b] : [null,null];
+  }
+  function getRequestedTaeVariant(disciplineText){
+    var t = normUp(disciplineText);
+    if (/TAE\s*I\b/.test(t)) return "I";
+    if (/TAE\s*N\b/.test(t)) return "N";
+    return null;
+  }
+  function rowMatchesTaeVariant(row, variant, fallbackCategorieText){
+    var key = getTaeKeyFromRow(row, fallbackCategorieText);
+    if (!variant || !key) return true;
+    var rules = TAE_RULES[variant] || {};
+    var expected = rules[key] || null;
+    if (!expected) return true;
+    var got = getDistBlasonFromRow(row);
+    if (!got[0] || !got[1]) return true;
+    return (got[0] === expected[0] && got[1] === expected[1]);
+  }
+  // ====== fin règles TAE ======
+
+  function renderTable(rows){
+    if (!rows || !rows.length) return "<p>Aucun résultat trouvé.</p>";
+    function safe(v){ return (v == null || v === "") ? "—" : esc(v); }
+    var mapped = rows.map(function(r){
+      return {
+        DATE: r.D_DEBUT_CONCOURS || r.DATE || "",
+        EPREUVE: r.EPRV_NOM || r.Epreuve || r.EPRV || "",
+        STRUCTURE: r.NOM_STRUCTURE_ORGANISATRICE || r.STRUCTURE_ORGANISATRICE || r.NOM_STRUCTURE || "",
+        SCORE: r.SCORE || r.SCORE_VALIDE || "",
+        PLACE: r.PLACE_DEF || r.PLACE || "",
+        NUM_DEPART: r.NUM_DEPART || r.NO_DEPART || r.NUMDEPART || ""
+      };
+    });
+    mapped.sort(function(a,b){
+      var sa = parseFloat(String(a.SCORE).replace(',', '.'));
+      var sb = parseFloat(String(b.SCORE).replace(',', '.'));
+      if(!isNaN(sb) && !isNaN(sa) && sb !== sa) return sb - sa;
+      if (a.DATE && b.DATE && a.DATE !== b.DATE) return String(b.DATE).localeCompare(String(a.DATE));
+      var pa = parseInt(a.PLACE,10); var pb = parseInt(b.PLACE,10);
+      if(!isNaN(pa) && !isNaN(pb)) return pa - pb;
+      return 0;
+    });
+    var thead = "<thead><tr>"
+      + "<th>Date</th><th>Structure organisatrice</th><th>Épreuve</th><th>Score</th><th>Place</th><th>N° départ</th>"
+      + "</tr></thead>";
+    var tbody = "<tbody>" + mapped.map(function(r){
+      return "<tr>"
+        + "<td>"+esc(fmtDate(r.DATE))+"</td>"
+        + "<td>"+safe(r.STRUCTURE)+"</td>"
+        + "<td>"+safe(r.EPREUVE)+"</td>"
+        + "<td>"+safe(r.SCORE)+"</td>"
+        + "<td>"+safe(r.PLACE)+"</td>"
+        + "<td>"+safe(r.NUM_DEPART)+"</td>"
+        + "</tr>";
+    }).join("") + "</tbody>";
+    return "<table>"+thead+tbody+"</table>";
+  }
+
+  function loadResults(cb){
+    ensurePapa(function(){
+      fetch(RESULTS_CSV_PATH, { cache: 'no-store' })
+        .then(function(resp){ return resp.arrayBuffer(); })
+        .then(function(buf){
+          var txt = new TextDecoder('windows-1252').decode(buf);
+          window.Papa.parse(txt, { header:true, skipEmptyLines:true, delimiter:";", download:false,
+            complete: function(res){ cb(null, res.data||[]); },
+            error: function(err){ cb(err||new Error("parse error")); }
+          });
+        }).catch(function(e){ cb(e||new Error("fetch error")); });
+    });
+  }
+
+  function openFor(licence, nom){
+    var m = getEl("rp-results-modal");
+    if (!m){ console.warn("Modal manquant"); return; }
+    loadResults(function(err, all){
+      var container = getEl('rp-results-container');
+      var sub = getEl('rp-modal-sub');
+      if (err){ container.innerHTML = "<p>Impossible de charger « "+RESULTS_CSV_PATH+" ».</p>"; openModal(); return; }
+      var sel = getSel();
+      var discCode = mapDiscCode(sel.disciplineText, sel.categorieText);
+      
+      // Fallback si le select discipline est vide : lit #disciplineChip
+      if (!discCode) {
+        var chip = document.getElementById('disciplineChip');
+        var chipTxt = (chip && chip.textContent) ? chip.textContent.trim() : '';
+        if (chipTxt) {
+          discCode = mapDiscCode(chipTxt, '');
+        }
+      }
+var lic = String(licence||"").trim();
+
+      // 1er filtre: licence + code discipline (T/S/3/C/N/B/H/I)
+      var filtered = all.filter(function(row){
+        var rowLic = licenceFromRow(row);
+        var rowDiscToken = rowDiscTokenFromRow(row);
+var rowDiscCode = firstAlpha(rowDiscToken);
+        var okLic = rowLic === lic;
+        var okDisc = isDiscMatchFFTA(rowDiscToken, discCode);
+        return okLic && okDisc;
+      });
+
+      // 2e filtre spécifique TAE: si l'utilisateur a choisi TAE I / TAE N
+      var requestedVariant = (function(t){
+        var up = String(t||"").toUpperCase();
+        if (/TAE\s*I\b/.test(up)) return "I";
+        if (/TAE\s*N\b/.test(up)) return "N";
+        return null;
+      })(sel.disciplineText);
+
+      if (discCode === "T" && requestedVariant){
+        var fallbackCategorieText = sel.categorieText;
+        filtered = filtered.filter(function(row){
+          return rowMatchesTaeVariant(row, requestedVariant, fallbackCategorieText);
+        });
+      }
+
+      var subtitle = sel.disciplineText;
+      if (sel.categorieText && (!subtitle || subtitle.toLowerCase().indexOf("para") === -1)) {
+        subtitle = (sel.categorieText + (subtitle ? " — " + subtitle : "")).trim();
+      }
+      getEl("rp-modal-title").textContent = "Résultats — " + (nom || "Archer");
+      sub.textContent = discCode ? ("Discipline : " + (subtitle || "")) : (subtitle || "");
+      
+// Construire un sélecteur de discipline
+var licStr = String(licence||"").trim();
+var allRows = all.filter(function(row){ return licenceFromRow(row) === licStr; });
+var discs = Array.from(new Set(allRows.map(function(r){ return labelifyDisc(rowDiscTokenFromRow(r)); }))).filter(Boolean).sort();
+
+// UI: select + zone table
+container.innerHTML = '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;gap:8px">'
+  + '<div style="font-size:12px;color:#666">Discipline</div>'
+  + '<select id="rp-disc" style="flex:0 0 220px;padding:6px;border:1px solid #ddd;border-radius:6px">'
+  + '<option value="">Toutes — Choisir —</option>'
+  + discs.map(function(d){ return '<option value="'+d+'">'+d+'</option>'; }).join('')
+  + '</select>'
+  + '</div>'
+  + '<div id="rp-table-zone"></div>';
+
+// Rendu conditionnel
+function renderForDisc(d){
+  var rows = !d ? allRows : allRows.filter(function(r){ return labelifyDisc(rowDiscTokenFromRow(r)) === d; });
+  document.getElementById('rp-table-zone').innerHTML = renderTable(rows);
+}
+
+// Pré-sélectionner la discipline courante si possible
+var currentLabel = (function(){
+  var sel = getSel && getSel();
+  var discTxt = sel && sel.disciplineText ? sel.disciplineText : '';
+  return labelifyDisc(discTxt);
+})();
+var selectEl = document.getElementById('rp-disc');
+if(currentLabel && discs.indexOf(currentLabel) !== -1){
+  selectEl.value = currentLabel;
+}
+selectEl.addEventListener('change', function(){ renderForDisc(this.value || ''); });
+
+renderForDisc(selectEl.value || '');
+openModal();
+});
+  }
+
+  document.addEventListener("DOMContentLoaded", function(){
+    var modal = getEl("rp-results-modal");
+    var closeBtn = getEl("rp-modal-close");
+    if (closeBtn) closeBtn.addEventListener("click", closeModal);
+    if (modal) modal.addEventListener("click", function(e){ if (e.target === modal) closeModal(); });
+    document.addEventListener("keydown", function(e){ if (e.key === "Escape" && modal && modal.classList.contains("open")) closeModal(); });
+  });
+  document.addEventListener("click", function(ev){
+    var t = ev.target; var a = t.closest ? t.closest(".js-archer") : null;
+    if (!a) return;
+    var licence = a.getAttribute("data-licence");
+    var nom = a.getAttribute("data-nom") || (a.textContent||"").trim();
+    if (!licence) return;
+    ev.preventDefault();
+    openFor(licence, nom);
+  }, true);
+
+  // Noms auto-cliquables si table sans liens
+  function autodetectClickableNames(){
+    function norm(s){ try{return String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();}catch(e){return String(s||'').toLowerCase();} }
+    function looksLikeLicence(txt){ txt=(txt||'').trim(); return /^[0-9]{7,8}[A-Z]?$/.test(txt.toUpperCase()); }
+    function looksLikeName(txt){ txt=(txt||'').trim(); return /[A-Za-zÀ-ÿ]{2,}\s+[A-Za-zÀ-ÿ]{2,}/.test(txt); }
+    var tables = document.getElementsByTagName("table");
+    for (var ti=0; ti<tables.length; ti++){
+      var table = tables[ti];
+      var thead = table.tHead;
+      var tb = table.tBodies && table.tBodies[0];
+      if (!tb) continue;
+      var idxLic=-1, idxNom=-1;
+      if (thead){
+        var ths = thead.getElementsByTagName("th");
+        for (var i=0;i<ths.length;i++){
+          var h = norm(ths[i].textContent||"");
+          if (idxLic===-1 && (/licence/.test(h) || /n.? ?licence/.test(h) || /num(?:ero)? ?licence/.test(h))) idxLic=i;
+          if (idxNom===-1 && (/^nom/.test(h) || /prenom/.test(h) || /nom.*prenom/.test(h) || /athlete|archer/.test(h))) idxNom=i;
+        }
+      }
+      var rows = tb.rows;
+      for (var r=0;r<rows.length;r++){
+        var cells = rows[r].cells; if (!cells || !cells.length) continue;
+        var licCell = (idxLic >= 0 && cells[idxLic]) ? cells[idxLic] : null;
+        var nomCell = (idxNom >= 0 && cells[idxNom]) ? cells[idxNom] : null;
+        if (!licCell || !looksLikeLicence(licCell.textContent)){
+          licCell = null;
+          for (var c=0;c<cells.length;c++){ if (looksLikeLicence(cells[c].textContent)) { licCell = cells[c]; break; } }
+        }
+        if (!nomCell){
+          for (var c2=0;c2<cells.length;c2++){ if (cells[c2]===licCell) continue; if (looksLikeName(cells[c2].textContent)) { nomCell = cells[c2]; break; } }
+        }
+        if (!licCell || !nomCell) continue;
+        var licence = (licCell.textContent||"").trim();
+        var nom = (nomCell.textContent||"").trim();
+        if (!licence || !nom || nomCell.querySelector("a")) continue;
+        var a = document.createElement("a");
+        a.href = "#"; a.className = "js-archer";
+        a.setAttribute("data-licence", licence);
+        a.setAttribute("data-nom", nom);
+        a.textContent = nom;
+        nomCell.textContent = "";
+        nomCell.appendChild(a);
+      }
+    }
+  }
+  document.addEventListener("DOMContentLoaded", function(){
+    autodetectClickableNames();
+    var obs = new MutationObserver(function(){ autodetectClickableNames(); });
+    obs.observe(document.body, { childList:true, subtree:true });
+  });
+})();
+</script>
+<!-- QI MINI v4 — quotas + inscriptions + popup filtrée -->
+<style id="qi-mini-styles">
+  .qi-banner{display:none;margin:12px 0 6px;padding:10px 14px;border:1px solid #bfdbfe;border-left:6px solid #3b82f6;border-radius:12px;background:#eff6ff;color:#0b5394;font-weight:500}
+  .qi-banner.show{display:block}
+  .qi-v{font-weight:700}
+  .qi-green{color:#059669 !important}
+  .qi-orange{color:#d97706 !important}
+  tr.qi-ok  td{background-color: rgba(34,197,94,0.12) !important; color: inherit !important;}   /* dans le quota  */
+  tr.qi-warn td{background-color: rgba(234,88,12,0.12) !important; color: inherit !important;}  /* inscrit hors quota */
+  /* td.qi-col removed */
+</style>
+<script id="qi-mini">
+(function(){
+  "use strict";
+  const FILE_QUOTAS = "quotas tir à 18m.csv";
+  const FILE_INSCR  = "liste inscription CR.csv";
+  const SHOW_WHEN_NOT_FOUND = true;
+
+  // ---- utils
+  const normUp=s=>{s=(s==null?"":String(s)).trim();try{s=s.normalize("NFD").replace(/[\u0300-\u036f]/g,"");}catch(e){}return s.toUpperCase();};
+  const mapSexe=s=>{const u=normUp(s); if(u.startsWith("H"))return"H"; if(u.startsWith("F"))return"F"; return u;};
+  const asInt=v=>{const n=parseInt(String(v).replace(/\D+/g,""),10); return Number.isNaN(n)?null:n;};
+  const truthy=v=>!!({X:1,V:1,1:1,OUI:1,OK:1,TRUE:1,VRAI:1,YES:1}[normUp(v)]);
+  const keyBy=(o,p)=>Object.keys(o).find(k=>p(normUp(k)));
+  const splitCSVLine=(l,d)=>{const o=[];let c="",q=false;for(let i=0;i<l.length;i++){const ch=l[i];if(ch=='"'){if(q&&l[i+1]=='"'){c+='"';i++;}else q=!q;}else if(ch===d&&!q){o.push(c);c="";}else c+=ch;}o.push(c);return o.map(x=>x.trim());};
+
+  async function loadCSV(name){
+    try{
+      const res=await fetch(encodeURI(name),{cache:"no-store"});
+      if(!res.ok) return [];
+      let txt=await res.text(); if(txt.charCodeAt(0)===0xFEFF) txt=txt.slice(1);
+      const lines=txt.split(/\r?\n/).filter(Boolean); if(!lines.length) return[];
+      const d=((lines[0].match(/;/g)||[]).length>=(lines[0].match(/,/g)||[]).length)?";":",";
+      const head=splitCSVLine(lines.shift(),d);
+      return lines.map(l=>{const c=splitCSVLine(l,d),o={}; head.forEach((h,i)=>o[h]=c[i]||""); return o;});
+    }catch(e){ return[]; }
+  }
+
+  const discNorm=d=>{const u=normUp(d); if(u.includes("18M"))return"18M"; if(u.includes("TAE I"))return"TAE I"; if(u.includes("TAE N"))return"TAE N"; return"";};
+  function readFilters(){
+    const pick=id=>{const el=document.getElementById(id); if(!el) return""; const op=el.options[el.selectedIndex]||{}; return (op.text||el.value||"").trim();};
+    return{discipline:pick("discipline"),categorie:pick("categorie"),sexe:pick("sexe"),arme:pick("arme")};
+  }
+  function findRankingTable(){
+    // on repère le tableau des classements via la présence de la colonne "N° licence"
+    const tables=document.querySelectorAll("table");
+    for(const t of tables){
+      const ths=t.querySelectorAll("thead th");
+      for(const th of ths){ if((th.textContent||"").trim().toUpperCase().includes("LICENCE")) return t; }
+    }
+    return null;
+  }
+  function ensureBanner(table){
+    let b=document.getElementById("qi-banner");
+    if(!b){ b=document.createElement("div"); b.id="qi-banner"; b.className="qi-banner"; table.parentNode.insertBefore(b,table); }
+    return b;
+  }
+
+  let quotas=[], inscr=[];
+  function pickQuota(discipline,sexe,cat,arme){
+    const dn=discNorm(discipline); if(!dn) return null;
+    const sx=mapSexe(sexe), ct=normUp(cat), ar=normUp(arme);
+    for(const r of quotas){
+      const heads=Object.keys(r);
+      let kCat=keyBy(r,k=>k.includes("CATEGORIE")),
+          kSexe=keyBy(r,k=>k.includes("SEXE")),
+          kArme=keyBy(r,k=>k.includes("ARME")||k==="ARC"),
+          kQuota=keyBy(r,k=>k.includes("QUOTA")),
+          kDisc=keyBy(r,k=>k==="DISCIPLINE");
+      // fallback par position si en-têtes "cassées"
+      if(!kCat||!kSexe||!kQuota){ if(heads.length>=4){ kCat=kCat||heads[0]; kSexe=kSexe||heads[1]; kArme=kArme||heads[2]; kQuota=kQuota||heads[3]; } }
+      if(!kCat||!kSexe||!kQuota) continue;
+      const vCat=normUp(r[kCat]), vSex=mapSexe(r[kSexe]), vArm=kArme?normUp(r[kArme]):"", vDisc=kDisc?discNorm(r[kDisc]):dn;
+      if(vDisc===dn && vSex===sx && vCat===ct && (!vArm || vArm===ar)) return asInt(r[kQuota]);
+    }
+    return null;
+  }
+
+  function findInscrByLicence(lic){
+    if(!lic) return null;
+    const tgt=String(lic).replace(/\s+/g,"");
+    for(const r of inscr){
+      const hk=keyBy(r,k=>k.includes("LICENCE"));
+      const v=hk?String(r[hk]).replace(/\s+/g,""):"";
+      if(v===tgt) return r;
+    }
+    return null;
+  }
+  function isEnrolledFor(row,discipline){
+    const dn=discNorm(discipline); if(!dn) return false;
+    const heads=Object.keys(row); let col=null;
+    if(dn==="18M") col=heads.find(h=>normUp(h).includes("18M"));
+    else if(dn==="TAE I") col=heads.find(h=>normUp(h)==="TAE I");
+    else if(dn==="TAE N") col=heads.find(h=>normUp(h)==="TAE N");
+    return col ? truthy(row[col]) : false;
+  }
+
+  // --- Filtre de la popup par discipline (wrapper)
+  const _openPopup = window.openResultsPopup;
+  function getCurrentDiscKey(){
+    const el=document.getElementById("discipline");
+    const txt=el&&el.options[el.selectedIndex]?(el.options[el.selectedIndex].text||""):"";
+    const u=(txt||"").toUpperCase();
+    if (u.includes("18M"))  return "18M";
+    if (u.includes("TAE I"))return "TAE I";
+    if (u.includes("TAE N"))return "TAE N";
+    return "";
+  }
+  window.openResultsPopup = function(lic){
+    if (typeof _openPopup === "function") return _openPopup(lic); // ta popup existante
+    // sinon, no-op
+  };
+
+  async function apply(){
+    const table=findRankingTable(); if(!table) return;
+    if(!quotas.length) quotas=await loadCSV(FILE_QUOTAS);
+    if(!inscr.length)  inscr =await loadCSV(FILE_INSCR);
+
+    const f=readFilters(), dn=discNorm(f.discipline);
+    // Only show inscriptions if CSV contains entries for this discipline, and never for TAE I/N
+    const __hasInscrForDisc = (Array.isArray(inscr) && inscr.some(e => isEnrolledFor(e, f.discipline))) ? true : false;
+    const __blockForTAE = (typeof dn==='string' && /^TAE\b/i.test(dn));
+    const __canShowInscr = __hasInscrForDisc && !__blockForTAE;
+
+    // --- Bandeau
+    (function(){
+      const b=ensureBanner(table);
+      if(!dn){ b.classList.remove("show"); b.innerHTML=""; return; }
+      
+      /* BANNER_GUARD_PATCH */ if(!__canShowInscr){ b.classList.remove("show"); b.innerHTML=""; return; }if(!quotas.length){
+        if(SHOW_WHEN_NOT_FOUND){ b.innerHTML="Fichier quotas introuvable ou vide."; b.classList.add("show"); }
+        else { b.classList.remove("show"); b.innerHTML=""; }
+        return;
+      }
+      const q=pickQuota(f.discipline,f.sexe,f.categorie,f.arme);
+      if(q==null){
+        if(SHOW_WHEN_NOT_FOUND){
+          b.innerHTML=`Aucun quota trouvé pour Sexe : ${f.sexe} · Catégorie : ${f.categorie} · Arme : ${f.arme}`;
+          b.classList.add("show");
+        } else { b.classList.remove("show"); b.innerHTML=""; }
+        return;
+      }
+      b.innerHTML=`<strong>Quota ${dn} :</strong> ${q} archer(s) — Sexe : ${f.sexe} · Catégorie : ${f.categorie} · Arme : ${f.arme}`;
+      b.classList.add("show");
+    })();
+
+    
+    // --- Colonne "Inscr." APRÈS "Moyenne" (rang d'inscription parmi les inscrits) ---
+    (function(){
+      const table = document.getElementById("tableau");
+      const thead   = table?.querySelector("thead");
+      const theadRow= thead?.querySelector("tr");
+      const tbody   = table?.querySelector("tbody");
+      const f = readFilters();
+      const dn = discNorm(f.discipline);
+      if (!table || !theadRow || !tbody || !dn) return;
+      if (!inscr.length || !__canShowInscr) return;
+
+      const headers  = Array.from(theadRow.children).map(th => (th.textContent||"").trim().toUpperCase());
+      const idxLic   = headers.findIndex(h => h.includes("LICENCE"));
+      const idxMoy   = headers.findIndex(h => h.includes("MOYENNE"));
+      const insertIdx= (idxMoy >= 0 ? idxMoy+1 : theadRow.children.length);
+
+      
+      // Trouver la colonne "RANG" (priorité à 'RANG' exact, sinon 1re colonne contenant 'RANG' mais pas 'DEP')
+      let idxRang = headers.findIndex(h => h === "RANG");
+      if (idxRang < 0){
+        idxRang = headers.findIndex(h => h.includes("RANG") && !h.includes("DEP"));
+      }
+const hasInscrHeader = headers.some(h => h.includes("INSCR"));
+      if (!hasInscrHeader){
+        const th = document.createElement("th");
+        th.textContent = "Inscr.";
+        th.className = "inscr-col";
+        if (insertIdx < theadRow.children.length) theadRow.insertBefore(th, theadRow.children[insertIdx]);
+        else theadRow.appendChild(th);
+
+        const colgroup = table.querySelector("colgroup");
+        if (colgroup){
+          const newCol = document.createElement("col");
+          newCol.style.width = "72px";
+          const ref = colgroup.children[insertIdx] || null;
+          if (ref) colgroup.insertBefore(newCol, ref); else colgroup.appendChild(newCol);
+        }
+      }
+
+      const q = quotas.length ? pickQuota(f.discipline,f.sexe,f.categorie,f.arme) : null;
+      let selCount = 0;
+
+      Array.from(tbody.querySelectorAll("tr")).forEach(tr=>{
+        const cells = Array.from(tr.children);
+        const licCell = (idxLic >= 0 && cells[idxLic]) ? cells[idxLic] : null;
+        const licence = licCell ? (licCell.textContent||"").trim() : "";
+        const enr = licence ? findInscrByLicence(licence) : null;
+        const inscrit = enr ? isEnrolledFor(enr, f.discipline) : false;
+
+        
+        // Lire le rang global depuis la colonne RANG (si présente)
+        let rInt = null;
+        if (idxRang >= 0){
+          const rangCell = (idxRang < cells.length) ? cells[idxRang] : null;
+          if (rangCell){
+            const rTxt = (rangCell.textContent || "").trim();
+            rInt = (typeof asInt === "function") ? asInt(rTxt) : parseInt(rTxt, 10);
+            if (Number.isNaN(rInt)) rInt = null;
+          }
+        }
+let cell;
+        if (insertIdx < tr.children.length) {
+          cell = tr.children[insertIdx];
+        } else {
+          cell = document.createElement("td");
+          if (insertIdx < tr.children.length) tr.insertBefore(cell, tr.children[insertIdx]);
+          else tr.appendChild(cell);
+        }
+        cell.className = "inscr-col";
+
+        if (inscrit){
+          const pos = selCount + 1; selCount = pos; cell.textContent = String(pos);
+          if (q!=null && rInt!=null && rInt<=q) { tr.classList.add("qi-ok"); tr.classList.remove("qi-warn"); }
+          else { tr.classList.add("qi-warn"); tr.classList.remove("qi-ok"); }
+        } else {
+          cell.textContent = "";
+          tr.classList.remove("qi-ok","qi-warn");
+        }
+      });
+    })();
+    }
+
+  document.addEventListener("DOMContentLoaded", ()=>{
+    apply();
+    ["discipline","categorie","sexe","arme"].forEach(id=>{
+      const el=document.getElementById(id); if(el) el.addEventListener("change", apply);
+    });
+  });
+})();
+</script>
+<!-- /QI MINI v4 -->
+<script id="cr-rowsonly-script">
+(function(){
+  function parseCSV(txt){
+    const sep = (txt.indexOf(';')>-1 && (txt.split('\n')[0].match(/;/g)||[]).length >= (txt.split('\n')[0].match(/,/g)||[]).length) ? ';' : ',';
+    const lines = txt.trim().split(/\r?\n/);
+    const headers = lines[0].split(sep).map(h=>h.trim().replace(/^"+|"+$/g,''));
+    const rows = lines.slice(1).map(l=>{
+      const cols = l.split(sep).map(c=>c.trim().replace(/^"+|"+$/g,''));
+      const o={}; headers.forEach((h,i)=>o[h]=cols[i]||''); return o;
+    });
+    return {headers, rows};
+  }
+  async function tryFetch(p){ try{ const r=await fetch(p,{cache:'no-store'}); return r.ok?await r.text():null; }catch(_){ return null; } }
+  async function locateCSV(bases){
+    for(const b of bases){ for(const c of [b,b+'.csv',b+'.CSV']){ const t=await tryFetch(c); if(t) return {name:c,text:t}; } } return null;
+  }
+  const normKey=v=>(v||'').toString().trim().toUpperCase().replace(/\s+/g,' ');
+  const normLic=v=>(v||'').toString().replace(/\D+/g,'');
+  const valSet=v=>{ if(v==null) return false; const t=(v+'').trim().toUpperCase(); return t && !['TOUS','ALL','-','—','*','0'].includes(t); };
+  const $f=()=>({cat:document.querySelector('#select-categorie')||document.querySelector('[name="categorie"]'),
+                 sex:document.querySelector('#select-sexe')     || document.querySelector('[name="sexe"]'),
+                 arm:document.querySelector('#select-arme')     || document.querySelector('[name="arme"]')});
+  const ready=()=>{ const f=$f(); return f.cat&&f.sex&&f.arm && valSet(f.cat.value)&&valSet(f.sex.value)&&valSet(f.arm.value); };
+  const curKey=()=>{ if(!ready()) return null; const f=$f(); return [f.cat.value,f.sex.value,f.arm.value].map(normKey).join('|'); };
+
+  async function loadData(){
+    const inscr = await locateCSV(['Inscriptions CR']); if(!inscr) return null;
+    const quotaMap={};
+    for(const base of ['Quotas 18m','Quotas TAE I','Quotas TAE N']){
+      const qf=await locateCSV([base]); if(!qf) continue;
+      const {headers,rows}=parseCSV(qf.text);
+      const hCat=headers.find(h=>/cat/i.test(h))||headers[0];
+      const hSex=headers.find(h=>/(sexe|sex)/i.test(h))||headers[1];
+      const hArm=headers.find(h=>/(arme|bow|weapon)/i.test(h))||headers[2];
+      const hQ=headers.find(h=>/(quota|place|nb)/i.test(h))||headers[3];
+      rows.forEach(r=>{ const k=[r[hCat],r[hSex],r[hArm]].map(normKey).join('|');
+                        const q=parseInt(String(r[hQ]||'0').replace(/\D+/g,''),10);
+                        if(q>0) quotaMap[k]=Math.max(quotaMap[k]||0,q); });
+    }
+    const {headers,rows}=parseCSV(inscr.text);
+    const hLic=headers.find(h=>/licen/i.test(h))||headers.find(h=>/lic/i.test(h))||headers[0];
+    const hCat=headers.find(h=>/cat/i.test(h))||headers[1];
+    const hSex=headers.find(h=>/(sexe|sex)/i.test(h))||headers[2];
+    const hArm=headers.find(h=>/(arme|bow|weapon)/i.test(h))||headers[3];
+    const map={};
+    rows.forEach(r=>{ const k=[r[hCat],r[hSex],r[hArm]].map(normKey).join('|'); const lic=normLic(r[hLic]);
+                      if(!lic) return; (map[k] ||= []).includes(lic) || map[k].push(lic); });
+    return {inscrByGroup:map, quotaMap};
+  }
+
+  function headIdx(row, pats){
+    const arr = Array.from(row.children).map(th=>(th.textContent||'').trim().toUpperCase());
+    for(const p of pats){ const i=arr.findIndex(t=>p.test(t)); if(i>=0) return i; } return -1;
+  }
+  function forMainTable(cb){
+    document.querySelectorAll('table').forEach(t=>{
+      const h=t.querySelector('thead tr')||t.querySelector('tr');
+      const b=t.querySelector('tbody'); if(!h||!b) return;
+      const labels=(Array.from(h.children).map(th=>(th.textContent||'')).join('|')).toUpperCase();
+      if(!/RANG/.test(labels) || !/(LICENCE|LIC)/.test(labels) || !/NOM/.test(labels)) return;
+      cb(t,h,b);
+    });
+  }
+  function clearRows(t){
+    t.querySelectorAll('tbody tr').forEach(tr=>{ tr.classList.remove('cr-ok','cr-over'); tr.removeAttribute('title'); });
+  }
+  function paint(t,h,b,data){
+    const idxCat=headIdx(h,[/CAT/]), idxSex=headIdx(h,[/SEXE|SEX/]), idxArm=headIdx(h,[/ARME|BOW|WEAPON/]),
+          idxLic=headIdx(h,[/LICENCE|N° LICENCE|LIC/]), idxRng=headIdx(h,[/^RANG\b/,/\bRANG\b/,/\bRG\b/,/\bCLT\b/,/CLASS/]);
+    if(idxCat<0||idxSex<0||idxArm<0||idxLic<0) return;
+    clearRows(t);
+    const rows = Array.from(b.querySelectorAll('tr')).map(tr=>{
+      const get=i=>(tr.children[i] && tr.children[i].textContent || '').trim();
+      const lic=(get(idxLic).match(/(\d{6,10})/i)||[])[1]||'';
+      const o={ tr, key:[get(idxCat),get(idxSex),get(idxArm)].map(v=>v.toUpperCase()).join('|'), lic, rang:999999 };
+      if(idxRng>=0){ const r=parseInt((get(idxRng)||'').replace(/\D+/g,''),10); if(!isNaN(r)) o.rang=r; }
+      return o;
+    });
+    const groups={}; rows.forEach(r=> (groups[r.key] ||= []).push(r));
+    Object.values(groups).forEach(a=>a.sort((x,y)=>x.rang-y.rang));
+    Object.keys(groups).forEach(k=>{
+      const q=data.quotaMap[k]||0, reg=(data.inscrByGroup[k]||[]).slice(); let c=0;
+      groups[k].forEach(it=>{
+        if(reg.includes(it.lic)){
+          c++; if(q>0){ it.tr.classList.add(c<=q?'cr-ok':'cr-over'); }
+          it.tr.title='Inscr. '+c + (q>0 ? (c<=q?' — dans quota':' — au-delà du quota') : '');
+        }
+      });
+    });
+  }
+  function banner(data){
+    const el=document.getElementById('quota-banner'); if(!el) return;
+    const cat=document.querySelector('#select-categorie,[name="categorie"]')?.value||'';
+    const sex=document.querySelector('#select-sexe,[name="sexe"]')?.value||'';
+    const arm=document.querySelector('#select-arme,[name="arme"]')?.value||'';
+    if(!valSet(cat)||!valSet(sex)||!valSet(arm)){ el.hidden=true; el.innerHTML=''; return; }
+    const k=[cat,sex,arm].map(v=>v.toUpperCase()).join('|');
+    const q=data.quotaMap[k];
+    if(!q){ el.hidden=true; el.innerHTML=''; return; }
+    el.hidden=false;
+    el.innerHTML = `<span>Quotas :</span> <span class="pill">${cat}</span> <span class="pill">${sex}</span> <span class="pill">${arm}</span>
+                    <span style="margin-left:auto">Places : <strong>${q}</strong></span>`;
+  }
+
+  async function main(){
+    const data = await loadData(); if(!data) return;
+    const run = () => { banner(data); if(!ready()){ forMainTable(t=>clearRows(t)); return; } forMainTable((t,h,b)=>paint(t,h,b,data)); };
+    run();
+    const obs=new MutationObserver(()=>requestAnimationFrame(run));
+    obs.observe(document.body,{childList:true,subtree:true});
+    window.addEventListener('resize', run);
+    ['#select-categorie','#select-sexe','#select-arme','[name="categorie"]','[name="sexe"]','[name="arme"]']
+      .forEach(sel=>document.querySelectorAll(sel).forEach(el=>el.addEventListener('change', run)));
+  }
+  if(document.readyState==='loading'){ document.addEventListener('DOMContentLoaded', main); } else { main(); }
+})();
+</script>
+<div hidden="True" id="inscriptions-panel"><header>Inscriptions (classement des inscrits)</header><div class="list"></div></div><script id="cr-panel-below-script">
+(function(){
+  // == Helpers ==
+  function parseCSV(txt){
+    const sep = (txt.indexOf(';')>-1 && (txt.split('\n')[0].match(/;/g)||[]).length >= (txt.split('\n')[0].match(/,/g)||[]).length) ? ';' : ',';
+    const lines = txt.trim().split(/\r?\n/);
+    const headers = lines[0].split(sep).map(h=>h.trim().replace(/^"+|"+$/g,''));
+    const rows = lines.slice(1).map(l=>{
+      const cols = l.split(sep).map(c=>c.trim().replace(/^"+|"+$/g,''));
+      const o={}; headers.forEach((h,i)=>o[h]=cols[i]||''); return o;
+    });
+    return {headers, rows};
+  }
+  async function tryFetch(p){ try{ const r=await fetch(p,{cache:'no-store'}); return r.ok?await r.text():null; }catch(_){ return null; } }
+  async function locateCSV(bases){
+    for(const b of bases){ for(const c of [b,b+'.csv',b+'.CSV']){ const t=await tryFetch(c); if(t) return {name:c,text:t}; } } return null;
+  }
+  const normKey=v=>(v||'').toString().trim().toUpperCase().replace(/\s+/g,' ');
+  const normLic=v=>(v||'').toString().replace(/\D+/g,'');
+  const valSet=v=>{ if(v==null) return false; const t=(v+'').trim().toUpperCase(); return t && !['TOUS','ALL','-','—','*','0'].includes(t); };
+
+  function filters(){
+    return {cat:document.querySelector('#select-categorie')||document.querySelector('[name="categorie"]'),
+            sex:document.querySelector('#select-sexe')     || document.querySelector('[name="sexe"]'),
+            arm:document.querySelector('#select-arme')     || document.querySelector('[name="arme"]')};
+  }
+  const ready=()=>{ const f=filters(); return f.cat&&f.sex&&f.arm && valSet(f.cat.value)&&valSet(f.sex.value)&&valSet(f.arm.value); };
+
+  function headerIndex(thRow, rxs){
+    const arr = Array.from(thRow.children).map(th=>(th.textContent||'').trim().toUpperCase());
+    for(const rx of rxs){ const i=arr.findIndex(t=>rx.test(t)); if(i>=0) return i; } return -1;
+  }
+  function findMainTable(){
+    let best=null;
+    document.querySelectorAll('table').forEach(t=>{
+      const h=t.querySelector('thead tr')||t.querySelector('tr');
+      const b=t.querySelector('tbody');
+      if(!h||!b) return;
+      const labels=(Array.from(h.children).map(th=>(th.textContent||'')).join('|')).toUpperCase();
+      if(/RANG/.test(labels) && /(LICENCE|LIC)/.test(labels) && /NOM/.test(labels)){
+        best = t;
+      }
+    });
+    return best;
+  }
+
+  // Load data
+  async function loadData(){
+    const inscr = await locateCSV(['Inscriptions CR']); if(!inscr) return null;
+    // quotas
+    const quotaMap={};
+    for(const base of ['Quotas 18m','Quotas TAE I','Quotas TAE N']){
+      const qf=await locateCSV([base]); if(!qf) continue;
+      const {headers,rows}=parseCSV(qf.text);
+      const hCat=headers.find(h=>/cat/i.test(h))||headers[0];
+      const hSex=headers.find(h=>/(sexe|sex)/i.test(h))||headers[1];
+      const hArm=headers.find(h=>/(arme|bow|weapon)/i.test(h))||headers[2];
+      const hQ=headers.find(h=>/(quota|place|nb)/i.test(h))||headers[3];
+      rows.forEach(r=>{ const k=[r[hCat],r[hSex],r[hArm]].map(normKey).join('|');
+                        const q=parseInt(String(r[hQ]||'0').replace(/\D+/g,''),10);
+                        if(q>0) quotaMap[k]=Math.max(quotaMap[k]||0,q); });
+    }
+    const {headers,rows}=parseCSV(inscr.text);
+    const hLic=headers.find(h=>/licen/i.test(h))||headers.find(h=>/lic/i.test(h))||headers[0];
+    const hCat=headers.find(h=>/cat/i.test(h))||headers[1];
+    const hSex=headers.find(h=>/(sexe|sex)/i.test(h))||headers[2];
+    const hArm=headers.find(h=>/(arme|bow|weapon)/i.test(h))||headers[3];
+    const map={};
+    rows.forEach(r=>{ const k=[r[hCat],r[hSex],r[hArm]].map(normKey).join('|'); const lic=normLic(r[hLic]);
+                      if(!lic) return; (map[k] ||= []).includes(lic) || map[k].push(lic); });
+    return {inscrByGroup:map, quotaMap};
+  }
+
+  function buildPanel(items, quota, key){
+    const panel = document.getElementById('inscriptions-panel');
+    const list = panel.querySelector('.list');
+    list.innerHTML='';
+    if(!items.length){ panel.hidden=true; return; }
+    panel.hidden=false;
+    items.forEach(it=>{
+      const div=document.createElement('div');
+      div.className='item'; div.dataset.lic=it.lic;
+      const badgeCls = quota>0 && it.inscrRank<=quota ? 'ok':'over';
+      div.innerHTML = `<div class="left">
+        <div class="name" title="${it.name||''}">${it.name||('Licence '+it.lic)}</div>
+        <div class="meta">Rang: ${it.rank || '—'} • Licence: ${it.lic}</div>
+      </div>
+      <div class="right">
+        <span class="badge ${badgeCls}">Inscr. ${it.inscrRank}<span class="tick">${badgeCls==='ok'?'✓':''}</span></span>
+      </div>`;
+      list.appendChild(div);
+    });
+    // Hover sync
+    list.querySelectorAll('.item').forEach(el=>{
+      el.addEventListener('mouseenter', ()=>{
+        const lic=el.dataset.lic;
+        document.querySelectorAll('tbody tr').forEach(tr=>{
+          if(tr.dataset.lic===lic) tr.classList.add('hover-sync');
+        });
+        el.classList.add('hover-sync');
+      });
+      el.addEventListener('mouseleave', ()=>{
+        const lic=el.dataset.lic;
+        document.querySelectorAll('tbody tr').forEach(tr=>tr.classList.remove('hover-sync'));
+        el.classList.remove('hover-sync');
+      });
+    });
+  }
+
+  function runOnce(data){
+    const tbl = findMainTable(); if(!tbl) return;
+    const head=tbl.querySelector('thead tr')||tbl.querySelector('tr');
+    const body=tbl.querySelector('tbody'); if(!head||!body) return;
+
+    // Check filters readiness
+    const f_cat=document.querySelector('#select-categorie,[name="categorie"]')?.value||'';
+    const f_sex=document.querySelector('#select-sexe,[name="sexe"]')?.value||'';
+    const f_arm=document.querySelector('#select-arme,[name="arme"]')?.value||'';
+    const ready = valSet(f_cat)&&valSet(f_sex)&&valSet(f_arm);
+    const key = ready ? [f_cat,f_sex,f_arm].map(v=>v.toUpperCase()).join('|') : null;
+
+    // Column indexes
+    const idxCat=headerIndex(head,[/CAT/]);
+    const idxSex=headerIndex(head,[/SEXE|SEX/]);
+    const idxArm=headerIndex(head,[/ARME|BOW|WEAPON/]);
+    const idxLic=headerIndex(head,[/LICENCE|N° LICENCE|LIC/]);
+    const idxName=headerIndex(head,[/NOM.*PR[ÉE]NOM/,/NOM/,/ATHL[ÈE]TE|ARCHER/]);
+    const idxRng=headerIndex(head,[/^RANG\\b/,/\\bRANG\\b/,/\\bRG\\b/,/\\bCLT\\b/,/CLASS/]);
+    if(idxCat<0||idxSex<0||idxArm<0||idxLic<0){ document.getElementById('inscriptions-panel').hidden=true; return; }
+
+    // Build rows data
+    const rows = Array.from(body.querySelectorAll('tr')).map(tr=>{
+      const get=i=>(tr.children[i] && tr.children[i].textContent || '').trim();
+      const name = idxName>=0 ? get(idxName) : '';
+      const lic = (get(idxLic).match(/(\d{6,10})/i)||[])[1] || '';
+      const o={ tr, name, key:[get(idxCat),get(idxSex),get(idxArm)].map(v=>v.toUpperCase()).join('|'),
+                lic, rank: 999999 };
+      tr.dataset.lic = lic;
+      if(idxRng>=0){ const r=parseInt((get(idxRng)||'').replace(/\D+/g,''),10); if(!isNaN(r)) o.rank=r; }
+      return o;
+    });
+
+    // Filter to current key (if ready)
+    const inKey = ready ? rows.filter(r=>r.key===key) : rows;
+
+    // Compute inscriptions order by rank
+    const quota = ready ? (data.quotaMap[key]||0) : 0;
+    const registeredLic = ready ? (data.inscrByGroup[key]||[]) : [];
+    const registeredRows = inKey.filter(r=>registeredLic.includes(r.lic)).sort((a,b)=>a.rank-b.rank);
+    registeredRows.forEach((r,idx)=> r.inscrRank = idx+1);
+
+    buildPanel(registeredRows, quota, key);
+  }
+
+  async function main(){
+    const data = await loadData(); if(!data) return;
+    const run = () => runOnce(data);
+    run();
+    const obs=new MutationObserver(()=>requestAnimationFrame(run));
+    obs.observe(document.body,{childList:true,subtree:true});
+    window.addEventListener('resize', run);
+    ['#select-categorie','#select-sexe','#select-arme','[name="categorie"]','[name="sexe"]','[name="arme"]']
+      .forEach(sel=>document.querySelectorAll(sel).forEach(el=>el.addEventListener('change', run)));
+  }
+  if(document.readyState==='loading'){ document.addEventListener('DOMContentLoaded', main); } else { main(); }
+})();
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  try{
+    var tc = document.getElementById('totalChip');
+    if (tc && tc.closest){
+      var card = tc.closest('.card');
+      if (card) card.style.display = 'none';
+    }
+  }catch(e){}
+});
+</script>
+
+
+<!-- Injected by ChatGPT: group PARA filters (only for Para ext) -->
+<script id="para-grouping-enhancer">
+document.addEventListener('DOMContentLoaded', function(){
+  try{
+    var paraBox = document.getElementById('para-section');
+    var discSel = document.getElementById('discipline');
+    var viewSel = document.getElementById('viewMode');
+    if (!paraBox || !discSel) return;
+
+    // Clean labels: remove (… ) and trailing 'TAE'
+    (function cleanLabels(){
+      var sels = ['catClass','catTir','blason','distance'];
+      sels.forEach(function(id){
+        var l = document.querySelector('label[for="'+id+'"]'); if(!l) return;
+        var t = (l.textContent||'').replace(/\s*\([^)]*\)\s*/g,' ').replace(/\s+TAE\s*$/i,' ').trim();
+        t = t.replace(/\s{2,}/g,' ').replace(/\s*:\s*$/,'').trim();
+        l.textContent = t;
+      });
+    })();
+
+    function closestField(el){
+      var p=el; while(p && p!==document.body){ if(p.classList && p.classList.contains('field')) return p; p=p.parentNode; }
+      return null;
+    }
+    var blasonField = closestField(document.querySelector('label[for="blason"]'));
+    var distanceField = closestField(document.querySelector('label[for="distance"]'));
+    if (!blasonField || !distanceField) return;
+
+    // placeholders to restore
+    var phBlason = document.createComment('blason-origin');
+    var phDistance = document.createComment('distance-origin');
+    if (!blasonField.previousSibling || blasonField.previousSibling.nodeType !== 8){ blasonField.parentNode.insertBefore(phBlason, blasonField); }
+    if (!distanceField.previousSibling || distanceField.previousSibling.nodeType !== 8){ distanceField.parentNode.insertBefore(phDistance, distanceField); }
+
+    function isParaExt(){
+      try{
+        var d = (window.state && window.state.viewMode==='team') ? (window.state.disciplineTeam||'') : (window.state.disciplineIndiv||'');
+        d = (d||'').toString().toUpperCase();
+        return d === 'PARA EXT'; // NOT Para 18m
+      }catch(_){
+        var opt = discSel.options[discSel.selectedIndex];
+        var txt = (opt && opt.textContent || '').toUpperCase();
+        return txt.indexOf('PARA EXT') > -1;
+      }
+    }
+
+    function placeFields(){
+      if (!paraBox) return;
+      if (isParaExt()){
+        if (blasonField.parentNode !== paraBox) paraBox.appendChild(blasonField);
+        if (distanceField.parentNode !== paraBox) paraBox.appendChild(distanceField);
+      } else {
+        if (phBlason && phBlason.parentNode) phBlason.parentNode.insertBefore(blasonField, phBlason.nextSibling);
+        if (phDistance && phDistance.parentNode) phDistance.parentNode.insertBefore(distanceField, phDistance.nextSibling);
+      }
+    }
+
+    placeFields();
+    discSel.addEventListener('change', placeFields);
+    if (viewSel) viewSel.addEventListener('change', placeFields);
+  }catch(e){ try{ console.warn('para-grouping-enhancer error:', e); }catch(_){ } }
+});
+</script>
+
+
+<!-- Injected by ChatGPT: keep 'Club / Cie' on one line (safe, no heavy DOM changes) -->
+<script id="club-nowrap-patch">
+document.addEventListener('DOMContentLoaded', function(){
+  function applyClubNowrap(){
+    try{
+      var table = document.getElementById('table');
+      if (!table) return;
+      var ths = table.querySelectorAll('thead th');
+      var idx = -1;
+      ths.forEach(function(th, i){
+        var t = (th.textContent || '').trim().toUpperCase();
+        if (idx === -1 && (t.indexOf('CLUB') > -1 || t.indexOf('CIE') > -1)) idx = i;
+      });
+      if (idx === -1) return;
+      // Header cell
+      var trh = table.querySelector('thead tr');
+      if (trh && trh.children[idx]){
+        var th = trh.children[idx];
+        th.style.whiteSpace = 'nowrap';
+        th.style.width = '520px';
+        th.style.minWidth = '520px';
+        th.style.overflow = 'visible';
+      }
+      // Body cells
+      table.querySelectorAll('tbody tr').forEach(function(tr){
+        var td = tr.children[idx];
+        if (!td) return;
+        td.style.whiteSpace = 'nowrap';
+        td.style.width = '520px';
+        td.style.minWidth = '520px';
+        td.style.overflow = 'visible';
+      });
+    }catch(e){}
+  }
+  applyClubNowrap();
+  // Re-apply after table refreshes
+  if (typeof window.refresh === 'function' && !window.refresh.__club_nowrap){
+    var orig = window.refresh;
+    window.refresh = async function(){
+      var r = await orig.apply(this, arguments);
+      try{ applyClubNowrap(); }catch(e){}
+      return r;
+    };
+    window.refresh.__club_nowrap = true;
+  }
+});
+</script>
+
+
+<!-- Injected by ChatGPT: club nowrap universal -->
+<script id="club-nowrap-universal">
+(function(){
+  var CLUB_W = 560; // px
+
+  function applyClubNowrap(){
+    try{
+      var containers = document.querySelectorAll('table, [role="table"], .table, .results, #table, #tableau');
+      containers.forEach(function(c){
+        var idx = -1, ths = c.querySelectorAll('thead th,[role="columnheader"]');
+        ths.forEach(function(th, i){
+          var t = (th.textContent || '').trim().toUpperCase();
+          if (idx < 0 && (t.indexOf('CLUB') > -1 || t.indexOf('CIE') > -1)) idx = i;
+        });
+        if (idx < 0) return;
+
+        var trh = c.querySelector('thead tr,[role="rowgroup"] [role="row"]');
+        if (trh && trh.children[idx]){
+          var th = trh.children[idx];
+          th.classList.add('col-club-nowrap');
+          th.style.minWidth = CLUB_W + 'px';
+          th.style.width    = CLUB_W + 'px';
+          th.style.maxWidth = 'none';
+          th.style.overflow = 'visible';
+        }
+
+        var rows = c.querySelectorAll('tbody tr, [role="rowgroup"] ~ [role="row"], .row');
+        rows.forEach(function(r){
+          var cell = r.children && r.children[idx];
+          if (!cell) return;
+          cell.classList.add('col-club-nowrap');
+          cell.style.minWidth  = CLUB_W + 'px';
+          cell.style.width     = CLUB_W + 'px';
+          cell.style.flexBasis = CLUB_W + 'px'; // flex/grille
+          cell.style.maxWidth  = 'none';
+          cell.style.overflow  = 'visible';
+        });
+      });
+    }catch(e){}
+  }
+
+  document.addEventListener('DOMContentLoaded', function(){
+    requestAnimationFrame(applyClubNowrap);
+  });
+
+  if (typeof window.refresh === 'function' && !window.refresh.__club_nowrap){
+    var orig = window.refresh;
+    window.refresh = async function(){
+      var r = await orig.apply(this, arguments);
+      try { requestAnimationFrame(applyClubNowrap); } catch(_){}
+      return r;
+    };
+    window.refresh.__club_nowrap = true;
+  }
+})();
+</script>
+
+
+
+<!-- Injected by ChatGPT: Team 18m display columns order -->
+<script id="team-18m-columns-order">
+document.addEventListener('DOMContentLoaded', function(){
+  try{
+    if (typeof window.renderTableTeam_18mAuto === 'function' && !window.renderTableTeam_18mAuto.__patched_v2){
+      const __orig = window.renderTableTeam_18mAuto;
+      function trimHeader(theadRow){
+        if (!theadRow) return;
+        // keep only first 6 th
+        while (theadRow.children && theadRow.children.length > 6){
+          theadRow.removeChild(theadRow.lastElementChild);
+        }
+      }
+      window.renderTableTeam_18mAuto = function(){
+        const r = __orig.apply(this, arguments);
+        try{
+          const thead = document.getElementById('thead-row');
+          const tbody = document.getElementById('tbody');
+          if (!thead || !tbody) return r;
+          // (Re)build header
+          thead.innerHTML = [
+            '<th>Rang</th>',
+            '<th>Équipes</th>',
+            '<th>Score 1</th>',
+            '<th>Score 2</th>',
+            '<th>Score 3</th>',
+            '<th>Total équipe</th>'
+          ].join('');
+          trimHeader(thead);
+          // data cache exposed by original code (fallback empty)
+          const data = (Array.isArray(window.team18Cache) ? window.team18Cache : []);
+          const rows = data.map((t, i) => {
+            const rawScores = (t.SCORES_INT && Array.isArray(t.SCORES_INT)) ? t.SCORES_INT
+                             : (typeof t.SCORES === 'string' ? t.SCORES.split('/').map(s=>s.trim()).filter(Boolean) : []);
+            const s1 = (t.SCORE1!=null && t.SCORE1!=='') ? t.SCORE1 : (rawScores[0]||'');
+            const s2 = (t.SCORE2!=null && t.SCORE2!=='') ? t.SCORE2 : (rawScores[1]||'');
+            const s3 = (t.SCORE3!=null && t.SCORE3!=='') ? t.SCORE3 : (rawScores[2]||'');
+            const tot = (t.TOTAL_EQ!=null ? t.TOTAL_EQ
+                       : (t.TOTAL!=null ? t.TOTAL
+                       : (parseInt(s1,10)||0)+(parseInt(s2,10)||0)+(parseInt(s3,10)||0)));
+            const rang = t.RANG || t.RANG_NAT || (i+1);
+            const club = t.CLUB || t.NOM_STRUCTURE || t.EQUIPE || '';
+            return '<tr>'
+              + '<td class="text-right">'+ rang +'</td>'
+              + '<td>'+ club +'</td>'
+              + '<td class="text-right">'+ (s1||'') +'</td>'
+              + '<td class="text-right">'+ (s2||'') +'</td>'
+              + '<td class="text-right">'+ (s3||'') +'</td>'
+              + '<td class="text-right">'+ (tot||'') +'</td>'
+              + '</tr>';
+          }).join('');
+          tbody.innerHTML = rows;
+          // trim header again shortly after in case something re-adds cells
+          setTimeout(()=>trimHeader(thead), 30);
+          setTimeout(()=>trimHeader(thead), 120);
+        }catch(_){}
+        return r;
+      };
+      window.renderTableTeam_18mAuto.__patched_v2 = true;
+    }
+  }catch(e){}
+});
+</script>
+
+
+
+<!-- Injected by ChatGPT: Team 18m split body "3 scores" into 3 columns -->
+<script id="team-18m-split-body-v3">
+document.addEventListener('DOMContentLoaded', function(){
+  try{
+    function applyHeader(){
+      const thead = document.getElementById('thead-row');
+      if (!thead) return;
+      thead.innerHTML = [
+        '<th>Rang</th>',
+        '<th>Équipes</th>',
+        '<th>Score 1</th>',
+        '<th>Score 2</th>',
+        '<th>Score 3</th>',
+        '<th>Total équipe</th>'
+      ].join('');
+      // Ensure exactly 6 th
+      while (thead.children && thead.children.length > 6){
+        thead.removeChild(thead.lastElementChild);
+      }
+    }
+    function splitScoresInBody(){
+      const tbody = document.getElementById('tbody');
+      if (!tbody) return;
+      Array.from(tbody.querySelectorAll('tr')).forEach(function(tr){
+        const tds = tr.children;
+        if (!tds || tds.length < 4) return;
+        // Detect pattern: [rang, equipe, "a / b / c", total] -> 4 cells
+        if (tds.length === 4){
+          const totalCell = tds[3];
+          const scCell = tds[2];
+          const parts = (scCell.textContent||'').split('/').map(s=>s.trim()).filter(Boolean);
+          const s1 = parts[0] || '';
+          const s2 = parts[1] || '';
+          const s3 = parts[2] || '';
+          // Build new cells
+          const td1 = document.createElement('td'); td1.className='text-right'; td1.textContent = s1;
+          const td2 = document.createElement('td'); td2.className='text-right'; td2.textContent = s2;
+          const td3 = document.createElement('td'); td3.className='text-right'; td3.textContent = s3;
+          // Replace the single "3 scores" cell with three cells
+          tr.removeChild(scCell);
+          tr.insertBefore(td3, totalCell);
+          tr.insertBefore(td2, td3);
+          tr.insertBefore(td1, td2);
+        }
+      });
+    }
+    function apply(){
+      applyHeader();
+      splitScoresInBody();
+      // Re-apply nowrap helper if present
+      if (typeof applyClubNowrap === 'function') { try { applyClubNowrap(); } catch(_){ } }
+    }
+    // Hook renderer (18m teams)
+    if (typeof window.renderTableTeam_18mAuto === 'function' && !window.renderTableTeam_18mAuto.__split_body_v3){
+      const __orig = window.renderTableTeam_18mAuto;
+      window.renderTableTeam_18mAuto = function(){
+        const r = __orig.apply(this, arguments);
+        try{ apply(); }catch(_){}
+        // delayed safety pass
+        setTimeout(apply, 30); setTimeout(apply, 120);
+        return r;
+      };
+      window.renderTableTeam_18mAuto.__split_body_v3 = true;
+    }
+  }catch(e){}
+});
+</script>
+
+
+<script>
+(function(){
+  function exportVisibleCSV(){
+    try{
+      // Try the main table (#thead-row / #tbody) first
+      var thead = document.getElementById('thead-row');
+      var tbody = document.getElementById('tbody');
+      var tbl;
+      if (thead && tbody) {
+        tbl = { thead: thead.closest('thead') || thead.parentElement, tbody: tbody };
+      } else {
+        // Fallback: find any visible table
+        var table = document.querySelector('#table table, #tableau table, table');
+        if (!table) return alert('Aucun tableau à exporter.');
+        tbl = { thead: table.querySelector('thead'), tbody: table.querySelector('tbody') };
+      }
+      if (!tbl.thead || !tbl.tbody) return alert('Tableau non détecté.');
+      var rows = tbl.tbody.querySelectorAll('tr');
+      if (!rows || !rows.length) return alert('Aucune ligne visible à exporter.');
+
+      // Headers
+      var headers = Array.from(tbl.thead.querySelectorAll('th')).map(function(th){ 
+        return (th.textContent || '').trim(); 
+      });
+      var lines = [ headers.join(';') ];
+
+      // Rows
+      Array.from(rows).forEach(function(tr){
+        var cells = Array.from(tr.querySelectorAll('td')).map(function(td){
+          var v = (td.textContent || '').replace(/\s+/g,' ').trim();
+          return '"' + v.replace(/"/g,'""') + '"';
+        });
+        if (cells.length) lines.push(cells.join(';'));
+      });
+
+      if (lines.length <= 1) return alert('Aucune donnée à exporter.');
+
+      var csv = lines.join('\n');
+      var blob = new Blob([csv], {type:'text/csv;charset=utf-8'});
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement('a');
+      a.href = url;
+
+      // Build filename
+      var q = (window.state && state.filters && state.filters.search || '').trim();
+      var stamp = new Date().toISOString().slice(0,19).replace(/[:T]/g,'-');
+      a.download = 'export_visible' + (q?('_search_'+q.replace(/\s+/g,'_')):'') + '_' + stamp + '.csv';
+      document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+    }catch(e){
+      console.warn('Export visible failed:', e);
+      alert('Export impossible : ' + (e && e.message ? e.message : e));
+    }
+  }
+
+  function addExportButton(){
+    // 1) Hide/remove any existing "Exporter le filtre" button
+    var oldBtn = Array.from(document.querySelectorAll('button, a'))
+      .find(function(el){ return /exporter\s+le\s+filtre/i.test((el.textContent||'').trim()); });
+    if (oldBtn) { oldBtn.style.display = 'none'; oldBtn.disabled = true; }
+
+    // 2) Insert our new "Export" button next to where the old one lived, or under the hint line
+    var host = oldBtn && oldBtn.parentElement;
+    if (!host) {
+      // try to anchor near the "Recherche multi-discipline" hint or total
+      host = document.getElementById('dataset-hint') && document.getElementById('dataset-hint').parentElement;
+    }
+    if (!host) host = document.body;
+
+    var btn = document.createElement('button');
+    btn.id = 'btnExportVisible';
+    btn.type = 'button';
+    btn.textContent = 'Export';
+    // simple styling, try to be close to existing UI
+    btn.style.padding = '8px 12px';
+    btn.style.border = 'none';
+    btn.style.borderRadius = '8px';
+    btn.style.background = '#0ea5e9';
+    btn.style.color = '#fff';
+    btn.style.cursor = 'pointer';
+    btn.style.marginLeft = '8px';
+    btn.addEventListener('click', exportVisibleCSV);
+    host.appendChild(btn);
+  }
+
+  if (document.readyState === 'loading'){
+    document.addEventListener('DOMContentLoaded', addExportButton);
+  } else {
+    addExportButton();
+  }
+})();
+</script>
+
+
+<script>
+// Compatibilité encodage CSV : UTF‑8 *ou* ISO‑8859‑1, sans casser le code existant
+(function(){
+  if (typeof window.loadCSV !== 'function') return;
+  const __origLoadCSV = window.loadCSV;
+
+  window.loadCSV = async function(fileName){
+    try{
+      const res = await fetch(encodeURI(fileName));
+      if(!res.ok) throw new Error('HTTP '+res.status);
+      const buf = await res.arrayBuffer();
+
+      // 1) Décodage texte : UTF-8 d'abord, sinon ISO-8859-1
+      let text = "";
+      try {
+        text = new TextDecoder('utf-8', {fatal:true}).decode(buf);
+      } catch(e) {
+        text = new TextDecoder('iso-8859-1').decode(buf);
+      }
+      // Si caractères de remplacement, comparer avec lecture ISO
+      if(/\uFFFD/.test(text)){
+        const iso = new TextDecoder('iso-8859-1').decode(buf);
+        const badU8 = (text.match(/\uFFFD/g)||[]).length;
+        const badIso = (iso.match(/\uFFFD/g)||[]).length;
+        if (badIso <= badU8) text = iso;
+      }
+
+      // 2) Parsing CSV : Papa.parse si dispo, sinon parseCSV, sinon fallback simple
+      if (window.Papa && Papa.parse){
+        const out = Papa.parse(text, {header:true, skipEmptyLines:true});
+        if (Array.isArray(out.data)) return out.data;
+      }
+      if (typeof window.parseCSV === 'function'){
+        const out = window.parseCSV(text);
+        if (out && out.rows) return out.rows;
+      }
+      // Fallback ultra-simple (auto ; ou ,)
+      const firstLine = (text.split(/\r?\n/,1)[0] || '');
+      const sep = ((firstLine.split(';').length-1) >= (firstLine.split(',').length-1)) ? ';' : ',';
+      const lines = text.trim().split(/\r?\n/);
+      if (!lines.length) return [];
+      const headers = (lines.shift() || '').split(sep).map(h => h.replace(/^"+|"+$/g,'').trim());
+      return lines.filter(l => l.trim().length).map(l => {
+        const cols = l.split(sep).map(c => c.replace(/^"+|"+$/g,'').trim());
+        const o = {}; headers.forEach((h,i)=> o[h] = (cols[i]||'')); return o;
+      });
+
+    } catch(err){
+      // En cas de souci, on retombe sur la version d'origine
+      try { return await __origLoadCSV(fileName); } catch(_) { return []; }
+    }
+  };
+})();
+</script>
+
+
+<script>
+// Réinitialiser : recharge proprement toute la page (réel reset de l'état)
+(function(){
+  function onHardReset(e){
+    try{
+      e.preventDefault(); e.stopPropagation();
+    }catch(_){}
+    // Nettoyer quelques états potentiels
+    try{ if (window.state) { state._savedIndiv = null; state._lastViewMode = null; } }catch(_){}
+    try{ if ('scrollRestoration' in history) history.scrollRestoration = 'manual'; }catch(_){}
+    // Reload dur (revient à l'état initial du HTML + rechargement CSV)
+    location.reload();
+    return false;
+  }
+  function wireHardReset(){
+    var btn =
+      document.getElementById('reset') ||
+      document.getElementById('resetBtn') ||
+      document.querySelector('[data-action="reset"]') ||
+      Array.from(document.querySelectorAll('button, a, input[type="button"], input[type="submit"]'))
+        .find(function(el){ return /réinitialiser/i.test((el.value||el.textContent||'').trim()); });
+    if(!btn || btn.__hardResetWired) return;
+    btn.addEventListener('click', onHardReset, true); // capture pour passer avant les handlers existants
+    btn.__hardResetWired = true;
+  }
+  if (document.readyState === 'loading'){
+    document.addEventListener('DOMContentLoaded', wireHardReset);
+  } else {
+    wireHardReset();
+  }
+  // Sécurité : si le DOM est reconstruit
+  var mo = new MutationObserver(function(){ wireHardReset(); });
+  try{ mo.observe(document.body, {childList:true, subtree:true}); }catch(_){}
+})();
+</script>
+
+</body>
+</html>
