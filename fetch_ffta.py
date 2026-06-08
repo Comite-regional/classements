@@ -33,7 +33,7 @@ except ImportError:
 # ─── Configuration ───────────────────────────────────────────────────────────
 
 SESSION_IDENTITE = os.environ.get("FFTA_SESSION_IDENTITE", "")
-BASE_URL = os.environ.get("FFTA_BASE_URL", "https://extranet.ffta.fr/ws").rstrip("/")
+BASE_URL = os.environ.get("FFTA_BASE_URL", "https://extranet.ffta.fr/ws/rest").rstrip("/")
 SAISON = os.environ.get("FFTA_SAISON", str(datetime.now().year))
 OUTPUT_DIR = Path(os.environ.get("FFTA_OUTPUT_DIR", "data"))
 
@@ -81,7 +81,6 @@ def get_token(session: requests.Session) -> str:
     candidates = [
         f"{BASE_URL}/Classements/GetToken",
         f"{BASE_URL}/GetToken",
-        f"{BASE_URL}/login",
     ]
     last_err = None
     for url in candidates:
@@ -121,7 +120,7 @@ def api_get(session: requests.Session, endpoint: str, token: str, **params) -> d
 def get_classements_list(session, token, disc_code) -> list[dict]:
     """Retourne la liste des classements disponibles pour une discipline."""
     data = api_get(
-        session, "Classements/GetClassements", token,
+        session, "Classements/Classements", token,
         SaisonAnnee=SAISON,
         DisciplineCode=disc_code,
     )
@@ -137,7 +136,7 @@ def get_classements_list(session, token, disc_code) -> list[dict]:
 def get_classement_detail(session, token, classement_id) -> list[dict]:
     """Retourne tous les archers d'un classement donné."""
     data = api_get(
-        session, "Classements/GetClassement", token,
+        session, "Classements/Classement", token,
         Classement=classement_id,
     )
     response = data.get("Response", {})
