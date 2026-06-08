@@ -328,11 +328,9 @@ def fetch_discipline(session: requests.Session, token: str, disc_code: str) -> l
             log.warning("  Erreur GetClassement(%s): %s", cl_id, e)
             continue
 
-        pdl_archers = [a for a in archers if is_pdl(a)]
-        log.info("  %-60s  %3d archers PDL / %d total",
-                 str(cl_name)[:60], len(pdl_archers), len(archers))
+        log.info("  %-60s  %3d archers", str(cl_name)[:60], len(archers))
 
-        for rank_in_cl, archer in enumerate(pdl_archers, start=1):
+        for rank_in_cl, archer in enumerate(archers, start=1):
             # Récupère le rang ligue depuis l'API ou recalcule
             rang = (
                 archer.get("rang_ligue")
