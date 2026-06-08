@@ -645,8 +645,7 @@ td,th{vertical-align:top}
 <option value="Beursault">Beursault</option>
 <option value="Campagne">Campagne</option>
 <option value="Tir 18m">Tir à 18m</option>
-<option value="TAE I">TAE I</option>
-<option value="TAE N">TAE N</option>
+<option value="TAE">TAE</option>
 <option value="Nature">Nature</option>
 <option value="Para 18m">Para‑tir à l’arc à 18m</option>
 <option value="Para ext">Para‑tir à l’arc en extérieur</option>
@@ -795,7 +794,7 @@ const DISC_LABELS = {
 
     // ========= FICHIERS =========
     // Priorité JSON (API FFTA) > CSV (fallback legacy)
-    const filesMap = { '3D':'data/3D.json','Beursault':'Resultat indiv.csv','Campagne':'data/Campagne.json','Tir 18m':'data/Tir 18m.json','Nature':'data/Nature.json','Para ext':'data/para ext.json','Para 18m':'data/Para salle 18m.json','TAE I':'data/TAE.json','TAE N':'data/TAE.json' };
+    const filesMap = { '3D':'data/3D.json','Beursault':'Resultat indiv.csv','Campagne':'data/Campagne.json','Tir 18m':'data/Tir 18m.json','Nature':'data/Nature.json','Para ext':'data/para ext.json','Para 18m':'data/Para salle 18m.json','TAE I':'data/TAE.json','TAE N':'data/TAE.json','TAE':'data/TAE.json' };
     const TEAM_FILE = 'equipes.csv';
     const TEAM18_FILE = filesMap['Tir 18m'];
 
@@ -854,7 +853,7 @@ const DISC_LABELS = {
     const DISC_SELECT = document.getElementById('discipline');
     const INDIV_OPTIONS_HTML = DISC_SELECT.innerHTML; // sauvegarde liste INDIV
     function fillSelect(sel, values, firstIsAll=false, selectedVal=''){ sel.innerHTML=''; values.forEach((v,i)=>{ const opt=document.createElement('option'); opt.value = (firstIsAll && i===0)? '' : v; opt.textContent=v; if(String(opt.value)===String(selectedVal)) opt.selected=true; sel.appendChild(opt); }); }
-    function showHideSectionsIndiv(){ const disc=state.disciplineIndiv; const tae=document.getElementById('tae-section'); const para=document.getElementById('para-section'); tae.classList.toggle('hidden', !['TAE I','TAE N','Para ext'].includes(disc)); para.classList.toggle('hidden', !['Para ext','Para 18m'].includes(disc)); }
+    function showHideSectionsIndiv(){ const disc=state.disciplineIndiv; const tae=document.getElementById('tae-section'); const para=document.getElementById('para-section'); tae.classList.toggle('hidden', !['TAE I','TAE N','TAE','Para ext'].includes(disc)); para.classList.toggle('hidden', !['Para ext','Para 18m'].includes(disc)); }
     function updateChips(){ const isTeam = state.viewMode==='team'; let disc=isTeam? (state.disciplineTeam||'—') : (state.disciplineIndiv||'—'); if(isTeam){ if(disc==='18M_AUTO') disc='Tir à 18m'; if(disc==='T') disc='TAE'; if(disc==='3') disc='3D'; if(disc==='C') disc='Campagne'; if(disc==='N') disc='Nature'; }
       const file = isTeam ? (state.disciplineTeam==='18M_AUTO' ? TEAM18_FILE : TEAM_FILE) : (filesMap[state.disciplineIndiv]||'—');
       document.getElementById('disciplineChip').textContent=disc; document.getElementById('fichierChip').textContent=file; }
@@ -1028,7 +1027,7 @@ const DISC_LABELS = {
       }
 
       // Colonnes supplémentaires TAE / Para
-      if(['TAE I','TAE N','Para ext'].includes(disc)){
+      if(['TAE I','TAE N','TAE','Para ext'].includes(disc)){
         headers.push({key:'distance', label:'Distance'}, {key:'blason', label:'Blason'});
       }
       if(['Para ext','Para 18m'].includes(disc)){
