@@ -143,22 +143,49 @@ def get_classements_list(session, token, disc_code) -> list[dict]:
 
 
 def get_classement_detail(session, token, classement_id) -> list[dict]:
-    """Retourne tous les archers d'un classement donné."""
+    """Retourne tous les archers d'un classement donné.
+
+    L'API retourne ClassementArray = liste d'objets classement.
+    Chaque objet a un champ 'archers' qui est un dict {"1": {...}, "2": {...}, ...}
+    ou une liste vide [] quand il n'y a pas d'archers.
+    On extrait les archers de tous les objets et on les enrichit avec les métadonnées
+    du classement (sexe_code, arme_code, libelle).
+    """
     data = api_get(
         session, "Classements/Classement", token,
         Classement=classement_id,
     )
-    log.info("  Réponse brute GetClassement(%s) : %s", classement_id, str(data)[:600])
     response = data.get("Response", {})
-    # Cherche dans toutes les clés possibles
-    for key in ("ClassementArray", "Participants", "Archers", "archers", "classement", "items", "data"):
-        val = response.get(key)
-        if val:
-            return val
+    classement_array = response.get("ClassementArray") or []
     if isinstance(response, list):
-        return response
-    log.warning("  Aucune liste d'archers. Clés : %s", list(response.keys()))
-    return []
+        classement_array = response
+
+    all_archers: list[dict] = []
+    for cl_item in classement_array:
+        if not isinstance(cl_item, dict):
+            continue
+        raw_archers = cl_item.get("archers") or []
+        # archers peut être un dict {"1": {...}, "2": {...}} ou une liste []
+        if isinstance(raw_archers, dict):
+            archer_list = list(raw_archers.values())
+        elif isinstance(raw_archers, list):
+            archer_list = raw_archers
+        else:
+            archer_list = []
+
+        for archer in archer_list:
+            if not isinstance(archer, dict):
+                continue
+            # Enrichit l'archer avec les métadonnées du classement
+            enriched = {
+                "_sexe_code": cl_item.get("sexe_code", ""),
+                "_arme_code": cl_item.get("arme_code", ""),
+                "_cl_libelle": cl_item.get("libelle", ""),
+            }
+            enriched.update(archer)
+            all_archers.append(enriched)
+
+    return all_archers
 
 
 # ─── Filtrage région ──────────────────────────────────────────────────────────
@@ -211,88 +238,46 @@ def get_cat(archer: dict) -> str:
     return ""
 
 
-def get_scores(archer: dict) -> tuple[str, str, str, str]:
-    """Retourne (score1, score2, score3, moyenne)."""
-    scores_raw = archer.get("scores", {})
-    if isinstance(scores_raw, dict):
-        s1 = str(scores_raw.get("1", "") or "")
-        s2 = str(scores_raw.get("2", "") or "")
-        s3 = str(scores_raw.get("3", "") or "")
-    else:
-        s1 = str(archer.get("SCORE_DIST1", "") or archer.get("score1", "") or "")
-        s2 = str(archer.get("SCORE_DIST2", "") or archer.get("score2", "") or "")
-        s3 = str(archer.get("SCORE_DIST3", "") or archer.get("score3", "") or "")
-
-    moy_raw = (
-        archer.get("moyenne")
-        or archer.get("score_total")
-        or archer.get("MOY_SCORE")
-        or ""
-    )
-    moy = str(moy_raw) if moy_raw else ""
-    # Calcule la moyenne si absente mais les 3 scores sont présents
-    if not moy and s1 and s2 and s3:
-        try:
-            moy = str(round((float(s1) + float(s2) + float(s3)) / 3, 2))
-        except ValueError:
-            moy = ""
-    return s1, s2, s3, moy
-
-
-def get_club_info(archer: dict) -> tuple[str, str, str]:
-    """Retourne (NOM_STRUCTURE, NOM_ABREGE, CODE_STRUCTURE)."""
-    nom = (
-        archer.get("club")
-        or archer.get("NOM_STRUCTURE")
-        or archer.get("Club")
-        or ""
-    )
-    abr = archer.get("NOM_ABREGE", "") or ""
-    code = (
-        archer.get("club_code")
-        or archer.get("CODE_STRUCTURE")
-        or archer.get("StructureCode")
-        or ""
-    )
-    return str(nom), str(abr), str(code)
-
-
 def normalize_archer(archer: dict, disc_code: str, rank: int) -> dict:
-    """Convertit un archer de l'API vers la structure attendue par le HTML."""
-    s1, s2, s3, moy = get_scores(archer)
-    nom_struct, nom_abr, code_struct = get_club_info(archer)
+    """Convertit un archer de l'API vers la structure attendue par le HTML.
 
-    row = {
-        "Rang_ligue": rank,
-        "RANG": rank,
-        "NO_LICENCE": str(archer.get("licence_code") or archer.get("LicenceCode") or ""),
-        "NOM_PERSONNE": str(archer.get("nom") or archer.get("Nom") or "").upper(),
-        "PRENOM_PERSONNE": str(archer.get("prenom") or archer.get("Prenom") or "").capitalize(),
-        "SEXE": str(archer.get("sexe_code") or archer.get("sexe") or archer.get("SEXE") or ""),
-        "ARME": str(archer.get("arme_code") or archer.get("arme") or archer.get("ARME") or ""),
+    Champs réels retournés par l'API FFTA :
+      PlaceOrdre, PlaceTotal, PlaceScore1/2/3
+      ParticipantId, ParticipantNom, ParticipantVille
+      _sexe_code, _arme_code (injectés par get_classement_detail)
+    """
+    s1 = str(archer.get("PlaceScore1") or "")
+    s2 = str(archer.get("PlaceScore2") or "")
+    s3 = str(archer.get("PlaceScore3") or "")
+    total = str(archer.get("PlaceTotal") or "")
+    rang = archer.get("PlaceOrdre") or rank
+
+    # Nom complet au format "DUPONT Jean" → on garde en majuscules
+    nom_complet = str(archer.get("ParticipantNom") or "").strip().upper()
+
+    sexe = str(archer.get("_sexe_code") or "")
+    arme = str(archer.get("_arme_code") or "")
+    ville = str(archer.get("ParticipantVille") or "").strip()
+
+    return {
+        "Rang_ligue": rang,
+        "RANG": rang,
+        "NO_LICENCE": str(archer.get("ParticipantId") or ""),
+        "NOM_PERSONNE": nom_complet,
+        "PRENOM_PERSONNE": "",
+        "SEXE": sexe,
+        "ARME": arme,
         "CAT": get_cat(archer),
         "CATEGORIE": get_cat(archer),
-        "NOM_STRUCTURE": nom_struct,
-        "NOM_ABREGE": nom_abr,
-        "CODE_STRUCTURE": code_struct,
+        "NOM_STRUCTURE": ville,
+        "NOM_ABREGE": "",
+        "CODE_STRUCTURE": "",
         "SCORE1": s1,
         "SCORE2": s2,
         "SCORE3": s3,
-        "MOY_SCORE": moy,
+        "MOY_SCORE": total,
         "DISCIPLINE": disc_code,
     }
-
-    # TAE : champ TYPE (I = international, N = national)
-    tae_type = archer.get("type") or archer.get("TYPE") or ""
-    if disc_code == "T" and tae_type:
-        row["TYPE"] = str(tae_type).upper()
-
-    # Para / TAE : distances et blasons
-    for fld in ("distance", "DISTANCE", "blason", "BLASON"):
-        if archer.get(fld):
-            row[fld.lower()] = str(archer[fld])
-
-    return row
 
 
 # ─── Logique principale ────────────────────────────────────────────────────────
@@ -339,13 +324,7 @@ def fetch_discipline(session: requests.Session, token: str, disc_code: str) -> l
         log.info("  %-60s  %3d archers", str(cl_name)[:60], len(archers))
 
         for rank_in_cl, archer in enumerate(archers, start=1):
-            # Récupère le rang ligue depuis l'API ou recalcule
-            rang = (
-                archer.get("rang_ligue")
-                or archer.get("place_ligue")
-                or archer.get("place")
-                or rank_in_cl
-            )
+            rang = archer.get("PlaceOrdre") or rank_in_cl
             row = normalize_archer(archer, disc_code, int(str(rang).strip() or rank_in_cl))
             row["_classement_nom"] = str(cl_name)
             all_rows.append(row)
