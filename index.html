@@ -1004,12 +1004,7 @@ const DISC_LABELS = {
         {key:'RANG_NAT',   label:'Rang nat.'},
       ];
 
-      // Si un classement est choisi, inutile d'afficher la colonne Classement
-      // Sinon, on l'insère après le rang pour voir d'où vient chaque archer
       let headers = base.slice();
-      if(state.hasApiData && !f.classement){
-        headers.splice(1, 0, {key:'CLASSEMENT', label:'Classement'});
-      }
 
       // Masque les colonnes déjà fixées par un filtre actif
       if(f.sexe)       headers = headers.filter(h => h.key !== 'SEXE');
