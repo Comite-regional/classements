@@ -74,41 +74,36 @@ def get_token(session: requests.Session) -> str:
     NOTE : l'URL exacte est à vérifier dans la doc Postman.
     Essaie les deux variantes courantes.
     """
+    url = f"{BASE_URL}/Classements/GetToken"
     params = {
         "sessionIdentite": SESSION_IDENTITE,
         "password": make_password(),
         "format": "json",
     }
-    # L'URL exacte d'après le swagger : GET /ws/rest/Classements/GetToken
-    candidates = [
-        f"{BASE_URL}/Classements/GetToken",
-        f"{BASE_URL}/GetToken",
-    ]
-    last_err = None
-    for url in candidates:
-        try:
-            resp = session.get(url, params=params, timeout=30)
-            resp.raise_for_status()
-            data = resp.json()
-            # Le token peut être dans différents champs selon la réponse
-            token = (
-                data.get("Response", {}).get("token")   # format réel de l'API FFTA
-                or data.get("Response", {}).get("Token")
-                or data.get("token")
-                or data.get("Token")
-            )
-            if token:
-                log.info("Token obtenu via %s", url)
-                return token
-            log.debug("Réponse sans token sur %s : %s", url, data)
-        except Exception as e:
-            last_err = e
-            log.debug("Échec sur %s : %s", url, e)
-    raise RuntimeError(
-        f"Impossible d'obtenir un token. Vérifie l'URL et tes credentials.\n"
-        f"Dernière erreur : {last_err}\n"
-        f"Consulte : https://documenter.getpostman.com/view/6393466/UV5XjJQo"
-    )
+    log.info("GetToken → %s (sessionIdentite=%s...)", url, SESSION_IDENTITE[:4] if SESSION_IDENTITE else "??")
+    try:
+        resp = session.get(url, params=params, timeout=30)
+        log.info("Réponse HTTP %s", resp.status_code)
+        log.info("Réponse brute : %s", resp.text[:500])
+        resp.raise_for_status()
+        data = resp.json()
+        token = (
+            data.get("Response", {}).get("token")
+            or data.get("Response", {}).get("Token")
+            or data.get("token")
+            or data.get("Token")
+        )
+        if token:
+            log.info("Token obtenu ✓")
+            return token
+        raise RuntimeError(f"Réponse OK mais token absent : {data}")
+    except Exception as e:
+        raise RuntimeError(
+            f"Impossible d'obtenir un token FFTA.\n"
+            f"URL : {url}\n"
+            f"Erreur : {e}\n"
+            f"Vérifie le secret FFTA_SESSION_IDENTITE dans GitHub → Settings → Secrets."
+        )
 
 
 # ─── Appels API ──────────────────────────────────────────────────────────────
