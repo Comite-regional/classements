@@ -802,7 +802,8 @@ const DISC_LABELS = {
     // ========= HELPERS JSON (API FFTA) =========
     async function loadJSON(filePath) {
       try {
-        const res = await fetch(filePath, { cache: 'no-store' });
+        const cacheBust = filePath + (filePath.includes('?') ? '&' : '?') + '_t=' + Date.now();
+        const res = await fetch(cacheBust, { cache: 'no-store' });
         if (!res.ok) return null;
         const data = await res.json();
         // Met à jour la date de dernière mise à jour depuis le meta
