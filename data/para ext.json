@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-08T17:09:09.148860Z",
+    "generated_at": "2026-06-08T20:45:43.488150Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -41,10 +41,10 @@
       "NOM_ABREGE": "ST HERBLAIN",
       "CODE_STRUCTURE": "1244002",
       "DEPARTEMENT": "44",
-      "SCORE1": "333",
-      "SCORE2": "184",
-      "SCORE3": "0",
-      "MOY_SCORE": "258",
+      "SCORE1": "458",
+      "SCORE2": "333",
+      "SCORE3": "184",
+      "MOY_SCORE": "395",
       "DISCIPLINE": "H",
       "RANG_NAT": "3",
       "_classement_nom": "HV2-3 Scratch Mixte 2026"

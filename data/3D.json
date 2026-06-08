@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-08T17:09:09.148860Z",
+    "generated_at": "2026-06-08T20:45:43.488150Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -662,7 +662,7 @@
       "SCORE3": "295",
       "MOY_SCORE": "296",
       "DISCIPLINE": "3",
-      "RANG_NAT": "13",
+      "RANG_NAT": "12",
       "_classement_nom": "Senior 3 Homme Arc Droit 2026"
     },
     {
@@ -684,7 +684,7 @@
       "SCORE3": "276",
       "MOY_SCORE": "281",
       "DISCIPLINE": "3",
-      "RANG_NAT": "26",
+      "RANG_NAT": "25",
       "_classement_nom": "Senior 3 Homme Arc Droit 2026"
     },
     {
@@ -706,7 +706,7 @@
       "SCORE3": "221",
       "MOY_SCORE": "269",
       "DISCIPLINE": "3",
-      "RANG_NAT": "36",
+      "RANG_NAT": "35",
       "_classement_nom": "Senior 3 Homme Arc Droit 2026"
     },
     {
@@ -2026,7 +2026,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "176",
       "DISCIPLINE": "3",
-      "RANG_NAT": "153",
+      "RANG_NAT": "152",
       "_classement_nom": "Senior 2 Homme Arc Droit 2026"
     },
     {
@@ -2752,7 +2752,7 @@
       "SCORE3": "393",
       "MOY_SCORE": "416",
       "DISCIPLINE": "3",
-      "RANG_NAT": "60",
+      "RANG_NAT": "61",
       "_classement_nom": "Senior 1 Homme Arc Libre 2026"
     },
     {

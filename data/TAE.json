@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-08T17:09:09.148860Z",
+    "generated_at": "2026-06-08T20:45:43.488150Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -112,7 +112,7 @@
       "SCORE3": "626",
       "MOY_SCORE": "637",
       "DISCIPLINE": "T",
-      "RANG_NAT": "40",
+      "RANG_NAT": "41",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -134,7 +134,7 @@
       "SCORE3": "604",
       "MOY_SCORE": "624",
       "DISCIPLINE": "T",
-      "RANG_NAT": "63",
+      "RANG_NAT": "64",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -156,7 +156,7 @@
       "SCORE3": "447",
       "MOY_SCORE": "525",
       "DISCIPLINE": "T",
-      "RANG_NAT": "116",
+      "RANG_NAT": "118",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -178,7 +178,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "425",
       "DISCIPLINE": "T",
-      "RANG_NAT": "129",
+      "RANG_NAT": "130",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -244,7 +244,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "216",
       "DISCIPLINE": "T",
-      "RANG_NAT": "191",
+      "RANG_NAT": "193",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -266,7 +266,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "189",
       "DISCIPLINE": "T",
-      "RANG_NAT": "239",
+      "RANG_NAT": "240",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -288,7 +288,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "159",
       "DISCIPLINE": "T",
-      "RANG_NAT": "261",
+      "RANG_NAT": "262",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -310,7 +310,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "133",
       "DISCIPLINE": "T",
-      "RANG_NAT": "265",
+      "RANG_NAT": "266",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -640,7 +640,7 @@
       "SCORE3": "557",
       "MOY_SCORE": "564",
       "DISCIPLINE": "T",
-      "RANG_NAT": "210",
+      "RANG_NAT": "212",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -662,7 +662,7 @@
       "SCORE3": "544",
       "MOY_SCORE": "550",
       "DISCIPLINE": "T",
-      "RANG_NAT": "245",
+      "RANG_NAT": "247",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -684,7 +684,7 @@
       "SCORE3": "500",
       "MOY_SCORE": "548",
       "DISCIPLINE": "T",
-      "RANG_NAT": "250",
+      "RANG_NAT": "252",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -706,7 +706,7 @@
       "SCORE3": "523",
       "MOY_SCORE": "544",
       "DISCIPLINE": "T",
-      "RANG_NAT": "259",
+      "RANG_NAT": "261",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -728,7 +728,7 @@
       "SCORE3": "528",
       "MOY_SCORE": "544",
       "DISCIPLINE": "T",
-      "RANG_NAT": "261",
+      "RANG_NAT": "263",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -750,7 +750,7 @@
       "SCORE3": "528",
       "MOY_SCORE": "539",
       "DISCIPLINE": "T",
-      "RANG_NAT": "268",
+      "RANG_NAT": "270",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -772,7 +772,7 @@
       "SCORE3": "502",
       "MOY_SCORE": "529",
       "DISCIPLINE": "T",
-      "RANG_NAT": "287",
+      "RANG_NAT": "289",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -794,7 +794,7 @@
       "SCORE3": "503",
       "MOY_SCORE": "514",
       "DISCIPLINE": "T",
-      "RANG_NAT": "320",
+      "RANG_NAT": "323",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -816,7 +816,7 @@
       "SCORE3": "473",
       "MOY_SCORE": "514",
       "DISCIPLINE": "T",
-      "RANG_NAT": "321",
+      "RANG_NAT": "324",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -838,7 +838,7 @@
       "SCORE3": "473",
       "MOY_SCORE": "484",
       "DISCIPLINE": "T",
-      "RANG_NAT": "362",
+      "RANG_NAT": "365",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -860,7 +860,7 @@
       "SCORE3": "442",
       "MOY_SCORE": "483",
       "DISCIPLINE": "T",
-      "RANG_NAT": "364",
+      "RANG_NAT": "367",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -882,7 +882,7 @@
       "SCORE3": "464",
       "MOY_SCORE": "482",
       "DISCIPLINE": "T",
-      "RANG_NAT": "365",
+      "RANG_NAT": "368",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -904,7 +904,7 @@
       "SCORE3": "448",
       "MOY_SCORE": "476",
       "DISCIPLINE": "T",
-      "RANG_NAT": "370",
+      "RANG_NAT": "373",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -926,7 +926,7 @@
       "SCORE3": "457",
       "MOY_SCORE": "468",
       "DISCIPLINE": "T",
-      "RANG_NAT": "373",
+      "RANG_NAT": "376",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -948,7 +948,7 @@
       "SCORE3": "445",
       "MOY_SCORE": "467",
       "DISCIPLINE": "T",
-      "RANG_NAT": "374",
+      "RANG_NAT": "377",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -970,7 +970,7 @@
       "SCORE3": "433",
       "MOY_SCORE": "465",
       "DISCIPLINE": "T",
-      "RANG_NAT": "375",
+      "RANG_NAT": "378",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -992,7 +992,7 @@
       "SCORE3": "420",
       "MOY_SCORE": "458",
       "DISCIPLINE": "T",
-      "RANG_NAT": "380",
+      "RANG_NAT": "383",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -1014,7 +1014,7 @@
       "SCORE3": "390",
       "MOY_SCORE": "443",
       "DISCIPLINE": "T",
-      "RANG_NAT": "387",
+      "RANG_NAT": "390",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -1036,7 +1036,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "399",
       "DISCIPLINE": "T",
-      "RANG_NAT": "423",
+      "RANG_NAT": "426",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -1058,7 +1058,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "366",
       "DISCIPLINE": "T",
-      "RANG_NAT": "467",
+      "RANG_NAT": "468",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -1080,7 +1080,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "357",
       "DISCIPLINE": "T",
-      "RANG_NAT": "485",
+      "RANG_NAT": "486",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -1102,7 +1102,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "353",
       "DISCIPLINE": "T",
-      "RANG_NAT": "489",
+      "RANG_NAT": "490",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -1124,7 +1124,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "350",
       "DISCIPLINE": "T",
-      "RANG_NAT": "495",
+      "RANG_NAT": "496",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -1146,7 +1146,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "323",
       "DISCIPLINE": "T",
-      "RANG_NAT": "538",
+      "RANG_NAT": "539",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -1168,7 +1168,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "301",
       "DISCIPLINE": "T",
-      "RANG_NAT": "553",
+      "RANG_NAT": "554",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -1190,7 +1190,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "221",
       "DISCIPLINE": "T",
-      "RANG_NAT": "578",
+      "RANG_NAT": "580",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -1212,7 +1212,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "187",
       "DISCIPLINE": "T",
-      "RANG_NAT": "605",
+      "RANG_NAT": "607",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -1234,7 +1234,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "180",
       "DISCIPLINE": "T",
-      "RANG_NAT": "619",
+      "RANG_NAT": "622",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -1256,7 +1256,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "172",
       "DISCIPLINE": "T",
-      "RANG_NAT": "639",
+      "RANG_NAT": "642",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -1278,7 +1278,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "169",
       "DISCIPLINE": "T",
-      "RANG_NAT": "644",
+      "RANG_NAT": "647",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -1300,7 +1300,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "165",
       "DISCIPLINE": "T",
-      "RANG_NAT": "655",
+      "RANG_NAT": "658",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -1322,7 +1322,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "164",
       "DISCIPLINE": "T",
-      "RANG_NAT": "659",
+      "RANG_NAT": "662",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -1344,7 +1344,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "162",
       "DISCIPLINE": "T",
-      "RANG_NAT": "665",
+      "RANG_NAT": "668",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -1366,7 +1366,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "147",
       "DISCIPLINE": "T",
-      "RANG_NAT": "698",
+      "RANG_NAT": "699",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -1388,7 +1388,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "141",
       "DISCIPLINE": "T",
-      "RANG_NAT": "708",
+      "RANG_NAT": "709",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -2026,7 +2026,7 @@
       "SCORE3": "603",
       "MOY_SCORE": "616",
       "DISCIPLINE": "T",
-      "RANG_NAT": "18",
+      "RANG_NAT": "19",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
     {
@@ -2048,7 +2048,7 @@
       "SCORE3": "558",
       "MOY_SCORE": "565",
       "DISCIPLINE": "T",
-      "RANG_NAT": "53",
+      "RANG_NAT": "54",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
     {
@@ -2070,7 +2070,7 @@
       "SCORE3": "554",
       "MOY_SCORE": "556",
       "DISCIPLINE": "T",
-      "RANG_NAT": "61",
+      "RANG_NAT": "62",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
     {
@@ -2092,7 +2092,7 @@
       "SCORE3": "542",
       "MOY_SCORE": "555",
       "DISCIPLINE": "T",
-      "RANG_NAT": "64",
+      "RANG_NAT": "65",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
     {
@@ -2114,7 +2114,7 @@
       "SCORE3": "540",
       "MOY_SCORE": "552",
       "DISCIPLINE": "T",
-      "RANG_NAT": "65",
+      "RANG_NAT": "66",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
     {
@@ -2136,7 +2136,7 @@
       "SCORE3": "542",
       "MOY_SCORE": "549",
       "DISCIPLINE": "T",
-      "RANG_NAT": "73",
+      "RANG_NAT": "74",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
     {
@@ -2158,7 +2158,7 @@
       "SCORE3": "510",
       "MOY_SCORE": "540",
       "DISCIPLINE": "T",
-      "RANG_NAT": "83",
+      "RANG_NAT": "84",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
     {
@@ -2180,7 +2180,7 @@
       "SCORE3": "527",
       "MOY_SCORE": "529",
       "DISCIPLINE": "T",
-      "RANG_NAT": "97",
+      "RANG_NAT": "98",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
     {
@@ -2202,7 +2202,7 @@
       "SCORE3": "498",
       "MOY_SCORE": "513",
       "DISCIPLINE": "T",
-      "RANG_NAT": "110",
+      "RANG_NAT": "111",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
     {
@@ -2224,7 +2224,7 @@
       "SCORE3": "497",
       "MOY_SCORE": "510",
       "DISCIPLINE": "T",
-      "RANG_NAT": "113",
+      "RANG_NAT": "114",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
     {
@@ -2246,7 +2246,7 @@
       "SCORE3": "473",
       "MOY_SCORE": "490",
       "DISCIPLINE": "T",
-      "RANG_NAT": "131",
+      "RANG_NAT": "132",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
     {
@@ -2268,7 +2268,7 @@
       "SCORE3": "479",
       "MOY_SCORE": "486",
       "DISCIPLINE": "T",
-      "RANG_NAT": "133",
+      "RANG_NAT": "134",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
     {
@@ -2466,7 +2466,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "171",
       "DISCIPLINE": "T",
-      "RANG_NAT": "287",
+      "RANG_NAT": "286",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
     {
@@ -2664,7 +2664,7 @@
       "SCORE3": "570",
       "MOY_SCORE": "608",
       "DISCIPLINE": "T",
-      "RANG_NAT": "46",
+      "RANG_NAT": "47",
       "_classement_nom": "Senior 1 Femme Arc à Poulies 2026"
     },
     {
@@ -2686,7 +2686,7 @@
       "SCORE3": "595",
       "MOY_SCORE": "606",
       "DISCIPLINE": "T",
-      "RANG_NAT": "47",
+      "RANG_NAT": "48",
       "_classement_nom": "Senior 1 Femme Arc à Poulies 2026"
     },
     {
@@ -2774,7 +2774,7 @@
       "SCORE3": "675",
       "MOY_SCORE": "679",
       "DISCIPLINE": "T",
-      "RANG_NAT": "54",
+      "RANG_NAT": "55",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -2796,7 +2796,7 @@
       "SCORE3": "668",
       "MOY_SCORE": "674",
       "DISCIPLINE": "T",
-      "RANG_NAT": "66",
+      "RANG_NAT": "67",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -2818,7 +2818,7 @@
       "SCORE3": "661",
       "MOY_SCORE": "668",
       "DISCIPLINE": "T",
-      "RANG_NAT": "76",
+      "RANG_NAT": "77",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -2840,7 +2840,7 @@
       "SCORE3": "665",
       "MOY_SCORE": "668",
       "DISCIPLINE": "T",
-      "RANG_NAT": "77",
+      "RANG_NAT": "78",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -2862,7 +2862,7 @@
       "SCORE3": "661",
       "MOY_SCORE": "663",
       "DISCIPLINE": "T",
-      "RANG_NAT": "100",
+      "RANG_NAT": "101",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -2884,7 +2884,7 @@
       "SCORE3": "635",
       "MOY_SCORE": "650",
       "DISCIPLINE": "T",
-      "RANG_NAT": "119",
+      "RANG_NAT": "121",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -2906,7 +2906,7 @@
       "SCORE3": "645",
       "MOY_SCORE": "647",
       "DISCIPLINE": "T",
-      "RANG_NAT": "125",
+      "RANG_NAT": "127",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -2928,7 +2928,7 @@
       "SCORE3": "639",
       "MOY_SCORE": "645",
       "DISCIPLINE": "T",
-      "RANG_NAT": "130",
+      "RANG_NAT": "131",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -2950,7 +2950,7 @@
       "SCORE3": "631",
       "MOY_SCORE": "640",
       "DISCIPLINE": "T",
-      "RANG_NAT": "137",
+      "RANG_NAT": "138",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -2972,7 +2972,7 @@
       "SCORE3": "614",
       "MOY_SCORE": "623",
       "DISCIPLINE": "T",
-      "RANG_NAT": "160",
+      "RANG_NAT": "161",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -2994,7 +2994,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "437",
       "DISCIPLINE": "T",
-      "RANG_NAT": "226",
+      "RANG_NAT": "228",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -3016,7 +3016,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "414",
       "DISCIPLINE": "T",
-      "RANG_NAT": "256",
+      "RANG_NAT": "258",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -3038,7 +3038,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "397",
       "DISCIPLINE": "T",
-      "RANG_NAT": "271",
+      "RANG_NAT": "272",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -3060,7 +3060,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "383",
       "DISCIPLINE": "T",
-      "RANG_NAT": "278",
+      "RANG_NAT": "279",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -3082,7 +3082,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "221",
       "DISCIPLINE": "T",
-      "RANG_NAT": "303",
+      "RANG_NAT": "304",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -3104,7 +3104,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "209",
       "DISCIPLINE": "T",
-      "RANG_NAT": "327",
+      "RANG_NAT": "328",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -3126,7 +3126,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "199",
       "DISCIPLINE": "T",
-      "RANG_NAT": "349",
+      "RANG_NAT": "350",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -3258,7 +3258,7 @@
       "SCORE3": "585",
       "MOY_SCORE": "601",
       "DISCIPLINE": "T",
-      "RANG_NAT": "36",
+      "RANG_NAT": "37",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3280,7 +3280,7 @@
       "SCORE3": "589",
       "MOY_SCORE": "599",
       "DISCIPLINE": "T",
-      "RANG_NAT": "38",
+      "RANG_NAT": "39",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3368,7 +3368,7 @@
       "SCORE3": "567",
       "MOY_SCORE": "589",
       "DISCIPLINE": "T",
-      "RANG_NAT": "73",
+      "RANG_NAT": "74",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3390,7 +3390,7 @@
       "SCORE3": "587",
       "MOY_SCORE": "588",
       "DISCIPLINE": "T",
-      "RANG_NAT": "77",
+      "RANG_NAT": "78",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3456,7 +3456,7 @@
       "SCORE3": "544",
       "MOY_SCORE": "561",
       "DISCIPLINE": "T",
-      "RANG_NAT": "146",
+      "RANG_NAT": "147",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3478,7 +3478,7 @@
       "SCORE3": "546",
       "MOY_SCORE": "559",
       "DISCIPLINE": "T",
-      "RANG_NAT": "155",
+      "RANG_NAT": "156",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3500,7 +3500,7 @@
       "SCORE3": "556",
       "MOY_SCORE": "559",
       "DISCIPLINE": "T",
-      "RANG_NAT": "157",
+      "RANG_NAT": "158",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3522,7 +3522,7 @@
       "SCORE3": "535",
       "MOY_SCORE": "557",
       "DISCIPLINE": "T",
-      "RANG_NAT": "161",
+      "RANG_NAT": "162",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3544,7 +3544,7 @@
       "SCORE3": "554",
       "MOY_SCORE": "557",
       "DISCIPLINE": "T",
-      "RANG_NAT": "162",
+      "RANG_NAT": "163",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3566,7 +3566,7 @@
       "SCORE3": "553",
       "MOY_SCORE": "555",
       "DISCIPLINE": "T",
-      "RANG_NAT": "163",
+      "RANG_NAT": "164",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3588,7 +3588,7 @@
       "SCORE3": "537",
       "MOY_SCORE": "554",
       "DISCIPLINE": "T",
-      "RANG_NAT": "165",
+      "RANG_NAT": "166",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3610,7 +3610,7 @@
       "SCORE3": "515",
       "MOY_SCORE": "550",
       "DISCIPLINE": "T",
-      "RANG_NAT": "176",
+      "RANG_NAT": "179",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3632,7 +3632,7 @@
       "SCORE3": "535",
       "MOY_SCORE": "549",
       "DISCIPLINE": "T",
-      "RANG_NAT": "179",
+      "RANG_NAT": "182",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3654,7 +3654,7 @@
       "SCORE3": "488",
       "MOY_SCORE": "548",
       "DISCIPLINE": "T",
-      "RANG_NAT": "180",
+      "RANG_NAT": "183",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3676,7 +3676,7 @@
       "SCORE3": "503",
       "MOY_SCORE": "543",
       "DISCIPLINE": "T",
-      "RANG_NAT": "198",
+      "RANG_NAT": "202",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3698,7 +3698,7 @@
       "SCORE3": "533",
       "MOY_SCORE": "541",
       "DISCIPLINE": "T",
-      "RANG_NAT": "206",
+      "RANG_NAT": "210",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3720,7 +3720,7 @@
       "SCORE3": "529",
       "MOY_SCORE": "541",
       "DISCIPLINE": "T",
-      "RANG_NAT": "210",
+      "RANG_NAT": "214",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3742,7 +3742,7 @@
       "SCORE3": "515",
       "MOY_SCORE": "539",
       "DISCIPLINE": "T",
-      "RANG_NAT": "218",
+      "RANG_NAT": "222",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3764,7 +3764,7 @@
       "SCORE3": "526",
       "MOY_SCORE": "538",
       "DISCIPLINE": "T",
-      "RANG_NAT": "220",
+      "RANG_NAT": "224",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3786,7 +3786,7 @@
       "SCORE3": "531",
       "MOY_SCORE": "538",
       "DISCIPLINE": "T",
-      "RANG_NAT": "222",
+      "RANG_NAT": "226",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3808,7 +3808,7 @@
       "SCORE3": "525",
       "MOY_SCORE": "536",
       "DISCIPLINE": "T",
-      "RANG_NAT": "230",
+      "RANG_NAT": "234",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3830,7 +3830,7 @@
       "SCORE3": "525",
       "MOY_SCORE": "534",
       "DISCIPLINE": "T",
-      "RANG_NAT": "240",
+      "RANG_NAT": "244",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3852,7 +3852,7 @@
       "SCORE3": "505",
       "MOY_SCORE": "526",
       "DISCIPLINE": "T",
-      "RANG_NAT": "276",
+      "RANG_NAT": "278",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3874,7 +3874,7 @@
       "SCORE3": "511",
       "MOY_SCORE": "524",
       "DISCIPLINE": "T",
-      "RANG_NAT": "285",
+      "RANG_NAT": "287",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3896,7 +3896,7 @@
       "SCORE3": "492",
       "MOY_SCORE": "505",
       "DISCIPLINE": "T",
-      "RANG_NAT": "335",
+      "RANG_NAT": "338",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3918,7 +3918,7 @@
       "SCORE3": "457",
       "MOY_SCORE": "498",
       "DISCIPLINE": "T",
-      "RANG_NAT": "352",
+      "RANG_NAT": "354",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3940,7 +3940,7 @@
       "SCORE3": "481",
       "MOY_SCORE": "493",
       "DISCIPLINE": "T",
-      "RANG_NAT": "370",
+      "RANG_NAT": "372",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3962,7 +3962,7 @@
       "SCORE3": "448",
       "MOY_SCORE": "489",
       "DISCIPLINE": "T",
-      "RANG_NAT": "380",
+      "RANG_NAT": "382",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -3984,7 +3984,7 @@
       "SCORE3": "460",
       "MOY_SCORE": "484",
       "DISCIPLINE": "T",
-      "RANG_NAT": "388",
+      "RANG_NAT": "390",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4006,7 +4006,7 @@
       "SCORE3": "453",
       "MOY_SCORE": "474",
       "DISCIPLINE": "T",
-      "RANG_NAT": "408",
+      "RANG_NAT": "410",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4028,7 +4028,7 @@
       "SCORE3": "418",
       "MOY_SCORE": "473",
       "DISCIPLINE": "T",
-      "RANG_NAT": "412",
+      "RANG_NAT": "414",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4050,7 +4050,7 @@
       "SCORE3": "448",
       "MOY_SCORE": "468",
       "DISCIPLINE": "T",
-      "RANG_NAT": "421",
+      "RANG_NAT": "423",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4072,7 +4072,7 @@
       "SCORE3": "441",
       "MOY_SCORE": "467",
       "DISCIPLINE": "T",
-      "RANG_NAT": "423",
+      "RANG_NAT": "425",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4094,7 +4094,7 @@
       "SCORE3": "414",
       "MOY_SCORE": "445",
       "DISCIPLINE": "T",
-      "RANG_NAT": "453",
+      "RANG_NAT": "455",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4116,7 +4116,7 @@
       "SCORE3": "401",
       "MOY_SCORE": "436",
       "DISCIPLINE": "T",
-      "RANG_NAT": "462",
+      "RANG_NAT": "464",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4138,7 +4138,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "388",
       "DISCIPLINE": "T",
-      "RANG_NAT": "497",
+      "RANG_NAT": "499",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4160,7 +4160,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "381",
       "DISCIPLINE": "T",
-      "RANG_NAT": "505",
+      "RANG_NAT": "507",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4182,7 +4182,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "378",
       "DISCIPLINE": "T",
-      "RANG_NAT": "510",
+      "RANG_NAT": "512",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4380,7 +4380,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "320",
       "DISCIPLINE": "T",
-      "RANG_NAT": "635",
+      "RANG_NAT": "636",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4402,7 +4402,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "300",
       "DISCIPLINE": "T",
-      "RANG_NAT": "659",
+      "RANG_NAT": "660",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4424,7 +4424,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "261",
       "DISCIPLINE": "T",
-      "RANG_NAT": "705",
+      "RANG_NAT": "707",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4446,7 +4446,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "220",
       "DISCIPLINE": "T",
-      "RANG_NAT": "723",
+      "RANG_NAT": "725",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4468,7 +4468,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "187",
       "DISCIPLINE": "T",
-      "RANG_NAT": "749",
+      "RANG_NAT": "751",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4490,7 +4490,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "185",
       "DISCIPLINE": "T",
-      "RANG_NAT": "752",
+      "RANG_NAT": "754",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4512,7 +4512,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "184",
       "DISCIPLINE": "T",
-      "RANG_NAT": "755",
+      "RANG_NAT": "758",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4534,7 +4534,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "178",
       "DISCIPLINE": "T",
-      "RANG_NAT": "771",
+      "RANG_NAT": "773",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4556,7 +4556,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "168",
       "DISCIPLINE": "T",
-      "RANG_NAT": "802",
+      "RANG_NAT": "804",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4578,7 +4578,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "164",
       "DISCIPLINE": "T",
-      "RANG_NAT": "812",
+      "RANG_NAT": "814",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4600,7 +4600,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "157",
       "DISCIPLINE": "T",
-      "RANG_NAT": "838",
+      "RANG_NAT": "837",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4622,7 +4622,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "155",
       "DISCIPLINE": "T",
-      "RANG_NAT": "845",
+      "RANG_NAT": "847",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4644,7 +4644,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "150",
       "DISCIPLINE": "T",
-      "RANG_NAT": "858",
+      "RANG_NAT": "859",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4666,7 +4666,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "148",
       "DISCIPLINE": "T",
-      "RANG_NAT": "863",
+      "RANG_NAT": "864",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4688,7 +4688,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "144",
       "DISCIPLINE": "T",
-      "RANG_NAT": "872",
+      "RANG_NAT": "871",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4710,7 +4710,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "140",
       "DISCIPLINE": "T",
-      "RANG_NAT": "879",
+      "RANG_NAT": "877",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -4996,7 +4996,7 @@
       "SCORE3": "451",
       "MOY_SCORE": "485",
       "DISCIPLINE": "T",
-      "RANG_NAT": "101",
+      "RANG_NAT": "102",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -5018,7 +5018,7 @@
       "SCORE3": "432",
       "MOY_SCORE": "474",
       "DISCIPLINE": "T",
-      "RANG_NAT": "107",
+      "RANG_NAT": "108",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -5040,7 +5040,7 @@
       "SCORE3": "425",
       "MOY_SCORE": "468",
       "DISCIPLINE": "T",
-      "RANG_NAT": "110",
+      "RANG_NAT": "111",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -5062,7 +5062,7 @@
       "SCORE3": "453",
       "MOY_SCORE": "464",
       "DISCIPLINE": "T",
-      "RANG_NAT": "111",
+      "RANG_NAT": "112",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -5084,7 +5084,7 @@
       "SCORE3": "446",
       "MOY_SCORE": "452",
       "DISCIPLINE": "T",
-      "RANG_NAT": "124",
+      "RANG_NAT": "125",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -5106,7 +5106,7 @@
       "SCORE3": "420",
       "MOY_SCORE": "432",
       "DISCIPLINE": "T",
-      "RANG_NAT": "141",
+      "RANG_NAT": "142",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -5128,7 +5128,7 @@
       "SCORE3": "354",
       "MOY_SCORE": "382",
       "DISCIPLINE": "T",
-      "RANG_NAT": "158",
+      "RANG_NAT": "159",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -5150,7 +5150,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "322",
       "DISCIPLINE": "T",
-      "RANG_NAT": "179",
+      "RANG_NAT": "180",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -5172,7 +5172,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "322",
       "DISCIPLINE": "T",
-      "RANG_NAT": "180",
+      "RANG_NAT": "181",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -5194,7 +5194,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "216",
       "DISCIPLINE": "T",
-      "RANG_NAT": "210",
+      "RANG_NAT": "211",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -5348,7 +5348,7 @@
       "SCORE3": "556",
       "MOY_SCORE": "586",
       "DISCIPLINE": "T",
-      "RANG_NAT": "78",
+      "RANG_NAT": "79",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
@@ -5370,7 +5370,7 @@
       "SCORE3": "564",
       "MOY_SCORE": "573",
       "DISCIPLINE": "T",
-      "RANG_NAT": "87",
+      "RANG_NAT": "88",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
@@ -5392,7 +5392,7 @@
       "SCORE3": "527",
       "MOY_SCORE": "562",
       "DISCIPLINE": "T",
-      "RANG_NAT": "89",
+      "RANG_NAT": "90",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
@@ -5414,7 +5414,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "419",
       "DISCIPLINE": "T",
-      "RANG_NAT": "106",
+      "RANG_NAT": "108",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
@@ -5436,7 +5436,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "191",
       "DISCIPLINE": "T",
-      "RANG_NAT": "151",
+      "RANG_NAT": "153",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
@@ -5458,7 +5458,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "167",
       "DISCIPLINE": "T",
-      "RANG_NAT": "155",
+      "RANG_NAT": "157",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
@@ -5480,7 +5480,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "92",
       "DISCIPLINE": "T",
-      "RANG_NAT": "163",
+      "RANG_NAT": "165",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
@@ -5524,7 +5524,7 @@
       "SCORE3": "674",
       "MOY_SCORE": "677",
       "DISCIPLINE": "T",
-      "RANG_NAT": "35",
+      "RANG_NAT": "36",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -5546,7 +5546,7 @@
       "SCORE3": "673",
       "MOY_SCORE": "673",
       "DISCIPLINE": "T",
-      "RANG_NAT": "42",
+      "RANG_NAT": "43",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -5568,7 +5568,7 @@
       "SCORE3": "670",
       "MOY_SCORE": "673",
       "DISCIPLINE": "T",
-      "RANG_NAT": "45",
+      "RANG_NAT": "46",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -5590,7 +5590,7 @@
       "SCORE3": "662",
       "MOY_SCORE": "671",
       "DISCIPLINE": "T",
-      "RANG_NAT": "48",
+      "RANG_NAT": "49",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -5612,7 +5612,7 @@
       "SCORE3": "663",
       "MOY_SCORE": "671",
       "DISCIPLINE": "T",
-      "RANG_NAT": "52",
+      "RANG_NAT": "53",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -5634,7 +5634,7 @@
       "SCORE3": "668",
       "MOY_SCORE": "670",
       "DISCIPLINE": "T",
-      "RANG_NAT": "55",
+      "RANG_NAT": "56",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -5656,7 +5656,7 @@
       "SCORE3": "660",
       "MOY_SCORE": "666",
       "DISCIPLINE": "T",
-      "RANG_NAT": "71",
+      "RANG_NAT": "72",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -5678,7 +5678,7 @@
       "SCORE3": "657",
       "MOY_SCORE": "661",
       "DISCIPLINE": "T",
-      "RANG_NAT": "88",
+      "RANG_NAT": "90",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -5700,7 +5700,7 @@
       "SCORE3": "659",
       "MOY_SCORE": "659",
       "DISCIPLINE": "T",
-      "RANG_NAT": "91",
+      "RANG_NAT": "93",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -5722,7 +5722,7 @@
       "SCORE3": "649",
       "MOY_SCORE": "654",
       "DISCIPLINE": "T",
-      "RANG_NAT": "111",
+      "RANG_NAT": "113",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -5744,7 +5744,7 @@
       "SCORE3": "641",
       "MOY_SCORE": "654",
       "DISCIPLINE": "T",
-      "RANG_NAT": "113",
+      "RANG_NAT": "115",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -5766,7 +5766,7 @@
       "SCORE3": "519",
       "MOY_SCORE": "530",
       "DISCIPLINE": "T",
-      "RANG_NAT": "252",
+      "RANG_NAT": "255",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -5788,7 +5788,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "453",
       "DISCIPLINE": "T",
-      "RANG_NAT": "259",
+      "RANG_NAT": "262",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -5810,7 +5810,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "447",
       "DISCIPLINE": "T",
-      "RANG_NAT": "265",
+      "RANG_NAT": "268",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -5832,7 +5832,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "445",
       "DISCIPLINE": "T",
-      "RANG_NAT": "269",
+      "RANG_NAT": "272",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -5854,7 +5854,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "443",
       "DISCIPLINE": "T",
-      "RANG_NAT": "274",
+      "RANG_NAT": "277",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -5876,7 +5876,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "442",
       "DISCIPLINE": "T",
-      "RANG_NAT": "275",
+      "RANG_NAT": "278",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -5898,7 +5898,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "429",
       "DISCIPLINE": "T",
-      "RANG_NAT": "300",
+      "RANG_NAT": "303",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -5920,7 +5920,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "428",
       "DISCIPLINE": "T",
-      "RANG_NAT": "302",
+      "RANG_NAT": "305",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -5942,7 +5942,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "426",
       "DISCIPLINE": "T",
-      "RANG_NAT": "310",
+      "RANG_NAT": "312",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -5964,7 +5964,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "426",
       "DISCIPLINE": "T",
-      "RANG_NAT": "312",
+      "RANG_NAT": "314",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -5986,7 +5986,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "418",
       "DISCIPLINE": "T",
-      "RANG_NAT": "330",
+      "RANG_NAT": "332",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -6008,7 +6008,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "395",
       "DISCIPLINE": "T",
-      "RANG_NAT": "368",
+      "RANG_NAT": "370",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -6030,7 +6030,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "394",
       "DISCIPLINE": "T",
-      "RANG_NAT": "371",
+      "RANG_NAT": "373",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -6052,7 +6052,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "390",
       "DISCIPLINE": "T",
-      "RANG_NAT": "376",
+      "RANG_NAT": "378",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -6074,7 +6074,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "231",
       "DISCIPLINE": "T",
-      "RANG_NAT": "405",
+      "RANG_NAT": "407",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -6096,7 +6096,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "224",
       "DISCIPLINE": "T",
-      "RANG_NAT": "408",
+      "RANG_NAT": "410",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -6118,7 +6118,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "217",
       "DISCIPLINE": "T",
-      "RANG_NAT": "416",
+      "RANG_NAT": "418",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -6140,7 +6140,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "207",
       "DISCIPLINE": "T",
-      "RANG_NAT": "456",
+      "RANG_NAT": "459",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -6162,7 +6162,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "207",
       "DISCIPLINE": "T",
-      "RANG_NAT": "462",
+      "RANG_NAT": "461",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -6184,7 +6184,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "197",
       "DISCIPLINE": "T",
-      "RANG_NAT": "506",
+      "RANG_NAT": "507",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -6206,7 +6206,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "193",
       "DISCIPLINE": "T",
-      "RANG_NAT": "517",
+      "RANG_NAT": "518",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -6228,7 +6228,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "167",
       "DISCIPLINE": "T",
-      "RANG_NAT": "539",
+      "RANG_NAT": "540",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -6250,7 +6250,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "165",
       "DISCIPLINE": "T",
-      "RANG_NAT": "540",
+      "RANG_NAT": "541",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -6272,7 +6272,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "74",
       "DISCIPLINE": "T",
-      "RANG_NAT": "556",
+      "RANG_NAT": "557",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -6294,7 +6294,7 @@
       "SCORE3": "490",
       "MOY_SCORE": "520",
       "DISCIPLINE": "T",
-      "RANG_NAT": "21",
+      "RANG_NAT": "22",
       "_classement_nom": "Senior 3 Femme Arc Classique 2026"
     },
     {
@@ -6316,7 +6316,7 @@
       "SCORE3": "497",
       "MOY_SCORE": "517",
       "DISCIPLINE": "T",
-      "RANG_NAT": "24",
+      "RANG_NAT": "25",
       "_classement_nom": "Senior 3 Femme Arc Classique 2026"
     },
     {
@@ -6338,7 +6338,7 @@
       "SCORE3": "344",
       "MOY_SCORE": "408",
       "DISCIPLINE": "T",
-      "RANG_NAT": "41",
+      "RANG_NAT": "42",
       "_classement_nom": "Senior 3 Femme Arc Classique 2026"
     },
     {
@@ -6360,7 +6360,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "164",
       "DISCIPLINE": "T",
-      "RANG_NAT": "60",
+      "RANG_NAT": "61",
       "_classement_nom": "Senior 3 Femme Arc Classique 2026"
     },
     {
@@ -6382,7 +6382,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "129",
       "DISCIPLINE": "T",
-      "RANG_NAT": "66",
+      "RANG_NAT": "67",
       "_classement_nom": "Senior 3 Femme Arc Classique 2026"
     },
     {
@@ -6492,7 +6492,7 @@
       "SCORE3": "576",
       "MOY_SCORE": "579",
       "DISCIPLINE": "T",
-      "RANG_NAT": "38",
+      "RANG_NAT": "39",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -6514,7 +6514,7 @@
       "SCORE3": "556",
       "MOY_SCORE": "570",
       "DISCIPLINE": "T",
-      "RANG_NAT": "47",
+      "RANG_NAT": "48",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -6536,7 +6536,7 @@
       "SCORE3": "525",
       "MOY_SCORE": "548",
       "DISCIPLINE": "T",
-      "RANG_NAT": "76",
+      "RANG_NAT": "77",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -6558,7 +6558,7 @@
       "SCORE3": "524",
       "MOY_SCORE": "541",
       "DISCIPLINE": "T",
-      "RANG_NAT": "85",
+      "RANG_NAT": "86",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -6580,7 +6580,7 @@
       "SCORE3": "508",
       "MOY_SCORE": "529",
       "DISCIPLINE": "T",
-      "RANG_NAT": "99",
+      "RANG_NAT": "101",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -6602,7 +6602,7 @@
       "SCORE3": "488",
       "MOY_SCORE": "517",
       "DISCIPLINE": "T",
-      "RANG_NAT": "109",
+      "RANG_NAT": "110",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -6624,7 +6624,7 @@
       "SCORE3": "466",
       "MOY_SCORE": "512",
       "DISCIPLINE": "T",
-      "RANG_NAT": "118",
+      "RANG_NAT": "120",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -6646,7 +6646,7 @@
       "SCORE3": "507",
       "MOY_SCORE": "512",
       "DISCIPLINE": "T",
-      "RANG_NAT": "119",
+      "RANG_NAT": "121",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -6690,7 +6690,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "341",
       "DISCIPLINE": "T",
-      "RANG_NAT": "208",
+      "RANG_NAT": "209",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -6712,7 +6712,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "331",
       "DISCIPLINE": "T",
-      "RANG_NAT": "214",
+      "RANG_NAT": "215",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -6734,7 +6734,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "326",
       "DISCIPLINE": "T",
-      "RANG_NAT": "218",
+      "RANG_NAT": "220",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -6756,7 +6756,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "320",
       "DISCIPLINE": "T",
-      "RANG_NAT": "225",
+      "RANG_NAT": "227",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -6778,7 +6778,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "311",
       "DISCIPLINE": "T",
-      "RANG_NAT": "232",
+      "RANG_NAT": "234",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -6800,7 +6800,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "280",
       "DISCIPLINE": "T",
-      "RANG_NAT": "248",
+      "RANG_NAT": "250",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -6822,34 +6822,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "179",
       "DISCIPLINE": "T",
-      "RANG_NAT": "284",
+      "RANG_NAT": "285",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
       "Rang_ligue": 21,
       "RANG": 21,
-      "NO_LICENCE": "0616150D",
-      "NOM_PERSONNE": "ROUX",
-      "PRENOM_PERSONNE": "Gilles",
-      "SEXE": "H",
-      "ARME": "C",
-      "CAT": "S3",
-      "CATEGORIE": "S3",
-      "NOM_STRUCTURE": "CIE ARCHERS DE VERTOU",
-      "NOM_ABREGE": "VERTOU",
-      "CODE_STRUCTURE": "1244041",
-      "DEPARTEMENT": "44",
-      "SCORE1": "504",
-      "SCORE2": "0",
-      "SCORE3": "0",
-      "MOY_SCORE": "168",
-      "DISCIPLINE": "T",
-      "RANG_NAT": "306",
-      "_classement_nom": "Senior 3 Homme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 22,
-      "RANG": 22,
       "NO_LICENCE": "0079206U",
       "NOM_PERSONNE": "GROSEIL",
       "PRENOM_PERSONNE": "Thierry",
@@ -6866,12 +6844,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "153",
       "DISCIPLINE": "T",
-      "RANG_NAT": "329",
+      "RANG_NAT": "330",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 23,
-      "RANG": 23,
+      "Rang_ligue": 22,
+      "RANG": 22,
       "NO_LICENCE": "0781731H",
       "NOM_PERSONNE": "NOTTEBAERT",
       "PRENOM_PERSONNE": "Alain",
@@ -6888,7 +6866,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "124",
       "DISCIPLINE": "T",
-      "RANG_NAT": "358",
+      "RANG_NAT": "359",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -7020,7 +6998,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "435",
       "DISCIPLINE": "T",
-      "RANG_NAT": "59",
+      "RANG_NAT": "61",
       "_classement_nom": "U11 Homme Arc Classique 2026"
     },
     {
@@ -7042,7 +7020,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "336",
       "DISCIPLINE": "T",
-      "RANG_NAT": "96",
+      "RANG_NAT": "98",
       "_classement_nom": "U11 Homme Arc Classique 2026"
     },
     {
@@ -7152,7 +7130,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "331",
       "DISCIPLINE": "T",
-      "RANG_NAT": "60",
+      "RANG_NAT": "61",
       "_classement_nom": "U11 Femme Arc Classique 2026"
     },
     {
@@ -7174,7 +7152,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "327",
       "DISCIPLINE": "T",
-      "RANG_NAT": "62",
+      "RANG_NAT": "63",
       "_classement_nom": "U11 Femme Arc Classique 2026"
     },
     {
@@ -7196,7 +7174,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "315",
       "DISCIPLINE": "T",
-      "RANG_NAT": "66",
+      "RANG_NAT": "67",
       "_classement_nom": "U11 Femme Arc Classique 2026"
     },
     {
@@ -7218,7 +7196,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "307",
       "DISCIPLINE": "T",
-      "RANG_NAT": "68",
+      "RANG_NAT": "69",
       "_classement_nom": "U11 Femme Arc Classique 2026"
     },
     {
@@ -7240,7 +7218,7 @@
       "SCORE3": "674",
       "MOY_SCORE": "679",
       "DISCIPLINE": "T",
-      "RANG_NAT": "20",
+      "RANG_NAT": "22",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -7262,7 +7240,7 @@
       "SCORE3": "641",
       "MOY_SCORE": "656",
       "DISCIPLINE": "T",
-      "RANG_NAT": "73",
+      "RANG_NAT": "77",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -7284,7 +7262,7 @@
       "SCORE3": "629",
       "MOY_SCORE": "643",
       "DISCIPLINE": "T",
-      "RANG_NAT": "96",
+      "RANG_NAT": "100",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -7306,7 +7284,7 @@
       "SCORE3": "613",
       "MOY_SCORE": "618",
       "DISCIPLINE": "T",
-      "RANG_NAT": "121",
+      "RANG_NAT": "125",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -7328,7 +7306,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "459",
       "DISCIPLINE": "T",
-      "RANG_NAT": "154",
+      "RANG_NAT": "158",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -7350,7 +7328,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "435",
       "DISCIPLINE": "T",
-      "RANG_NAT": "185",
+      "RANG_NAT": "187",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -7372,7 +7350,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "432",
       "DISCIPLINE": "T",
-      "RANG_NAT": "191",
+      "RANG_NAT": "193",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -7394,7 +7372,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "414",
       "DISCIPLINE": "T",
-      "RANG_NAT": "211",
+      "RANG_NAT": "213",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -7416,7 +7394,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "411",
       "DISCIPLINE": "T",
-      "RANG_NAT": "214",
+      "RANG_NAT": "216",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -7438,7 +7416,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "401",
       "DISCIPLINE": "T",
-      "RANG_NAT": "223",
+      "RANG_NAT": "225",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -7460,7 +7438,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "387",
       "DISCIPLINE": "T",
-      "RANG_NAT": "233",
+      "RANG_NAT": "235",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -7482,7 +7460,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "229",
       "DISCIPLINE": "T",
-      "RANG_NAT": "247",
+      "RANG_NAT": "248",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -7504,7 +7482,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "228",
       "DISCIPLINE": "T",
-      "RANG_NAT": "248",
+      "RANG_NAT": "249",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -7548,7 +7526,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "215",
       "DISCIPLINE": "T",
-      "RANG_NAT": "298",
+      "RANG_NAT": "300",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -7570,7 +7548,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "214",
       "DISCIPLINE": "T",
-      "RANG_NAT": "300",
+      "RANG_NAT": "302",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -7592,7 +7570,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "213",
       "DISCIPLINE": "T",
-      "RANG_NAT": "304",
+      "RANG_NAT": "306",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -7614,7 +7592,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "94",
       "DISCIPLINE": "T",
-      "RANG_NAT": "360",
+      "RANG_NAT": "362",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -7834,7 +7812,7 @@
       "SCORE3": "690",
       "MOY_SCORE": "692",
       "DISCIPLINE": "T",
-      "RANG_NAT": "22",
+      "RANG_NAT": "23",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -7922,7 +7900,7 @@
       "SCORE3": "682",
       "MOY_SCORE": "687",
       "DISCIPLINE": "T",
-      "RANG_NAT": "38",
+      "RANG_NAT": "39",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -8054,7 +8032,7 @@
       "SCORE3": "662",
       "MOY_SCORE": "664",
       "DISCIPLINE": "T",
-      "RANG_NAT": "91",
+      "RANG_NAT": "92",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -8076,7 +8054,7 @@
       "SCORE3": "640",
       "MOY_SCORE": "650",
       "DISCIPLINE": "T",
-      "RANG_NAT": "119",
+      "RANG_NAT": "120",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -8098,7 +8076,7 @@
       "SCORE3": "606",
       "MOY_SCORE": "623",
       "DISCIPLINE": "T",
-      "RANG_NAT": "151",
+      "RANG_NAT": "153",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -8120,7 +8098,7 @@
       "SCORE3": "471",
       "MOY_SCORE": "490",
       "DISCIPLINE": "T",
-      "RANG_NAT": "173",
+      "RANG_NAT": "175",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -8142,7 +8120,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "468",
       "DISCIPLINE": "T",
-      "RANG_NAT": "178",
+      "RANG_NAT": "180",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -8164,7 +8142,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "457",
       "DISCIPLINE": "T",
-      "RANG_NAT": "186",
+      "RANG_NAT": "188",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -8186,7 +8164,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "450",
       "DISCIPLINE": "T",
-      "RANG_NAT": "197",
+      "RANG_NAT": "199",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -8208,7 +8186,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "445",
       "DISCIPLINE": "T",
-      "RANG_NAT": "211",
+      "RANG_NAT": "213",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -8230,7 +8208,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "432",
       "DISCIPLINE": "T",
-      "RANG_NAT": "230",
+      "RANG_NAT": "232",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -8252,7 +8230,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "432",
       "DISCIPLINE": "T",
-      "RANG_NAT": "232",
+      "RANG_NAT": "234",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -8274,7 +8252,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "432",
       "DISCIPLINE": "T",
-      "RANG_NAT": "234",
+      "RANG_NAT": "236",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -8296,7 +8274,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "413",
       "DISCIPLINE": "T",
-      "RANG_NAT": "261",
+      "RANG_NAT": "262",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -8318,7 +8296,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "227",
       "DISCIPLINE": "T",
-      "RANG_NAT": "291",
+      "RANG_NAT": "292",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -8340,7 +8318,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "225",
       "DISCIPLINE": "T",
-      "RANG_NAT": "302",
+      "RANG_NAT": "304",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -8384,7 +8362,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "222",
       "DISCIPLINE": "T",
-      "RANG_NAT": "324",
+      "RANG_NAT": "325",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -8406,7 +8384,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "221",
       "DISCIPLINE": "T",
-      "RANG_NAT": "325",
+      "RANG_NAT": "326",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -8428,7 +8406,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "221",
       "DISCIPLINE": "T",
-      "RANG_NAT": "328",
+      "RANG_NAT": "329",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -8450,7 +8428,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "218",
       "DISCIPLINE": "T",
-      "RANG_NAT": "347",
+      "RANG_NAT": "348",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -8472,7 +8450,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "204",
       "DISCIPLINE": "T",
-      "RANG_NAT": "383",
+      "RANG_NAT": "384",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -8494,7 +8472,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "189",
       "DISCIPLINE": "T",
-      "RANG_NAT": "406",
+      "RANG_NAT": "407",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -8516,7 +8494,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "73",
       "DISCIPLINE": "T",
-      "RANG_NAT": "422",
+      "RANG_NAT": "423",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -8604,7 +8582,7 @@
       "SCORE3": "620",
       "MOY_SCORE": "638",
       "DISCIPLINE": "T",
-      "RANG_NAT": "39",
+      "RANG_NAT": "40",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
@@ -8626,7 +8604,7 @@
       "SCORE3": "568",
       "MOY_SCORE": "625",
       "DISCIPLINE": "T",
-      "RANG_NAT": "50",
+      "RANG_NAT": "51",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
@@ -8648,7 +8626,7 @@
       "SCORE3": "604",
       "MOY_SCORE": "618",
       "DISCIPLINE": "T",
-      "RANG_NAT": "53",
+      "RANG_NAT": "54",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
@@ -8670,7 +8648,7 @@
       "SCORE3": "594",
       "MOY_SCORE": "617",
       "DISCIPLINE": "T",
-      "RANG_NAT": "54",
+      "RANG_NAT": "55",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
@@ -8692,7 +8670,7 @@
       "SCORE3": "580",
       "MOY_SCORE": "587",
       "DISCIPLINE": "T",
-      "RANG_NAT": "62",
+      "RANG_NAT": "63",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
@@ -8714,7 +8692,7 @@
       "SCORE3": "521",
       "MOY_SCORE": "556",
       "DISCIPLINE": "T",
-      "RANG_NAT": "72",
+      "RANG_NAT": "73",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
@@ -8736,7 +8714,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "414",
       "DISCIPLINE": "T",
-      "RANG_NAT": "95",
+      "RANG_NAT": "96",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
@@ -8758,7 +8736,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "413",
       "DISCIPLINE": "T",
-      "RANG_NAT": "97",
+      "RANG_NAT": "98",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
@@ -8780,7 +8758,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "214",
       "DISCIPLINE": "T",
-      "RANG_NAT": "133",
+      "RANG_NAT": "135",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
@@ -8802,7 +8780,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "212",
       "DISCIPLINE": "T",
-      "RANG_NAT": "138",
+      "RANG_NAT": "140",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
@@ -8824,7 +8802,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "204",
       "DISCIPLINE": "T",
-      "RANG_NAT": "149",
+      "RANG_NAT": "150",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
@@ -8934,7 +8912,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "233",
       "DISCIPLINE": "T",
-      "RANG_NAT": "103",
+      "RANG_NAT": "104",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -8956,7 +8934,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "165",
       "DISCIPLINE": "T",
-      "RANG_NAT": "170",
+      "RANG_NAT": "171",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -9352,7 +9330,7 @@
       "SCORE3": "556",
       "MOY_SCORE": "560",
       "DISCIPLINE": "T",
-      "RANG_NAT": "173",
+      "RANG_NAT": "174",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9374,7 +9352,7 @@
       "SCORE3": "531",
       "MOY_SCORE": "552",
       "DISCIPLINE": "T",
-      "RANG_NAT": "191",
+      "RANG_NAT": "192",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9459,10 +9437,10 @@
       "DEPARTEMENT": "44",
       "SCORE1": "554",
       "SCORE2": "546",
-      "SCORE3": "498",
-      "MOY_SCORE": "532",
+      "SCORE3": "504",
+      "MOY_SCORE": "534",
       "DISCIPLINE": "T",
-      "RANG_NAT": "237",
+      "RANG_NAT": "234",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9506,7 +9484,7 @@
       "SCORE3": "506",
       "MOY_SCORE": "518",
       "DISCIPLINE": "T",
-      "RANG_NAT": "265",
+      "RANG_NAT": "266",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9528,7 +9506,7 @@
       "SCORE3": "492",
       "MOY_SCORE": "514",
       "DISCIPLINE": "T",
-      "RANG_NAT": "277",
+      "RANG_NAT": "278",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9550,7 +9528,7 @@
       "SCORE3": "500",
       "MOY_SCORE": "513",
       "DISCIPLINE": "T",
-      "RANG_NAT": "279",
+      "RANG_NAT": "280",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9572,7 +9550,7 @@
       "SCORE3": "495",
       "MOY_SCORE": "508",
       "DISCIPLINE": "T",
-      "RANG_NAT": "283",
+      "RANG_NAT": "284",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9594,7 +9572,7 @@
       "SCORE3": "474",
       "MOY_SCORE": "490",
       "DISCIPLINE": "T",
-      "RANG_NAT": "314",
+      "RANG_NAT": "316",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9616,7 +9594,7 @@
       "SCORE3": "417",
       "MOY_SCORE": "486",
       "DISCIPLINE": "T",
-      "RANG_NAT": "318",
+      "RANG_NAT": "320",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9638,7 +9616,7 @@
       "SCORE3": "397",
       "MOY_SCORE": "447",
       "DISCIPLINE": "T",
-      "RANG_NAT": "348",
+      "RANG_NAT": "350",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9660,7 +9638,7 @@
       "SCORE3": "409",
       "MOY_SCORE": "420",
       "DISCIPLINE": "T",
-      "RANG_NAT": "364",
+      "RANG_NAT": "366",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9682,7 +9660,7 @@
       "SCORE3": "407",
       "MOY_SCORE": "414",
       "DISCIPLINE": "T",
-      "RANG_NAT": "368",
+      "RANG_NAT": "370",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9704,7 +9682,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "408",
       "DISCIPLINE": "T",
-      "RANG_NAT": "374",
+      "RANG_NAT": "376",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9726,7 +9704,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "405",
       "DISCIPLINE": "T",
-      "RANG_NAT": "377",
+      "RANG_NAT": "380",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9748,7 +9726,7 @@
       "SCORE3": "167",
       "MOY_SCORE": "399",
       "DISCIPLINE": "T",
-      "RANG_NAT": "385",
+      "RANG_NAT": "388",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9770,7 +9748,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "398",
       "DISCIPLINE": "T",
-      "RANG_NAT": "386",
+      "RANG_NAT": "389",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9792,7 +9770,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "386",
       "DISCIPLINE": "T",
-      "RANG_NAT": "398",
+      "RANG_NAT": "401",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9814,7 +9792,7 @@
       "SCORE3": "341",
       "MOY_SCORE": "368",
       "DISCIPLINE": "T",
-      "RANG_NAT": "419",
+      "RANG_NAT": "422",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9836,7 +9814,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "367",
       "DISCIPLINE": "T",
-      "RANG_NAT": "420",
+      "RANG_NAT": "423",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9858,7 +9836,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "366",
       "DISCIPLINE": "T",
-      "RANG_NAT": "424",
+      "RANG_NAT": "427",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9880,7 +9858,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "364",
       "DISCIPLINE": "T",
-      "RANG_NAT": "428",
+      "RANG_NAT": "431",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9902,7 +9880,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "363",
       "DISCIPLINE": "T",
-      "RANG_NAT": "431",
+      "RANG_NAT": "434",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9924,7 +9902,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "353",
       "DISCIPLINE": "T",
-      "RANG_NAT": "450",
+      "RANG_NAT": "454",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9946,7 +9924,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "352",
       "DISCIPLINE": "T",
-      "RANG_NAT": "452",
+      "RANG_NAT": "456",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9968,7 +9946,7 @@
       "SCORE3": "113",
       "MOY_SCORE": "238",
       "DISCIPLINE": "T",
-      "RANG_NAT": "562",
+      "RANG_NAT": "564",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9990,7 +9968,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "206",
       "DISCIPLINE": "T",
-      "RANG_NAT": "570",
+      "RANG_NAT": "572",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10012,7 +9990,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "189",
       "DISCIPLINE": "T",
-      "RANG_NAT": "607",
+      "RANG_NAT": "610",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10034,7 +10012,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "187",
       "DISCIPLINE": "T",
-      "RANG_NAT": "614",
+      "RANG_NAT": "617",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10056,7 +10034,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "183",
       "DISCIPLINE": "T",
-      "RANG_NAT": "627",
+      "RANG_NAT": "630",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10078,7 +10056,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "176",
       "DISCIPLINE": "T",
-      "RANG_NAT": "661",
+      "RANG_NAT": "664",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10100,7 +10078,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "175",
       "DISCIPLINE": "T",
-      "RANG_NAT": "667",
+      "RANG_NAT": "670",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10122,7 +10100,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "173",
       "DISCIPLINE": "T",
-      "RANG_NAT": "677",
+      "RANG_NAT": "680",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10144,7 +10122,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "168",
       "DISCIPLINE": "T",
-      "RANG_NAT": "707",
+      "RANG_NAT": "710",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10166,7 +10144,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "168",
       "DISCIPLINE": "T",
-      "RANG_NAT": "711",
+      "RANG_NAT": "716",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10188,7 +10166,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "153",
       "DISCIPLINE": "T",
-      "RANG_NAT": "764",
+      "RANG_NAT": "770",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10210,7 +10188,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "152",
       "DISCIPLINE": "T",
-      "RANG_NAT": "770",
+      "RANG_NAT": "775",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10232,7 +10210,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "147",
       "DISCIPLINE": "T",
-      "RANG_NAT": "783",
+      "RANG_NAT": "787",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10254,7 +10232,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "143",
       "DISCIPLINE": "T",
-      "RANG_NAT": "792",
+      "RANG_NAT": "796",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10276,7 +10254,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "141",
       "DISCIPLINE": "T",
-      "RANG_NAT": "797",
+      "RANG_NAT": "801",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10298,7 +10276,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "134",
       "DISCIPLINE": "T",
-      "RANG_NAT": "809",
+      "RANG_NAT": "815",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10320,7 +10298,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "115",
       "DISCIPLINE": "T",
-      "RANG_NAT": "826",
+      "RANG_NAT": "832",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10342,7 +10320,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "114",
       "DISCIPLINE": "T",
-      "RANG_NAT": "827",
+      "RANG_NAT": "833",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10364,7 +10342,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "93",
       "DISCIPLINE": "T",
-      "RANG_NAT": "839",
+      "RANG_NAT": "845",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10386,7 +10364,7 @@
       "SCORE3": "558",
       "MOY_SCORE": "574",
       "DISCIPLINE": "T",
-      "RANG_NAT": "24",
+      "RANG_NAT": "25",
       "_classement_nom": "Senior 3 Femme Arc Classique 2026"
     },
     {
@@ -10408,7 +10386,7 @@
       "SCORE3": "555",
       "MOY_SCORE": "569",
       "DISCIPLINE": "T",
-      "RANG_NAT": "27",
+      "RANG_NAT": "28",
       "_classement_nom": "Senior 3 Femme Arc Classique 2026"
     },
     {
@@ -10430,7 +10408,7 @@
       "SCORE3": "549",
       "MOY_SCORE": "562",
       "DISCIPLINE": "T",
-      "RANG_NAT": "30",
+      "RANG_NAT": "31",
       "_classement_nom": "Senior 3 Femme Arc Classique 2026"
     },
     {
@@ -10452,7 +10430,7 @@
       "SCORE3": "537",
       "MOY_SCORE": "554",
       "DISCIPLINE": "T",
-      "RANG_NAT": "37",
+      "RANG_NAT": "38",
       "_classement_nom": "Senior 3 Femme Arc Classique 2026"
     },
     {
@@ -10474,7 +10452,7 @@
       "SCORE3": "482",
       "MOY_SCORE": "498",
       "DISCIPLINE": "T",
-      "RANG_NAT": "65",
+      "RANG_NAT": "67",
       "_classement_nom": "Senior 3 Femme Arc Classique 2026"
     },
     {
@@ -10496,7 +10474,7 @@
       "SCORE3": "486",
       "MOY_SCORE": "493",
       "DISCIPLINE": "T",
-      "RANG_NAT": "70",
+      "RANG_NAT": "72",
       "_classement_nom": "Senior 3 Femme Arc Classique 2026"
     },
     {
@@ -10848,7 +10826,7 @@
       "SCORE3": "625",
       "MOY_SCORE": "627",
       "DISCIPLINE": "T",
-      "RANG_NAT": "45",
+      "RANG_NAT": "46",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -10870,7 +10848,7 @@
       "SCORE3": "585",
       "MOY_SCORE": "623",
       "DISCIPLINE": "T",
-      "RANG_NAT": "54",
+      "RANG_NAT": "55",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -10892,7 +10870,7 @@
       "SCORE3": "613",
       "MOY_SCORE": "619",
       "DISCIPLINE": "T",
-      "RANG_NAT": "71",
+      "RANG_NAT": "72",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -10914,7 +10892,7 @@
       "SCORE3": "610",
       "MOY_SCORE": "617",
       "DISCIPLINE": "T",
-      "RANG_NAT": "76",
+      "RANG_NAT": "77",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -10936,7 +10914,7 @@
       "SCORE3": "614",
       "MOY_SCORE": "616",
       "DISCIPLINE": "T",
-      "RANG_NAT": "83",
+      "RANG_NAT": "84",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -10958,7 +10936,7 @@
       "SCORE3": "609",
       "MOY_SCORE": "615",
       "DISCIPLINE": "T",
-      "RANG_NAT": "86",
+      "RANG_NAT": "87",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -10980,7 +10958,7 @@
       "SCORE3": "606",
       "MOY_SCORE": "614",
       "DISCIPLINE": "T",
-      "RANG_NAT": "90",
+      "RANG_NAT": "91",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11002,7 +10980,7 @@
       "SCORE3": "606",
       "MOY_SCORE": "613",
       "DISCIPLINE": "T",
-      "RANG_NAT": "95",
+      "RANG_NAT": "96",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11024,7 +11002,7 @@
       "SCORE3": "599",
       "MOY_SCORE": "610",
       "DISCIPLINE": "T",
-      "RANG_NAT": "107",
+      "RANG_NAT": "108",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11046,7 +11024,7 @@
       "SCORE3": "596",
       "MOY_SCORE": "610",
       "DISCIPLINE": "T",
-      "RANG_NAT": "108",
+      "RANG_NAT": "110",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11068,7 +11046,7 @@
       "SCORE3": "600",
       "MOY_SCORE": "609",
       "DISCIPLINE": "T",
-      "RANG_NAT": "112",
+      "RANG_NAT": "114",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11090,7 +11068,7 @@
       "SCORE3": "604",
       "MOY_SCORE": "608",
       "DISCIPLINE": "T",
-      "RANG_NAT": "113",
+      "RANG_NAT": "115",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11112,7 +11090,7 @@
       "SCORE3": "601",
       "MOY_SCORE": "605",
       "DISCIPLINE": "T",
-      "RANG_NAT": "134",
+      "RANG_NAT": "135",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11134,7 +11112,7 @@
       "SCORE3": "588",
       "MOY_SCORE": "602",
       "DISCIPLINE": "T",
-      "RANG_NAT": "151",
+      "RANG_NAT": "152",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11156,7 +11134,7 @@
       "SCORE3": "601",
       "MOY_SCORE": "602",
       "DISCIPLINE": "T",
-      "RANG_NAT": "152",
+      "RANG_NAT": "153",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11266,7 +11244,7 @@
       "SCORE3": "583",
       "MOY_SCORE": "590",
       "DISCIPLINE": "T",
-      "RANG_NAT": "216",
+      "RANG_NAT": "217",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11288,7 +11266,7 @@
       "SCORE3": "576",
       "MOY_SCORE": "588",
       "DISCIPLINE": "T",
-      "RANG_NAT": "224",
+      "RANG_NAT": "226",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11310,7 +11288,7 @@
       "SCORE3": "581",
       "MOY_SCORE": "585",
       "DISCIPLINE": "T",
-      "RANG_NAT": "239",
+      "RANG_NAT": "241",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11332,7 +11310,7 @@
       "SCORE3": "569",
       "MOY_SCORE": "582",
       "DISCIPLINE": "T",
-      "RANG_NAT": "250",
+      "RANG_NAT": "251",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11354,7 +11332,7 @@
       "SCORE3": "569",
       "MOY_SCORE": "574",
       "DISCIPLINE": "T",
-      "RANG_NAT": "291",
+      "RANG_NAT": "293",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11376,7 +11354,7 @@
       "SCORE3": "564",
       "MOY_SCORE": "573",
       "DISCIPLINE": "T",
-      "RANG_NAT": "296",
+      "RANG_NAT": "298",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11398,7 +11376,7 @@
       "SCORE3": "563",
       "MOY_SCORE": "569",
       "DISCIPLINE": "T",
-      "RANG_NAT": "311",
+      "RANG_NAT": "313",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11420,7 +11398,7 @@
       "SCORE3": "546",
       "MOY_SCORE": "564",
       "DISCIPLINE": "T",
-      "RANG_NAT": "331",
+      "RANG_NAT": "332",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11442,7 +11420,7 @@
       "SCORE3": "549",
       "MOY_SCORE": "563",
       "DISCIPLINE": "T",
-      "RANG_NAT": "333",
+      "RANG_NAT": "334",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11464,7 +11442,7 @@
       "SCORE3": "544",
       "MOY_SCORE": "562",
       "DISCIPLINE": "T",
-      "RANG_NAT": "338",
+      "RANG_NAT": "339",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11486,7 +11464,7 @@
       "SCORE3": "540",
       "MOY_SCORE": "552",
       "DISCIPLINE": "T",
-      "RANG_NAT": "370",
+      "RANG_NAT": "371",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11508,7 +11486,7 @@
       "SCORE3": "530",
       "MOY_SCORE": "547",
       "DISCIPLINE": "T",
-      "RANG_NAT": "388",
+      "RANG_NAT": "389",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11530,7 +11508,7 @@
       "SCORE3": "522",
       "MOY_SCORE": "543",
       "DISCIPLINE": "T",
-      "RANG_NAT": "402",
+      "RANG_NAT": "403",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11552,7 +11530,7 @@
       "SCORE3": "513",
       "MOY_SCORE": "532",
       "DISCIPLINE": "T",
-      "RANG_NAT": "425",
+      "RANG_NAT": "426",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11574,7 +11552,7 @@
       "SCORE3": "510",
       "MOY_SCORE": "522",
       "DISCIPLINE": "T",
-      "RANG_NAT": "445",
+      "RANG_NAT": "447",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11596,7 +11574,7 @@
       "SCORE3": "507",
       "MOY_SCORE": "515",
       "DISCIPLINE": "T",
-      "RANG_NAT": "455",
+      "RANG_NAT": "458",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11618,7 +11596,7 @@
       "SCORE3": "483",
       "MOY_SCORE": "494",
       "DISCIPLINE": "T",
-      "RANG_NAT": "484",
+      "RANG_NAT": "488",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11640,7 +11618,7 @@
       "SCORE3": "481",
       "MOY_SCORE": "490",
       "DISCIPLINE": "T",
-      "RANG_NAT": "489",
+      "RANG_NAT": "493",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11662,7 +11640,7 @@
       "SCORE3": "439",
       "MOY_SCORE": "486",
       "DISCIPLINE": "T",
-      "RANG_NAT": "493",
+      "RANG_NAT": "497",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11684,7 +11662,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "441",
       "DISCIPLINE": "T",
-      "RANG_NAT": "514",
+      "RANG_NAT": "519",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11706,7 +11684,7 @@
       "SCORE3": "342",
       "MOY_SCORE": "434",
       "DISCIPLINE": "T",
-      "RANG_NAT": "522",
+      "RANG_NAT": "527",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11728,7 +11706,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "403",
       "DISCIPLINE": "T",
-      "RANG_NAT": "557",
+      "RANG_NAT": "563",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11750,7 +11728,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "378",
       "DISCIPLINE": "T",
-      "RANG_NAT": "634",
+      "RANG_NAT": "641",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11772,7 +11750,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "378",
       "DISCIPLINE": "T",
-      "RANG_NAT": "638",
+      "RANG_NAT": "645",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11794,7 +11772,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "372",
       "DISCIPLINE": "T",
-      "RANG_NAT": "658",
+      "RANG_NAT": "665",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11816,7 +11794,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "365",
       "DISCIPLINE": "T",
-      "RANG_NAT": "674",
+      "RANG_NAT": "681",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11838,7 +11816,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "362",
       "DISCIPLINE": "T",
-      "RANG_NAT": "683",
+      "RANG_NAT": "690",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11860,7 +11838,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "359",
       "DISCIPLINE": "T",
-      "RANG_NAT": "687",
+      "RANG_NAT": "694",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11882,7 +11860,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "357",
       "DISCIPLINE": "T",
-      "RANG_NAT": "692",
+      "RANG_NAT": "699",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11904,7 +11882,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "349",
       "DISCIPLINE": "T",
-      "RANG_NAT": "713",
+      "RANG_NAT": "720",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11926,7 +11904,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "344",
       "DISCIPLINE": "T",
-      "RANG_NAT": "729",
+      "RANG_NAT": "734",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11948,7 +11926,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "332",
       "DISCIPLINE": "T",
-      "RANG_NAT": "754",
+      "RANG_NAT": "759",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11970,7 +11948,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "322",
       "DISCIPLINE": "T",
-      "RANG_NAT": "767",
+      "RANG_NAT": "773",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11992,7 +11970,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "321",
       "DISCIPLINE": "T",
-      "RANG_NAT": "769",
+      "RANG_NAT": "775",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12014,7 +11992,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "308",
       "DISCIPLINE": "T",
-      "RANG_NAT": "782",
+      "RANG_NAT": "787",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12036,7 +12014,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "279",
       "DISCIPLINE": "T",
-      "RANG_NAT": "808",
+      "RANG_NAT": "813",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12058,7 +12036,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "211",
       "DISCIPLINE": "T",
-      "RANG_NAT": "833",
+      "RANG_NAT": "838",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12080,7 +12058,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "211",
       "DISCIPLINE": "T",
-      "RANG_NAT": "836",
+      "RANG_NAT": "841",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12102,7 +12080,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "200",
       "DISCIPLINE": "T",
-      "RANG_NAT": "869",
+      "RANG_NAT": "876",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12124,7 +12102,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "198",
       "DISCIPLINE": "T",
-      "RANG_NAT": "883",
+      "RANG_NAT": "890",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12146,7 +12124,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "195",
       "DISCIPLINE": "T",
-      "RANG_NAT": "904",
+      "RANG_NAT": "911",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12168,7 +12146,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "191",
       "DISCIPLINE": "T",
-      "RANG_NAT": "932",
+      "RANG_NAT": "937",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12190,7 +12168,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "190",
       "DISCIPLINE": "T",
-      "RANG_NAT": "933",
+      "RANG_NAT": "940",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12212,34 +12190,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "182",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1004",
+      "RANG_NAT": "1013",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
       "Rang_ligue": 68,
       "RANG": 68,
-      "NO_LICENCE": "1032518Y",
-      "NOM_PERSONNE": "FERNANDE",
-      "PRENOM_PERSONNE": "Nicolas",
-      "SEXE": "H",
-      "ARME": "C",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "CIE ARCHERS DE VERTOU",
-      "NOM_ABREGE": "VERTOU",
-      "CODE_STRUCTURE": "1244041",
-      "DEPARTEMENT": "44",
-      "SCORE1": "539",
-      "SCORE2": "0",
-      "SCORE3": "0",
-      "MOY_SCORE": "179",
-      "DISCIPLINE": "T",
-      "RANG_NAT": "1028",
-      "_classement_nom": "Senior 2 Homme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 69,
-      "RANG": 69,
       "NO_LICENCE": "0041102B",
       "NOM_PERSONNE": "TEILLET",
       "PRENOM_PERSONNE": "Damien",
@@ -12256,34 +12212,34 @@
       "SCORE3": "0",
       "MOY_SCORE": "179",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1029",
+      "RANG_NAT": "1037",
+      "_classement_nom": "Senior 2 Homme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 69,
+      "RANG": 69,
+      "NO_LICENCE": "1032518Y",
+      "NOM_PERSONNE": "FERNANDE",
+      "PRENOM_PERSONNE": "Nicolas",
+      "SEXE": "H",
+      "ARME": "C",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "CIE ARCHERS DE VERTOU",
+      "NOM_ABREGE": "VERTOU",
+      "CODE_STRUCTURE": "1244041",
+      "DEPARTEMENT": "44",
+      "SCORE1": "539",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "179",
+      "DISCIPLINE": "T",
+      "RANG_NAT": "1038",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
       "Rang_ligue": 70,
       "RANG": 70,
-      "NO_LICENCE": "0072260U",
-      "NOM_PERSONNE": "BONENFANT",
-      "PRENOM_PERSONNE": "Alexandre",
-      "SEXE": "H",
-      "ARME": "C",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "LES ARCHERS DES 3 MOULINS",
-      "NOM_ABREGE": "ETRICHÉ",
-      "CODE_STRUCTURE": "1249065",
-      "DEPARTEMENT": "49",
-      "SCORE1": "522",
-      "SCORE2": "0",
-      "SCORE3": "0",
-      "MOY_SCORE": "174",
-      "DISCIPLINE": "T",
-      "RANG_NAT": "1065",
-      "_classement_nom": "Senior 2 Homme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 71,
-      "RANG": 71,
       "NO_LICENCE": "1030494C",
       "NOM_PERSONNE": "JUGIAU",
       "PRENOM_PERSONNE": "Christophe",
@@ -12300,7 +12256,29 @@
       "SCORE3": "0",
       "MOY_SCORE": "174",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1066",
+      "RANG_NAT": "1073",
+      "_classement_nom": "Senior 2 Homme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 71,
+      "RANG": 71,
+      "NO_LICENCE": "0072260U",
+      "NOM_PERSONNE": "BONENFANT",
+      "PRENOM_PERSONNE": "Alexandre",
+      "SEXE": "H",
+      "ARME": "C",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "LES ARCHERS DES 3 MOULINS",
+      "NOM_ABREGE": "ETRICHÉ",
+      "CODE_STRUCTURE": "1249065",
+      "DEPARTEMENT": "49",
+      "SCORE1": "522",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "174",
+      "DISCIPLINE": "T",
+      "RANG_NAT": "1074",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12322,7 +12300,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "170",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1090",
+      "RANG_NAT": "1098",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12344,7 +12322,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "169",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1099",
+      "RANG_NAT": "1104",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12366,7 +12344,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "161",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1135",
+      "RANG_NAT": "1144",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12388,7 +12366,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "157",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1145",
+      "RANG_NAT": "1152",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12410,7 +12388,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "154",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1158",
+      "RANG_NAT": "1165",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12432,7 +12410,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "151",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1165",
+      "RANG_NAT": "1173",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12454,7 +12432,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "145",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1184",
+      "RANG_NAT": "1192",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12476,7 +12454,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "142",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1187",
+      "RANG_NAT": "1195",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12498,7 +12476,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "134",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1201",
+      "RANG_NAT": "1210",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12520,7 +12498,7 @@
       "SCORE3": "591",
       "MOY_SCORE": "594",
       "DISCIPLINE": "T",
-      "RANG_NAT": "54",
+      "RANG_NAT": "55",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -12630,7 +12608,7 @@
       "SCORE3": "529",
       "MOY_SCORE": "552",
       "DISCIPLINE": "T",
-      "RANG_NAT": "134",
+      "RANG_NAT": "135",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -12652,7 +12630,7 @@
       "SCORE3": "491",
       "MOY_SCORE": "544",
       "DISCIPLINE": "T",
-      "RANG_NAT": "150",
+      "RANG_NAT": "151",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -12674,7 +12652,7 @@
       "SCORE3": "513",
       "MOY_SCORE": "539",
       "DISCIPLINE": "T",
-      "RANG_NAT": "157",
+      "RANG_NAT": "158",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -12696,7 +12674,7 @@
       "SCORE3": "521",
       "MOY_SCORE": "534",
       "DISCIPLINE": "T",
-      "RANG_NAT": "167",
+      "RANG_NAT": "168",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -12718,7 +12696,7 @@
       "SCORE3": "518",
       "MOY_SCORE": "525",
       "DISCIPLINE": "T",
-      "RANG_NAT": "180",
+      "RANG_NAT": "181",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -12740,7 +12718,7 @@
       "SCORE3": "482",
       "MOY_SCORE": "504",
       "DISCIPLINE": "T",
-      "RANG_NAT": "211",
+      "RANG_NAT": "212",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -12762,7 +12740,7 @@
       "SCORE3": "467",
       "MOY_SCORE": "490",
       "DISCIPLINE": "T",
-      "RANG_NAT": "218",
+      "RANG_NAT": "221",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -12784,7 +12762,7 @@
       "SCORE3": "392",
       "MOY_SCORE": "422",
       "DISCIPLINE": "T",
-      "RANG_NAT": "250",
+      "RANG_NAT": "253",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -12806,7 +12784,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "338",
       "DISCIPLINE": "T",
-      "RANG_NAT": "309",
+      "RANG_NAT": "313",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -12828,7 +12806,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "312",
       "DISCIPLINE": "T",
-      "RANG_NAT": "327",
+      "RANG_NAT": "331",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -12850,7 +12828,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "294",
       "DISCIPLINE": "T",
-      "RANG_NAT": "340",
+      "RANG_NAT": "344",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -12872,7 +12850,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "213",
       "DISCIPLINE": "T",
-      "RANG_NAT": "362",
+      "RANG_NAT": "366",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -12894,7 +12872,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "190",
       "DISCIPLINE": "T",
-      "RANG_NAT": "377",
+      "RANG_NAT": "380",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -12916,7 +12894,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "188",
       "DISCIPLINE": "T",
-      "RANG_NAT": "379",
+      "RANG_NAT": "383",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -12938,7 +12916,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "177",
       "DISCIPLINE": "T",
-      "RANG_NAT": "410",
+      "RANG_NAT": "414",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -12960,7 +12938,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "173",
       "DISCIPLINE": "T",
-      "RANG_NAT": "425",
+      "RANG_NAT": "426",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -12982,7 +12960,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "167",
       "DISCIPLINE": "T",
-      "RANG_NAT": "435",
+      "RANG_NAT": "438",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -13004,7 +12982,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "152",
       "DISCIPLINE": "T",
-      "RANG_NAT": "470",
+      "RANG_NAT": "471",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -13026,7 +13004,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "118",
       "DISCIPLINE": "T",
-      "RANG_NAT": "513",
+      "RANG_NAT": "514",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -13268,7 +13246,7 @@
       "SCORE3": "582",
       "MOY_SCORE": "598",
       "DISCIPLINE": "T",
-      "RANG_NAT": "76",
+      "RANG_NAT": "77",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13290,7 +13268,7 @@
       "SCORE3": "577",
       "MOY_SCORE": "588",
       "DISCIPLINE": "T",
-      "RANG_NAT": "95",
+      "RANG_NAT": "97",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13312,7 +13290,7 @@
       "SCORE3": "585",
       "MOY_SCORE": "587",
       "DISCIPLINE": "T",
-      "RANG_NAT": "98",
+      "RANG_NAT": "100",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13334,7 +13312,7 @@
       "SCORE3": "550",
       "MOY_SCORE": "587",
       "DISCIPLINE": "T",
-      "RANG_NAT": "99",
+      "RANG_NAT": "101",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13356,7 +13334,7 @@
       "SCORE3": "545",
       "MOY_SCORE": "558",
       "DISCIPLINE": "T",
-      "RANG_NAT": "154",
+      "RANG_NAT": "155",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13378,7 +13356,7 @@
       "SCORE3": "511",
       "MOY_SCORE": "530",
       "DISCIPLINE": "T",
-      "RANG_NAT": "183",
+      "RANG_NAT": "185",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13400,7 +13378,7 @@
       "SCORE3": "505",
       "MOY_SCORE": "522",
       "DISCIPLINE": "T",
-      "RANG_NAT": "191",
+      "RANG_NAT": "193",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13422,7 +13400,7 @@
       "SCORE3": "501",
       "MOY_SCORE": "519",
       "DISCIPLINE": "T",
-      "RANG_NAT": "194",
+      "RANG_NAT": "196",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13444,7 +13422,7 @@
       "SCORE3": "441",
       "MOY_SCORE": "516",
       "DISCIPLINE": "T",
-      "RANG_NAT": "197",
+      "RANG_NAT": "199",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13466,7 +13444,7 @@
       "SCORE3": "419",
       "MOY_SCORE": "445",
       "DISCIPLINE": "T",
-      "RANG_NAT": "224",
+      "RANG_NAT": "226",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13488,7 +13466,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "427",
       "DISCIPLINE": "T",
-      "RANG_NAT": "233",
+      "RANG_NAT": "235",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13510,7 +13488,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "418",
       "DISCIPLINE": "T",
-      "RANG_NAT": "238",
+      "RANG_NAT": "240",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13532,7 +13510,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "399",
       "DISCIPLINE": "T",
-      "RANG_NAT": "257",
+      "RANG_NAT": "259",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13554,7 +13532,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "385",
       "DISCIPLINE": "T",
-      "RANG_NAT": "280",
+      "RANG_NAT": "281",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13576,7 +13554,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "359",
       "DISCIPLINE": "T",
-      "RANG_NAT": "320",
+      "RANG_NAT": "321",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13620,7 +13598,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "200",
       "DISCIPLINE": "T",
-      "RANG_NAT": "412",
+      "RANG_NAT": "414",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13642,7 +13620,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "190",
       "DISCIPLINE": "T",
-      "RANG_NAT": "443",
+      "RANG_NAT": "444",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13664,7 +13642,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "188",
       "DISCIPLINE": "T",
-      "RANG_NAT": "453",
+      "RANG_NAT": "454",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13686,7 +13664,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "184",
       "DISCIPLINE": "T",
-      "RANG_NAT": "463",
+      "RANG_NAT": "466",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13708,7 +13686,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "183",
       "DISCIPLINE": "T",
-      "RANG_NAT": "469",
+      "RANG_NAT": "470",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13730,7 +13708,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "176",
       "DISCIPLINE": "T",
-      "RANG_NAT": "504",
+      "RANG_NAT": "505",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13752,7 +13730,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "172",
       "DISCIPLINE": "T",
-      "RANG_NAT": "515",
+      "RANG_NAT": "516",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13774,7 +13752,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "164",
       "DISCIPLINE": "T",
-      "RANG_NAT": "538",
+      "RANG_NAT": "539",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13796,7 +13774,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "160",
       "DISCIPLINE": "T",
-      "RANG_NAT": "547",
+      "RANG_NAT": "548",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13818,7 +13796,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "160",
       "DISCIPLINE": "T",
-      "RANG_NAT": "548",
+      "RANG_NAT": "551",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13840,7 +13818,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "159",
       "DISCIPLINE": "T",
-      "RANG_NAT": "552",
+      "RANG_NAT": "554",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13862,7 +13840,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "144",
       "DISCIPLINE": "T",
-      "RANG_NAT": "569",
+      "RANG_NAT": "571",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13884,7 +13862,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "144",
       "DISCIPLINE": "T",
-      "RANG_NAT": "570",
+      "RANG_NAT": "572",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -13950,7 +13928,7 @@
       "SCORE3": "574",
       "MOY_SCORE": "588",
       "DISCIPLINE": "T",
-      "RANG_NAT": "47",
+      "RANG_NAT": "48",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -14038,7 +14016,7 @@
       "SCORE3": "442",
       "MOY_SCORE": "460",
       "DISCIPLINE": "T",
-      "RANG_NAT": "143",
+      "RANG_NAT": "144",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -14060,7 +14038,7 @@
       "SCORE3": "385",
       "MOY_SCORE": "434",
       "DISCIPLINE": "T",
-      "RANG_NAT": "146",
+      "RANG_NAT": "147",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -14082,7 +14060,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "360",
       "DISCIPLINE": "T",
-      "RANG_NAT": "191",
+      "RANG_NAT": "192",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -14104,7 +14082,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "342",
       "DISCIPLINE": "T",
-      "RANG_NAT": "201",
+      "RANG_NAT": "202",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -14148,7 +14126,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "238",
       "DISCIPLINE": "T",
-      "RANG_NAT": "257",
+      "RANG_NAT": "258",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -14170,7 +14148,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "197",
       "DISCIPLINE": "T",
-      "RANG_NAT": "271",
+      "RANG_NAT": "273",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -14192,7 +14170,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "196",
       "DISCIPLINE": "T",
-      "RANG_NAT": "274",
+      "RANG_NAT": "275",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -14214,7 +14192,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "196",
       "DISCIPLINE": "T",
-      "RANG_NAT": "276",
+      "RANG_NAT": "277",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -14236,7 +14214,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "192",
       "DISCIPLINE": "T",
-      "RANG_NAT": "282",
+      "RANG_NAT": "281",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -14258,7 +14236,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "188",
       "DISCIPLINE": "T",
-      "RANG_NAT": "294",
+      "RANG_NAT": "295",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -14280,7 +14258,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "176",
       "DISCIPLINE": "T",
-      "RANG_NAT": "327",
+      "RANG_NAT": "328",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -14302,7 +14280,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "165",
       "DISCIPLINE": "T",
-      "RANG_NAT": "356",
+      "RANG_NAT": "360",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -14324,7 +14302,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "163",
       "DISCIPLINE": "T",
-      "RANG_NAT": "363",
+      "RANG_NAT": "367",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -14346,7 +14324,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "163",
       "DISCIPLINE": "T",
-      "RANG_NAT": "364",
+      "RANG_NAT": "368",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -14368,7 +14346,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "160",
       "DISCIPLINE": "T",
-      "RANG_NAT": "369",
+      "RANG_NAT": "374",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -14390,7 +14368,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "150",
       "DISCIPLINE": "T",
-      "RANG_NAT": "383",
+      "RANG_NAT": "386",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -14412,7 +14390,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "142",
       "DISCIPLINE": "T",
-      "RANG_NAT": "394",
+      "RANG_NAT": "397",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -14544,7 +14522,7 @@
       "SCORE3": "511",
       "MOY_SCORE": "544",
       "DISCIPLINE": "T",
-      "RANG_NAT": "74",
+      "RANG_NAT": "75",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -14566,7 +14544,7 @@
       "SCORE3": "483",
       "MOY_SCORE": "532",
       "DISCIPLINE": "T",
-      "RANG_NAT": "82",
+      "RANG_NAT": "83",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -14588,7 +14566,7 @@
       "SCORE3": "510",
       "MOY_SCORE": "521",
       "DISCIPLINE": "T",
-      "RANG_NAT": "92",
+      "RANG_NAT": "93",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -14610,7 +14588,7 @@
       "SCORE3": "456",
       "MOY_SCORE": "500",
       "DISCIPLINE": "T",
-      "RANG_NAT": "105",
+      "RANG_NAT": "106",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -14632,7 +14610,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "363",
       "DISCIPLINE": "T",
-      "RANG_NAT": "127",
+      "RANG_NAT": "128",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -14654,7 +14632,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "340",
       "DISCIPLINE": "T",
-      "RANG_NAT": "132",
+      "RANG_NAT": "133",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -14676,7 +14654,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "303",
       "DISCIPLINE": "T",
-      "RANG_NAT": "138",
+      "RANG_NAT": "139",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -14698,7 +14676,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "261",
       "DISCIPLINE": "T",
-      "RANG_NAT": "146",
+      "RANG_NAT": "147",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -15204,7 +15182,7 @@
       "SCORE3": "523",
       "MOY_SCORE": "536",
       "DISCIPLINE": "T",
-      "RANG_NAT": "119",
+      "RANG_NAT": "120",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -15226,7 +15204,7 @@
       "SCORE3": "492",
       "MOY_SCORE": "522",
       "DISCIPLINE": "T",
-      "RANG_NAT": "127",
+      "RANG_NAT": "128",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -15622,7 +15600,7 @@
       "SCORE3": "553",
       "MOY_SCORE": "562",
       "DISCIPLINE": "T",
-      "RANG_NAT": "65",
+      "RANG_NAT": "66",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -15644,7 +15622,7 @@
       "SCORE3": "452",
       "MOY_SCORE": "467",
       "DISCIPLINE": "T",
-      "RANG_NAT": "133",
+      "RANG_NAT": "136",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -15666,7 +15644,7 @@
       "SCORE3": "426",
       "MOY_SCORE": "447",
       "DISCIPLINE": "T",
-      "RANG_NAT": "141",
+      "RANG_NAT": "143",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -15688,7 +15666,7 @@
       "SCORE3": "326",
       "MOY_SCORE": "395",
       "DISCIPLINE": "T",
-      "RANG_NAT": "150",
+      "RANG_NAT": "152",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -15710,7 +15688,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "372",
       "DISCIPLINE": "T",
-      "RANG_NAT": "155",
+      "RANG_NAT": "157",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -15732,7 +15710,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "364",
       "DISCIPLINE": "T",
-      "RANG_NAT": "156",
+      "RANG_NAT": "158",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -15754,7 +15732,7 @@
       "SCORE3": "243",
       "MOY_SCORE": "358",
       "DISCIPLINE": "T",
-      "RANG_NAT": "159",
+      "RANG_NAT": "161",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -15776,7 +15754,7 @@
       "SCORE3": "302",
       "MOY_SCORE": "318",
       "DISCIPLINE": "T",
-      "RANG_NAT": "169",
+      "RANG_NAT": "170",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -15952,7 +15930,7 @@
       "SCORE3": "472",
       "MOY_SCORE": "502",
       "DISCIPLINE": "T",
-      "RANG_NAT": "66",
+      "RANG_NAT": "67",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -15974,7 +15952,7 @@
       "SCORE3": "474",
       "MOY_SCORE": "502",
       "DISCIPLINE": "T",
-      "RANG_NAT": "68",
+      "RANG_NAT": "69",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -15996,7 +15974,7 @@
       "SCORE3": "442",
       "MOY_SCORE": "471",
       "DISCIPLINE": "T",
-      "RANG_NAT": "86",
+      "RANG_NAT": "87",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -16018,7 +15996,7 @@
       "SCORE3": "462",
       "MOY_SCORE": "470",
       "DISCIPLINE": "T",
-      "RANG_NAT": "87",
+      "RANG_NAT": "88",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -16040,7 +16018,7 @@
       "SCORE3": "337",
       "MOY_SCORE": "461",
       "DISCIPLINE": "T",
-      "RANG_NAT": "94",
+      "RANG_NAT": "95",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -16062,7 +16040,7 @@
       "SCORE3": "371",
       "MOY_SCORE": "387",
       "DISCIPLINE": "T",
-      "RANG_NAT": "122",
+      "RANG_NAT": "123",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -16084,7 +16062,7 @@
       "SCORE3": "306",
       "MOY_SCORE": "355",
       "DISCIPLINE": "T",
-      "RANG_NAT": "133",
+      "RANG_NAT": "134",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -16238,7 +16216,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "342",
       "DISCIPLINE": "T",
-      "RANG_NAT": "119",
+      "RANG_NAT": "121",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -16260,7 +16238,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "301",
       "DISCIPLINE": "T",
-      "RANG_NAT": "133",
+      "RANG_NAT": "134",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -16282,7 +16260,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "240",
       "DISCIPLINE": "T",
-      "RANG_NAT": "161",
+      "RANG_NAT": "162",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -16436,7 +16414,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "315",
       "DISCIPLINE": "T",
-      "RANG_NAT": "131",
+      "RANG_NAT": "132",
       "_classement_nom": "U13 Homme Arc Classique 2026"
     },
     {
@@ -16458,7 +16436,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "315",
       "DISCIPLINE": "T",
-      "RANG_NAT": "132",
+      "RANG_NAT": "133",
       "_classement_nom": "U13 Homme Arc Classique 2026"
     },
     {
@@ -16480,7 +16458,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "235",
       "DISCIPLINE": "T",
-      "RANG_NAT": "159",
+      "RANG_NAT": "160",
       "_classement_nom": "U13 Homme Arc Classique 2026"
     },
     {
@@ -16568,7 +16546,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "83",
       "DISCIPLINE": "T",
-      "RANG_NAT": "223",
+      "RANG_NAT": "225",
       "_classement_nom": "U13 Homme Arc Classique 2026"
     },
     {
@@ -16590,7 +16568,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "64",
       "DISCIPLINE": "T",
-      "RANG_NAT": "228",
+      "RANG_NAT": "230",
       "_classement_nom": "U13 Homme Arc Classique 2026"
     },
     {
@@ -16722,7 +16700,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "99",
       "DISCIPLINE": "T",
-      "RANG_NAT": "162",
+      "RANG_NAT": "164",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
     {
@@ -16744,7 +16722,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "92",
       "DISCIPLINE": "T",
-      "RANG_NAT": "165",
+      "RANG_NAT": "167",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
     {
@@ -16766,7 +16744,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "77",
       "DISCIPLINE": "T",
-      "RANG_NAT": "170",
+      "RANG_NAT": "172",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
     {
@@ -16810,7 +16788,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "481",
       "DISCIPLINE": "T",
-      "RANG_NAT": "56",
+      "RANG_NAT": "57",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
     {
@@ -16832,7 +16810,7 @@
       "SCORE3": "437",
       "MOY_SCORE": "480",
       "DISCIPLINE": "T",
-      "RANG_NAT": "57",
+      "RANG_NAT": "58",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
     {
@@ -16854,7 +16832,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "450",
       "DISCIPLINE": "T",
-      "RANG_NAT": "77",
+      "RANG_NAT": "78",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
     {
@@ -16876,7 +16854,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "446",
       "DISCIPLINE": "T",
-      "RANG_NAT": "80",
+      "RANG_NAT": "81",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
     {
@@ -16898,7 +16876,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "216",
       "DISCIPLINE": "T",
-      "RANG_NAT": "128",
+      "RANG_NAT": "129",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
     {
@@ -17030,7 +17008,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "275",
       "DISCIPLINE": "T",
-      "RANG_NAT": "152",
+      "RANG_NAT": "151",
       "_classement_nom": "U13 Homme Arc Classique 2026"
     },
     {
@@ -17074,7 +17052,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "531",
       "DISCIPLINE": "T",
-      "RANG_NAT": "24",
+      "RANG_NAT": "25",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -17118,7 +17096,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "501",
       "DISCIPLINE": "T",
-      "RANG_NAT": "37",
+      "RANG_NAT": "38",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -17140,7 +17118,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "499",
       "DISCIPLINE": "T",
-      "RANG_NAT": "39",
+      "RANG_NAT": "40",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -17162,7 +17140,7 @@
       "SCORE3": "433",
       "MOY_SCORE": "459",
       "DISCIPLINE": "T",
-      "RANG_NAT": "67",
+      "RANG_NAT": "68",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -17184,7 +17162,7 @@
       "SCORE3": "391",
       "MOY_SCORE": "447",
       "DISCIPLINE": "T",
-      "RANG_NAT": "75",
+      "RANG_NAT": "76",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -17206,7 +17184,7 @@
       "SCORE3": "405",
       "MOY_SCORE": "430",
       "DISCIPLINE": "T",
-      "RANG_NAT": "84",
+      "RANG_NAT": "85",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -17228,7 +17206,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "402",
       "DISCIPLINE": "T",
-      "RANG_NAT": "100",
+      "RANG_NAT": "101",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -17250,7 +17228,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "378",
       "DISCIPLINE": "T",
-      "RANG_NAT": "111",
+      "RANG_NAT": "112",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -17272,7 +17250,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "354",
       "DISCIPLINE": "T",
-      "RANG_NAT": "126",
+      "RANG_NAT": "128",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -17294,7 +17272,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "321",
       "DISCIPLINE": "T",
-      "RANG_NAT": "143",
+      "RANG_NAT": "144",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -17316,7 +17294,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "289",
       "DISCIPLINE": "T",
-      "RANG_NAT": "150",
+      "RANG_NAT": "151",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -17338,7 +17316,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "264",
       "DISCIPLINE": "T",
-      "RANG_NAT": "158",
+      "RANG_NAT": "160",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -17360,7 +17338,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "119",
       "DISCIPLINE": "T",
-      "RANG_NAT": "169",
+      "RANG_NAT": "171",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -17514,7 +17492,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "500",
       "DISCIPLINE": "T",
-      "RANG_NAT": "55",
+      "RANG_NAT": "56",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -17536,7 +17514,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "499",
       "DISCIPLINE": "T",
-      "RANG_NAT": "56",
+      "RANG_NAT": "57",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -17558,7 +17536,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "496",
       "DISCIPLINE": "T",
-      "RANG_NAT": "58",
+      "RANG_NAT": "59",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -17580,7 +17558,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "485",
       "DISCIPLINE": "T",
-      "RANG_NAT": "66",
+      "RANG_NAT": "67",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -17602,7 +17580,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "481",
       "DISCIPLINE": "T",
-      "RANG_NAT": "69",
+      "RANG_NAT": "70",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -17624,7 +17602,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "453",
       "DISCIPLINE": "T",
-      "RANG_NAT": "90",
+      "RANG_NAT": "91",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -17646,7 +17624,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "425",
       "DISCIPLINE": "T",
-      "RANG_NAT": "104",
+      "RANG_NAT": "105",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -17668,7 +17646,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "371",
       "DISCIPLINE": "T",
-      "RANG_NAT": "135",
+      "RANG_NAT": "137",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -17690,7 +17668,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "333",
       "DISCIPLINE": "T",
-      "RANG_NAT": "153",
+      "RANG_NAT": "154",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -17712,7 +17690,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "310",
       "DISCIPLINE": "T",
-      "RANG_NAT": "158",
+      "RANG_NAT": "159",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -17734,7 +17712,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "307",
       "DISCIPLINE": "T",
-      "RANG_NAT": "161",
+      "RANG_NAT": "162",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -18240,7 +18218,7 @@
       "SCORE3": "508",
       "MOY_SCORE": "515",
       "DISCIPLINE": "T",
-      "RANG_NAT": "94",
+      "RANG_NAT": "95",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -18262,7 +18240,7 @@
       "SCORE3": "484",
       "MOY_SCORE": "513",
       "DISCIPLINE": "T",
-      "RANG_NAT": "97",
+      "RANG_NAT": "98",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -18284,7 +18262,7 @@
       "SCORE3": "487",
       "MOY_SCORE": "500",
       "DISCIPLINE": "T",
-      "RANG_NAT": "116",
+      "RANG_NAT": "117",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -18306,7 +18284,7 @@
       "SCORE3": "477",
       "MOY_SCORE": "495",
       "DISCIPLINE": "T",
-      "RANG_NAT": "123",
+      "RANG_NAT": "124",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -18328,7 +18306,7 @@
       "SCORE3": "424",
       "MOY_SCORE": "493",
       "DISCIPLINE": "T",
-      "RANG_NAT": "126",
+      "RANG_NAT": "127",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -18350,7 +18328,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "493",
       "DISCIPLINE": "T",
-      "RANG_NAT": "128",
+      "RANG_NAT": "129",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -18372,7 +18350,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "491",
       "DISCIPLINE": "T",
-      "RANG_NAT": "130",
+      "RANG_NAT": "131",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -18394,7 +18372,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "473",
       "DISCIPLINE": "T",
-      "RANG_NAT": "152",
+      "RANG_NAT": "153",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -18416,7 +18394,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "432",
       "DISCIPLINE": "T",
-      "RANG_NAT": "169",
+      "RANG_NAT": "170",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -18438,7 +18416,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "425",
       "DISCIPLINE": "T",
-      "RANG_NAT": "173",
+      "RANG_NAT": "174",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -18460,7 +18438,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "424",
       "DISCIPLINE": "T",
-      "RANG_NAT": "175",
+      "RANG_NAT": "176",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -18482,7 +18460,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "409",
       "DISCIPLINE": "T",
-      "RANG_NAT": "186",
+      "RANG_NAT": "187",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -18504,7 +18482,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "366",
       "DISCIPLINE": "T",
-      "RANG_NAT": "204",
+      "RANG_NAT": "205",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -18526,7 +18504,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "302",
       "DISCIPLINE": "T",
-      "RANG_NAT": "222",
+      "RANG_NAT": "223",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -18856,7 +18834,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "339",
       "DISCIPLINE": "T",
-      "RANG_NAT": "149",
+      "RANG_NAT": "150",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -18878,7 +18856,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "336",
       "DISCIPLINE": "T",
-      "RANG_NAT": "150",
+      "RANG_NAT": "151",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -18900,7 +18878,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "330",
       "DISCIPLINE": "T",
-      "RANG_NAT": "154",
+      "RANG_NAT": "155",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -18922,7 +18900,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "319",
       "DISCIPLINE": "T",
-      "RANG_NAT": "157",
+      "RANG_NAT": "158",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -18944,7 +18922,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "251",
       "DISCIPLINE": "T",
-      "RANG_NAT": "193",
+      "RANG_NAT": "195",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -18966,7 +18944,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "225",
       "DISCIPLINE": "T",
-      "RANG_NAT": "198",
+      "RANG_NAT": "200",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -18988,7 +18966,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "204",
       "DISCIPLINE": "T",
-      "RANG_NAT": "200",
+      "RANG_NAT": "202",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -19010,7 +18988,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "195",
       "DISCIPLINE": "T",
-      "RANG_NAT": "202",
+      "RANG_NAT": "204",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -19032,7 +19010,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "188",
       "DISCIPLINE": "T",
-      "RANG_NAT": "211",
+      "RANG_NAT": "213",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -19054,7 +19032,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "176",
       "DISCIPLINE": "T",
-      "RANG_NAT": "220",
+      "RANG_NAT": "221",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -19076,7 +19054,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "170",
       "DISCIPLINE": "T",
-      "RANG_NAT": "229",
+      "RANG_NAT": "230",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -19098,7 +19076,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "167",
       "DISCIPLINE": "T",
-      "RANG_NAT": "234",
+      "RANG_NAT": "235",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -19120,7 +19098,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "166",
       "DISCIPLINE": "T",
-      "RANG_NAT": "235",
+      "RANG_NAT": "236",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -19142,7 +19120,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "165",
       "DISCIPLINE": "T",
-      "RANG_NAT": "238",
+      "RANG_NAT": "239",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -19164,7 +19142,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "161",
       "DISCIPLINE": "T",
-      "RANG_NAT": "249",
+      "RANG_NAT": "250",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -19186,7 +19164,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "151",
       "DISCIPLINE": "T",
-      "RANG_NAT": "269",
+      "RANG_NAT": "272",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -19208,7 +19186,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "143",
       "DISCIPLINE": "T",
-      "RANG_NAT": "286",
+      "RANG_NAT": "287",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -19230,7 +19208,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "122",
       "DISCIPLINE": "T",
-      "RANG_NAT": "309",
+      "RANG_NAT": "310",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -19252,7 +19230,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "96",
       "DISCIPLINE": "T",
-      "RANG_NAT": "326",
+      "RANG_NAT": "328",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -19604,7 +19582,7 @@
       "SCORE3": "675",
       "MOY_SCORE": "679",
       "DISCIPLINE": "T",
-      "RANG_NAT": "89",
+      "RANG_NAT": "90",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -19626,7 +19604,7 @@
       "SCORE3": "674",
       "MOY_SCORE": "677",
       "DISCIPLINE": "T",
-      "RANG_NAT": "104",
+      "RANG_NAT": "106",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -19648,7 +19626,7 @@
       "SCORE3": "675",
       "MOY_SCORE": "676",
       "DISCIPLINE": "T",
-      "RANG_NAT": "107",
+      "RANG_NAT": "109",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -19670,7 +19648,7 @@
       "SCORE3": "668",
       "MOY_SCORE": "674",
       "DISCIPLINE": "T",
-      "RANG_NAT": "116",
+      "RANG_NAT": "118",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -19692,7 +19670,7 @@
       "SCORE3": "668",
       "MOY_SCORE": "674",
       "DISCIPLINE": "T",
-      "RANG_NAT": "118",
+      "RANG_NAT": "120",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -19714,7 +19692,7 @@
       "SCORE3": "673",
       "MOY_SCORE": "673",
       "DISCIPLINE": "T",
-      "RANG_NAT": "120",
+      "RANG_NAT": "122",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -19736,7 +19714,7 @@
       "SCORE3": "670",
       "MOY_SCORE": "673",
       "DISCIPLINE": "T",
-      "RANG_NAT": "124",
+      "RANG_NAT": "126",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -19758,7 +19736,7 @@
       "SCORE3": "662",
       "MOY_SCORE": "671",
       "DISCIPLINE": "T",
-      "RANG_NAT": "128",
+      "RANG_NAT": "130",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -19780,7 +19758,7 @@
       "SCORE3": "663",
       "MOY_SCORE": "671",
       "DISCIPLINE": "T",
-      "RANG_NAT": "133",
+      "RANG_NAT": "135",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -19802,7 +19780,7 @@
       "SCORE3": "668",
       "MOY_SCORE": "670",
       "DISCIPLINE": "T",
-      "RANG_NAT": "141",
+      "RANG_NAT": "143",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -19824,7 +19802,7 @@
       "SCORE3": "664",
       "MOY_SCORE": "669",
       "DISCIPLINE": "T",
-      "RANG_NAT": "149",
+      "RANG_NAT": "151",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -19846,7 +19824,7 @@
       "SCORE3": "661",
       "MOY_SCORE": "668",
       "DISCIPLINE": "T",
-      "RANG_NAT": "152",
+      "RANG_NAT": "154",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -19868,7 +19846,7 @@
       "SCORE3": "665",
       "MOY_SCORE": "668",
       "DISCIPLINE": "T",
-      "RANG_NAT": "153",
+      "RANG_NAT": "155",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -19890,7 +19868,7 @@
       "SCORE3": "660",
       "MOY_SCORE": "666",
       "DISCIPLINE": "T",
-      "RANG_NAT": "174",
+      "RANG_NAT": "176",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -19912,7 +19890,7 @@
       "SCORE3": "661",
       "MOY_SCORE": "663",
       "DISCIPLINE": "T",
-      "RANG_NAT": "205",
+      "RANG_NAT": "207",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -19934,7 +19912,7 @@
       "SCORE3": "657",
       "MOY_SCORE": "661",
       "DISCIPLINE": "T",
-      "RANG_NAT": "214",
+      "RANG_NAT": "217",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -19956,7 +19934,7 @@
       "SCORE3": "659",
       "MOY_SCORE": "659",
       "DISCIPLINE": "T",
-      "RANG_NAT": "219",
+      "RANG_NAT": "222",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -19978,7 +19956,7 @@
       "SCORE3": "649",
       "MOY_SCORE": "654",
       "DISCIPLINE": "T",
-      "RANG_NAT": "250",
+      "RANG_NAT": "253",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20000,7 +19978,7 @@
       "SCORE3": "641",
       "MOY_SCORE": "654",
       "DISCIPLINE": "T",
-      "RANG_NAT": "253",
+      "RANG_NAT": "256",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20022,7 +20000,7 @@
       "SCORE3": "635",
       "MOY_SCORE": "650",
       "DISCIPLINE": "T",
-      "RANG_NAT": "280",
+      "RANG_NAT": "284",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20044,7 +20022,7 @@
       "SCORE3": "645",
       "MOY_SCORE": "647",
       "DISCIPLINE": "T",
-      "RANG_NAT": "297",
+      "RANG_NAT": "301",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20066,7 +20044,7 @@
       "SCORE3": "639",
       "MOY_SCORE": "645",
       "DISCIPLINE": "T",
-      "RANG_NAT": "311",
+      "RANG_NAT": "314",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20088,7 +20066,7 @@
       "SCORE3": "630",
       "MOY_SCORE": "644",
       "DISCIPLINE": "T",
-      "RANG_NAT": "321",
+      "RANG_NAT": "324",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20110,7 +20088,7 @@
       "SCORE3": "631",
       "MOY_SCORE": "640",
       "DISCIPLINE": "T",
-      "RANG_NAT": "347",
+      "RANG_NAT": "352",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20132,7 +20110,7 @@
       "SCORE3": "626",
       "MOY_SCORE": "637",
       "DISCIPLINE": "T",
-      "RANG_NAT": "363",
+      "RANG_NAT": "369",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20154,7 +20132,7 @@
       "SCORE3": "627",
       "MOY_SCORE": "635",
       "DISCIPLINE": "T",
-      "RANG_NAT": "386",
+      "RANG_NAT": "391",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20176,7 +20154,7 @@
       "SCORE3": "604",
       "MOY_SCORE": "624",
       "DISCIPLINE": "T",
-      "RANG_NAT": "443",
+      "RANG_NAT": "448",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20198,7 +20176,7 @@
       "SCORE3": "614",
       "MOY_SCORE": "623",
       "DISCIPLINE": "T",
-      "RANG_NAT": "449",
+      "RANG_NAT": "454",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20220,7 +20198,7 @@
       "SCORE3": "519",
       "MOY_SCORE": "530",
       "DISCIPLINE": "T",
-      "RANG_NAT": "578",
+      "RANG_NAT": "585",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20242,7 +20220,7 @@
       "SCORE3": "447",
       "MOY_SCORE": "525",
       "DISCIPLINE": "T",
-      "RANG_NAT": "580",
+      "RANG_NAT": "587",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20264,7 +20242,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "453",
       "DISCIPLINE": "T",
-      "RANG_NAT": "606",
+      "RANG_NAT": "613",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20286,7 +20264,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "447",
       "DISCIPLINE": "T",
-      "RANG_NAT": "617",
+      "RANG_NAT": "624",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20308,7 +20286,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "445",
       "DISCIPLINE": "T",
-      "RANG_NAT": "627",
+      "RANG_NAT": "634",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20330,7 +20308,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "443",
       "DISCIPLINE": "T",
-      "RANG_NAT": "637",
+      "RANG_NAT": "644",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20352,7 +20330,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "442",
       "DISCIPLINE": "T",
-      "RANG_NAT": "640",
+      "RANG_NAT": "647",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20374,7 +20352,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "437",
       "DISCIPLINE": "T",
-      "RANG_NAT": "662",
+      "RANG_NAT": "668",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20396,7 +20374,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "429",
       "DISCIPLINE": "T",
-      "RANG_NAT": "692",
+      "RANG_NAT": "699",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20418,7 +20396,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "428",
       "DISCIPLINE": "T",
-      "RANG_NAT": "696",
+      "RANG_NAT": "703",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20440,7 +20418,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "426",
       "DISCIPLINE": "T",
-      "RANG_NAT": "715",
+      "RANG_NAT": "720",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20462,7 +20440,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "426",
       "DISCIPLINE": "T",
-      "RANG_NAT": "717",
+      "RANG_NAT": "722",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20484,7 +20462,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "425",
       "DISCIPLINE": "T",
-      "RANG_NAT": "720",
+      "RANG_NAT": "725",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20506,7 +20484,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "418",
       "DISCIPLINE": "T",
-      "RANG_NAT": "750",
+      "RANG_NAT": "755",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20528,7 +20506,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "415",
       "DISCIPLINE": "T",
-      "RANG_NAT": "763",
+      "RANG_NAT": "767",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20550,7 +20528,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "414",
       "DISCIPLINE": "T",
-      "RANG_NAT": "769",
+      "RANG_NAT": "773",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20572,7 +20550,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "407",
       "DISCIPLINE": "T",
-      "RANG_NAT": "801",
+      "RANG_NAT": "804",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20594,7 +20572,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "397",
       "DISCIPLINE": "T",
-      "RANG_NAT": "840",
+      "RANG_NAT": "843",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20616,7 +20594,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "397",
       "DISCIPLINE": "T",
-      "RANG_NAT": "841",
+      "RANG_NAT": "844",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20638,7 +20616,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "395",
       "DISCIPLINE": "T",
-      "RANG_NAT": "845",
+      "RANG_NAT": "848",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20660,7 +20638,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "394",
       "DISCIPLINE": "T",
-      "RANG_NAT": "851",
+      "RANG_NAT": "854",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20682,7 +20660,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "390",
       "DISCIPLINE": "T",
-      "RANG_NAT": "860",
+      "RANG_NAT": "863",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20704,7 +20682,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "383",
       "DISCIPLINE": "T",
-      "RANG_NAT": "876",
+      "RANG_NAT": "881",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20726,7 +20704,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "231",
       "DISCIPLINE": "T",
-      "RANG_NAT": "934",
+      "RANG_NAT": "939",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20748,7 +20726,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "224",
       "DISCIPLINE": "T",
-      "RANG_NAT": "944",
+      "RANG_NAT": "949",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20770,7 +20748,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "221",
       "DISCIPLINE": "T",
-      "RANG_NAT": "948",
+      "RANG_NAT": "953",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20792,7 +20770,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "217",
       "DISCIPLINE": "T",
-      "RANG_NAT": "966",
+      "RANG_NAT": "970",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20814,7 +20792,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "216",
       "DISCIPLINE": "T",
-      "RANG_NAT": "969",
+      "RANG_NAT": "974",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20836,7 +20814,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "209",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1027",
+      "RANG_NAT": "1033",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20858,7 +20836,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "207",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1044",
+      "RANG_NAT": "1047",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20880,7 +20858,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "207",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1049",
+      "RANG_NAT": "1056",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20902,7 +20880,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "199",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1126",
+      "RANG_NAT": "1130",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20946,7 +20924,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "193",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1162",
+      "RANG_NAT": "1164",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20968,7 +20946,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "189",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1174",
+      "RANG_NAT": "1177",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -20990,7 +20968,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "176",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1210",
+      "RANG_NAT": "1213",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -21012,7 +20990,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "167",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1222",
+      "RANG_NAT": "1225",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -21034,7 +21012,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "165",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1224",
+      "RANG_NAT": "1227",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -21056,7 +21034,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "159",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1234",
+      "RANG_NAT": "1237",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -21078,7 +21056,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "133",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1251",
+      "RANG_NAT": "1254",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -21100,7 +21078,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "74",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1261",
+      "RANG_NAT": "1264",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -21276,7 +21254,7 @@
       "SCORE3": "618",
       "MOY_SCORE": "626",
       "DISCIPLINE": "T",
-      "RANG_NAT": "96",
+      "RANG_NAT": "97",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -21298,7 +21276,7 @@
       "SCORE3": "601",
       "MOY_SCORE": "622",
       "DISCIPLINE": "T",
-      "RANG_NAT": "103",
+      "RANG_NAT": "104",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -21320,7 +21298,7 @@
       "SCORE3": "605",
       "MOY_SCORE": "620",
       "DISCIPLINE": "T",
-      "RANG_NAT": "111",
+      "RANG_NAT": "113",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -21342,7 +21320,7 @@
       "SCORE3": "570",
       "MOY_SCORE": "608",
       "DISCIPLINE": "T",
-      "RANG_NAT": "131",
+      "RANG_NAT": "133",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -21364,7 +21342,7 @@
       "SCORE3": "595",
       "MOY_SCORE": "606",
       "DISCIPLINE": "T",
-      "RANG_NAT": "136",
+      "RANG_NAT": "138",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -21386,7 +21364,7 @@
       "SCORE3": "588",
       "MOY_SCORE": "590",
       "DISCIPLINE": "T",
-      "RANG_NAT": "154",
+      "RANG_NAT": "156",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -21408,7 +21386,7 @@
       "SCORE3": "574",
       "MOY_SCORE": "588",
       "DISCIPLINE": "T",
-      "RANG_NAT": "158",
+      "RANG_NAT": "160",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -21430,7 +21408,7 @@
       "SCORE3": "556",
       "MOY_SCORE": "586",
       "DISCIPLINE": "T",
-      "RANG_NAT": "161",
+      "RANG_NAT": "164",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -21452,7 +21430,7 @@
       "SCORE3": "571",
       "MOY_SCORE": "581",
       "DISCIPLINE": "T",
-      "RANG_NAT": "166",
+      "RANG_NAT": "169",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -21474,7 +21452,7 @@
       "SCORE3": "564",
       "MOY_SCORE": "573",
       "DISCIPLINE": "T",
-      "RANG_NAT": "177",
+      "RANG_NAT": "180",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -21496,7 +21474,7 @@
       "SCORE3": "527",
       "MOY_SCORE": "562",
       "DISCIPLINE": "T",
-      "RANG_NAT": "185",
+      "RANG_NAT": "188",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -21518,7 +21496,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "426",
       "DISCIPLINE": "T",
-      "RANG_NAT": "219",
+      "RANG_NAT": "222",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -21540,7 +21518,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "419",
       "DISCIPLINE": "T",
-      "RANG_NAT": "229",
+      "RANG_NAT": "232",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -21562,7 +21540,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "407",
       "DISCIPLINE": "T",
-      "RANG_NAT": "243",
+      "RANG_NAT": "245",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -21584,7 +21562,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "199",
       "DISCIPLINE": "T",
-      "RANG_NAT": "325",
+      "RANG_NAT": "327",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -21606,7 +21584,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "191",
       "DISCIPLINE": "T",
-      "RANG_NAT": "336",
+      "RANG_NAT": "338",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -21628,7 +21606,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "167",
       "DISCIPLINE": "T",
-      "RANG_NAT": "351",
+      "RANG_NAT": "353",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -21650,7 +21628,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "92",
       "DISCIPLINE": "T",
-      "RANG_NAT": "367",
+      "RANG_NAT": "368",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -21672,7 +21650,7 @@
       "SCORE3": "626",
       "MOY_SCORE": "632",
       "DISCIPLINE": "T",
-      "RANG_NAT": "52",
+      "RANG_NAT": "53",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -21694,7 +21672,7 @@
       "SCORE3": "631",
       "MOY_SCORE": "632",
       "DISCIPLINE": "T",
-      "RANG_NAT": "54",
+      "RANG_NAT": "55",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -21716,7 +21694,7 @@
       "SCORE3": "619",
       "MOY_SCORE": "629",
       "DISCIPLINE": "T",
-      "RANG_NAT": "60",
+      "RANG_NAT": "61",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -21980,7 +21958,7 @@
       "SCORE3": "596",
       "MOY_SCORE": "603",
       "DISCIPLINE": "T",
-      "RANG_NAT": "154",
+      "RANG_NAT": "155",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22002,7 +21980,7 @@
       "SCORE3": "585",
       "MOY_SCORE": "601",
       "DISCIPLINE": "T",
-      "RANG_NAT": "168",
+      "RANG_NAT": "169",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22024,7 +22002,7 @@
       "SCORE3": "594",
       "MOY_SCORE": "601",
       "DISCIPLINE": "T",
-      "RANG_NAT": "169",
+      "RANG_NAT": "170",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22046,7 +22024,7 @@
       "SCORE3": "589",
       "MOY_SCORE": "599",
       "DISCIPLINE": "T",
-      "RANG_NAT": "178",
+      "RANG_NAT": "179",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22134,7 +22112,7 @@
       "SCORE3": "582",
       "MOY_SCORE": "590",
       "DISCIPLINE": "T",
-      "RANG_NAT": "231",
+      "RANG_NAT": "232",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22156,7 +22134,7 @@
       "SCORE3": "567",
       "MOY_SCORE": "589",
       "DISCIPLINE": "T",
-      "RANG_NAT": "243",
+      "RANG_NAT": "244",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22178,7 +22156,7 @@
       "SCORE3": "588",
       "MOY_SCORE": "589",
       "DISCIPLINE": "T",
-      "RANG_NAT": "247",
+      "RANG_NAT": "248",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22200,7 +22178,7 @@
       "SCORE3": "587",
       "MOY_SCORE": "588",
       "DISCIPLINE": "T",
-      "RANG_NAT": "252",
+      "RANG_NAT": "253",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22376,7 +22354,7 @@
       "SCORE3": "566",
       "MOY_SCORE": "578",
       "DISCIPLINE": "T",
-      "RANG_NAT": "332",
+      "RANG_NAT": "333",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22398,7 +22376,7 @@
       "SCORE3": "557",
       "MOY_SCORE": "564",
       "DISCIPLINE": "T",
-      "RANG_NAT": "423",
+      "RANG_NAT": "427",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22420,7 +22398,7 @@
       "SCORE3": "551",
       "MOY_SCORE": "562",
       "DISCIPLINE": "T",
-      "RANG_NAT": "440",
+      "RANG_NAT": "444",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22442,7 +22420,7 @@
       "SCORE3": "544",
       "MOY_SCORE": "561",
       "DISCIPLINE": "T",
-      "RANG_NAT": "442",
+      "RANG_NAT": "446",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22464,7 +22442,7 @@
       "SCORE3": "546",
       "MOY_SCORE": "559",
       "DISCIPLINE": "T",
-      "RANG_NAT": "463",
+      "RANG_NAT": "467",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22486,7 +22464,7 @@
       "SCORE3": "556",
       "MOY_SCORE": "559",
       "DISCIPLINE": "T",
-      "RANG_NAT": "467",
+      "RANG_NAT": "471",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22508,7 +22486,7 @@
       "SCORE3": "535",
       "MOY_SCORE": "557",
       "DISCIPLINE": "T",
-      "RANG_NAT": "475",
+      "RANG_NAT": "479",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22530,7 +22508,7 @@
       "SCORE3": "554",
       "MOY_SCORE": "557",
       "DISCIPLINE": "T",
-      "RANG_NAT": "476",
+      "RANG_NAT": "480",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22552,7 +22530,7 @@
       "SCORE3": "553",
       "MOY_SCORE": "555",
       "DISCIPLINE": "T",
-      "RANG_NAT": "483",
+      "RANG_NAT": "487",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22574,7 +22552,7 @@
       "SCORE3": "537",
       "MOY_SCORE": "554",
       "DISCIPLINE": "T",
-      "RANG_NAT": "487",
+      "RANG_NAT": "492",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22596,7 +22574,7 @@
       "SCORE3": "544",
       "MOY_SCORE": "550",
       "DISCIPLINE": "T",
-      "RANG_NAT": "509",
+      "RANG_NAT": "516",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22618,7 +22596,7 @@
       "SCORE3": "515",
       "MOY_SCORE": "550",
       "DISCIPLINE": "T",
-      "RANG_NAT": "510",
+      "RANG_NAT": "517",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22640,7 +22618,7 @@
       "SCORE3": "535",
       "MOY_SCORE": "549",
       "DISCIPLINE": "T",
-      "RANG_NAT": "513",
+      "RANG_NAT": "520",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22662,7 +22640,7 @@
       "SCORE3": "488",
       "MOY_SCORE": "548",
       "DISCIPLINE": "T",
-      "RANG_NAT": "518",
+      "RANG_NAT": "525",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22684,7 +22662,7 @@
       "SCORE3": "500",
       "MOY_SCORE": "548",
       "DISCIPLINE": "T",
-      "RANG_NAT": "522",
+      "RANG_NAT": "529",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22706,7 +22684,7 @@
       "SCORE3": "525",
       "MOY_SCORE": "548",
       "DISCIPLINE": "T",
-      "RANG_NAT": "524",
+      "RANG_NAT": "531",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22728,7 +22706,7 @@
       "SCORE3": "523",
       "MOY_SCORE": "544",
       "DISCIPLINE": "T",
-      "RANG_NAT": "548",
+      "RANG_NAT": "556",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22750,7 +22728,7 @@
       "SCORE3": "528",
       "MOY_SCORE": "544",
       "DISCIPLINE": "T",
-      "RANG_NAT": "550",
+      "RANG_NAT": "558",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22772,7 +22750,7 @@
       "SCORE3": "511",
       "MOY_SCORE": "544",
       "DISCIPLINE": "T",
-      "RANG_NAT": "551",
+      "RANG_NAT": "559",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22794,7 +22772,7 @@
       "SCORE3": "503",
       "MOY_SCORE": "543",
       "DISCIPLINE": "T",
-      "RANG_NAT": "557",
+      "RANG_NAT": "565",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22816,7 +22794,7 @@
       "SCORE3": "533",
       "MOY_SCORE": "541",
       "DISCIPLINE": "T",
-      "RANG_NAT": "568",
+      "RANG_NAT": "576",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22838,7 +22816,7 @@
       "SCORE3": "529",
       "MOY_SCORE": "541",
       "DISCIPLINE": "T",
-      "RANG_NAT": "572",
+      "RANG_NAT": "580",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22860,7 +22838,7 @@
       "SCORE3": "515",
       "MOY_SCORE": "539",
       "DISCIPLINE": "T",
-      "RANG_NAT": "583",
+      "RANG_NAT": "591",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22882,7 +22860,7 @@
       "SCORE3": "528",
       "MOY_SCORE": "539",
       "DISCIPLINE": "T",
-      "RANG_NAT": "584",
+      "RANG_NAT": "592",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22904,7 +22882,7 @@
       "SCORE3": "526",
       "MOY_SCORE": "538",
       "DISCIPLINE": "T",
-      "RANG_NAT": "587",
+      "RANG_NAT": "595",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22926,7 +22904,7 @@
       "SCORE3": "531",
       "MOY_SCORE": "538",
       "DISCIPLINE": "T",
-      "RANG_NAT": "590",
+      "RANG_NAT": "598",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22948,7 +22926,7 @@
       "SCORE3": "525",
       "MOY_SCORE": "536",
       "DISCIPLINE": "T",
-      "RANG_NAT": "604",
+      "RANG_NAT": "612",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22970,7 +22948,7 @@
       "SCORE3": "525",
       "MOY_SCORE": "534",
       "DISCIPLINE": "T",
-      "RANG_NAT": "621",
+      "RANG_NAT": "629",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -22992,7 +22970,7 @@
       "SCORE3": "483",
       "MOY_SCORE": "532",
       "DISCIPLINE": "T",
-      "RANG_NAT": "631",
+      "RANG_NAT": "638",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23014,7 +22992,7 @@
       "SCORE3": "502",
       "MOY_SCORE": "529",
       "DISCIPLINE": "T",
-      "RANG_NAT": "653",
+      "RANG_NAT": "660",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23036,7 +23014,7 @@
       "SCORE3": "505",
       "MOY_SCORE": "526",
       "DISCIPLINE": "T",
-      "RANG_NAT": "681",
+      "RANG_NAT": "687",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23058,7 +23036,7 @@
       "SCORE3": "511",
       "MOY_SCORE": "524",
       "DISCIPLINE": "T",
-      "RANG_NAT": "698",
+      "RANG_NAT": "704",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23080,7 +23058,7 @@
       "SCORE3": "510",
       "MOY_SCORE": "521",
       "DISCIPLINE": "T",
-      "RANG_NAT": "715",
+      "RANG_NAT": "721",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23102,7 +23080,7 @@
       "SCORE3": "488",
       "MOY_SCORE": "517",
       "DISCIPLINE": "T",
-      "RANG_NAT": "741",
+      "RANG_NAT": "747",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23124,7 +23102,7 @@
       "SCORE3": "503",
       "MOY_SCORE": "514",
       "DISCIPLINE": "T",
-      "RANG_NAT": "755",
+      "RANG_NAT": "762",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23146,7 +23124,7 @@
       "SCORE3": "473",
       "MOY_SCORE": "514",
       "DISCIPLINE": "T",
-      "RANG_NAT": "756",
+      "RANG_NAT": "763",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23168,7 +23146,7 @@
       "SCORE3": "492",
       "MOY_SCORE": "505",
       "DISCIPLINE": "T",
-      "RANG_NAT": "803",
+      "RANG_NAT": "811",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23190,7 +23168,7 @@
       "SCORE3": "456",
       "MOY_SCORE": "500",
       "DISCIPLINE": "T",
-      "RANG_NAT": "825",
+      "RANG_NAT": "833",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23212,7 +23190,7 @@
       "SCORE3": "457",
       "MOY_SCORE": "498",
       "DISCIPLINE": "T",
-      "RANG_NAT": "831",
+      "RANG_NAT": "838",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23234,7 +23212,7 @@
       "SCORE3": "481",
       "MOY_SCORE": "493",
       "DISCIPLINE": "T",
-      "RANG_NAT": "859",
+      "RANG_NAT": "866",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23256,7 +23234,7 @@
       "SCORE3": "448",
       "MOY_SCORE": "489",
       "DISCIPLINE": "T",
-      "RANG_NAT": "876",
+      "RANG_NAT": "883",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23278,7 +23256,7 @@
       "SCORE3": "460",
       "MOY_SCORE": "484",
       "DISCIPLINE": "T",
-      "RANG_NAT": "888",
+      "RANG_NAT": "895",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23300,7 +23278,7 @@
       "SCORE3": "473",
       "MOY_SCORE": "484",
       "DISCIPLINE": "T",
-      "RANG_NAT": "893",
+      "RANG_NAT": "900",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23322,7 +23300,7 @@
       "SCORE3": "442",
       "MOY_SCORE": "483",
       "DISCIPLINE": "T",
-      "RANG_NAT": "896",
+      "RANG_NAT": "903",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23344,7 +23322,7 @@
       "SCORE3": "464",
       "MOY_SCORE": "482",
       "DISCIPLINE": "T",
-      "RANG_NAT": "898",
+      "RANG_NAT": "905",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23366,7 +23344,7 @@
       "SCORE3": "448",
       "MOY_SCORE": "476",
       "DISCIPLINE": "T",
-      "RANG_NAT": "915",
+      "RANG_NAT": "922",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23388,7 +23366,7 @@
       "SCORE3": "453",
       "MOY_SCORE": "474",
       "DISCIPLINE": "T",
-      "RANG_NAT": "921",
+      "RANG_NAT": "928",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23410,7 +23388,7 @@
       "SCORE3": "418",
       "MOY_SCORE": "473",
       "DISCIPLINE": "T",
-      "RANG_NAT": "928",
+      "RANG_NAT": "935",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23432,7 +23410,7 @@
       "SCORE3": "448",
       "MOY_SCORE": "468",
       "DISCIPLINE": "T",
-      "RANG_NAT": "940",
+      "RANG_NAT": "947",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23454,7 +23432,7 @@
       "SCORE3": "457",
       "MOY_SCORE": "468",
       "DISCIPLINE": "T",
-      "RANG_NAT": "942",
+      "RANG_NAT": "949",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23476,7 +23454,7 @@
       "SCORE3": "445",
       "MOY_SCORE": "467",
       "DISCIPLINE": "T",
-      "RANG_NAT": "943",
+      "RANG_NAT": "950",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23498,7 +23476,7 @@
       "SCORE3": "441",
       "MOY_SCORE": "467",
       "DISCIPLINE": "T",
-      "RANG_NAT": "944",
+      "RANG_NAT": "951",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23520,7 +23498,7 @@
       "SCORE3": "433",
       "MOY_SCORE": "465",
       "DISCIPLINE": "T",
-      "RANG_NAT": "948",
+      "RANG_NAT": "955",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23542,7 +23520,7 @@
       "SCORE3": "420",
       "MOY_SCORE": "458",
       "DISCIPLINE": "T",
-      "RANG_NAT": "967",
+      "RANG_NAT": "974",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23564,7 +23542,7 @@
       "SCORE3": "414",
       "MOY_SCORE": "445",
       "DISCIPLINE": "T",
-      "RANG_NAT": "992",
+      "RANG_NAT": "999",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23586,7 +23564,7 @@
       "SCORE3": "390",
       "MOY_SCORE": "443",
       "DISCIPLINE": "T",
-      "RANG_NAT": "996",
+      "RANG_NAT": "1003",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23608,7 +23586,7 @@
       "SCORE3": "401",
       "MOY_SCORE": "436",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1008",
+      "RANG_NAT": "1015",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23630,7 +23608,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "399",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1070",
+      "RANG_NAT": "1077",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23652,7 +23630,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "388",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1099",
+      "RANG_NAT": "1106",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23674,7 +23652,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "381",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1120",
+      "RANG_NAT": "1125",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23696,7 +23674,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "380",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1126",
+      "RANG_NAT": "1130",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23718,7 +23696,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "378",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1130",
+      "RANG_NAT": "1134",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23740,7 +23718,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "366",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1172",
+      "RANG_NAT": "1173",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23762,7 +23740,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "366",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1176",
+      "RANG_NAT": "1178",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23784,7 +23762,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "363",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1185",
+      "RANG_NAT": "1187",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23806,7 +23784,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "360",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1199",
+      "RANG_NAT": "1201",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23828,7 +23806,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "359",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1204",
+      "RANG_NAT": "1206",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23850,7 +23828,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "357",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1208",
+      "RANG_NAT": "1210",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23872,7 +23850,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "357",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1214",
+      "RANG_NAT": "1216",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23894,7 +23872,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "357",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1215",
+      "RANG_NAT": "1217",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23916,7 +23894,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "353",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1227",
+      "RANG_NAT": "1229",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23938,7 +23916,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "351",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1245",
+      "RANG_NAT": "1247",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23960,7 +23938,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "350",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1251",
+      "RANG_NAT": "1253",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -23982,7 +23960,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "340",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1291",
+      "RANG_NAT": "1293",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24004,7 +23982,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "340",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1292",
+      "RANG_NAT": "1294",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24026,7 +24004,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "340",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1294",
+      "RANG_NAT": "1296",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24048,7 +24026,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "333",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1316",
+      "RANG_NAT": "1318",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24070,7 +24048,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "333",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1319",
+      "RANG_NAT": "1320",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24092,7 +24070,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "323",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1371",
+      "RANG_NAT": "1374",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24114,7 +24092,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "320",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1382",
+      "RANG_NAT": "1385",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24136,7 +24114,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "320",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1385",
+      "RANG_NAT": "1388",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24158,7 +24136,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "303",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1423",
+      "RANG_NAT": "1426",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24180,7 +24158,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "301",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1428",
+      "RANG_NAT": "1431",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24202,7 +24180,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "300",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1431",
+      "RANG_NAT": "1434",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24224,7 +24202,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "261",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1514",
+      "RANG_NAT": "1519",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24246,7 +24224,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "261",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1516",
+      "RANG_NAT": "1521",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24268,7 +24246,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "221",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1542",
+      "RANG_NAT": "1547",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24290,7 +24268,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "220",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1545",
+      "RANG_NAT": "1550",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24312,7 +24290,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "187",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1610",
+      "RANG_NAT": "1617",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24334,7 +24312,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "187",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1614",
+      "RANG_NAT": "1619",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24356,7 +24334,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "185",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1619",
+      "RANG_NAT": "1624",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24378,7 +24356,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "184",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1624",
+      "RANG_NAT": "1629",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24400,7 +24378,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "180",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1652",
+      "RANG_NAT": "1657",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24422,7 +24400,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "179",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1659",
+      "RANG_NAT": "1663",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24444,7 +24422,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "178",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1669",
+      "RANG_NAT": "1675",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24466,7 +24444,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "178",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1672",
+      "RANG_NAT": "1678",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24488,7 +24466,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "172",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1712",
+      "RANG_NAT": "1715",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24510,7 +24488,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "169",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1726",
+      "RANG_NAT": "1731",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24532,7 +24510,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "168",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1737",
+      "RANG_NAT": "1741",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24554,7 +24532,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "165",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1755",
+      "RANG_NAT": "1761",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24576,7 +24554,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "164",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1762",
+      "RANG_NAT": "1767",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24598,7 +24576,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "164",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1765",
+      "RANG_NAT": "1770",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24620,7 +24598,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "162",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1782",
+      "RANG_NAT": "1786",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24642,7 +24620,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "157",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1820",
+      "RANG_NAT": "1821",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24664,7 +24642,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "155",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1830",
+      "RANG_NAT": "1834",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24686,7 +24664,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "150",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1858",
+      "RANG_NAT": "1861",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24708,7 +24686,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "148",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1870",
+      "RANG_NAT": "1872",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24730,7 +24708,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "147",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1873",
+      "RANG_NAT": "1875",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24752,7 +24730,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "144",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1883",
+      "RANG_NAT": "1885",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24774,7 +24752,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "144",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1888",
+      "RANG_NAT": "1890",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24796,7 +24774,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "142",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1896",
+      "RANG_NAT": "1897",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24818,7 +24796,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "141",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1901",
+      "RANG_NAT": "1902",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24840,7 +24818,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "140",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1905",
+      "RANG_NAT": "1908",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24862,7 +24840,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "139",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1912",
+      "RANG_NAT": "1913",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24884,7 +24862,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "139",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1914",
+      "RANG_NAT": "1915",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24950,7 +24928,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "126",
       "DISCIPLINE": "T",
-      "RANG_NAT": "1954",
+      "RANG_NAT": "1955",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -24972,7 +24950,7 @@
       "SCORE3": "603",
       "MOY_SCORE": "616",
       "DISCIPLINE": "T",
-      "RANG_NAT": "26",
+      "RANG_NAT": "27",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -24994,7 +24972,7 @@
       "SCORE3": "559",
       "MOY_SCORE": "577",
       "DISCIPLINE": "T",
-      "RANG_NAT": "68",
+      "RANG_NAT": "69",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25016,7 +24994,7 @@
       "SCORE3": "558",
       "MOY_SCORE": "565",
       "DISCIPLINE": "T",
-      "RANG_NAT": "95",
+      "RANG_NAT": "96",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25038,7 +25016,7 @@
       "SCORE3": "562",
       "MOY_SCORE": "565",
       "DISCIPLINE": "T",
-      "RANG_NAT": "97",
+      "RANG_NAT": "98",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25060,7 +25038,7 @@
       "SCORE3": "552",
       "MOY_SCORE": "565",
       "DISCIPLINE": "T",
-      "RANG_NAT": "99",
+      "RANG_NAT": "100",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25082,7 +25060,7 @@
       "SCORE3": "554",
       "MOY_SCORE": "556",
       "DISCIPLINE": "T",
-      "RANG_NAT": "115",
+      "RANG_NAT": "116",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25104,7 +25082,7 @@
       "SCORE3": "542",
       "MOY_SCORE": "555",
       "DISCIPLINE": "T",
-      "RANG_NAT": "119",
+      "RANG_NAT": "120",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25126,7 +25104,7 @@
       "SCORE3": "540",
       "MOY_SCORE": "552",
       "DISCIPLINE": "T",
-      "RANG_NAT": "126",
+      "RANG_NAT": "127",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25148,7 +25126,7 @@
       "SCORE3": "550",
       "MOY_SCORE": "551",
       "DISCIPLINE": "T",
-      "RANG_NAT": "130",
+      "RANG_NAT": "131",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25170,7 +25148,7 @@
       "SCORE3": "542",
       "MOY_SCORE": "550",
       "DISCIPLINE": "T",
-      "RANG_NAT": "133",
+      "RANG_NAT": "134",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25192,7 +25170,7 @@
       "SCORE3": "542",
       "MOY_SCORE": "549",
       "DISCIPLINE": "T",
-      "RANG_NAT": "139",
+      "RANG_NAT": "140",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25214,7 +25192,7 @@
       "SCORE3": "540",
       "MOY_SCORE": "548",
       "DISCIPLINE": "T",
-      "RANG_NAT": "141",
+      "RANG_NAT": "142",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25236,7 +25214,7 @@
       "SCORE3": "538",
       "MOY_SCORE": "543",
       "DISCIPLINE": "T",
-      "RANG_NAT": "154",
+      "RANG_NAT": "155",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25258,7 +25236,7 @@
       "SCORE3": "510",
       "MOY_SCORE": "540",
       "DISCIPLINE": "T",
-      "RANG_NAT": "162",
+      "RANG_NAT": "163",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25280,7 +25258,7 @@
       "SCORE3": "520",
       "MOY_SCORE": "537",
       "DISCIPLINE": "T",
-      "RANG_NAT": "169",
+      "RANG_NAT": "170",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25302,7 +25280,7 @@
       "SCORE3": "512",
       "MOY_SCORE": "531",
       "DISCIPLINE": "T",
-      "RANG_NAT": "188",
+      "RANG_NAT": "189",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25324,7 +25302,7 @@
       "SCORE3": "499",
       "MOY_SCORE": "530",
       "DISCIPLINE": "T",
-      "RANG_NAT": "195",
+      "RANG_NAT": "196",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25346,7 +25324,7 @@
       "SCORE3": "527",
       "MOY_SCORE": "529",
       "DISCIPLINE": "T",
-      "RANG_NAT": "197",
+      "RANG_NAT": "198",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25368,7 +25346,7 @@
       "SCORE3": "516",
       "MOY_SCORE": "522",
       "DISCIPLINE": "T",
-      "RANG_NAT": "216",
+      "RANG_NAT": "217",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25390,7 +25368,7 @@
       "SCORE3": "498",
       "MOY_SCORE": "513",
       "DISCIPLINE": "T",
-      "RANG_NAT": "242",
+      "RANG_NAT": "243",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25412,7 +25390,7 @@
       "SCORE3": "497",
       "MOY_SCORE": "510",
       "DISCIPLINE": "T",
-      "RANG_NAT": "250",
+      "RANG_NAT": "251",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25434,7 +25412,7 @@
       "SCORE3": "491",
       "MOY_SCORE": "501",
       "DISCIPLINE": "T",
-      "RANG_NAT": "269",
+      "RANG_NAT": "270",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25456,7 +25434,7 @@
       "SCORE3": "473",
       "MOY_SCORE": "490",
       "DISCIPLINE": "T",
-      "RANG_NAT": "292",
+      "RANG_NAT": "293",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25478,7 +25456,7 @@
       "SCORE3": "479",
       "MOY_SCORE": "486",
       "DISCIPLINE": "T",
-      "RANG_NAT": "300",
+      "RANG_NAT": "302",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25500,7 +25478,7 @@
       "SCORE3": "451",
       "MOY_SCORE": "485",
       "DISCIPLINE": "T",
-      "RANG_NAT": "301",
+      "RANG_NAT": "303",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25522,7 +25500,7 @@
       "SCORE3": "432",
       "MOY_SCORE": "474",
       "DISCIPLINE": "T",
-      "RANG_NAT": "323",
+      "RANG_NAT": "325",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25544,7 +25522,7 @@
       "SCORE3": "439",
       "MOY_SCORE": "473",
       "DISCIPLINE": "T",
-      "RANG_NAT": "326",
+      "RANG_NAT": "328",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25566,7 +25544,7 @@
       "SCORE3": "439",
       "MOY_SCORE": "468",
       "DISCIPLINE": "T",
-      "RANG_NAT": "334",
+      "RANG_NAT": "336",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25588,7 +25566,7 @@
       "SCORE3": "425",
       "MOY_SCORE": "468",
       "DISCIPLINE": "T",
-      "RANG_NAT": "335",
+      "RANG_NAT": "337",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25610,7 +25588,7 @@
       "SCORE3": "453",
       "MOY_SCORE": "464",
       "DISCIPLINE": "T",
-      "RANG_NAT": "343",
+      "RANG_NAT": "346",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25632,7 +25610,7 @@
       "SCORE3": "446",
       "MOY_SCORE": "452",
       "DISCIPLINE": "T",
-      "RANG_NAT": "366",
+      "RANG_NAT": "369",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25654,7 +25632,7 @@
       "SCORE3": "420",
       "MOY_SCORE": "432",
       "DISCIPLINE": "T",
-      "RANG_NAT": "399",
+      "RANG_NAT": "401",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25676,7 +25654,7 @@
       "SCORE3": "394",
       "MOY_SCORE": "398",
       "DISCIPLINE": "T",
-      "RANG_NAT": "433",
+      "RANG_NAT": "434",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25698,7 +25676,7 @@
       "SCORE3": "354",
       "MOY_SCORE": "382",
       "DISCIPLINE": "T",
-      "RANG_NAT": "449",
+      "RANG_NAT": "450",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25720,7 +25698,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "358",
       "DISCIPLINE": "T",
-      "RANG_NAT": "473",
+      "RANG_NAT": "474",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25742,7 +25720,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "326",
       "DISCIPLINE": "T",
-      "RANG_NAT": "523",
+      "RANG_NAT": "524",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25764,7 +25742,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "325",
       "DISCIPLINE": "T",
-      "RANG_NAT": "527",
+      "RANG_NAT": "528",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25786,7 +25764,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "322",
       "DISCIPLINE": "T",
-      "RANG_NAT": "531",
+      "RANG_NAT": "532",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25808,7 +25786,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "322",
       "DISCIPLINE": "T",
-      "RANG_NAT": "532",
+      "RANG_NAT": "533",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25830,7 +25808,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "311",
       "DISCIPLINE": "T",
-      "RANG_NAT": "545",
+      "RANG_NAT": "546",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25852,7 +25830,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "306",
       "DISCIPLINE": "T",
-      "RANG_NAT": "553",
+      "RANG_NAT": "554",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25874,7 +25852,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "296",
       "DISCIPLINE": "T",
-      "RANG_NAT": "566",
+      "RANG_NAT": "567",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25896,7 +25874,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "274",
       "DISCIPLINE": "T",
-      "RANG_NAT": "583",
+      "RANG_NAT": "584",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25918,7 +25896,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "246",
       "DISCIPLINE": "T",
-      "RANG_NAT": "602",
+      "RANG_NAT": "603",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25940,7 +25918,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "216",
       "DISCIPLINE": "T",
-      "RANG_NAT": "619",
+      "RANG_NAT": "620",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -25962,7 +25940,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "202",
       "DISCIPLINE": "T",
-      "RANG_NAT": "628",
+      "RANG_NAT": "629",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -26006,7 +25984,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "164",
       "DISCIPLINE": "T",
-      "RANG_NAT": "675",
+      "RANG_NAT": "676",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -26028,7 +26006,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "161",
       "DISCIPLINE": "T",
-      "RANG_NAT": "679",
+      "RANG_NAT": "680",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -26094,7 +26072,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "134",
       "DISCIPLINE": "T",
-      "RANG_NAT": "727",
+      "RANG_NAT": "725",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -26116,7 +26094,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "114",
       "DISCIPLINE": "T",
-      "RANG_NAT": "751",
+      "RANG_NAT": "750",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -26160,7 +26138,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "105",
       "DISCIPLINE": "T",
-      "RANG_NAT": "757",
+      "RANG_NAT": "758",
       "_classement_nom": "Scratch Femme Classique 2026"
     }
   ]
