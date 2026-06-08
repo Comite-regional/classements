@@ -77,6 +77,7 @@ def get_token(session: requests.Session) -> str:
     params = {
         "sessionIdentite": SESSION_IDENTITE,
         "password": make_password(),
+        "format": "json",
     }
     # L'URL exacte d'après le swagger : GET /ws/rest/Classements/GetToken
     candidates = [
@@ -91,10 +92,10 @@ def get_token(session: requests.Session) -> str:
             data = resp.json()
             # Le token peut être dans différents champs selon la réponse
             token = (
-                data.get("Response", {}).get("Token")
-                or data.get("Token")
+                data.get("Response", {}).get("token")   # format réel de l'API FFTA
+                or data.get("Response", {}).get("Token")
                 or data.get("token")
-                or data.get("access_token")
+                or data.get("Token")
             )
             if token:
                 log.info("Token obtenu via %s", url)
