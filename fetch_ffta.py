@@ -128,13 +128,18 @@ def get_classements_list(session, token, disc_code) -> list[dict]:
         SaisonAnnee=SAISON,
         DisciplineCode=disc_code,
     )
+    log.info("  Réponse brute GetClassements(%s) : %s", disc_code, str(data)[:600])
     response = data.get("Response", {})
-    # La liste peut être dans ClassementsArray ou Classements
-    return (
-        response.get("ClassementsArray")
-        or response.get("Classements")
-        or []
-    )
+    # Cherche dans toutes les clés possibles
+    for key in ("ClassementsArray", "Classements", "classements", "items", "data"):
+        val = response.get(key)
+        if val:
+            return val
+    # Si Response est directement une liste
+    if isinstance(response, list):
+        return response
+    log.warning("  Aucune liste trouvée dans Response. Clés disponibles : %s", list(response.keys()))
+    return []
 
 
 def get_classement_detail(session, token, classement_id) -> list[dict]:
@@ -143,14 +148,17 @@ def get_classement_detail(session, token, classement_id) -> list[dict]:
         session, "Classements/Classement", token,
         Classement=classement_id,
     )
+    log.info("  Réponse brute GetClassement(%s) : %s", classement_id, str(data)[:600])
     response = data.get("Response", {})
-    # Les archers sont dans ClassementArray ou Participants ou Archers
-    return (
-        response.get("ClassementArray")
-        or response.get("Participants")
-        or response.get("Archers")
-        or []
-    )
+    # Cherche dans toutes les clés possibles
+    for key in ("ClassementArray", "Participants", "Archers", "archers", "classement", "items", "data"):
+        val = response.get(key)
+        if val:
+            return val
+    if isinstance(response, list):
+        return response
+    log.warning("  Aucune liste d'archers. Clés : %s", list(response.keys()))
+    return []
 
 
 # ─── Filtrage région ──────────────────────────────────────────────────────────
