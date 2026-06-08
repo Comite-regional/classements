@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-08T16:31:00.105252Z",
+    "generated_at": "2026-06-08T16:40:56.922406Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -2248,6 +2248,26 @@
     {
       "Rang_ligue": "3",
       "RANG": "3",
+      "NO_LICENCE": "75234",
+      "NOM_PERSONNE": "BERTONCINI FLORENT",
+      "PRENOM_PERSONNE": "",
+      "SEXE": "H",
+      "ARME": "P",
+      "CAT": "",
+      "CATEGORIE": "",
+      "NOM_STRUCTURE": "COULOGNE",
+      "NOM_ABREGE": "",
+      "CODE_STRUCTURE": "",
+      "SCORE1": "676",
+      "SCORE2": "649",
+      "SCORE3": "0",
+      "MOY_SCORE": "662",
+      "DISCIPLINE": "H",
+      "_classement_nom": "FEDERAL Scratch Hommes Arc à Poulies 2026"
+    },
+    {
+      "Rang_ligue": "4",
+      "RANG": "4",
       "NO_LICENCE": "133238",
       "NOM_PERSONNE": "CIMETIERE THIERRY",
       "PRENOM_PERSONNE": "",
@@ -2266,8 +2286,8 @@
       "_classement_nom": "FEDERAL Scratch Hommes Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": "4",
-      "RANG": "4",
+      "Rang_ligue": "5",
+      "RANG": "5",
       "NO_LICENCE": "45359",
       "NOM_PERSONNE": "HABRAN FRANCK",
       "PRENOM_PERSONNE": "",
@@ -2286,8 +2306,8 @@
       "_classement_nom": "FEDERAL Scratch Hommes Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": "5",
-      "RANG": "5",
+      "Rang_ligue": "6",
+      "RANG": "6",
       "NO_LICENCE": "356651",
       "NOM_PERSONNE": "TUAL SEBASTIEN",
       "PRENOM_PERSONNE": "",
@@ -2306,8 +2326,8 @@
       "_classement_nom": "FEDERAL Scratch Hommes Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": "6",
-      "RANG": "6",
+      "Rang_ligue": "7",
+      "RANG": "7",
       "NO_LICENCE": "13238",
       "NOM_PERSONNE": "BAILLARGEAUX FRANCIS",
       "PRENOM_PERSONNE": "",
@@ -2322,26 +2342,6 @@
       "SCORE2": "533",
       "SCORE3": "526",
       "MOY_SCORE": "541",
-      "DISCIPLINE": "H",
-      "_classement_nom": "FEDERAL Scratch Hommes Arc à Poulies 2026"
-    },
-    {
-      "Rang_ligue": "7",
-      "RANG": "7",
-      "NO_LICENCE": "75234",
-      "NOM_PERSONNE": "BERTONCINI FLORENT",
-      "PRENOM_PERSONNE": "",
-      "SEXE": "H",
-      "ARME": "P",
-      "CAT": "",
-      "CATEGORIE": "",
-      "NOM_STRUCTURE": "COULOGNE",
-      "NOM_ABREGE": "",
-      "CODE_STRUCTURE": "",
-      "SCORE1": "649",
-      "SCORE2": "0",
-      "SCORE3": "0",
-      "MOY_SCORE": "324",
       "DISCIPLINE": "H",
       "_classement_nom": "FEDERAL Scratch Hommes Arc à Poulies 2026"
     },
