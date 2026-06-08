@@ -74,10 +74,11 @@ def get_token(session: requests.Session) -> str:
     NOTE : l'URL exacte est à vérifier dans la doc Postman.
     Essaie les deux variantes courantes.
     """
-    payload = {
+    params = {
         "sessionIdentite": SESSION_IDENTITE,
         "password": make_password(),
     }
+    # L'URL exacte d'après le swagger : GET /ws/rest/Classements/GetToken
     candidates = [
         f"{BASE_URL}/Classements/GetToken",
         f"{BASE_URL}/GetToken",
@@ -85,7 +86,7 @@ def get_token(session: requests.Session) -> str:
     last_err = None
     for url in candidates:
         try:
-            resp = session.post(url, json=payload, timeout=30)
+            resp = session.get(url, params=params, timeout=30)
             resp.raise_for_status()
             data = resp.json()
             # Le token peut être dans différents champs selon la réponse
@@ -98,6 +99,7 @@ def get_token(session: requests.Session) -> str:
             if token:
                 log.info("Token obtenu via %s", url)
                 return token
+            log.debug("Réponse sans token sur %s : %s", url, data)
         except Exception as e:
             last_err = e
             log.debug("Échec sur %s : %s", url, e)
