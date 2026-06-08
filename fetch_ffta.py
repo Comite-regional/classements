@@ -40,12 +40,9 @@ OUTPUT_DIR = Path(os.environ.get("FFTA_OUTPUT_DIR", "data"))
 
 # Ligue cible : CR12 = Pays de la Loire
 LIGUE_CODE = "CR12"
-# Départements PDL (pour filtrage de secours si region_code absent)
-DEPTS_PDL = {"44", "49", "53", "72", "85"}
 
-# Nombre maximum d'archers conservés par classement (top N).
-# L'API nationale renvoie des milliers d'archers — sans limite, les JSON
-# dépassent 50 Mo et font crasher le navigateur.
+# Nombre maximum d'archers conservés par classement si le filtre Ligue
+# ne fonctionne pas côté serveur (filet de sécurité anti-crash navigateur).
 MAX_ARCHERS_PER_CLASSEMENT = int(os.environ.get("FFTA_MAX_ARCHERS", "200"))
 
 # Disciplines à récupérer : code API → nom de fichier JSON de sortie
@@ -57,6 +54,66 @@ DISCIPLINES = {
     "3": "3D.json",             # 3D
     "H": "para ext.json",       # Para-tir extérieur
     "I": "Para salle 18m.json", # Para-tir 18m
+}
+
+# IDs de classements nationaux FFTA 2026 extraits du PDF officiel.
+# On les appelle directement (sans passer par GetClassements) en ajoutant
+# Ligue=CR12 pour récupérer uniquement les archers Pays de la Loire.
+CLASSEMENT_IDS_BY_DISC: dict[str, list[str]] = {
+    "S": [  # Tir à 18m — 40 classements
+        "14023","14024","14025","14026","14027","14028",
+        "14080","14081","14082","14083","14084","14085","14086","14087","14088",
+        "14089","14090","14091","14092","14093","14094","14095","14096","14097","14098",
+        "14099","14100","14101","14102","14103","14104","14105","14106","14107","14108",
+        "14109","14110","14111","14112","14113",
+    ],
+    "T": [  # TAE — 68 classements
+        "13951","13952","13953","13954","13955","13956","13957","13958","13959","13960",
+        "13961","13962","13963","13964","13965","13966","13967","13968","13969","13970",
+        "13971","13972","13973","13974","13975","13976","13977","13978","13979","13980",
+        "13981","13982","13983","13984","13985","13986","13987","13988","13989","13990",
+        "13991","13992","13993","13994","13995","13996","13997","13998","13999","14000",
+        "14001","14002","14003","14004","14005","14006","14007","14008","14009","14010",
+        "14011","14012","14013","14014","14017","14018","14019","14020",
+    ],
+    "C": [  # Campagne — 50 classements
+        "14029","14030","14031","14032","14033","14034",
+        "14208","14209","14210","14211","14212","14213","14214","14215","14216",
+        "14217","14218","14219","14220","14221","14222","14223","14224","14225","14226",
+        "14227","14228","14229","14230","14231","14232","14233","14234","14235","14236",
+        "14237","14238","14239","14240","14241","14242","14243","14244","14245","14246",
+        "14247","14248","14249","14250","14251",
+    ],
+    "N": [  # Nature — 67 classements
+        "14252","14253","14254","14255","14256","14257","14258","14259","14260","14261",
+        "14264","14265","14266","14267","14268","14269","14270","14271","14272","14273",
+        "14274","14275","14276","14277","14278","14279","14280","14281","14282","14283",
+        "14284","14285","14286","14287","14288","14289","14290","14291","14292","14293",
+        "14294","14295","14296","14297","14298","14299","14300","14301","14302","14303",
+        "14304","14305","14306","14307","14308","14309","14310","14311","14312","14313",
+        "14314","14315","14316","14317","14318","14319","14320",
+    ],
+    "3": [  # 3D — 72 classements
+        "14114","14115","14116","14117","14118","14119","14120","14121","14122","14123",
+        "14124","14125","14126","14127","14128","14129","14130","14131","14132","14133",
+        "14134","14135","14136","14137","14138","14139","14140","14141","14142","14143",
+        "14144","14145","14146","14147","14148","14149","14150","14151","14152","14153",
+        "14154","14155","14156","14157","14158","14159","14160","14161","14162","14163",
+        "14164","14165","14166","14167","14168","14169","14170","14171","14172","14173",
+        "14174","14175","14176","14177","14321","14322","14323","14324","14325","14326",
+        "14327","14328",
+    ],
+    "H": [  # Para-tir extérieur — 36 classements
+        "14329","14330","14331","14332","14333","14334","14335","14336","14337","14338",
+        "14339","14340","14341","14342","14343","14344","14345","14346","14347","14348",
+        "14349","14350","14351","14352","14353","14354","14355","14356","14357","14358",
+        "14359","14360","14361","14362","14363","14364",
+    ],
+    "I": [  # Para-tir 18m — 23 classements
+        "14365","14366","14367","14368","14369","14370","14371","14372","14373","14374",
+        "14375","14376","14377","14378","14379","14380","14381","14382","14383","14384",
+        "14385","14386","14387",
+    ],
 }
 
 logging.basicConfig(
@@ -156,9 +213,13 @@ def get_classement_detail(session, token, classement_id) -> list[dict]:
     On extrait les archers de tous les objets et on les enrichit avec les métadonnées
     du classement (sexe_code, arme_code, libelle).
     """
+    # Ligue=CR12 filtre les archers côté serveur FFTA (Pays de la Loire).
+    # Si le paramètre n'est pas supporté, l'API renvoie tous les archers
+    # et MAX_ARCHERS_PER_CLASSEMENT sert de filet de sécurité.
     data = api_get(
         session, "Classements/Classement", token,
         Classement=classement_id,
+        Ligue=LIGUE_CODE,
     )
     response = data.get("Response", {})
     classement_array = response.get("ClassementArray") or []
@@ -297,44 +358,35 @@ def normalize_archer(archer: dict, disc_code: str, rank: int) -> dict:
 # ─── Logique principale ────────────────────────────────────────────────────────
 
 def fetch_discipline(session: requests.Session, token: str, disc_code: str) -> list[dict]:
-    """Récupère tous les archers PDL pour une discipline donnée."""
-    log.info("→ Discipline %s  (saison %s)", disc_code, SAISON)
+    """Récupère les archers PDL (CR12) pour une discipline.
 
-    try:
-        classements = get_classements_list(session, token, disc_code)
-    except Exception as e:
-        log.error("  Erreur GetClassements(%s): %s", disc_code, e)
+    Utilise la liste d'IDs hardcodée (extraite du PDF officiel) pour
+    appeler directement GetClassement avec Ligue=CR12, ce qui évite
+    l'étape GetClassements et filtre les archers côté serveur FFTA.
+    """
+    log.info("→ Discipline %s  (saison %s, ligue %s)", disc_code, SAISON, LIGUE_CODE)
+
+    cl_ids = CLASSEMENT_IDS_BY_DISC.get(disc_code, [])
+    if not cl_ids:
+        log.warning("  Aucun ID de classement configuré pour %s", disc_code)
         return []
 
-    if not classements:
-        log.warning("  Aucun classement trouvé pour %s", disc_code)
-        return []
-
-    log.info("  %d classement(s) trouvé(s)", len(classements))
-
+    log.info("  %d classement(s) à interroger", len(cl_ids))
     all_rows: list[dict] = []
 
-    for cl in classements:
-        cl_id = cl.get("id") or cl.get("Id") or cl.get("ID") or cl.get("classement_id")
-        cl_name = cl.get("libelle") or cl.get("Libelle") or cl.get("nom") or cl_id
-
-        # Filtre : ne prend que les classements de niveau Ligue/Région (ou tous si non précisé)
-        niveau = str(cl.get("TypeNiveau") or cl.get("niveau") or "").upper()
-        if niveau and niveau not in ("", "L", "R", "LIGUE", "REGIONAL", "REGION", "CR"):
-            # Classement national uniquement : on le prend quand même
-            # (on filtrera les archers PDL ensuite)
-            pass
-
-        if not cl_id:
-            log.debug("  Classement sans ID ignoré: %s", cl)
-            continue
-
+    for cl_id in cl_ids:
         try:
             archers = get_classement_detail(session, token, cl_id)
         except Exception as e:
             log.warning("  Erreur GetClassement(%s): %s", cl_id, e)
             continue
 
+        if not archers:
+            log.debug("  Classement %s : 0 archer (vide ou hors PDL)", cl_id)
+            continue
+
+        # Le libellé vient du premier archer (enrichi par get_classement_detail)
+        cl_name = archers[0].get("_cl_libelle") or cl_id
         log.info("  %-60s  %3d archers", str(cl_name)[:60], len(archers))
 
         for rank_in_cl, archer in enumerate(archers, start=1):
@@ -343,8 +395,7 @@ def fetch_discipline(session: requests.Session, token: str, disc_code: str) -> l
             row["_classement_nom"] = str(cl_name)
             all_rows.append(row)
 
-        # Petite pause pour ne pas surcharger le serveur
-        time.sleep(0.3)
+        time.sleep(0.2)
 
     return all_rows
 
