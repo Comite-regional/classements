@@ -665,7 +665,7 @@ td,th{vertical-align:top}
 <div class="field" id="sexe-field" style="grid-column: span 2">
 <label for="sexe">Sexe</label>
 <select id="sexe">
-<option selected="" value='\"\"'>Choisir</option><option value="">Tous</option><option value="H">Homme</option><option value="F">Femme</option></select>
+<option value="">Tous</option><option value="H">Homme</option><option value="F">Femme</option></select>
 </div>
 <div class="field hidden" id="classement-field" style="grid-column: span 12">
 <label for="classement">Classement national</label>
@@ -860,420 +860,310 @@ const DISC_LABELS = {
 
     // ========= INDIVIDUEL =========
     async function ensureDisciplineLoadedIndiv(){
-      const disc=state.disciplineIndiv;
+      const disc = state.disciplineIndiv;
       if(!disc) return [];
       if(state.rawByDiscipline.has(disc)) return state.rawByDiscipline.get(disc);
-      const file=filesMap[disc];
+      const file = filesMap[disc];
       if(!file) return [];
-      const raw=await loadCSV(file);
-      let filtered=raw;
-      if(disc==='TAE I') filtered=raw.filter(r=>(r.TYPE||'').trim().toUpperCase()==='I');
-      if(disc==='TAE N') filtered=raw.filter(r=>(r.TYPE||'').trim().toUpperCase()==='N');
-      if(disc==='Beursault') filtered=raw.filter(r=>(r.DISCIPLINE||'').trim()==='B');
-
-      // Scratch TAE BB Adultes : plus besoin de fichier Scratch TAE.csv.
-      // On utilise directement TAE.csv, uniquement les lignes TYPE = N, ARME = BB, CAT = U21/S1/S2/S3.
-      // Le filtrage exact est appliqué dans applyFiltersIndiv() quand la catégorie Scratch BB Adultes est sélectionnée.
-
-      state.rawByDiscipline.set(disc,filtered);
+      const raw = await loadCSV(file);
+      let filtered = raw;
+      // Beursault : filtrage sur colonne DISCIPLINE=B (fichier CSV multi-discipline)
+      if(disc === 'Beursault') filtered = raw.filter(r => (r.DISCIPLINE||'').trim() === 'B');
+      state.rawByDiscipline.set(disc, filtered);
       return filtered;
     }
 
-// ====== NEW: load all individual disciplines for multi-discipline quick search ======
-async function ensureAllIndivLoaded(){
-  const sel = document.getElementById('discipline');
-  const options = Array.from(sel ? sel.options : []).map(o=>o.value).filter(v=>v && v!=='Tous' && v!=='Toutes');
-  const prev = state.disciplineIndiv;
-  let union = [];
-  for(const disc of options){
-    state.disciplineIndiv = disc;
-    const part = await ensureDisciplineLoadedIndiv();
-    const withDisc = part.map(r => {
-      if (r && (r.DISCIPLINE || r.DISC || r.discipline)) return r;
-      const copy = Object.assign({}, r);
-      copy.DISCIPLINE = (DISC_LABELS[disc]||disc);
-      return copy;
-    });
-    union = union.concat(withDisc);
-  }
-  state.disciplineIndiv = prev;
-  return union;
-}
-
-    function populateDependentFiltersIndiv(data){ const cat=document.getElementById('categorie'); const arme=document.getElementById('arme'); const distance=document.getElementById('distance'); const blason=document.getElementById('blason'); const catClass=document.getElementById('catClass'); const catTir=document.getElementById('catTir'); const catKeys=['CAT','CATEGORIE','CATEGORIE_CLUB','CATEGORIE_AGE','CATEGORIE_TIR']; const cats=uniqueSorted(data.map(r=> catKeys.map(k=>r[k]).find(Boolean))); 
-      // Ajoute des entrées "Scratch" sur Tir 18m selon l'Arme (pour choisir les classements scratch)
-      let catValues = ['Toutes', ...cats];
-      try{
-        const disc = state.disciplineIndiv || '';
-        const armeSel = (state.filters && state.filters.arme) ? state.filters.arme : (document.getElementById('arme') ? document.getElementById('arme').value : '');
-        const armeUp = String(armeSel||'').toUpperCase().trim();
-        if (disc === 'Tir 18m' && armeUp === 'BB'){
-          // IMPORTANT: ne pas mettre Scratch en 1er quand fillSelect(firstIsAll=true),
-          // sinon value='' et le mode scratch ne se déclenche pas.
-          if (catValues && catValues.length && /^toutes?$/i.test(String(catValues[0]||''))){
-            catValues = [catValues[0], 'Scratch BB Adultes', 'Scratch BB Jeunes', ...catValues.slice(1)];
-          }else{
-            catValues = ['Toutes', 'Scratch BB Adultes', 'Scratch BB Jeunes', ...catValues];
-          }
-        } else if (disc === 'Tir 18m' && armeUp === 'CO'){
-          if (catValues && catValues.length && /^toutes?$/i.test(String(catValues[0]||''))){
-            catValues = [catValues[0], 'Scratch Jeune CO', ...catValues.slice(1)];
-          }else{
-            catValues = ['Toutes', 'Scratch Jeune CO', ...catValues];
-          }
-        } else if (disc === 'TAE N' && armeUp === 'BB'){
-          // Scratch TAE N BB adultes : U21 + S1 + S2 + S3, séparé par sexe via le filtre Sexe.
-          if (catValues && catValues.length && /^toutes?$/i.test(String(catValues[0]||''))){
-            catValues = [catValues[0], 'Scratch BB Adultes', ...catValues.slice(1)];
-          }else{
-            catValues = ['Toutes', 'Scratch BB Adultes', ...catValues];
-          }
-        } else if (disc === 'TAE N' && armeUp === 'CO'){
-          // Catégories mixtes CO TAE N
-          if (catValues && catValues.length && /^toutes?$/i.test(String(catValues[0]||''))){
-            catValues = [catValues[0], 'Mixte U13/U15 CO', 'Mixte U18/U21 CO', ...catValues.slice(1)];
-          }else{
-            catValues = ['Toutes', 'Mixte U13/U15 CO', 'Mixte U18/U21 CO', ...catValues];
-          }
-        } else if (disc === 'TAE I' && armeUp === 'CO'){
-          // Catégorie mixte CO TAE I
-          if (catValues && catValues.length && /^toutes?$/i.test(String(catValues[0]||''))){
-            catValues = [catValues[0], 'Mixte U18/U21 CO', ...catValues.slice(1)];
-          }else{
-            catValues = ['Toutes', 'Mixte U18/U21 CO', ...catValues];
-          }
-        }
-      }catch(e){}
-      fillSelect(cat, catValues, true, state.filters.categorie);
- 
-      // Si l'utilisateur était sur une entrée Scratch mais que l'arme ne correspond plus, on réinitialise la catégorie
-      try{
-        const disc = state.disciplineIndiv || '';
-        if(disc === 'Tir 18m' || disc === 'TAE I' || disc === 'TAE N'){
-          const armeSel = (state.filters && state.filters.arme) ? state.filters.arme : (document.getElementById('arme') ? document.getElementById('arme').value : '');
-          const armeUp = String(armeSel||'').toUpperCase().trim();
-          const curCat = (state.filters && state.filters.categorie) ? String(state.filters.categorie) : '';
-          if(armeUp !== 'BB' && /^\s*scratch\s*bb\s*(adult|jeune)/i.test(curCat)){
-            state.filters.categorie = '';
-            try{ cat.value = ''; }catch(_){}
-          }
-          if(armeUp !== 'CO' && /^\s*scratch\s*jeune\s*co/i.test(curCat)){
-            state.filters.categorie = '';
-            try{ cat.value = ''; }catch(_){}
-          }
-          if(armeUp !== 'CO' && /^\s*mixte\s*(u13|u18)/i.test(curCat)){
-            state.filters.categorie = '';
-            try{ cat.value = ''; }catch(_){}
-          }
-        }
-      }catch(e){}
-const armes=uniqueSorted(data.map(r=> r.ARME||r.AR)); fillSelect(arme, ['Toutes', ...armes], true, state.filters.arme); const dists=uniqueSorted(data.map(r=> r.distance||r.DISTANCE)); const blasons=uniqueSorted(data.map(r=> r.blason||r.BLASON)); fillSelect(distance, ['Toutes', ...dists], true, state.filters.distance); fillSelect(blason, ['Tous', ...blasons], true, state.filters.blason); const cc=uniqueSorted(data.map(r=> r.CAT_CLASS)); const ct=uniqueSorted(data.map(r=> r.CAT_TIR)); fillSelect(catClass, ['Toutes', ...cc], true, state.filters.catClass); fillSelect(catTir, ['Toutes', ...ct], true, state.filters.catTir);
-// Classements nationaux (API FFTA) — champ _classement_nom
-const clSel = document.getElementById('classement');
-const clField = document.getElementById('classement-field');
-const classements = uniqueSorted(data.map(r => r._classement_nom || '').filter(Boolean));
-state.hasApiData = classements.length > 0;
-if(clSel && clField){
-  if(classements.length > 0){
-    fillSelect(clSel, ['Tous les classements', ...classements], true, state.filters.classement);
-    clField.classList.remove('hidden');
-  } else {
-    clSel.innerHTML='<option value="">Tous</option>';
-    clField.classList.add('hidden');
-  }
-}
-}
-    function buildDisplayRowIndiv(r){  const club=[r.NOM_STRUCTURE,r.NOM_ABREGE].filter(Boolean).join(' - '); const isBeursault=(state.disciplineIndiv==='Beursault'); let score1, score2, score3; if(isBeursault){ score1=(r.TOP3_SCORES && r.TOP3_SCORES[0]) || ''; score2=(r.TOP3_SCORES && r.TOP3_SCORES[1]) || ''; score3=(r.TOP3_SCORES && r.TOP3_SCORES[2]) || ''; } else { score1=r.SCORE1||''; score2=r.SCORE2||''; score3=r.SCORE3||''; }
-    // Département : préfère le champ direct (API), sinon extrait du code structure
-    const dept = r.DEPARTEMENT || getDeptFromCodeStructure(r.CODE_STRUCTURE);
-    return { CAT_ORIG:(r.CAT||r.CATEGORIE||r.CATEGORIE_AGE||r.CATEGORIE_TIR||r.CAT_TIR||''), DISCIPLINE:(DISC_LABELS[(r.DISCIPLINE||r.DISC||r.discipline||'')] || (r.DISCIPLINE||r.DISC||r.discipline||'')), CLASSEMENT:(r._classement_nom||''), RANG:(r.__SCRATCH_RANK||r.Rang_ligue||r.RANG||r.Rang||''), RANG_NAT:(r.RANG_NAT||''), NO_LICENCE:r.NO_LICENCE||'', NOM_PRENOM:[r.NOM_PERSONNE,r.PRENOM_PERSONNE].filter(Boolean).join(' '), SEXE:r.SEXE||r.SEXE_PERSONNE||r.GENRE||'', ARME:r.ARME||r.AR||'', DEPARTEMENT:dept, CLUB:club, SCORE1:score1, SCORE2:score2, SCORE3:score3, MOY_SCORE:r.MOY_SCORE||r.MOYENNE||'', distance:r.distance||r.DISTANCE||'', blason:r.blason||r.BLASON||'', CAT_TIR:r.CAT_TIR||'', CAT_CLASS:r.CAT_CLASS||'' }; }
-    function headersForIndiv(){ const disc=state.disciplineIndiv; let base; if(disc==='Beursault'){ base=[{key:'RANG',label:'Rang'},{key:'NO_LICENCE',label:'N° licence'},{key:'NOM_PRENOM',label:'Nom prénom'},{key:'CLUB',label:'Club / Cie'},{key:'SCORE1',label:'Résultat 1'},{key:'SCORE2',label:'Résultat 2'},{key:'SCORE3',label:'Résultat 3'}]; } else { base=[{key:'RANG',label:'Rang PDL'},{key:'NO_LICENCE',label:'N° licence'},{key:'NOM_PRENOM',label:'Nom prénom'},{key:'CAT_ORIG',label:'Catégorie'},{key:'CLUB',label:'Club'},{key:'SCORE1',label:'Score 1'},{key:'SCORE2',label:'Score 2'},{key:'SCORE3',label:'Score 3'},{key:'MOY_SCORE',label:'Moyenne'},{key:'RANG_NAT',label:'Rang nat.'}]; }
-// Affiche le nom du classement quand on est en données API et qu'aucun classement n'est sélectionné
-if(state.hasApiData && !state.filters.classement){ base.splice(1,0,{key:'CLASSEMENT',label:'Classement'}); }
-      // Affiche la catégorie d'origine des archers quand on est en mode Scratch (tous scratch)
-      (function(){
-        try{
-          var catSel = '';
-          if (state && state.filters && typeof state.filters.categorie === 'string') catSel = state.filters.categorie;
-          var catEl = document.getElementById('categorie');
-          if ((!catSel || !/\S/.test(catSel)) && catEl){
-            // si la valeur est vide, on regarde le texte de l'option sélectionnée
-            var opt = catEl.options[catEl.selectedIndex] || null;
-            catSel = (opt && (opt.text || opt.value) ? (opt.text || opt.value) : (catEl.value||''));
-          }
-          if (/^\s*scratch\b/i.test(String(catSel||'').trim())){
-            base.splice(3,0,{key:'CAT_ORIG',label:'Catégorie'});
-          }
-          if (/^\s*mixte\b/i.test(String(catSel||'').trim())){
-            base.splice(3,0,{key:'SEXE',label:'Sexe'},{key:'CAT_ORIG',label:'Catégorie'});
-          }
-          // Mode "discipline seule" : aucun filtre arme/cat/sexe → affiche Catégorie, Sexe, Arme
-          try{
-            const noArme = !state.filters.arme || state.filters.arme==='';
-            const noCat  = !state.filters.categorie || state.filters.categorie==='';
-            const noSexe = !state.filters.sexe || state.filters.sexe==='';
-            const isTAE  = ['TAE I','TAE N'].includes(state.disciplineIndiv||'');
-            if(noArme && noCat && noSexe && state.disciplineIndiv && !(/^\s*(scratch|mixte)\b/i.test(String(catSel||'').trim()))){
-              base.splice(3,0,{key:'CAT_ORIG',label:'Catégorie'},{key:'SEXE',label:'Sexe'},{key:'ARME',label:'Arme'});
-            }
-          }catch(_){}
-
-        }catch(_){}
-      })();
-if((!state.disciplineIndiv||state.disciplineIndiv==='') && state.filters && state.filters.search){ base.unshift({key:'DISCIPLINE',label:'Discipline'}); }  if(state.filters.departement){ base.splice(3,0,{key:'DEPARTEMENT',label:'Département'},{key:'RANG_DEP',label:'Rang dép.'}); } if(['TAE I','TAE N','Para ext'].includes(disc)){ base.push({key:'distance',label:'Distance'},{key:'blason',label:'Blason'}); } if(['Para ext','Para 18m'].includes(disc)){ base.push({key:'CAT_TIR',label:'Catégorie de tir'},{key:'CAT_CLASS',label:'Catégorie de classement'}); } return base; }
-    function applyFiltersIndiv(data){
-  const f = state.filters || {};
-  const disc = state.disciplineIndiv;
-
-  // Helpers
-  function normCat(x){
-    var t = (x||'').toString().toUpperCase().replace(/\s+/g,'');
-    // Harmonisation courante
-    if (t === 'SENIOR1') t = 'S1';
-    if (t === 'SENIOR2') t = 'S2';
-    if (t === 'SENIOR3') t = 'S3';
-    return t;
-  }
-  function getArme(r){
-    return (r.ARME||r.ARC||r.ARME_TIR||r.AR||'').toString().toUpperCase().trim();
-  }
-  function getCat(r){
-    return normCat((r.CAT||r.CATEGORIE||r.CATEGORIE_CLUB||r.CATEGORIE_AGE||r.CATEGORIE_TIR||r.CAT_TIR||'').toString());
-  }
-  function getMoy(r){
-    // Priorité à MOY_SCORE / MOYENNE puis fallback sur moyenne des 3 scores si dispo
-    var m = toNum(r.MOY_SCORE||r.MOYENNE||r.MOY||'');
-    if(!Number.isFinite(m)){
-      var s1=toNum(r.SCORE1), s2=toNum(r.SCORE2), s3=toNum(r.SCORE3);
-      if(Number.isFinite(s1)&&Number.isFinite(s2)&&Number.isFinite(s3)) m=(s1+s2+s3)/3;
+    // Charge toutes les disciplines pour la recherche globale
+    async function ensureAllIndivLoaded(){
+      const sel = document.getElementById('discipline');
+      const options = Array.from(sel ? sel.options : []).map(o=>o.value).filter(v=>v && v!=='Tous' && v!=='Toutes');
+      const prev = state.disciplineIndiv;
+      let union = [];
+      for(const disc of options){
+        state.disciplineIndiv = disc;
+        const part = await ensureDisciplineLoadedIndiv();
+        const withDisc = part.map(r => {
+          if(r && r.DISCIPLINE) return r;
+          const copy = Object.assign({}, r);
+          copy.DISCIPLINE = (DISC_LABELS[disc]||disc);
+          return copy;
+        });
+        union = union.concat(withDisc);
+      }
+      state.disciplineIndiv = prev;
+      return union;
     }
-    return Number.isFinite(m) ? m : -1;
-  }
 
-  // Détecte une catégorie "scratch" via le select Catégorie (texte/valeur)
-  let catSel = (f && (f.categorie||'').toString()) || '';
-  try{
-    const catEl = document.getElementById('categorie');
-    if((!catSel || !/\S/.test(catSel)) && catEl){
-      if(catEl.value) catSel = catEl.value.toString();
-      else if(catEl.selectedOptions && catEl.selectedOptions.length){
-        catSel = (catEl.selectedOptions[0].text||'').toString();
-      }
-    }
-  }catch(_){}
+    // Peuple les selects dépendants (catégorie, arme, classement) depuis les données chargées
+    function populateDependentFiltersIndiv(data){
+      const f = state.filters || {};
 
-  const isScratchBBAdult = /^\s*scratch\s*bb\s*adult/i.test(catSel);
-  const isScratchBBYoung = /^\s*scratch\s*bb\s*jeune/i.test(catSel);
-  const isScratchCOYoung = /^\s*scratch\s*jeune\s*co/i.test(catSel);
-  const isTaeScratchBBAdult = (disc === 'TAE N') && isScratchBBAdult;
-  const isTaeNMixteU13U15CO = (disc === 'TAE N') && /^\s*mixte\s*u13/i.test(catSel);
-  const isTaeNMixteU18U21CO = (disc === 'TAE N') && /^\s*mixte\s*u18/i.test(catSel);
-  const isTaeIMixteU18U21CO = (disc === 'TAE I') && /^\s*mixte\s*u18/i.test(catSel);
-  const scratchMode = ((disc === 'Tir 18m') && (isScratchBBAdult || isScratchBBYoung || isScratchCOYoung))
-    || isTaeScratchBBAdult || isTaeNMixteU13U15CO || isTaeNMixteU18U21CO || isTaeIMixteU18U21CO;
+      // Catégorie : champ CAT (API) ou CATEGORIE (CSV)
+      const cats = uniqueSorted(data.map(r => r.CAT || r.CATEGORIE || '').filter(Boolean));
+      fillSelect(document.getElementById('categorie'), ['Toutes', ...cats], true, f.categorie);
 
-  if(scratchMode){
-    // 1) Filtre de base selon le scratch choisi (arme + catégories)
-    let list = (data||[]).filter(r=>{
-      const a = getArme(r);
-      const c = getCat(r);
+      // Arme
+      const armes = uniqueSorted(data.map(r => r.ARME || '').filter(Boolean));
+      fillSelect(document.getElementById('arme'), ['Toutes', ...armes], true, f.arme);
 
-      if(isTaeScratchBBAdult){
-        const type = (r.TYPE||'').toString().toUpperCase().trim();
-        if(type !== 'N') return false;
-        if(a !== 'BB') return false;
-        return (c === 'U21' || c === 'S1' || c === 'S2' || c === 'S3');
-      }
-      if(isTaeNMixteU13U15CO){
-        const type = (r.TYPE||'').toString().toUpperCase().trim();
-        if(type !== 'N') return false;
-        if(a !== 'CO') return false;
-        return (c === 'U13' || c === 'U15');
-      }
-      if(isTaeNMixteU18U21CO){
-        const type = (r.TYPE||'').toString().toUpperCase().trim();
-        if(type !== 'N') return false;
-        if(a !== 'CO') return false;
-        return (c === 'U18' || c === 'U21');
-      }
-      if(isTaeIMixteU18U21CO){
-        const type = (r.TYPE||'').toString().toUpperCase().trim();
-        if(type !== 'I') return false;
-        if(a !== 'CO') return false;
-        return (c === 'U18' || c === 'U21');
-      }
-      if(isScratchBBAdult){
-        if(a !== 'BB') return false;
-        return (c === 'U21' || c === 'S1' || c === 'S2' || c === 'S3');
-      }
-      if(isScratchBBYoung){
-        if(a !== 'BB') return false;
-        return (c.startsWith('U15') || c.startsWith('U18'));
-      }
-      // Scratch Jeune CO
-      if(a !== 'CO') return false;
-      return (c.startsWith('U13') || c.startsWith('U15') || c.startsWith('U18') || c.startsWith('U21'));
-    });
-
-    // 2) Applique les autres filtres utiles (Sexe / Département / Recherche)
-    const isMixteMode = isTaeNMixteU13U15CO || isTaeNMixteU18U21CO || isTaeIMixteU18U21CO;
-    list = list.filter(r=>{
-      // Sexe (H/F) — ignoré pour les catégories mixtes
-      if(f.sexe && !isMixteMode){
-        const sex=(r.SEXE||r.SEXE_PERSONNE||r.GENRE||'').toString().toUpperCase();
-        if(sex && sex!==f.sexe.toUpperCase()) return false;
-        if(!sex){
-          const c=(r.CAT||r.CATEGORIE||'').toString().toUpperCase();
-          if(f.sexe==='H' && c.endsWith('F')) return false;
-          if(f.sexe==='F' && c.endsWith('H')) return false;
+      // Classements nationaux (champ _classement_nom présent dans données API)
+      const clSel   = document.getElementById('classement');
+      const clField = document.getElementById('classement-field');
+      const classements = uniqueSorted(data.map(r => r._classement_nom || '').filter(Boolean));
+      state.hasApiData = classements.length > 0;
+      if(clSel && clField){
+        if(classements.length > 0){
+          fillSelect(clSel, ['Tous les classements', ...classements], true, f.classement);
+          clField.classList.remove('hidden');
+        } else {
+          clSel.innerHTML = '<option value="">Tous</option>';
+          clField.classList.add('hidden');
         }
       }
+
+      // Distance / blason / catTir / catClass (Para / TAE CSV)
+      const dists   = uniqueSorted(data.map(r => r.distance || r.DISTANCE || '').filter(Boolean));
+      const blasons = uniqueSorted(data.map(r => r.blason   || r.BLASON   || '').filter(Boolean));
+      const cc      = uniqueSorted(data.map(r => r.CAT_CLASS || '').filter(Boolean));
+      const ct      = uniqueSorted(data.map(r => r.CAT_TIR  || '').filter(Boolean));
+      fillSelect(document.getElementById('distance'), ['Toutes', ...dists],   true, f.distance);
+      fillSelect(document.getElementById('blason'),   ['Tous',   ...blasons], true, f.blason);
+      fillSelect(document.getElementById('catClass'), ['Toutes', ...cc],      true, f.catClass);
+      fillSelect(document.getElementById('catTir'),   ['Toutes', ...ct],      true, f.catTir);
+    }
+
+    // Construit la ligne d'affichage à partir d'un enregistrement brut (API ou CSV)
+    function buildDisplayRowIndiv(r){
+      const isBeursault = (state.disciplineIndiv === 'Beursault');
+      const club  = [r.NOM_STRUCTURE, r.NOM_ABREGE].filter(Boolean).join(' / ');
+      const dept  = r.DEPARTEMENT || getDeptFromCodeStructure(r.CODE_STRUCTURE);
+      let score1, score2, score3;
+      if(isBeursault){
+        score1 = (r.TOP3_SCORES && r.TOP3_SCORES[0]) || '';
+        score2 = (r.TOP3_SCORES && r.TOP3_SCORES[1]) || '';
+        score3 = (r.TOP3_SCORES && r.TOP3_SCORES[2]) || '';
+      } else {
+        score1 = r.SCORE1 || '';
+        score2 = r.SCORE2 || '';
+        score3 = r.SCORE3 || '';
+      }
+      return {
+        RANG:       String(r.__SCRATCH_RANK || r.RANG || r.Rang_ligue || r.Rang || ''),
+        RANG_NAT:   String(r.RANG_NAT || ''),
+        CLASSEMENT: String(r._classement_nom || ''),
+        NO_LICENCE: String(r.NO_LICENCE || ''),
+        NOM_PRENOM: [r.NOM_PERSONNE, r.PRENOM_PERSONNE].filter(Boolean).join(' '),
+        CAT_ORIG:   String(r.CAT || r.CATEGORIE || ''),
+        SEXE:       String(r.SEXE || ''),
+        ARME:       String(r.ARME || ''),
+        DEPARTEMENT: dept,
+        CLUB:       club,
+        SCORE1:     score1,
+        SCORE2:     score2,
+        SCORE3:     score3,
+        MOY_SCORE:  String(r.MOY_SCORE || r.MOYENNE || ''),
+        DISCIPLINE: DISC_LABELS[r.DISCIPLINE || r.DISC || ''] || r.DISCIPLINE || r.DISC || '',
+        distance:   String(r.distance || r.DISTANCE || ''),
+        blason:     String(r.blason   || r.BLASON   || ''),
+        CAT_TIR:    String(r.CAT_TIR  || ''),
+        CAT_CLASS:  String(r.CAT_CLASS || ''),
+      };
+    }
+
+    // Colonnes à afficher selon les filtres actifs
+    function headersForIndiv(){
+      const disc = state.disciplineIndiv;
+      const f    = state.filters || {};
+
+      if(disc === 'Beursault'){
+        return [
+          {key:'RANG',       label:'Rang'},
+          {key:'NO_LICENCE', label:'N° licence'},
+          {key:'NOM_PRENOM', label:'Nom prénom'},
+          {key:'CLUB',       label:'Club / Cie'},
+          {key:'SCORE1',     label:'Résultat 1'},
+          {key:'SCORE2',     label:'Résultat 2'},
+          {key:'SCORE3',     label:'Résultat 3'},
+        ];
+      }
+
+      // Colonnes de base (données API)
+      const base = [
+        {key:'RANG',       label:'Rang PDL'},
+        {key:'NO_LICENCE', label:'N° licence'},
+        {key:'NOM_PRENOM', label:'Nom prénom'},
+        {key:'CAT_ORIG',   label:'Catégorie'},
+        {key:'SEXE',       label:'Sexe'},
+        {key:'ARME',       label:'Arme'},
+        {key:'CLUB',       label:'Club'},
+        {key:'SCORE1',     label:'Score 1'},
+        {key:'SCORE2',     label:'Score 2'},
+        {key:'SCORE3',     label:'Score 3'},
+        {key:'MOY_SCORE',  label:'Moyenne'},
+        {key:'RANG_NAT',   label:'Rang nat.'},
+      ];
+
+      // Si un classement est choisi, inutile d'afficher la colonne Classement
+      // Sinon, on l'insère après le rang pour voir d'où vient chaque archer
+      let headers = base.slice();
+      if(state.hasApiData && !f.classement){
+        headers.splice(1, 0, {key:'CLASSEMENT', label:'Classement'});
+      }
+
+      // Masque les colonnes déjà fixées par un filtre actif
+      if(f.sexe)       headers = headers.filter(h => h.key !== 'SEXE');
+      if(f.arme)       headers = headers.filter(h => h.key !== 'ARME');
+      if(f.categorie)  headers = headers.filter(h => h.key !== 'CAT_ORIG');
+
+      // Département + rang dept si filtre département actif
       if(f.departement){
-        const dep=getDeptFromCodeStructure(r.CODE_STRUCTURE);
-        if(dep!==f.departement) return false;
+        headers.splice(1, 0, {key:'DEPARTEMENT', label:'Dép.'}, {key:'RANG_DEP', label:'Rang dép.'});
       }
-      if(f.search){
-        const q=f.search.toLowerCase();
-        const nom=((r.NOM_PERSONNE||'')+' '+(r.PRENOM_PERSONNE||'')).toLowerCase();
-        const club=((r.NOM_STRUCTURE||'')+' '+(r.NOM_ABREGE||'')).toLowerCase();
-        if(!nom.includes(q) && !club.includes(q)) return false;
+
+      // Recherche globale (pas de discipline sélectionnée) : affiche la discipline
+      if(!disc && f.search){
+        headers.unshift({key:'DISCIPLINE', label:'Discipline'});
       }
-      return true;
-    });
 
-    // 3) Tri scratch + Rang recalculé (important pour H/F)
-    list = list.slice().sort((a,b)=> (getMoy(b)-getMoy(a)) || String((a.NOM_PERSONNE||'')+' '+(a.PRENOM_PERSONNE||'')).localeCompare(String((b.NOM_PERSONNE||'')+' '+(b.PRENOM_PERSONNE||'')),'fr'));
-
-    list = list.map((r,i)=>{
-      const o = Object.assign({}, r);
-      o.Rang_ligue = i+1;
-      o.RANG = i+1;
-      o.Rang = i+1;
-      return o;
-    });
-
-    // Tag debug
-    try{
-      const mode = isScratchBBAdult ? 'bb_adult' : (isScratchBBYoung ? 'bb_jeune' : 'co_jeune');
-      document.body.setAttribute('data-scratchmode', mode);
-      console.log('%cScratch activé ✅','color:green;font-weight:bold', mode, 'lignes=', list.length);
-    }catch(_){}
-    return list;
-  }
-
-  // Mode normal
-  try{ document.body.removeAttribute('data-scratchmode'); }catch(_){}
-
-  return (data||[]).filter(r=>{
-    if(f.categorie){
-      const v=(r.CAT||r.CATEGORIE||r.CATEGORIE_CLUB||r.CATEGORIE_AGE||r.CATEGORIE_TIR||'').toString();
-      if(v!==f.categorie) return false;
-    }
-    if(f.sexe){
-      const sex=(r.SEXE||r.SEXE_PERSONNE||r.GENRE||'').toString().toUpperCase();
-      if(sex && sex!==f.sexe.toUpperCase()) return false;
-      if(!sex){
-        const c=(r.CAT||r.CATEGORIE||'').toString().toUpperCase();
-        if(f.sexe==='H' && c.endsWith('F')) return false;
-        if(f.sexe==='F' && c.endsWith('H')) return false;
+      // Colonnes supplémentaires TAE / Para
+      if(['TAE I','TAE N','Para ext'].includes(disc)){
+        headers.push({key:'distance', label:'Distance'}, {key:'blason', label:'Blason'});
       }
+      if(['Para ext','Para 18m'].includes(disc)){
+        headers.push({key:'CAT_TIR', label:'Catégorie de tir'}, {key:'CAT_CLASS', label:'Catégorie de classement'});
+      }
+
+      return headers;
     }
-    if(f.arme){
-      const a=(r.ARME||r.AR||'').toString();
-      if(a!==f.arme) return false;
-    }
-    if(['TAE I','TAE N','Para ext'].includes(disc)){
-      if(f.distance && String(r.distance||r.DISTANCE||'')!==f.distance) return false;
-      if(f.blason && String(r.blason||r.BLASON||'')!==f.blason) return false;
-    }
-    if(['Para 18m','Para ext'].includes(disc)){
-      if(f.catClass && String(r.CAT_CLASS||'')!==f.catClass) return false;
-      if(f.catTir && String(r.CAT_TIR||'')!==f.catTir) return false;
-    }
-    if(f.classement){
-      if(String(r._classement_nom||'') !== f.classement) return false;
-    }
-    if(f.departement){
-      const dep = r.DEPARTEMENT || getDeptFromCodeStructure(r.CODE_STRUCTURE);
-      if(dep !== f.departement) return false;
-    }
-    if(f.search){
-      const q=f.search.toLowerCase();
-      const nom=((r.NOM_PERSONNE||'')+' '+(r.PRENOM_PERSONNE||'')).toLowerCase();
-      const club=((r.NOM_STRUCTURE||'')+' '+(r.NOM_ABREGE||'')).toLowerCase();
-      if(!nom.includes(q) && !club.includes(q)) return false;
-    }
-    return true;
-  });
-}
 
-// Consolide les données Beursault: déduplique par licence et prend les 3 meilleurs scores
-function consolidateBeursaultData(rows){
-  if(state.disciplineIndiv !== 'Beursault') return rows;
+    // Filtre les données selon les critères actifs
+    function applyFiltersIndiv(data){
+      const f    = state.filters || {};
+      const disc = state.disciplineIndiv;
 
-  const byLicence = {};
-  rows.forEach(r => {
-    const lic = r.NO_LICENCE || '';
-    if(!lic) return;
-    if(!byLicence[lic]) byLicence[lic] = [];
-    byLicence[lic].push(r);
-  });
+      // Beursault : pas de filtre cat/arme/sexe (géré par consolidateBeursaultData)
+      if(disc === 'Beursault'){
+        return (data||[]).filter(r => {
+          if(f.search){
+            const q = f.search.toLowerCase();
+            const nom  = (r.NO_LICENCE||'').toLowerCase() + ' ' + (r.NOM_PERSONNE||'').toLowerCase() + ' ' + (r.PRENOM_PERSONNE||'').toLowerCase();
+            const club = (r.NOM_STRUCTURE||'').toLowerCase() + ' ' + (r.NOM_ABREGE||'').toLowerCase();
+            if(!nom.includes(q) && !club.includes(q)) return false;
+          }
+          return true;
+        });
+      }
 
-  const consolidated = [];
-  Object.values(byLicence).forEach(group => {
-    if(group.length === 0) return;
-    const first = group[0];
+      let rows = (data||[]).filter(r => {
+        // Classement national (API)
+        if(f.classement && r._classement_nom !== f.classement) return false;
 
-    // Créer les résultats (score_dist1/score_dist2) et les trier
-    const results = group.map(r => ({
-      score: (r.SCORE_DIST1||'') + '/' + (r.SCORE_DIST2||''),
-      dist1: parseFloat(r.SCORE_DIST1) || 0,
-      dist2: parseFloat(r.SCORE_DIST2) || 0
-    }));
+        // Sexe : valeur API = 'H' / 'F'
+        if(f.sexe && r.SEXE !== f.sexe) return false;
 
-    // Trier par score total (dist1 + dist2) décroissant
-    results.sort((a,b) => (b.dist1 + b.dist2) - (a.dist1 + a.dist2));
+        // Arme : valeur API = 'CL' / 'CO' / 'BB' / 'P' …
+        if(f.arme && r.ARME !== f.arme) return false;
 
-    // Prendre les 3 meilleurs
-    const top3 = results.slice(0, 3);
+        // Catégorie : valeur API = 'S1', 'U18', etc.
+        if(f.categorie && (r.CAT || r.CATEGORIE) !== f.categorie) return false;
 
-    // Créer une nouvelle ligne consolidée
-    const consolidated_row = Object.assign({}, first);
-    consolidated_row.SCORE_DIST1 = top3[0] ? top3[0].dist1 : '';
-    consolidated_row.SCORE_DIST2 = top3[0] ? top3[0].dist2 : '';
-    consolidated_row.SCORE_DIST3 = top3[1] ? (top3[1].dist1 + '/' + top3[1].dist2) : '';
-    consolidated_row.SCORE_DIST4 = top3[2] ? (top3[2].dist1 + '/' + top3[2].dist2) : '';
-    consolidated_row.TOP3_SCORES = [top3[0]?.score, top3[1]?.score, top3[2]?.score].filter(Boolean);
-    consolidated_row.BEST_SCORE_TOTAL = top3[0] ? (top3[0].dist1 + top3[0].dist2) : 0;
-    consolidated.push(consolidated_row);
-  });
-
-  // Trier par meilleur score décroissant
-  consolidated.sort((a,b) => (b.BEST_SCORE_TOTAL || 0) - (a.BEST_SCORE_TOTAL || 0));
-
-  // Ajouter les rangs
-  consolidated.forEach((r, i) => {
-    r.RANG = i + 1;
-    r.Rang = i + 1;
-    r.Rang_ligue = i + 1;
-  });
-
-  return consolidated;
-}
-
-    function renderTableIndiv(rows){ const thead=document.getElementById('thead-row'); const tbody=document.getElementById('tbody'); thead.innerHTML=''; tbody.innerHTML=''; rows = consolidateBeursaultData(rows); const headers=headersForIndiv(); headers.forEach(h=>{ const th=document.createElement('th'); th.textContent=h.label; thead.appendChild(th); }); let displayed=rows.slice(); 
-      // Scratch BB: recalcul du rang (scratch) après filtrage
-      try{
-        const catSel = (state.filters && state.filters.categorie) ? String(state.filters.categorie) : '';
-        const isScratch = /^\s*scratch\s*bb\s*(adult|jeune)/i.test(catSel);
-        if(isScratch){
-          displayed.sort((a,b)=> (toNum(b.MOY_SCORE||b.MOYENNE)-toNum(a.MOY_SCORE||a.MOYENNE)) || String((a.NOM_PERSONNE||'')+(a.PRENOM_PERSONNE||'')).localeCompare(String((b.NOM_PERSONNE||'')+(b.PRENOM_PERSONNE||'')),'fr'));
-          displayed.forEach((r,i)=>{ try{ r.__SCRATCH_RANK = i+1; }catch(_){} });
-        }else{
-          displayed.forEach(r=>{ try{ if(r && r.__SCRATCH_RANK) delete r.__SCRATCH_RANK; }catch(_){} });
+        // Département
+        if(f.departement){
+          const dept = r.DEPARTEMENT || getDeptFromCodeStructure(r.CODE_STRUCTURE);
+          if(dept !== f.departement) return false;
         }
-      }catch(e){}
-const depFilter=state.filters.departement||''; const depIdx=new Map(); if(depFilter){ const ligueRank = r=> (parseInt(r.Rang_ligue||r.RANG||r.Rang||'999999')||999999); displayed.sort((a,b)=> ligueRank(a)-ligueRank(b) || (toNum(b.MOY_SCORE)-toNum(a.MOY_SCORE)) ); displayed.forEach((r,i)=> depIdx.set(r,i+1)); } displayed.forEach(r=>{ const disp=buildDisplayRowIndiv(r); if(depFilter) disp.RANG_DEP=depIdx.get(r)||''; const tr=document.createElement('tr'); headers.forEach(h=>{ const td=document.createElement('td'); td.textContent = (h.key==='RANG_DEP') ? (disp.RANG_DEP||'') : (disp[h.key]??''); tr.appendChild(td); }); tbody.appendChild(tr); }); document.getElementById('totalChip').textContent = displayed.length + ' ligne' + (displayed.length>1?'s':''); }
+
+        // Recherche texte
+        if(f.search){
+          const q    = f.search.toLowerCase();
+          const nom  = ((r.NOM_PERSONNE||'') + ' ' + (r.PRENOM_PERSONNE||'')).toLowerCase();
+          const club = ((r.NOM_STRUCTURE||'') + ' ' + (r.NOM_ABREGE||'')).toLowerCase();
+          const lic  = (r.NO_LICENCE||'').toLowerCase();
+          if(!nom.includes(q) && !club.includes(q) && !lic.includes(q)) return false;
+        }
+
+        // Filtres TAE / Para CSV (distance, blason, catTir, catClass)
+        if(f.distance  && String(r.distance  || r.DISTANCE  || '') !== f.distance)  return false;
+        if(f.blason    && String(r.blason    || r.BLASON    || '') !== f.blason)    return false;
+        if(f.catClass  && String(r.CAT_CLASS || '')                !== f.catClass)  return false;
+        if(f.catTir    && String(r.CAT_TIR   || '')                !== f.catTir)    return false;
+
+        return true;
+      });
+
+      // Tri par rang PDL (numérique)
+      rows.sort((a,b) => (parseInt(a.RANG || a.Rang_ligue || a.Rang || '999999')||999999)
+                       - (parseInt(b.RANG || b.Rang_ligue || b.Rang || '999999')||999999));
+      return rows;
+    }
+
+    // Beursault CSV : déduplique par licence, conserve les 3 meilleurs scores
+    function consolidateBeursaultData(rows){
+      if(state.disciplineIndiv !== 'Beursault') return rows;
+      const byLicence = {};
+      rows.forEach(r => {
+        const lic = r.NO_LICENCE || '';
+        if(!lic) return;
+        if(!byLicence[lic]) byLicence[lic] = [];
+        byLicence[lic].push(r);
+      });
+      const consolidated = [];
+      Object.values(byLicence).forEach(group => {
+        if(!group.length) return;
+        const first = group[0];
+        const results = group.map(r => ({
+          score: (r.SCORE_DIST1||'') + '/' + (r.SCORE_DIST2||''),
+          total: (parseFloat(r.SCORE_DIST1)||0) + (parseFloat(r.SCORE_DIST2)||0),
+        })).sort((a,b) => b.total - a.total);
+        const top3 = results.slice(0, 3);
+        const row = Object.assign({}, first);
+        row.TOP3_SCORES = top3.map(s => s.score);
+        row.BEST_SCORE_TOTAL = top3[0] ? top3[0].total : 0;
+        consolidated.push(row);
+      });
+      consolidated.sort((a,b) => (b.BEST_SCORE_TOTAL||0) - (a.BEST_SCORE_TOTAL||0));
+      consolidated.forEach((r,i) => { r.RANG = i+1; r.Rang_ligue = i+1; r.Rang = i+1; });
+      return consolidated;
+    }
+
+    function renderTableIndiv(rows){
+      const thead   = document.getElementById('thead-row');
+      const tbody   = document.getElementById('tbody');
+      const depFilter = state.filters.departement || '';
+      thead.innerHTML = '';
+      tbody.innerHTML = '';
+
+      // Beursault : consolide les doublons licence avant affichage
+      rows = consolidateBeursaultData(rows);
+
+      const headers = headersForIndiv();
+      headers.forEach(h => {
+        const th = document.createElement('th');
+        th.textContent = h.label;
+        thead.appendChild(th);
+      });
+
+      // Calcul du rang département si filtre dép. actif
+      const depIdx = new Map();
+      if(depFilter){
+        rows.forEach((r, i) => depIdx.set(r, i + 1));
+      }
+
+      rows.forEach(r => {
+        const disp = buildDisplayRowIndiv(r);
+        if(depFilter) disp.RANG_DEP = depIdx.get(r) || '';
+        const tr = document.createElement('tr');
+        headers.forEach(h => {
+          const td = document.createElement('td');
+          td.textContent = disp[h.key] ?? '';
+          tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+      });
+
+      const n = rows.length;
+      document.getElementById('totalChip').textContent = n + ' ligne' + (n > 1 ? 's' : '');
+    }
 
     // ========= ÉQUIPE (equipes.csv + 18m auto + TAE auto via catégories) =========
     const CODE_TO_LABEL = { 'C':'Campagne','T':'TAE','3':'3D','N':'Nature' };
