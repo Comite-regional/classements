@@ -420,6 +420,23 @@ def run():
     log.info("Obtention du token FFTA…")
     token = get_token(session)
 
+    # ── Diagnostic : liste des régions disponibles dans l'API ──
+    try:
+        regions_data = api_get(session, "Classements/GetRegions", token)
+        regions = regions_data.get("Response", {})
+        log.info("=== REGIONS FFTA ===")
+        if isinstance(regions, dict):
+            for code, nom in regions.items():
+                log.info("  %s = %s", code, nom)
+        elif isinstance(regions, list):
+            for item in regions:
+                log.info("  %s", item)
+        else:
+            log.info("  Réponse brute: %s", str(regions_data)[:500])
+        log.info("=== FIN REGIONS ===")
+    except Exception as e:
+        log.warning("GetRegions a échoué: %s", e)
+
     results: dict[str, list] = {}
 
     for disc_code, filename in DISCIPLINES.items():
