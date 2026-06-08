@@ -983,8 +983,11 @@ if(clSel && clField){
   }
 }
 }
-    function buildDisplayRowIndiv(r){  const club=[r.NOM_STRUCTURE,r.NOM_ABREGE].filter(Boolean).join(' - '); const isBeursault=(state.disciplineIndiv==='Beursault'); let score1, score2, score3; if(isBeursault){ score1=(r.TOP3_SCORES && r.TOP3_SCORES[0]) || ''; score2=(r.TOP3_SCORES && r.TOP3_SCORES[1]) || ''; score3=(r.TOP3_SCORES && r.TOP3_SCORES[2]) || ''; } else { score1=r.SCORE1||''; score2=r.SCORE2||''; score3=r.SCORE3||''; } return { CAT_ORIG:(r.CAT||r.CATEGORIE||r.CATEGORIE_AGE||r.CATEGORIE_TIR||r.CAT_TIR||''), DISCIPLINE:(DISC_LABELS[(r.DISCIPLINE||r.DISC||r.discipline||'')] || (r.DISCIPLINE||r.DISC||r.discipline||'')), CLASSEMENT:(r._classement_nom||''), RANG:(r.__SCRATCH_RANK||r.Rang_ligue||r.RANG||r.Rang||''), NO_LICENCE:r.NO_LICENCE||'', NOM_PRENOM:[r.NOM_PERSONNE,r.PRENOM_PERSONNE].filter(Boolean).join(' '), SEXE:r.SEXE||r.SEXE_PERSONNE||r.GENRE||'', ARME:r.ARME||r.AR||'', DEPARTEMENT:getDeptFromCodeStructure(r.CODE_STRUCTURE), CLUB:club, SCORE1:score1, SCORE2:score2, SCORE3:score3, MOY_SCORE:r.MOY_SCORE||r.MOYENNE||'', distance:r.distance||r.DISTANCE||'', blason:r.blason||r.BLASON||'', CAT_TIR:r.CAT_TIR||'', CAT_CLASS:r.CAT_CLASS||'' }; }
-    function headersForIndiv(){ const disc=state.disciplineIndiv; let base; if(disc==='Beursault'){ base=[{key:'RANG',label:'Rang'},{key:'NO_LICENCE',label:'N° licence'},{key:'NOM_PRENOM',label:'Nom prénom'},{key:'CLUB',label:'Club / Cie'},{key:'SCORE1',label:'Résultat 1'},{key:'SCORE2',label:'Résultat 2'},{key:'SCORE3',label:'Résultat 3'}]; } else { base=[{key:'RANG',label:'Rang'},{key:'NO_LICENCE',label:'N° licence'},{key:'NOM_PRENOM',label:'Nom prénom'},{key:'CLUB',label:'Club / Ville'},{key:'SCORE1',label:'Score 1'},{key:'SCORE2',label:'Score 2'},{key:'SCORE3',label:'Score 3'},{key:'MOY_SCORE',label:'Moyenne'}]; }
+    function buildDisplayRowIndiv(r){  const club=[r.NOM_STRUCTURE,r.NOM_ABREGE].filter(Boolean).join(' - '); const isBeursault=(state.disciplineIndiv==='Beursault'); let score1, score2, score3; if(isBeursault){ score1=(r.TOP3_SCORES && r.TOP3_SCORES[0]) || ''; score2=(r.TOP3_SCORES && r.TOP3_SCORES[1]) || ''; score3=(r.TOP3_SCORES && r.TOP3_SCORES[2]) || ''; } else { score1=r.SCORE1||''; score2=r.SCORE2||''; score3=r.SCORE3||''; }
+    // Département : préfère le champ direct (API), sinon extrait du code structure
+    const dept = r.DEPARTEMENT || getDeptFromCodeStructure(r.CODE_STRUCTURE);
+    return { CAT_ORIG:(r.CAT||r.CATEGORIE||r.CATEGORIE_AGE||r.CATEGORIE_TIR||r.CAT_TIR||''), DISCIPLINE:(DISC_LABELS[(r.DISCIPLINE||r.DISC||r.discipline||'')] || (r.DISCIPLINE||r.DISC||r.discipline||'')), CLASSEMENT:(r._classement_nom||''), RANG:(r.__SCRATCH_RANK||r.Rang_ligue||r.RANG||r.Rang||''), RANG_NAT:(r.RANG_NAT||''), NO_LICENCE:r.NO_LICENCE||'', NOM_PRENOM:[r.NOM_PERSONNE,r.PRENOM_PERSONNE].filter(Boolean).join(' '), SEXE:r.SEXE||r.SEXE_PERSONNE||r.GENRE||'', ARME:r.ARME||r.AR||'', DEPARTEMENT:dept, CLUB:club, SCORE1:score1, SCORE2:score2, SCORE3:score3, MOY_SCORE:r.MOY_SCORE||r.MOYENNE||'', distance:r.distance||r.DISTANCE||'', blason:r.blason||r.BLASON||'', CAT_TIR:r.CAT_TIR||'', CAT_CLASS:r.CAT_CLASS||'' }; }
+    function headersForIndiv(){ const disc=state.disciplineIndiv; let base; if(disc==='Beursault'){ base=[{key:'RANG',label:'Rang'},{key:'NO_LICENCE',label:'N° licence'},{key:'NOM_PRENOM',label:'Nom prénom'},{key:'CLUB',label:'Club / Cie'},{key:'SCORE1',label:'Résultat 1'},{key:'SCORE2',label:'Résultat 2'},{key:'SCORE3',label:'Résultat 3'}]; } else { base=[{key:'RANG',label:'Rang PDL'},{key:'NO_LICENCE',label:'N° licence'},{key:'NOM_PRENOM',label:'Nom prénom'},{key:'CAT_ORIG',label:'Catégorie'},{key:'CLUB',label:'Club'},{key:'SCORE1',label:'Score 1'},{key:'SCORE2',label:'Score 2'},{key:'SCORE3',label:'Score 3'},{key:'MOY_SCORE',label:'Moyenne'},{key:'RANG_NAT',label:'Rang nat.'}]; }
 // Affiche le nom du classement quand on est en données API et qu'aucun classement n'est sélectionné
 if(state.hasApiData && !state.filters.classement){ base.splice(1,0,{key:'CLASSEMENT',label:'Classement'}); }
       // Affiche la catégorie d'origine des archers quand on est en mode Scratch (tous scratch)
@@ -1179,10 +1182,6 @@ if((!state.disciplineIndiv||state.disciplineIndiv==='') && state.filters && stat
       const a=(r.ARME||r.AR||'').toString();
       if(a!==f.arme) return false;
     }
-    if(f.departement){
-      const dep=getDeptFromCodeStructure(r.CODE_STRUCTURE);
-      if(dep!==f.departement) return false;
-    }
     if(['TAE I','TAE N','Para ext'].includes(disc)){
       if(f.distance && String(r.distance||r.DISTANCE||'')!==f.distance) return false;
       if(f.blason && String(r.blason||r.BLASON||'')!==f.blason) return false;
@@ -1193,6 +1192,10 @@ if((!state.disciplineIndiv||state.disciplineIndiv==='') && state.filters && stat
     }
     if(f.classement){
       if(String(r._classement_nom||'') !== f.classement) return false;
+    }
+    if(f.departement){
+      const dep = r.DEPARTEMENT || getDeptFromCodeStructure(r.CODE_STRUCTURE);
+      if(dep !== f.departement) return false;
     }
     if(f.search){
       const q=f.search.toLowerCase();

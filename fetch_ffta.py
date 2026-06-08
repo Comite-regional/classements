@@ -315,7 +315,7 @@ def normalize_archer(archer: dict, disc_code: str, rank: int) -> dict:
     s2 = str(archer.get("PlaceScore2") or "")
     s3 = str(archer.get("PlaceScore3") or "")
     total = str(archer.get("PlaceTotal") or "")
-    rang = archer.get("PlaceOrdre") or rank
+    rang = rank  # rang PDL (position dans la liste filtrée CR12)
 
     nom = str(archer.get("PersonneNom") or "").strip().upper()
     prenom = str(archer.get("PersonnePrenom") or "").strip().capitalize()
@@ -387,9 +387,10 @@ def fetch_discipline(session: requests.Session, token: str, disc_code: str) -> l
         cl_name = archers[0].get("_cl_libelle") or cl_id
         log.info("  %-60s  %3d archers", str(cl_name)[:60], len(archers))
 
-        for rank_in_cl, archer in enumerate(archers, start=1):
-            rang = archer.get("PlaceOrdre") or rank_in_cl
-            row = normalize_archer(archer, disc_code, int(str(rang).strip() or rank_in_cl))
+        for rang_pdl, archer in enumerate(archers, start=1):
+            rang_nat = str(archer.get("PlaceOrdre") or "")
+            row = normalize_archer(archer, disc_code, rang_pdl)
+            row["RANG_NAT"] = rang_nat
             row["_classement_nom"] = str(cl_name)
             all_rows.append(row)
 
