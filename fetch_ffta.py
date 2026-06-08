@@ -23,6 +23,7 @@ import json
 import time
 import logging
 from datetime import datetime
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 try:
@@ -64,8 +65,13 @@ log = logging.getLogger(__name__)
 # ─── Auth ────────────────────────────────────────────────────────────────────
 
 def make_password() -> str:
-    """Le mot de passe est la date/heure au format YYYYMMDDHHMM."""
-    return datetime.now().strftime("%Y%m%d%H%M")
+    """Le mot de passe est la date/heure Paris au format YYYYMMDDHHMM.
+    Important : le serveur FFTA est en heure de Paris (UTC+1/+2).
+    GitHub Actions tourne en UTC → sans correction, le décalage de 2h
+    ferait échouer l'authentification (tolérance serveur : ±5 min seulement).
+    """
+    paris_time = datetime.now(ZoneInfo("Europe/Paris"))
+    return paris_time.strftime("%Y%m%d%H%M")
 
 
 def get_token(session: requests.Session) -> str:
