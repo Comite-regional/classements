@@ -2790,6 +2790,11 @@ document.addEventListener('DOMContentLoaded', function(){
 
   window.loadCSV = async function(fileName){
     try{
+      // Fichiers JSON (API FFTA) : déléguer à loadJSON qui gère le format {meta, rows}
+      if (/\.json$/i.test(fileName) && typeof loadJSON === 'function') {
+        const rows = await loadJSON(fileName);
+        if (rows !== null) return rows;
+      }
       const res = await fetch(encodeURI(fileName));
       if(!res.ok) throw new Error('HTTP '+res.status);
       if(typeof updateLastModified === 'function') updateLastModified(fileName, res.headers.get('last-modified'));
