@@ -900,8 +900,13 @@ const DISC_LABELS = {
       const f = state.filters || {};
 
       // Catégorie : champ CAT (API) ou CATEGORIE (CSV)
-      const cats = uniqueSorted(data.map(r => r.CAT || r.CATEGORIE || '').filter(Boolean));
-      fillSelect(document.getElementById('categorie'), ['Toutes', ...cats], true, f.categorie);
+      // On n'extrait les catégories que depuis les classements individuels (hors Scratch)
+      const dataIndiv = data.filter(r => !/scratch/i.test(r._classement_nom || ''));
+      const cats = uniqueSorted(dataIndiv.map(r => r.CAT || r.CATEGORIE || '').filter(Boolean));
+      // Si des classements scratch existent dans les données, ajouter l'option "Scratch"
+      const hasScratch = data.some(r => /scratch/i.test(r._classement_nom || ''));
+      const catOptions = hasScratch ? ['Toutes', 'Scratch', ...cats] : ['Toutes', ...cats];
+      fillSelect(document.getElementById('categorie'), catOptions, true, f.categorie);
 
       // Arme
       const armes = uniqueSorted(data.map(r => r.ARME || '').filter(Boolean));
@@ -1007,9 +1012,10 @@ const DISC_LABELS = {
       let headers = base.slice();
 
       // Masque les colonnes déjà fixées par un filtre actif
-      if(f.sexe)       headers = headers.filter(h => h.key !== 'SEXE');
-      if(f.arme)       headers = headers.filter(h => h.key !== 'ARME');
-      if(f.categorie)  headers = headers.filter(h => h.key !== 'CAT_ORIG');
+      if(f.sexe)                           headers = headers.filter(h => h.key !== 'SEXE');
+      if(f.arme)                           headers = headers.filter(h => h.key !== 'ARME');
+      // En mode scratch : garder CAT_ORIG (catégories mélangées) ; sinon masquer si filtrée
+      if(f.categorie && f.categorie !== 'Scratch') headers = headers.filter(h => h.key !== 'CAT_ORIG');
 
       // Département + rang dept si filtre département actif
       if(f.departement){
@@ -1050,8 +1056,22 @@ const DISC_LABELS = {
         });
       }
 
+      const isScratchMode = f.categorie === 'Scratch';
+
       let rows = (data||[]).filter(r => {
-        // Classement national (API)
+        const isScr = /scratch/i.test(r._classement_nom || '');
+
+        // Mode scratch : n'afficher que les lignes scratch
+        if(isScratchMode){
+          if(!isScr) return false;
+        } else {
+          // Mode normal : exclure les lignes scratch (évite les doublons)
+          if(isScr) return false;
+          // Catégorie : valeur API = 'S1', 'U18', etc.
+          if(f.categorie && (r.CAT || r.CATEGORIE) !== f.categorie) return false;
+        }
+
+        // Classement national (filtre explicite via dropdown)
         if(f.classement && r._classement_nom !== f.classement) return false;
 
         // Sexe : valeur API = 'H' / 'F'
@@ -1059,9 +1079,6 @@ const DISC_LABELS = {
 
         // Arme : valeur API = 'CL' / 'CO' / 'BB' / 'P' …
         if(f.arme && r.ARME !== f.arme) return false;
-
-        // Catégorie : valeur API = 'S1', 'U18', etc.
-        if(f.categorie && (r.CAT || r.CATEGORIE) !== f.categorie) return false;
 
         // Département
         if(f.departement){
@@ -1087,9 +1104,16 @@ const DISC_LABELS = {
         return true;
       });
 
-      // Tri par rang PDL (numérique)
-      rows.sort((a,b) => (parseInt(a.RANG || a.Rang_ligue || a.Rang || '999999')||999999)
-                       - (parseInt(b.RANG || b.Rang_ligue || b.Rang || '999999')||999999));
+      if(isScratchMode){
+        // Scratch : tri par score moyen décroissant, rang recalculé
+        rows.sort((a,b) => (toNum(b.MOY_SCORE) - toNum(a.MOY_SCORE))
+                        || String(a.NOM_PERSONNE||'').localeCompare(String(b.NOM_PERSONNE||''), 'fr'));
+        rows = rows.map((r, i) => Object.assign({}, r, { RANG: i + 1, Rang_ligue: i + 1 }));
+      } else {
+        // Tri par rang PDL (numérique)
+        rows.sort((a,b) => (parseInt(a.RANG || a.Rang_ligue || a.Rang || '999999')||999999)
+                         - (parseInt(b.RANG || b.Rang_ligue || b.Rang || '999999')||999999));
+      }
       return rows;
     }
 
