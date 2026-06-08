@@ -213,13 +213,9 @@ def get_classement_detail(session, token, classement_id) -> list[dict]:
     On extrait les archers de tous les objets et on les enrichit avec les métadonnées
     du classement (sexe_code, arme_code, libelle).
     """
-    # Ligue=CR12 filtre les archers côté serveur FFTA (Pays de la Loire).
-    # Si le paramètre n'est pas supporté, l'API renvoie tous les archers
-    # et MAX_ARCHERS_PER_CLASSEMENT sert de filet de sécurité.
     data = api_get(
         session, "Classements/Classement", token,
         Classement=classement_id,
-        Ligue=LIGUE_CODE,
     )
     response = data.get("Response", {})
     classement_array = response.get("ClassementArray") or []
@@ -231,7 +227,6 @@ def get_classement_detail(session, token, classement_id) -> list[dict]:
         if not isinstance(cl_item, dict):
             continue
         raw_archers = cl_item.get("archers") or []
-        # archers peut être un dict {"1": {...}, "2": {...}} ou une liste []
         if isinstance(raw_archers, dict):
             archer_list = list(raw_archers.values())
         elif isinstance(raw_archers, list):
@@ -239,7 +234,15 @@ def get_classement_detail(session, token, classement_id) -> list[dict]:
         else:
             archer_list = []
 
-        # Trie par PlaceOrdre pour garantir l'ordre avant de couper
+        # Log TOUS les champs du 1er archer pour découvrir les champs disponibles
+        if archer_list and not get_classement_detail._fields_logged:
+            get_classement_detail._fields_logged = True
+            sample = archer_list[0] if isinstance(archer_list[0], dict) else {}
+            log.info("=== CHAMPS ARCHER (diagnostic) ===")
+            for k, v in sample.items():
+                log.info("  %s = %r", k, v)
+            log.info("=== FIN DIAGNOSTIC ===")
+
         def sort_key(a):
             try:
                 return int(a.get("PlaceOrdre") or 9999)
@@ -251,7 +254,6 @@ def get_classement_detail(session, token, classement_id) -> list[dict]:
         for archer in archer_list[:MAX_ARCHERS_PER_CLASSEMENT]:
             if not isinstance(archer, dict):
                 continue
-            # Enrichit l'archer avec les métadonnées du classement
             enriched = {
                 "_sexe_code": cl_item.get("sexe_code", ""),
                 "_arme_code": cl_item.get("arme_code", ""),
@@ -261,6 +263,8 @@ def get_classement_detail(session, token, classement_id) -> list[dict]:
             all_archers.append(enriched)
 
     return all_archers
+
+get_classement_detail._fields_logged = False
 
 
 # ─── Filtrage région ──────────────────────────────────────────────────────────
