@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-06-08T16:54:31.588171Z",
+    "generated_at": "2026-06-08T17:09:09.148860Z",
     "saison": "2026",
     "ligue": "CR12"
   },
   "rows": [
     {
-      "Rang_ligue": "54",
-      "RANG": "54",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0981298D",
       "NOM_PERSONNE": "BESSEAU",
       "PRENOM_PERSONNE": "Patrice",
@@ -24,11 +24,12 @@
       "SCORE3": "505",
       "MOY_SCORE": "515",
       "DISCIPLINE": "N",
+      "RANG_NAT": "54",
       "_classement_nom": "Senior 3 Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "56",
-      "RANG": "56",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0427934W",
       "NOM_PERSONNE": "ADET",
       "PRENOM_PERSONNE": "Yves",
@@ -45,11 +46,12 @@
       "SCORE3": "450",
       "MOY_SCORE": "510",
       "DISCIPLINE": "N",
+      "RANG_NAT": "56",
       "_classement_nom": "Senior 3 Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "83",
-      "RANG": "83",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "0469727Y",
       "NOM_PERSONNE": "TREMBLIN",
       "PRENOM_PERSONNE": "Olivier",
@@ -66,11 +68,12 @@
       "SCORE3": "465",
       "MOY_SCORE": "483",
       "DISCIPLINE": "N",
+      "RANG_NAT": "83",
       "_classement_nom": "Senior 3 Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "104",
-      "RANG": "104",
+      "Rang_ligue": 4,
+      "RANG": 4,
       "NO_LICENCE": "0379198X",
       "NOM_PERSONNE": "HALLEREAU",
       "PRENOM_PERSONNE": "Joel",
@@ -87,11 +90,12 @@
       "SCORE3": "415",
       "MOY_SCORE": "460",
       "DISCIPLINE": "N",
+      "RANG_NAT": "104",
       "_classement_nom": "Senior 3 Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "118",
-      "RANG": "118",
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "0954347J",
       "NOM_PERSONNE": "LE COCQ",
       "PRENOM_PERSONNE": "Dominique",
@@ -108,11 +112,12 @@
       "SCORE3": "385",
       "MOY_SCORE": "445",
       "DISCIPLINE": "N",
+      "RANG_NAT": "118",
       "_classement_nom": "Senior 3 Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "146",
-      "RANG": "146",
+      "Rang_ligue": 6,
+      "RANG": 6,
       "NO_LICENCE": "0362717H",
       "NOM_PERSONNE": "BURON",
       "PRENOM_PERSONNE": "Eric",
@@ -129,11 +134,12 @@
       "SCORE3": "365",
       "MOY_SCORE": "410",
       "DISCIPLINE": "N",
+      "RANG_NAT": "146",
       "_classement_nom": "Senior 3 Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "201",
-      "RANG": "201",
+      "Rang_ligue": 7,
+      "RANG": 7,
       "NO_LICENCE": "0907301X",
       "NOM_PERSONNE": "CHAPELET",
       "PRENOM_PERSONNE": "Jacques",
@@ -150,11 +156,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "305",
       "DISCIPLINE": "N",
+      "RANG_NAT": "201",
       "_classement_nom": "Senior 3 Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "220",
-      "RANG": "220",
+      "Rang_ligue": 8,
+      "RANG": 8,
       "NO_LICENCE": "0259705N",
       "NOM_PERSONNE": "THEREAU",
       "PRENOM_PERSONNE": "Pascal",
@@ -171,11 +178,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "266",
       "DISCIPLINE": "N",
+      "RANG_NAT": "220",
       "_classement_nom": "Senior 3 Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "232",
-      "RANG": "232",
+      "Rang_ligue": 9,
+      "RANG": 9,
       "NO_LICENCE": "0349980N",
       "NOM_PERSONNE": "BRUNET",
       "PRENOM_PERSONNE": "Jean-marie",
@@ -192,11 +200,12 @@
       "SCORE3": "145",
       "MOY_SCORE": "241",
       "DISCIPLINE": "N",
+      "RANG_NAT": "232",
       "_classement_nom": "Senior 3 Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "269",
-      "RANG": "269",
+      "Rang_ligue": 10,
+      "RANG": 10,
       "NO_LICENCE": "0626848G",
       "NOM_PERSONNE": "LESUEUR",
       "PRENOM_PERSONNE": "Michel",
@@ -213,11 +222,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "148",
       "DISCIPLINE": "N",
+      "RANG_NAT": "269",
       "_classement_nom": "Senior 3 Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "305",
-      "RANG": "305",
+      "Rang_ligue": 11,
+      "RANG": 11,
       "NO_LICENCE": "0295519S",
       "NOM_PERSONNE": "GALLET",
       "PRENOM_PERSONNE": "Joseph",
@@ -234,11 +244,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "86",
       "DISCIPLINE": "N",
+      "RANG_NAT": "305",
       "_classement_nom": "Senior 3 Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "38",
-      "RANG": "38",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0399897W",
       "NOM_PERSONNE": "BARRAULT",
       "PRENOM_PERSONNE": "Marie-line",
@@ -255,11 +266,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "156",
       "DISCIPLINE": "N",
+      "RANG_NAT": "38",
       "_classement_nom": "Senior 3 Femme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "2",
-      "RANG": "2",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0270287R",
       "NOM_PERSONNE": "MACE",
       "PRENOM_PERSONNE": "Jacky",
@@ -276,11 +288,12 @@
       "SCORE3": "715",
       "MOY_SCORE": "718",
       "DISCIPLINE": "N",
+      "RANG_NAT": "2",
       "_classement_nom": "Senior 3 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "7",
-      "RANG": "7",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0427934W",
       "NOM_PERSONNE": "ADET",
       "PRENOM_PERSONNE": "Yves",
@@ -297,11 +310,12 @@
       "SCORE3": "700",
       "MOY_SCORE": "705",
       "DISCIPLINE": "N",
+      "RANG_NAT": "7",
       "_classement_nom": "Senior 3 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "21",
-      "RANG": "21",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "0417988K",
       "NOM_PERSONNE": "VIDOT",
       "PRENOM_PERSONNE": "Bertrand",
@@ -318,11 +332,12 @@
       "SCORE3": "685",
       "MOY_SCORE": "691",
       "DISCIPLINE": "N",
+      "RANG_NAT": "21",
       "_classement_nom": "Senior 3 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "43",
-      "RANG": "43",
+      "Rang_ligue": 4,
+      "RANG": 4,
       "NO_LICENCE": "0332503S",
       "NOM_PERSONNE": "GAUTHIER-HATET",
       "PRENOM_PERSONNE": "Patrick",
@@ -339,11 +354,12 @@
       "SCORE3": "625",
       "MOY_SCORE": "645",
       "DISCIPLINE": "N",
+      "RANG_NAT": "43",
       "_classement_nom": "Senior 3 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "44",
-      "RANG": "44",
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "1028735L",
       "NOM_PERSONNE": "BUSSY",
       "PRENOM_PERSONNE": "Christian",
@@ -360,11 +376,12 @@
       "SCORE3": "645",
       "MOY_SCORE": "645",
       "DISCIPLINE": "N",
+      "RANG_NAT": "44",
       "_classement_nom": "Senior 3 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "56",
-      "RANG": "56",
+      "Rang_ligue": 6,
+      "RANG": 6,
       "NO_LICENCE": "0340503M",
       "NOM_PERSONNE": "GASSOT",
       "PRENOM_PERSONNE": "Jean yves",
@@ -381,11 +398,12 @@
       "SCORE3": "575",
       "MOY_SCORE": "598",
       "DISCIPLINE": "N",
+      "RANG_NAT": "56",
       "_classement_nom": "Senior 3 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "70",
-      "RANG": "70",
+      "Rang_ligue": 7,
+      "RANG": 7,
       "NO_LICENCE": "0434803M",
       "NOM_PERSONNE": "CANTONI",
       "PRENOM_PERSONNE": "Pierre",
@@ -402,11 +420,12 @@
       "SCORE3": "525",
       "MOY_SCORE": "555",
       "DISCIPLINE": "N",
+      "RANG_NAT": "70",
       "_classement_nom": "Senior 3 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "95",
-      "RANG": "95",
+      "Rang_ligue": 8,
+      "RANG": 8,
       "NO_LICENCE": "0809577A",
       "NOM_PERSONNE": "LECAS",
       "PRENOM_PERSONNE": "Gilles",
@@ -423,11 +442,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "366",
       "DISCIPLINE": "N",
+      "RANG_NAT": "95",
       "_classement_nom": "Senior 3 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "100",
-      "RANG": "100",
+      "Rang_ligue": 9,
+      "RANG": 9,
       "NO_LICENCE": "0448921H",
       "NOM_PERSONNE": "RICHOU",
       "PRENOM_PERSONNE": "Bernard",
@@ -444,11 +464,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "350",
       "DISCIPLINE": "N",
+      "RANG_NAT": "100",
       "_classement_nom": "Senior 3 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "20",
-      "RANG": "20",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "1053783V",
       "NOM_PERSONNE": "MAILLOT",
       "PRENOM_PERSONNE": "Nadine",
@@ -465,11 +486,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "48",
       "DISCIPLINE": "N",
+      "RANG_NAT": "20",
       "_classement_nom": "Senior 3 Femme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "12",
-      "RANG": "12",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0236771K",
       "NOM_PERSONNE": "LECLERC",
       "PRENOM_PERSONNE": "Jacques",
@@ -486,11 +508,12 @@
       "SCORE3": "530",
       "MOY_SCORE": "565",
       "DISCIPLINE": "N",
+      "RANG_NAT": "12",
       "_classement_nom": "Senior 3 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "33",
-      "RANG": "33",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0282797N",
       "NOM_PERSONNE": "BEAUTE",
       "PRENOM_PERSONNE": "Pascal",
@@ -507,11 +530,12 @@
       "SCORE3": "490",
       "MOY_SCORE": "518",
       "DISCIPLINE": "N",
+      "RANG_NAT": "33",
       "_classement_nom": "Senior 3 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "56",
-      "RANG": "56",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "0626848G",
       "NOM_PERSONNE": "LESUEUR",
       "PRENOM_PERSONNE": "Michel",
@@ -528,11 +552,12 @@
       "SCORE3": "450",
       "MOY_SCORE": "486",
       "DISCIPLINE": "N",
+      "RANG_NAT": "56",
       "_classement_nom": "Senior 3 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "73",
-      "RANG": "73",
+      "Rang_ligue": 4,
+      "RANG": 4,
       "NO_LICENCE": "0626525F",
       "NOM_PERSONNE": "BAGNA",
       "PRENOM_PERSONNE": "Francois",
@@ -549,11 +574,12 @@
       "SCORE3": "440",
       "MOY_SCORE": "453",
       "DISCIPLINE": "N",
+      "RANG_NAT": "73",
       "_classement_nom": "Senior 3 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "103",
-      "RANG": "103",
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "0440625R",
       "NOM_PERSONNE": "BOSMAN",
       "PRENOM_PERSONNE": "Jean-philippe",
@@ -570,11 +596,12 @@
       "SCORE3": "370",
       "MOY_SCORE": "416",
       "DISCIPLINE": "N",
+      "RANG_NAT": "103",
       "_classement_nom": "Senior 3 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "106",
-      "RANG": "106",
+      "Rang_ligue": 6,
+      "RANG": 6,
       "NO_LICENCE": "0722399S",
       "NOM_PERSONNE": "PITON",
       "PRENOM_PERSONNE": "Alain",
@@ -591,11 +618,12 @@
       "SCORE3": "380",
       "MOY_SCORE": "406",
       "DISCIPLINE": "N",
+      "RANG_NAT": "106",
       "_classement_nom": "Senior 3 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "150",
-      "RANG": "150",
+      "Rang_ligue": 7,
+      "RANG": 7,
       "NO_LICENCE": "0860427X",
       "NOM_PERSONNE": "DEYDIER DE PIERREFEU",
       "PRENOM_PERSONNE": "Rene",
@@ -612,11 +640,12 @@
       "SCORE3": "305",
       "MOY_SCORE": "331",
       "DISCIPLINE": "N",
+      "RANG_NAT": "150",
       "_classement_nom": "Senior 3 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "178",
-      "RANG": "178",
+      "Rang_ligue": 8,
+      "RANG": 8,
       "NO_LICENCE": "0379198X",
       "NOM_PERSONNE": "HALLEREAU",
       "PRENOM_PERSONNE": "Joel",
@@ -633,11 +662,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "248",
       "DISCIPLINE": "N",
+      "RANG_NAT": "178",
       "_classement_nom": "Senior 3 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "184",
-      "RANG": "184",
+      "Rang_ligue": 9,
+      "RANG": 9,
       "NO_LICENCE": "0754955D",
       "NOM_PERSONNE": "GROUHAN",
       "PRENOM_PERSONNE": "Pierrick",
@@ -654,11 +684,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "235",
       "DISCIPLINE": "N",
+      "RANG_NAT": "184",
       "_classement_nom": "Senior 3 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "237",
-      "RANG": "237",
+      "Rang_ligue": 10,
+      "RANG": 10,
       "NO_LICENCE": "0337710B",
       "NOM_PERSONNE": "BRESSON",
       "PRENOM_PERSONNE": "Patrick",
@@ -675,11 +706,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "105",
       "DISCIPLINE": "N",
+      "RANG_NAT": "237",
       "_classement_nom": "Senior 3 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "3",
-      "RANG": "3",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0415552M",
       "NOM_PERSONNE": "SIMÉON",
       "PRENOM_PERSONNE": "Claudie",
@@ -696,11 +728,12 @@
       "SCORE3": "475",
       "MOY_SCORE": "500",
       "DISCIPLINE": "N",
+      "RANG_NAT": "3",
       "_classement_nom": "Senior 3 Femme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "45",
-      "RANG": "45",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0332292M",
       "NOM_PERSONNE": "THEPAULT",
       "PRENOM_PERSONNE": "Gwenaelle",
@@ -717,11 +750,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "153",
       "DISCIPLINE": "N",
+      "RANG_NAT": "45",
       "_classement_nom": "Senior 3 Femme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "66",
-      "RANG": "66",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0799974M",
       "NOM_PERSONNE": "JAMAULT",
       "PRENOM_PERSONNE": "Francis",
@@ -738,11 +772,12 @@
       "SCORE3": "490",
       "MOY_SCORE": "555",
       "DISCIPLINE": "N",
+      "RANG_NAT": "66",
       "_classement_nom": "Senior 3 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "92",
-      "RANG": "92",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0340503M",
       "NOM_PERSONNE": "GASSOT",
       "PRENOM_PERSONNE": "Jean yves",
@@ -759,11 +794,12 @@
       "SCORE3": "490",
       "MOY_SCORE": "508",
       "DISCIPLINE": "N",
+      "RANG_NAT": "92",
       "_classement_nom": "Senior 3 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "124",
-      "RANG": "124",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "0874995G",
       "NOM_PERSONNE": "RICO",
       "PRENOM_PERSONNE": "Gerard",
@@ -780,11 +816,12 @@
       "SCORE3": "370",
       "MOY_SCORE": "430",
       "DISCIPLINE": "N",
+      "RANG_NAT": "124",
       "_classement_nom": "Senior 3 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "132",
-      "RANG": "132",
+      "Rang_ligue": 4,
+      "RANG": 4,
       "NO_LICENCE": "0439485B",
       "NOM_PERSONNE": "GROUARD",
       "PRENOM_PERSONNE": "Ludovic",
@@ -801,11 +838,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "405",
       "DISCIPLINE": "N",
+      "RANG_NAT": "132",
       "_classement_nom": "Senior 3 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "133",
-      "RANG": "133",
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "1023078W",
       "NOM_PERSONNE": "PARRY",
       "PRENOM_PERSONNE": "Daniel",
@@ -822,11 +860,12 @@
       "SCORE3": "390",
       "MOY_SCORE": "403",
       "DISCIPLINE": "N",
+      "RANG_NAT": "133",
       "_classement_nom": "Senior 3 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "145",
-      "RANG": "145",
+      "Rang_ligue": 6,
+      "RANG": 6,
       "NO_LICENCE": "0398950S",
       "NOM_PERSONNE": "LITEAU",
       "PRENOM_PERSONNE": "Pascal",
@@ -843,11 +882,12 @@
       "SCORE3": "320",
       "MOY_SCORE": "378",
       "DISCIPLINE": "N",
+      "RANG_NAT": "145",
       "_classement_nom": "Senior 3 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "158",
-      "RANG": "158",
+      "Rang_ligue": 7,
+      "RANG": 7,
       "NO_LICENCE": "0787905U",
       "NOM_PERSONNE": "MANDIN",
       "PRENOM_PERSONNE": "Jacky",
@@ -864,11 +904,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "346",
       "DISCIPLINE": "N",
+      "RANG_NAT": "158",
       "_classement_nom": "Senior 3 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "161",
-      "RANG": "161",
+      "Rang_ligue": 8,
+      "RANG": 8,
       "NO_LICENCE": "0440625R",
       "NOM_PERSONNE": "BOSMAN",
       "PRENOM_PERSONNE": "Jean-philippe",
@@ -885,11 +926,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "330",
       "DISCIPLINE": "N",
+      "RANG_NAT": "161",
       "_classement_nom": "Senior 3 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "178",
-      "RANG": "178",
+      "Rang_ligue": 9,
+      "RANG": 9,
       "NO_LICENCE": "0842188X",
       "NOM_PERSONNE": "GALPIN",
       "PRENOM_PERSONNE": "Yves",
@@ -906,11 +948,12 @@
       "SCORE3": "285",
       "MOY_SCORE": "298",
       "DISCIPLINE": "N",
+      "RANG_NAT": "178",
       "_classement_nom": "Senior 3 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "200",
-      "RANG": "200",
+      "Rang_ligue": 10,
+      "RANG": 10,
       "NO_LICENCE": "0869330Z",
       "NOM_PERSONNE": "BELLANGER",
       "PRENOM_PERSONNE": "Jean luc",
@@ -927,11 +970,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "196",
       "DISCIPLINE": "N",
+      "RANG_NAT": "200",
       "_classement_nom": "Senior 3 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "208",
-      "RANG": "208",
+      "Rang_ligue": 11,
+      "RANG": 11,
       "NO_LICENCE": "1027825L",
       "NOM_PERSONNE": "MARTINACHE",
       "PRENOM_PERSONNE": "Michel",
@@ -948,11 +992,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "165",
       "DISCIPLINE": "N",
+      "RANG_NAT": "208",
       "_classement_nom": "Senior 3 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "210",
-      "RANG": "210",
+      "Rang_ligue": 12,
+      "RANG": 12,
       "NO_LICENCE": "0722399S",
       "NOM_PERSONNE": "PITON",
       "PRENOM_PERSONNE": "Alain",
@@ -969,11 +1014,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "156",
       "DISCIPLINE": "N",
+      "RANG_NAT": "210",
       "_classement_nom": "Senior 3 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "229",
-      "RANG": "229",
+      "Rang_ligue": 13,
+      "RANG": 13,
       "NO_LICENCE": "1054279X",
       "NOM_PERSONNE": "GUYON",
       "PRENOM_PERSONNE": "Dominique",
@@ -990,11 +1036,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "130",
       "DISCIPLINE": "N",
+      "RANG_NAT": "229",
       "_classement_nom": "Senior 3 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "244",
-      "RANG": "244",
+      "Rang_ligue": 14,
+      "RANG": 14,
       "NO_LICENCE": "0682212K",
       "NOM_PERSONNE": "GABORIT",
       "PRENOM_PERSONNE": "Pascal",
@@ -1011,11 +1058,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "103",
       "DISCIPLINE": "N",
+      "RANG_NAT": "244",
       "_classement_nom": "Senior 3 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "12",
-      "RANG": "12",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0638510H",
       "NOM_PERSONNE": "LESUEUR",
       "PRENOM_PERSONNE": "Sylvie",
@@ -1032,11 +1080,12 @@
       "SCORE3": "490",
       "MOY_SCORE": "536",
       "DISCIPLINE": "N",
+      "RANG_NAT": "12",
       "_classement_nom": "Senior 3 Femme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "43",
-      "RANG": "43",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0600780X",
       "NOM_PERSONNE": "LE COCQ",
       "PRENOM_PERSONNE": "Dominique",
@@ -1053,11 +1102,12 @@
       "SCORE3": "295",
       "MOY_SCORE": "331",
       "DISCIPLINE": "N",
+      "RANG_NAT": "43",
       "_classement_nom": "Senior 3 Femme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "99",
-      "RANG": "99",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0456280G",
       "NOM_PERSONNE": "GARREAU",
       "PRENOM_PERSONNE": "Ismael",
@@ -1074,11 +1124,12 @@
       "SCORE3": "395",
       "MOY_SCORE": "428",
       "DISCIPLINE": "N",
+      "RANG_NAT": "99",
       "_classement_nom": "Senior 2  Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "146",
-      "RANG": "146",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0997010G",
       "NOM_PERSONNE": "CHIRON",
       "PRENOM_PERSONNE": "Gaëtan",
@@ -1095,11 +1146,12 @@
       "SCORE3": "265",
       "MOY_SCORE": "303",
       "DISCIPLINE": "N",
+      "RANG_NAT": "146",
       "_classement_nom": "Senior 2  Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "176",
-      "RANG": "176",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "0970386T",
       "NOM_PERSONNE": "BARRAUD",
       "PRENOM_PERSONNE": "Eric",
@@ -1116,11 +1168,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "246",
       "DISCIPLINE": "N",
+      "RANG_NAT": "176",
       "_classement_nom": "Senior 2  Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "179",
-      "RANG": "179",
+      "Rang_ligue": 4,
+      "RANG": 4,
       "NO_LICENCE": "1016852K",
       "NOM_PERSONNE": "BRETON",
       "PRENOM_PERSONNE": "Frédéric",
@@ -1137,11 +1190,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "243",
       "DISCIPLINE": "N",
+      "RANG_NAT": "179",
       "_classement_nom": "Senior 2  Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "203",
-      "RANG": "203",
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "0965739S",
       "NOM_PERSONNE": "POUPON",
       "PRENOM_PERSONNE": "Sebastien",
@@ -1158,11 +1212,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "145",
       "DISCIPLINE": "N",
+      "RANG_NAT": "203",
       "_classement_nom": "Senior 2  Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "223",
-      "RANG": "223",
+      "Rang_ligue": 6,
+      "RANG": 6,
       "NO_LICENCE": "0991368Z",
       "NOM_PERSONNE": "BARAIS",
       "PRENOM_PERSONNE": "Stephane",
@@ -1179,11 +1234,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "105",
       "DISCIPLINE": "N",
+      "RANG_NAT": "223",
       "_classement_nom": "Senior 2  Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "225",
-      "RANG": "225",
+      "Rang_ligue": 7,
+      "RANG": 7,
       "NO_LICENCE": "0368711Y",
       "NOM_PERSONNE": "FONTENELLE",
       "PRENOM_PERSONNE": "Patrick",
@@ -1200,11 +1256,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "103",
       "DISCIPLINE": "N",
+      "RANG_NAT": "225",
       "_classement_nom": "Senior 2  Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "236",
-      "RANG": "236",
+      "Rang_ligue": 8,
+      "RANG": 8,
       "NO_LICENCE": "0615887T",
       "NOM_PERSONNE": "BOUTIN",
       "PRENOM_PERSONNE": "Laurent",
@@ -1221,11 +1278,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "86",
       "DISCIPLINE": "N",
+      "RANG_NAT": "236",
       "_classement_nom": "Senior 2  Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "238",
-      "RANG": "238",
+      "Rang_ligue": 9,
+      "RANG": 9,
       "NO_LICENCE": "0746237C",
       "NOM_PERSONNE": "NOVERRAZ",
       "PRENOM_PERSONNE": "Samuel",
@@ -1242,11 +1300,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "76",
       "DISCIPLINE": "N",
+      "RANG_NAT": "238",
       "_classement_nom": "Senior 2  Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "242",
-      "RANG": "242",
+      "Rang_ligue": 10,
+      "RANG": 10,
       "NO_LICENCE": "0971998V",
       "NOM_PERSONNE": "GARNIER",
       "PRENOM_PERSONNE": "Stephane",
@@ -1263,11 +1322,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "68",
       "DISCIPLINE": "N",
+      "RANG_NAT": "242",
       "_classement_nom": "Senior 2  Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "36",
-      "RANG": "36",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0262592B",
       "NOM_PERSONNE": "FEVRIER",
       "PRENOM_PERSONNE": "Nathalie",
@@ -1284,11 +1344,12 @@
       "SCORE3": "310",
       "MOY_SCORE": "335",
       "DISCIPLINE": "N",
+      "RANG_NAT": "36",
       "_classement_nom": "Senior 2 Femme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "13",
-      "RANG": "13",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0460025C",
       "NOM_PERSONNE": "PAPIN",
       "PRENOM_PERSONNE": "Damien",
@@ -1305,11 +1366,12 @@
       "SCORE3": "715",
       "MOY_SCORE": "718",
       "DISCIPLINE": "N",
+      "RANG_NAT": "13",
       "_classement_nom": "Senior 2 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "17",
-      "RANG": "17",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0835938D",
       "NOM_PERSONNE": "RATEL",
       "PRENOM_PERSONNE": "Christophe",
@@ -1326,11 +1388,12 @@
       "SCORE3": "710",
       "MOY_SCORE": "716",
       "DISCIPLINE": "N",
+      "RANG_NAT": "17",
       "_classement_nom": "Senior 2 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "25",
-      "RANG": "25",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "0877737M",
       "NOM_PERSONNE": "CVEJIC",
       "PRENOM_PERSONNE": "Alexandre",
@@ -1347,11 +1410,12 @@
       "SCORE3": "710",
       "MOY_SCORE": "713",
       "DISCIPLINE": "N",
+      "RANG_NAT": "25",
       "_classement_nom": "Senior 2 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "33",
-      "RANG": "33",
+      "Rang_ligue": 4,
+      "RANG": 4,
       "NO_LICENCE": "0300070N",
       "NOM_PERSONNE": "BENOIST",
       "PRENOM_PERSONNE": "David",
@@ -1368,11 +1432,12 @@
       "SCORE3": "705",
       "MOY_SCORE": "708",
       "DISCIPLINE": "N",
+      "RANG_NAT": "33",
       "_classement_nom": "Senior 2 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "46",
-      "RANG": "46",
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "1011036S",
       "NOM_PERSONNE": "PERRET",
       "PRENOM_PERSONNE": "Josselin",
@@ -1389,11 +1454,12 @@
       "SCORE3": "685",
       "MOY_SCORE": "696",
       "DISCIPLINE": "N",
+      "RANG_NAT": "46",
       "_classement_nom": "Senior 2 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "81",
-      "RANG": "81",
+      "Rang_ligue": 6,
+      "RANG": 6,
       "NO_LICENCE": "0353931H",
       "NOM_PERSONNE": "HABERKORN",
       "PRENOM_PERSONNE": "Nicolas",
@@ -1410,11 +1476,12 @@
       "SCORE3": "640",
       "MOY_SCORE": "650",
       "DISCIPLINE": "N",
+      "RANG_NAT": "81",
       "_classement_nom": "Senior 2 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "169",
-      "RANG": "169",
+      "Rang_ligue": 7,
+      "RANG": 7,
       "NO_LICENCE": "1038090G",
       "NOM_PERSONNE": "RABALLAND",
       "PRENOM_PERSONNE": "Mathieu",
@@ -1431,11 +1498,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "273",
       "DISCIPLINE": "N",
+      "RANG_NAT": "169",
       "_classement_nom": "Senior 2 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "177",
-      "RANG": "177",
+      "Rang_ligue": 8,
+      "RANG": 8,
       "NO_LICENCE": "0959117U",
       "NOM_PERSONNE": "GAZEAU",
       "PRENOM_PERSONNE": "Teddy",
@@ -1452,11 +1520,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "223",
       "DISCIPLINE": "N",
+      "RANG_NAT": "177",
       "_classement_nom": "Senior 2 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "178",
-      "RANG": "178",
+      "Rang_ligue": 9,
+      "RANG": 9,
       "NO_LICENCE": "1000268O",
       "NOM_PERSONNE": "FLORENCE",
       "PRENOM_PERSONNE": "Guillaume",
@@ -1473,11 +1542,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "221",
       "DISCIPLINE": "N",
+      "RANG_NAT": "178",
       "_classement_nom": "Senior 2 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "185",
-      "RANG": "185",
+      "Rang_ligue": 10,
+      "RANG": 10,
       "NO_LICENCE": "1012555D",
       "NOM_PERSONNE": "GILBERT",
       "PRENOM_PERSONNE": "Hervé",
@@ -1494,11 +1564,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "213",
       "DISCIPLINE": "N",
+      "RANG_NAT": "185",
       "_classement_nom": "Senior 2 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "186",
-      "RANG": "186",
+      "Rang_ligue": 11,
+      "RANG": 11,
       "NO_LICENCE": "0252963K",
       "NOM_PERSONNE": "HELBECQUE",
       "PRENOM_PERSONNE": "Stephane",
@@ -1515,11 +1586,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "208",
       "DISCIPLINE": "N",
+      "RANG_NAT": "186",
       "_classement_nom": "Senior 2 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "218",
-      "RANG": "218",
+      "Rang_ligue": 12,
+      "RANG": 12,
       "NO_LICENCE": "1031467N",
       "NOM_PERSONNE": "POUPARD",
       "PRENOM_PERSONNE": "Vincent",
@@ -1536,11 +1608,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "125",
       "DISCIPLINE": "N",
+      "RANG_NAT": "218",
       "_classement_nom": "Senior 2 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "17",
-      "RANG": "17",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0223964P",
       "NOM_PERSONNE": "DUPAR-RATEL",
       "PRENOM_PERSONNE": "Christine",
@@ -1557,11 +1630,12 @@
       "SCORE3": "615",
       "MOY_SCORE": "631",
       "DISCIPLINE": "N",
+      "RANG_NAT": "17",
       "_classement_nom": "Senior 2 Femme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "50",
-      "RANG": "50",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "1070633X",
       "NOM_PERSONNE": "BARRAUD",
       "PRENOM_PERSONNE": "Céline",
@@ -1578,11 +1652,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "48",
       "DISCIPLINE": "N",
+      "RANG_NAT": "50",
       "_classement_nom": "Senior 2 Femme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "101",
-      "RANG": "101",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0790323X",
       "NOM_PERSONNE": "TEILLET",
       "PRENOM_PERSONNE": "Philippe",
@@ -1599,11 +1674,12 @@
       "SCORE3": "310",
       "MOY_SCORE": "336",
       "DISCIPLINE": "N",
+      "RANG_NAT": "101",
       "_classement_nom": "Senior 2 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "102",
-      "RANG": "102",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0259698F",
       "NOM_PERSONNE": "VILLENEUVE",
       "PRENOM_PERSONNE": "Mario",
@@ -1620,11 +1696,12 @@
       "SCORE3": "305",
       "MOY_SCORE": "331",
       "DISCIPLINE": "N",
+      "RANG_NAT": "102",
       "_classement_nom": "Senior 2 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "103",
-      "RANG": "103",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "0076343G",
       "NOM_PERSONNE": "DUPUIS",
       "PRENOM_PERSONNE": "Olivier",
@@ -1641,11 +1718,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "321",
       "DISCIPLINE": "N",
+      "RANG_NAT": "103",
       "_classement_nom": "Senior 2 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "114",
-      "RANG": "114",
+      "Rang_ligue": 4,
+      "RANG": 4,
       "NO_LICENCE": "0866072H",
       "NOM_PERSONNE": "CHARRIER",
       "PRENOM_PERSONNE": "Antoine",
@@ -1662,11 +1740,12 @@
       "SCORE3": "235",
       "MOY_SCORE": "265",
       "DISCIPLINE": "N",
+      "RANG_NAT": "114",
       "_classement_nom": "Senior 2 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "131",
-      "RANG": "131",
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "0456280G",
       "NOM_PERSONNE": "GARREAU",
       "PRENOM_PERSONNE": "Ismael",
@@ -1683,11 +1762,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "221",
       "DISCIPLINE": "N",
+      "RANG_NAT": "131",
       "_classement_nom": "Senior 2 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "146",
-      "RANG": "146",
+      "Rang_ligue": 6,
+      "RANG": 6,
       "NO_LICENCE": "0327024L",
       "NOM_PERSONNE": "BARRAUD",
       "PRENOM_PERSONNE": "Mathieu",
@@ -1704,11 +1784,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "166",
       "DISCIPLINE": "N",
+      "RANG_NAT": "146",
       "_classement_nom": "Senior 2 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "171",
-      "RANG": "171",
+      "Rang_ligue": 7,
+      "RANG": 7,
       "NO_LICENCE": "0368711Y",
       "NOM_PERSONNE": "FONTENELLE",
       "PRENOM_PERSONNE": "Patrick",
@@ -1725,11 +1806,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "110",
       "DISCIPLINE": "N",
+      "RANG_NAT": "171",
       "_classement_nom": "Senior 2 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "173",
-      "RANG": "173",
+      "Rang_ligue": 8,
+      "RANG": 8,
       "NO_LICENCE": "0433530D",
       "NOM_PERSONNE": "BERNICOT",
       "PRENOM_PERSONNE": "Gael",
@@ -1746,11 +1828,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "103",
       "DISCIPLINE": "N",
+      "RANG_NAT": "173",
       "_classement_nom": "Senior 2 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "181",
-      "RANG": "181",
+      "Rang_ligue": 9,
+      "RANG": 9,
       "NO_LICENCE": "0864864V",
       "NOM_PERSONNE": "BESSEAU",
       "PRENOM_PERSONNE": "Fabrice",
@@ -1767,11 +1850,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "75",
       "DISCIPLINE": "N",
+      "RANG_NAT": "181",
       "_classement_nom": "Senior 2 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "191",
-      "RANG": "191",
+      "Rang_ligue": 10,
+      "RANG": 10,
       "NO_LICENCE": "0965739S",
       "NOM_PERSONNE": "POUPON",
       "PRENOM_PERSONNE": "Sebastien",
@@ -1788,11 +1872,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "50",
       "DISCIPLINE": "N",
+      "RANG_NAT": "191",
       "_classement_nom": "Senior 2 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "38",
-      "RANG": "38",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0223964P",
       "NOM_PERSONNE": "DUPAR-RATEL",
       "PRENOM_PERSONNE": "Christine",
@@ -1809,11 +1894,12 @@
       "SCORE3": "205",
       "MOY_SCORE": "258",
       "DISCIPLINE": "N",
+      "RANG_NAT": "38",
       "_classement_nom": "Senior 2 Femme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "40",
-      "RANG": "40",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0857437X",
       "NOM_PERSONNE": "HENIN",
       "PRENOM_PERSONNE": "Sylvie",
@@ -1830,11 +1916,12 @@
       "SCORE3": "195",
       "MOY_SCORE": "230",
       "DISCIPLINE": "N",
+      "RANG_NAT": "40",
       "_classement_nom": "Senior 2 Femme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "11",
-      "RANG": "11",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0054546P",
       "NOM_PERSONNE": "BARRE",
       "PRENOM_PERSONNE": "Valentin",
@@ -1851,11 +1938,12 @@
       "SCORE3": "535",
       "MOY_SCORE": "555",
       "DISCIPLINE": "N",
+      "RANG_NAT": "11",
       "_classement_nom": "U18 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "19",
-      "RANG": "19",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "1016399Z",
       "NOM_PERSONNE": "LE GUEN",
       "PRENOM_PERSONNE": "Teilo",
@@ -1872,11 +1960,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "186",
       "DISCIPLINE": "N",
+      "RANG_NAT": "19",
       "_classement_nom": "U18 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "11",
-      "RANG": "11",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0053895G",
       "NOM_PERSONNE": "BARRAUD",
       "PRENOM_PERSONNE": "Elise",
@@ -1893,11 +1982,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "75",
       "DISCIPLINE": "N",
+      "RANG_NAT": "11",
       "_classement_nom": "U21 Femme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "5",
-      "RANG": "5",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0053895G",
       "NOM_PERSONNE": "BARRAUD",
       "PRENOM_PERSONNE": "Elise",
@@ -1914,11 +2004,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "155",
       "DISCIPLINE": "N",
+      "RANG_NAT": "5",
       "_classement_nom": "U21 Femme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "9",
-      "RANG": "9",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0959117U",
       "NOM_PERSONNE": "GAZEAU",
       "PRENOM_PERSONNE": "Teddy",
@@ -1935,11 +2026,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "660",
       "DISCIPLINE": "N",
+      "RANG_NAT": "9",
       "_classement_nom": "Senior 2 Homme Arc à Poulies nu 2026"
     },
     {
-      "Rang_ligue": "29",
-      "RANG": "29",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0252963K",
       "NOM_PERSONNE": "HELBECQUE",
       "PRENOM_PERSONNE": "Stephane",
@@ -1956,11 +2048,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "600",
       "DISCIPLINE": "N",
+      "RANG_NAT": "29",
       "_classement_nom": "Senior 2 Homme Arc à Poulies nu 2026"
     },
     {
-      "Rang_ligue": "3",
-      "RANG": "3",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0426402F",
       "NOM_PERSONNE": "PEYREAUD",
       "PRENOM_PERSONNE": "Olivier",
@@ -1977,11 +2070,12 @@
       "SCORE3": "730",
       "MOY_SCORE": "731",
       "DISCIPLINE": "N",
+      "RANG_NAT": "3",
       "_classement_nom": "Senior 1 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "10",
-      "RANG": "10",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0934314J",
       "NOM_PERSONNE": "GUERRY",
       "PRENOM_PERSONNE": "Alex",
@@ -1998,11 +2092,12 @@
       "SCORE3": "725",
       "MOY_SCORE": "725",
       "DISCIPLINE": "N",
+      "RANG_NAT": "10",
       "_classement_nom": "Senior 1 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "63",
-      "RANG": "63",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "1022439H",
       "NOM_PERSONNE": "METAIS",
       "PRENOM_PERSONNE": "Adrien",
@@ -2019,11 +2114,12 @@
       "SCORE3": "620",
       "MOY_SCORE": "631",
       "DISCIPLINE": "N",
+      "RANG_NAT": "63",
       "_classement_nom": "Senior 1 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "70",
-      "RANG": "70",
+      "Rang_ligue": 4,
+      "RANG": 4,
       "NO_LICENCE": "0824214K",
       "NOM_PERSONNE": "GOICHON",
       "PRENOM_PERSONNE": "Bastien",
@@ -2040,11 +2136,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "620",
       "DISCIPLINE": "N",
+      "RANG_NAT": "70",
       "_classement_nom": "Senior 1 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "25",
-      "RANG": "25",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0804545F",
       "NOM_PERSONNE": "RATEL",
       "PRENOM_PERSONNE": "Oriane",
@@ -2061,11 +2158,12 @@
       "SCORE3": "565",
       "MOY_SCORE": "571",
       "DISCIPLINE": "N",
+      "RANG_NAT": "25",
       "_classement_nom": "Senior 1 Femme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "28",
-      "RANG": "28",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0834924B",
       "NOM_PERSONNE": "RAMIREZ",
       "PRENOM_PERSONNE": "Aurore",
@@ -2082,11 +2180,12 @@
       "SCORE3": "450",
       "MOY_SCORE": "455",
       "DISCIPLINE": "N",
+      "RANG_NAT": "28",
       "_classement_nom": "Senior 1 Femme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "29",
-      "RANG": "29",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "0970390X",
       "NOM_PERSONNE": "BARRAUD",
       "PRENOM_PERSONNE": "Emma",
@@ -2103,11 +2202,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "422",
       "DISCIPLINE": "N",
+      "RANG_NAT": "29",
       "_classement_nom": "Senior 1 Femme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "36",
-      "RANG": "36",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0681094V",
       "NOM_PERSONNE": "GRELET",
       "PRENOM_PERSONNE": "Boris",
@@ -2124,11 +2224,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "365",
       "DISCIPLINE": "N",
+      "RANG_NAT": "36",
       "_classement_nom": "Senior 1 Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "47",
-      "RANG": "47",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0943140C",
       "NOM_PERSONNE": "MARCHEGAY",
       "PRENOM_PERSONNE": "Thomas",
@@ -2145,11 +2246,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "325",
       "DISCIPLINE": "N",
+      "RANG_NAT": "47",
       "_classement_nom": "Senior 1 Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "54",
-      "RANG": "54",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "0699667H",
       "NOM_PERSONNE": "VERRON",
       "PRENOM_PERSONNE": "Ghislain",
@@ -2166,11 +2268,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "290",
       "DISCIPLINE": "N",
+      "RANG_NAT": "54",
       "_classement_nom": "Senior 1 Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "55",
-      "RANG": "55",
+      "Rang_ligue": 4,
+      "RANG": 4,
       "NO_LICENCE": "0888159R",
       "NOM_PERSONNE": "TACQUET",
       "PRENOM_PERSONNE": "Michael",
@@ -2187,11 +2290,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "277",
       "DISCIPLINE": "N",
+      "RANG_NAT": "55",
       "_classement_nom": "Senior 1 Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "69",
-      "RANG": "69",
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "1049583H",
       "NOM_PERSONNE": "DULUARD",
       "PRENOM_PERSONNE": "Steven",
@@ -2208,11 +2312,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "120",
       "DISCIPLINE": "N",
+      "RANG_NAT": "69",
       "_classement_nom": "Senior 1 Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "11",
-      "RANG": "11",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0827999Z",
       "NOM_PERSONNE": "LE MAL",
       "PRENOM_PERSONNE": "Alexandre",
@@ -2229,11 +2334,12 @@
       "SCORE3": "465",
       "MOY_SCORE": "498",
       "DISCIPLINE": "N",
+      "RANG_NAT": "11",
       "_classement_nom": "Senior 1 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "20",
-      "RANG": "20",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "1044036Y",
       "NOM_PERSONNE": "BENETEAU",
       "PRENOM_PERSONNE": "Eddy",
@@ -2250,11 +2356,12 @@
       "SCORE3": "415",
       "MOY_SCORE": "443",
       "DISCIPLINE": "N",
+      "RANG_NAT": "20",
       "_classement_nom": "Senior 1 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "26",
-      "RANG": "26",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "1044038A",
       "NOM_PERSONNE": "BENETEAU",
       "PRENOM_PERSONNE": "Jimmy",
@@ -2271,11 +2378,12 @@
       "SCORE3": "270",
       "MOY_SCORE": "395",
       "DISCIPLINE": "N",
+      "RANG_NAT": "26",
       "_classement_nom": "Senior 1 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "8",
-      "RANG": "8",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0054483W",
       "NOM_PERSONNE": "VALANCE PILASTRE",
       "PRENOM_PERSONNE": "Sophie",
@@ -2292,11 +2400,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "337",
       "DISCIPLINE": "N",
+      "RANG_NAT": "8",
       "_classement_nom": "Senior 1 Femme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "10",
-      "RANG": "10",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0617097H",
       "NOM_PERSONNE": "THEBAUD",
       "PRENOM_PERSONNE": "Samuel",
@@ -2313,11 +2422,12 @@
       "SCORE3": "630",
       "MOY_SCORE": "648",
       "DISCIPLINE": "N",
+      "RANG_NAT": "10",
       "_classement_nom": "Senior 2 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "44",
-      "RANG": "44",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0015231F",
       "NOM_PERSONNE": "COSSON",
       "PRENOM_PERSONNE": "Richard",
@@ -2334,11 +2444,12 @@
       "SCORE3": "575",
       "MOY_SCORE": "596",
       "DISCIPLINE": "N",
+      "RANG_NAT": "44",
       "_classement_nom": "Senior 2 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "66",
-      "RANG": "66",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "0971998V",
       "NOM_PERSONNE": "GARNIER",
       "PRENOM_PERSONNE": "Stephane",
@@ -2355,11 +2466,12 @@
       "SCORE3": "530",
       "MOY_SCORE": "566",
       "DISCIPLINE": "N",
+      "RANG_NAT": "66",
       "_classement_nom": "Senior 2 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "104",
-      "RANG": "104",
+      "Rang_ligue": 4,
+      "RANG": 4,
       "NO_LICENCE": "1028916K",
       "NOM_PERSONNE": "LEMAIRE",
       "PRENOM_PERSONNE": "Marius",
@@ -2376,11 +2488,12 @@
       "SCORE3": "470",
       "MOY_SCORE": "510",
       "DISCIPLINE": "N",
+      "RANG_NAT": "104",
       "_classement_nom": "Senior 2 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "192",
-      "RANG": "192",
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "1051116G",
       "NOM_PERSONNE": "ATKINS",
       "PRENOM_PERSONNE": "Jean-marc",
@@ -2397,11 +2510,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "331",
       "DISCIPLINE": "N",
+      "RANG_NAT": "192",
       "_classement_nom": "Senior 2 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "223",
-      "RANG": "223",
+      "Rang_ligue": 6,
+      "RANG": 6,
       "NO_LICENCE": "0965745Y",
       "NOM_PERSONNE": "BOULINEAU",
       "PRENOM_PERSONNE": "Ludovic",
@@ -2418,11 +2532,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "258",
       "DISCIPLINE": "N",
+      "RANG_NAT": "223",
       "_classement_nom": "Senior 2 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "285",
-      "RANG": "285",
+      "Rang_ligue": 7,
+      "RANG": 7,
       "NO_LICENCE": "1055503Z",
       "NOM_PERSONNE": "BELLEIL",
       "PRENOM_PERSONNE": "Patrick",
@@ -2439,11 +2554,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "103",
       "DISCIPLINE": "N",
+      "RANG_NAT": "285",
       "_classement_nom": "Senior 2 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "293",
-      "RANG": "293",
+      "Rang_ligue": 8,
+      "RANG": 8,
       "NO_LICENCE": "1048370Q",
       "NOM_PERSONNE": "CARRERE-LAAS",
       "PRENOM_PERSONNE": "Sébastien",
@@ -2460,11 +2576,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "83",
       "DISCIPLINE": "N",
+      "RANG_NAT": "293",
       "_classement_nom": "Senior 2 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "296",
-      "RANG": "296",
+      "Rang_ligue": 9,
+      "RANG": 9,
       "NO_LICENCE": "1031467N",
       "NOM_PERSONNE": "POUPARD",
       "PRENOM_PERSONNE": "Vincent",
@@ -2481,11 +2598,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "53",
       "DISCIPLINE": "N",
+      "RANG_NAT": "296",
       "_classement_nom": "Senior 2 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "78",
-      "RANG": "78",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "1015583P",
       "NOM_PERSONNE": "BOULANGER",
       "PRENOM_PERSONNE": "Isabelle",
@@ -2502,11 +2620,12 @@
       "SCORE3": "305",
       "MOY_SCORE": "320",
       "DISCIPLINE": "N",
+      "RANG_NAT": "78",
       "_classement_nom": "Senior 2 Femme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "5",
-      "RANG": "5",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0454867W",
       "NOM_PERSONNE": "ADET",
       "PRENOM_PERSONNE": "Steve",
@@ -2523,11 +2642,12 @@
       "SCORE3": "665",
       "MOY_SCORE": "666",
       "DISCIPLINE": "N",
+      "RANG_NAT": "5",
       "_classement_nom": "Senior 1 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "29",
-      "RANG": "29",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0761524U",
       "NOM_PERSONNE": "CHARLES",
       "PRENOM_PERSONNE": "Camille",
@@ -2544,11 +2664,12 @@
       "SCORE3": "485",
       "MOY_SCORE": "525",
       "DISCIPLINE": "N",
+      "RANG_NAT": "29",
       "_classement_nom": "Senior 1 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "32",
-      "RANG": "32",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "1037279B",
       "NOM_PERSONNE": "DE JOUX",
       "PRENOM_PERSONNE": "Alan",
@@ -2565,11 +2686,12 @@
       "SCORE3": "460",
       "MOY_SCORE": "503",
       "DISCIPLINE": "N",
+      "RANG_NAT": "32",
       "_classement_nom": "Senior 1 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "40",
-      "RANG": "40",
+      "Rang_ligue": 4,
+      "RANG": 4,
       "NO_LICENCE": "0977434D",
       "NOM_PERSONNE": "BARRAUD",
       "PRENOM_PERSONNE": "Christophe",
@@ -2586,11 +2708,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "475",
       "DISCIPLINE": "N",
+      "RANG_NAT": "40",
       "_classement_nom": "Senior 1 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "73",
-      "RANG": "73",
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "1067475L",
       "NOM_PERSONNE": "NAROZNY",
       "PRENOM_PERSONNE": "Kevin",
@@ -2607,11 +2730,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "375",
       "DISCIPLINE": "N",
+      "RANG_NAT": "73",
       "_classement_nom": "Senior 1 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "39",
-      "RANG": "39",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "1054530O",
       "NOM_PERSONNE": "BOTTIER",
       "PRENOM_PERSONNE": "Oceane",
@@ -2628,11 +2752,12 @@
       "SCORE3": "385",
       "MOY_SCORE": "426",
       "DISCIPLINE": "N",
+      "RANG_NAT": "39",
       "_classement_nom": "Senior 1 Femme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "65",
-      "RANG": "65",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0815764A",
       "NOM_PERSONNE": "FOIGNY",
       "PRENOM_PERSONNE": "Maëllys",
@@ -2649,11 +2774,12 @@
       "SCORE3": "300",
       "MOY_SCORE": "315",
       "DISCIPLINE": "N",
+      "RANG_NAT": "65",
       "_classement_nom": "Senior 1 Femme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "67",
-      "RANG": "67",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "0806392N",
       "NOM_PERSONNE": "CHARLES",
       "PRENOM_PERSONNE": "Adeline",
@@ -2670,11 +2796,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "305",
       "DISCIPLINE": "N",
+      "RANG_NAT": "67",
       "_classement_nom": "Senior 1 Femme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "85",
-      "RANG": "85",
+      "Rang_ligue": 4,
+      "RANG": 4,
       "NO_LICENCE": "1068785V",
       "NOM_PERSONNE": "GAUTIER",
       "PRENOM_PERSONNE": "Audrey",
@@ -2691,11 +2818,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "210",
       "DISCIPLINE": "N",
+      "RANG_NAT": "85",
       "_classement_nom": "Senior 1 Femme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "88",
-      "RANG": "88",
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "1028109J",
       "NOM_PERSONNE": "DAIME",
       "PRENOM_PERSONNE": "Laurie",
@@ -2712,11 +2840,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "195",
       "DISCIPLINE": "N",
+      "RANG_NAT": "88",
       "_classement_nom": "Senior 1 Femme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "16",
-      "RANG": "16",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "1004310A",
       "NOM_PERSONNE": "CARTIER",
       "PRENOM_PERSONNE": "Léa",
@@ -2733,11 +2862,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "330",
       "DISCIPLINE": "N",
+      "RANG_NAT": "16",
       "_classement_nom": "U21 Femme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "23",
-      "RANG": "23",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "1012264Y",
       "NOM_PERSONNE": "TERRIEN",
       "PRENOM_PERSONNE": "Margot",
@@ -2754,11 +2884,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "245",
       "DISCIPLINE": "N",
+      "RANG_NAT": "23",
       "_classement_nom": "U21 Femme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "6",
-      "RANG": "6",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0005623M",
       "NOM_PERSONNE": "COSSON",
       "PRENOM_PERSONNE": "Adrien",
@@ -2775,11 +2906,12 @@
       "SCORE3": "650",
       "MOY_SCORE": "665",
       "DISCIPLINE": "N",
+      "RANG_NAT": "6",
       "_classement_nom": "U18 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "17",
-      "RANG": "17",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0997697D",
       "NOM_PERSONNE": "ANGEBAUD",
       "PRENOM_PERSONNE": "Romain",
@@ -2796,11 +2928,12 @@
       "SCORE3": "590",
       "MOY_SCORE": "603",
       "DISCIPLINE": "N",
+      "RANG_NAT": "17",
       "_classement_nom": "U18 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "28",
-      "RANG": "28",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "0042601F",
       "NOM_PERSONNE": "POIRIER",
       "PRENOM_PERSONNE": "Lorenzo",
@@ -2817,11 +2950,12 @@
       "SCORE3": "470",
       "MOY_SCORE": "498",
       "DISCIPLINE": "N",
+      "RANG_NAT": "28",
       "_classement_nom": "U18 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "37",
-      "RANG": "37",
+      "Rang_ligue": 4,
+      "RANG": 4,
       "NO_LICENCE": "1031958K",
       "NOM_PERSONNE": "LITEAU",
       "PRENOM_PERSONNE": "Titouan",
@@ -2838,11 +2972,12 @@
       "SCORE3": "430",
       "MOY_SCORE": "455",
       "DISCIPLINE": "N",
+      "RANG_NAT": "37",
       "_classement_nom": "U18 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "50",
-      "RANG": "50",
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "0018684J",
       "NOM_PERSONNE": "COULON",
       "PRENOM_PERSONNE": "Axel",
@@ -2859,11 +2994,12 @@
       "SCORE3": "285",
       "MOY_SCORE": "320",
       "DISCIPLINE": "N",
+      "RANG_NAT": "50",
       "_classement_nom": "U18 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "65",
-      "RANG": "65",
+      "Rang_ligue": 6,
+      "RANG": 6,
       "NO_LICENCE": "1010345D",
       "NOM_PERSONNE": "TRICHET",
       "PRENOM_PERSONNE": "Alex",
@@ -2880,11 +3016,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "186",
       "DISCIPLINE": "N",
+      "RANG_NAT": "65",
       "_classement_nom": "U18 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "70",
-      "RANG": "70",
+      "Rang_ligue": 7,
+      "RANG": 7,
       "NO_LICENCE": "1038023R",
       "NOM_PERSONNE": "RAPICAULT",
       "PRENOM_PERSONNE": "Antoine",
@@ -2901,11 +3038,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "136",
       "DISCIPLINE": "N",
+      "RANG_NAT": "70",
       "_classement_nom": "U18 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "73",
-      "RANG": "73",
+      "Rang_ligue": 8,
+      "RANG": 8,
       "NO_LICENCE": "1073804W",
       "NOM_PERSONNE": "NDIAYE",
       "PRENOM_PERSONNE": "Mouhamed yassin",
@@ -2922,11 +3060,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "133",
       "DISCIPLINE": "N",
+      "RANG_NAT": "73",
       "_classement_nom": "U18 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "76",
-      "RANG": "76",
+      "Rang_ligue": 9,
+      "RANG": 9,
       "NO_LICENCE": "1038034C",
       "NOM_PERSONNE": "BERNAUX",
       "PRENOM_PERSONNE": "Milan",
@@ -2943,11 +3082,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "121",
       "DISCIPLINE": "N",
+      "RANG_NAT": "76",
       "_classement_nom": "U18 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "85",
-      "RANG": "85",
+      "Rang_ligue": 10,
+      "RANG": 10,
       "NO_LICENCE": "1038579B",
       "NOM_PERSONNE": "AGIN",
       "PRENOM_PERSONNE": "Arthur",
@@ -2964,11 +3104,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "85",
       "DISCIPLINE": "N",
+      "RANG_NAT": "85",
       "_classement_nom": "U18 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "39",
-      "RANG": "39",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0042301E",
       "NOM_PERSONNE": "LESUEUR",
       "PRENOM_PERSONNE": "Selena",
@@ -2985,11 +3126,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "153",
       "DISCIPLINE": "N",
+      "RANG_NAT": "39",
       "_classement_nom": "U18 Femme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "43",
-      "RANG": "43",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "1026369L",
       "NOM_PERSONNE": "GUINAUDEAU",
       "PRENOM_PERSONNE": "Jade",
@@ -3006,11 +3148,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "116",
       "DISCIPLINE": "N",
+      "RANG_NAT": "43",
       "_classement_nom": "U18 Femme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "12",
-      "RANG": "12",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "1012239Z",
       "NOM_PERSONNE": "BALAY",
       "PRENOM_PERSONNE": "Antoine",
@@ -3027,11 +3170,12 @@
       "SCORE3": "580",
       "MOY_SCORE": "593",
       "DISCIPLINE": "N",
+      "RANG_NAT": "12",
       "_classement_nom": "U15 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "30",
-      "RANG": "30",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0006841L",
       "NOM_PERSONNE": "SIRE",
       "PRENOM_PERSONNE": "Thimothe",
@@ -3048,11 +3192,12 @@
       "SCORE3": "450",
       "MOY_SCORE": "468",
       "DISCIPLINE": "N",
+      "RANG_NAT": "30",
       "_classement_nom": "U15 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "52",
-      "RANG": "52",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "0003455F",
       "NOM_PERSONNE": "BARRAUD",
       "PRENOM_PERSONNE": "Alexis",
@@ -3069,11 +3214,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "195",
       "DISCIPLINE": "N",
+      "RANG_NAT": "52",
       "_classement_nom": "U15 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "63",
-      "RANG": "63",
+      "Rang_ligue": 4,
+      "RANG": 4,
       "NO_LICENCE": "1071351N",
       "NOM_PERSONNE": "NIMMEGEERS",
       "PRENOM_PERSONNE": "Rubbens",
@@ -3090,11 +3236,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "131",
       "DISCIPLINE": "N",
+      "RANG_NAT": "63",
       "_classement_nom": "U15 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "73",
-      "RANG": "73",
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "0039694W",
       "NOM_PERSONNE": "GUINAUDEAU",
       "PRENOM_PERSONNE": "Antonin",
@@ -3111,11 +3258,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "83",
       "DISCIPLINE": "N",
+      "RANG_NAT": "73",
       "_classement_nom": "U15 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "25",
-      "RANG": "25",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "1065523J",
       "NOM_PERSONNE": "DORIDOT",
       "PRENOM_PERSONNE": "Hydillis",
@@ -3132,11 +3280,12 @@
       "SCORE3": "190",
       "MOY_SCORE": "276",
       "DISCIPLINE": "N",
+      "RANG_NAT": "25",
       "_classement_nom": "U15 Femme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "34",
-      "RANG": "34",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "1070046I",
       "NOM_PERSONNE": "POUPARD",
       "PRENOM_PERSONNE": "Jade",
@@ -3153,11 +3302,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "185",
       "DISCIPLINE": "N",
+      "RANG_NAT": "34",
       "_classement_nom": "U15 Femme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "18",
-      "RANG": "18",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "1042776M",
       "NOM_PERSONNE": "PARIS",
       "PRENOM_PERSONNE": "Ganesh",
@@ -3174,11 +3324,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "265",
       "DISCIPLINE": "N",
+      "RANG_NAT": "18",
       "_classement_nom": "U13 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "21",
-      "RANG": "21",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "1012662G",
       "NOM_PERSONNE": "SAULGRAIN",
       "PRENOM_PERSONNE": "Louis",
@@ -3195,11 +3346,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "233",
       "DISCIPLINE": "N",
+      "RANG_NAT": "21",
       "_classement_nom": "U13 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "33",
-      "RANG": "33",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "1048214Q",
       "NOM_PERSONNE": "AMUSSAT",
       "PRENOM_PERSONNE": "Elioh",
@@ -3216,11 +3368,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "155",
       "DISCIPLINE": "N",
+      "RANG_NAT": "33",
       "_classement_nom": "U13 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "19",
-      "RANG": "19",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "1051875L",
       "NOM_PERSONNE": "BERTON",
       "PRENOM_PERSONNE": "Ambre",
@@ -3237,11 +3390,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "80",
       "DISCIPLINE": "N",
+      "RANG_NAT": "19",
       "_classement_nom": "U13 Femme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "35",
-      "RANG": "35",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "1054530O",
       "NOM_PERSONNE": "BOTTIER",
       "PRENOM_PERSONNE": "Oceane",
@@ -3258,11 +3412,12 @@
       "SCORE3": "385",
       "MOY_SCORE": "426",
       "DISCIPLINE": "N",
+      "RANG_NAT": "35",
       "_classement_nom": "U21-Senior 1 Femme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "53",
-      "RANG": "53",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0815764A",
       "NOM_PERSONNE": "FOIGNY",
       "PRENOM_PERSONNE": "Maëllys",
@@ -3279,11 +3434,12 @@
       "SCORE3": "300",
       "MOY_SCORE": "315",
       "DISCIPLINE": "N",
+      "RANG_NAT": "53",
       "_classement_nom": "U21-Senior 1 Femme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "73",
-      "RANG": "73",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "1004310A",
       "NOM_PERSONNE": "CARTIER",
       "PRENOM_PERSONNE": "Léa",
@@ -3300,11 +3456,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "220",
       "DISCIPLINE": "N",
+      "RANG_NAT": "73",
       "_classement_nom": "U21-Senior 1 Femme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "78",
-      "RANG": "78",
+      "Rang_ligue": 4,
+      "RANG": 4,
       "NO_LICENCE": "0806392N",
       "NOM_PERSONNE": "CHARLES",
       "PRENOM_PERSONNE": "Adeline",
@@ -3321,11 +3478,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "203",
       "DISCIPLINE": "N",
+      "RANG_NAT": "78",
       "_classement_nom": "U21-Senior 1 Femme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "87",
-      "RANG": "87",
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "1012264Y",
       "NOM_PERSONNE": "TERRIEN",
       "PRENOM_PERSONNE": "Margot",
@@ -3342,11 +3500,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "163",
       "DISCIPLINE": "N",
+      "RANG_NAT": "87",
       "_classement_nom": "U21-Senior 1 Femme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "96",
-      "RANG": "96",
+      "Rang_ligue": 6,
+      "RANG": 6,
       "NO_LICENCE": "1028109J",
       "NOM_PERSONNE": "DAIME",
       "PRENOM_PERSONNE": "Laurie",
@@ -3363,11 +3522,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "130",
       "DISCIPLINE": "N",
+      "RANG_NAT": "96",
       "_classement_nom": "U21-Senior 1 Femme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "118",
-      "RANG": "118",
+      "Rang_ligue": 7,
+      "RANG": 7,
       "NO_LICENCE": "1068785V",
       "NOM_PERSONNE": "GAUTIER",
       "PRENOM_PERSONNE": "Audrey",
@@ -3384,11 +3544,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "70",
       "DISCIPLINE": "N",
+      "RANG_NAT": "118",
       "_classement_nom": "U21-Senior 1 Femme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "5",
-      "RANG": "5",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0454867W",
       "NOM_PERSONNE": "ADET",
       "PRENOM_PERSONNE": "Steve",
@@ -3405,11 +3566,12 @@
       "SCORE3": "665",
       "MOY_SCORE": "666",
       "DISCIPLINE": "N",
+      "RANG_NAT": "5",
       "_classement_nom": "U21-Senior 1 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "30",
-      "RANG": "30",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0761524U",
       "NOM_PERSONNE": "CHARLES",
       "PRENOM_PERSONNE": "Camille",
@@ -3426,11 +3588,12 @@
       "SCORE3": "485",
       "MOY_SCORE": "525",
       "DISCIPLINE": "N",
+      "RANG_NAT": "30",
       "_classement_nom": "U21-Senior 1 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "33",
-      "RANG": "33",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "1037279B",
       "NOM_PERSONNE": "DE JOUX",
       "PRENOM_PERSONNE": "Alan",
@@ -3447,11 +3610,12 @@
       "SCORE3": "460",
       "MOY_SCORE": "503",
       "DISCIPLINE": "N",
+      "RANG_NAT": "33",
       "_classement_nom": "U21-Senior 1 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "95",
-      "RANG": "95",
+      "Rang_ligue": 4,
+      "RANG": 4,
       "NO_LICENCE": "0977434D",
       "NOM_PERSONNE": "BARRAUD",
       "PRENOM_PERSONNE": "Christophe",
@@ -3468,11 +3632,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "158",
       "DISCIPLINE": "N",
+      "RANG_NAT": "95",
       "_classement_nom": "U21-Senior 1 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "103",
-      "RANG": "103",
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "1067475L",
       "NOM_PERSONNE": "NAROZNY",
       "PRENOM_PERSONNE": "Kevin",
@@ -3489,11 +3654,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "125",
       "DISCIPLINE": "N",
+      "RANG_NAT": "103",
       "_classement_nom": "U21-Senior 1 Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": "14",
-      "RANG": "14",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0054483W",
       "NOM_PERSONNE": "VALANCE PILASTRE",
       "PRENOM_PERSONNE": "Sophie",
@@ -3510,11 +3676,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "225",
       "DISCIPLINE": "N",
+      "RANG_NAT": "14",
       "_classement_nom": "U21-Senior 1 Femme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "27",
-      "RANG": "27",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0053895G",
       "NOM_PERSONNE": "BARRAUD",
       "PRENOM_PERSONNE": "Elise",
@@ -3531,11 +3698,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "51",
       "DISCIPLINE": "N",
+      "RANG_NAT": "27",
       "_classement_nom": "U21-Senior 1 Femme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "11",
-      "RANG": "11",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0827999Z",
       "NOM_PERSONNE": "LE MAL",
       "PRENOM_PERSONNE": "Alexandre",
@@ -3552,11 +3720,12 @@
       "SCORE3": "465",
       "MOY_SCORE": "498",
       "DISCIPLINE": "N",
+      "RANG_NAT": "11",
       "_classement_nom": "U21-Senior 1 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "19",
-      "RANG": "19",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "1044036Y",
       "NOM_PERSONNE": "BENETEAU",
       "PRENOM_PERSONNE": "Eddy",
@@ -3573,11 +3742,12 @@
       "SCORE3": "415",
       "MOY_SCORE": "443",
       "DISCIPLINE": "N",
+      "RANG_NAT": "19",
       "_classement_nom": "U21-Senior 1 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "23",
-      "RANG": "23",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "1044038A",
       "NOM_PERSONNE": "BENETEAU",
       "PRENOM_PERSONNE": "Jimmy",
@@ -3594,11 +3764,12 @@
       "SCORE3": "270",
       "MOY_SCORE": "395",
       "DISCIPLINE": "N",
+      "RANG_NAT": "23",
       "_classement_nom": "U21-Senior 1 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": "18",
-      "RANG": "18",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0804545F",
       "NOM_PERSONNE": "RATEL",
       "PRENOM_PERSONNE": "Oriane",
@@ -3615,11 +3786,12 @@
       "SCORE3": "565",
       "MOY_SCORE": "571",
       "DISCIPLINE": "N",
+      "RANG_NAT": "18",
       "_classement_nom": "U21-Senior 1 Femme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "20",
-      "RANG": "20",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0834924B",
       "NOM_PERSONNE": "RAMIREZ",
       "PRENOM_PERSONNE": "Aurore",
@@ -3636,11 +3808,12 @@
       "SCORE3": "450",
       "MOY_SCORE": "455",
       "DISCIPLINE": "N",
+      "RANG_NAT": "20",
       "_classement_nom": "U21-Senior 1 Femme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "28",
-      "RANG": "28",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "0970390X",
       "NOM_PERSONNE": "BARRAUD",
       "PRENOM_PERSONNE": "Emma",
@@ -3657,11 +3830,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "281",
       "DISCIPLINE": "N",
+      "RANG_NAT": "28",
       "_classement_nom": "U21-Senior 1 Femme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "3",
-      "RANG": "3",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0426402F",
       "NOM_PERSONNE": "PEYREAUD",
       "PRENOM_PERSONNE": "Olivier",
@@ -3678,11 +3852,12 @@
       "SCORE3": "730",
       "MOY_SCORE": "731",
       "DISCIPLINE": "N",
+      "RANG_NAT": "3",
       "_classement_nom": "U21-Senior 1 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "12",
-      "RANG": "12",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0934314J",
       "NOM_PERSONNE": "GUERRY",
       "PRENOM_PERSONNE": "Alex",
@@ -3699,11 +3874,12 @@
       "SCORE3": "725",
       "MOY_SCORE": "725",
       "DISCIPLINE": "N",
+      "RANG_NAT": "12",
       "_classement_nom": "U21-Senior 1 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "50",
-      "RANG": "50",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "1022439H",
       "NOM_PERSONNE": "METAIS",
       "PRENOM_PERSONNE": "Adrien",
@@ -3720,11 +3896,12 @@
       "SCORE3": "620",
       "MOY_SCORE": "631",
       "DISCIPLINE": "N",
+      "RANG_NAT": "50",
       "_classement_nom": "U21-Senior 1 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "74",
-      "RANG": "74",
+      "Rang_ligue": 4,
+      "RANG": 4,
       "NO_LICENCE": "0824214K",
       "NOM_PERSONNE": "GOICHON",
       "PRENOM_PERSONNE": "Bastien",
@@ -3741,11 +3918,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "413",
       "DISCIPLINE": "N",
+      "RANG_NAT": "74",
       "_classement_nom": "U21-Senior 1 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "41",
-      "RANG": "41",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0053895G",
       "NOM_PERSONNE": "BARRAUD",
       "PRENOM_PERSONNE": "Elise",
@@ -3762,11 +3940,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "25",
       "DISCIPLINE": "N",
+      "RANG_NAT": "41",
       "_classement_nom": "U21-Senior 1 Femme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "47",
-      "RANG": "47",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0888159R",
       "NOM_PERSONNE": "TACQUET",
       "PRENOM_PERSONNE": "Michael",
@@ -3783,11 +3962,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "185",
       "DISCIPLINE": "N",
+      "RANG_NAT": "47",
       "_classement_nom": "U21-Senior 1 Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "54",
-      "RANG": "54",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0681094V",
       "NOM_PERSONNE": "GRELET",
       "PRENOM_PERSONNE": "Boris",
@@ -3804,11 +3984,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "121",
       "DISCIPLINE": "N",
+      "RANG_NAT": "54",
       "_classement_nom": "U21-Senior 1 Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "59",
-      "RANG": "59",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "0943140C",
       "NOM_PERSONNE": "MARCHEGAY",
       "PRENOM_PERSONNE": "Thomas",
@@ -3825,11 +4006,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "108",
       "DISCIPLINE": "N",
+      "RANG_NAT": "59",
       "_classement_nom": "U21-Senior 1 Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "63",
-      "RANG": "63",
+      "Rang_ligue": 4,
+      "RANG": 4,
       "NO_LICENCE": "0699667H",
       "NOM_PERSONNE": "VERRON",
       "PRENOM_PERSONNE": "Ghislain",
@@ -3846,11 +4028,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "96",
       "DISCIPLINE": "N",
+      "RANG_NAT": "63",
       "_classement_nom": "U21-Senior 1 Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "71",
-      "RANG": "71",
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "1049583H",
       "NOM_PERSONNE": "DULUARD",
       "PRENOM_PERSONNE": "Steven",
@@ -3867,11 +4050,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "40",
       "DISCIPLINE": "N",
+      "RANG_NAT": "71",
       "_classement_nom": "U21-Senior 1 Homme Arc Chasse 2026"
     },
     {
-      "Rang_ligue": "24",
-      "RANG": "24",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0223964P",
       "NOM_PERSONNE": "DUPAR-RATEL",
       "PRENOM_PERSONNE": "Christine",
@@ -3888,11 +4072,12 @@
       "SCORE3": "615",
       "MOY_SCORE": "631",
       "DISCIPLINE": "N",
+      "RANG_NAT": "24",
       "_classement_nom": "Senior 2-Senior 3 Femme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "69",
-      "RANG": "69",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "1053783V",
       "NOM_PERSONNE": "MAILLOT",
       "PRENOM_PERSONNE": "Nadine",
@@ -3909,11 +4094,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "145",
       "DISCIPLINE": "N",
+      "RANG_NAT": "69",
       "_classement_nom": "Senior 2-Senior 3 Femme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "70",
-      "RANG": "70",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "1070633X",
       "NOM_PERSONNE": "BARRAUD",
       "PRENOM_PERSONNE": "Céline",
@@ -3930,11 +4116,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "145",
       "DISCIPLINE": "N",
+      "RANG_NAT": "70",
       "_classement_nom": "Senior 2-Senior 3 Femme Arc Libre 2026"
     },
     {
-      "Rang_ligue": "129",
-      "RANG": "129",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0959117U",
       "NOM_PERSONNE": "GAZEAU",
       "PRENOM_PERSONNE": "Teddy",
@@ -3951,11 +4138,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "220",
       "DISCIPLINE": "N",
+      "RANG_NAT": "129",
       "_classement_nom": "Senior 2-Senior 3 Homme Arc à Poulies nu 2023"
     },
     {
-      "Rang_ligue": "132",
-      "RANG": "132",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0252963K",
       "NOM_PERSONNE": "HELBECQUE",
       "PRENOM_PERSONNE": "Stephane",
@@ -3972,6 +4160,7 @@
       "SCORE3": "0",
       "MOY_SCORE": "200",
       "DISCIPLINE": "N",
+      "RANG_NAT": "132",
       "_classement_nom": "Senior 2-Senior 3 Homme Arc à Poulies nu 2023"
     }
   ]

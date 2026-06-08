@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-06-08T16:54:31.588171Z",
+    "generated_at": "2026-06-08T17:09:09.148860Z",
     "saison": "2026",
     "ligue": "CR12"
   },
   "rows": [
     {
-      "Rang_ligue": "2",
-      "RANG": "2",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0031617S",
       "NOM_PERSONNE": "VINES",
       "PRENOM_PERSONNE": "Marc",
@@ -24,11 +24,12 @@
       "SCORE3": "492",
       "MOY_SCORE": "495",
       "DISCIPLINE": "I",
+      "RANG_NAT": "2",
       "_classement_nom": "HV2-3 Scratch Mixte 2026"
     },
     {
-      "Rang_ligue": "4",
-      "RANG": "4",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0031619U",
       "NOM_PERSONNE": "VINES",
       "PRENOM_PERSONNE": "Latifa",
@@ -45,11 +46,12 @@
       "SCORE3": "386",
       "MOY_SCORE": "397",
       "DISCIPLINE": "I",
+      "RANG_NAT": "4",
       "_classement_nom": "HV2-3 Scratch Mixte 2026"
     },
     {
-      "Rang_ligue": "5",
-      "RANG": "5",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0869638J",
       "NOM_PERSONNE": "LAUNAY",
       "PRENOM_PERSONNE": "Vanessa",
@@ -66,11 +68,12 @@
       "SCORE3": "440",
       "MOY_SCORE": "441",
       "DISCIPLINE": "I",
+      "RANG_NAT": "5",
       "_classement_nom": "HV LIBRE Scratch Mixte Arc Classique 2026"
     },
     {
-      "Rang_ligue": "1",
-      "RANG": "1",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0082905P",
       "NOM_PERSONNE": "LETULLE",
       "PRENOM_PERSONNE": "Damien",
@@ -87,11 +90,12 @@
       "SCORE3": "544",
       "MOY_SCORE": "546",
       "DISCIPLINE": "I",
+      "RANG_NAT": "1",
       "_classement_nom": "W1 Scratch Mixte 2026"
     },
     {
-      "Rang_ligue": "7",
-      "RANG": "7",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "1028192O",
       "NOM_PERSONNE": "AUDOUYS",
       "PRENOM_PERSONNE": "Romuald",
@@ -108,11 +112,12 @@
       "SCORE3": "505",
       "MOY_SCORE": "511",
       "DISCIPLINE": "I",
+      "RANG_NAT": "7",
       "_classement_nom": "OPEN Scratch Hommes Arc Classique 2026"
     },
     {
-      "Rang_ligue": "17",
-      "RANG": "17",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0846828R",
       "NOM_PERSONNE": "DENIEULLE",
       "PRENOM_PERSONNE": "Eric",
@@ -129,11 +134,12 @@
       "SCORE3": "459",
       "MOY_SCORE": "466",
       "DISCIPLINE": "I",
+      "RANG_NAT": "17",
       "_classement_nom": "OPEN Scratch Hommes Arc Classique 2026"
     },
     {
-      "Rang_ligue": "26",
-      "RANG": "26",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "1020500S",
       "NOM_PERSONNE": "YVON",
       "PRENOM_PERSONNE": "Frédéric",
@@ -150,11 +156,12 @@
       "SCORE3": "418",
       "MOY_SCORE": "422",
       "DISCIPLINE": "I",
+      "RANG_NAT": "26",
       "_classement_nom": "OPEN Scratch Hommes Arc Classique 2026"
     },
     {
-      "Rang_ligue": "28",
-      "RANG": "28",
+      "Rang_ligue": 4,
+      "RANG": 4,
       "NO_LICENCE": "1043962C",
       "NOM_PERSONNE": "LACASSAGNE",
       "PRENOM_PERSONNE": "Jean-françois",
@@ -171,11 +178,12 @@
       "SCORE3": "409",
       "MOY_SCORE": "416",
       "DISCIPLINE": "I",
+      "RANG_NAT": "28",
       "_classement_nom": "OPEN Scratch Hommes Arc Classique 2026"
     },
     {
-      "Rang_ligue": "38",
-      "RANG": "38",
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "1029069H",
       "NOM_PERSONNE": "MENOURY",
       "PRENOM_PERSONNE": "Stéphane",
@@ -192,11 +200,12 @@
       "SCORE3": "230",
       "MOY_SCORE": "257",
       "DISCIPLINE": "I",
+      "RANG_NAT": "38",
       "_classement_nom": "OPEN Scratch Hommes Arc Classique 2026"
     },
     {
-      "Rang_ligue": "2",
-      "RANG": "2",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0336193C",
       "NOM_PERSONNE": "JOUSSAUME",
       "PRENOM_PERSONNE": "Thierry",
@@ -213,11 +222,12 @@
       "SCORE3": "579",
       "MOY_SCORE": "579",
       "DISCIPLINE": "I",
+      "RANG_NAT": "2",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": "3",
-      "RANG": "3",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0042670F",
       "NOM_PERSONNE": "LELOU",
       "PRENOM_PERSONNE": "Daniel",
@@ -234,11 +244,12 @@
       "SCORE3": "578",
       "MOY_SCORE": "579",
       "DISCIPLINE": "I",
+      "RANG_NAT": "3",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": "7",
-      "RANG": "7",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "0637116T",
       "NOM_PERSONNE": "HAUDOIN",
       "PRENOM_PERSONNE": "Franck",
@@ -255,11 +266,12 @@
       "SCORE3": "562",
       "MOY_SCORE": "564",
       "DISCIPLINE": "I",
+      "RANG_NAT": "7",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": "12",
-      "RANG": "12",
+      "Rang_ligue": 4,
+      "RANG": 4,
       "NO_LICENCE": "0867466Y",
       "NOM_PERSONNE": "LEFORT",
       "PRENOM_PERSONNE": "Gabriel",
@@ -276,11 +288,12 @@
       "SCORE3": "558",
       "MOY_SCORE": "558",
       "DISCIPLINE": "I",
+      "RANG_NAT": "12",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": "19",
-      "RANG": "19",
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "0804481L",
       "NOM_PERSONNE": "WILLEKENS",
       "PRENOM_PERSONNE": "Frederic",
@@ -297,11 +310,12 @@
       "SCORE3": "547",
       "MOY_SCORE": "550",
       "DISCIPLINE": "I",
+      "RANG_NAT": "19",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": "29",
-      "RANG": "29",
+      "Rang_ligue": 6,
+      "RANG": 6,
       "NO_LICENCE": "0005536T",
       "NOM_PERSONNE": "ROUSSELON",
       "PRENOM_PERSONNE": "Regis",
@@ -318,11 +332,12 @@
       "SCORE3": "483",
       "MOY_SCORE": "491",
       "DISCIPLINE": "I",
+      "RANG_NAT": "29",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": "32",
-      "RANG": "32",
+      "Rang_ligue": 7,
+      "RANG": 7,
       "NO_LICENCE": "0794949A",
       "NOM_PERSONNE": "LE FLEM",
       "PRENOM_PERSONNE": "Bastien",
@@ -339,11 +354,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "351",
       "DISCIPLINE": "I",
+      "RANG_NAT": "32",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": "8",
-      "RANG": "8",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0935820W",
       "NOM_PERSONNE": "MARTIN",
       "PRENOM_PERSONNE": "Murielle",
@@ -360,11 +376,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "184",
       "DISCIPLINE": "I",
+      "RANG_NAT": "8",
       "_classement_nom": "FEDERAL Scratch Femmes Arc Classique 2026"
     },
     {
-      "Rang_ligue": "14",
-      "RANG": "14",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0041102B",
       "NOM_PERSONNE": "TEILLET",
       "PRENOM_PERSONNE": "Damien",
@@ -381,11 +398,12 @@
       "SCORE3": "476",
       "MOY_SCORE": "477",
       "DISCIPLINE": "I",
+      "RANG_NAT": "14",
       "_classement_nom": "FEDERAL Scratch Hommes Arc Classique 2026"
     },
     {
-      "Rang_ligue": "15",
-      "RANG": "15",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0960081S",
       "NOM_PERSONNE": "GUERIN",
       "PRENOM_PERSONNE": "Gaetan",
@@ -402,11 +420,12 @@
       "SCORE3": "449",
       "MOY_SCORE": "468",
       "DISCIPLINE": "I",
+      "RANG_NAT": "15",
       "_classement_nom": "FEDERAL Scratch Hommes Arc Classique 2026"
     },
     {
-      "Rang_ligue": "19",
-      "RANG": "19",
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "1035056O",
       "NOM_PERSONNE": "ROBERT",
       "PRENOM_PERSONNE": "Olivier",
@@ -423,11 +442,12 @@
       "SCORE3": "413",
       "MOY_SCORE": "432",
       "DISCIPLINE": "I",
+      "RANG_NAT": "19",
       "_classement_nom": "FEDERAL Scratch Hommes Arc Classique 2026"
     },
     {
-      "Rang_ligue": "11",
-      "RANG": "11",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0876817M",
       "NOM_PERSONNE": "DUHOUX",
       "PRENOM_PERSONNE": "Pascal",
@@ -444,11 +464,12 @@
       "SCORE3": "295",
       "MOY_SCORE": "367",
       "DISCIPLINE": "I",
+      "RANG_NAT": "11",
       "_classement_nom": "FEDERAL Scratch Hommes Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": "4",
-      "RANG": "4",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "1003889V",
       "NOM_PERSONNE": "GUIMIER",
       "PRENOM_PERSONNE": "Pierre",
@@ -465,11 +486,12 @@
       "SCORE3": "311",
       "MOY_SCORE": "330",
       "DISCIPLINE": "I",
+      "RANG_NAT": "4",
       "_classement_nom": "CHALLENGE Scratch Mixte Arc Classique 2026"
     },
     {
-      "Rang_ligue": "2",
-      "RANG": "2",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0053398S",
       "NOM_PERSONNE": "QUILLET",
       "PRENOM_PERSONNE": "Xavier",
@@ -486,11 +508,12 @@
       "SCORE3": "517",
       "MOY_SCORE": "520",
       "DISCIPLINE": "I",
+      "RANG_NAT": "2",
       "_classement_nom": "CHALLENGE Scratch Mixte Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": "5",
-      "RANG": "5",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0456755Y",
       "NOM_PERSONNE": "KERVAGORET",
       "PRENOM_PERSONNE": "Michel",
@@ -507,11 +530,12 @@
       "SCORE3": "455",
       "MOY_SCORE": "457",
       "DISCIPLINE": "I",
+      "RANG_NAT": "5",
       "_classement_nom": "CHALLENGE Scratch Mixte Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": "4",
-      "RANG": "4",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0058077C",
       "NOM_PERSONNE": "BOUVET",
       "PRENOM_PERSONNE": "Arthur",
@@ -528,11 +552,12 @@
       "SCORE3": "487",
       "MOY_SCORE": "501",
       "DISCIPLINE": "I",
+      "RANG_NAT": "4",
       "_classement_nom": "CRITERIUM Scratch Mixte Arc Classique 2026"
     },
     {
-      "Rang_ligue": "10",
-      "RANG": "10",
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0053416L",
       "NOM_PERSONNE": "CADOR",
       "PRENOM_PERSONNE": "Christophe",
@@ -549,11 +574,12 @@
       "SCORE3": "0",
       "MOY_SCORE": "317",
       "DISCIPLINE": "I",
+      "RANG_NAT": "10",
       "_classement_nom": "CRITERIUM Scratch Mixte Arc Classique 2026"
     },
     {
-      "Rang_ligue": "2",
-      "RANG": "2",
+      "Rang_ligue": 1,
+      "RANG": 1,
       "NO_LICENCE": "0016103D",
       "NOM_PERSONNE": "BARBE",
       "PRENOM_PERSONNE": "Tiya",
@@ -570,6 +596,7 @@
       "SCORE3": "531",
       "MOY_SCORE": "543",
       "DISCIPLINE": "I",
+      "RANG_NAT": "2",
       "_classement_nom": "FEDERAL Jeunes Mixtes 2026"
     }
   ]
