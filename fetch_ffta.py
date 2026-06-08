@@ -43,6 +43,11 @@ LIGUE_CODE = "CR12"
 # Départements PDL (pour filtrage de secours si region_code absent)
 DEPTS_PDL = {"44", "49", "53", "72", "85"}
 
+# Nombre maximum d'archers conservés par classement (top N).
+# L'API nationale renvoie des milliers d'archers — sans limite, les JSON
+# dépassent 50 Mo et font crasher le navigateur.
+MAX_ARCHERS_PER_CLASSEMENT = int(os.environ.get("FFTA_MAX_ARCHERS", "200"))
+
 # Disciplines à récupérer : code API → nom de fichier JSON de sortie
 DISCIPLINES = {
     "S": "Tir 18m.json",       # Tir en Salle 18m
@@ -173,7 +178,16 @@ def get_classement_detail(session, token, classement_id) -> list[dict]:
         else:
             archer_list = []
 
-        for archer in archer_list:
+        # Trie par PlaceOrdre pour garantir l'ordre avant de couper
+        def sort_key(a):
+            try:
+                return int(a.get("PlaceOrdre") or 9999)
+            except (ValueError, TypeError):
+                return 9999
+
+        archer_list.sort(key=sort_key)
+
+        for archer in archer_list[:MAX_ARCHERS_PER_CLASSEMENT]:
             if not isinstance(archer, dict):
                 continue
             # Enrichit l'archer avec les métadonnées du classement
