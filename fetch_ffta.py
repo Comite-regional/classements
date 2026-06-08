@@ -234,15 +234,6 @@ def get_classement_detail(session, token, classement_id) -> list[dict]:
         else:
             archer_list = []
 
-        # Log TOUS les champs du 1er archer pour découvrir les champs disponibles
-        if archer_list and not get_classement_detail._fields_logged:
-            get_classement_detail._fields_logged = True
-            sample = archer_list[0] if isinstance(archer_list[0], dict) else {}
-            log.info("=== CHAMPS ARCHER (diagnostic) ===")
-            for k, v in sample.items():
-                log.info("  %s = %r", k, v)
-            log.info("=== FIN DIAGNOSTIC ===")
-
         def sort_key(a):
             try:
                 return int(a.get("PlaceOrdre") or 9999)
@@ -251,8 +242,11 @@ def get_classement_detail(session, token, classement_id) -> list[dict]:
 
         archer_list.sort(key=sort_key)
 
-        for archer in archer_list[:MAX_ARCHERS_PER_CLASSEMENT]:
+        for archer in archer_list:
             if not isinstance(archer, dict):
+                continue
+            # Filtrage région : on ne garde que les archers PDL (CR12)
+            if archer.get("StructureCodeRegion", "") != LIGUE_CODE:
                 continue
             enriched = {
                 "_sexe_code": cl_item.get("sexe_code", ""),
@@ -263,8 +257,6 @@ def get_classement_detail(session, token, classement_id) -> list[dict]:
             all_archers.append(enriched)
 
     return all_archers
-
-get_classement_detail._fields_logged = False
 
 
 # ─── Filtrage région ──────────────────────────────────────────────────────────
@@ -318,39 +310,41 @@ def get_cat(archer: dict) -> str:
 
 
 def normalize_archer(archer: dict, disc_code: str, rank: int) -> dict:
-    """Convertit un archer de l'API vers la structure attendue par le HTML.
-
-    Champs réels retournés par l'API FFTA :
-      PlaceOrdre, PlaceTotal, PlaceScore1/2/3
-      ParticipantId, ParticipantNom, ParticipantVille
-      _sexe_code, _arme_code (injectés par get_classement_detail)
-    """
+    """Convertit un archer de l'API vers la structure attendue par le HTML."""
     s1 = str(archer.get("PlaceScore1") or "")
     s2 = str(archer.get("PlaceScore2") or "")
     s3 = str(archer.get("PlaceScore3") or "")
     total = str(archer.get("PlaceTotal") or "")
     rang = archer.get("PlaceOrdre") or rank
 
-    # Nom complet au format "DUPONT Jean" → on garde en majuscules
-    nom_complet = str(archer.get("ParticipantNom") or "").strip().upper()
-
-    sexe = str(archer.get("_sexe_code") or "")
+    nom = str(archer.get("PersonneNom") or "").strip().upper()
+    prenom = str(archer.get("PersonnePrenom") or "").strip().capitalize()
+    licence = str(archer.get("LicenceCodeAdherent") or archer.get("ParticipantId") or "")
+    club = str(archer.get("StructureNom") or archer.get("StructureNomCourt") or archer.get("ParticipantVille") or "")
+    club_court = str(archer.get("StructureNomCourt") or "")
+    code_structure = str(archer.get("StructureCode") or "")
+    cat = str(archer.get("ParticipantCatAge") or archer.get("CategorieAgeCodeGroupe") or "")
+    sexe = str(archer.get("CategorieAgeSexe") or archer.get("_sexe_code") or "")
     arme = str(archer.get("_arme_code") or "")
-    ville = str(archer.get("ParticipantVille") or "").strip()
+
+    # Département depuis StructureCodeDepartement (ex: "44000" → "44")
+    dept_raw = str(archer.get("StructureCodeDepartement") or "")
+    dept = dept_raw[:2] if dept_raw and dept_raw != "0" else ""
 
     return {
         "Rang_ligue": rang,
         "RANG": rang,
-        "NO_LICENCE": str(archer.get("ParticipantId") or ""),
-        "NOM_PERSONNE": nom_complet,
-        "PRENOM_PERSONNE": "",
+        "NO_LICENCE": licence,
+        "NOM_PERSONNE": nom,
+        "PRENOM_PERSONNE": prenom,
         "SEXE": sexe,
         "ARME": arme,
-        "CAT": get_cat(archer),
-        "CATEGORIE": get_cat(archer),
-        "NOM_STRUCTURE": ville,
-        "NOM_ABREGE": "",
-        "CODE_STRUCTURE": "",
+        "CAT": cat,
+        "CATEGORIE": cat,
+        "NOM_STRUCTURE": club,
+        "NOM_ABREGE": club_court,
+        "CODE_STRUCTURE": code_structure,
+        "DEPARTEMENT": dept,
         "SCORE1": s1,
         "SCORE2": s2,
         "SCORE3": s3,
@@ -419,23 +413,6 @@ def run():
 
     log.info("Obtention du token FFTA…")
     token = get_token(session)
-
-    # ── Diagnostic : liste des régions disponibles dans l'API ──
-    try:
-        regions_data = api_get(session, "Classements/GetRegions", token)
-        regions = regions_data.get("Response", {})
-        log.info("=== REGIONS FFTA ===")
-        if isinstance(regions, dict):
-            for code, nom in regions.items():
-                log.info("  %s = %s", code, nom)
-        elif isinstance(regions, list):
-            for item in regions:
-                log.info("  %s", item)
-        else:
-            log.info("  Réponse brute: %s", str(regions_data)[:500])
-        log.info("=== FIN REGIONS ===")
-    except Exception as e:
-        log.warning("GetRegions a échoué: %s", e)
 
     results: dict[str, list] = {}
 
