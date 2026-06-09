@@ -566,6 +566,40 @@ def run():
         out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
         log.info("  ✓ %s  (%d lignes)", out_path, len(subset))
 
+    # ── Palmarès individuels ──────────────────────────────────────────────────
+    # Collecte toutes les licences PDL uniques à travers tous les classements
+    all_rows_all_discs = []
+    for rows in results.values():
+        all_rows_all_discs.extend(rows)
+    all_rows_all_discs.extend(tae_rows)
+
+    licences = sorted({
+        str(r.get("NO_LICENCE", "")).strip()
+        for r in all_rows_all_discs
+        if r.get("NO_LICENCE")
+    })
+    log.info("→ Palmarès : %d licences PDL uniques à récupérer…", len(licences))
+
+    palmares_dir = OUTPUT_DIR / "palmares"
+    palmares_dir.mkdir(parents=True, exist_ok=True)
+
+    ok, errors = 0, 0
+    for i, lic in enumerate(licences, 1):
+        try:
+            data = api_get(session, "Classements/Palmares", token,
+                           NumeroLicence=lic, SaisonAnnee=SAISON)
+            out_path = palmares_dir / f"{lic}.json"
+            out_path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+            ok += 1
+            if i % 50 == 0:
+                log.info("  … %d/%d palmarès récupérés", i, len(licences))
+        except Exception as e:
+            log.warning("  Palmares(%s) : %s", lic, e)
+            errors += 1
+        time.sleep(0.15)   # respecte le rate-limit FFTA
+
+    log.info("  ✓ Palmarès : %d OK, %d erreurs — dossier %s/", ok, errors, palmares_dir)
+
     # Fichier méta global (date de mise à jour)
     meta_path = OUTPUT_DIR / "meta.json"
     meta_path.write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")

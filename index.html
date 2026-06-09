@@ -1733,36 +1733,11 @@ function isDiscMatchFFTA(rowToken, wantCode){
     'Beursault': 'Beursault',
   };
 
-  // Charge toutes les disciplines API en parallèle, retourne un tableau de rows
-  // enrichis avec _disc_label (nom lisible) pour distinguer dans la modale.
-  function loadAllDiscsForLicence(licence, cb){
-    var lic = String(licence||'').trim();
-    var allFiles = Object.entries(window._filesMap || {
-      'Tir 18m':'data/Tir 18m.json','TAE I':'data/TAE I.json','TAE N':'data/TAE N.json',
-      'Campagne':'data/Campagne.json','Nature':'data/Nature.json','3D':'data/3D.json',
-      'Para ext':'data/para ext.json','Para 18m':'data/Para salle 18m.json'
-    });
-    var results = [];
-    var pending = allFiles.length;
-    if(!pending){ cb(results); return; }
-    allFiles.forEach(function(entry){
-      var discName = entry[0], filePath = entry[1];
-      if(!/\.json$/i.test(filePath)){ --pending; if(!pending) cb(results); return; }
-      var url = filePath + (filePath.indexOf('?')>=0?'&':'?') + '_t=' + Date.now();
-      fetch(url, { cache:'no-store' })
-        .then(function(r){ return r.ok ? r.json() : null; })
-        .then(function(data){
-          var rows = (data && data.rows) ? data.rows : (Array.isArray(data) ? data : []);
-          rows.forEach(function(r){
-            if(String(r.NO_LICENCE||'').trim() === lic){
-              results.push(Object.assign({}, r, { _disc_label: DISC_LABELS[discName] || discName }));
-            }
-          });
-        })
-        .catch(function(){})
-        .finally(function(){ --pending; if(!pending) cb(results); });
-    });
-  }
+  // Mapping code discipline API → label lisible
+  var DISC_CODE_LABELS = {
+    'T':'TAE', 'S':'Tir 18m', 'C':'Campagne', 'N':'Nature',
+    '3':'3D', 'H':'Para ext.', 'I':'Para 18m'
+  };
 
   function openFor(licence, nom){
     var m = getEl("rp-results-modal");
@@ -1771,101 +1746,140 @@ function isDiscMatchFFTA(rowToken, wantCode){
     var titleEl   = getEl('rp-modal-title');
     var subEl     = getEl('rp-modal-sub');
 
-    // Affiche la modale de suite avec un spinner pendant le chargement
     titleEl.textContent = nom || 'Archer';
     subEl.textContent   = 'Chargement…';
-    container.innerHTML = '<div style="text-align:center;padding:24px;color:#888">⏳ Chargement de tous les classements…</div>';
+    container.innerHTML = '<div style="text-align:center;padding:24px;color:#888">⏳ Chargement du palmarès…</div>';
     openModal();
 
-    loadAllDiscsForLicence(licence, function(allRows){
-      if(!allRows.length){
-        container.innerHTML = '<p style="color:#888;padding:8px">Aucun résultat trouvé pour ce licencié dans les classements PDL.</p>';
-        subEl.textContent = '';
-        return;
-      }
+    var lic = String(licence||'').trim();
+    var url = 'data/palmares/' + encodeURIComponent(lic) + '.json?_t=' + Date.now();
 
-      // Disciplines présentes pour cet archer
-      var discs = Array.from(new Set(allRows.map(function(r){ return r._disc_label; }))).sort();
-      subEl.textContent = discs.join(' · ');
-
-      // Discipline courante (pré-sélection)
-      var currentDisc = (function(){
-        var d = document.getElementById('discipline');
-        if(!d) return '';
-        var opt = d.options[d.selectedIndex];
-        return opt ? (opt.text || opt.value || '') : '';
-      })();
-
-      container.innerHTML =
-        '<div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap">'
-        + '<label style="font-size:12px;color:#666;white-space:nowrap">Discipline :</label>'
-        + '<select id="rp-disc" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;font-size:13px">'
-        + '<option value="">Toutes (' + allRows.length + ' classements)</option>'
-        + discs.map(function(d){
-            var cnt = allRows.filter(function(r){ return r._disc_label===d; }).length;
-            return '<option value="'+d+'">' + d + ' ('+cnt+')</option>';
-          }).join('')
-        + '</select></div>'
-        + '<div id="rp-table-zone"></div>';
-
-      function renderRows(rows){
-        if(!rows.length){
-          document.getElementById('rp-table-zone').innerHTML = '<p style="color:#888;font-size:13px">Aucun résultat pour cette discipline.</p>';
+    fetch(url, { cache:'no-store' })
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(data){
+        // Structure : data.Response.PalmaresArray[0]
+        var palmares = data && data.Response && data.Response.PalmaresArray && data.Response.PalmaresArray[0];
+        if(!palmares){
+          container.innerHTML = '<p style="color:#888;padding:8px">Palmarès non disponible pour ce licencié.<br><small>Le fichier sera généré au prochain sync GitHub Actions.</small></p>';
+          subEl.textContent = '';
           return;
         }
-        // Groupe par disc_label + classement
-        rows.sort(function(a,b){
-          var da = a._disc_label||'', db = b._disc_label||'';
-          if(da<db) return -1; if(da>db) return 1;
-          var ca = a._classement_nom||'', cb2 = b._classement_nom||'';
-          if(ca<cb2) return -1; if(ca>cb2) return 1;
-          return parseInt(a.RANG_NAT||a.RANG||9999) - parseInt(b.RANG_NAT||b.RANG||9999);
-        });
-        var html = '<table style="width:100%;border-collapse:collapse;font-size:13px">'
-          + '<thead><tr style="background:#f3f4f6">'
-          + '<th style="padding:6px 8px;text-align:left;border-bottom:2px solid #e5e7eb">Discipline</th>'
-          + '<th style="padding:6px 8px;text-align:left;border-bottom:2px solid #e5e7eb">Classement</th>'
-          + '<th style="padding:6px 8px;text-align:center;border-bottom:2px solid #e5e7eb">Rang PDL</th>'
-          + '<th style="padding:6px 8px;text-align:center;border-bottom:2px solid #e5e7eb">Rang nat.</th>'
-          + '<th style="padding:6px 8px;text-align:center;border-bottom:2px solid #e5e7eb">Catégorie</th>'
-          + '<th style="padding:6px 8px;text-align:center;border-bottom:2px solid #e5e7eb">Score 1</th>'
-          + '<th style="padding:6px 8px;text-align:center;border-bottom:2px solid #e5e7eb">Score 2</th>'
-          + '<th style="padding:6px 8px;text-align:center;border-bottom:2px solid #e5e7eb">Score 3</th>'
-          + '<th style="padding:6px 8px;text-align:center;border-bottom:2px solid #e5e7eb">Moyenne</th>'
-          + '</tr></thead><tbody>';
-        rows.forEach(function(r, i){
-          var bg = i%2===0 ? '#fff' : '#fafafa';
-          var isScratch = /scratch/i.test(r._classement_nom||'');
-          var classLabel = r._classement_nom || '';
-          if(isScratch) classLabel = '<em style="color:#888">'+classLabel+'</em>';
-          html += '<tr style="background:'+bg+';border-bottom:1px solid #f0f0f0">'
-            + '<td style="padding:5px 8px">' + (r._disc_label||'') + '</td>'
-            + '<td style="padding:5px 8px">' + classLabel + '</td>'
-            + '<td style="padding:5px 8px;text-align:center;font-weight:600">' + (r.RANG||r.Rang_ligue||'') + '</td>'
-            + '<td style="padding:5px 8px;text-align:center;color:#666">' + (r.RANG_NAT||'') + '</td>'
-            + '<td style="padding:5px 8px;text-align:center">' + (r.CAT||r.CATEGORIE||'') + '</td>'
-            + '<td style="padding:5px 8px;text-align:center">' + (r.SCORE1||'') + '</td>'
-            + '<td style="padding:5px 8px;text-align:center">' + (r.SCORE2||'') + '</td>'
-            + '<td style="padding:5px 8px;text-align:center">' + (r.SCORE3||'') + '</td>'
-            + '<td style="padding:5px 8px;text-align:center;font-weight:600">' + (r.MOY_SCORE||'') + '</td>'
-            + '</tr>';
-        });
-        html += '</tbody></table>';
-        document.getElementById('rp-table-zone').innerHTML = html;
-      }
 
-      // Pré-sélectionner la discipline courante si possible
-      var selectEl = document.getElementById('rp-disc');
-      if(currentDisc && discs.indexOf(currentDisc) !== -1){
-        selectEl.value = currentDisc;
-      }
-      selectEl.addEventListener('change', function(){
-        var d = this.value;
-        renderRows(d ? allRows.filter(function(r){ return r._disc_label===d; }) : allRows);
+        // Info archer
+        var club = palmares.club || '';
+        var dept = (palmares.departement_code||'').replace(/0+$/, '');
+        subEl.textContent = [club, dept].filter(Boolean).join(' — ');
+
+        // Collecte tous les classements toutes disciplines confondues
+        var officiels = (palmares.championnats && palmares.championnats.officiels) || {};
+        var allClassements = [];
+        Object.keys(officiels).forEach(function(discCode){
+          var discData = officiels[discCode];
+          var discLabel = discData.discipline || DISC_CODE_LABELS[discCode] || discCode;
+          var classements = discData.classements || [];
+          classements.forEach(function(cl){
+            allClassements.push({
+              discCode: discCode,
+              discLabel: discLabel,
+              classement: cl.classement || '',
+              arme: cl.arme || '',
+              categories: cl.categories || '',
+              place: cl.place || '',          // rang national
+              score_total: cl.score_total || '',
+              s1: (cl.scores && cl.scores['1']) || '',
+              s2: (cl.scores && cl.scores['2']) || '',
+              s3: (cl.scores && cl.scores['3']) || '',
+              distances: (cl.distances || []).join(', '),
+              isScratch: /scratch/i.test(cl.classement||'')
+            });
+          });
+        });
+
+        if(!allClassements.length){
+          container.innerHTML = '<p style="color:#888;padding:8px">Aucun classement trouvé dans le palmarès.</p>';
+          return;
+        }
+
+        // Disciplines disponibles
+        var discs = Array.from(new Set(allClassements.map(function(c){ return c.discLabel; }))).sort();
+
+        container.innerHTML =
+          '<div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap">'
+          + '<label style="font-size:12px;color:#666;white-space:nowrap">Discipline :</label>'
+          + '<select id="rp-disc" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;font-size:13px">'
+          + '<option value="">Toutes (' + allClassements.length + ')</option>'
+          + discs.map(function(d){
+              var cnt = allClassements.filter(function(c){ return c.discLabel===d; }).length;
+              return '<option value="'+d+'">'+d+' ('+cnt+')</option>';
+            }).join('')
+          + '</select></div>'
+          + '<div id="rp-table-zone"></div>';
+
+        function renderRows(list){
+          if(!list.length){
+            document.getElementById('rp-table-zone').innerHTML = '<p style="color:#888;font-size:13px">Aucun résultat.</p>';
+            return;
+          }
+          // Tri : discipline → scratch en dernier → rang national
+          list.sort(function(a,b){
+            if(a.discLabel < b.discLabel) return -1;
+            if(a.discLabel > b.discLabel) return 1;
+            if(a.isScratch !== b.isScratch) return a.isScratch ? 1 : -1;
+            return parseInt(a.place||9999) - parseInt(b.place||9999);
+          });
+          var html = '<table style="width:100%;border-collapse:collapse;font-size:13px">'
+            + '<thead><tr style="background:#f3f4f6;border-bottom:2px solid #e5e7eb">'
+            + '<th style="padding:6px 8px;text-align:left">Discipline</th>'
+            + '<th style="padding:6px 8px;text-align:left">Classement</th>'
+            + '<th style="padding:6px 8px;text-align:left">Distance</th>'
+            + '<th style="padding:6px 8px;text-align:center">Rang nat.</th>'
+            + '<th style="padding:6px 8px;text-align:center">Score 1</th>'
+            + '<th style="padding:6px 8px;text-align:center">Score 2</th>'
+            + '<th style="padding:6px 8px;text-align:center">Score 3</th>'
+            + '<th style="padding:6px 8px;text-align:center">Total</th>'
+            + '</tr></thead><tbody>';
+          list.forEach(function(c, i){
+            var bg = i%2===0 ? '#fff' : '#fafafa';
+            var clLabel = c.isScratch
+              ? '<em style="color:#999">'+c.classement+'</em>'
+              : c.classement;
+            html += '<tr style="background:'+bg+';border-bottom:1px solid #f0f0f0">'
+              + '<td style="padding:5px 8px;white-space:nowrap">'+c.discLabel+'</td>'
+              + '<td style="padding:5px 8px">'+clLabel+'</td>'
+              + '<td style="padding:5px 8px;color:#666;font-size:12px">'+c.distances+'</td>'
+              + '<td style="padding:5px 8px;text-align:center;font-weight:600">'+c.place+'</td>'
+              + '<td style="padding:5px 8px;text-align:center">'+c.s1+'</td>'
+              + '<td style="padding:5px 8px;text-align:center">'+c.s2+'</td>'
+              + '<td style="padding:5px 8px;text-align:center">'+c.s3+'</td>'
+              + '<td style="padding:5px 8px;text-align:center;font-weight:600">'+c.score_total+'</td>'
+              + '</tr>';
+          });
+          html += '</tbody></table>';
+          document.getElementById('rp-table-zone').innerHTML = html;
+        }
+
+        // Pré-sélectionner discipline courante si possible
+        var selectEl = document.getElementById('rp-disc');
+        var currentDisc = (function(){
+          var d = document.getElementById('discipline');
+          if(!d) return '';
+          var opt = d.options[d.selectedIndex];
+          var txt = opt ? (opt.text||opt.value||'') : '';
+          // Essaie de matcher le label
+          return discs.find(function(dl){ return dl.toLowerCase().indexOf(txt.toLowerCase())>=0 || txt.toLowerCase().indexOf(dl.toLowerCase())>=0; }) || '';
+        })();
+        if(currentDisc) selectEl.value = currentDisc;
+
+        selectEl.addEventListener('change', function(){
+          var d = this.value;
+          renderRows(d ? allClassements.filter(function(c){ return c.discLabel===d; }) : allClassements);
+        });
+        renderRows(selectEl.value ? allClassements.filter(function(c){ return c.discLabel===selectEl.value; }) : allClassements);
+      })
+      .catch(function(){
+        container.innerHTML = '<p style="color:#888;padding:8px">Palmarès non disponible.<br><small>Le fichier sera généré au prochain sync GitHub Actions.</small></p>';
+        subEl.textContent = '';
       });
-      renderRows(selectEl.value ? allRows.filter(function(r){ return r._disc_label===selectEl.value; }) : allRows);
-    });
-  }
   }
 
   document.addEventListener("DOMContentLoaded", function(){
