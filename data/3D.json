@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-09T09:31:11.535965Z",
+    "generated_at": "2026-06-09T17:00:20.156990Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -2027,7 +2027,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "",
-      "RANG_NAT": "200",
+      "RANG_NAT": "201",
       "_classement_nom": "Senior 2 Homme Arc Libre 2026"
     },
     {
@@ -2077,7 +2077,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "",
-      "RANG_NAT": "247",
+      "RANG_NAT": "248",
       "_classement_nom": "Senior 2 Homme Arc Libre 2026"
     },
     {
@@ -2627,7 +2627,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "",
-      "RANG_NAT": "201",
+      "RANG_NAT": "202",
       "_classement_nom": "Senior 2 Homme Arc Chasse 2026"
     },
     {
@@ -2952,7 +2952,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "",
-      "RANG_NAT": "35",
+      "RANG_NAT": "34",
       "_classement_nom": "Senior 2 Homme Arc à poulies nu 2026"
     },
     {
@@ -3602,7 +3602,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "",
-      "RANG_NAT": "56",
+      "RANG_NAT": "57",
       "_classement_nom": "Senior 1 Homme Arc Chasse 2026"
     },
     {
@@ -4852,7 +4852,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "",
-      "RANG_NAT": "11",
+      "RANG_NAT": "10",
       "_classement_nom": "Scratch Homme Arc à Poulies nu 2026"
     },
     {
@@ -4877,7 +4877,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "",
-      "RANG_NAT": "56",
+      "RANG_NAT": "55",
       "_classement_nom": "Scratch Homme Arc à Poulies nu 2026"
     },
     {
@@ -4902,7 +4902,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "",
-      "RANG_NAT": "91",
+      "RANG_NAT": "90",
       "_classement_nom": "Scratch Homme Arc à Poulies nu 2026"
     },
     {
@@ -5152,7 +5152,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "",
-      "RANG_NAT": "56",
+      "RANG_NAT": "57",
       "_classement_nom": "U21-Senior 1 Homme Arc Chasse 2026"
     },
     {
