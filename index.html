@@ -796,6 +796,7 @@ const DISC_LABELS = {
     // ========= FICHIERS =========
     // Priorité JSON (API FFTA) > CSV (fallback legacy)
     const filesMap = { '3D':'data/3D.json','Beursault':'Resultat indiv.csv','Campagne':'data/Campagne.json','Tir 18m':'data/Tir 18m.json','Nature':'data/Nature.json','Para ext':'data/para ext.json','Para 18m':'data/Para salle 18m.json','TAE I':'data/TAE I.json','TAE N':'data/TAE N.json' };
+    window._filesMap = filesMap; // exposé pour la modale de fiche archer
     const TEAM_FILE = 'equipes.csv';
     const TEAM18_FILE = filesMap['Tir 18m'];
 
@@ -1175,7 +1176,19 @@ const DISC_LABELS = {
         const tr = document.createElement('tr');
         headers.forEach(h => {
           const td = document.createElement('td');
-          td.textContent = disp[h.key] ?? '';
+          if(h.key === 'NOM_PRENOM' && r.NO_LICENCE){
+            // Nom cliquable → ouvre la fiche complète de l'archer
+            const a = document.createElement('a');
+            a.className = 'js-archer';
+            a.setAttribute('data-licence', r.NO_LICENCE);
+            a.setAttribute('data-nom', disp.NOM_PRENOM || '');
+            a.href = '#';
+            a.textContent = disp[h.key] ?? '';
+            a.style.cssText = 'color:inherit;text-decoration:underline dotted;cursor:pointer;';
+            td.appendChild(a);
+          } else {
+            td.textContent = disp[h.key] ?? '';
+          }
           tr.appendChild(td);
         });
         tbody.appendChild(tr);
@@ -1707,94 +1720,152 @@ function isDiscMatchFFTA(rowToken, wantCode){
     });
   }
 
+  // Labels lisibles pour chaque discipline JSON
+  var DISC_LABELS = {
+    'Tir 18m':   'Tir 18m',
+    'TAE I':     'TAE International',
+    'TAE N':     'TAE National',
+    'Campagne':  'Campagne',
+    'Nature':    'Nature',
+    '3D':        '3D',
+    'Para ext':  'Para ext.',
+    'Para 18m':  'Para 18m',
+    'Beursault': 'Beursault',
+  };
+
+  // Charge toutes les disciplines API en parallèle, retourne un tableau de rows
+  // enrichis avec _disc_label (nom lisible) pour distinguer dans la modale.
+  function loadAllDiscsForLicence(licence, cb){
+    var lic = String(licence||'').trim();
+    var allFiles = Object.entries(window._filesMap || {
+      'Tir 18m':'data/Tir 18m.json','TAE I':'data/TAE I.json','TAE N':'data/TAE N.json',
+      'Campagne':'data/Campagne.json','Nature':'data/Nature.json','3D':'data/3D.json',
+      'Para ext':'data/para ext.json','Para 18m':'data/Para salle 18m.json'
+    });
+    var results = [];
+    var pending = allFiles.length;
+    if(!pending){ cb(results); return; }
+    allFiles.forEach(function(entry){
+      var discName = entry[0], filePath = entry[1];
+      if(!/\.json$/i.test(filePath)){ --pending; if(!pending) cb(results); return; }
+      var url = filePath + (filePath.indexOf('?')>=0?'&':'?') + '_t=' + Date.now();
+      fetch(url, { cache:'no-store' })
+        .then(function(r){ return r.ok ? r.json() : null; })
+        .then(function(data){
+          var rows = (data && data.rows) ? data.rows : (Array.isArray(data) ? data : []);
+          rows.forEach(function(r){
+            if(String(r.NO_LICENCE||'').trim() === lic){
+              results.push(Object.assign({}, r, { _disc_label: DISC_LABELS[discName] || discName }));
+            }
+          });
+        })
+        .catch(function(){})
+        .finally(function(){ --pending; if(!pending) cb(results); });
+    });
+  }
+
   function openFor(licence, nom){
     var m = getEl("rp-results-modal");
-    if (!m){ console.warn("Modal manquant"); return; }
-    loadResults(function(err, all){
-      var container = getEl('rp-results-container');
-      var sub = getEl('rp-modal-sub');
-      if (err){ container.innerHTML = "<p>Impossible de charger « "+RESULTS_CSV_PATH+" ».</p>"; openModal(); return; }
-      var sel = getSel();
-      var discCode = mapDiscCode(sel.disciplineText, sel.categorieText);
-      
-      // Fallback si le select discipline est vide : lit #disciplineChip
-      if (!discCode) {
-        var chip = document.getElementById('disciplineChip');
-        var chipTxt = (chip && chip.textContent) ? chip.textContent.trim() : '';
-        if (chipTxt) {
-          discCode = mapDiscCode(chipTxt, '');
+    if(!m){ console.warn("Modal manquant"); return; }
+    var container = getEl('rp-results-container');
+    var titleEl   = getEl('rp-modal-title');
+    var subEl     = getEl('rp-modal-sub');
+
+    // Affiche la modale de suite avec un spinner pendant le chargement
+    titleEl.textContent = nom || 'Archer';
+    subEl.textContent   = 'Chargement…';
+    container.innerHTML = '<div style="text-align:center;padding:24px;color:#888">⏳ Chargement de tous les classements…</div>';
+    openModal();
+
+    loadAllDiscsForLicence(licence, function(allRows){
+      if(!allRows.length){
+        container.innerHTML = '<p style="color:#888;padding:8px">Aucun résultat trouvé pour ce licencié dans les classements PDL.</p>';
+        subEl.textContent = '';
+        return;
+      }
+
+      // Disciplines présentes pour cet archer
+      var discs = Array.from(new Set(allRows.map(function(r){ return r._disc_label; }))).sort();
+      subEl.textContent = discs.join(' · ');
+
+      // Discipline courante (pré-sélection)
+      var currentDisc = (function(){
+        var d = document.getElementById('discipline');
+        if(!d) return '';
+        var opt = d.options[d.selectedIndex];
+        return opt ? (opt.text || opt.value || '') : '';
+      })();
+
+      container.innerHTML =
+        '<div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap">'
+        + '<label style="font-size:12px;color:#666;white-space:nowrap">Discipline :</label>'
+        + '<select id="rp-disc" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;font-size:13px">'
+        + '<option value="">Toutes (' + allRows.length + ' classements)</option>'
+        + discs.map(function(d){
+            var cnt = allRows.filter(function(r){ return r._disc_label===d; }).length;
+            return '<option value="'+d+'">' + d + ' ('+cnt+')</option>';
+          }).join('')
+        + '</select></div>'
+        + '<div id="rp-table-zone"></div>';
+
+      function renderRows(rows){
+        if(!rows.length){
+          document.getElementById('rp-table-zone').innerHTML = '<p style="color:#888;font-size:13px">Aucun résultat pour cette discipline.</p>';
+          return;
         }
-      }
-var lic = String(licence||"").trim();
-
-      // 1er filtre: licence + code discipline (T/S/3/C/N/B/H/I)
-      var filtered = all.filter(function(row){
-        var rowLic = licenceFromRow(row);
-        var rowDiscToken = rowDiscTokenFromRow(row);
-var rowDiscCode = firstAlpha(rowDiscToken);
-        var okLic = rowLic === lic;
-        var okDisc = isDiscMatchFFTA(rowDiscToken, discCode);
-        return okLic && okDisc;
-      });
-
-      // 2e filtre spécifique TAE: si l'utilisateur a choisi TAE I / TAE N
-      var requestedVariant = (function(t){
-        var up = String(t||"").toUpperCase();
-        if (/TAE\s*I\b/.test(up)) return "I";
-        if (/TAE\s*N\b/.test(up)) return "N";
-        return null;
-      })(sel.disciplineText);
-
-      if (discCode === "T" && requestedVariant){
-        var fallbackCategorieText = sel.categorieText;
-        filtered = filtered.filter(function(row){
-          return rowMatchesTaeVariant(row, requestedVariant, fallbackCategorieText);
+        // Groupe par disc_label + classement
+        rows.sort(function(a,b){
+          var da = a._disc_label||'', db = b._disc_label||'';
+          if(da<db) return -1; if(da>db) return 1;
+          var ca = a._classement_nom||'', cb2 = b._classement_nom||'';
+          if(ca<cb2) return -1; if(ca>cb2) return 1;
+          return parseInt(a.RANG_NAT||a.RANG||9999) - parseInt(b.RANG_NAT||b.RANG||9999);
         });
+        var html = '<table style="width:100%;border-collapse:collapse;font-size:13px">'
+          + '<thead><tr style="background:#f3f4f6">'
+          + '<th style="padding:6px 8px;text-align:left;border-bottom:2px solid #e5e7eb">Discipline</th>'
+          + '<th style="padding:6px 8px;text-align:left;border-bottom:2px solid #e5e7eb">Classement</th>'
+          + '<th style="padding:6px 8px;text-align:center;border-bottom:2px solid #e5e7eb">Rang PDL</th>'
+          + '<th style="padding:6px 8px;text-align:center;border-bottom:2px solid #e5e7eb">Rang nat.</th>'
+          + '<th style="padding:6px 8px;text-align:center;border-bottom:2px solid #e5e7eb">Catégorie</th>'
+          + '<th style="padding:6px 8px;text-align:center;border-bottom:2px solid #e5e7eb">Score 1</th>'
+          + '<th style="padding:6px 8px;text-align:center;border-bottom:2px solid #e5e7eb">Score 2</th>'
+          + '<th style="padding:6px 8px;text-align:center;border-bottom:2px solid #e5e7eb">Score 3</th>'
+          + '<th style="padding:6px 8px;text-align:center;border-bottom:2px solid #e5e7eb">Moyenne</th>'
+          + '</tr></thead><tbody>';
+        rows.forEach(function(r, i){
+          var bg = i%2===0 ? '#fff' : '#fafafa';
+          var isScratch = /scratch/i.test(r._classement_nom||'');
+          var classLabel = r._classement_nom || '';
+          if(isScratch) classLabel = '<em style="color:#888">'+classLabel+'</em>';
+          html += '<tr style="background:'+bg+';border-bottom:1px solid #f0f0f0">'
+            + '<td style="padding:5px 8px">' + (r._disc_label||'') + '</td>'
+            + '<td style="padding:5px 8px">' + classLabel + '</td>'
+            + '<td style="padding:5px 8px;text-align:center;font-weight:600">' + (r.RANG||r.Rang_ligue||'') + '</td>'
+            + '<td style="padding:5px 8px;text-align:center;color:#666">' + (r.RANG_NAT||'') + '</td>'
+            + '<td style="padding:5px 8px;text-align:center">' + (r.CAT||r.CATEGORIE||'') + '</td>'
+            + '<td style="padding:5px 8px;text-align:center">' + (r.SCORE1||'') + '</td>'
+            + '<td style="padding:5px 8px;text-align:center">' + (r.SCORE2||'') + '</td>'
+            + '<td style="padding:5px 8px;text-align:center">' + (r.SCORE3||'') + '</td>'
+            + '<td style="padding:5px 8px;text-align:center;font-weight:600">' + (r.MOY_SCORE||'') + '</td>'
+            + '</tr>';
+        });
+        html += '</tbody></table>';
+        document.getElementById('rp-table-zone').innerHTML = html;
       }
 
-      var subtitle = sel.disciplineText;
-      if (sel.categorieText && (!subtitle || subtitle.toLowerCase().indexOf("para") === -1)) {
-        subtitle = (sel.categorieText + (subtitle ? " — " + subtitle : "")).trim();
+      // Pré-sélectionner la discipline courante si possible
+      var selectEl = document.getElementById('rp-disc');
+      if(currentDisc && discs.indexOf(currentDisc) !== -1){
+        selectEl.value = currentDisc;
       }
-      getEl("rp-modal-title").textContent = "Résultats — " + (nom || "Archer");
-      sub.textContent = discCode ? ("Discipline : " + (subtitle || "")) : (subtitle || "");
-      
-// Construire un sélecteur de discipline
-var licStr = String(licence||"").trim();
-var allRows = all.filter(function(row){ return licenceFromRow(row) === licStr; });
-var discs = Array.from(new Set(allRows.map(function(r){ return labelifyDisc(rowDiscTokenFromRow(r)); }))).filter(Boolean).sort();
-
-// UI: select + zone table
-container.innerHTML = '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;gap:8px">'
-  + '<div style="font-size:12px;color:#666">Discipline</div>'
-  + '<select id="rp-disc" style="flex:0 0 220px;padding:6px;border:1px solid #ddd;border-radius:6px">'
-  + '<option value="">Toutes — Choisir —</option>'
-  + discs.map(function(d){ return '<option value="'+d+'">'+d+'</option>'; }).join('')
-  + '</select>'
-  + '</div>'
-  + '<div id="rp-table-zone"></div>';
-
-// Rendu conditionnel
-function renderForDisc(d){
-  var rows = !d ? allRows : allRows.filter(function(r){ return labelifyDisc(rowDiscTokenFromRow(r)) === d; });
-  document.getElementById('rp-table-zone').innerHTML = renderTable(rows);
-}
-
-// Pré-sélectionner la discipline courante si possible
-var currentLabel = (function(){
-  var sel = getSel && getSel();
-  var discTxt = sel && sel.disciplineText ? sel.disciplineText : '';
-  return labelifyDisc(discTxt);
-})();
-var selectEl = document.getElementById('rp-disc');
-if(currentLabel && discs.indexOf(currentLabel) !== -1){
-  selectEl.value = currentLabel;
-}
-selectEl.addEventListener('change', function(){ renderForDisc(this.value || ''); });
-
-renderForDisc(selectEl.value || '');
-openModal();
-});
+      selectEl.addEventListener('change', function(){
+        var d = this.value;
+        renderRows(d ? allRows.filter(function(r){ return r._disc_label===d; }) : allRows);
+      });
+      renderRows(selectEl.value ? allRows.filter(function(r){ return r._disc_label===selectEl.value; }) : allRows);
+    });
+  }
   }
 
   document.addEventListener("DOMContentLoaded", function(){
