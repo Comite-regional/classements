@@ -48,7 +48,8 @@ MAX_ARCHERS_PER_CLASSEMENT = int(os.environ.get("FFTA_MAX_ARCHERS", "200"))
 # Disciplines à récupérer : code API → nom de fichier JSON de sortie
 DISCIPLINES = {
     "S": "Tir 18m.json",       # Tir en Salle 18m
-    "T": "TAE.json",            # Tir à l'Arc Extérieur (I + N)
+    # T est géré spécialement : deux fichiers TAE I.json + TAE N.json
+    # (séparation par distance : ≥50m = International, <50m = National)
     "C": "Campagne.json",       # Campagne
     "N": "Nature.json",         # Nature
     "3": "3D.json",             # 3D
@@ -248,10 +249,14 @@ def get_classement_detail(session, token, classement_id) -> list[dict]:
             # Filtrage région : on ne garde que les archers PDL (CR12)
             if archer.get("StructureCodeRegion", "") != LIGUE_CODE:
                 continue
+            # distance est une liste ex: ["70m - 122cm"] → on prend le premier élément
+            dist_raw = cl_item.get("distance") or []
+            dist_str = dist_raw[0] if isinstance(dist_raw, list) and dist_raw else str(dist_raw or "")
             enriched = {
                 "_sexe_code": cl_item.get("sexe_code", ""),
                 "_arme_code": cl_item.get("arme_code", ""),
                 "_cl_libelle": cl_item.get("libelle", ""),
+                "_distance_raw": dist_str,
             }
             enriched.update(archer)
             all_archers.append(enriched)
@@ -331,6 +336,20 @@ def normalize_archer(archer: dict, disc_code: str, rank: int) -> dict:
     dept_raw = str(archer.get("StructureCodeDepartement") or "")
     dept = dept_raw[:2] if dept_raw and dept_raw != "0" else ""
 
+    # Distance et blason depuis le classement (ex: "70m - 122cm")
+    dist_raw = str(archer.get("_distance_raw") or "")
+    if " - " in dist_raw:
+        dist_parts = dist_raw.split(" - ", 1)
+        distance = dist_parts[0].strip()   # ex: "70m"
+        blason   = dist_parts[1].strip()   # ex: "122cm"
+    else:
+        distance = dist_raw
+        blason   = ""
+
+    # Type TAE : déterminé par la taille du blason (fourni par l'appelant via _tae_type)
+    # 122cm = International (I), 80cm = National (N)
+    tae_type = str(archer.get("_tae_type") or "")
+
     return {
         "Rang_ligue": rang,
         "RANG": rang,
@@ -350,21 +369,80 @@ def normalize_archer(archer: dict, disc_code: str, rank: int) -> dict:
         "SCORE3": s3,
         "MOY_SCORE": total,
         "DISCIPLINE": disc_code,
+        "DISTANCE": distance,
+        "BLASON": blason,
+        "TAE_TYPE": tae_type,
     }
 
 
 # ─── Logique principale ────────────────────────────────────────────────────────
 
-def fetch_discipline(session: requests.Session, token: str, disc_code: str) -> list[dict]:
+def tae_type_from_distances(distances: list) -> str:
+    """Détermine si un classement TAE est International (I) ou National (N)
+    selon la taille du blason dans le champ 'distance' de l'API.
+    - 122cm → TAE International (I)
+    - 80cm  → TAE National (N)
+    """
+    for d in distances:
+        d_str = str(d)
+        if "122cm" in d_str:
+            return "I"
+        if "80cm" in d_str:
+            return "N"
+    return ""
+
+
+def get_tae_classements_map(session, token) -> dict[str, dict]:
+    """Appelle GetClassements pour TAE et retourne un dict
+    {classement_id: {"libelle": ..., "tae_type": "I"/"N", "distance": [...], ...}}
+    """
+    data = api_get(session, "Classements/Classements", token,
+                   SaisonAnnee=SAISON, DisciplineCode="T")
+    response = data.get("Response", {})
+    classements = response.get("ClassementsArray") or []
+    if isinstance(response, list):
+        classements = response
+
+    result = {}
+    for cl in classements:
+        if not isinstance(cl, dict):
+            continue
+        cl_id = str(cl.get("id", ""))
+        if not cl_id:
+            continue
+        distances = cl.get("distance") or []
+        if not isinstance(distances, list):
+            distances = [distances] if distances else []
+        tae_type = tae_type_from_distances(distances)
+        result[cl_id] = {
+            "libelle": cl.get("libelle", ""),
+            "tae_type": tae_type,
+            "distance": distances,
+        }
+
+    log.info("  GetClassements TAE → %d classements trouvés (%d I, %d N, %d inconnus)",
+             len(result),
+             sum(1 for v in result.values() if v["tae_type"] == "I"),
+             sum(1 for v in result.values() if v["tae_type"] == "N"),
+             sum(1 for v in result.values() if v["tae_type"] == ""))
+    return result
+
+
+def fetch_discipline(session: requests.Session, token: str, disc_code: str,
+                     tae_map: dict | None = None) -> list[dict]:
     """Récupère les archers PDL (CR12) pour une discipline.
 
-    Utilise la liste d'IDs hardcodée (extraite du PDF officiel) pour
-    appeler directement GetClassement avec Ligue=CR12, ce qui évite
-    l'étape GetClassements et filtre les archers côté serveur FFTA.
+    Pour TAE (disc_code='T'), utilise tae_map (issu de GetClassements)
+    pour connaître le type I/N de chaque classement via la taille du blason.
+    Pour les autres disciplines, utilise la liste d'IDs hardcodée.
     """
     log.info("→ Discipline %s  (saison %s, ligue %s)", disc_code, SAISON, LIGUE_CODE)
 
-    cl_ids = CLASSEMENT_IDS_BY_DISC.get(disc_code, [])
+    if disc_code == "T" and tae_map:
+        cl_ids = list(tae_map.keys())
+    else:
+        cl_ids = CLASSEMENT_IDS_BY_DISC.get(disc_code, [])
+
     if not cl_ids:
         log.warning("  Aucun ID de classement configuré pour %s", disc_code)
         return []
@@ -383,12 +461,21 @@ def fetch_discipline(session: requests.Session, token: str, disc_code: str) -> l
             log.debug("  Classement %s : 0 archer (vide ou hors PDL)", cl_id)
             continue
 
-        # Le libellé vient du premier archer (enrichi par get_classement_detail)
-        cl_name = archers[0].get("_cl_libelle") or cl_id
-        log.info("  %-60s  %3d archers", str(cl_name)[:60], len(archers))
+        # Libellé et type TAE depuis la map API (ou depuis l'archer enrichi)
+        if disc_code == "T" and tae_map and cl_id in tae_map:
+            cl_meta = tae_map[cl_id]
+            cl_name = cl_meta["libelle"] or archers[0].get("_cl_libelle") or cl_id
+            tae_type = cl_meta["tae_type"]
+        else:
+            cl_name = archers[0].get("_cl_libelle") or cl_id
+            tae_type = ""
+
+        log.info("  %-60s  %3d archers  [TAE:%s]", str(cl_name)[:60], len(archers), tae_type or "-")
 
         for rang_pdl, archer in enumerate(archers, start=1):
             rang_nat = str(archer.get("PlaceOrdre") or "")
+            # Injecte _tae_type pour que normalize_archer puisse l'utiliser
+            archer["_tae_type"] = tae_type
             row = normalize_archer(archer, disc_code, rang_pdl)
             row["RANG_NAT"] = rang_nat
             row["_classement_nom"] = str(cl_name)
@@ -425,6 +512,20 @@ def run():
         payload = {"meta": meta, "rows": rows}
         out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
         log.info("  ✓ %s  (%d lignes)", out_path, len(rows))
+
+    # Traitement spécial TAE : on interroge d'abord GetClassements pour obtenir
+    # la liste dynamique avec la taille du blason (122cm=I, 80cm=N)
+    log.info("→ TAE : récupération de la liste des classements via l'API…")
+    tae_map = get_tae_classements_map(session, token)
+    tae_rows = fetch_discipline(session, token, "T", tae_map=tae_map)
+
+    tae_i = [r for r in tae_rows if r.get("TAE_TYPE") == "I"]
+    tae_n = [r for r in tae_rows if r.get("TAE_TYPE") == "N"]
+    for filename, subset in [("TAE I.json", tae_i), ("TAE N.json", tae_n)]:
+        out_path = OUTPUT_DIR / filename
+        payload = {"meta": meta, "rows": subset}
+        out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+        log.info("  ✓ %s  (%d lignes)", out_path, len(subset))
 
     # Fichier méta global (date de mise à jour)
     meta_path = OUTPUT_DIR / "meta.json"
