@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-09T06:15:26.795622Z",
-    "saison": "",
+    "generated_at": "2026-06-09T08:45:54.896605Z",
+    "saison": "2026",
     "ligue": "CR12"
   },
   "rows": [
@@ -24,6 +24,9 @@
       "SCORE3": "0",
       "MOY_SCORE": "248",
       "DISCIPLINE": "H",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
       "RANG_NAT": "1",
       "_classement_nom": "W1 Scratch Mixte 2026"
     },
@@ -46,6 +49,9 @@
       "SCORE3": "184",
       "MOY_SCORE": "395",
       "DISCIPLINE": "H",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
       "RANG_NAT": "3",
       "_classement_nom": "HV2-3 Scratch Mixte 2026"
     },
@@ -68,6 +74,9 @@
       "SCORE3": "675",
       "MOY_SCORE": "677",
       "DISCIPLINE": "H",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
       "RANG_NAT": "4",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2026"
     },
@@ -90,6 +99,9 @@
       "SCORE3": "673",
       "MOY_SCORE": "674",
       "DISCIPLINE": "H",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
       "RANG_NAT": "5",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2026"
     },
@@ -112,6 +124,9 @@
       "SCORE3": "614",
       "MOY_SCORE": "627",
       "DISCIPLINE": "H",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
       "RANG_NAT": "11",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2026"
     },
@@ -134,6 +149,9 @@
       "SCORE3": "0",
       "MOY_SCORE": "585",
       "DISCIPLINE": "H",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
       "RANG_NAT": "17",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2026"
     },
@@ -156,6 +174,9 @@
       "SCORE3": "0",
       "MOY_SCORE": "575",
       "DISCIPLINE": "H",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
       "RANG_NAT": "20",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2026"
     },
@@ -178,6 +199,9 @@
       "SCORE3": "460",
       "MOY_SCORE": "497",
       "DISCIPLINE": "H",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
       "RANG_NAT": "7",
       "_classement_nom": "OPEN Scratch Hommes Arc Classique 2026"
     },
@@ -200,6 +224,9 @@
       "SCORE3": "563",
       "MOY_SCORE": "572",
       "DISCIPLINE": "H",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
       "RANG_NAT": "9",
       "_classement_nom": "FEDERAL Scratch Hommes Arc Classique 2026"
     },
@@ -222,6 +249,9 @@
       "SCORE3": "0",
       "MOY_SCORE": "269",
       "DISCIPLINE": "H",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
       "RANG_NAT": "15",
       "_classement_nom": "FEDERAL Scratch Hommes Arc Classique 2026"
     },
@@ -244,6 +274,9 @@
       "SCORE3": "0",
       "MOY_SCORE": "686",
       "DISCIPLINE": "H",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
       "RANG_NAT": "2",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2026"
     },
@@ -266,6 +299,9 @@
       "SCORE3": "640",
       "MOY_SCORE": "655",
       "DISCIPLINE": "H",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
       "RANG_NAT": "9",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2026"
     },
@@ -288,6 +324,9 @@
       "SCORE3": "492",
       "MOY_SCORE": "525",
       "DISCIPLINE": "H",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
       "RANG_NAT": "9",
       "_classement_nom": "OPEN Scratch Hommes Arc Classique 2026"
     },
@@ -310,6 +349,9 @@
       "SCORE3": "237",
       "MOY_SCORE": "363",
       "DISCIPLINE": "H",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
       "RANG_NAT": "17",
       "_classement_nom": "OPEN Scratch Hommes Arc Classique 2026"
     },
@@ -332,6 +374,9 @@
       "SCORE3": "612",
       "MOY_SCORE": "625",
       "DISCIPLINE": "H",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
       "RANG_NAT": "2",
       "_classement_nom": "FEDERAL Jeunes Mixtes 2026"
     }
