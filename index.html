@@ -1748,7 +1748,7 @@ function isDiscMatchFFTA(rowToken, wantCode){
 
     titleEl.textContent = nom || 'Archer';
     subEl.textContent   = 'Chargement…';
-    container.innerHTML = '<div style="text-align:center;padding:24px;color:#888">⏳ Chargement du palmarès…</div>';
+    container.innerHTML = '<div style="text-align:center;padding:24px;color:#888">⏳ Chargement des résultats…</div>';
     openModal();
 
     var lic = String(licence||'').trim();
@@ -1757,124 +1757,175 @@ function isDiscMatchFFTA(rowToken, wantCode){
     fetch(url, { cache:'no-store' })
       .then(function(r){ return r.ok ? r.json() : null; })
       .then(function(data){
-        // Structure : data.Response.PalmaresArray[0]
-        var palmares = data && data.Response && data.Response.PalmaresArray && data.Response.PalmaresArray[0];
-        if(!palmares){
-          container.innerHTML = '<p style="color:#888;padding:8px">Palmarès non disponible pour ce licencié.<br><small>Le fichier sera généré au prochain sync GitHub Actions.</small></p>';
+        // Structure : data.Response.ResultatsParArcher[0]
+        var archer = data && data.Response
+          && (data.Response.ResultatsParArcher || data.Response.PalmaresArray)
+          && (data.Response.ResultatsParArcher || data.Response.PalmaresArray)[0];
+        if(!archer){
+          container.innerHTML = '<p style="color:#888;padding:8px">Résultats non disponibles.<br><small>Ils seront générés au prochain sync GitHub Actions.</small></p>';
           subEl.textContent = '';
           return;
         }
 
-        // Info archer
-        var club = palmares.club || '';
-        var dept = (palmares.departement_code||'').replace(/0+$/, '');
+        var club = archer.club || '';
+        var dept = (archer.departement_code||'').replace(/0+$/, '');
         subEl.textContent = [club, dept].filter(Boolean).join(' — ');
 
-        // Collecte tous les classements toutes disciplines confondues
-        var officiels = (palmares.championnats && palmares.championnats.officiels) || {};
-        var allClassements = [];
+        // Collecte toutes les épreuves de toutes disciplines
+        var officiels = (archer.championnats && archer.championnats.officiels) || {};
+        var allEpreuves = [];  // une ligne = une épreuve
+
         Object.keys(officiels).forEach(function(discCode){
           var discData = officiels[discCode];
           var discLabel = discData.discipline || DISC_CODE_LABELS[discCode] || discCode;
           var classements = discData.classements || [];
           classements.forEach(function(cl){
-            allClassements.push({
-              discCode: discCode,
-              discLabel: discLabel,
-              classement: cl.classement || '',
-              arme: cl.arme || '',
-              categories: cl.categories || '',
-              place: cl.place || '',          // rang national
-              score_total: cl.score_total || '',
-              s1: (cl.scores && cl.scores['1']) || '',
-              s2: (cl.scores && cl.scores['2']) || '',
-              s3: (cl.scores && cl.scores['3']) || '',
-              distances: (cl.distances || []).join(', '),
-              isScratch: /scratch/i.test(cl.classement||'')
+            var isScratch = /scratch/i.test(cl.classement||'');
+            var distances = (cl.distances||[]).join(', ');
+            var epreuves = cl.epreuves || [];
+            // Si pas d'épreuves (scratch sans détail), on affiche quand même la ligne classement
+            if(!epreuves.length){
+              allEpreuves.push({
+                discLabel: discLabel,
+                classement: cl.classement||'',
+                distances: distances,
+                isScratch: isScratch,
+                date: '',
+                nomEpreuve: isScratch ? '(classement scratch — pas d\'épreuve individuelle)' : '',
+                scoreTotal: (cl.scores && cl.scores['1']) || cl.moyenne || '',
+                dist1: '', dist2: '',
+                dix: '', neuf: '',
+                placeQualif: cl.place || '',
+                isClassementOnly: true
+              });
+              return;
+            }
+            epreuves.forEach(function(ep){
+              allEpreuves.push({
+                discLabel: discLabel,
+                classement: cl.classement||'',
+                distances: distances,
+                isScratch: isScratch,
+                date: ep.date || '',
+                nomEpreuve: (ep.nom||'').replace(/&apos;/g,"'"),
+                scoreTotal: ep.SCORE_TOTAL || '',
+                dist1: ep.SCORE_DIST1 || '',
+                dist2: ep.SCORE_DIST2 || '',
+                dix: ep.DIX || '',
+                neuf: ep.NEUF || '',
+                placeQualif: ep.PLACE_QUALIF || '',
+                isClassementOnly: false
+              });
             });
           });
         });
 
-        if(!allClassements.length){
-          container.innerHTML = '<p style="color:#888;padding:8px">Aucun classement trouvé dans le palmarès.</p>';
+        if(!allEpreuves.length){
+          container.innerHTML = '<p style="color:#888;padding:8px">Aucun résultat trouvé.</p>';
           return;
         }
 
         // Disciplines disponibles
-        var discs = Array.from(new Set(allClassements.map(function(c){ return c.discLabel; }))).sort();
+        var discs = Array.from(new Set(allEpreuves.map(function(e){ return e.discLabel; }))).sort();
+        var totalEp = allEpreuves.filter(function(e){ return !e.isClassementOnly; }).length;
 
         container.innerHTML =
           '<div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap">'
           + '<label style="font-size:12px;color:#666;white-space:nowrap">Discipline :</label>'
           + '<select id="rp-disc" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;font-size:13px">'
-          + '<option value="">Toutes (' + allClassements.length + ')</option>'
+          + '<option value="">Toutes ('+totalEp+' épreuves)</option>'
           + discs.map(function(d){
-              var cnt = allClassements.filter(function(c){ return c.discLabel===d; }).length;
-              return '<option value="'+d+'">'+d+' ('+cnt+')</option>';
+              var cnt = allEpreuves.filter(function(e){ return e.discLabel===d && !e.isClassementOnly; }).length;
+              return '<option value="'+d+'">'+d+' ('+cnt+' épreuves)</option>';
             }).join('')
           + '</select></div>'
           + '<div id="rp-table-zone"></div>';
 
-        function renderRows(list){
+        function renderEpreuves(list){
           if(!list.length){
             document.getElementById('rp-table-zone').innerHTML = '<p style="color:#888;font-size:13px">Aucun résultat.</p>';
             return;
           }
-          // Tri : discipline → scratch en dernier → rang national
+          // Tri : discipline → classement → date décroissante
           list.sort(function(a,b){
             if(a.discLabel < b.discLabel) return -1;
             if(a.discLabel > b.discLabel) return 1;
             if(a.isScratch !== b.isScratch) return a.isScratch ? 1 : -1;
-            return parseInt(a.place||9999) - parseInt(b.place||9999);
+            if(a.classement < b.classement) return -1;
+            if(a.classement > b.classement) return 1;
+            // Date décroissante (format DD/MM/YYYY)
+            var da = a.date.split('/').reverse().join('');
+            var db = b.date.split('/').reverse().join('');
+            return db.localeCompare(da);
           });
+
           var html = '<table style="width:100%;border-collapse:collapse;font-size:13px">'
             + '<thead><tr style="background:#f3f4f6;border-bottom:2px solid #e5e7eb">'
             + '<th style="padding:6px 8px;text-align:left">Discipline</th>'
             + '<th style="padding:6px 8px;text-align:left">Classement</th>'
-            + '<th style="padding:6px 8px;text-align:left">Distance</th>'
-            + '<th style="padding:6px 8px;text-align:center">Rang nat.</th>'
-            + '<th style="padding:6px 8px;text-align:center">Score 1</th>'
-            + '<th style="padding:6px 8px;text-align:center">Score 2</th>'
-            + '<th style="padding:6px 8px;text-align:center">Score 3</th>'
+            + '<th style="padding:6px 8px;text-align:left">Date</th>'
+            + '<th style="padding:6px 8px;text-align:left">Épreuve</th>'
             + '<th style="padding:6px 8px;text-align:center">Total</th>'
+            + '<th style="padding:6px 8px;text-align:center">Dist. 1</th>'
+            + '<th style="padding:6px 8px;text-align:center">Dist. 2</th>'
+            + '<th style="padding:6px 8px;text-align:center">10s</th>'
+            + '<th style="padding:6px 8px;text-align:center">9s</th>'
+            + '<th style="padding:6px 8px;text-align:center">Place</th>'
             + '</tr></thead><tbody>';
-          list.forEach(function(c, i){
+
+          var lastDisc = '', lastCl = '';
+          list.forEach(function(e, i){
             var bg = i%2===0 ? '#fff' : '#fafafa';
-            var clLabel = c.isScratch
-              ? '<em style="color:#999">'+c.classement+'</em>'
-              : c.classement;
+            // Séparateur visuel à chaque nouveau classement
+            var discCell = (e.discLabel !== lastDisc) ? e.discLabel : '';
+            var clCell   = (e.classement !== lastCl || e.discLabel !== lastDisc)
+              ? (e.isScratch ? '<em style="color:#aaa">'+e.classement+'</em>' : e.classement)
+              : '';
+            lastDisc = e.discLabel; lastCl = e.classement;
+
+            if(e.isClassementOnly){
+              html += '<tr style="background:#fffbf0;border-bottom:1px solid #f0f0f0;font-style:italic;color:#aaa">'
+                + '<td style="padding:5px 8px">'+discCell+'</td>'
+                + '<td style="padding:5px 8px" colspan="9">'+e.nomEpreuve+'</td>'
+                + '</tr>';
+              return;
+            }
             html += '<tr style="background:'+bg+';border-bottom:1px solid #f0f0f0">'
-              + '<td style="padding:5px 8px;white-space:nowrap">'+c.discLabel+'</td>'
-              + '<td style="padding:5px 8px">'+clLabel+'</td>'
-              + '<td style="padding:5px 8px;color:#666;font-size:12px">'+c.distances+'</td>'
-              + '<td style="padding:5px 8px;text-align:center;font-weight:600">'+c.place+'</td>'
-              + '<td style="padding:5px 8px;text-align:center">'+c.s1+'</td>'
-              + '<td style="padding:5px 8px;text-align:center">'+c.s2+'</td>'
-              + '<td style="padding:5px 8px;text-align:center">'+c.s3+'</td>'
-              + '<td style="padding:5px 8px;text-align:center;font-weight:600">'+c.score_total+'</td>'
+              + '<td style="padding:5px 8px;white-space:nowrap;color:#555;font-size:12px">'+discCell+'</td>'
+              + '<td style="padding:5px 8px;font-size:12px">'+clCell+'</td>'
+              + '<td style="padding:5px 8px;white-space:nowrap;color:#666">'+e.date+'</td>'
+              + '<td style="padding:5px 8px;font-size:12px">'+e.nomEpreuve+'</td>'
+              + '<td style="padding:5px 8px;text-align:center;font-weight:700;font-size:14px">'+e.scoreTotal+'</td>'
+              + '<td style="padding:5px 8px;text-align:center">'+e.dist1+'</td>'
+              + '<td style="padding:5px 8px;text-align:center">'+e.dist2+'</td>'
+              + '<td style="padding:5px 8px;text-align:center;color:#f59e0b">'+e.dix+'</td>'
+              + '<td style="padding:5px 8px;text-align:center;color:#10b981">'+e.neuf+'</td>'
+              + '<td style="padding:5px 8px;text-align:center">'+e.placeQualif+'</td>'
               + '</tr>';
           });
           html += '</tbody></table>';
           document.getElementById('rp-table-zone').innerHTML = html;
         }
 
-        // Pré-sélectionner discipline courante si possible
+        // Pré-sélectionner discipline courante
         var selectEl = document.getElementById('rp-disc');
         var currentDisc = (function(){
           var d = document.getElementById('discipline');
           if(!d) return '';
           var opt = d.options[d.selectedIndex];
           var txt = opt ? (opt.text||opt.value||'') : '';
-          // Essaie de matcher le label
-          return discs.find(function(dl){ return dl.toLowerCase().indexOf(txt.toLowerCase())>=0 || txt.toLowerCase().indexOf(dl.toLowerCase())>=0; }) || '';
+          return discs.find(function(dl){
+            return dl.toLowerCase().indexOf(txt.toLowerCase())>=0
+                || txt.toLowerCase().indexOf(dl.toLowerCase())>=0;
+          }) || '';
         })();
         if(currentDisc) selectEl.value = currentDisc;
 
         selectEl.addEventListener('change', function(){
           var d = this.value;
-          renderRows(d ? allClassements.filter(function(c){ return c.discLabel===d; }) : allClassements);
+          renderEpreuves(d ? allEpreuves.filter(function(e){ return e.discLabel===d; }) : allEpreuves);
         });
-        renderRows(selectEl.value ? allClassements.filter(function(c){ return c.discLabel===selectEl.value; }) : allClassements);
+        renderEpreuves(selectEl.value ? allEpreuves.filter(function(e){ return e.discLabel===selectEl.value; }) : allEpreuves);
       })
       .catch(function(){
         container.innerHTML = '<p style="color:#888;padding:8px">Palmarès non disponible.<br><small>Le fichier sera généré au prochain sync GitHub Actions.</small></p>';

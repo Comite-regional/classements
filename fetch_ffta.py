@@ -586,7 +586,7 @@ def run():
     ok, errors = 0, 0
     for i, lic in enumerate(licences, 1):
         try:
-            data = api_get(session, "Classements/Palmares", token,
+            data = api_get(session, "Resultats/ResultatsParArcher", token,
                            NumeroLicence=lic, SaisonAnnee=SAISON)
             out_path = palmares_dir / f"{lic}.json"
             out_path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
