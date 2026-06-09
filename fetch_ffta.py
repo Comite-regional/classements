@@ -377,19 +377,56 @@ def normalize_archer(archer: dict, disc_code: str, rank: int) -> dict:
 
 # ─── Logique principale ────────────────────────────────────────────────────────
 
-def tae_type_from_distances(distances: list) -> str:
+import re as _re
+
+def tae_type_from_classement(arme_code: str, cat_codes: set, distances: list) -> str:
     """Détermine si un classement TAE est International (I) ou National (N)
-    selon la taille du blason dans le champ 'distance' de l'API.
-    - 122cm → TAE International (I)
-    - 80cm  → TAE National (N)
+    selon les règles officielles FFTA (arme + catégorie + distance + blason).
+
+    Arc Classique (C) :
+      U11              → 20m-80cm  = I
+      U13              → 30m-80cm  = I
+      U15              → 40m-80cm  = I
+      U18              → 60m-122cm = I
+      U21, S1, S2      → 70m-122cm = I
+      S3               → 60m-122cm = I
+
+    Arc à Poulies (P) :
+      U18, U21, S1, S2, S3 → 50m-80cm = I
+
+    Tout le reste → N
     """
+    # Parse toutes les paires (mètres, blason_cm) présentes dans le classement
+    dist_pairs = []
     for d in distances:
-        d_str = str(d)
-        if "122cm" in d_str:
-            return "I"
-        if "80cm" in d_str:
-            return "N"
-    return ""
+        m = _re.match(r'(\d+)m\s*-\s*(\d+)cm', str(d))
+        if m:
+            dist_pairs.append((int(m.group(1)), int(m.group(2))))
+
+    if not dist_pairs:
+        return "N"
+
+    # Pour les classements multi-distances (ex: U18/U21 avec 70m + 60m),
+    # on vérifie si AU MOINS UNE distance correspond à un standard TAE I.
+    for metres, blason in dist_pairs:
+        if arme_code == "C":  # Arc Classique
+            if "U11" in cat_codes and metres == 20 and blason == 80:
+                return "I"
+            if "U13" in cat_codes and metres == 30 and blason == 80:
+                return "I"
+            if "U15" in cat_codes and metres == 40 and blason == 80:
+                return "I"
+            if "U18" in cat_codes and metres == 60 and blason == 122:
+                return "I"
+            if cat_codes & {"U21", "S1", "S2"} and metres == 70 and blason == 122:
+                return "I"
+            if "S3" in cat_codes and metres == 60 and blason == 122:
+                return "I"
+        elif arme_code == "P":  # Arc à Poulies
+            if cat_codes & {"U18", "U21", "S1", "S2", "S3"} and metres == 50 and blason == 80:
+                return "I"
+
+    return "N"
 
 
 def get_tae_classements_map(session, token) -> dict[str, dict]:
@@ -413,7 +450,9 @@ def get_tae_classements_map(session, token) -> dict[str, dict]:
         distances = cl.get("distance") or []
         if not isinstance(distances, list):
             distances = [distances] if distances else []
-        tae_type = tae_type_from_distances(distances)
+        arme_code = cl.get("arme_code", "")
+        cat_codes = set((cl.get("categories_age") or {}).keys())
+        tae_type = tae_type_from_classement(arme_code, cat_codes, distances)
         result[cl_id] = {
             "libelle": cl.get("libelle", ""),
             "tae_type": tae_type,
@@ -429,7 +468,7 @@ def get_tae_classements_map(session, token) -> dict[str, dict]:
 
 
 def fetch_discipline(session: requests.Session, token: str, disc_code: str,
-                     tae_map: dict | None = None) -> list[dict]:
+                     tae_map=None) -> list[dict]:
     """Récupère les archers PDL (CR12) pour une discipline.
 
     Pour TAE (disc_code='T'), utilise tae_map (issu de GetClassements)
