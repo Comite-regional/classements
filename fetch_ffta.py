@@ -41,6 +41,25 @@ OUTPUT_DIR = Path(os.environ.get("FFTA_OUTPUT_DIR", "data"))
 # Ligue cible : CR12 = Pays de la Loire
 LIGUE_CODE = "CR12"
 
+# ─── Mapping Para : licence → CAT_CLASS / CAT_TIR ────────────────────────────
+# L'API FFTA ne retourne pas la classification fonctionnelle individuelle (W1, B2, ST…)
+# dans les données de classement. On utilise un fichier de mapping maintenu manuellement
+# depuis les CSV FFTA (para_class.json). Le fichier est versionné dans data/.
+_PARA_CLASS_FILE = OUTPUT_DIR / "para_class.json"
+
+def _load_para_class_map() -> dict:
+    """Charge le mapping licence → {CAT_CLASS, CAT_TIR} depuis data/para_class.json."""
+    if _PARA_CLASS_FILE.exists():
+        try:
+            with open(_PARA_CLASS_FILE, encoding="utf-8") as f:
+                data = json.load(f)
+                return data.get("map", data) if isinstance(data, dict) and "map" in data else data
+        except Exception:
+            pass
+    return {}
+
+PARA_CLASS_MAP: dict = {}  # chargé dans run() après création du dossier output
+
 # Nombre maximum d'archers conservés par classement si le filtre Ligue
 # ne fonctionne pas côté serveur (filet de sécurité anti-crash navigateur).
 MAX_ARCHERS_PER_CLASSEMENT = int(os.environ.get("FFTA_MAX_ARCHERS", "200"))
@@ -347,42 +366,24 @@ def normalize_archer(archer: dict, disc_code: str, rank: int) -> dict:
     tae_type = str(archer.get("_tae_type") or "")
 
     # ── Champs Para (disciplines H et I) ─────────────────────────────────────
-    # CAT_TIR  : groupe du classement (W1, HV 2-3, OPEN, FEDERAL…)
-    #            dérivé du libellé du classement via _cl_libelle
-    # CAT_CLASS: classification fonctionnelle individuelle (W1, B2, ST, W2, NEI, SOURD…)
-    #            fournie par l'API sous différents noms selon la version
+    # L'API FFTA ne retourne pas la classification fonctionnelle individuelle.
+    # On la récupère depuis PARA_CLASS_MAP (data/para_class.json).
+    # CAT_TIR  : groupe du classement (W1, HV 2-3, OPEN, FEDERAL…) — dérivé du libellé
+    # CAT_CLASS: classification individuelle (W1, B2, ST, W2, NEI, SOURD…) — depuis le mapping
     cat_tir = ""
     cat_class = ""
     if disc_code in ("H", "I"):
         cl_libelle = str(archer.get("_cl_libelle") or "")
-        # Extrait le préfixe avant "Scratch" ou "Jeunes"
-        import re as _re2
-        m = _re2.match(r'^(.*?)\s+(?:Scratch|Jeunes)\b', cl_libelle, _re2.IGNORECASE)
-        cat_tir = m.group(1).strip() if m else cl_libelle.split()[0] if cl_libelle else ""
-
-        # Essaie plusieurs noms de champ possibles pour la classification Para individuelle
-        cat_class = str(
-            archer.get("CategorieParaCode") or
-            archer.get("ClasseParaCode") or
-            archer.get("CategorieHandicapCode") or
-            archer.get("ClassificationCode") or
-            archer.get("ParticipantClassificationCode") or
-            archer.get("CategorieParaCodeGroupe") or
-            archer.get("ClasseHandicap") or
-            archer.get("ClasseHandicapCode") or
-            ""
-        )
-        # Log de debug : affiche tous les champs disponibles pour le premier archer Para
-        if rank == 1:
-            para_keys = {k: v for k, v in archer.items()
-                         if not k.startswith("_") and k not in (
-                             "PersonneNom","PersonnePrenom","LicenceCodeAdherent",
-                             "PlaceScore1","PlaceScore2","PlaceScore3","PlaceTotal","PlaceOrdre",
-                             "StructureNom","StructureNomCourt","StructureCode","StructureCodeRegion",
-                             "StructureCodeDepartement","ParticipantCatAge","CategorieAgeCodeGroupe",
-                             "CategorieAgeSexe","ParticipantId",
-                         )}
-            log.info("  [Para debug] Champs archer #1 (%s): %s", disc_code, para_keys)
+        # Extrait le préfixe avant "Scratch" ou "Jeunes" pour CAT_TIR
+        m = _re.match(r'^(.*?)\s+(?:Scratch|Jeunes)\b', cl_libelle, _re.IGNORECASE)
+        cat_tir = m.group(1).strip() if m else (cl_libelle.split()[0] if cl_libelle else "")
+        # CAT_CLASS depuis le mapping licence
+        lic_key = str(archer.get("LicenceCodeAdherent") or archer.get("ParticipantId") or "")
+        para_info = PARA_CLASS_MAP.get(lic_key, {})
+        cat_class = para_info.get("CAT_CLASS", "")
+        # Si le mapping a un CAT_TIR plus précis, on le préfère
+        if para_info.get("CAT_TIR"):
+            cat_tir = para_info["CAT_TIR"]
 
     return {
         "Rang_ligue": rang,
@@ -570,6 +571,11 @@ def run():
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     meta = {"generated_at": datetime.utcnow().isoformat() + "Z", "saison": SAISON, "ligue": LIGUE_CODE}
+
+    # Charge le mapping Para (classification individuelle)
+    global PARA_CLASS_MAP
+    PARA_CLASS_MAP = _load_para_class_map()
+    log.info("Mapping Para chargé : %d archers", len(PARA_CLASS_MAP))
 
     session = requests.Session()
     session.headers["Accept"] = "application/json"
