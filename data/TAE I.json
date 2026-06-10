@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-10T10:05:59.826640Z",
+    "generated_at": "2026-06-10T17:22:44.822194Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -29,7 +29,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "24",
+      "RANG_NAT": "26",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -56,7 +56,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "34",
+      "RANG_NAT": "35",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -83,7 +83,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "41",
+      "RANG_NAT": "42",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -110,7 +110,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "43",
+      "RANG_NAT": "44",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -137,7 +137,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "59",
+      "RANG_NAT": "60",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -164,7 +164,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "75",
+      "RANG_NAT": "76",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -191,7 +191,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "83",
+      "RANG_NAT": "84",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -218,7 +218,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "91",
+      "RANG_NAT": "92",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -245,7 +245,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "95",
+      "RANG_NAT": "96",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -272,7 +272,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "108",
+      "RANG_NAT": "109",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -326,7 +326,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "140",
+      "RANG_NAT": "141",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -353,7 +353,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "148",
+      "RANG_NAT": "149",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -407,7 +407,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "61",
+      "RANG_NAT": "62",
       "_classement_nom": "U11 Homme Arc Classique 2026"
     },
     {
@@ -569,7 +569,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "76",
+      "RANG_NAT": "77",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -839,7 +839,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "129",
+      "RANG_NAT": "130",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -866,7 +866,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "153",
+      "RANG_NAT": "154",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -893,7 +893,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "155",
+      "RANG_NAT": "156",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -920,7 +920,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "166",
+      "RANG_NAT": "167",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -947,7 +947,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "168",
+      "RANG_NAT": "169",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -974,7 +974,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "169",
+      "RANG_NAT": "170",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1001,7 +1001,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "172",
+      "RANG_NAT": "173",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1028,7 +1028,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "178",
+      "RANG_NAT": "179",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1055,7 +1055,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "180",
+      "RANG_NAT": "181",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1082,7 +1082,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "187",
+      "RANG_NAT": "188",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1136,7 +1136,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "235",
+      "RANG_NAT": "236",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1163,7 +1163,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "262",
+      "RANG_NAT": "263",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1352,7 +1352,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "87",
+      "RANG_NAT": "88",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -1379,7 +1379,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "88",
+      "RANG_NAT": "89",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -1406,7 +1406,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "96",
+      "RANG_NAT": "98",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -1433,7 +1433,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "123",
+      "RANG_NAT": "125",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -1460,7 +1460,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "134",
+      "RANG_NAT": "136",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -1514,7 +1514,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "184",
+      "RANG_NAT": "185",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -1541,7 +1541,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "210",
+      "RANG_NAT": "211",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -1568,7 +1568,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "216",
+      "RANG_NAT": "217",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -1892,7 +1892,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "55",
+      "RANG_NAT": "56",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -1919,7 +1919,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "57",
+      "RANG_NAT": "58",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -1946,7 +1946,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "63",
+      "RANG_NAT": "64",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2135,7 +2135,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "135",
+      "RANG_NAT": "138",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2162,7 +2162,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "137",
+      "RANG_NAT": "140",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2189,7 +2189,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "147",
+      "RANG_NAT": "149",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2216,7 +2216,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "151",
+      "RANG_NAT": "153",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2243,7 +2243,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "152",
+      "RANG_NAT": "154",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2270,7 +2270,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "162",
+      "RANG_NAT": "165",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2297,7 +2297,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "178",
+      "RANG_NAT": "180",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2324,7 +2324,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "179",
+      "RANG_NAT": "181",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2351,7 +2351,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "188",
+      "RANG_NAT": "190",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2378,7 +2378,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "205",
+      "RANG_NAT": "207",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2405,7 +2405,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "209",
+      "RANG_NAT": "212",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2432,7 +2432,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "216",
+      "RANG_NAT": "220",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2459,7 +2459,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "240",
+      "RANG_NAT": "244",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2486,7 +2486,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "252",
+      "RANG_NAT": "257",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2513,7 +2513,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "255",
+      "RANG_NAT": "259",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2540,7 +2540,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "260",
+      "RANG_NAT": "264",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2567,7 +2567,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "282",
+      "RANG_NAT": "287",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2594,7 +2594,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "291",
+      "RANG_NAT": "296",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2621,7 +2621,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "298",
+      "RANG_NAT": "303",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2648,7 +2648,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "300",
+      "RANG_NAT": "305",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2675,7 +2675,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "321",
+      "RANG_NAT": "325",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2702,7 +2702,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "326",
+      "RANG_NAT": "330",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2729,7 +2729,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "328",
+      "RANG_NAT": "332",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2756,7 +2756,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "345",
+      "RANG_NAT": "348",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2783,7 +2783,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "439",
+      "RANG_NAT": "442",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2810,7 +2810,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "455",
+      "RANG_NAT": "458",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2837,7 +2837,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "457",
+      "RANG_NAT": "461",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2864,7 +2864,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "479",
+      "RANG_NAT": "482",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2891,7 +2891,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "483",
+      "RANG_NAT": "486",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2918,7 +2918,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "491",
+      "RANG_NAT": "494",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2945,7 +2945,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "492",
+      "RANG_NAT": "495",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2972,7 +2972,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "499",
+      "RANG_NAT": "502",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -2999,7 +2999,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "504",
+      "RANG_NAT": "508",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3026,7 +3026,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "528",
+      "RANG_NAT": "531",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3053,7 +3053,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "529",
+      "RANG_NAT": "532",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3080,7 +3080,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "532",
+      "RANG_NAT": "535",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3107,7 +3107,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "538",
+      "RANG_NAT": "541",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3134,7 +3134,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "542",
+      "RANG_NAT": "545",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3161,7 +3161,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "544",
+      "RANG_NAT": "547",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3188,7 +3188,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "569",
+      "RANG_NAT": "572",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3215,7 +3215,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "571",
+      "RANG_NAT": "574",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3242,7 +3242,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "572",
+      "RANG_NAT": "575",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3269,7 +3269,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "578",
+      "RANG_NAT": "581",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3296,7 +3296,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "590",
+      "RANG_NAT": "593",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3323,7 +3323,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "594",
+      "RANG_NAT": "597",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3350,7 +3350,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "605",
+      "RANG_NAT": "608",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3377,7 +3377,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "606",
+      "RANG_NAT": "609",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3404,7 +3404,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "609",
+      "RANG_NAT": "614",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3431,7 +3431,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "612",
+      "RANG_NAT": "617",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3458,7 +3458,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "626",
+      "RANG_NAT": "631",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3485,7 +3485,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "642",
+      "RANG_NAT": "647",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3512,7 +3512,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "651",
+      "RANG_NAT": "656",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3539,7 +3539,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "673",
+      "RANG_NAT": "678",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3566,7 +3566,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "701",
+      "RANG_NAT": "706",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3593,7 +3593,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "718",
+      "RANG_NAT": "723",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3620,7 +3620,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "720",
+      "RANG_NAT": "725",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3647,7 +3647,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "737",
+      "RANG_NAT": "744",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3674,7 +3674,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "764",
+      "RANG_NAT": "770",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3701,7 +3701,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "780",
+      "RANG_NAT": "785",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3728,7 +3728,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "781",
+      "RANG_NAT": "786",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3755,7 +3755,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "827",
+      "RANG_NAT": "833",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3782,7 +3782,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "848",
+      "RANG_NAT": "853",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3809,7 +3809,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "853",
+      "RANG_NAT": "858",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3836,7 +3836,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "880",
+      "RANG_NAT": "886",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3863,7 +3863,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "897",
+      "RANG_NAT": "904",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3890,7 +3890,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "909",
+      "RANG_NAT": "916",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3917,7 +3917,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "914",
+      "RANG_NAT": "921",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3944,7 +3944,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "917",
+      "RANG_NAT": "924",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3971,7 +3971,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "919",
+      "RANG_NAT": "926",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -3998,7 +3998,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "936",
+      "RANG_NAT": "943",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4025,7 +4025,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "942",
+      "RANG_NAT": "949",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4052,7 +4052,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "949",
+      "RANG_NAT": "956",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4079,7 +4079,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "961",
+      "RANG_NAT": "968",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4106,7 +4106,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "963",
+      "RANG_NAT": "970",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4133,7 +4133,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "964",
+      "RANG_NAT": "971",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4160,7 +4160,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "965",
+      "RANG_NAT": "972",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4187,7 +4187,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "969",
+      "RANG_NAT": "976",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4214,7 +4214,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "988",
+      "RANG_NAT": "995",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4241,7 +4241,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1013",
+      "RANG_NAT": "1020",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4268,7 +4268,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1017",
+      "RANG_NAT": "1024",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4295,7 +4295,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1030",
+      "RANG_NAT": "1037",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4322,7 +4322,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1094",
+      "RANG_NAT": "1102",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4349,7 +4349,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1122",
+      "RANG_NAT": "1130",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4376,7 +4376,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1139",
+      "RANG_NAT": "1147",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4403,7 +4403,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1144",
+      "RANG_NAT": "1152",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4430,7 +4430,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1148",
+      "RANG_NAT": "1156",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4457,7 +4457,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1190",
+      "RANG_NAT": "1197",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4484,7 +4484,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1194",
+      "RANG_NAT": "1201",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4511,7 +4511,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1203",
+      "RANG_NAT": "1210",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4538,7 +4538,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1218",
+      "RANG_NAT": "1225",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4565,7 +4565,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1224",
+      "RANG_NAT": "1231",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4592,7 +4592,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1228",
+      "RANG_NAT": "1236",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4619,7 +4619,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1234",
+      "RANG_NAT": "1242",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4646,7 +4646,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1235",
+      "RANG_NAT": "1243",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4673,7 +4673,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1247",
+      "RANG_NAT": "1256",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4700,7 +4700,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1265",
+      "RANG_NAT": "1274",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4727,7 +4727,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1270",
+      "RANG_NAT": "1278",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4754,7 +4754,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1310",
+      "RANG_NAT": "1317",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4781,7 +4781,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1312",
+      "RANG_NAT": "1319",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4808,7 +4808,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1334",
+      "RANG_NAT": "1342",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4835,7 +4835,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1336",
+      "RANG_NAT": "1345",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4862,7 +4862,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1390",
+      "RANG_NAT": "1397",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4889,7 +4889,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1401",
+      "RANG_NAT": "1408",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4916,7 +4916,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1404",
+      "RANG_NAT": "1411",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4943,7 +4943,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1443",
+      "RANG_NAT": "1450",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4970,7 +4970,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1448",
+      "RANG_NAT": "1455",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -4997,7 +4997,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1451",
+      "RANG_NAT": "1458",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5024,7 +5024,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1504",
+      "RANG_NAT": "1510",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5051,7 +5051,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1539",
+      "RANG_NAT": "1544",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5078,7 +5078,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1541",
+      "RANG_NAT": "1546",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5105,7 +5105,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1549",
+      "RANG_NAT": "1555",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5132,7 +5132,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1567",
+      "RANG_NAT": "1572",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5159,7 +5159,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1570",
+      "RANG_NAT": "1575",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5186,7 +5186,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1583",
+      "RANG_NAT": "1588",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5213,7 +5213,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1628",
+      "RANG_NAT": "1630",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5240,7 +5240,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1630",
+      "RANG_NAT": "1635",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5267,7 +5267,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1634",
+      "RANG_NAT": "1639",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5294,7 +5294,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1639",
+      "RANG_NAT": "1645",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5321,7 +5321,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1667",
+      "RANG_NAT": "1672",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5348,39 +5348,12 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1673",
+      "RANG_NAT": "1676",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
       "Rang_ligue": 130,
       "RANG": 130,
-      "NO_LICENCE": "0761935R",
-      "NOM_PERSONNE": "FOIN",
-      "PRENOM_PERSONNE": "Pierre",
-      "SEXE": "H",
-      "ARME": "C",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "S G T A - TIR A L'ARC",
-      "NOM_ABREGE": "ANGERS",
-      "CODE_STRUCTURE": "1249056",
-      "DEPARTEMENT": "49",
-      "SCORE1": "534",
-      "SCORE2": "0",
-      "SCORE3": "0",
-      "MOY_SCORE": "178",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "I",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "1683",
-      "_classement_nom": "Scratch Homme Classique 2026"
-    },
-    {
-      "Rang_ligue": 131,
-      "RANG": 131,
       "NO_LICENCE": "0040573B",
       "NOM_PERSONNE": "BORDEAU",
       "PRENOM_PERSONNE": "Gabriel",
@@ -5402,7 +5375,34 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1685",
+      "RANG_NAT": "1689",
+      "_classement_nom": "Scratch Homme Classique 2026"
+    },
+    {
+      "Rang_ligue": 131,
+      "RANG": 131,
+      "NO_LICENCE": "0761935R",
+      "NOM_PERSONNE": "FOIN",
+      "PRENOM_PERSONNE": "Pierre",
+      "SEXE": "H",
+      "ARME": "C",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "S G T A - TIR A L'ARC",
+      "NOM_ABREGE": "ANGERS",
+      "CODE_STRUCTURE": "1249056",
+      "DEPARTEMENT": "49",
+      "SCORE1": "534",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "178",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "1691",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5429,7 +5429,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1722",
+      "RANG_NAT": "1725",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5456,7 +5456,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1739",
+      "RANG_NAT": "1740",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5483,7 +5483,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1749",
+      "RANG_NAT": "1750",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5510,7 +5510,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1767",
+      "RANG_NAT": "1769",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5537,7 +5537,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1773",
+      "RANG_NAT": "1774",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5564,7 +5564,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1775",
+      "RANG_NAT": "1777",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5591,7 +5591,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1791",
+      "RANG_NAT": "1796",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5645,7 +5645,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1841",
+      "RANG_NAT": "1842",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5672,7 +5672,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1878",
+      "RANG_NAT": "1879",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5699,7 +5699,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1881",
+      "RANG_NAT": "1883",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5753,7 +5753,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1897",
+      "RANG_NAT": "1899",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5780,7 +5780,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1903",
+      "RANG_NAT": "1904",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5807,7 +5807,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1908",
+      "RANG_NAT": "1909",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5888,7 +5888,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1921",
+      "RANG_NAT": "1922",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5915,7 +5915,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1934",
+      "RANG_NAT": "1936",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
     {
@@ -5996,7 +5996,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "72",
+      "RANG_NAT": "73",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
     {
@@ -6023,7 +6023,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "106",
+      "RANG_NAT": "108",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
     {
@@ -6212,7 +6212,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "27",
+      "RANG_NAT": "28",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -6914,7 +6914,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "336",
+      "RANG_NAT": "338",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -6941,7 +6941,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "339",
+      "RANG_NAT": "341",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -6968,7 +6968,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "347",
+      "RANG_NAT": "349",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -6995,7 +6995,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "356",
+      "RANG_NAT": "358",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -7022,7 +7022,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "379",
+      "RANG_NAT": "380",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -7049,7 +7049,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "412",
+      "RANG_NAT": "413",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -7076,7 +7076,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "446",
+      "RANG_NAT": "448",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -7103,7 +7103,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "462",
+      "RANG_NAT": "464",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -7130,7 +7130,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "487",
+      "RANG_NAT": "489",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -7157,7 +7157,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "535",
+      "RANG_NAT": "537",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -7184,7 +7184,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "539",
+      "RANG_NAT": "541",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -7211,7 +7211,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "543",
+      "RANG_NAT": "545",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -7238,7 +7238,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "544",
+      "RANG_NAT": "546",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -7265,7 +7265,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "558",
+      "RANG_NAT": "559",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -7292,7 +7292,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "566",
+      "RANG_NAT": "567",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -7319,7 +7319,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "579",
+      "RANG_NAT": "580",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -7346,7 +7346,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "597",
+      "RANG_NAT": "598",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -7454,7 +7454,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "671",
+      "RANG_NAT": "670",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -7589,7 +7589,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "731",
+      "RANG_NAT": "733",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
     {
@@ -7778,7 +7778,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "48",
+      "RANG_NAT": "49",
       "_classement_nom": "U11 Femme Arc Classique 2026"
     },
     {
@@ -7805,7 +7805,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "62",
+      "RANG_NAT": "61",
       "_classement_nom": "U11 Femme Arc Classique 2026"
     },
     {
@@ -7832,7 +7832,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "64",
+      "RANG_NAT": "63",
       "_classement_nom": "U11 Femme Arc Classique 2026"
     },
     {
@@ -7859,7 +7859,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "68",
+      "RANG_NAT": "67",
       "_classement_nom": "U11 Femme Arc Classique 2026"
     },
     {
@@ -7886,7 +7886,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "70",
+      "RANG_NAT": "69",
       "_classement_nom": "U11 Femme Arc Classique 2026"
     },
     {
@@ -8048,7 +8048,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "58",
+      "RANG_NAT": "59",
       "_classement_nom": "U21 Femme Arc Classique 2026"
     },
     {
@@ -8291,7 +8291,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "137",
+      "RANG_NAT": "138",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -8426,7 +8426,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "163",
+      "RANG_NAT": "164",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -8453,7 +8453,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "171",
+      "RANG_NAT": "172",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -8480,7 +8480,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "188",
+      "RANG_NAT": "189",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -8507,7 +8507,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "224",
+      "RANG_NAT": "225",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -8534,7 +8534,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "238",
+      "RANG_NAT": "239",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -8642,7 +8642,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "81",
+      "RANG_NAT": "82",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -8804,7 +8804,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "32",
+      "RANG_NAT": "33",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -8831,7 +8831,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "34",
+      "RANG_NAT": "35",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9074,7 +9074,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "143",
+      "RANG_NAT": "145",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9101,7 +9101,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "153",
+      "RANG_NAT": "155",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9128,7 +9128,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "155",
+      "RANG_NAT": "157",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9155,7 +9155,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "169",
+      "RANG_NAT": "170",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9209,7 +9209,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "254",
+      "RANG_NAT": "255",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9236,7 +9236,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "259",
+      "RANG_NAT": "260",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9263,7 +9263,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "268",
+      "RANG_NAT": "269",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9290,7 +9290,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "270",
+      "RANG_NAT": "271",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9317,7 +9317,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "278",
+      "RANG_NAT": "279",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9344,7 +9344,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "297",
+      "RANG_NAT": "298",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9371,7 +9371,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "331",
+      "RANG_NAT": "333",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9398,7 +9398,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "332",
+      "RANG_NAT": "334",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9425,7 +9425,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "373",
+      "RANG_NAT": "374",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9452,7 +9452,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "375",
+      "RANG_NAT": "376",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9479,7 +9479,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "376",
+      "RANG_NAT": "377",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9506,7 +9506,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "381",
+      "RANG_NAT": "382",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9533,7 +9533,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "384",
+      "RANG_NAT": "385",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9560,7 +9560,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "385",
+      "RANG_NAT": "386",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9587,7 +9587,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "386",
+      "RANG_NAT": "387",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9614,7 +9614,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "391",
+      "RANG_NAT": "392",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9641,7 +9641,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "398",
+      "RANG_NAT": "399",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9668,7 +9668,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "436",
+      "RANG_NAT": "438",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9695,7 +9695,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "477",
+      "RANG_NAT": "479",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9722,7 +9722,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "497",
+      "RANG_NAT": "499",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9749,7 +9749,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "501",
+      "RANG_NAT": "503",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9776,7 +9776,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "507",
+      "RANG_NAT": "509",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9803,7 +9803,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "550",
+      "RANG_NAT": "551",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9830,7 +9830,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "565",
+      "RANG_NAT": "566",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9884,7 +9884,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "610",
+      "RANG_NAT": "611",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -10046,7 +10046,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "669",
+      "RANG_NAT": "668",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -10073,7 +10073,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "701",
+      "RANG_NAT": "700",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -10127,7 +10127,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "19",
+      "RANG_NAT": "20",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
     {
@@ -10883,7 +10883,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "25",
+      "RANG_NAT": "27",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -10910,7 +10910,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "31",
+      "RANG_NAT": "32",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -10937,7 +10937,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "40",
+      "RANG_NAT": "41",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -10964,7 +10964,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "42",
+      "RANG_NAT": "43",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -10991,7 +10991,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "50",
+      "RANG_NAT": "51",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11018,7 +11018,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "52",
+      "RANG_NAT": "53",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11045,7 +11045,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "58",
+      "RANG_NAT": "60",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11072,7 +11072,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "76",
+      "RANG_NAT": "78",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11099,7 +11099,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "80",
+      "RANG_NAT": "82",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11126,7 +11126,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "96",
+      "RANG_NAT": "98",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11153,7 +11153,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "107",
+      "RANG_NAT": "108",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11180,7 +11180,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "150",
+      "RANG_NAT": "152",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11207,7 +11207,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "160",
+      "RANG_NAT": "162",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11234,7 +11234,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "162",
+      "RANG_NAT": "164",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11261,7 +11261,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "166",
+      "RANG_NAT": "168",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11288,7 +11288,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "167",
+      "RANG_NAT": "169",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11315,7 +11315,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "168",
+      "RANG_NAT": "170",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11342,7 +11342,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "170",
+      "RANG_NAT": "172",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11369,7 +11369,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "183",
+      "RANG_NAT": "184",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11396,7 +11396,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "186",
+      "RANG_NAT": "187",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11423,7 +11423,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "188",
+      "RANG_NAT": "189",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11450,7 +11450,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "207",
+      "RANG_NAT": "208",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11477,7 +11477,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "215",
+      "RANG_NAT": "216",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11504,7 +11504,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "219",
+      "RANG_NAT": "220",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11531,7 +11531,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "227",
+      "RANG_NAT": "228",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11558,7 +11558,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "229",
+      "RANG_NAT": "232",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11585,7 +11585,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "231",
+      "RANG_NAT": "234",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11612,7 +11612,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "239",
+      "RANG_NAT": "242",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11639,7 +11639,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "248",
+      "RANG_NAT": "251",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11666,7 +11666,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "283",
+      "RANG_NAT": "286",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11693,7 +11693,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "292",
+      "RANG_NAT": "295",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11720,7 +11720,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "343",
+      "RANG_NAT": "346",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11747,7 +11747,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "358",
+      "RANG_NAT": "361",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11774,7 +11774,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "376",
+      "RANG_NAT": "380",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11801,7 +11801,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "386",
+      "RANG_NAT": "391",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11828,7 +11828,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "394",
+      "RANG_NAT": "399",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11855,7 +11855,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "414",
+      "RANG_NAT": "419",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11882,7 +11882,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "418",
+      "RANG_NAT": "423",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11909,7 +11909,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "427",
+      "RANG_NAT": "432",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11936,7 +11936,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "429",
+      "RANG_NAT": "434",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11963,7 +11963,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "459",
+      "RANG_NAT": "464",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -11990,7 +11990,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "468",
+      "RANG_NAT": "473",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12017,7 +12017,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "502",
+      "RANG_NAT": "508",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12044,7 +12044,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "509",
+      "RANG_NAT": "515",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12071,7 +12071,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "514",
+      "RANG_NAT": "520",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12098,7 +12098,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "529",
+      "RANG_NAT": "535",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12125,7 +12125,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "540",
+      "RANG_NAT": "545",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12152,7 +12152,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "543",
+      "RANG_NAT": "548",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12179,7 +12179,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "547",
+      "RANG_NAT": "553",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12206,7 +12206,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "564",
+      "RANG_NAT": "571",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12233,7 +12233,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "590",
+      "RANG_NAT": "596",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12260,7 +12260,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "603",
+      "RANG_NAT": "610",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12287,7 +12287,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "605",
+      "RANG_NAT": "612",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12314,7 +12314,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "638",
+      "RANG_NAT": "643",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12341,7 +12341,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "662",
+      "RANG_NAT": "667",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12368,7 +12368,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "695",
+      "RANG_NAT": "700",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12395,7 +12395,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "712",
+      "RANG_NAT": "716",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12422,7 +12422,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "719",
+      "RANG_NAT": "724",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12449,7 +12449,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "731",
+      "RANG_NAT": "735",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12476,7 +12476,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "734",
+      "RANG_NAT": "738",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12503,7 +12503,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "757",
+      "RANG_NAT": "761",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12530,7 +12530,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "760",
+      "RANG_NAT": "764",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12557,7 +12557,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "765",
+      "RANG_NAT": "769",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12584,7 +12584,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "778",
+      "RANG_NAT": "782",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12611,7 +12611,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "809",
+      "RANG_NAT": "810",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12638,7 +12638,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "819",
+      "RANG_NAT": "820",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12665,7 +12665,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "842",
+      "RANG_NAT": "843",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12692,7 +12692,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "852",
+      "RANG_NAT": "853",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12719,7 +12719,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "868",
+      "RANG_NAT": "869",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12746,7 +12746,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "875",
+      "RANG_NAT": "877",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12773,7 +12773,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "882",
+      "RANG_NAT": "883",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12800,7 +12800,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "890",
+      "RANG_NAT": "891",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12827,7 +12827,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "900",
+      "RANG_NAT": "901",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -12854,7 +12854,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "903",
+      "RANG_NAT": "904",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -13124,7 +13124,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "109",
+      "RANG_NAT": "110",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -13151,7 +13151,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "112",
+      "RANG_NAT": "113",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -13178,7 +13178,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "113",
+      "RANG_NAT": "114",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -13205,7 +13205,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "126",
+      "RANG_NAT": "127",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -13232,7 +13232,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "143",
+      "RANG_NAT": "144",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -13259,7 +13259,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "160",
+      "RANG_NAT": "162",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -13286,7 +13286,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "182",
+      "RANG_NAT": "184",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -13313,7 +13313,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "183",
+      "RANG_NAT": "185",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -13394,7 +13394,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "17",
+      "RANG_NAT": "18",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -13421,7 +13421,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "22",
+      "RANG_NAT": "23",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -13502,7 +13502,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "48",
+      "RANG_NAT": "49",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -13529,7 +13529,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "77",
+      "RANG_NAT": "78",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -13610,7 +13610,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "110",
+      "RANG_NAT": "111",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -13637,7 +13637,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "120",
+      "RANG_NAT": "121",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -13664,7 +13664,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "121",
+      "RANG_NAT": "122",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -13691,7 +13691,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "189",
+      "RANG_NAT": "191",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -13718,7 +13718,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "210",
+      "RANG_NAT": "211",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -13745,7 +13745,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "216",
+      "RANG_NAT": "217",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -13772,7 +13772,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "221",
+      "RANG_NAT": "223",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -13799,7 +13799,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "228",
+      "RANG_NAT": "230",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -13826,7 +13826,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "235",
+      "RANG_NAT": "237",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -13853,7 +13853,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "250",
+      "RANG_NAT": "252",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -13880,7 +13880,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "285",
+      "RANG_NAT": "286",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -13907,7 +13907,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "309",
+      "RANG_NAT": "310",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -13934,7 +13934,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "332",
+      "RANG_NAT": "333",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -14717,7 +14717,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "217",
+      "RANG_NAT": "218",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -14744,7 +14744,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "222",
+      "RANG_NAT": "223",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -14798,7 +14798,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "256",
+      "RANG_NAT": "257",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -14825,7 +14825,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "284",
+      "RANG_NAT": "286",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15014,7 +15014,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "449",
+      "RANG_NAT": "451",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15041,7 +15041,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "454",
+      "RANG_NAT": "456",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15068,7 +15068,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "586",
+      "RANG_NAT": "588",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15095,7 +15095,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "588",
+      "RANG_NAT": "590",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15122,7 +15122,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "614",
+      "RANG_NAT": "616",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15149,7 +15149,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "625",
+      "RANG_NAT": "627",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15176,7 +15176,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "635",
+      "RANG_NAT": "637",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15203,7 +15203,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "645",
+      "RANG_NAT": "647",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15230,7 +15230,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "648",
+      "RANG_NAT": "650",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15257,7 +15257,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "669",
+      "RANG_NAT": "671",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15284,7 +15284,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "699",
+      "RANG_NAT": "702",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15311,7 +15311,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "701",
+      "RANG_NAT": "704",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15338,7 +15338,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "705",
+      "RANG_NAT": "708",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15365,7 +15365,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "722",
+      "RANG_NAT": "725",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15392,7 +15392,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "724",
+      "RANG_NAT": "727",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15419,7 +15419,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "727",
+      "RANG_NAT": "730",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15446,7 +15446,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "757",
+      "RANG_NAT": "759",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15473,7 +15473,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "768",
+      "RANG_NAT": "770",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15500,7 +15500,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "774",
+      "RANG_NAT": "776",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15527,7 +15527,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "805",
+      "RANG_NAT": "808",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15554,7 +15554,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "844",
+      "RANG_NAT": "847",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15581,7 +15581,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "845",
+      "RANG_NAT": "848",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15608,7 +15608,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "849",
+      "RANG_NAT": "852",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15635,7 +15635,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "855",
+      "RANG_NAT": "858",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15662,7 +15662,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "864",
+      "RANG_NAT": "867",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15689,7 +15689,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "883",
+      "RANG_NAT": "886",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15716,7 +15716,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "915",
+      "RANG_NAT": "919",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15743,7 +15743,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "942",
+      "RANG_NAT": "946",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15770,7 +15770,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "951",
+      "RANG_NAT": "956",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15797,7 +15797,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "953",
+      "RANG_NAT": "958",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15824,7 +15824,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "957",
+      "RANG_NAT": "962",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15851,7 +15851,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "974",
+      "RANG_NAT": "979",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15878,7 +15878,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1034",
+      "RANG_NAT": "1041",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15905,7 +15905,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1055",
+      "RANG_NAT": "1057",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15932,7 +15932,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1057",
+      "RANG_NAT": "1064",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15959,7 +15959,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1136",
+      "RANG_NAT": "1137",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -15986,7 +15986,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1150",
+      "RANG_NAT": "1152",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -16013,7 +16013,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1165",
+      "RANG_NAT": "1167",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -16040,7 +16040,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1171",
+      "RANG_NAT": "1172",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -16067,7 +16067,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1182",
+      "RANG_NAT": "1185",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -16094,7 +16094,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1228",
+      "RANG_NAT": "1229",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -16121,7 +16121,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1230",
+      "RANG_NAT": "1231",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -16148,7 +16148,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1239",
+      "RANG_NAT": "1241",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -16175,7 +16175,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1257",
+      "RANG_NAT": "1258",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -16202,7 +16202,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1267",
+      "RANG_NAT": "1268",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
@@ -16283,7 +16283,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "46",
+      "RANG_NAT": "47",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -16310,7 +16310,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "52",
+      "RANG_NAT": "53",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -16337,7 +16337,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "66",
+      "RANG_NAT": "67",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -16364,7 +16364,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "78",
+      "RANG_NAT": "80",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -16391,7 +16391,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "81",
+      "RANG_NAT": "83",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -16418,7 +16418,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "97",
+      "RANG_NAT": "99",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -16445,7 +16445,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "104",
+      "RANG_NAT": "106",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -16472,7 +16472,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "113",
+      "RANG_NAT": "115",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -16499,7 +16499,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "133",
+      "RANG_NAT": "135",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -16526,7 +16526,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "138",
+      "RANG_NAT": "140",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -16553,7 +16553,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "156",
+      "RANG_NAT": "157",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -16580,7 +16580,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "160",
+      "RANG_NAT": "161",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -16607,7 +16607,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "164",
+      "RANG_NAT": "165",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -16634,7 +16634,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "169",
+      "RANG_NAT": "170",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -16661,7 +16661,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "180",
+      "RANG_NAT": "181",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -16688,7 +16688,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "188",
+      "RANG_NAT": "189",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -16877,7 +16877,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "368",
+      "RANG_NAT": "369",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
     {
@@ -17255,7 +17255,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "258",
+      "RANG_NAT": "259",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -17282,7 +17282,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "272",
+      "RANG_NAT": "273",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -17309,7 +17309,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "280",
+      "RANG_NAT": "281",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -17336,7 +17336,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "301",
+      "RANG_NAT": "303",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -17363,7 +17363,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "306",
+      "RANG_NAT": "307",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -17390,7 +17390,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "330",
+      "RANG_NAT": "331",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -17417,7 +17417,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "352",
+      "RANG_NAT": "353",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -17471,7 +17471,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "30",
+      "RANG_NAT": "31",
       "_classement_nom": "Senior 1 Femme Arc à Poulies 2026"
     },
     {
@@ -17498,7 +17498,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "32",
+      "RANG_NAT": "33",
       "_classement_nom": "Senior 1 Femme Arc à Poulies 2026"
     },
     {
@@ -17525,7 +17525,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "34",
+      "RANG_NAT": "35",
       "_classement_nom": "Senior 1 Femme Arc à Poulies 2026"
     },
     {
@@ -17552,7 +17552,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "47",
+      "RANG_NAT": "48",
       "_classement_nom": "Senior 1 Femme Arc à Poulies 2026"
     },
     {
@@ -17579,7 +17579,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "48",
+      "RANG_NAT": "49",
       "_classement_nom": "Senior 1 Femme Arc à Poulies 2026"
     },
     {
@@ -18389,7 +18389,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "407",
+      "RANG_NAT": "408",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -18416,7 +18416,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "410",
+      "RANG_NAT": "411",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -18443,7 +18443,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "418",
+      "RANG_NAT": "419",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -18470,7 +18470,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "457",
+      "RANG_NAT": "459",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -18524,7 +18524,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "506",
+      "RANG_NAT": "507",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -18551,7 +18551,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "519",
+      "RANG_NAT": "520",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -19145,7 +19145,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "65",
+      "RANG_NAT": "66",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -19172,7 +19172,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "119",
+      "RANG_NAT": "120",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -19199,7 +19199,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "126",
+      "RANG_NAT": "127",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -19226,7 +19226,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "132",
+      "RANG_NAT": "133",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -19280,7 +19280,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "151",
+      "RANG_NAT": "152",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -19442,7 +19442,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "7",
+      "RANG_NAT": "8",
       "_classement_nom": "Senior 3 Femme Arc à Poulies 2026"
     }
   ]

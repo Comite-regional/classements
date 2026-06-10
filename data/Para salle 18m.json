@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-10T10:05:59.826640Z",
+    "generated_at": "2026-06-10T17:22:44.822194Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -54,8 +54,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "",
-      "CAT_TIR": "HV2-3",
-      "CAT_CLASS": "",
+      "CAT_TIR": "HV 2-3",
+      "CAT_CLASS": "B2",
       "RANG_NAT": "4",
       "_classement_nom": "HV2-3 Scratch Mixte 2026"
     },
@@ -109,7 +109,7 @@
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "W1",
-      "CAT_CLASS": "",
+      "CAT_CLASS": "W1",
       "RANG_NAT": "1",
       "_classement_nom": "W1 Scratch Mixte 2026"
     },
@@ -136,7 +136,7 @@
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
-      "CAT_CLASS": "",
+      "CAT_CLASS": "ST",
       "RANG_NAT": "7",
       "_classement_nom": "OPEN Scratch Hommes Arc Classique 2026"
     },
@@ -217,7 +217,7 @@
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
-      "CAT_CLASS": "",
+      "CAT_CLASS": "ST",
       "RANG_NAT": "28",
       "_classement_nom": "OPEN Scratch Hommes Arc Classique 2026"
     },
@@ -271,7 +271,7 @@
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
-      "CAT_CLASS": "",
+      "CAT_CLASS": "W2",
       "RANG_NAT": "2",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2026"
     },
@@ -298,7 +298,7 @@
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
-      "CAT_CLASS": "",
+      "CAT_CLASS": "ST",
       "RANG_NAT": "3",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2026"
     },
@@ -325,7 +325,7 @@
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
-      "CAT_CLASS": "",
+      "CAT_CLASS": "ST",
       "RANG_NAT": "7",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2026"
     },
@@ -352,7 +352,7 @@
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
-      "CAT_CLASS": "",
+      "CAT_CLASS": "ST",
       "RANG_NAT": "12",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2026"
     },
@@ -379,7 +379,7 @@
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
-      "CAT_CLASS": "",
+      "CAT_CLASS": "ST",
       "RANG_NAT": "19",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2026"
     },
@@ -433,7 +433,7 @@
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
-      "CAT_CLASS": "",
+      "CAT_CLASS": "ST",
       "RANG_NAT": "32",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2026"
     },
@@ -487,7 +487,7 @@
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "FEDERAL",
-      "CAT_CLASS": "",
+      "CAT_CLASS": "SOURD",
       "RANG_NAT": "14",
       "_classement_nom": "FEDERAL Scratch Hommes Arc Classique 2026"
     },
@@ -514,7 +514,7 @@
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "FEDERAL",
-      "CAT_CLASS": "",
+      "CAT_CLASS": "NEI",
       "RANG_NAT": "15",
       "_classement_nom": "FEDERAL Scratch Hommes Arc Classique 2026"
     },
@@ -730,7 +730,7 @@
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "FEDERAL",
-      "CAT_CLASS": "",
+      "CAT_CLASS": "SOURD",
       "RANG_NAT": "2",
       "_classement_nom": "FEDERAL Jeunes Mixtes 2026"
     }
