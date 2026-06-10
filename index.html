@@ -4934,10 +4934,11 @@ document.addEventListener('DOMContentLoaded', () => {
       return r.ok ? (await r.json()) : null;
     }catch(_){ return null; } };
 
-    const [inscRaw, taeRaw, quotaRaw, json18m] = await Promise.all([
+    const [inscRaw, quotaRaw, jsonTaeI, jsonTaeN, json18m] = await Promise.all([
       loadSafe('Inscriptions CR.csv'),
-      loadSafe('TAE.csv'),
       loadSafe('Quotas.csv'),
+      loadSafeJSON('data/TAE I.json'),
+      loadSafeJSON('data/TAE N.json'),
       loadSafeJSON('data/Tir 18m.json'),
     ]);
 
@@ -4957,19 +4958,23 @@ document.addEventListener('DOMContentLoaded', () => {
           || null;
     }
 
-    // ── Scores TAE (TAE.csv) : "LIC|TYPE" → scores[] ─────
+    // ── Scores TAE depuis TAE I.json et TAE N.json ────────
+    // Pour chaque licence : meilleurs scores uniques + meilleur rang ligue
     const taeScoreMap = {}, taeRankMap = {};
-    taeRaw.forEach(r=>{
-      const lic  = normLic(r.NO_LICENCE||r.LICENCE||'');
-      const type = normUp(r.TYPE||'');
-      if(!lic || !['I','N'].includes(type)) return;
-      const key = lic+'|'+type;
-      const sc = taeScoreMap[key] || [];
-      [r.SCORE1, r.SCORE2, r.SCORE3].forEach(s=>{ const v=parseFloat(s)||0; if(v>0) sc.push(v); });
-      taeScoreMap[key] = sc;
-      const rang = parseInt(r.RANG_LIGUE||r.RANG||0, 10);
-      if(rang>0 && (!taeRankMap[key] || rang<taeRankMap[key])) taeRankMap[key] = rang;
-    });
+    function ingestTaeRows(rows, type){
+      (rows||[]).forEach(r=>{
+        const lic = normLic(r.NO_LICENCE||'');
+        if(!lic) return;
+        const key = lic+'|'+type;
+        const sc = taeScoreMap[key] || [];
+        [r.SCORE1, r.SCORE2, r.SCORE3].forEach(s=>{ const v=parseFloat(s)||0; if(v>0 && !sc.includes(v)) sc.push(v); });
+        taeScoreMap[key] = sc;
+        const rang = parseInt(r.Rang_ligue||r.RANG_LIGUE||r.RANG||0, 10);
+        if(rang>0 && (!taeRankMap[key] || rang<taeRankMap[key])) taeRankMap[key] = rang;
+      });
+    }
+    ingestTaeRows((jsonTaeI&&jsonTaeI.rows)||[], 'I');
+    ingestTaeRows((jsonTaeN&&jsonTaeN.rows)||[], 'N');
 
     // ── Scores 18m (Tir 18m.json) : LIC → {scores[], ligueRank} ─
     const s18mMap = {};
