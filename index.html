@@ -606,6 +606,7 @@ td,th{vertical-align:top}
   tr.row-quota-orange td{ background: #ffd9a8 !important; }  /* orange : rang > quota */
   tr.row-quota-red td{ background: #f4b4b4 !important; }     /* rouge : inscrit mais quota atteint */
   tr.row-quota-enrolled td{ background: #ecfeff !important; }/* fallback : inscrit si quota introuvable */
+  tr.row-quota-purple td{ background: rgba(139,92,246,0.22) !important; }  /* violet : < 2 scores valides */
   tr.cr-nomin td{ background: #ede9fe !important; }          /* violet : inscrit sans 2 scores valides */
 </style>
 <style id="cr-salle-popup-uppercase-safe">
@@ -1184,6 +1185,18 @@ const DISC_LABELS = {
         // Tri par rang PDL (numérique)
         rows.sort((a,b) => (parseInt(a.RANG || a.Rang_ligue || a.Rang || '999999')||999999)
                          - (parseInt(b.RANG || b.Rang_ligue || b.Rang || '999999')||999999));
+        // Dédupliquer par licence pour CO U18/U21 (apparaissent dans plusieurs classements nationaux)
+        const _cat = (f.categorie || '').toUpperCase();
+        if(!f.classement && f.arme === 'CO' && (_cat === 'U18' || _cat === 'U21')){
+          const seen = new Map();
+          rows = rows.filter(r => {
+            const lic = r.NO_LICENCE || r.Licence || '';
+            if(!lic) return true;
+            if(seen.has(lic)) return false;
+            seen.set(lic, true);
+            return true;
+          });
+        }
       }
       return rows;
     }
@@ -1244,6 +1257,9 @@ const DISC_LABELS = {
         const disp = buildDisplayRowIndiv(r);
         if(depFilter) disp.RANG_DEP = depIdx.get(r) || '';
         const tr = document.createElement('tr');
+        tr.dataset.rang   = disp.RANG   || '';
+        tr.dataset.score1 = (r.SCORE1 != null ? r.SCORE1 : (r.TOP3_SCORES && r.TOP3_SCORES[0] != null ? r.TOP3_SCORES[0] : ''));
+        tr.dataset.score2 = (r.SCORE2 != null ? r.SCORE2 : (r.TOP3_SCORES && r.TOP3_SCORES[1] != null ? r.TOP3_SCORES[1] : ''));
         headers.forEach(h => {
           const td = document.createElement('td');
           if(h.key === 'NOM_PRENOM' && r.NO_LICENCE){
@@ -1266,19 +1282,53 @@ const DISC_LABELS = {
 
       const n = rows.length;
       document.getElementById('totalChip').textContent = n + ' ligne' + (n > 1 ? 's' : '');
+      // Coloration quota individuel (lecture différée pour laisser updateBanner() s'exécuter)
+      setTimeout(() => applyIndivQuotaColors(tbody), 80);
     }
+
+    function applyIndivQuotaColors(tbody){
+      const quota = parseInt(window._pdlCurrentQuota) || 0;
+      const legend = document.getElementById('quotaLegend');
+      const trs = Array.from(tbody.querySelectorAll('tr'));
+      trs.forEach(tr => tr.classList.remove('row-quota-green','row-quota-orange','row-quota-red','row-quota-purple'));
+      if(!quota){ if(legend) legend.classList.add('hidden'); return; }
+
+      // Pre-pass: vérifier si le quota est atteint (assez d'archers valides dans le quota)
+      let validInQuota = 0;
+      trs.forEach(tr => {
+        const rang = parseInt(tr.dataset.rang) || 0;
+        const s1 = parseFloat(tr.dataset.score1) || 0;
+        const s2 = parseFloat(tr.dataset.score2) || 0;
+        if(rang > 0 && rang <= quota && s1 > 0 && s2 > 0) validInQuota++;
+      });
+      const quotaMet = validInQuota >= quota;
+
+      trs.forEach(tr => {
+        const rang = parseInt(tr.dataset.rang) || 0;
+        if(!rang) return;
+        const s1 = parseFloat(tr.dataset.score1) || 0;
+        const s2 = parseFloat(tr.dataset.score2) || 0;
+        const has2s = s1 > 0 && s2 > 0;
+        if(!has2s)           tr.classList.add('row-quota-purple'); // scores insuffisants
+        else if(rang<=quota) tr.classList.add('row-quota-green');  // dans le quota
+        else if(quotaMet)    tr.classList.add('row-quota-red');    // quota atteint, hors rang
+        else                 tr.classList.add('row-quota-orange'); // hors rang, quota non encore plein
+      });
+      if(legend) legend.classList.remove('hidden');
+    }
+    window.applyIndivQuotaColors = applyIndivQuotaColors;
 
     // ========= ÉQUIPE — depuis JSON, même logique que Individuel =========
 
-    // Disciplines équipe → fichiers JSON (pas d'equipes.csv)
+    // Disciplines équipe → code discipline dans equipes.csv (FFTA)
     const TEAM_DISC_CONFIG = {
-      'TAE I':    { file:'data/TAE I.json',    label:'TAE International' },
-      'TAE N':    { file:'data/TAE N.json',    label:'TAE National' },
-      'Tir 18m':  { file:'data/Tir 18m.json',  label:'Tir à 18m' },
-      'Campagne': { file:'data/Campagne.json', label:'Tir campagne' },
-      '3D':       { file:'data/3D.json',       label:'Tir 3D' },
-      'Nature':   { file:'data/Nature.json',   label:'Tir nature' },
+      'TAE':      { discCode:'T', label:'TAE' },
+      'Tir 18m':  { discCode:'S', label:'Tir à 18m' },
+      'Campagne': { discCode:'C', label:'Tir campagne' },
+      '3D':       { discCode:'3', label:'Tir 3D' },
+      'Nature':   { discCode:'N', label:'Tir nature' },
     };
+    const EQUIPES_CSV_FILE = 'equipes.csv';
 
     // Groupes Tir 18m : regroupement multi-catégories par arme/sexe (logique inchangée)
     const TEAM18_GROUPS = [
@@ -1291,15 +1341,30 @@ const DISC_LABELS = {
     // Cache JSON par discipline
     const teamDiscCache = new Map();
 
+    // Cache global equipes.csv (toutes disciplines)
+    let equipesAllRows = null;
+    async function loadEquipesAll() {
+      if(equipesAllRows) return equipesAllRows;
+      const raw = (await loadCSV(EQUIPES_CSV_FILE)) || [];
+      const _AN = { 'C':'CL', 'P':'CO', 'B':'BB' };
+      raw.forEach(r => {
+        if(r.ARME_EQUIPE && _AN[r.ARME_EQUIPE]) r.ARME_EQUIPE = _AN[r.ARME_EQUIPE];
+        // Calcule le département depuis le code structure
+        if(!r.DEPARTEMENT && r.CODE_STRUCTURE) {
+          const digits = r.CODE_STRUCTURE.replace(/\D/g,'');
+          r.DEPARTEMENT = digits.length >= 4 ? digits.slice(2,4) : '';
+        }
+      });
+      equipesAllRows = raw;
+      return raw;
+    }
+
     async function ensureTeamDiscLoaded(disc) {
       if(teamDiscCache.has(disc)) return teamDiscCache.get(disc);
       const cfg = TEAM_DISC_CONFIG[disc];
       if(!cfg) return [];
-      // loadJSON() est défini dans le scope principal et retourne directement rows[]
-      const rows = (await loadJSON(cfg.file)) || [];
-      // Normalisation codes ARME : API FFTA utilise C/P/B, on affiche CL/CO/BB
-      const _AN = { 'C':'CL', 'P':'CO', 'B':'BB' };
-      rows.forEach(r => { if(r.ARME && _AN[r.ARME]) r.ARME = _AN[r.ARME]; });
+      const all = await loadEquipesAll();
+      const rows = all.filter(r => r.DISCIPLINE === cfg.discCode);
       teamDiscCache.set(disc, rows);
       return rows;
     }
@@ -1321,17 +1386,17 @@ const DISC_LABELS = {
       const sel = document.getElementById('categorie');
       const disc = state.disciplineTeam || '';
       if(!disc) { sel.innerHTML = '<option value="">Toutes</option>'; return; }
-      if(disc === 'Tir 18m') {
+      const rows = await ensureTeamDiscLoaded(disc);
+      // Fallback Tir 18m : données indiv rechargées → groupes prédéfinis
+      if(disc === 'Tir 18m' && rows._isFallback) {
         const cur = state.filters.categorie || TEAM18_GROUPS[0];
         fillSelect(sel, TEAM18_GROUPS, false, cur);
         if(!state.filters.categorie) state.filters.categorie = TEAM18_GROUPS[0];
         return;
       }
-      // Autres disciplines : classements non-scratch triés
-      const rows = await ensureTeamDiscLoaded(disc);
+      // FFTA equipes : classer par CATEGORIE_CLASSEMENT
       const classements = uniqueSorted(rows
-        .filter(r => !/scratch/i.test(r._classement_nom || ''))
-        .map(r => r._classement_nom || '').filter(Boolean));
+        .map(r => r.CATEGORIE_CLASSEMENT || r._classement_nom || '').filter(Boolean));
       const cur = classements.includes(state.filters.categorie) ? state.filters.categorie : (classements[0] || '');
       fillSelect(sel, ['— Choisir un classement —', ...classements], false, cur);
       if(!state.filters.categorie && cur) state.filters.categorie = cur;
@@ -1368,26 +1433,6 @@ const DISC_LABELS = {
       return teams;
     }
 
-    // Construit les équipes par classement (TAE I/N, Campagne, 3D, Nature)
-    function buildTeamsFromClassement(data, classement){
-      const rows=data.filter(r=>{
-        if(classement && r._classement_nom!==classement) return false;
-        const m=moyOf(r); return Number.isFinite(m)&&m>0;
-      });
-      const byClub=new Map();
-      rows.forEach(r=>{ const k=clubKey(r); if(!byClub.has(k)) byClub.set(k,[]); byClub.get(k).push(r); });
-      const teams=[];
-      byClub.forEach(list=>{
-        list.sort((a,b)=>moyOf(b)-moyOf(a));
-        const top=list.slice(0,3); if(top.length<3) return;
-        const avgs=top.map(moyOf); const total=avgs.reduce((s,x)=>s+x,0);
-        teams.push({ RANG:0, CLUB:clubName(top[0]), CODE_STRUCTURE:top[0].CODE_STRUCTURE, DEPARTEMENT:getDeptFromCodeStructure(top[0].CODE_STRUCTURE), TOTAL_EQ:total, SCORES_INT:avgs.map(v=>Math.round(v)), MEMBERS:top.map(r=>({nom:(r.NOM_PERSONNE||'')+' '+(r.PRENOM_PERSONNE||''),moy:moyOf(r)})) });
-      });
-      teams.sort((a,b)=>(b.TOTAL_EQ-a.TOTAL_EQ)||a.CLUB.localeCompare(b.CLUB,'fr'));
-      teams.forEach((t,i)=>t.RANG=i+1);
-      return teams;
-    }
-
     // Cache équipes courant (pour modal et export)
     let teamCache=[];
 
@@ -1395,14 +1440,72 @@ const DISC_LABELS = {
       const t=teamCache[idx]; if(!t) return;
       const overlay=document.getElementById('modalOverlay');
       const modal=document.getElementById('teamModal');
-      document.getElementById('modalTitle').textContent='Équipe \u2013 '+t.CLUB;
-      document.getElementById('modalBody').innerHTML='<table class="mini-table"><thead><tr><th>Archer</th><th>Moyenne</th></tr></thead><tbody>'+t.MEMBERS.map(m=>'<tr><td>'+m.nom+'</td><td>'+Math.round(m.moy)+'</td></tr>').join('')+'</tbody></table>';
+      const clubLabel=t.NOM_STRUCTURE||t.NOM_ABREGE||t.CLUB||'';
+      document.getElementById('modalTitle').textContent='Équipe \u2013 '+clubLabel;
+      let bodyHtml='';
+      if(t.MEMBERS){
+        bodyHtml='<table class="mini-table"><thead><tr><th>Archer</th><th>Moyenne</th></tr></thead><tbody>'+t.MEMBERS.map(m=>'<tr><td>'+m.nom+'</td><td>'+Math.round(m.moy)+'</td></tr>').join('')+'</tbody></table>';
+      } else {
+        const infoRows=[];
+        if(t.CATEGORIE_CLASSEMENT) infoRows.push(['Classement',t.CATEGORIE_CLASSEMENT]);
+        const div=normalizedDivisionText(t); if(div) infoRows.push(['Division',div]);
+        if(t.SCORE1&&t.SCORE1!=='0') infoRows.push(['Score 1',t.SCORE1]);
+        if(t.SCORE2&&t.SCORE2!=='0') infoRows.push(['Score 2',t.SCORE2]);
+        if(t.SCORE3&&t.SCORE3!=='0') infoRows.push(['Score 3',t.SCORE3]);
+        if(t.MOY_SCORE&&t.MOY_SCORE!=='0') infoRows.push(['Total',t.MOY_SCORE]);
+        if(t.VILLE) infoRows.push(['Ville',t.VILLE]);
+        bodyHtml='<table class="mini-table"><tbody>'+infoRows.map(([k,v])=>'<tr><td><strong>'+k+'</strong></td><td>'+v+'</td></tr>').join('')+'</tbody></table>';
+      }
+      document.getElementById('modalBody').innerHTML=bodyHtml;
       overlay.classList.remove('hidden'); modal.classList.remove('hidden');
     }
-    // Alias rétrocompatibilité
     function openTeam18Modal(idx){ openTeamModal(idx); }
 
-    // Rendu tableau équipes — commun à toutes les disciplines
+    // Couleur quota équipe depuis PRE_INSCRIT (D1/D2/Oui/DR-Oui=vert, DR=orange, DNAP=rouge)
+    function teamQuotaClass(r){
+      const pre=(r.PRE_INSCRIT||'').toString().trim().toUpperCase();
+      if(!pre) return '';
+      if(pre==='DNAP') return 'row-quota-red';
+      if(pre.startsWith('DR')&&!pre.includes('OUI')) return 'row-quota-orange';
+      return 'row-quota-green';
+    }
+
+    // Rendu tableau équipes FFTA pré-calculées (RANG, NOM_STRUCTURE, SCORE1/2/3, MOY_SCORE)
+    function renderTeamTableFFTA(teams){
+      const thead=document.getElementById('thead-row');
+      const tbody=document.getElementById('tbody');
+      thead.innerHTML=''; tbody.innerHTML='';
+      const depFilter=state.filters.departement||'';
+      const search=(state.filters.search||'').toLowerCase();
+      const headers=[{key:'RANG',label:'Rang'}];
+      if(depFilter) headers.push({key:'RANG_DEP',label:'Rang dép.'});
+      headers.push({key:'DIV',label:'Division'},{key:'NOM_STRUCTURE',label:'Club'},{key:'SCORE1',label:'Score 1'},{key:'SCORE2',label:'Score 2'},{key:'SCORE3',label:'Score 3'},{key:'MOY_SCORE',label:'Total'});
+      headers.forEach(h=>{ const th=document.createElement('th'); th.textContent=h.label; thead.appendChild(th); });
+      let displayed=depFilter?teams.filter(t=>t.DEPARTEMENT===depFilter):teams;
+      if(search) displayed=displayed.filter(t=>(t.NOM_STRUCTURE||t.NOM_ABREGE||'').toLowerCase().includes(search));
+      const depIdx=new Map(); if(depFilter) displayed.forEach((t,i)=>depIdx.set(t,i+1));
+      displayed.forEach(t=>{
+        const idx=teamCache.indexOf(t);
+        const tr=document.createElement('tr');
+        const qClass=teamQuotaClass(t); if(qClass) tr.classList.add(qClass);
+        const divText=normalizedDivisionText(t);
+        headers.forEach(h=>{
+          const td=document.createElement('td');
+          if(h.key==='DIV'){ td.innerHTML=divisionBadgeHTML(divText); }
+          else if(h.key==='RANG_DEP'){ td.textContent=depIdx.get(t)||''; }
+          else if(h.key==='NOM_STRUCTURE'){ const btn=document.createElement('button'); btn.className='link-btn'; btn.textContent=t.NOM_STRUCTURE||t.NOM_ABREGE||''; btn.addEventListener('click',()=>openTeamModal(idx)); td.appendChild(btn); }
+          else td.textContent=t[h.key]!=null?t[h.key]:'';
+          tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+      });
+      // Affiche la légende quota en mode équipe
+      const legend=document.getElementById('quotaLegend');
+      if(legend) legend.classList.remove('hidden');
+      document.getElementById('totalChip').textContent=displayed.length+' équipe'+(displayed.length>1?'s':'');
+    }
+
+    // Rendu tableau équipes fallback (calculé localement depuis données 18m individuelles)
     function renderTeamTable(teams){
       const thead=document.getElementById('thead-row');
       const tbody=document.getElementById('tbody');
@@ -1431,28 +1534,31 @@ const DISC_LABELS = {
       document.getElementById('totalChip').textContent=displayed.length+' équipe'+(displayed.length>1?'s':'');
     }
 
-    // Rendu principal équipes : délègue selon discipline
+    // Rendu principal équipes : données FFTA pré-calculées ou fallback buildTeams18
     async function renderTableTeamAuto(){
       const disc=state.disciplineTeam||'';
       if(!disc) return;
       const rows=await ensureTeamDiscLoaded(disc);
-      if(disc==='Tir 18m'){
-        const group=state.filters.categorie||TEAM18_GROUPS[0];
+      const classement=state.filters.categorie||'';
+      if(rows._isFallback&&disc==='Tir 18m'){
+        const group=classement||TEAM18_GROUPS[0];
         teamCache=buildTeams18(rows,group);
+        renderTeamTable(teamCache);
       } else {
-        const classement=state.filters.categorie||'';
-        teamCache=buildTeamsFromClassement(rows,classement);
+        let filtered=rows.filter(r=>!classement||(r.CATEGORIE_CLASSEMENT||r._classement_nom||'')===classement);
+        filtered.sort((a,b)=>(parseInt(a.RANG)||9999)-(parseInt(b.RANG)||9999));
+        teamCache=filtered;
+        renderTeamTableFFTA(filtered);
       }
-      renderTeamTable(teamCache);
       const cfg=TEAM_DISC_CONFIG[disc];
-      const label=state.filters.categorie?' — '+state.filters.categorie:'';
-      document.getElementById('dataset-hint').textContent=(cfg?cfg.file:disc)+' chargé'+label;
+      const label=classement?' — '+classement:'';
+      document.getElementById('dataset-hint').textContent=EQUIPES_CSV_FILE+' / '+disc+(label||'');
     }
 
     // ========= REFRESH =========
     async function refresh(){ updateChips(); const hint=document.getElementById('dataset-hint'); const teamNote=document.getElementById('team-note'); const sexeField=document.getElementById('sexe-field'); const armeField=document.getElementById('arme-field'); if(state.viewMode==='team'){ teamNote.classList.remove('hidden'); document.getElementById('tae-section').classList.add('hidden'); document.getElementById('para-section').classList.add('hidden'); DISC_SELECT.innerHTML='<option value="">— Choisir —</option>'; populateDisciplineForTeam(); DISC_SELECT.value=state.disciplineTeam||''; await populateTeamCategories(); const disc=state.disciplineTeam||''; // masquer ces filtres en équipe
         sexeField.classList.add('hidden'); armeField.classList.add('hidden'); if(!disc){ hint.textContent='Sélectionnez une discipline (Équipe).'; document.getElementById('thead-row').innerHTML=''; document.getElementById('tbody').innerHTML=''; document.getElementById('totalChip').textContent='0 lignes'; return; } await renderTableTeamAuto(); return; } // INDIV
-      teamNote.classList.add('hidden'); DISC_SELECT.innerHTML=INDIV_OPTIONS_HTML; DISC_SELECT.value=state.disciplineIndiv||''; showHideSectionsIndiv(); 
+      teamNote.classList.add('hidden'); const _ql=document.getElementById('quotaLegend'); if(_ql) _ql.classList.add('hidden'); DISC_SELECT.innerHTML=INDIV_OPTIONS_HTML; DISC_SELECT.value=state.disciplineIndiv||''; showHideSectionsIndiv(); 
 // Ensure sexe & arme filters are shown again when returning to Individual mode
 try { if (typeof sexeField !== 'undefined' && sexeField) sexeField.classList.remove('hidden'); } catch(e) {}
 try { if (typeof armeField !== 'undefined' && armeField) armeField.classList.remove('hidden'); } catch(e) {}
@@ -1481,7 +1587,7 @@ const filteredInd=applyFiltersIndiv(data); renderTableIndiv(filteredInd); }
 
     // ========= EXPORT =========
     function exportCurrentCSV(){ if(state.viewMode==='team'){ const disc=(state.disciplineTeam||'').toUpperCase(); if(!disc){ alert('Choisissez une discipline (Équipe).'); return; } // Export équipes depuis teamCache (unifié toutes disciplines)
-        { const teams=teamCache; const depFilter=state.filters.departement||''; let displayed=depFilter?teams.filter(t=>t.DEPARTEMENT===depFilter):teams; const headers=['Rang']; if(depFilter){ headers.push('Département','Rang dép.'); } headers.push('Équipe','3 scores','Total équipe'); const csvRows=displayed.map((t,i)=>{ const dep=depFilter?(i+1):''; const row=depFilter?[t.RANG,t.DEPARTEMENT,dep,t.CLUB,t.SCORES_INT.join(' / '),Math.round(t.TOTAL_EQ)]:[t.RANG,t.CLUB,t.SCORES_INT.join(' / '),Math.round(t.TOTAL_EQ)]; return row.map(v=>'"'+String(v).replaceAll('"','""')+'"').join(';'); }); const csv=[headers.join(';')].concat(csvRows).join('\n'); const blob=new Blob([csv],{type:'text/csv;charset=utf-8'}); const url=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download='equipes_'+(state.disciplineTeam||'').replaceAll(' ','_')+'_'+((state.filters.categorie||'').replaceAll(' ','_')||'all')+'.csv'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url); return; }
+        { const teams=teamCache; const depFilter=state.filters.departement||''; let displayed=depFilter?teams.filter(t=>t.DEPARTEMENT===depFilter):teams; const search=(state.filters.search||'').toLowerCase(); if(search) displayed=displayed.filter(t=>(t.NOM_STRUCTURE||t.NOM_ABREGE||t.CLUB||'').toLowerCase().includes(search)); const headers=['Rang']; if(depFilter){ headers.push('Rang dép.'); } headers.push('Division','Club','Score 1','Score 2','Score 3','Total'); const depIdx=new Map(); if(depFilter) displayed.forEach((t,i)=>depIdx.set(t,i+1)); const csvRows=displayed.map((t,i)=>{ const isFFTA=t.NOM_STRUCTURE!==undefined; const club=isFFTA?(t.NOM_STRUCTURE||t.NOM_ABREGE||''):t.CLUB||''; const div=isFFTA?normalizedDivisionText(t):''; const s1=isFFTA?t.SCORE1:(t.SCORES_INT?t.SCORES_INT[0]:''); const s2=isFFTA?t.SCORE2:(t.SCORES_INT?t.SCORES_INT[1]:''); const s3=isFFTA?t.SCORE3:(t.SCORES_INT?t.SCORES_INT[2]:''); const total=isFFTA?t.MOY_SCORE:(t.TOTAL_EQ!=null?Math.round(t.TOTAL_EQ):''); const dep=depFilter?(depIdx.get(t)||i+1):''; const row=depFilter?[t.RANG,dep,div,club,s1,s2,s3,total]:[t.RANG,div,club,s1,s2,s3,total]; return row.map(v=>'"'+String(v!=null?v:'').replaceAll('"','""')+'"').join(';'); }); const csv=[headers.join(';')].concat(csvRows).join('\n'); const blob=new Blob([csv],{type:'text/csv;charset=utf-8'}); const url=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download='equipes_'+(state.disciplineTeam||'').replaceAll(' ','_')+'_'+((state.filters.categorie||'').replaceAll(' ','_')||'all')+'.csv'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url); return; }
         // (export équipes géré plus haut via teamCache)
       // INDIV
       if(!state.disciplineIndiv){ alert('Choisissez une discipline (Individuel).'); return; } const data=state.rawByDiscipline.get(state.disciplineIndiv)||[]; const filtered=applyFiltersIndiv(data); const depFilter=state.filters.departement||''; let displayed=filtered.slice(); const depIdx=new Map(); if(depFilter){ const ligueRank = r=> (parseInt(r.Rang_ligue||r.RANG||r.Rang||'999999')||999999); displayed.sort((a,b)=> ligueRank(a)-ligueRank(b) || (toNum(b.MOY_SCORE)-toNum(a.MOY_SCORE)) ); displayed.forEach((r,i)=> depIdx.set(r,i+1)); } const headersDef=headersForIndiv(); const headers=headersDef.map(h=>h.label); const keys=headersDef.map(h=>h.key); const csvRows=displayed.map(r=>{ const disp=buildDisplayRowIndiv(r); if(depFilter) disp.RANG_DEP=depIdx.get(r)||''; return keys.map(k=> String((k==='RANG_DEP'?disp.RANG_DEP:disp[k])??'').replaceAll('"','""')); }); const csv=[headers.join(';')].concat(csvRows.map(cols=> cols.map(v=>'"'+v+'"').join(';'))).join('\n'); const blob=new Blob([csv],{type:'text/csv;charset=utf-8'}); const url=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download='classement_'+state.disciplineIndiv.replaceAll(' ','_')+'.csv'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url); } }
@@ -3718,14 +3824,17 @@ document.addEventListener('DOMContentLoaded',function(){
 
     // (suite)
     if(!qrow){
+      window._pdlCurrentQuota = 0; try{ const tb=document.getElementById('tbody'); if(tb&&window.applyIndivQuotaColors) window.applyIndivQuotaColors(tb); }catch(_){}
       showBanner('<span class="muted">Quotas : aucun quota défini pour </span><span class="pill">'+sel.arme+'</span><span class="pill">'+sel.cat+'</span>' + (sel.sexe?('<span class="pill">'+sel.sexe+'</span>'):''));
       return;
     }
 
     const quota = qrow.QUOTA || qrow.quota || '—';
+    window._pdlCurrentQuota = parseInt(quota) || 0;
     const sexeLabel = (sel.sexe ? sel.sexe : (qrow.SEXE||''));
     const detail = (mode==='team') ? sel.cat : (sel.arme + ' • ' + sel.cat + (sexeLabel?(' • ' + sexeLabel):''));
     showBanner('Quota : <span class="pill">'+String(quota)+'</span> <span class="muted">(' + detail + ')</span>');
+    try{ const _tb=document.getElementById('tbody'); if(_tb&&window.applyIndivQuotaColors) window.applyIndivQuotaColors(_tb); }catch(_){}
   }
 
   function wire(){

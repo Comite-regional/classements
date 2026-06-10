@@ -76,6 +76,19 @@ DISCIPLINES = {
     "I": "Para salle 18m.json", # Para-tir 18m
 }
 
+# Classements équipes : discipline → fichier JSON de sortie
+EQUIPE_DISCIPLINES = {
+    "S": "equipes_S.json",
+    "T": "equipes_T.json",
+    "C": "equipes_C.json",
+    "N": "equipes_N.json",
+    "3": "equipes_3.json",
+}
+
+# Mots-clés positifs pour détecter un libellé de classement équipe
+_TEAM_KW = ("double mixte", "equipe", "équipe", "jeune mixte", "mixte jeune",
+            "parcours nature", "tir sur cibles")
+
 # IDs de classements nationaux FFTA 2026 extraits du PDF officiel.
 # On les appelle directement (sans passer par GetClassements) en ajoutant
 # Ligue=CR12 pour récupérer uniquement les archers Pays de la Loire.
@@ -504,6 +517,163 @@ def get_tae_classements_map(session, token) -> dict[str, dict]:
     return result
 
 
+def _is_team_libelle(libelle: str) -> bool:
+    """Retourne True si le libellé correspond à un classement équipe (pas individuel)."""
+    l = (libelle or "").strip().lower()
+    for kw in _TEAM_KW:
+        if kw in l:
+            return True
+    if _re.search(r'\bu18/u21\b', l):
+        return True
+    # "Arc Classique/Poulies/Nu Homme/Femme XXXX" sans préfixe Senior/Adulte/U
+    if _re.match(r'^arc\s+(classique|[àa]\s*poulies|nu)\s+(homme|femme)\b', l):
+        return True
+    # Marqueurs négatifs → individuel
+    if _re.match(r'^(senior|adulte|scratch|u\d+\s)', l):
+        return False
+    return False
+
+
+def normalize_team(team: dict, disc_code: str, cl_libelle: str, rang_ligue: int,
+                   sexe_code: str, arme_code: str) -> dict:
+    """Normalise une entrée équipe depuis l'API FFTA."""
+    nom_structure = str(team.get("StructureNom") or "")
+    nom_abrege = str(
+        team.get("StructureNomCourt") or team.get("NomAbrege") or nom_structure[:25]
+    )
+    code_structure = str(team.get("StructureCode") or "")
+    ville = str(
+        team.get("AdresseVilleSiege") or team.get("StructureVilleSiege") or
+        team.get("Ville") or ""
+    )
+    rang_nat = str(team.get("PlaceOrdre") or "")
+    rang_ligue_raw = str(team.get("PlaceLigue") or rang_ligue)
+    division = str(
+        team.get("PlaceDivision") or team.get("DivisionCode") or
+        team.get("Division") or ""
+    )
+    pre_inscrit = str(team.get("PreInscrit") or team.get("PreInscription") or "")
+    quota = str(team.get("Quota") or "")
+    s1 = str(team.get("PlaceScore1") or "0")
+    s2 = str(team.get("PlaceScore2") or "0")
+    s3 = str(team.get("PlaceScore3") or "0")
+    total = str(team.get("PlaceTotal") or team.get("PlaceMoyenne") or "0")
+    dept = dept_from_club_code(code_structure)
+    return {
+        "RANG": rang_nat or str(rang_ligue),
+        "RANG_LIGUE": rang_ligue_raw,
+        "DIVISION": division,
+        "PRE_INSCRIT": pre_inscrit or division,
+        "QUOTA": quota,
+        "NOM_ABREGE": nom_abrege,
+        "NOM_STRUCTURE": nom_structure,
+        "SEXE_EQUIPE": sexe_code,
+        "ARME_EQUIPE": arme_code,
+        "CATEGORIE_CLASSEMENT": cl_libelle,
+        "CODE_STRUCTURE": code_structure,
+        "VILLE": ville,
+        "DEPARTEMENT": dept,
+        "SCORE1": s1,
+        "SCORE2": s2,
+        "SCORE3": s3,
+        "MOY_SCORE": total,
+        "_classement_nom": cl_libelle,
+        "DISCIPLINE": disc_code,
+    }
+
+
+def fetch_teams_disc(session: requests.Session, token: str, disc_code: str) -> list[dict]:
+    """Récupère les classements équipes PDL (CR12) pour une discipline."""
+    log.info("→ Équipes discipline %s", disc_code)
+    PDL_DEPTS = {"44", "49", "53", "72", "85"}
+
+    # Liste complète des classements pour cette discipline
+    all_cls = get_classements_list(session, token, disc_code)
+
+    # Filtre : classements équipe uniquement
+    team_cls = []
+    for cl in all_cls:
+        if not isinstance(cl, dict):
+            continue
+        cl_type = str(cl.get("type") or cl.get("typeClassement") or "").lower()
+        if cl_type in ("equipe", "équipe", "team"):
+            team_cls.append(cl)
+        elif cl_type in ("individuel", "individual"):
+            continue
+        elif _is_team_libelle(str(cl.get("libelle") or "")):
+            team_cls.append(cl)
+
+    log.info("  %d classements équipe trouvés sur %d total", len(team_cls), len(all_cls))
+    if not team_cls:
+        log.warning("  Aucun classement équipe pour discipline %s", disc_code)
+        return []
+
+    all_rows: list[dict] = []
+    first_logged = False
+
+    for cl in team_cls:
+        cl_id = str(cl.get("id") or "")
+        cl_libelle = str(cl.get("libelle") or cl_id)
+        sexe_code = str(cl.get("sexe_code") or "X")
+        arme_code = str(cl.get("arme_code") or "")
+        if not cl_id:
+            continue
+
+        try:
+            data = api_get(session, "Classements/Classement", token, Classement=cl_id)
+        except Exception as e:
+            log.warning("  Erreur GetClassement équipe (%s – %s): %s", cl_id, cl_libelle, e)
+            continue
+
+        response = data.get("Response", {})
+        classement_array = response.get("ClassementArray") or []
+        if isinstance(response, list):
+            classement_array = response
+
+        cl_rows: list[dict] = []
+        for cl_item in classement_array:
+            if not isinstance(cl_item, dict):
+                continue
+            raw = cl_item.get("archers") or cl_item.get("equipes") or []
+            if isinstance(raw, dict):
+                entry_list: list = sorted(
+                    raw.values(), key=lambda x: int(x.get("PlaceOrdre") or 9999)
+                )
+            elif isinstance(raw, list):
+                entry_list = raw
+            else:
+                entry_list = []
+
+            item_sexe = str(cl_item.get("sexe_code") or sexe_code)
+            item_arme = str(cl_item.get("arme_code") or arme_code)
+
+            rang_ligue = 0
+            for team in entry_list:
+                if not isinstance(team, dict):
+                    continue
+                # Log structure première équipe (debug)
+                if not first_logged:
+                    log.info("  DEBUG structure première équipe (%s): clés=%s",
+                             cl_libelle, list(team.keys()))
+                    first_logged = True
+                # Filtre PDL : StructureCodeRegion prioritaire, sinon département
+                if team.get("StructureCodeRegion", "") == LIGUE_CODE:
+                    pass
+                else:
+                    dept = dept_from_club_code(str(team.get("StructureCode") or ""))
+                    if dept not in PDL_DEPTS:
+                        continue
+                rang_ligue += 1
+                row = normalize_team(team, disc_code, cl_libelle, rang_ligue, item_sexe, item_arme)
+                cl_rows.append(row)
+
+        log.info("  %-50s → %d équipes PDL", cl_libelle[:50], len(cl_rows))
+        all_rows.extend(cl_rows)
+        time.sleep(0.2)
+
+    return all_rows
+
+
 def fetch_discipline(session: requests.Session, token: str, disc_code: str,
                      tae_map=None) -> list[dict]:
     """Récupère les archers PDL (CR12) pour une discipline.
@@ -608,6 +778,15 @@ def run():
         payload = {"meta": meta, "rows": subset}
         out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
         log.info("  ✓ %s  (%d lignes)", out_path, len(subset))
+
+    # ── Classements équipes ───────────────────────────────────────────────────
+    log.info("→ Récupération des classements équipes…")
+    for disc_code, filename in EQUIPE_DISCIPLINES.items():
+        equipe_rows = fetch_teams_disc(session, token, disc_code)
+        out_path = OUTPUT_DIR / filename
+        payload = {"meta": meta, "rows": equipe_rows}
+        out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+        log.info("  ✓ %s  (%d équipes)", out_path, len(equipe_rows))
 
     # ── Palmarès individuels ──────────────────────────────────────────────────
     # Collecte toutes les licences PDL uniques à travers tous les classements
