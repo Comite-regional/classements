@@ -346,6 +346,44 @@ def normalize_archer(archer: dict, disc_code: str, rank: int) -> dict:
     # 122cm = International (I), 80cm = National (N)
     tae_type = str(archer.get("_tae_type") or "")
 
+    # ── Champs Para (disciplines H et I) ─────────────────────────────────────
+    # CAT_TIR  : groupe du classement (W1, HV 2-3, OPEN, FEDERAL…)
+    #            dérivé du libellé du classement via _cl_libelle
+    # CAT_CLASS: classification fonctionnelle individuelle (W1, B2, ST, W2, NEI, SOURD…)
+    #            fournie par l'API sous différents noms selon la version
+    cat_tir = ""
+    cat_class = ""
+    if disc_code in ("H", "I"):
+        cl_libelle = str(archer.get("_cl_libelle") or "")
+        # Extrait le préfixe avant "Scratch" ou "Jeunes"
+        import re as _re2
+        m = _re2.match(r'^(.*?)\s+(?:Scratch|Jeunes)\b', cl_libelle, _re2.IGNORECASE)
+        cat_tir = m.group(1).strip() if m else cl_libelle.split()[0] if cl_libelle else ""
+
+        # Essaie plusieurs noms de champ possibles pour la classification Para individuelle
+        cat_class = str(
+            archer.get("CategorieParaCode") or
+            archer.get("ClasseParaCode") or
+            archer.get("CategorieHandicapCode") or
+            archer.get("ClassificationCode") or
+            archer.get("ParticipantClassificationCode") or
+            archer.get("CategorieParaCodeGroupe") or
+            archer.get("ClasseHandicap") or
+            archer.get("ClasseHandicapCode") or
+            ""
+        )
+        # Log de debug : affiche tous les champs disponibles pour le premier archer Para
+        if rank == 1:
+            para_keys = {k: v for k, v in archer.items()
+                         if not k.startswith("_") and k not in (
+                             "PersonneNom","PersonnePrenom","LicenceCodeAdherent",
+                             "PlaceScore1","PlaceScore2","PlaceScore3","PlaceTotal","PlaceOrdre",
+                             "StructureNom","StructureNomCourt","StructureCode","StructureCodeRegion",
+                             "StructureCodeDepartement","ParticipantCatAge","CategorieAgeCodeGroupe",
+                             "CategorieAgeSexe","ParticipantId",
+                         )}
+            log.info("  [Para debug] Champs archer #1 (%s): %s", disc_code, para_keys)
+
     return {
         "Rang_ligue": rang,
         "RANG": rang,
@@ -368,6 +406,8 @@ def normalize_archer(archer: dict, disc_code: str, rank: int) -> dict:
         "DISTANCE": distance,
         "BLASON": blason,
         "TAE_TYPE": tae_type,
+        "CAT_TIR": cat_tir,
+        "CAT_CLASS": cat_class,
     }
 
 

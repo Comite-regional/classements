@@ -968,9 +968,12 @@ const DISC_LABELS = {
       const blasons = uniqueSorted(data.map(r => r.blason   || r.BLASON   || '').filter(Boolean));
       let cc, ct;
       if(isParaDisc2){
-        // Para : catClass = classification fonctionnelle (W1, HV2-3, OPEN…), catTir = CAT archer (S1, S2…)
-        cc = uniqueSorted(data.map(r => paraClassFromNom(r._classement_nom || '')).filter(Boolean));
-        ct = uniqueSorted(data.map(r => r.CAT || r.CATEGORIE || '').filter(Boolean));
+        // Para : catClass = classification individuelle (W1, B2, ST…), catTir = groupe classement (W1, HV 2-3, OPEN…)
+        // Depuis fetch_ffta.py mis à jour, CAT_CLASS et CAT_TIR sont dans le JSON.
+        // Fallback sur dérivation depuis _classement_nom pour anciens JSON.
+        cc = uniqueSorted(data.map(r => r.CAT_CLASS || '').filter(Boolean));
+        if(!cc.length) cc = uniqueSorted(data.map(r => paraClassFromNom(r._classement_nom || '')).filter(Boolean));
+        ct = uniqueSorted(data.map(r => r.CAT_TIR || paraClassFromNom(r._classement_nom || '') || '').filter(Boolean));
       } else {
         cc = uniqueSorted(data.map(r => r.CAT_CLASS || '').filter(Boolean));
         ct = uniqueSorted(data.map(r => r.CAT_TIR   || '').filter(Boolean));
@@ -1014,9 +1017,11 @@ const DISC_LABELS = {
         DISCIPLINE: DISC_LABELS[r.DISCIPLINE || r.DISC || ''] || r.DISCIPLINE || r.DISC || '',
         distance:   String(r.distance || r.DISTANCE || ''),
         blason:     String(r.blason   || r.BLASON   || ''),
-        // Pour Para : CAT_CLASS = classification fonctionnelle (W1, HV2-3, OPEN…), CAT_TIR = catégorie archer
-        CAT_TIR:    String(r.CAT_TIR   || (/^Para/.test(state.disciplineIndiv||'') ? (r.CAT || r.CATEGORIE || '') : '')),
-        CAT_CLASS:  String(r.CAT_CLASS || (/^Para/.test(state.disciplineIndiv||'') ? paraClassFromNom(r._classement_nom || '') : '')),
+        // Para : CAT_TIR = groupe classement (W1, HV 2-3, OPEN…), CAT_CLASS = classification individuelle (W1, B2, ST…)
+        // Le JSON généré par fetch_ffta.py contient ces champs depuis la mise à jour du script.
+        // Fallback : dérivation depuis _classement_nom pour les données antérieures.
+        CAT_TIR:    String(r.CAT_TIR   || (/^Para/.test(state.disciplineIndiv||'') ? paraClassFromNom(r._classement_nom || '') : '')),
+        CAT_CLASS:  String(r.CAT_CLASS || ''),
       };
     }
 
@@ -1148,10 +1153,16 @@ const DISC_LABELS = {
         if(f.distance  && String(r.distance  || r.DISTANCE  || '') !== f.distance)  return false;
         if(f.blason    && String(r.blason    || r.BLASON    || '') !== f.blason)    return false;
         if(isParaDisc){
-          // Para : catClass = classification fonctionnelle tirée du nom du classement
-          if(f.catClass && paraClassFromNom(r._classement_nom || '') !== f.catClass) return false;
-          // Para : catTir = catégorie de l'archer (S1, S2, S3…)
-          if(f.catTir   && String(r.CAT || r.CATEGORIE || '') !== f.catTir)          return false;
+          // Para : catClass = classification individuelle (W1, B2, ST…)
+          if(f.catClass){
+            const cc = r.CAT_CLASS || paraClassFromNom(r._classement_nom || '');
+            if(cc !== f.catClass) return false;
+          }
+          // Para : catTir = groupe classement (W1, HV 2-3, OPEN…)
+          if(f.catTir){
+            const ct = r.CAT_TIR || paraClassFromNom(r._classement_nom || '');
+            if(ct !== f.catTir) return false;
+          }
         } else {
           if(f.catClass  && String(r.CAT_CLASS || '') !== f.catClass)  return false;
           if(f.catTir    && String(r.CAT_TIR   || '') !== f.catTir)    return false;
