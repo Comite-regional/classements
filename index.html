@@ -874,7 +874,7 @@ const DISC_LABELS = {
     const DISC_SELECT = document.getElementById('discipline');
     const INDIV_OPTIONS_HTML = DISC_SELECT.innerHTML; // sauvegarde liste INDIV
     function fillSelect(sel, values, firstIsAll=false, selectedVal=''){ sel.innerHTML=''; values.forEach((v,i)=>{ const opt=document.createElement('option'); opt.value = (firstIsAll && i===0)? '' : v; opt.textContent=v; if(String(opt.value)===String(selectedVal)) opt.selected=true; sel.appendChild(opt); }); }
-    function showHideSectionsIndiv(){ const disc=state.disciplineIndiv; const tae=document.getElementById('tae-section'); const para=document.getElementById('para-section'); tae.classList.toggle('hidden', !['TAE I','TAE N','Para ext'].includes(disc)); para.classList.toggle('hidden', !['Para ext','Para 18m'].includes(disc)); }
+    function showHideSectionsIndiv(){ const disc=state.disciplineIndiv; const tae=document.getElementById('tae-section'); const para=document.getElementById('para-section'); tae.classList.toggle('hidden', disc !== 'Para ext'); para.classList.toggle('hidden', !['Para ext','Para 18m'].includes(disc)); }
     function updateChips(){ const isTeam = state.viewMode==='team'; let disc=isTeam? (state.disciplineTeam||'—') : (state.disciplineIndiv||'—'); if(isTeam){ if(disc==='T') disc='TAE'; if(disc==='3') disc='3D'; if(disc==='C') disc='Campagne'; if(disc==='N') disc='Nature'; }
       const cfg = isTeam ? TEAM_DISC_CONFIG[state.disciplineTeam] : null; const file = isTeam ? (cfg ? cfg.file : '—') : (filesMap[state.disciplineIndiv]||'—');
       document.getElementById('disciplineChip').textContent=disc; document.getElementById('fichierChip').textContent=file; }
@@ -966,9 +966,10 @@ const DISC_LABELS = {
         }
       }
 
-      // Distance / blason / catTir / catClass (Para / TAE CSV)
-      const dists   = uniqueSorted(data.map(r => r.distance || r.DISTANCE || '').filter(Boolean));
-      const blasons = uniqueSorted(data.map(r => r.blason   || r.BLASON   || '').filter(Boolean));
+      // Distance / blason uniquement pour Para ext
+      const isParaExt = disc === 'Para ext';
+      const dists   = isParaExt ? uniqueSorted(data.map(r => r.distance || r.DISTANCE || '').filter(Boolean)) : [];
+      const blasons = isParaExt ? uniqueSorted(data.map(r => r.blason   || r.BLASON   || '').filter(Boolean)) : [];
       let cc, ct;
       if(isParaDisc2){
         // Para : catClass = classification individuelle (W1, B2, ST…), catTir = groupe classement (W1, HV 2-3, OPEN…)
