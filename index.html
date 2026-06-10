@@ -1051,6 +1051,16 @@ tr.row-quota-purple:hover td { background: rgba(139,92,246,.26) !important; }
 }
 
 /* ══════════════════════
+   ÉTAT VIDE — masquer le tableau avant sélection d'une discipline
+══════════════════════ */
+/* Quand le thead ne contient qu'une seule th (inscr colonne vide initiale) et tbody vide */
+#tableau:has(thead tr th:only-child):not(:has(tbody tr)) {
+  display: none !important;
+}
+/* Fallback : si :has non supporté, on cache via classe js ajoutée */
+#tableau.no-data { display: none !important; }
+
+/* ══════════════════════
    SCROLLBAR
 ══════════════════════ */
 ::-webkit-scrollbar { width: 5px; height: 5px; }
@@ -1101,6 +1111,68 @@ a:hover { text-decoration: underline !important; }
 .badge-d1 { background: #fef08a !important; color: #713f12 !important; border-color: #eab308 !important; font-weight: 800 !important; }
 .badge-d2 { background: #1e40af !important; color: #eff6ff !important; border-color: #1d4ed8 !important; font-weight: 800 !important; }
 .badge-dr { background: #1f2937 !important; color: #f9fafb !important; border-color: #374151 !important; font-weight: 800 !important; }
+
+/* ══════════════════════
+   ANIMATIONS
+══════════════════════ */
+
+/* Entrée du header */
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+header .container { animation: slideDown .45s ease both; }
+
+/* Entrée des cards */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+#filters-card { animation: fadeUp .4s ease .1s both; }
+.row > .card   { animation: fadeUp .4s ease .2s both; }
+.row > .card:last-child { animation-delay: .28s; }
+
+/* Entrée des lignes du tableau */
+@keyframes rowIn {
+  from { opacity: 0; transform: translateX(-6px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+#tbody tr {
+  animation: rowIn .25s ease both;
+}
+/* décalage progressif pour les 20 premières lignes */
+#tbody tr:nth-child(1)  { animation-delay: .04s }
+#tbody tr:nth-child(2)  { animation-delay: .07s }
+#tbody tr:nth-child(3)  { animation-delay: .10s }
+#tbody tr:nth-child(4)  { animation-delay: .13s }
+#tbody tr:nth-child(5)  { animation-delay: .16s }
+#tbody tr:nth-child(6)  { animation-delay: .19s }
+#tbody tr:nth-child(7)  { animation-delay: .22s }
+#tbody tr:nth-child(8)  { animation-delay: .25s }
+#tbody tr:nth-child(9)  { animation-delay: .28s }
+#tbody tr:nth-child(10) { animation-delay: .31s }
+#tbody tr:nth-child(n+11) { animation-delay: .33s }
+
+/* Boutons : pulse subtil au focus */
+button:focus-visible {
+  outline: 3px solid var(--brand-glow) !important;
+  outline-offset: 2px !important;
+}
+
+/* Sélects : transition fluide à l'ouverture */
+select { transition: border-color .15s, box-shadow .15s, background .15s !important; }
+
+/* Chip total : pulse quand la valeur change (via re-render) */
+@keyframes chipPop {
+  0%   { transform: scale(1); }
+  40%  { transform: scale(1.12); }
+  100% { transform: scale(1); }
+}
+#totalChip.pop { animation: chipPop .3s ease; }
+
+/* Hover sur les cartes : légère élévation */
+.card { transition: box-shadow .25s ease, transform .2s ease !important; }
+.card:hover { transform: translateY(-1px) !important; }
 </style>
 </head>
 <body>
@@ -2102,6 +2174,16 @@ const filteredInd=applyFiltersIndiv(data); renderTableIndiv(filteredInd); }
       if (!rc || !tbody) return;
       const n = tbody.querySelectorAll('tr').length;
       rc.textContent = n + ' ligne' + (n>1?'s':'');
+      // Fallback hide tableau vide (navigateurs sans :has())
+      const tbl = document.getElementById('tableau');
+      if(tbl){
+        const ths = tbl.querySelectorAll('thead th');
+        const empty = n===0 && ths.length<=1;
+        tbl.classList.toggle('no-data', empty);
+      }
+      // Pulse chip quand count change
+      const chip = document.getElementById('totalChip');
+      if(chip){ chip.classList.remove('pop'); void chip.offsetWidth; chip.classList.add('pop'); }
     }catch(e){}
   }
   // Update on load
