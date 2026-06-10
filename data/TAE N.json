@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-09T17:00:20.156990Z",
-    "saison": "2026",
+    "generated_at": "2026-06-10T06:37:38.136977Z",
+    "saison": "",
     "ligue": "CR12"
   },
   "rows": [
@@ -127,7 +127,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "75",
+      "RANG_NAT": "76",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -477,7 +477,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "233",
+      "RANG_NAT": "234",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -502,7 +502,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "238",
+      "RANG_NAT": "239",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -527,7 +527,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "239",
+      "RANG_NAT": "240",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -552,7 +552,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "242",
+      "RANG_NAT": "243",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -577,7 +577,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "253",
+      "RANG_NAT": "254",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -602,7 +602,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "267",
+      "RANG_NAT": "268",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -627,7 +627,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "276",
+      "RANG_NAT": "277",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -652,7 +652,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "314",
+      "RANG_NAT": "315",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -677,7 +677,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "332",
+      "RANG_NAT": "333",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -702,7 +702,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "9",
+      "RANG_NAT": "10",
       "_classement_nom": "U18 Homme Arc Nu 2026"
     },
     {
@@ -1227,7 +1227,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "171",
+      "RANG_NAT": "172",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1252,7 +1252,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "175",
+      "RANG_NAT": "176",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1277,7 +1277,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "177",
+      "RANG_NAT": "178",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1302,7 +1302,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "184",
+      "RANG_NAT": "185",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1352,7 +1352,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "207",
+      "RANG_NAT": "208",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1377,7 +1377,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "225",
+      "RANG_NAT": "226",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1727,7 +1727,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "57",
+      "RANG_NAT": "56",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -1902,7 +1902,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "154",
+      "RANG_NAT": "155",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -1927,7 +1927,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "159",
+      "RANG_NAT": "160",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -1952,7 +1952,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "162",
+      "RANG_NAT": "163",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -2652,7 +2652,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "104",
+      "RANG_NAT": "106",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -2677,7 +2677,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "116",
+      "RANG_NAT": "117",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -2702,7 +2702,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "124",
+      "RANG_NAT": "126",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -2752,7 +2752,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "149",
+      "RANG_NAT": "151",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -2777,7 +2777,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "156",
+      "RANG_NAT": "158",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -2802,7 +2802,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "165",
+      "RANG_NAT": "167",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -2827,7 +2827,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "176",
+      "RANG_NAT": "178",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -2927,7 +2927,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "59",
+      "RANG_NAT": "60",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -2952,7 +2952,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "76",
+      "RANG_NAT": "77",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -2977,7 +2977,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "78",
+      "RANG_NAT": "79",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -3002,7 +3002,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "83",
+      "RANG_NAT": "85",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -3027,7 +3027,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "84",
+      "RANG_NAT": "86",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -3052,7 +3052,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "87",
+      "RANG_NAT": "89",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -3077,7 +3077,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "100",
+      "RANG_NAT": "102",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -3102,7 +3102,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "131",
+      "RANG_NAT": "133",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -3127,7 +3127,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "137",
+      "RANG_NAT": "139",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -3152,7 +3152,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "143",
+      "RANG_NAT": "145",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -3177,7 +3177,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "145",
+      "RANG_NAT": "147",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -4202,7 +4202,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "420",
+      "RANG_NAT": "422",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -4227,7 +4227,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "438",
+      "RANG_NAT": "441",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -4252,7 +4252,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "452",
+      "RANG_NAT": "455",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -4277,7 +4277,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "458",
+      "RANG_NAT": "461",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -4302,7 +4302,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "464",
+      "RANG_NAT": "467",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -4352,7 +4352,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "480",
+      "RANG_NAT": "483",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -4377,7 +4377,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "513",
+      "RANG_NAT": "516",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -4402,7 +4402,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "523",
+      "RANG_NAT": "527",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -4427,7 +4427,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "548",
+      "RANG_NAT": "551",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -4452,7 +4452,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "557",
+      "RANG_NAT": "559",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -4477,7 +4477,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "561",
+      "RANG_NAT": "563",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -4502,7 +4502,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "563",
+      "RANG_NAT": "566",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -4527,7 +4527,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "580",
+      "RANG_NAT": "583",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -4552,7 +4552,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "581",
+      "RANG_NAT": "584",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -4752,7 +4752,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "154",
+      "RANG_NAT": "155",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -4777,7 +4777,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "197",
+      "RANG_NAT": "198",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -4802,7 +4802,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "200",
+      "RANG_NAT": "201",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -4827,7 +4827,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "208",
+      "RANG_NAT": "209",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -4852,7 +4852,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "218",
+      "RANG_NAT": "219",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -4977,7 +4977,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "288",
+      "RANG_NAT": "286",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -5327,7 +5327,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "57",
+      "RANG_NAT": "59",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -5352,7 +5352,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "73",
+      "RANG_NAT": "74",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -8452,7 +8452,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "286",
+      "RANG_NAT": "287",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -8527,7 +8527,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "352",
+      "RANG_NAT": "353",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -8852,7 +8852,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "456",
+      "RANG_NAT": "457",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -8877,7 +8877,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "458",
+      "RANG_NAT": "459",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -8902,7 +8902,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "565",
+      "RANG_NAT": "566",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -8927,7 +8927,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "574",
+      "RANG_NAT": "575",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -8952,7 +8952,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "612",
+      "RANG_NAT": "613",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -8977,7 +8977,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "618",
+      "RANG_NAT": "619",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9002,7 +9002,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "632",
+      "RANG_NAT": "633",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9127,7 +9127,7 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
-      "RANG_NAT": "713",
+      "RANG_NAT": "712",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
