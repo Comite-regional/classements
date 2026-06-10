@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-10T07:33:23.683082Z",
+    "generated_at": "2026-06-10T10:05:59.826640Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -27,6 +27,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "24",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
@@ -52,6 +54,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "34",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
@@ -77,6 +81,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "41",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
@@ -102,6 +108,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "43",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
@@ -127,6 +135,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "59",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
@@ -152,6 +162,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "75",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
@@ -177,6 +189,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "83",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
@@ -202,6 +216,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "91",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
@@ -227,6 +243,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "95",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
@@ -252,6 +270,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "108",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
@@ -277,6 +297,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "129",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
@@ -302,6 +324,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "140",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
@@ -327,6 +351,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "148",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
@@ -352,6 +378,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "172",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
@@ -377,6 +405,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "61",
       "_classement_nom": "U11 Homme Arc Classique 2026"
     },
@@ -402,6 +432,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "98",
       "_classement_nom": "U11 Homme Arc Classique 2026"
     },
@@ -427,6 +459,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "18",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -452,6 +486,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "39",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -477,6 +513,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "40",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -502,6 +540,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "62",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -527,6 +567,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "76",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -552,6 +594,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "90",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -577,6 +621,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "97",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -602,6 +648,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "98",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -627,6 +675,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "99",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -652,6 +702,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "101",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -677,6 +729,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "103",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -702,6 +756,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "108",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -727,6 +783,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "117",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -752,6 +810,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "121",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -777,6 +837,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "129",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -802,6 +864,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "153",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -827,6 +891,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "155",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -852,6 +918,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "166",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -877,6 +945,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "168",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -902,6 +972,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "169",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -927,6 +999,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "172",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -952,6 +1026,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "178",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -977,6 +1053,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "180",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -1002,6 +1080,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "187",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -1027,6 +1107,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "220",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -1052,6 +1134,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "235",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -1077,6 +1161,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "262",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -1102,6 +1188,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "285",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
@@ -1127,6 +1215,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "17",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
@@ -1152,6 +1242,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "26",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
@@ -1177,6 +1269,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "31",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
@@ -1202,6 +1296,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "67",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
@@ -1227,6 +1323,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "69",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
@@ -1252,6 +1350,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "87",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
@@ -1277,6 +1377,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "88",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
@@ -1302,6 +1404,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "96",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
@@ -1327,6 +1431,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "123",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
@@ -1352,6 +1458,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "134",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
@@ -1377,6 +1485,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "153",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
@@ -1402,6 +1512,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "184",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
@@ -1427,6 +1539,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "210",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
@@ -1452,6 +1566,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "216",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
@@ -1477,6 +1593,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "22",
       "_classement_nom": "U13 Homme Arc Classique 2026"
     },
@@ -1502,6 +1620,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "60",
       "_classement_nom": "U13 Homme Arc Classique 2026"
     },
@@ -1527,6 +1647,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "112",
       "_classement_nom": "U13 Homme Arc Classique 2026"
     },
@@ -1552,6 +1674,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "132",
       "_classement_nom": "U13 Homme Arc Classique 2026"
     },
@@ -1577,6 +1701,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "133",
       "_classement_nom": "U13 Homme Arc Classique 2026"
     },
@@ -1602,6 +1728,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "161",
       "_classement_nom": "U13 Homme Arc Classique 2026"
     },
@@ -1627,6 +1755,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "170",
       "_classement_nom": "U13 Homme Arc Classique 2026"
     },
@@ -1652,6 +1782,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "183",
       "_classement_nom": "U13 Homme Arc Classique 2026"
     },
@@ -1677,6 +1809,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "196",
       "_classement_nom": "U13 Homme Arc Classique 2026"
     },
@@ -1702,6 +1836,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "225",
       "_classement_nom": "U13 Homme Arc Classique 2026"
     },
@@ -1727,6 +1863,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "230",
       "_classement_nom": "U13 Homme Arc Classique 2026"
     },
@@ -1752,6 +1890,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "55",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -1777,6 +1917,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "57",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -1802,6 +1944,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "63",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -1827,6 +1971,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "92",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -1852,6 +1998,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "94",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -1877,6 +2025,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "98",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -1902,6 +2052,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "100",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -1927,6 +2079,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "108",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -1952,6 +2106,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "119",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -1977,6 +2133,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "135",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2002,6 +2160,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "137",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2027,6 +2187,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "147",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2052,6 +2214,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "151",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2077,6 +2241,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "152",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2102,6 +2268,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "162",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2127,6 +2295,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "178",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2152,6 +2322,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "179",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2177,6 +2349,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "188",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2202,6 +2376,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "205",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2227,6 +2403,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "209",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2252,6 +2430,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "216",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2277,6 +2457,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "240",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2302,6 +2484,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "252",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2327,6 +2511,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "255",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2352,6 +2538,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "260",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2377,6 +2565,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "282",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2402,6 +2592,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "291",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2427,6 +2619,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "298",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2452,6 +2646,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "300",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2477,6 +2673,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "321",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2502,6 +2700,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "326",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2527,6 +2727,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "328",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2552,6 +2754,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "345",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2577,6 +2781,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "439",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2602,6 +2808,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "455",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2627,6 +2835,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "457",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2652,6 +2862,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "479",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2677,6 +2889,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "483",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2702,6 +2916,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "491",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2727,6 +2943,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "492",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2752,6 +2970,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "499",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2777,6 +2997,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "504",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2802,6 +3024,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "528",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2827,6 +3051,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "529",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2852,6 +3078,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "532",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2877,6 +3105,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "538",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2902,6 +3132,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "542",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2927,6 +3159,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "544",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2952,6 +3186,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "569",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -2977,6 +3213,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "571",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3002,6 +3240,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "572",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3027,6 +3267,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "578",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3052,6 +3294,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "590",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3077,6 +3321,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "594",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3102,6 +3348,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "605",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3127,6 +3375,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "606",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3152,6 +3402,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "609",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3177,6 +3429,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "612",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3202,6 +3456,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "626",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3227,6 +3483,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "642",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3252,6 +3510,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "651",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3277,6 +3537,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "673",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3302,6 +3564,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "701",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3327,6 +3591,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "718",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3352,6 +3618,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "720",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3377,6 +3645,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "737",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3402,6 +3672,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "764",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3427,6 +3699,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "780",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3452,6 +3726,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "781",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3477,6 +3753,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "827",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3502,6 +3780,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "848",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3527,6 +3807,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "853",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3552,6 +3834,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "880",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3577,6 +3861,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "897",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3602,6 +3888,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "909",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3627,6 +3915,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "914",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3652,6 +3942,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "917",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3677,6 +3969,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "919",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3702,6 +3996,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "936",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3727,6 +4023,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "942",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3752,6 +4050,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "949",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3777,6 +4077,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "961",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3802,6 +4104,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "963",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3827,6 +4131,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "964",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3852,6 +4158,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "965",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3877,6 +4185,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "969",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3902,6 +4212,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "988",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3927,6 +4239,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1013",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3952,6 +4266,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1017",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -3977,6 +4293,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1030",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4002,6 +4320,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1094",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4027,6 +4347,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1122",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4052,6 +4374,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1139",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4077,6 +4401,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1144",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4102,6 +4428,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1148",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4127,6 +4455,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1190",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4152,6 +4482,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1194",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4177,6 +4509,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1203",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4202,6 +4536,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1218",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4227,6 +4563,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1224",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4252,6 +4590,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1228",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4277,6 +4617,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1234",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4302,6 +4644,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1235",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4327,6 +4671,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1247",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4352,6 +4698,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1265",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4377,6 +4725,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1270",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4402,6 +4752,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1310",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4427,6 +4779,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1312",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4452,6 +4806,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1334",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4477,6 +4833,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1336",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4502,6 +4860,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1390",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4527,6 +4887,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1401",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4552,6 +4914,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1404",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4577,6 +4941,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1443",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4602,6 +4968,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1448",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4627,6 +4995,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1451",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4652,6 +5022,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1504",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4677,6 +5049,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1539",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4702,6 +5076,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1541",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4727,6 +5103,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1549",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4752,6 +5130,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1567",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4777,6 +5157,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1570",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4802,6 +5184,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1583",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4827,6 +5211,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1628",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4852,6 +5238,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1630",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4877,6 +5265,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1634",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4902,6 +5292,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1639",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4927,6 +5319,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1667",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4952,6 +5346,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1673",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -4977,6 +5373,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1683",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -5002,6 +5400,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1685",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -5027,6 +5427,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1722",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -5052,6 +5454,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1739",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -5077,6 +5481,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1749",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -5102,6 +5508,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1767",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -5127,6 +5535,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1773",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -5152,6 +5562,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1775",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -5177,6 +5589,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1791",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -5202,6 +5616,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1830",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -5227,6 +5643,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1841",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -5252,6 +5670,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1878",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -5277,6 +5697,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1881",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -5302,6 +5724,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1892",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -5327,6 +5751,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1897",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -5352,6 +5778,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1903",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -5377,6 +5805,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1908",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -5402,6 +5832,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1912",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -5427,6 +5859,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1920",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -5452,6 +5886,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1921",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -5477,6 +5913,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1934",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -5502,6 +5940,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1940",
       "_classement_nom": "Scratch Homme Classique 2026"
     },
@@ -5527,6 +5967,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "7",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
@@ -5552,6 +5994,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "72",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
@@ -5577,6 +6021,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "106",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
@@ -5602,6 +6048,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "142",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
@@ -5627,6 +6075,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "151",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
@@ -5652,6 +6102,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "157",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
@@ -5677,6 +6129,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "165",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
@@ -5702,6 +6156,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "169",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
@@ -5727,6 +6183,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "174",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
@@ -5752,6 +6210,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "27",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -5777,6 +6237,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "71",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -5802,6 +6264,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "99",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -5827,6 +6291,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "101",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -5852,6 +6318,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "102",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -5877,6 +6345,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "119",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -5902,6 +6372,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "123",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -5927,6 +6399,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "131",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -5952,6 +6426,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "135",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -5977,6 +6453,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "138",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6002,6 +6480,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "143",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6027,6 +6507,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "145",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6052,6 +6534,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "160",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6077,6 +6561,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "168",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6102,6 +6588,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "174",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6127,6 +6615,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "197",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6152,6 +6642,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "205",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6177,6 +6669,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "207",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6202,6 +6696,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "226",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6227,6 +6723,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "249",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6252,6 +6750,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "258",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6277,6 +6777,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "272",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6302,6 +6804,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "280",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6327,6 +6831,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "304",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6352,6 +6858,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "313",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6377,6 +6885,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "314",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6402,6 +6912,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "336",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6427,6 +6939,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "339",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6452,6 +6966,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "347",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6477,6 +6993,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "356",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6502,6 +7020,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "379",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6527,6 +7047,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "412",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6552,6 +7074,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "446",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6577,6 +7101,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "462",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6602,6 +7128,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "487",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6627,6 +7155,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "535",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6652,6 +7182,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "539",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6677,6 +7209,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "543",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6702,6 +7236,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "544",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6727,6 +7263,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "558",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6752,6 +7290,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "566",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6777,6 +7317,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "579",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6802,6 +7344,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "597",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6827,6 +7371,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "616",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6852,6 +7398,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "630",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6877,6 +7425,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "638",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6902,6 +7452,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "671",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6927,6 +7479,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "685",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6952,6 +7506,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "688",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -6977,6 +7533,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "705",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -7002,6 +7560,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "730",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -7027,6 +7587,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "731",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -7052,6 +7614,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "756",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -7077,6 +7641,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "760",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -7102,6 +7668,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "764",
       "_classement_nom": "Scratch Femme Classique 2026"
     },
@@ -7127,6 +7695,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1",
       "_classement_nom": "U11 Femme Arc Classique 2026"
     },
@@ -7152,6 +7722,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "17",
       "_classement_nom": "U11 Femme Arc Classique 2026"
     },
@@ -7177,6 +7749,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "46",
       "_classement_nom": "U11 Femme Arc Classique 2026"
     },
@@ -7202,6 +7776,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "48",
       "_classement_nom": "U11 Femme Arc Classique 2026"
     },
@@ -7227,6 +7803,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "62",
       "_classement_nom": "U11 Femme Arc Classique 2026"
     },
@@ -7252,6 +7830,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "64",
       "_classement_nom": "U11 Femme Arc Classique 2026"
     },
@@ -7277,6 +7857,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "68",
       "_classement_nom": "U11 Femme Arc Classique 2026"
     },
@@ -7302,6 +7884,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "70",
       "_classement_nom": "U11 Femme Arc Classique 2026"
     },
@@ -7327,6 +7911,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "25",
       "_classement_nom": "U21 Femme Arc Classique 2026"
     },
@@ -7352,6 +7938,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "26",
       "_classement_nom": "U21 Femme Arc Classique 2026"
     },
@@ -7377,6 +7965,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "38",
       "_classement_nom": "U21 Femme Arc Classique 2026"
     },
@@ -7402,6 +7992,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "41",
       "_classement_nom": "U21 Femme Arc Classique 2026"
     },
@@ -7427,6 +8019,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "51",
       "_classement_nom": "U21 Femme Arc Classique 2026"
     },
@@ -7452,6 +8046,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "58",
       "_classement_nom": "U21 Femme Arc Classique 2026"
     },
@@ -7477,6 +8073,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "119",
       "_classement_nom": "U21 Femme Arc Classique 2026"
     },
@@ -7502,6 +8100,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "120",
       "_classement_nom": "U21 Femme Arc Classique 2026"
     },
@@ -7527,6 +8127,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "22",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
@@ -7552,6 +8154,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "32",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
@@ -7577,6 +8181,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "48",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
@@ -7602,6 +8208,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "49",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
@@ -7627,6 +8235,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "66",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
@@ -7652,6 +8262,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "77",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
@@ -7677,6 +8289,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "137",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
@@ -7702,6 +8316,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "144",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
@@ -7727,6 +8343,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "153",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
@@ -7752,6 +8370,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "158",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
@@ -7777,6 +8397,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "161",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
@@ -7802,6 +8424,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "163",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
@@ -7827,6 +8451,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "171",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
@@ -7852,6 +8478,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "188",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
@@ -7877,6 +8505,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "224",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
@@ -7902,6 +8532,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "238",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
@@ -7927,6 +8559,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "16",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
@@ -7952,6 +8586,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "50",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
@@ -7977,6 +8613,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "72",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
@@ -8002,6 +8640,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "81",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
@@ -8027,6 +8667,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "135",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
@@ -8052,6 +8694,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "162",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
@@ -8077,6 +8721,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "176",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
@@ -8102,6 +8748,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "192",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
@@ -8127,6 +8775,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "202",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
@@ -8152,6 +8802,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "32",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8177,6 +8829,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "34",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8202,6 +8856,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "56",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8227,6 +8883,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "57",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8252,6 +8910,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "61",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8277,6 +8937,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "78",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8302,6 +8964,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "84",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8327,6 +8991,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "86",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8352,6 +9018,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "100",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8377,6 +9045,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "124",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8402,6 +9072,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "143",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8427,6 +9099,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "153",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8452,6 +9126,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "155",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8477,6 +9153,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "169",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8502,6 +9180,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "220",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8527,6 +9207,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "254",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8552,6 +9234,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "259",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8577,6 +9261,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "268",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8602,6 +9288,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "270",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8627,6 +9315,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "278",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8652,6 +9342,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "297",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8677,6 +9369,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "331",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8702,6 +9396,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "332",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8727,6 +9423,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "373",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8752,6 +9450,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "375",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8777,6 +9477,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "376",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8802,6 +9504,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "381",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8827,6 +9531,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "384",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8852,6 +9558,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "385",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8877,6 +9585,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "386",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8902,6 +9612,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "391",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8927,6 +9639,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "398",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8952,6 +9666,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "436",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -8977,6 +9693,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "477",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -9002,6 +9720,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "497",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -9027,6 +9747,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "501",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -9052,6 +9774,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "507",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -9077,6 +9801,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "550",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -9102,6 +9828,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "565",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -9127,6 +9855,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "590",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -9152,6 +9882,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "610",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -9177,6 +9909,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "625",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -9202,6 +9936,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "643",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -9227,6 +9963,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "648",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -9252,6 +9990,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "658",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -9277,6 +10017,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "662",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -9302,6 +10044,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "669",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -9327,6 +10071,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "701",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -9352,6 +10098,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "710",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
@@ -9377,6 +10125,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "19",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -9402,6 +10152,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "56",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -9427,6 +10179,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "64",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -9452,6 +10206,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "67",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -9477,6 +10233,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "69",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -9502,6 +10260,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "76",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -9527,6 +10287,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "88",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -9552,6 +10314,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "103",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -9577,6 +10341,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "114",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -9602,6 +10368,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "118",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -9627,6 +10395,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "139",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -9652,6 +10422,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "141",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -9677,6 +10449,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "194",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -9702,6 +10476,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "233",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -9727,6 +10503,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "234",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -9752,6 +10530,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "240",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -9777,6 +10557,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "246",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -9802,6 +10584,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "251",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -9827,6 +10611,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "264",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -9852,6 +10638,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "270",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -9877,6 +10665,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "288",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -9902,6 +10692,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "292",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -9927,6 +10719,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "298",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -9952,6 +10746,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "307",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -9977,6 +10773,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "308",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026"
     },
@@ -10002,6 +10800,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "7",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10027,6 +10827,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "15",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10052,6 +10854,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "20",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10077,6 +10881,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "25",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10102,6 +10908,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "31",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10127,6 +10935,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "40",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10152,6 +10962,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "42",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10177,6 +10989,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "50",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10202,6 +11016,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "52",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10227,6 +11043,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "58",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10252,6 +11070,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "76",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10277,6 +11097,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "80",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10302,6 +11124,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "96",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10327,6 +11151,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "107",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10352,6 +11178,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "150",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10377,6 +11205,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "160",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10402,6 +11232,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "162",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10427,6 +11259,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "166",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10452,6 +11286,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "167",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10477,6 +11313,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "168",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10502,6 +11340,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "170",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10527,6 +11367,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "183",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10552,6 +11394,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "186",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10577,6 +11421,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "188",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10602,6 +11448,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "207",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10627,6 +11475,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "215",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10652,6 +11502,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "219",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10677,6 +11529,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "227",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10702,6 +11556,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "229",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10727,6 +11583,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "231",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10752,6 +11610,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "239",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10777,6 +11637,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "248",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10802,6 +11664,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "283",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10827,6 +11691,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "292",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10852,6 +11718,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "343",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10877,6 +11745,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "358",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10902,6 +11772,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "376",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10927,6 +11799,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "386",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10952,6 +11826,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "394",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -10977,6 +11853,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "414",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11002,6 +11880,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "418",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11027,6 +11907,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "427",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11052,6 +11934,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "429",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11077,6 +11961,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "459",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11102,6 +11988,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "468",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11127,6 +12015,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "502",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11152,6 +12042,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "509",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11177,6 +12069,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "514",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11202,6 +12096,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "529",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11227,6 +12123,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "540",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11252,6 +12150,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "543",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11277,6 +12177,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "547",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11302,6 +12204,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "564",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11327,6 +12231,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "590",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11352,6 +12258,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "603",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11377,6 +12285,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "605",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11402,6 +12312,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "638",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11427,6 +12339,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "662",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11452,6 +12366,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "695",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11477,6 +12393,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "712",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11502,6 +12420,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "719",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11527,6 +12447,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "731",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11552,6 +12474,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "734",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11577,6 +12501,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "757",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11602,6 +12528,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "760",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11627,6 +12555,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "765",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11652,6 +12582,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "778",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11677,6 +12609,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "809",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11702,6 +12636,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "819",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11727,6 +12663,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "842",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11752,6 +12690,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "852",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11777,6 +12717,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "868",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11802,6 +12744,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "875",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11827,6 +12771,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "882",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11852,6 +12798,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "890",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11877,6 +12825,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "900",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11902,6 +12852,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "903",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
@@ -11927,6 +12879,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "6",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
@@ -11952,6 +12906,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "17",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
@@ -11977,6 +12933,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "18",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
@@ -12002,6 +12960,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "28",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
@@ -12027,6 +12987,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "35",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
@@ -12052,6 +13014,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "40",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
@@ -12077,6 +13041,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "50",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
@@ -12102,6 +13068,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "85",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
@@ -12127,6 +13095,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "103",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
@@ -12152,6 +13122,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "109",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
@@ -12177,6 +13149,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "112",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
@@ -12202,6 +13176,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "113",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
@@ -12227,6 +13203,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "126",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
@@ -12252,6 +13230,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "143",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
@@ -12277,6 +13257,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "160",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
@@ -12302,6 +13284,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "182",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
@@ -12327,6 +13311,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "183",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
@@ -12352,6 +13338,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "216",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
@@ -12377,6 +13365,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
@@ -12402,6 +13392,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "17",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
@@ -12427,6 +13419,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "22",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
@@ -12452,6 +13446,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "36",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
@@ -12477,6 +13473,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "39",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
@@ -12502,6 +13500,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "48",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
@@ -12527,6 +13527,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "77",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
@@ -12552,6 +13554,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "86",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
@@ -12577,6 +13581,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "101",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
@@ -12602,6 +13608,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "110",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
@@ -12627,6 +13635,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "120",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
@@ -12652,6 +13662,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "121",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
@@ -12677,6 +13689,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "189",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
@@ -12702,6 +13716,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "210",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
@@ -12727,6 +13743,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "216",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
@@ -12752,6 +13770,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "221",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
@@ -12777,6 +13797,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "228",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
@@ -12802,6 +13824,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "235",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
@@ -12827,6 +13851,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "250",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
@@ -12852,6 +13878,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "285",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
@@ -12877,6 +13905,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "309",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
@@ -12902,6 +13932,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "332",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
@@ -12927,6 +13959,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "361",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
@@ -12952,6 +13986,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "23",
       "_classement_nom": "Senior 3 Femme Arc Classique 2026"
     },
@@ -12977,6 +14013,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "26",
       "_classement_nom": "Senior 3 Femme Arc Classique 2026"
     },
@@ -13002,6 +14040,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "42",
       "_classement_nom": "Senior 3 Femme Arc Classique 2026"
     },
@@ -13027,6 +14067,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "61",
       "_classement_nom": "Senior 3 Femme Arc Classique 2026"
     },
@@ -13052,6 +14094,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "67",
       "_classement_nom": "Senior 3 Femme Arc Classique 2026"
     },
@@ -13077,6 +14121,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "21",
       "_classement_nom": "U18-U21 Homme Arc à Poulies 2026"
     },
@@ -13102,6 +14148,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "47",
       "_classement_nom": "U18-U21 Homme Arc à Poulies 2026"
     },
@@ -13127,6 +14175,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "51",
       "_classement_nom": "U18-U21 Homme Arc à Poulies 2026"
     },
@@ -13152,6 +14202,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "10",
       "_classement_nom": "U18 Homme Arc à Poulies 2026"
     },
@@ -13177,6 +14229,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "16",
       "_classement_nom": "U18 Homme Arc à Poulies 2026"
     },
@@ -13202,6 +14256,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "20",
       "_classement_nom": "U18 Homme Arc à Poulies 2026"
     },
@@ -13227,6 +14283,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "64",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13252,6 +14310,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "91",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13277,6 +14337,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "106",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13302,6 +14364,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "109",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13327,6 +14391,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "118",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13352,6 +14418,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "120",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13377,6 +14445,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "122",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13402,6 +14472,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "126",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13427,6 +14499,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "130",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13452,6 +14526,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "135",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13477,6 +14553,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "143",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13502,6 +14580,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "151",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13527,6 +14607,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "154",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13552,6 +14634,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "155",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13577,6 +14661,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "176",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13602,6 +14688,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "207",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13627,6 +14715,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "217",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13652,6 +14742,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "222",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13677,6 +14769,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "253",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13702,6 +14796,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "256",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13727,6 +14823,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "284",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13752,6 +14850,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "301",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13777,6 +14877,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "314",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13802,6 +14904,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "324",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13827,6 +14931,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "352",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13852,6 +14958,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "370",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13877,6 +14985,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "392",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13902,6 +15012,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "449",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13927,6 +15039,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "454",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13952,6 +15066,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "586",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -13977,6 +15093,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "588",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14002,6 +15120,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "614",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14027,6 +15147,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "625",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14052,6 +15174,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "635",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14077,6 +15201,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "645",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14102,6 +15228,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "648",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14127,6 +15255,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "669",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14152,6 +15282,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "699",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14177,6 +15309,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "701",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14202,6 +15336,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "705",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14227,6 +15363,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "722",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14252,6 +15390,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "724",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14277,6 +15417,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "727",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14302,6 +15444,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "757",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14327,6 +15471,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "768",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14352,6 +15498,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "774",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14377,6 +15525,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "805",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14402,6 +15552,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "844",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14427,6 +15579,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "845",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14452,6 +15606,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "849",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14477,6 +15633,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "855",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14502,6 +15660,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "864",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14527,6 +15687,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "883",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14552,6 +15714,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "915",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14577,6 +15741,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "942",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14602,6 +15768,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "951",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14627,6 +15795,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "953",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14652,6 +15822,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "957",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14677,6 +15849,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "974",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14702,6 +15876,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1034",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14727,6 +15903,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1055",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14752,6 +15930,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1057",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14777,6 +15957,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1136",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14802,6 +15984,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1150",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14827,6 +16011,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1165",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14852,6 +16038,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1171",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14877,6 +16065,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1182",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14902,6 +16092,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1228",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14927,6 +16119,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1230",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14952,6 +16146,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1239",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -14977,6 +16173,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1257",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -15002,6 +16200,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1267",
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
@@ -15027,6 +16227,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "25",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15052,6 +16254,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "29",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15077,6 +16281,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "46",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15102,6 +16308,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "52",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15127,6 +16335,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "66",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15152,6 +16362,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "78",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15177,6 +16389,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "81",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15202,6 +16416,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "97",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15227,6 +16443,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "104",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15252,6 +16470,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "113",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15277,6 +16497,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "133",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15302,6 +16524,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "138",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15327,6 +16551,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "156",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15352,6 +16578,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "160",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15377,6 +16605,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "164",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15402,6 +16632,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "169",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15427,6 +16659,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "180",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15452,6 +16686,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "188",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15477,6 +16713,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "222",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15502,6 +16740,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "232",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15527,6 +16767,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "245",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15552,6 +16794,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "327",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15577,6 +16821,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "338",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15602,6 +16848,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "353",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15627,6 +16875,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "368",
       "_classement_nom": "Scratch Femme Poulies 2026"
     },
@@ -15652,6 +16902,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "15",
       "_classement_nom": "U18-U21 Femme Arc à Poulies 2026"
     },
@@ -15677,6 +16929,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "12",
       "_classement_nom": "U21 Femme Arc à Poulies 2026"
     },
@@ -15702,6 +16956,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "55",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
@@ -15727,6 +16983,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "67",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
@@ -15752,6 +17010,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "77",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
@@ -15777,6 +17037,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "78",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
@@ -15802,6 +17064,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "101",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
@@ -15827,6 +17091,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "121",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
@@ -15852,6 +17118,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "127",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
@@ -15877,6 +17145,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "131",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
@@ -15902,6 +17172,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "138",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
@@ -15927,6 +17199,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "161",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
@@ -15952,6 +17226,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "228",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
@@ -15977,6 +17253,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "258",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
@@ -16002,6 +17280,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "272",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
@@ -16027,6 +17307,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "280",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
@@ -16052,6 +17334,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "301",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
@@ -16077,6 +17361,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "306",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
@@ -16102,6 +17388,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "330",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
@@ -16127,6 +17415,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "352",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
@@ -16152,6 +17442,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "17",
       "_classement_nom": "Senior 1 Femme Arc à Poulies 2026"
     },
@@ -16177,6 +17469,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "30",
       "_classement_nom": "Senior 1 Femme Arc à Poulies 2026"
     },
@@ -16202,6 +17496,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "32",
       "_classement_nom": "Senior 1 Femme Arc à Poulies 2026"
     },
@@ -16227,6 +17523,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "34",
       "_classement_nom": "Senior 1 Femme Arc à Poulies 2026"
     },
@@ -16252,6 +17550,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "47",
       "_classement_nom": "Senior 1 Femme Arc à Poulies 2026"
     },
@@ -16277,6 +17577,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "48",
       "_classement_nom": "Senior 1 Femme Arc à Poulies 2026"
     },
@@ -16302,6 +17604,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "71",
       "_classement_nom": "Senior 1 Femme Arc à Poulies 2026"
     },
@@ -16327,6 +17631,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "81",
       "_classement_nom": "Senior 1 Femme Arc à Poulies 2026"
     },
@@ -16352,6 +17658,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "108",
       "_classement_nom": "Senior 1 Femme Arc à Poulies 2026"
     },
@@ -16377,6 +17685,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "17",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -16402,6 +17712,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "36",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -16427,6 +17739,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "43",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -16452,6 +17766,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "46",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -16477,6 +17793,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "49",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -16502,6 +17820,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "53",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -16527,6 +17847,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "56",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -16552,6 +17874,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "72",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -16577,6 +17901,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "90",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -16602,6 +17928,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "93",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -16627,6 +17955,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "113",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -16652,6 +17982,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "115",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -16677,6 +18009,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "255",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -16702,6 +18036,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "262",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -16727,6 +18063,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "268",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -16752,6 +18090,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "272",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -16777,6 +18117,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "277",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -16802,6 +18144,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "278",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -16827,6 +18171,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "303",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -16852,6 +18198,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "305",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -16877,6 +18225,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "312",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -16902,6 +18252,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "314",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -16927,6 +18279,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "332",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -16952,6 +18306,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "370",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -16977,6 +18333,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "373",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -17002,6 +18360,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "378",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -17027,6 +18387,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "407",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -17052,6 +18414,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "410",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -17077,6 +18441,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "418",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -17102,6 +18468,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "457",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -17127,6 +18495,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "462",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -17152,6 +18522,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "506",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -17177,6 +18549,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "519",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -17202,6 +18576,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "541",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -17227,6 +18603,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "542",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -17252,6 +18630,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "558",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
@@ -17277,6 +18657,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "7",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
@@ -17302,6 +18684,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "33",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
@@ -17327,6 +18711,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "42",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
@@ -17352,6 +18738,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "51",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
@@ -17377,6 +18765,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "73",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
@@ -17402,6 +18792,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "77",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
@@ -17427,6 +18819,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "79",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
@@ -17452,6 +18846,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "88",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
@@ -17477,6 +18873,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "90",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
@@ -17502,6 +18900,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "108",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
@@ -17527,6 +18927,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "153",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
@@ -17552,6 +18954,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "157",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
@@ -17577,6 +18981,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "165",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
@@ -17602,6 +19008,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "6",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
@@ -17627,6 +19035,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "7",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
@@ -17652,6 +19062,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "8",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
@@ -17677,6 +19089,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "29",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
@@ -17702,6 +19116,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "41",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
@@ -17727,6 +19143,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "65",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
@@ -17752,6 +19170,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "119",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
@@ -17777,6 +19197,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "126",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
@@ -17802,6 +19224,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "132",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
@@ -17827,6 +19251,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "138",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
@@ -17852,6 +19278,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "151",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
@@ -17877,6 +19305,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "236",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
@@ -17902,6 +19332,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "241",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
@@ -17927,6 +19359,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "263",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
@@ -17952,6 +19386,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "267",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
@@ -17977,6 +19413,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "1",
       "_classement_nom": "Senior 3 Femme Arc à Poulies 2026"
     },
@@ -18002,6 +19440,8 @@
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "I",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
       "RANG_NAT": "7",
       "_classement_nom": "Senior 3 Femme Arc à Poulies 2026"
     }
