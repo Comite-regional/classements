@@ -137,13 +137,9 @@ def make_password() -> str:
     return paris_time.strftime("%Y%m%d%H%M")
 
 
-def get_token(session: requests.Session) -> str:
-    """Obtient un token valide 1h.
-
-    NOTE : l'URL exacte est à vérifier dans la doc Postman.
-    Essaie les deux variantes courantes.
-    """
-    url = f"{BASE_URL}/Classements/GetToken"
+def get_token(session: requests.Session, namespace: str = "Classements") -> str:
+    """Obtient un token valide 1h pour le namespace donné."""
+    url = f"{BASE_URL}/{namespace}/GetToken"
     params = {
         "sessionIdentite": SESSION_IDENTITE,
         "password": make_password(),
@@ -163,12 +159,12 @@ def get_token(session: requests.Session) -> str:
             or data.get("Token")
         )
         if token:
-            log.info("Token obtenu ✓")
+            log.info("Token %s obtenu ✓", namespace)
             return token
         raise RuntimeError(f"Réponse OK mais token absent : {data}")
     except Exception as e:
         raise RuntimeError(
-            f"Impossible d'obtenir un token FFTA.\n"
+            f"Impossible d'obtenir un token FFTA ({namespace}).\n"
             f"URL : {url}\n"
             f"Erreur : {e}\n"
             f"Vérifie le secret FFTA_SESSION_IDENTITE dans GitHub → Settings → Secrets."
@@ -539,7 +535,8 @@ def run():
     session.headers["Accept"] = "application/json"
 
     log.info("Obtention du token FFTA…")
-    token = get_token(session)
+    token = get_token(session, "Classements")
+    token_resultats = get_token(session, "Resultats")
 
     results: dict[str, list] = {}
 
@@ -586,7 +583,7 @@ def run():
     ok, errors = 0, 0
     for i, lic in enumerate(licences, 1):
         try:
-            data = api_get(session, "Resultats/ResultatsParArcher", token,
+            data = api_get(session, "Resultats/ResultatsParArcher", token_resultats,
                            NumeroLicence=lic, SaisonAnnee=SAISON)
             out_path = palmares_dir / f"{lic}.json"
             out_path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
