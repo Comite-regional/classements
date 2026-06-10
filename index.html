@@ -4870,11 +4870,11 @@ document.addEventListener('DOMContentLoaded', () => {
 }
 </style>
 
-<!-- ========== MODAL INSCRITS CR TAE I & TAE N ========== -->
+<!-- ========== MODAL INSCRITS CR TAE I / TAE N / Tir 18m ========== -->
 <div id="taeCrOverlay" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:9999;"></div>
 <div id="taeCrModal" style="display:none;position:fixed;inset:3% 3% auto 3%;max-height:94vh;background:#fff;border-radius:14px;z-index:10000;box-shadow:0 12px 40px rgba(0,0,0,.35);overflow:hidden;flex-direction:column;">
   <div style="display:flex;align-items:center;justify-content:space-between;padding:12px 16px;border-bottom:1px solid #e5e7eb;gap:10px;flex-shrink:0;">
-    <div id="taeCrTitle" style="font-weight:800;font-size:15px;color:#1f2358;">Inscrits Championnat Régional — TAE I &amp; TAE N</div>
+    <div id="taeCrTitle" style="font-weight:800;font-size:15px;color:#1f2358;">Inscrits Championnat Régional</div>
     <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
       <input id="taeCrSearch" placeholder="Rechercher (nom, licence, club…)" style="padding:7px 10px;border:1px solid #d1d5db;border-radius:8px;min-width:220px;" type="search"/>
       <button id="taeCrExport" style="padding:8px 12px;border-radius:8px;border:none;background:#16a34a;color:#fff;font-weight:700;cursor:pointer;">Exporter CSV</button>
@@ -4895,6 +4895,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const exportBtn= document.getElementById('taeCrExport');
   const searchEl = document.getElementById('taeCrSearch');
   const btn      = document.getElementById('btnTaeCR');
+
+  // Config par discipline : label, couleur onglet, nb scores minimum pour être "valide"
+  const DISC_CONFIG = {
+    'TAE I':   { label:'TAE International', color:'#2d2885', minScores:2, scoreLabel:'Moy. (2)' },
+    'TAE N':   { label:'TAE National',      color:'#0e7490', minScores:2, scoreLabel:'Moy. (2)' },
+    'Tir 18m': { label:'Tir à 18m',         color:'#166534', minScores:1, scoreLabel:'Moy. (3)' },
+  };
+  const ALL_DISCS = ['TAE I','TAE N','Tir 18m'];
 
   function openModal(){ overlay.style.display='block'; modal.style.display='flex'; }
   function closeModal(){ overlay.style.display='none'; modal.style.display='none'; }
@@ -4920,15 +4928,20 @@ document.addEventListener('DOMContentLoaded', () => {
     bodyEl.innerHTML = '<div style="color:#64748b;padding:20px;">Chargement des données…</div>';
     summary.innerHTML = '';
 
-    const loadSafe = async f => { try{ return await loadCSV(f); }catch(_){ return []; } };
+    const loadSafe      = async f => { try{ return await loadCSV(f);  }catch(_){ return []; } };
+    const loadSafeJSON  = async f => { try{
+      const r = await fetch(f+'?_t='+Date.now(), {cache:'no-store'});
+      return r.ok ? (await r.json()) : null;
+    }catch(_){ return null; } };
 
-    const [inscRaw, taeRaw, quotaRaw] = await Promise.all([
+    const [inscRaw, taeRaw, quotaRaw, json18m] = await Promise.all([
       loadSafe('Inscriptions CR.csv'),
       loadSafe('TAE.csv'),
-      loadSafe('Quotas.csv')
+      loadSafe('Quotas.csv'),
+      loadSafeJSON('data/Tir 18m.json'),
     ]);
 
-    // Quota map: "DISC|CAT|SEXE|ARME" → n  (empty cat for BB)
+    // ── Quota map: "DISC|CAT|SEXE|ARME" → n ──────────────
     const quotaMap = {};
     quotaRaw.forEach(r=>{
       const disc = normUp(r.DISCIPLINE||'');
@@ -4940,53 +4953,53 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     function getQuota(disc, cat, sexe, arme){
       return quotaMap[`${disc}|${cat}|${sexe}|${arme}`]
-          || quotaMap[`${disc}||${sexe}|${arme}`]  // fallback BB (cat vide)
+          || quotaMap[`${disc}||${sexe}|${arme}`]
           || null;
     }
 
-    // TAE scores map: "LIC|TYPE" → [score1, score2, ...] (tous les scores valides, triés desc)
-    const taeScoreMap = {};
+    // ── Scores TAE (TAE.csv) : "LIC|TYPE" → scores[] ─────
+    const taeScoreMap = {}, taeRankMap = {};
     taeRaw.forEach(r=>{
       const lic  = normLic(r.NO_LICENCE||r.LICENCE||'');
       const type = normUp(r.TYPE||'');
       if(!lic || !['I','N'].includes(type)) return;
       const key = lic+'|'+type;
-      const existing = taeScoreMap[key] || [];
-      [r.SCORE1, r.SCORE2, r.SCORE3].forEach(s=>{
-        const v = parseFloat(s)||0;
-        if(v > 0) existing.push(v);
-      });
-      taeScoreMap[key] = existing;
+      const sc = taeScoreMap[key] || [];
+      [r.SCORE1, r.SCORE2, r.SCORE3].forEach(s=>{ const v=parseFloat(s)||0; if(v>0) sc.push(v); });
+      taeScoreMap[key] = sc;
+      const rang = parseInt(r.RANG_LIGUE||r.RANG||0, 10);
+      if(rang>0 && (!taeRankMap[key] || rang<taeRankMap[key])) taeRankMap[key] = rang;
     });
 
-    // Rang ligue TAE: "LIC|TYPE" → meilleur rang (plus bas = meilleur)
-    const taeRankMap = {};
-    taeRaw.forEach(r=>{
-      const lic  = normLic(r.NO_LICENCE||r.LICENCE||'');
-      const type = normUp(r.TYPE||'');
-      if(!lic || !['I','N'].includes(type)) return;
-      const rang = parseInt(r.RANG_LIGUE||r.RANG||0, 10);
-      if(rang > 0){
-        const key = lic+'|'+type;
-        if(!taeRankMap[key] || rang < taeRankMap[key]) taeRankMap[key] = rang;
+    // ── Scores 18m (Tir 18m.json) : LIC → {scores[], ligueRank} ─
+    const s18mMap = {};
+    const rows18m = (json18m && json18m.rows) || [];
+    rows18m.forEach(r=>{
+      const lic = normLic(r.NO_LICENCE||'');
+      if(!lic) return;
+      const scores = [r.SCORE1, r.SCORE2, r.SCORE3]
+        .map(s=>parseFloat(s)||0).filter(v=>v>0).sort((a,b)=>b-a);
+      const rang = parseInt(r.Rang_ligue||r.RANG||0, 10);
+      if(!s18mMap[lic] || (scores[0]||0) > (s18mMap[lic].scores[0]||0)){
+        s18mMap[lic] = { scores, ligueRank: rang||null };
       }
     });
 
-    // Colonnes discipline dans Inscriptions CR
+    // ── Colonnes Inscriptions CR.csv ──────────────────────
     const firstRow = inscRaw[0] || {};
-    const hLic  = findKey(firstRow, /licen/i) || findKey(firstRow, /lic/i);
-    const hNom  = findKey(firstRow, /^nom$/i);
+    const hLic    = findKey(firstRow, /licen/i) || findKey(firstRow, /lic/i);
+    const hNom    = findKey(firstRow, /^nom$/i);
     const hPrenom = findKey(firstRow, /^pr[ée]nom$/i);
-    const hCat  = findKey(firstRow, /cat[ée]g/i) || findKey(firstRow, /^cat$/i);
-    const hSexe = findKey(firstRow, /sexe/i);
-    const hArme = findKey(firstRow, /arme/i);
-    const hClub = findKey(firstRow, /^club$/i);
-    const hTaeI = findKey(firstRow, /TAE\s*I\b/i);
-    const hTaeN = findKey(firstRow, /TAE\s*N\b/i);
+    const hCat    = findKey(firstRow, /cat[ée]g/i) || findKey(firstRow, /^cat$/i);
+    const hSexe   = findKey(firstRow, /sexe/i);
+    const hArme   = findKey(firstRow, /arme/i);
+    const hClub   = findKey(firstRow, /^club$/i);
+    const hTaeI   = findKey(firstRow, /TAE\s*I\b/i);
+    const hTaeN   = findKey(firstRow, /TAE\s*N\b/i);
+    const hTir18m = findKey(firstRow, /18\s*m|18m/i) || findKey(firstRow, /tir.*18/i);
 
-    const DISCS = ['TAE I','TAE N'];
-    const typeByDisc = {'TAE I':'I','TAE N':'N'};
-    const allGroups = {'TAE I':{}, 'TAE N':{}};
+    const discHeaders = {'TAE I':hTaeI, 'TAE N':hTaeN, 'Tir 18m':hTir18m};
+    const allGroups = {'TAE I':{}, 'TAE N':{}, 'Tir 18m':{}};
     const BB_SCRATCH_CATS = ['U21','S1','S2','S3'];
 
     inscRaw.forEach(r=>{
@@ -4999,18 +5012,32 @@ document.addEventListener('DOMContentLoaded', () => {
       const club   = normUp(hClub   ? r[hClub]   : '');
       if(!lic || !cat || !sexe || !arme) return;
 
-      DISCS.forEach(disc=>{
-        const hDisc = disc==='TAE I' ? hTaeI : hTaeN;
+      ALL_DISCS.forEach(disc=>{
+        const hDisc = discHeaders[disc];
         if(!hDisc || !truthy(r[hDisc])) return;
 
-        const type  = typeByDisc[disc];
-        const sKey  = lic+'|'+type;
-        const rawSc = (taeScoreMap[sKey]||[]).slice().sort((a,b)=>b-a);
-        const best2 = rawSc.slice(0,2);
-        const total = best2.length ? best2.reduce((s,x)=>s+x, 0) / best2.length : 0;
-        const ligueRank = taeRankMap[sKey] || null;
+        let score1=0, score2=0, score3=0, total=0, nbScores=0, ligueRank=null;
 
-        // BB adultes (U21+S1+S2+S3) → scratch par sexe
+        if(disc === 'TAE I' || disc === 'TAE N'){
+          const type = disc==='TAE I' ? 'I' : 'N';
+          const sKey = lic+'|'+type;
+          const rawSc = (taeScoreMap[sKey]||[]).slice().sort((a,b)=>b-a);
+          const best2 = rawSc.slice(0,2);
+          score1 = best2[0]||0; score2 = best2[1]||0;
+          nbScores = best2.length;
+          total = nbScores ? (score1+score2)/nbScores : 0;
+          ligueRank = taeRankMap[sKey]||null;
+        } else { // Tir 18m
+          const d = s18mMap[lic];
+          if(d){
+            const sc = d.scores;
+            score1=sc[0]||0; score2=sc[1]||0; score3=sc[2]||0;
+            nbScores = sc.length;
+            total = nbScores ? sc.reduce((s,x)=>s+x,0)/nbScores : 0;
+            ligueRank = d.ligueRank;
+          }
+        }
+
         const isBBScratch = arme==='BB' && BB_SCRATCH_CATS.includes(cat);
         const gk = isBBScratch ? ('SCRATCH|'+sexe+'|BB') : (cat+'|'+sexe+'|'+arme);
 
@@ -5023,13 +5050,13 @@ document.addEventListener('DOMContentLoaded', () => {
             allGroups[disc][gk] = {disc, cat, sexe, arme, label:`${cat} ${sexe} ${arme}`, quota, archers:[], isScratch:false};
           }
         }
-        // cat individuelle toujours stockée dans l'archer pour l'affichage scratch
-        allGroups[disc][gk].archers.push({lic, nom, prenom, cat, club, score1:best2[0]||0, score2:best2[1]||0, total, nbScores:best2.length, ligueRank});
+        allGroups[disc][gk].archers.push({lic, nom, prenom, cat, club, score1, score2, score3, total, nbScores, ligueRank});
       });
     });
 
-    // Trier les archers (2 meilleurs scores) et assigner rang + statut
-    DISCS.forEach(disc=>{
+    // Trier et assigner rang + statut
+    ALL_DISCS.forEach(disc=>{
+      const minSc = DISC_CONFIG[disc].minScores;
       Object.values(allGroups[disc]).forEach(g=>{
         g.archers.sort((a,b)=>{
           if(b.total !== a.total) return b.total - a.total;
@@ -5039,6 +5066,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const q = g.quota||0;
         g.archers.forEach((a,i)=>{
           a.rang = i+1;
+          a.isIncomplete = a.nbScores < minSc;
           a.status = q>0 ? (i+1<=q ? 'Inscrit' : 'Hors quotas') : '—';
         });
       });
@@ -5046,29 +5074,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
     _allGroups = allGroups;
     renderGroups(allGroups, '');
-    // Titre initial = premier onglet affiché (TAE International)
+
     const titleEl = document.getElementById('taeCrTitle');
     if(titleEl) titleEl.textContent = 'Inscrits Championnat Régional — TAE International';
 
-    let totI=0, totN=0;
-    Object.values(allGroups['TAE I']).forEach(g=>totI+=g.archers.length);
-    Object.values(allGroups['TAE N']).forEach(g=>totN+=g.archers.length);
-    summary.innerHTML = `<b>TAE International :</b> ${totI} inscrit${totI>1?'s':''} &nbsp;|&nbsp; <b>TAE National :</b> ${totN} inscrit${totN>1?'s':''}
-      &nbsp;&nbsp;<span style="color:#9333ea;font-weight:700;">■</span> = moins de 2 scores valides`;
+    const counts = {};
+    ALL_DISCS.forEach(disc=>{
+      counts[disc] = Object.values(allGroups[disc]).reduce((s,g)=>s+g.archers.length,0);
+    });
+    summary.innerHTML = ALL_DISCS.map(d=>`<b>${DISC_CONFIG[d].label} :</b> ${counts[d]} inscrit${counts[d]>1?'s':''}`).join(' &nbsp;|&nbsp; ')
+      + ' &nbsp;&nbsp;<span style="color:#9333ea;font-weight:700;">■</span> = score(s) incomplet(s)';
   }
 
   // ── Render ─────────────────────────────────────────────
   const ARME_ORDER = ['CL','CO','BB'];
   function sortGroups(groups){
     return Object.values(groups).sort((a,b)=>{
-      // 1) Arme : CL → CO → BB
       const aa=ARME_ORDER.indexOf(a.arme), ba=ARME_ORDER.indexOf(b.arme);
       if(aa!==ba) return (aa<0?99:aa)-(ba<0?99:ba);
-      // 2) Catégorie : ordre U11→S3, SCRATCH en dernier
       const ac = a.cat==='SCRATCH'?99 : (CAT_ORDER.indexOf(a.cat)<0?98:CAT_ORDER.indexOf(a.cat));
       const bc = b.cat==='SCRATCH'?99 : (CAT_ORDER.indexOf(b.cat)<0?98:CAT_ORDER.indexOf(b.cat));
       if(ac!==bc) return ac-bc;
-      // 3) Sexe : F → H
       return a.sexe.localeCompare(b.sexe);
     });
   }
@@ -5081,20 +5107,23 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function renderGroups(allGroups, searchQ){
-    const DISC_LABELS = {'TAE I':'TAE International','TAE N':'TAE National'};
-    const DISCS = ['TAE I','TAE N'];
-
-    // Tabs
-    let html = `<div style="display:flex;gap:8px;margin-bottom:14px;" id="taeTabs">`;
-    DISCS.forEach((d,i)=>{
+    // ── Tabs ──
+    let html = `<div style="display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap;" id="taeTabs">`;
+    ALL_DISCS.forEach((d,i)=>{
+      const cfg = DISC_CONFIG[d];
       const active = i===0;
-      html += `<button class="tae-tab" data-disc="${esc(d)}" style="padding:6px 16px;border-radius:8px;border:1px solid #d1d5db;cursor:pointer;font-weight:700;background:${active?'#2d2885':'#f8fafc'};color:${active?'#fff':'#1f2358'};">${esc(DISC_LABELS[d])}</button>`;
+      html += `<button class="tae-tab" data-disc="${esc(d)}"
+        style="padding:6px 18px;border-radius:8px;border:1px solid #d1d5db;cursor:pointer;font-weight:700;
+               background:${active?cfg.color:'#f8fafc'};color:${active?'#fff':'#1f2358'};"
+      >${esc(cfg.label)}</button>`;
     });
     html += `</div>`;
 
-    DISCS.forEach((disc,di)=>{
+    ALL_DISCS.forEach((disc,di)=>{
+      const cfg = DISC_CONFIG[disc];
+      const is18m = disc === 'Tir 18m';
       html += `<div class="tae-panel" data-disc="${esc(disc)}" style="display:${di===0?'block':'none'}">`;
-      const groups = sortGroups(allGroups[disc]);
+      const groups = sortGroups(allGroups[disc]||{});
       let hasAny = false;
 
       groups.forEach(g=>{
@@ -5109,28 +5138,24 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
           <div style="overflow:auto;">
           <table class="inscrits-table">
-            <colgroup>
-              <col style="width:44px">
-              ${g.isScratch?'<col style="width:48px">':''}
-              <col style="width:160px"><col style="width:160px">
-              <col style="width:90px"><col style="min-width:140px;width:auto">
-              <col style="width:72px"><col style="width:72px"><col style="width:80px"><col style="width:110px">
-            </colgroup>
             <thead><tr>
               <th class="num">Rang</th>
               ${g.isScratch?'<th class="num">Cat.</th>':''}
               <th>Nom</th><th>Prénom</th>
               <th class="mono">Licence</th><th>Club</th>
-              <th class="num">Score 1</th><th class="num">Score 2</th>
-              <th class="num" style="font-weight:800;">Moy. (2)</th><th>Statut</th>
+              <th class="num">Score 1</th>
+              <th class="num">Score 2</th>
+              ${is18m ? '<th class="num">Score 3</th>' : ''}
+              <th class="num" style="font-weight:800;">${esc(cfg.scoreLabel)}</th>
+              <th>Statut</th>
             </tr></thead>
             <tbody>
               ${visible.map(a=>{
                 const q = g.quota||0;
-                const bg = a.nbScores<2 ? '#ede9fe'
-                         : a.status==='Hors quotas'    ? '#fee2e2'
+                const bg = a.isIncomplete     ? '#ede9fe'
+                         : a.status==='Hors quotas' ? '#fee2e2'
                          : (q>0 && a.ligueRank && a.ligueRank>q) ? '#fff7ed'
-                         : a.status==='Inscrit'        ? '#ecfdf5'
+                         : a.status==='Inscrit'     ? '#ecfdf5'
                          : '';
                 const tdBg = bg ? `background:${bg}!important;` : '';
                 const sColor = a.status==='Inscrit'?'#065f46':a.status==='Hors quotas'?'#9b1c1c':'#64748b';
@@ -5144,6 +5169,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <td ${td()}>${esc(a.club)}</td>
                   <td class="num" ${td('text-align:right;')}>${a.score1||'—'}</td>
                   <td class="num" ${td('text-align:right;')}>${a.score2||'—'}</td>
+                  ${is18m?`<td class="num" ${td('text-align:right;')}>${a.score3||'—'}</td>`:''}
                   <td class="num" ${td('text-align:right;font-weight:800;')}>${a.total ? a.total.toFixed(2) : '—'}</td>
                   <td class="status" ${td(`color:${sColor};font-size:12px;`)}>${esc(a.status)}</td>
                 </tr>`;
@@ -5154,31 +5180,28 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>`;
       });
 
-      if(!hasAny) html += '<div style="color:#64748b;padding:12px;">Aucun résultat.</div>';
+      if(!hasAny) html += '<div style="color:#64748b;padding:12px;">Aucun inscrit dans cette discipline.</div>';
       html += '</div>';
     });
 
     bodyEl.innerHTML = html;
 
     // Wiring tabs
-    const DISC_TITLES = {
-      'TAE I': 'Inscrits Championnat Régional — TAE International',
-      'TAE N': 'Inscrits Championnat Régional — TAE National'
-    };
     bodyEl.querySelectorAll('.tae-tab').forEach(tab=>{
       tab.addEventListener('click', ()=>{
         const d = tab.dataset.disc;
+        const cfg = DISC_CONFIG[d] || {};
         bodyEl.querySelectorAll('.tae-tab').forEach(t=>{
-          const a = t.dataset.disc===d;
-          t.style.background = a?'#2d2885':'#f8fafc';
-          t.style.color = a?'#fff':'#1f2358';
+          const active = t.dataset.disc===d;
+          const c = DISC_CONFIG[t.dataset.disc]||{};
+          t.style.background = active ? (c.color||'#2d2885') : '#f8fafc';
+          t.style.color = active ? '#fff' : '#1f2358';
         });
         bodyEl.querySelectorAll('.tae-panel').forEach(p=>{
           p.style.display = p.dataset.disc===d ? 'block' : 'none';
         });
-        // Met à jour le titre du modal
         const titleEl = document.getElementById('taeCrTitle');
-        if(titleEl) titleEl.textContent = DISC_TITLES[d] || 'Inscrits Championnat Régional — ' + d;
+        if(titleEl) titleEl.textContent = 'Inscrits Championnat Régional — ' + (cfg.label||d);
       });
     });
   }
@@ -5188,46 +5211,39 @@ document.addEventListener('DOMContentLoaded', () => {
     if(Object.keys(_allGroups).length) renderGroups(_allGroups, searchEl.value.trim());
   });
 
-  // ── Export Excel (HTML coloré, ouvrable dans Excel/LibreOffice) ──────────
+  // ── Export Excel ──────────────────────────────────────
   exportBtn.addEventListener('click', ()=>{
-    const DISCS = ['TAE I','TAE N'];
-    const DISC_LABELS = {'TAE I':'TAE International','TAE N':'TAE National'};
     const thStyle = 'background:#eef2ff;color:#1f2358;font-weight:700;padding:6px 8px;border:1px solid #c7d2fe;';
     const tdStyle = (bg) => `background:${bg||'#ffffff'};padding:5px 8px;border:1px solid #e5e7eb;`;
-
     function rowBg(a, q){
-      if(a.nbScores<2)                              return '#ede9fe'; // violet
-      if(a.status==='Hors quotas')                  return '#fee2e2'; // rouge
-      if(q>0 && a.ligueRank && a.ligueRank>q)       return '#fff7ed'; // orange
-      if(a.status==='Inscrit')                       return '#ecfdf5'; // vert
+      if(a.isIncomplete)                      return '#ede9fe';
+      if(a.status==='Hors quotas')            return '#fee2e2';
+      if(q>0 && a.ligueRank && a.ligueRank>q) return '#fff7ed';
+      if(a.status==='Inscrit')                return '#ecfdf5';
       return '#ffffff';
     }
 
     let html = `<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel">
-<head><meta charset="utf-8">
-<style>body{font-family:Arial,sans-serif;font-size:12px;}
-table{border-collapse:collapse;}
-h2{margin:16px 0 4px;font-size:14px;}
-h3{margin:10px 0 4px;font-size:12px;color:#334155;}
+<head><meta charset="utf-8"><style>body{font-family:Arial,sans-serif;font-size:12px;}
+table{border-collapse:collapse;}h2{margin:16px 0 4px;font-size:14px;}h3{margin:10px 0 4px;font-size:12px;color:#334155;}
 </style></head><body>`;
 
-    DISCS.forEach(disc=>{
-      html += `<h2>${DISC_LABELS[disc]}</h2>`;
+    ALL_DISCS.forEach(disc=>{
+      const cfg = DISC_CONFIG[disc];
+      const is18m = disc === 'Tir 18m';
+      html += `<h2>${cfg.label}</h2>`;
       sortGroups(_allGroups[disc]||{}).forEach(g=>{
         const q = g.quota||0;
-        html += `<h3>${g.label} &nbsp;—&nbsp; Quota : ${q||'—'} &nbsp;|&nbsp; Inscrits : ${g.archers.length}</h3>`;
+        html += `<h3>${g.label} — Quota : ${q||'—'} | Inscrits : ${g.archers.length}</h3>`;
         html += `<table><thead><tr>
           <th style="${thStyle}">Rang</th>
           ${g.isScratch?`<th style="${thStyle}">Cat.</th>`:''}
-          <th style="${thStyle}">Nom</th>
-          <th style="${thStyle}">Prénom</th>
-          <th style="${thStyle}">Licence</th>
-          <th style="${thStyle}">Club</th>
-          <th style="${thStyle}">Score 1</th>
-          <th style="${thStyle}">Score 2</th>
-          <th style="${thStyle}">Moy. (2 meilleurs)</th>
-          <th style="${thStyle}">Rang ligue</th>
-          <th style="${thStyle}">Statut</th>
+          <th style="${thStyle}">Nom</th><th style="${thStyle}">Prénom</th>
+          <th style="${thStyle}">Licence</th><th style="${thStyle}">Club</th>
+          <th style="${thStyle}">Score 1</th><th style="${thStyle}">Score 2</th>
+          ${is18m?`<th style="${thStyle}">Score 3</th>`:''}
+          <th style="${thStyle}">${cfg.scoreLabel}</th>
+          <th style="${thStyle}">Rang ligue</th><th style="${thStyle}">Statut</th>
         </tr></thead><tbody>`;
         g.archers.forEach(a=>{
           const bg = rowBg(a, q);
@@ -5235,12 +5251,11 @@ h3{margin:10px 0 4px;font-size:12px;color:#334155;}
           html += `<tr>
             <td style="${td}text-align:right;">${a.rang}</td>
             ${g.isScratch?`<td style="${td}text-align:center;">${a.cat}</td>`:''}
-            <td style="${td}">${a.nom}</td>
-            <td style="${td}">${a.prenom}</td>
-            <td style="${td}">${a.lic}</td>
-            <td style="${td}">${a.club}</td>
+            <td style="${td}">${a.nom}</td><td style="${td}">${a.prenom}</td>
+            <td style="${td}">${a.lic}</td><td style="${td}">${a.club}</td>
             <td style="${td}text-align:right;">${a.score1||''}</td>
             <td style="${td}text-align:right;">${a.score2||''}</td>
+            ${is18m?`<td style="${td}text-align:right;">${a.score3||''}</td>`:''}
             <td style="${td}text-align:right;font-weight:bold;">${a.total ? a.total.toFixed(2) : ''}</td>
             <td style="${td}text-align:right;">${a.ligueRank||''}</td>
             <td style="${td}">${a.status}</td>
@@ -5250,17 +5265,16 @@ h3{margin:10px 0 4px;font-size:12px;color:#334155;}
       });
     });
 
-    // Légende
-    html += `<br><table><thead><tr><th style="${thStyle}" colspan="2">Légende couleurs</th></tr></thead><tbody>
+    html += `<br><table><thead><tr><th style="${thStyle}" colspan="2">Légende</th></tr></thead><tbody>
       <tr><td style="${tdStyle('#ecfdf5')}">■</td><td style="${tdStyle('#ecfdf5')}">Inscrit dans le quota</td></tr>
       <tr><td style="${tdStyle('#fff7ed')}">■</td><td style="${tdStyle('#fff7ed')}">Inscrit, rang ligue &gt; quota</td></tr>
       <tr><td style="${tdStyle('#fee2e2')}">■</td><td style="${tdStyle('#fee2e2')}">Hors quotas</td></tr>
-      <tr><td style="${tdStyle('#ede9fe')}">■</td><td style="${tdStyle('#ede9fe')}">Moins de 2 scores valides</td></tr>
+      <tr><td style="${tdStyle('#ede9fe')}">■</td><td style="${tdStyle('#ede9fe')}">Score(s) incomplet(s)</td></tr>
     </tbody></table></body></html>`;
 
     const blob = new Blob([html], {type:'application/vnd.ms-excel;charset=utf-8'});
     const a = document.createElement('a'); a.href=URL.createObjectURL(blob);
-    a.download='inscrits_CR_TAE.xls'; document.body.appendChild(a); a.click();
+    a.download='inscrits_CR.xls'; document.body.appendChild(a); a.click();
     setTimeout(()=>{ URL.revokeObjectURL(a.href); a.remove(); }, 0);
   });
 
