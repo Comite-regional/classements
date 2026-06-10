@@ -781,15 +781,34 @@ td,th{vertical-align:top}
 
 // Libellés lisibles pour codes de discipline
 const DISC_LABELS = {
+  // Codes API bruts
+  'T': 'TAE',
+  'S': 'Tir à 18m',
+  'C': 'Campagne',
+  'N': 'Nature',
+  '3': 'Tir 3D',
+  'H': 'Para tir extérieur',
+  'I': 'Para tir 18m',
+  // Clés option du sélecteur
+  'TAE I':    'TAE International',
+  'TAE N':    'TAE National',
+  'Tir 18m':  'Tir à 18m',
+  'Campagne': 'Tir campagne',
+  'Nature':   'Tir nature',
+  '3D':       'Tir 3D',
+  'Para ext': 'Para tir extérieur',
+  'Para 18m': 'Para tir à 18m',
+  'Beursault':'Beursault',
+  // Codes legacy
   'B': 'Beursault',
   'National_B': 'Beursault',
   'National_C': 'Campagne',
   'National_N': 'Nature',
   'National_T': 'TAE',
   'National_S': 'Tir à 18m',
-  'National_3': '3D',
-  'National_H': 'Para-tir à l\'arc en extérieur',
-  'National_I': 'Para-tir à l\'arc à 18m'
+  'National_3': 'Tir 3D',
+  'National_H': 'Para tir extérieur',
+  'National_I': 'Para tir à 18m'
 };
 
 
@@ -884,10 +903,11 @@ const DISC_LABELS = {
       for(const disc of options){
         state.disciplineIndiv = disc;
         const part = await ensureDisciplineLoadedIndiv();
+        const discLabel = DISC_LABELS[disc] || disc;
         const withDisc = part.map(r => {
-          if(r && r.DISCIPLINE) return r;
+          // Toujours forcer le label complet (ex: 'TAE International' au lieu du code API 'T')
           const copy = Object.assign({}, r);
-          copy.DISCIPLINE = (DISC_LABELS[disc]||disc);
+          copy.DISCIPLINE = discLabel;
           return copy;
         });
         union = union.concat(withDisc);
@@ -1722,21 +1742,26 @@ function isDiscMatchFFTA(rowToken, wantCode){
 
   // Labels lisibles pour chaque discipline JSON
   var DISC_LABELS = {
-    'Tir 18m':   'Tir 18m',
+    'Tir 18m':   'Tir à 18m',
     'TAE I':     'TAE International',
     'TAE N':     'TAE National',
-    'Campagne':  'Campagne',
-    'Nature':    'Nature',
-    '3D':        '3D',
-    'Para ext':  'Para ext.',
-    'Para 18m':  'Para 18m',
+    'Campagne':  'Tir campagne',
+    'Nature':    'Tir nature',
+    '3D':        'Tir 3D',
+    'Para ext':  'Para tir extérieur',
+    'Para 18m':  'Para tir à 18m',
     'Beursault': 'Beursault',
   };
 
-  // Mapping code discipline API → label lisible
+  // Mapping code discipline API → label lisible (utilisé dans la fiche archer)
   var DISC_CODE_LABELS = {
-    'T':'TAE', 'S':'Tir 18m', 'C':'Campagne', 'N':'Nature',
-    '3':'3D', 'H':'Para ext.', 'I':'Para 18m'
+    'T':'TAE',
+    'S':'Tir à 18m',
+    'C':'Tir campagne',
+    'N':'Tir nature',
+    '3':'Tir 3D',
+    'H':'Para tir extérieur',
+    'I':'Para tir à 18m'
   };
 
   function openFor(licence, nom){
