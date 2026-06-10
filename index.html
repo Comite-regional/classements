@@ -1796,41 +1796,65 @@ function isDiscMatchFFTA(rowToken, wantCode){
         var dept = (archer.departement_code||'').replace(/0+$/, '');
         subEl.textContent = [club, dept].filter(Boolean).join(' — ');
 
-        // Collecte toutes les épreuves de toutes disciplines
+        // Détermine TAE I ou TAE N depuis un classement (arme_code + distances)
+        function taeTypeFromClassement(cl){
+          var arme = (cl.arme_code||'').toUpperCase(); // 'C' ou 'P'
+          var arm  = (arme === 'C') ? 'CL' : (arme === 'P') ? 'CO' : '';
+          if(!arm) return null;
+          // Extraire catégorie depuis le nom du classement (ex: "Senior 2 Homme Arc à Poulies 2026")
+          var clNom = normUp(cl.classement||'');
+          var ageMap = {'U11':'U11','U13':'U13','U15':'U15','U18':'U18','U21':'U21',
+                        'SENIOR 1':'S1','SENIOR 2':'S2','SENIOR 3':'S3',
+                        'S1':'S1','S2':'S2','S3':'S3'};
+          var age = '';
+          Object.keys(ageMap).forEach(function(k){
+            if(clNom.indexOf(k) >= 0 && !age) age = ageMap[k];
+          });
+          if(!age) return null;
+          var key = age + ' ' + arm;
+          // Extraire distance depuis distances (ex: "50m - 80cm")
+          var distStr = (cl.distances||[])[0] || '';
+          var mDist = distStr.match(/(\d+)m\s*-\s*(\d+)cm/);
+          if(!mDist) return null;
+          var metres = parseInt(mDist[1],10);
+          var blason = parseInt(mDist[2],10);
+          var ruleI = (TAE_RULES.I||{})[key];
+          if(ruleI && ruleI[0]===metres && ruleI[1]===blason) return 'I';
+          var ruleN = (TAE_RULES.N||{})[key];
+          if(ruleN && ruleN[0]===metres && ruleN[1]===blason) return 'N';
+          return null;
+        }
+
+        // Collecte toutes les épreuves de toutes disciplines (scratch exclu)
         var officiels = (archer.championnats && archer.championnats.officiels) || {};
         var allEpreuves = [];  // une ligne = une épreuve
 
         Object.keys(officiels).forEach(function(discCode){
           var discData = officiels[discCode];
-          var discLabel = discData.discipline || DISC_CODE_LABELS[discCode] || discCode;
+          var baseLabel = discData.discipline || DISC_CODE_LABELS[discCode] || discCode;
           var classements = discData.classements || [];
           classements.forEach(function(cl){
             var isScratch = /scratch/i.test(cl.classement||'');
+            // On ignore complètement les classements scratch (doublons)
+            if(isScratch) return;
+
+            // Pour le TAE (discCode T), distinguer I et N via les règles FFTA
+            var discLabel = baseLabel;
+            if(discCode === 'T'){
+              var taeType = taeTypeFromClassement(cl);
+              if(taeType === 'I') discLabel = 'TAE International';
+              else if(taeType === 'N') discLabel = 'TAE National';
+              else discLabel = 'TAE';
+            }
+
             var distances = (cl.distances||[]).join(', ');
             var epreuves = cl.epreuves || [];
-            // Si pas d'épreuves (scratch sans détail), on affiche quand même la ligne classement
-            if(!epreuves.length){
-              allEpreuves.push({
-                discLabel: discLabel,
-                classement: cl.classement||'',
-                distances: distances,
-                isScratch: isScratch,
-                date: '',
-                nomEpreuve: isScratch ? '(classement scratch — pas d\'épreuve individuelle)' : '',
-                scoreTotal: (cl.scores && cl.scores['1']) || cl.moyenne || '',
-                dist1: '', dist2: '',
-                dix: '', neuf: '',
-                placeQualif: cl.place || '',
-                isClassementOnly: true
-              });
-              return;
-            }
+            if(!epreuves.length) return; // pas d'épreuves = rien à afficher
             epreuves.forEach(function(ep){
               allEpreuves.push({
                 discLabel: discLabel,
                 classement: cl.classement||'',
                 distances: distances,
-                isScratch: isScratch,
                 date: ep.date || '',
                 nomEpreuve: (ep.nom||'').replace(/&apos;/g,"'"),
                 scoreTotal: ep.SCORE_TOTAL || '',
@@ -1839,7 +1863,6 @@ function isDiscMatchFFTA(rowToken, wantCode){
                 dix: ep.DIX || '',
                 neuf: ep.NEUF || '',
                 placeQualif: ep.PLACE_QUALIF || '',
-                isClassementOnly: false
               });
             });
           });
@@ -1852,15 +1875,13 @@ function isDiscMatchFFTA(rowToken, wantCode){
 
         // Disciplines disponibles
         var discs = Array.from(new Set(allEpreuves.map(function(e){ return e.discLabel; }))).sort();
-        var totalEp = allEpreuves.filter(function(e){ return !e.isClassementOnly; }).length;
-
         container.innerHTML =
           '<div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap">'
           + '<label style="font-size:12px;color:#666;white-space:nowrap">Discipline :</label>'
           + '<select id="rp-disc" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;font-size:13px">'
-          + '<option value="">Toutes ('+totalEp+' épreuves)</option>'
+          + '<option value="">Toutes ('+allEpreuves.length+' épreuves)</option>'
           + discs.map(function(d){
-              var cnt = allEpreuves.filter(function(e){ return e.discLabel===d && !e.isClassementOnly; }).length;
+              var cnt = allEpreuves.filter(function(e){ return e.discLabel===d; }).length;
               return '<option value="'+d+'">'+d+' ('+cnt+' épreuves)</option>';
             }).join('')
           + '</select></div>'
@@ -1875,10 +1896,8 @@ function isDiscMatchFFTA(rowToken, wantCode){
           list.sort(function(a,b){
             if(a.discLabel < b.discLabel) return -1;
             if(a.discLabel > b.discLabel) return 1;
-            if(a.isScratch !== b.isScratch) return a.isScratch ? 1 : -1;
             if(a.classement < b.classement) return -1;
             if(a.classement > b.classement) return 1;
-            // Date décroissante (format DD/MM/YYYY)
             var da = a.date.split('/').reverse().join('');
             var db = b.date.split('/').reverse().join('');
             return db.localeCompare(da);
@@ -1901,20 +1920,10 @@ function isDiscMatchFFTA(rowToken, wantCode){
           var lastDisc = '', lastCl = '';
           list.forEach(function(e, i){
             var bg = i%2===0 ? '#fff' : '#fafafa';
-            // Séparateur visuel à chaque nouveau classement
             var discCell = (e.discLabel !== lastDisc) ? e.discLabel : '';
-            var clCell   = (e.classement !== lastCl || e.discLabel !== lastDisc)
-              ? (e.isScratch ? '<em style="color:#aaa">'+e.classement+'</em>' : e.classement)
-              : '';
+            var clCell   = (e.classement !== lastCl || e.discLabel !== lastDisc) ? e.classement : '';
             lastDisc = e.discLabel; lastCl = e.classement;
 
-            if(e.isClassementOnly){
-              html += '<tr style="background:#fffbf0;border-bottom:1px solid #f0f0f0;font-style:italic;color:#aaa">'
-                + '<td style="padding:5px 8px">'+discCell+'</td>'
-                + '<td style="padding:5px 8px" colspan="9">'+e.nomEpreuve+'</td>'
-                + '</tr>';
-              return;
-            }
             html += '<tr style="background:'+bg+';border-bottom:1px solid #f0f0f0">'
               + '<td style="padding:5px 8px;white-space:nowrap;color:#555;font-size:12px">'+discCell+'</td>'
               + '<td style="padding:5px 8px;font-size:12px">'+clCell+'</td>'
