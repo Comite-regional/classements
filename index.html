@@ -1079,8 +1079,8 @@ const DISC_LABELS = {
         headers.unshift({key:'DISCIPLINE', label:'Discipline'});
       }
 
-      // Colonnes supplémentaires TAE / Para
-      if(['TAE I','TAE N','Para ext'].includes(disc)){
+      // Colonnes Distance / Blason uniquement pour Para ext (pas TAE I/N)
+      if(disc === 'Para ext'){
         headers.push({key:'distance', label:'Distance'}, {key:'blason', label:'Blason'});
       }
       if(['Para ext','Para 18m'].includes(disc)){
