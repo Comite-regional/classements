@@ -920,13 +920,21 @@ const DISC_LABELS = {
     function populateDependentFiltersIndiv(data){
       const f = state.filters || {};
 
-      // Catégorie : champ CAT (API) ou CATEGORIE (CSV)
-      // On n'extrait les catégories que depuis les classements individuels (hors Scratch)
-      const dataIndiv = data.filter(r => !/scratch/i.test(r._classement_nom || ''));
-      const cats = uniqueSorted(dataIndiv.map(r => r.CAT || r.CATEGORIE || '').filter(Boolean));
-      // Si des classements scratch existent dans les données, ajouter l'option "Scratch"
-      const hasScratch = data.some(r => /scratch/i.test(r._classement_nom || ''));
-      const catOptions = hasScratch ? ['Toutes', 'Scratch', ...cats] : ['Toutes', ...cats];
+      // Catégorie
+      const disc = state.disciplineIndiv;
+      const isParaDisc2 = disc === 'Para ext' || disc === 'Para 18m';
+      let cats, catOptions;
+      if(isParaDisc2){
+        // Para : toutes les lignes sont scratch — on propose les noms de classements comme filtre
+        cats = uniqueSorted(data.map(r => r._classement_nom || '').filter(Boolean));
+        catOptions = ['Toutes', ...cats];
+      } else {
+        // Disciplines normales : extraire catégories hors scratch uniquement
+        const dataIndiv = data.filter(r => !/scratch/i.test(r._classement_nom || ''));
+        cats = uniqueSorted(dataIndiv.map(r => r.CAT || r.CATEGORIE || '').filter(Boolean));
+        const hasScratch = data.some(r => /scratch/i.test(r._classement_nom || ''));
+        catOptions = hasScratch ? ['Toutes', 'Scratch', ...cats] : ['Toutes', ...cats];
+      }
       fillSelect(document.getElementById('categorie'), catOptions, true, f.categorie);
 
       // Arme
@@ -1078,6 +1086,8 @@ const DISC_LABELS = {
       }
 
       const isScratchMode = f.categorie === 'Scratch';
+      // Les disciplines Para utilisent exclusivement des classements scratch (W1, HV2-3, OPEN…)
+      const isParaDisc = disc === 'Para ext' || disc === 'Para 18m';
 
       let rows = (data||[]).filter(r => {
         const isScr = /scratch/i.test(r._classement_nom || '');
@@ -1085,6 +1095,9 @@ const DISC_LABELS = {
         // Mode scratch : n'afficher que les lignes scratch
         if(isScratchMode){
           if(!isScr) return false;
+        } else if(isParaDisc) {
+          // Para : toutes les lignes sont scratch — filtrer par nom de classement si sélectionné
+          if(f.categorie && r._classement_nom !== f.categorie) return false;
         } else {
           // Mode normal : exclure les lignes scratch (évite les doublons)
           if(isScr) return false;
