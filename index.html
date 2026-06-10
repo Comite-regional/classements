@@ -916,6 +916,13 @@ const DISC_LABELS = {
       return union;
     }
 
+    // Pour Para : extrait le code de classification fonctionnelle depuis le nom du classement
+    // ex: "W1 Scratch Mixte 2026" → "W1", "HV2-3 Scratch Mixte 2026" → "HV2-3", "OPEN Scratch Hommes Arc Classique 2026" → "OPEN"
+    function paraClassFromNom(nom){
+      if(!nom) return '';
+      return nom.split(/\s+(Scratch|Jeunes)\b/i)[0].trim();
+    }
+
     // Peuple les selects dépendants (catégorie, arme, classement) depuis les données chargées
     function populateDependentFiltersIndiv(data){
       const f = state.filters || {};
@@ -959,8 +966,15 @@ const DISC_LABELS = {
       // Distance / blason / catTir / catClass (Para / TAE CSV)
       const dists   = uniqueSorted(data.map(r => r.distance || r.DISTANCE || '').filter(Boolean));
       const blasons = uniqueSorted(data.map(r => r.blason   || r.BLASON   || '').filter(Boolean));
-      const cc      = uniqueSorted(data.map(r => r.CAT_CLASS || '').filter(Boolean));
-      const ct      = uniqueSorted(data.map(r => r.CAT_TIR  || '').filter(Boolean));
+      let cc, ct;
+      if(isParaDisc2){
+        // Para : catClass = classification fonctionnelle (W1, HV2-3, OPEN…), catTir = CAT archer (S1, S2…)
+        cc = uniqueSorted(data.map(r => paraClassFromNom(r._classement_nom || '')).filter(Boolean));
+        ct = uniqueSorted(data.map(r => r.CAT || r.CATEGORIE || '').filter(Boolean));
+      } else {
+        cc = uniqueSorted(data.map(r => r.CAT_CLASS || '').filter(Boolean));
+        ct = uniqueSorted(data.map(r => r.CAT_TIR   || '').filter(Boolean));
+      }
       fillSelect(document.getElementById('distance'), ['Toutes', ...dists],   true, f.distance);
       fillSelect(document.getElementById('blason'),   ['Tous',   ...blasons], true, f.blason);
       fillSelect(document.getElementById('catClass'), ['Toutes', ...cc],      true, f.catClass);
@@ -1000,8 +1014,9 @@ const DISC_LABELS = {
         DISCIPLINE: DISC_LABELS[r.DISCIPLINE || r.DISC || ''] || r.DISCIPLINE || r.DISC || '',
         distance:   String(r.distance || r.DISTANCE || ''),
         blason:     String(r.blason   || r.BLASON   || ''),
-        CAT_TIR:    String(r.CAT_TIR  || ''),
-        CAT_CLASS:  String(r.CAT_CLASS || ''),
+        // Pour Para : CAT_CLASS = classification fonctionnelle (W1, HV2-3, OPEN…), CAT_TIR = catégorie archer
+        CAT_TIR:    String(r.CAT_TIR   || (/^Para/.test(state.disciplineIndiv||'') ? (r.CAT || r.CATEGORIE || '') : '')),
+        CAT_CLASS:  String(r.CAT_CLASS || (/^Para/.test(state.disciplineIndiv||'') ? paraClassFromNom(r._classement_nom || '') : '')),
       };
     }
 
@@ -1132,8 +1147,15 @@ const DISC_LABELS = {
         // Filtres TAE / Para CSV (distance, blason, catTir, catClass)
         if(f.distance  && String(r.distance  || r.DISTANCE  || '') !== f.distance)  return false;
         if(f.blason    && String(r.blason    || r.BLASON    || '') !== f.blason)    return false;
-        if(f.catClass  && String(r.CAT_CLASS || '')                !== f.catClass)  return false;
-        if(f.catTir    && String(r.CAT_TIR   || '')                !== f.catTir)    return false;
+        if(isParaDisc){
+          // Para : catClass = classification fonctionnelle tirée du nom du classement
+          if(f.catClass && paraClassFromNom(r._classement_nom || '') !== f.catClass) return false;
+          // Para : catTir = catégorie de l'archer (S1, S2, S3…)
+          if(f.catTir   && String(r.CAT || r.CATEGORIE || '') !== f.catTir)          return false;
+        } else {
+          if(f.catClass  && String(r.CAT_CLASS || '') !== f.catClass)  return false;
+          if(f.catTir    && String(r.CAT_TIR   || '') !== f.catTir)    return false;
+        }
 
         return true;
       });
