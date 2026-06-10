@@ -617,6 +617,281 @@ td,th{vertical-align:top}
   text-transform: uppercase;
 }
 </style>
+<style id="modern-redesign-2026">
+/* ══════════════════════════════════════════
+   MODERN REDESIGN – Classements PDL
+   ══════════════════════════════════════════ */
+
+/* ── Variables ── */
+:root {
+  --brand:       #2d2885;
+  --brand-light: #eef2ff;
+  --accent:      #00b5e2;
+  --danger:      #e30613;
+  --surface:     #ffffff;
+  --surface-2:   #f8fafc;
+  --ink:         #1b2430;
+  --ink-2:       #4b5563;
+  --ink-muted:   #9ca3af;
+  --line:        #e5e7eb;
+  --radius:      14px;
+  --shadow-sm:   0 1px 4px rgba(0,0,0,.06);
+  --shadow-md:   0 4px 20px rgba(0,0,0,.08);
+}
+
+/* ── Body & fond ── */
+body { background: #f0f3fa !important; }
+
+/* ── Header ── */
+header {
+  background: linear-gradient(135deg, #2d2885 0%, #1a1567 100%) !important;
+  border-bottom: none !important;
+  padding: 22px 0 !important;
+  box-shadow: 0 4px 20px rgba(45,40,133,.3) !important;
+}
+header .container,
+header section,
+header aside { background: transparent !important; border: none !important; color: #fff !important; }
+header h1, h1 {
+  color: #fff !important;
+  font-size: 22px !important;
+  font-weight: 800 !important;
+  letter-spacing: -.3px !important;
+}
+#lastUpdateLine {
+  color: rgba(255,255,255,.6) !important;
+  font-size: 12.5px !important;
+  font-weight: 500 !important;
+  margin-top: 3px !important;
+}
+/* accent bar sous le header */
+header::after {
+  content: '';
+  display: block;
+  height: 3px;
+  background: linear-gradient(90deg, #00b5e2, #2d2885, #e30613);
+  margin-top: 22px;
+}
+
+/* ── Cards ── */
+.card {
+  background: #fff !important;
+  border: 1px solid var(--line) !important;
+  border-radius: var(--radius) !important;
+  box-shadow: var(--shadow-sm) !important;
+  padding: 20px !important;
+  transition: box-shadow .2s;
+}
+.card:hover { box-shadow: var(--shadow-md) !important; }
+
+/* ── Labels filtres ── */
+label {
+  font-size: 10.5px !important;
+  font-weight: 700 !important;
+  letter-spacing: .6px !important;
+  text-transform: uppercase !important;
+  color: var(--ink-muted) !important;
+  margin-bottom: 5px !important;
+}
+
+/* ── Inputs & selects ── */
+select, input[type="search"] {
+  background: var(--surface-2) !important;
+  border: 1.5px solid var(--line) !important;
+  border-radius: 10px !important;
+  padding: 9px 12px !important;
+  font-size: 13.5px !important;
+  color: var(--ink) !important;
+  transition: border-color .15s, box-shadow .15s, background .15s;
+  appearance: auto;
+}
+select:hover, input[type="search"]:hover {
+  border-color: #c7d2fe !important;
+}
+select:focus, input[type="search"]:focus {
+  border-color: var(--brand) !important;
+  box-shadow: 0 0 0 3px rgba(45,40,133,.1) !important;
+  background: #fff !important;
+  outline: none !important;
+}
+
+/* ── Table ── */
+#tableau {
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  width: 100%;
+}
+#tableau thead th {
+  background: linear-gradient(180deg, #eef2ff 0%, #e6ecff 100%) !important;
+  color: #2d2885 !important;
+  font-size: 10.5px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: .5px !important;
+  padding: 11px 14px !important;
+  border-bottom: 2px solid #c7d2fe !important;
+  border-top: none !important;
+  white-space: nowrap;
+}
+#tableau tbody tr {
+  background: #fff !important;
+  border-bottom: 1px solid #f1f4fb !important;
+  border-radius: 0 !important;
+  transition: background .12s;
+}
+#tableau tbody tr:nth-child(even) td { background: #fafbff !important; }
+#tableau tbody tr:hover td { background: #eef2ff !important; }
+#tableau tbody td {
+  padding: 10px 14px !important;
+  font-size: 13.5px !important;
+  border: none !important;
+  border-bottom: 1px solid #f1f4fb !important;
+  border-radius: 0 !important;
+}
+#tableau tbody tr:last-child td { border-bottom: none !important; }
+
+/* première colonne rang en gras + petit */
+#tableau tbody td:first-child {
+  font-weight: 700 !important;
+  font-size: 13px !important;
+  color: var(--brand) !important;
+  text-align: center;
+}
+#tableau thead th:first-child { text-align: center; }
+
+/* ── Toolbar ── */
+.toolbar {
+  padding-bottom: 14px !important;
+  border-bottom: 1px solid var(--line) !important;
+  margin-bottom: 12px !important;
+}
+
+/* ── Boutons ── */
+button {
+  border-radius: 10px !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  padding: 9px 16px !important;
+  cursor: pointer;
+  transition: filter .15s, transform .1s, box-shadow .15s !important;
+  letter-spacing: .1px;
+}
+button:hover {
+  filter: brightness(.96);
+  transform: translateY(-1px);
+}
+button:active { transform: translateY(0) !important; }
+
+#resetFilters {
+  background: var(--danger) !important;
+  border-color: var(--danger) !important;
+  color: #fff !important;
+  box-shadow: 0 2px 8px rgba(227,6,19,.2) !important;
+}
+#resetFilters:hover { box-shadow: 0 4px 14px rgba(227,6,19,.35) !important; }
+
+#exportCSV {
+  background: linear-gradient(135deg, #00c9e6, #0097c4) !important;
+  border-color: transparent !important;
+  color: #fff !important;
+  box-shadow: 0 2px 8px rgba(0,181,226,.2) !important;
+}
+#exportCSV:hover { box-shadow: 0 4px 14px rgba(0,181,226,.4) !important; }
+
+/* ── Chips / pills ── */
+.chip, .pill {
+  background: var(--brand-light) !important;
+  border: 1px solid #c7d2fe !important;
+  color: var(--brand) !important;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  border-radius: 999px !important;
+  padding: 4px 12px !important;
+}
+
+/* ── Compteur lignes ── */
+#row-count {
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: .5px !important;
+  color: var(--ink-muted) !important;
+  margin-bottom: 6px !important;
+}
+
+/* ── Légende quota ── */
+.quota-legend {
+  background: var(--surface-2) !important;
+  border: 1px solid var(--line) !important;
+  border-radius: 10px !important;
+  padding: 10px 16px !important;
+  margin: 6px 0 10px !important;
+  font-size: 12px !important;
+}
+.quota-legend ul { margin: 4px 0 0 0 !important; padding: 0 !important; list-style: none !important; display: flex; flex-wrap: wrap; gap: 10px; }
+.quota-legend li { display: flex; align-items: center; gap: 6px; }
+.quota-legend .legend { border-radius: 4px; width: 13px; height: 13px; flex-shrink: 0; }
+
+/* ── Quota banner ── */
+#quotaBanner, .quota-banner {
+  border-radius: 10px !important;
+  border-left: 4px solid var(--brand) !important;
+  font-size: 13px !important;
+  padding: 10px 16px !important;
+  margin-bottom: 10px !important;
+  background: #f8fafc !important;
+  box-shadow: var(--shadow-sm) !important;
+}
+
+/* ── Modal ── */
+.modal {
+  border-radius: 18px !important;
+  box-shadow: 0 20px 60px rgba(0,0,0,.18) !important;
+  border: 1px solid var(--line) !important;
+}
+.modal-header {
+  border-radius: 18px 18px 0 0 !important;
+  background: linear-gradient(135deg, #2d2885, #1a1567) !important;
+  color: #fff !important;
+}
+.modal-header h3 { color: #fff !important; }
+.close-btn {
+  background: rgba(255,255,255,.15) !important;
+  border-color: rgba(255,255,255,.2) !important;
+  color: #fff !important;
+  border-radius: 8px !important;
+}
+.close-btn:hover { background: rgba(255,255,255,.25) !important; }
+
+/* ── Inscription panel ── */
+#inscriptions-panel {
+  border-radius: var(--radius) !important;
+  box-shadow: var(--shadow-sm) !important;
+}
+
+/* ── Couleurs quota individuels — cohérence avec fond clair ── */
+tr.row-quota-green  td { background: #dcfce7 !important; }
+tr.row-quota-orange td { background: #ffedd5 !important; }
+tr.row-quota-red    td { background: #fee2e2 !important; }
+tr.row-quota-purple td { background: rgba(139,92,246,.15) !important; }
+/* hover préservé sur lignes colorées */
+tr.row-quota-green:hover  td { background: #bbf7d0 !important; }
+tr.row-quota-orange:hover td { background: #fed7aa !important; }
+tr.row-quota-red:hover    td { background: #fecaca !important; }
+tr.row-quota-purple:hover td { background: rgba(139,92,246,.25) !important; }
+
+/* ── Scrollbar webkit ── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #c7d2fe; border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: var(--brand); }
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  header h1, h1 { font-size: 17px !important; }
+  .card { padding: 14px !important; }
+}
+</style>
 </head>
 <body>
 <div class="quota-banner" hidden="" id="quota-banner"></div>
