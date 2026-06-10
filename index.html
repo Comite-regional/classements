@@ -875,8 +875,8 @@ const DISC_LABELS = {
     const INDIV_OPTIONS_HTML = DISC_SELECT.innerHTML; // sauvegarde liste INDIV
     function fillSelect(sel, values, firstIsAll=false, selectedVal=''){ sel.innerHTML=''; values.forEach((v,i)=>{ const opt=document.createElement('option'); opt.value = (firstIsAll && i===0)? '' : v; opt.textContent=v; if(String(opt.value)===String(selectedVal)) opt.selected=true; sel.appendChild(opt); }); }
     function showHideSectionsIndiv(){ const disc=state.disciplineIndiv; const tae=document.getElementById('tae-section'); const para=document.getElementById('para-section'); tae.classList.toggle('hidden', !['TAE I','TAE N','Para ext'].includes(disc)); para.classList.toggle('hidden', !['Para ext','Para 18m'].includes(disc)); }
-    function updateChips(){ const isTeam = state.viewMode==='team'; let disc=isTeam? (state.disciplineTeam||'—') : (state.disciplineIndiv||'—'); if(isTeam){ if(disc==='18M_AUTO') disc='Tir à 18m'; if(disc==='T') disc='TAE'; if(disc==='3') disc='3D'; if(disc==='C') disc='Campagne'; if(disc==='N') disc='Nature'; }
-      const file = isTeam ? (state.disciplineTeam==='18M_AUTO' ? TEAM18_FILE : TEAM_FILE) : (filesMap[state.disciplineIndiv]||'—');
+    function updateChips(){ const isTeam = state.viewMode==='team'; let disc=isTeam? (state.disciplineTeam||'—') : (state.disciplineIndiv||'—'); if(isTeam){ if(disc==='T') disc='TAE'; if(disc==='3') disc='3D'; if(disc==='C') disc='Campagne'; if(disc==='N') disc='Nature'; }
+      const cfg = isTeam ? TEAM_DISC_CONFIG[state.disciplineTeam] : null; const file = isTeam ? (cfg ? cfg.file : '—') : (filesMap[state.disciplineIndiv]||'—');
       document.getElementById('disciplineChip').textContent=disc; document.getElementById('fichierChip').textContent=file; }
 
     // ========= INDIVIDUEL =========
@@ -1264,143 +1264,187 @@ const DISC_LABELS = {
       document.getElementById('totalChip').textContent = n + ' ligne' + (n > 1 ? 's' : '');
     }
 
-    // ========= ÉQUIPE (equipes.csv + 18m auto + TAE auto via catégories) =========
-    const CODE_TO_LABEL = { 'C':'Campagne','T':'TAE','3':'3D','N':'Nature' };
-    const TEAM18_GROUPS = [
-      'Arc Classique Femme','Arc Classique Homme','Arc à Poulie Femme','Arc à Poulie Homme','Arc à Poulie Mixte','Arc Nu Mixte','Arc Classique U13 - U15','Arc Classique U18 - U21'
-    ];
-    const TEAMTAEI_GROUPS = [
-      'Arc Classique Mixte U13 - U15',
-      'Arc Classique Mixte U18 - U21'
-    ];
-    async function ensureTeamLoaded(){ if(state.teamRaw) return state.teamRaw; state.teamRaw = await loadCSV(TEAM_FILE); return state.teamRaw; }
-    function getTeamDisciplineCode(row){ const keys=['DISCIPLINE','DISC','CODE_DISCIPLINE','CODE_DISC','TYPE','COD_DISC','DISC_CODE']; for(const k of keys){ if(row[k] && String(row[k]).trim()!=='') return String(row[k]).trim().toUpperCase(); } return ''; }
-    function teamDisciplineList(raw){ const base=uniqueSorted(raw.map(getTeamDisciplineCode).filter(c=>c && c!=='S')); return base; }
-    function populateDisciplineForTeam(){ const sel=DISC_SELECT; const keep=state.disciplineTeam? String(state.disciplineTeam).toUpperCase():''; sel.innerHTML='<option value="">— Choisir —</option>'; const raw=state.teamRaw||[]; teamDisciplineList(raw).forEach(code=>{ const opt=document.createElement('option'); opt.value=code; opt.textContent=CODE_TO_LABEL[code]||code; if(keep && String(code).toUpperCase()===keep) opt.selected=true; sel.appendChild(opt); }); // Ajoute l’option 18m auto
-      const opt18=document.createElement('option'); opt18.value='18M_AUTO'; opt18.textContent='Tir à 18m'; if(keep==='18M_AUTO') opt18.selected=true; sel.appendChild(opt18); }
+    // ========= ÉQUIPE — depuis JSON, même logique que Individuel =========
 
-    function populateTeamCategories(){ const sel=document.getElementById('categorie'); const disc=(state.disciplineTeam||'').toUpperCase(); if(disc==='18M_AUTO'){ fillSelect(sel, TEAM18_GROUPS, false, state.filters.categorie||TEAM18_GROUPS[0]); return; }
-      const raw=state.teamRaw||[]; let baseCats = uniqueSorted( raw.filter(r=> getTeamDisciplineCode(r)!=='S' && (!disc || getTeamDisciplineCode(r)===disc)).map(r=> r.CATEGORIE_CLASSEMENT || r.CAT_CLASS).filter(v=> v && String(v).trim()!=='') );
-      if(disc==='T') baseCats = [...baseCats, ...TEAMTAEI_GROUPS];
-      fillSelect(sel, ['Toutes', ...baseCats], true, state.filters.categorie); }
+    // Disciplines équipe → fichiers JSON (pas d'equipes.csv)
+    const TEAM_DISC_CONFIG = {
+      'TAE I':    { file:'data/TAE I.json',    label:'TAE International' },
+      'TAE N':    { file:'data/TAE N.json',    label:'TAE National' },
+      'Tir 18m':  { file:'data/Tir 18m.json',  label:'Tir à 18m' },
+      'Campagne': { file:'data/Campagne.json', label:'Tir campagne' },
+      '3D':       { file:'data/3D.json',       label:'Tir 3D' },
+      'Nature':   { file:'data/Nature.json',   label:'Tir nature' },
+    };
+
+    // Groupes Tir 18m : regroupement multi-catégories par arme/sexe (logique inchangée)
+    const TEAM18_GROUPS = [
+      'Arc Classique Femme','Arc Classique Homme',
+      'Arc à Poulie Femme','Arc à Poulie Homme','Arc à Poulie Mixte',
+      'Arc Nu Mixte',
+      'Arc Classique U13 - U15','Arc Classique U18 - U21'
+    ];
+
+    // Cache JSON par discipline
+    const teamDiscCache = new Map();
+
+    async function ensureTeamDiscLoaded(disc) {
+      if(teamDiscCache.has(disc)) return teamDiscCache.get(disc);
+      const cfg = TEAM_DISC_CONFIG[disc];
+      if(!cfg) return [];
+      const d = await loadSafeJSON(cfg.file);
+      const rows = (d && Array.isArray(d.rows)) ? d.rows : (Array.isArray(d) ? d : []);
+      teamDiscCache.set(disc, rows);
+      return rows;
+    }
+
+    function populateDisciplineForTeam() {
+      const sel = DISC_SELECT;
+      const keep = state.disciplineTeam || '';
+      sel.innerHTML = '<option value="">— Choisir —</option>';
+      Object.entries(TEAM_DISC_CONFIG).forEach(([key, cfg]) => {
+        const opt = document.createElement('option');
+        opt.value = key;
+        opt.textContent = cfg.label;
+        if(key === keep) opt.selected = true;
+        sel.appendChild(opt);
+      });
+    }
+
+    async function populateTeamCategories() {
+      const sel = document.getElementById('categorie');
+      const disc = state.disciplineTeam || '';
+      if(!disc) { sel.innerHTML = '<option value="">Toutes</option>'; return; }
+      if(disc === 'Tir 18m') {
+        const cur = state.filters.categorie || TEAM18_GROUPS[0];
+        fillSelect(sel, TEAM18_GROUPS, false, cur);
+        if(!state.filters.categorie) state.filters.categorie = TEAM18_GROUPS[0];
+        return;
+      }
+      // Autres disciplines : classements non-scratch triés
+      const rows = await ensureTeamDiscLoaded(disc);
+      const classements = uniqueSorted(rows
+        .filter(r => !/scratch/i.test(r._classement_nom || ''))
+        .map(r => r._classement_nom || '').filter(Boolean));
+      const cur = classements.includes(state.filters.categorie) ? state.filters.categorie : (classements[0] || '');
+      fillSelect(sel, ['— Choisir un classement —', ...classements], false, cur);
+      if(!state.filters.categorie && cur) state.filters.categorie = cur;
+    }
 
     function normalizedDivisionText(r){ const raw=(r.PRE_INSCRIT||r.DIVISION||r.DIV||r.NIVEAU||r.SERIE||'').toString().toUpperCase(); if(!raw) return ''; if(raw.includes('DR')) return 'DR'; if(raw.includes('D2')) return 'D2'; if(raw.includes('D1')) return 'D1'; return raw; }
     function divisionBadgeHTML(text){ const up=(text||'').toUpperCase(); if(!text) return ''; if(up==='D1') return '<span class="badge badge-d1">D1</span>'; if(up==='D2') return '<span class="badge badge-d2">D2</span>'; if(up==='DR') return '<span class="badge badge-dr">DR</span>'; return '<span class="badge">'+text+'</span>'; }
 
-    function headersForTeam_Normal(){ const h=[ {key:'RANG_NAT',label:'Rang national'}, {key:'RANG_CR',label:'Rang comité (PDL)'} ]; const depActive=!!state.filters.departement; const code=(state.disciplineTeam||'').toUpperCase(); const isTAEIAutoCat = (code==='T') && TEAMTAEI_GROUPS.includes(state.filters.categorie||''); if(depActive){ h.push({key:'DEPARTEMENT',label:'Département'},{key:'RANG_DEP',label:'Rang dép.'}); } if(code==='T' && !isTAEIAutoCat){ h.push({key:'DIVISION',label:'Division'}); } h.push({key:'CLUB',label:'Club / Cie'},{key:'SCORE1',label:'Score 1'},{key:'SCORE2',label:'Score 2'},{key:'SCORE3',label:'Score 3'},{key:'MOY_SCORE',label:'Moyenne'}); return h; }
-
-    function renderTableTeam_Normal(rows){ const thead=document.getElementById('thead-row'); const tbody=document.getElementById('tbody'); thead.innerHTML=''; tbody.innerHTML=''; const headers=headersForTeam_Normal(); headers.forEach(h=>{ const th=document.createElement('th'); th.textContent=h.label; thead.appendChild(th); }); const code=(state.disciplineTeam||'').toUpperCase(); const displayed = rows.slice().sort((a,b)=> (toNum(b.MOY_SCORE)-toNum(a.MOY_SCORE)) || ((parseInt(a.RANG||a.RANG_NAT||'999999')||999999) - (parseInt(b.RANG||b.RANG_NAT||'999999')||999999)) ); const region = displayed.filter(r=> ['44','49','53','72','85'].includes(getDeptFromCodeStructure(r.CODE_STRUCTURE))); const crIdx=new Map(); region.forEach((r,i)=> crIdx.set(r,i+1)); const depFilter=state.filters.departement||''; const depIdx=new Map(); if(depFilter){ const onlyDep=displayed.filter(r=> getDeptFromCodeStructure(r.CODE_STRUCTURE)===depFilter); onlyDep.forEach((r,i)=> depIdx.set(r,i+1)); } displayed.forEach(r=>{ const tr=document.createElement('tr'); const dep=getDeptFromCodeStructure(r.CODE_STRUCTURE); const club=[r.NOM_STRUCTURE,r.NOM_ABREGE].filter(Boolean).join(' - '); const nat=parseInt(r.RANG_NAT||r.RANG)||''; const cr=crIdx.get(r)||''; const divHTML = (code==='T' && !TEAMTAEI_GROUPS.includes(state.filters.categorie||'')) ? divisionBadgeHTML(normalizedDivisionText(r)) : ''; const obj={ RANG_NAT:nat, RANG_CR:cr, DEPARTEMENT:dep, RANG_DEP:(depIdx.get(r)||''), DIVISION:divHTML, CLUB:club, SCORE1:r.SCORE1||'', SCORE2:r.SCORE2||'', SCORE3:r.SCORE3||'', MOY_SCORE:r.MOY_SCORE||r.MOYENNE||'' }; headers.forEach(h=>{ const td=document.createElement('td'); if(h.key==='DIVISION') td.innerHTML=obj[h.key]; else td.textContent=obj[h.key]??''; tr.appendChild(td); }); tbody.appendChild(tr); }); document.getElementById('totalChip').textContent = displayed.length + ' ligne' + (displayed.length>1?'s':''); }
-
-    // ---- 18m auto ----
+    // ---- Fonctions communes de construction d'équipes ----
     function sexOf(row){ const s=(row.SEXE||row.GENRE||'').toString().toUpperCase(); if(s==='H'||s==='F') return s; const c=(row.CAT||row.CATEGORIE||'').toString().toUpperCase(); if(/F$/.test(c)) return 'F'; if(/H$/.test(c)) return 'H'; return ''; }
     function armeOf(row){ return (row.ARME||row.AR||'').toString().toUpperCase(); }
     function ageCode(row){ const c=(row.CAT||row.CATEGORIE||'').toUpperCase(); if(c.includes('U13')) return 13; if(c.includes('U15')) return 15; if(c.includes('U18')) return 18; if(c.includes('U21')) return 21; if(/S1/.test(c)) return 31; if(/S2/.test(c)) return 32; if(/S3/.test(c)) return 33; if(/\bS\b/.test(c)) return 30; return 0; }
     function inBand(row,min,max){ const a=ageCode(row); return a>=min && a<=max; }
     function qualifies18(row, group){ const s=sexOf(row); const ar=armeOf(row); switch(group){ case 'Arc Classique Femme': return (s==='F')&&inBand(row,18,33)&&(ar==='CL'); case 'Arc Classique Homme': return (s==='H')&&inBand(row,18,33)&&(ar==='CL'); case 'Arc à Poulie Femme': return (s==='F')&&inBand(row,18,33)&&(ar==='CO'); case 'Arc à Poulie Homme': return (s==='H')&&inBand(row,18,33)&&(ar==='CO'); case 'Arc à Poulie Mixte': return inBand(row,18,33)&&(ar==='CO'); case 'Arc Nu Mixte': return inBand(row,21,33)&&(ar==='BB'); case 'Arc Classique U13 - U15': return inBand(row,13,15)&&(ar==='CL'); case 'Arc Classique U18 - U21': return inBand(row,18,21)&&(ar==='CL'); default: return false; } }
     function has3scores(r){ const s1=toNum(r.SCORE1), s2=toNum(r.SCORE2), s3=toNum(r.SCORE3); return Number.isFinite(s1)&&Number.isFinite(s2)&&Number.isFinite(s3); }
-    function moyOf(r){ let m=toNum(r.MOY_SCORE); if(!Number.isFinite(m)){ const s1=toNum(r.SCORE1), s2=toNum(r.SCORE2), s3=toNum(r.SCORE3); if(Number.isFinite(s1)&&Number.isFinite(s2)&&Number.isFinite(s3)) m=(s1+s2+s3)/3; } return m; }
-    function clubKey(row){ return (row.CODE_STRUCTURE && row.CODE_STRUCTURE.trim()) || (row.NOM_STRUCTURE||''); }
+    function moyOf(r){ let m=toNum(r.MOY_SCORE); if(!Number.isFinite(m)||m<=0){ const s1=toNum(r.SCORE1),s2=toNum(r.SCORE2),s3=toNum(r.SCORE3); if(Number.isFinite(s1)&&Number.isFinite(s2)&&Number.isFinite(s3)) m=(s1+s2+s3)/3; } return m; }
+    function clubKey(row){ return (row.CODE_STRUCTURE&&row.CODE_STRUCTURE.trim())||(row.NOM_STRUCTURE||''); }
     function clubName(row){ return [row.NOM_STRUCTURE,row.NOM_ABREGE].filter(Boolean).join(' - '); }
-    function buildTeams18(data, group){ const rows=data.filter(r=> qualifies18(r,group) && has3scores(r)); const byClub=new Map(); rows.forEach(r=>{ const k=clubKey(r); if(!byClub.has(k)) byClub.set(k,[]); byClub.get(k).push(r); }); const teams=[]; byClub.forEach(list=>{ list.sort((a,b)=> moyOf(b)-moyOf(a)); const top=list.slice(0,3); if(top.length<3) return; const avgs=top.map(moyOf); const total=avgs.reduce((s,x)=>s+x,0); const dep=getDeptFromCodeStructure(top[0].CODE_STRUCTURE); teams.push({ RANG:0, CLUB:clubName(top[0]), CODE_STRUCTURE:top[0].CODE_STRUCTURE, DEPARTEMENT:dep, TOTAL_EQ:total, SCORES_INT: avgs.map(v=> Math.round(v)), MEMBERS: top.map(r=>({ nom:(r.NOM_PERSONNE||'')+' '+(r.PRENOM_PERSONNE||''), moy: moyOf(r) })) }); }); teams.sort((a,b)=> (b.TOTAL_EQ-a.TOTAL_EQ) || a.CLUB.localeCompare(b.CLUB,'fr')); teams.forEach((t,i)=> t.RANG=i+1); return teams; }
-    let team18Cache=[];
-    function openTeam18Modal(idx){ const t=team18Cache[idx]; if(!t) return; const overlay=document.getElementById('modalOverlay'); const modal=document.getElementById('teamModal'); const body=document.getElementById('modalBody'); const title=document.getElementById('modalTitle'); title.textContent = 'Équipe – ' + t.CLUB; const rows=t.MEMBERS.map(m=>'<tr><td>'+m.nom+'</td><td>'+Math.round(m.moy)+'</td></tr>').join(''); body.innerHTML = '<table class="mini-table"><thead><tr><th>Archer</th><th>Moyenne</th></tr></thead><tbody>'+rows+'</tbody></table>'; overlay.classList.remove('hidden'); modal.classList.remove('hidden'); }
 
-    // ---- TAE I auto (via catégorie dans T) ----
-    let teamTAECache=[];
-    function qualifiesTAEI(row, group){ const type=(row.TYPE||'').toString().toUpperCase(); if(type!=='I') return false; const ar=(row.ARME||row.AR||'').toString().toUpperCase(); if(ar!=='CL') return false; if(group.includes('U13')||group.includes('U15')) return inBand(row,13,15); if(group.includes('U18')||group.includes('U21')) return inBand(row,18,21); return false; }
-    function buildTeamsTAEI(data, group){ const rows=data.filter(r=> qualifiesTAEI(r,group) && has3scores(r)); const byClub=new Map(); rows.forEach(r=>{ const k=clubKey(r); if(!byClub.has(k)) byClub.set(k,[]); byClub.get(k).push(r); }); const teams=[]; byClub.forEach(list=>{ list.sort((a,b)=> moyOf(b)-moyOf(a)); const top=list.slice(0,3); if(top.length<3) return; const avgs=top.map(moyOf); const total=avgs.reduce((s,x)=>s+x,0); const dep=getDeptFromCodeStructure(top[0].CODE_STRUCTURE); teams.push({ RANG:0, CLUB:clubName(top[0]), CODE_STRUCTURE:top[0].CODE_STRUCTURE, DEPARTEMENT:dep, TOTAL_EQ:total, SCORES_INT: avgs.map(v=> Math.round(v)), MEMBERS: top.map(r=>({ nom:(r.NOM_PERSONNE||'')+' '+(r.PRENOM_PERSONNE||''), moy: moyOf(r) })) }); }); teams.sort((a,b)=> (b.TOTAL_EQ-a.TOTAL_EQ) || a.CLUB.localeCompare(b.CLUB,'fr')); teams.forEach((t,i)=> t.RANG=i+1); return teams; }
-    function openTeamTAEIModal(idx){ const t=teamTAECache[idx]; if(!t) return; const overlay=document.getElementById('modalOverlay'); const modal=document.getElementById('teamModal'); const body=document.getElementById('modalBody'); const title=document.getElementById('modalTitle'); title.textContent = 'Équipe – ' + t.CLUB; const rows=t.MEMBERS.map(m=>'<tr><td>'+m.nom+'</td><td>'+Math.round(m.moy)+'</td></tr>').join(''); body.innerHTML = '<table class="mini-table"><thead><tr><th>Archer</th><th>Moyenne</th></tr></thead><tbody>'+rows+'</tbody></table>'; overlay.classList.remove('hidden'); modal.classList.remove('hidden'); }
-
-    function renderTableTeam_18mAuto(){ const thead=document.getElementById('thead-row'); const tbody=document.getElementById('tbody'); thead.innerHTML=''; tbody.innerHTML=''; const group = state.filters.categorie || TEAM18_GROUPS[0]; fillSelect(document.getElementById('categorie'), TEAM18_GROUPS, false, group); loadCSV(TEAM18_FILE).then(async all=>{ const teams=buildTeams18(all, group);
-      // --- Inscriptions + quotas (équipes) ---
-      let inscrRows = [];
-      try{ inscrRows = await loadCSV('Inscriptions CR equipes.csv'); }
-      catch(e1){ try{ inscrRows = await loadCSV('inscriptions_equipes.csv'); }catch(e2){ inscrRows = []; } }
-      let quotaRows = [];
-      try{ quotaRows = await loadCSV('quotas.csv'); }catch(e){
-        try{ quotaRows = await loadCSV('quotas_18m.csv'); }catch(e2){ quotaRows = []; }
-      }
-
-      function nkey(v){ return String(v||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\s+/g,'').trim(); }
-      const gk = nkey(group);
-
-      // inscriptions set by CODE_STRUCTURE for this group
-      const enrolled = new Set();
-      (Array.isArray(inscrRows)?inscrRows:[]).forEach(r=>{
-        const d = nkey(r.DISCIPLINE);
-        const cat = nkey(r.CATEGORIE);
-        const code = (r.CODE_STRUCTURE||r.CODE||'').toString().trim();
-        if(!code) return;
-        const is18 = (d==='18m' || d==='tir18m' || d.includes('18m') || d.includes('tir18m'));
-        if(is18 && cat===gk) enrolled.add(code);
+    // Construit les équipes tir 18m (groupes multi-catégories, 3 archers/club avec 3 scores)
+    function buildTeams18(data, group){
+      const rows=data.filter(r=>qualifies18(r,group)&&has3scores(r));
+      const byClub=new Map();
+      rows.forEach(r=>{ const k=clubKey(r); if(!byClub.has(k)) byClub.set(k,[]); byClub.get(k).push(r); });
+      const teams=[];
+      byClub.forEach(list=>{
+        list.sort((a,b)=>moyOf(b)-moyOf(a));
+        const top=list.slice(0,3); if(top.length<3) return;
+        const avgs=top.map(moyOf); const total=avgs.reduce((s,x)=>s+x,0);
+        teams.push({ RANG:0, CLUB:clubName(top[0]), CODE_STRUCTURE:top[0].CODE_STRUCTURE, DEPARTEMENT:getDeptFromCodeStructure(top[0].CODE_STRUCTURE), TOTAL_EQ:total, SCORES_INT:avgs.map(v=>Math.round(v)), MEMBERS:top.map(r=>({nom:(r.NOM_PERSONNE||'')+' '+(r.PRENOM_PERSONNE||''),moy:moyOf(r)})) });
       });
+      teams.sort((a,b)=>(b.TOTAL_EQ-a.TOTAL_EQ)||a.CLUB.localeCompare(b.CLUB,'fr'));
+      teams.forEach((t,i)=>t.RANG=i+1);
+      return teams;
+    }
 
-      
-      // --- Ajout : afficher aussi les équipes inscrites même si elles n'apparaissent pas encore dans le fichier de classement ---
-      try{
-        const existingTeams = new Set((teams||[]).map(t => String((t.CODE_STRUCTURE||t.CODE||'')||'').trim()).filter(Boolean));
-        (Array.isArray(inscrRows)?inscrRows:[]).forEach(r=>{
-          const d = nkey(r.DISCIPLINE);
-          const is18 = (d==='18m' || d==='tir18m' || d.includes('18m') || d.includes('tir18m'));
-          if(!is18) return;
-          if(nkey(r.CATEGORIE)!==gk) return;
-          const code = String((r.CODE_STRUCTURE||r.CODE||'')||'').trim();
-          if(!code || existingTeams.has(code)) return;
-          existingTeams.add(code);
-          teams.push({
-            CODE_STRUCTURE: code,
-            NOM_STRUCTURE: String((r.NOM_STRUCTURE||r.STRUCTURE||r.CLUB||r.NOM||code)||'').trim() || code,
-            TOTAL_EQ: 0,
-            SCORE_1: '',
-            SCORE_2: '',
-            SCORE_3: ''
-          });
+    // Construit les équipes par classement (TAE I/N, Campagne, 3D, Nature)
+    function buildTeamsFromClassement(data, classement){
+      const rows=data.filter(r=>{
+        if(classement && r._classement_nom!==classement) return false;
+        const m=moyOf(r); return Number.isFinite(m)&&m>0;
+      });
+      const byClub=new Map();
+      rows.forEach(r=>{ const k=clubKey(r); if(!byClub.has(k)) byClub.set(k,[]); byClub.get(k).push(r); });
+      const teams=[];
+      byClub.forEach(list=>{
+        list.sort((a,b)=>moyOf(b)-moyOf(a));
+        const top=list.slice(0,3); if(top.length<3) return;
+        const avgs=top.map(moyOf); const total=avgs.reduce((s,x)=>s+x,0);
+        teams.push({ RANG:0, CLUB:clubName(top[0]), CODE_STRUCTURE:top[0].CODE_STRUCTURE, DEPARTEMENT:getDeptFromCodeStructure(top[0].CODE_STRUCTURE), TOTAL_EQ:total, SCORES_INT:avgs.map(v=>Math.round(v)), MEMBERS:top.map(r=>({nom:(r.NOM_PERSONNE||'')+' '+(r.PRENOM_PERSONNE||''),moy:moyOf(r)})) });
+      });
+      teams.sort((a,b)=>(b.TOTAL_EQ-a.TOTAL_EQ)||a.CLUB.localeCompare(b.CLUB,'fr'));
+      teams.forEach((t,i)=>t.RANG=i+1);
+      return teams;
+    }
+
+    // Cache équipes courant (pour modal et export)
+    let teamCache=[];
+
+    function openTeamModal(idx){
+      const t=teamCache[idx]; if(!t) return;
+      const overlay=document.getElementById('modalOverlay');
+      const modal=document.getElementById('teamModal');
+      document.getElementById('modalTitle').textContent='Équipe \u2013 '+t.CLUB;
+      document.getElementById('modalBody').innerHTML='<table class="mini-table"><thead><tr><th>Archer</th><th>Moyenne</th></tr></thead><tbody>'+t.MEMBERS.map(m=>'<tr><td>'+m.nom+'</td><td>'+Math.round(m.moy)+'</td></tr>').join('')+'</tbody></table>';
+      overlay.classList.remove('hidden'); modal.classList.remove('hidden');
+    }
+    // Alias rétrocompatibilité
+    function openTeam18Modal(idx){ openTeamModal(idx); }
+
+    // Rendu tableau équipes — commun à toutes les disciplines
+    function renderTeamTable(teams){
+      const thead=document.getElementById('thead-row');
+      const tbody=document.getElementById('tbody');
+      thead.innerHTML=''; tbody.innerHTML='';
+      const depFilter=state.filters.departement||'';
+      const search=(state.filters.search||'').toLowerCase();
+      const headers=[{key:'RANG',label:'Rang'}];
+      if(depFilter) headers.push({key:'DEPARTEMENT',label:'Département'},{key:'RANG_DEP',label:'Rang dép.'});
+      headers.push({key:'CLUB',label:'Équipe'},{key:'SCORES',label:'3 scores'},{key:'TOTAL_EQ',label:'Total équipe'});
+      headers.forEach(h=>{ const th=document.createElement('th'); th.textContent=h.label; thead.appendChild(th); });
+      let displayed=depFilter?teams.filter(t=>t.DEPARTEMENT===depFilter):teams;
+      if(search) displayed=displayed.filter(t=>(t.CLUB||'').toLowerCase().includes(search));
+      const depIdx=new Map(); if(depFilter) displayed.forEach((t,i)=>depIdx.set(t,i+1));
+      displayed.forEach(t=>{
+        const idx=teamCache.indexOf(t);
+        const tr=document.createElement('tr');
+        const obj={RANG:t.RANG,DEPARTEMENT:t.DEPARTEMENT,RANG_DEP:(depIdx.get(t)||''),CLUB:t.CLUB,SCORES:t.SCORES_INT.join(' / '),TOTAL_EQ:Math.round(t.TOTAL_EQ)};
+        headers.forEach(h=>{
+          const td=document.createElement('td');
+          if(h.key==='CLUB'){ const btn=document.createElement('button'); btn.className='link-btn'; btn.textContent=obj.CLUB; btn.addEventListener('click',()=>openTeamModal(idx)); td.appendChild(btn); }
+          else td.textContent=obj[h.key]!==undefined?obj[h.key]:'';
+          tr.appendChild(td);
         });
-      }catch(e){ console.warn('merge inscr equipes', e); }
-// quota for this group (team lines often have ARME and SEXE empty)
-      let quota = null;
-      (Array.isArray(quotaRows)?quotaRows:[]).some(r=>{
-        const d = nkey(r.DISCIPLINE);
-        const is18 = (d==='18m' || d==='tir18m' || d.includes('18m') || d.includes('tir18m'));
-        if(!is18) return false;
-        if(nkey(r.CATEGORIE)!==gk) return false;
-        const arme = nkey(r.ARME);
-        const sexe = nkey(r.SEXE);
-        if(arme!=='' || sexe!=='') return false;
-        const q = parseInt((r.QUOTA||'').toString().trim(),10);
-        if(!isNaN(q)) quota = q;
-        return true;
+        tbody.appendChild(tr);
       });
+      document.getElementById('totalChip').textContent=displayed.length+' équipe'+(displayed.length>1?'s':'');
+    }
 
-      // inscription rank map computed after teams are sorted (best first)
-      const rankInscr = new Map();
- team18Cache=teams; const depFilter=state.filters.departement||''; const headers=[{key:'RANG',label:'Rang'},{key:'RANG_INSCR',label:'Rang inscrit'}]; if(depFilter){ headers.push({key:'DEPARTEMENT',label:'Département'},{key:'RANG_DEP',label:'Rang dép.'}); } headers.push({key:'CLUB',label:'Équipe'},{key:'SCORES',label:'3 scores'},{key:'TOTAL_EQ',label:'Total équipe'}); headers.forEach(h=>{ const th=document.createElement('th'); th.textContent=h.label; thead.appendChild(th); }); const depIdx=new Map(); if(depFilter){ const onlyDep=teams.filter(t=> t.DEPARTEMENT===depFilter); onlyDep.forEach((t,i)=> depIdx.set(t,i+1)); }
-      // --- calc rang inscrit (sur les équipes inscrites) ---
-      const enrolledTeams = teams.filter(t => enrolled.has(String(t.CODE_STRUCTURE||'').trim()));
-      const totalInscrits = enrolledTeams.length;
-      enrolledTeams.forEach((t,i)=>{ rankInscr.set(String(t.CODE_STRUCTURE||'').trim(), i+1); });
-
-      teams.forEach((t,idx)=>{ if(depFilter && t.DEPARTEMENT!==depFilter) return; const tr=document.createElement('tr'); tr.dataset.team18Idx = idx; const codeIns=String(t.CODE_STRUCTURE||'').trim(); const rInsNum=rankInscr.get(codeIns)||0; 
-        const isEnrolled=enrolled.has(codeIns); 
-        // --- surlignage selon quota & inscription (uniquement équipes inscrites) ---
-        if(isEnrolled){
-          if(typeof quota==='number' && !isNaN(quota)){
-            tr.classList.add((rInsNum>0 && rInsNum<=quota)?'row-quota-green':'row-quota-red');
-          } else {
-            // quota introuvable : on marque quand même les inscrits
-            tr.classList.add('row-quota-enrolled');
-          }
-        }
-      const obj={ RANG:t.RANG, RANG_INSCR:(isEnrolled ? rInsNum : ''), DEPARTEMENT:t.DEPARTEMENT, RANG_DEP:(depIdx.get(t)||''), CLUB:t.CLUB, SCORES:t.SCORES_INT.join(' / '), TOTAL_EQ:Math.round(t.TOTAL_EQ) }; headers.forEach(h=>{ const td=document.createElement('td'); if(h.key==='CLUB'){ const btn=document.createElement('button'); btn.className='link-btn'; btn.textContent=obj.CLUB; btn.dataset.team18Idx = idx;
-        btn.setAttribute('onclick', 'openTeam18Modal(' + idx + ')'); td.appendChild(btn); } else { td.textContent=obj[h.key]??''; } tr.appendChild(td); }); tbody.appendChild(tr); }); document.getElementById('totalChip').textContent=(depFilter? teams.filter(t=>t.DEPARTEMENT===depFilter).length : teams.length)+ ' équipe(s)'; document.getElementById('dataset-hint').textContent = TEAM18_FILE+' chargé — 18m auto (« '+group+' »)'; }); }
-
-    function renderTableTeam_TAEIAuto(){ const thead=document.getElementById('thead-row'); const tbody=document.getElementById('tbody'); thead.innerHTML=''; tbody.innerHTML=''; const group = state.filters.categorie || TEAMTAEI_GROUPS[0]; fillSelect(document.getElementById('categorie'), TEAMTAEI_GROUPS, false, group); loadCSV(filesMap['TAE I']).then(all=>{ const teams=buildTeamsTAEI(all, group); teamTAECache=teams; const depFilter=state.filters.departement||''; const headers=[{key:'RANG',label:'Rang'}]; if(depFilter){ headers.push({key:'DEPARTEMENT',label:'Département'},{key:'RANG_DEP',label:'Rang dép.'}); } headers.push({key:'CLUB',label:'Équipe'},{key:'SCORES',label:'3 scores'},{key:'TOTAL_EQ',label:'Total équipe'}); headers.forEach(h=>{ const th=document.createElement('th'); th.textContent=h.label; thead.appendChild(th); }); const depIdx=new Map(); if(depFilter){ const onlyDep=teams.filter(t=> t.DEPARTEMENT===depFilter); onlyDep.forEach((t,i)=> depIdx.set(t,i+1)); } teams.forEach((t,idx)=>{ if(depFilter && t.DEPARTEMENT!==depFilter) return; const tr=document.createElement('tr'); const obj={ RANG:t.RANG, DEPARTEMENT:t.DEPARTEMENT, RANG_DEP:(depIdx.get(t)||''), CLUB:t.CLUB, SCORES:t.SCORES_INT.join(' / '), TOTAL_EQ:Math.round(t.TOTAL_EQ) }; headers.forEach(h=>{ const td=document.createElement('td'); if(h.key==='CLUB'){ const btn=document.createElement('button'); btn.className='link-btn'; btn.textContent=obj.CLUB; btn.addEventListener('click',()=>openTeamTAEIModal(idx)); td.appendChild(btn); } else { td.textContent=obj[h.key]??''; } tr.appendChild(td); }); tbody.appendChild(tr); }); document.getElementById('totalChip').textContent=(depFilter? teams.filter(t=>t.DEPARTEMENT===depFilter).length : teams.length)+ ' équipe(s)'; document.getElementById('dataset-hint').textContent = filesMap['TAE I']+' chargé — TAE I auto (« '+group+' »)'; }); }
-
-    function applyFiltersTeam_Normal(data){ const f=state.filters; const disc=(state.disciplineTeam||'').toUpperCase(); return data.filter(r=>{ const code=getTeamDisciplineCode(r); if(code==='S') return false; if(disc && code!==disc) return false; if(f.categorie){ const v=(r.CATEGORIE_CLASSEMENT||r.CAT_CLASS||'').toString(); if(v!==f.categorie) return false; } if(f.departement){ const dep=getDeptFromCodeStructure(r.CODE_STRUCTURE); if(dep!==f.departement) return false; } if(f.search){ const q=f.search.toLowerCase(); const eq=(r.NOM_EQ||r.NOM_EQUIPE||r.EQUIPE||'').toLowerCase(); const club=((r.NOM_STRUCTURE||'')+' '+(r.NOM_ABREGE||'')).toLowerCase(); if(!eq.includes(q) && !club.includes(q)) return false; } return true; }); }
+    // Rendu principal équipes : délègue selon discipline
+    async function renderTableTeamAuto(){
+      const disc=state.disciplineTeam||'';
+      if(!disc) return;
+      const rows=await ensureTeamDiscLoaded(disc);
+      if(disc==='Tir 18m'){
+        const group=state.filters.categorie||TEAM18_GROUPS[0];
+        teamCache=buildTeams18(rows,group);
+      } else {
+        const classement=state.filters.categorie||'';
+        teamCache=buildTeamsFromClassement(rows,classement);
+      }
+      renderTeamTable(teamCache);
+      const cfg=TEAM_DISC_CONFIG[disc];
+      const label=state.filters.categorie?' — '+state.filters.categorie:'';
+      document.getElementById('dataset-hint').textContent=(cfg?cfg.file:disc)+' chargé'+label;
+    }
 
     // ========= REFRESH =========
-    async function refresh(){ updateChips(); const hint=document.getElementById('dataset-hint'); const teamNote=document.getElementById('team-note'); const sexeField=document.getElementById('sexe-field'); const armeField=document.getElementById('arme-field'); if(state.viewMode==='team'){ teamNote.classList.remove('hidden'); document.getElementById('tae-section').classList.add('hidden'); document.getElementById('para-section').classList.add('hidden'); DISC_SELECT.innerHTML='<option value="">— Choisir —</option>'; await ensureTeamLoaded(); populateDisciplineForTeam(); DISC_SELECT.value=state.disciplineTeam||''; populateTeamCategories(); document.getElementById('categorie').value=state.filters.categorie||''; const disc=(state.disciplineTeam||'').toUpperCase(); const is18=(disc==='18M_AUTO'); // masquer ces filtres en équipe
-        sexeField.classList.add('hidden'); armeField.classList.add('hidden'); if(!disc){ hint.textContent='Sélectionnez une discipline (Équipe).'; document.getElementById('thead-row').innerHTML=''; document.getElementById('tbody').innerHTML=''; document.getElementById('totalChip').textContent='0 lignes'; return; } if(is18){ renderTableTeam_18mAuto(); return; } const isTAEIAutoCat = (disc==='T') && TEAMTAEI_GROUPS.includes(state.filters.categorie||''); if(isTAEIAutoCat){ renderTableTeam_TAEIAuto(); return; } const filtered=applyFiltersTeam_Normal(state.teamRaw||[]); hint.textContent=TEAM_FILE+' chargé ('+(state.teamRaw||[]).length+' lignes).'; renderTableTeam_Normal(filtered); return; } // INDIV
+    async function refresh(){ updateChips(); const hint=document.getElementById('dataset-hint'); const teamNote=document.getElementById('team-note'); const sexeField=document.getElementById('sexe-field'); const armeField=document.getElementById('arme-field'); if(state.viewMode==='team'){ teamNote.classList.remove('hidden'); document.getElementById('tae-section').classList.add('hidden'); document.getElementById('para-section').classList.add('hidden'); DISC_SELECT.innerHTML='<option value="">— Choisir —</option>'; populateDisciplineForTeam(); DISC_SELECT.value=state.disciplineTeam||''; await populateTeamCategories(); const disc=state.disciplineTeam||''; // masquer ces filtres en équipe
+        sexeField.classList.add('hidden'); armeField.classList.add('hidden'); if(!disc){ hint.textContent='Sélectionnez une discipline (Équipe).'; document.getElementById('thead-row').innerHTML=''; document.getElementById('tbody').innerHTML=''; document.getElementById('totalChip').textContent='0 lignes'; return; } await renderTableTeamAuto(); return; } // INDIV
       teamNote.classList.add('hidden'); DISC_SELECT.innerHTML=INDIV_OPTIONS_HTML; DISC_SELECT.value=state.disciplineIndiv||''; showHideSectionsIndiv(); 
 // Ensure sexe & arme filters are shown again when returning to Individual mode
 try { if (typeof sexeField !== 'undefined' && sexeField) sexeField.classList.remove('hidden'); } catch(e) {}
@@ -1429,13 +1473,14 @@ try { const clEl=document.getElementById('classement'); if(clEl) clEl.value=stat
 const filteredInd=applyFiltersIndiv(data); renderTableIndiv(filteredInd); }
 
     // ========= EXPORT =========
-    function exportCurrentCSV(){ if(state.viewMode==='team'){ const disc=(state.disciplineTeam||'').toUpperCase(); if(!disc){ alert('Choisissez une discipline (Équipe).'); return; } if(disc==='18M_AUTO'){ const group = state.filters.categorie || TEAM18_GROUPS[0]; loadCSV(TEAM18_FILE).then(all=>{ const teams=buildTeams18(all, group); const depFilter=state.filters.departement||''; const filtered = depFilter? teams.filter(t=> t.DEPARTEMENT===depFilter) : teams; const headers=['Rang']; if(depFilter){ headers.push('Département','Rang dép.'); } headers.push('Équipe','3 scores','Total équipe'); const csvRows = filtered.map((t,i)=>{ const rankDep = depFilter? (i+1) : ''; const row = depFilter? [t.RANG, t.DEPARTEMENT, rankDep, t.CLUB, t.SCORES_INT.join(' / '), Math.round(t.TOTAL_EQ)] : [t.RANG, t.CLUB, t.SCORES_INT.join(' / '), Math.round(t.TOTAL_EQ)]; return row.map(v=> '"'+String(v).replaceAll('"','""')+'"').join(';'); }); const csv=[headers.join(';')].concat(csvRows).join('\n'); const blob=new Blob([csv],{type:'text/csv;charset=utf-8'}); const url=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download='equipes_18m_'+group.replaceAll(' ','_')+'.csv'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url); }); return; } if(disc==='T' && TEAMTAEI_GROUPS.includes(state.filters.categorie||'')){ const group = state.filters.categorie || TEAMTAEI_GROUPS[0]; loadCSV(filesMap['TAE I']).then(all=>{ const teams=buildTeamsTAEI(all, group); const depFilter=state.filters.departement||''; const filtered = depFilter? teams.filter(t=> t.DEPARTEMENT===depFilter) : teams; const headers=['Rang']; if(depFilter){ headers.push('Département','Rang dép.'); } headers.push('Équipe','3 scores','Total équipe'); const csvRows = filtered.map((t,i)=>{ const rankDep = depFilter? (i+1) : ''; const row = depFilter? [t.RANG, t.DEPARTEMENT, rankDep, t.CLUB, t.SCORES_INT.join(' / '), Math.round(t.TOTAL_EQ)] : [t.RANG, t.CLUB, t.SCORES_INT.join(' / '), Math.round(t.TOTAL_EQ)]; return row.map(v=> '"'+String(v).replaceAll('"','""')+'"').join(';'); }); const csv=[headers.join(';')].concat(csvRows).join('\n'); const blob=new Blob([csv],{type:'text/csv;charset=utf-8'}); const url=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download='equipes_TAEI_'+group.replaceAll(' ','_')+'.csv'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url); }); return; } // EXPORT NORMAL
-        const rows=applyFiltersTeam_Normal(state.teamRaw||[]); const headersDef=headersForTeam_Normal(); const headers=headersDef.map(h=>h.label); const keys=headersDef.map(h=>h.key); const code=(state.disciplineTeam||'').toUpperCase(); const displayed = rows.slice().sort((a,b)=> (toNum(b.MOY_SCORE)-toNum(a.MOY_SCORE)) || ((parseInt(a.RANG||a.RANG_NAT||'999999')||999999) - (parseInt(b.RANG||b.RANG_NAT||'999999')||999999)) ); const region = displayed.filter(r=> ['44','49','53','72','85'].includes(getDeptFromCodeStructure(r.CODE_STRUCTURE))); const crIdx=new Map(); region.forEach((r,i)=> crIdx.set(r,i+1)); const depFilter=state.filters.departement||''; const depIdx=new Map(); if(depFilter){ const onlyDep=displayed.filter(r=> getDeptFromCodeStructure(r.CODE_STRUCTURE)===depFilter); onlyDep.forEach((r,i)=> depIdx.set(r,i+1)); } const csvRows = displayed.map(r=>{ const dep=getDeptFromCodeStructure(r.CODE_STRUCTURE); const club=[r.NOM_STRUCTURE,r.NOM_ABREGE].filter(Boolean).join(' - '); const nat=parseInt(r.RANG_NAT||r.RANG)||''; const cr=crIdx.get(r)||''; const div=(code==='T')? normalizedDivisionText(r):''; const obj={ RANG_NAT:nat, RANG_CR:cr, DEPARTEMENT:dep, RANG_DEP:(depIdx.get(r)||''), DIVISION:div, CLUB:club, SCORE1:r.SCORE1||'', SCORE2:r.SCORE2||'', SCORE3:r.SCORE3||'', MOY_SCORE:r.MOY_SCORE||r.MOYENNE||'' }; return keys.map(k=> String(obj[k]??'').replaceAll('"','""')); }); const csv=[headers.join(';')].concat(csvRows.map(cols=> cols.map(v=>'"'+v+'"').join(';'))).join('\n'); const blob=new Blob([csv],{type:'text/csv;charset=utf-8'}); const url=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download='classement_equipes_'+(state.disciplineTeam||'toutes')+'.csv'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url); return; }
+    function exportCurrentCSV(){ if(state.viewMode==='team'){ const disc=(state.disciplineTeam||'').toUpperCase(); if(!disc){ alert('Choisissez une discipline (Équipe).'); return; } // Export équipes depuis teamCache (unifié toutes disciplines)
+        { const teams=teamCache; const depFilter=state.filters.departement||''; let displayed=depFilter?teams.filter(t=>t.DEPARTEMENT===depFilter):teams; const headers=['Rang']; if(depFilter){ headers.push('Département','Rang dép.'); } headers.push('Équipe','3 scores','Total équipe'); const csvRows=displayed.map((t,i)=>{ const dep=depFilter?(i+1):''; const row=depFilter?[t.RANG,t.DEPARTEMENT,dep,t.CLUB,t.SCORES_INT.join(' / '),Math.round(t.TOTAL_EQ)]:[t.RANG,t.CLUB,t.SCORES_INT.join(' / '),Math.round(t.TOTAL_EQ)]; return row.map(v=>'"'+String(v).replaceAll('"','""')+'"').join(';'); }); const csv=[headers.join(';')].concat(csvRows).join('\n'); const blob=new Blob([csv],{type:'text/csv;charset=utf-8'}); const url=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download='equipes_'+(state.disciplineTeam||'').replaceAll(' ','_')+'_'+((state.filters.categorie||'').replaceAll(' ','_')||'all')+'.csv'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url); return; }
+        // (export équipes géré plus haut via teamCache)
       // INDIV
       if(!state.disciplineIndiv){ alert('Choisissez une discipline (Individuel).'); return; } const data=state.rawByDiscipline.get(state.disciplineIndiv)||[]; const filtered=applyFiltersIndiv(data); const depFilter=state.filters.departement||''; let displayed=filtered.slice(); const depIdx=new Map(); if(depFilter){ const ligueRank = r=> (parseInt(r.Rang_ligue||r.RANG||r.Rang||'999999')||999999); displayed.sort((a,b)=> ligueRank(a)-ligueRank(b) || (toNum(b.MOY_SCORE)-toNum(a.MOY_SCORE)) ); displayed.forEach((r,i)=> depIdx.set(r,i+1)); } const headersDef=headersForIndiv(); const headers=headersDef.map(h=>h.label); const keys=headersDef.map(h=>h.key); const csvRows=displayed.map(r=>{ const disp=buildDisplayRowIndiv(r); if(depFilter) disp.RANG_DEP=depIdx.get(r)||''; return keys.map(k=> String((k==='RANG_DEP'?disp.RANG_DEP:disp[k])??'').replaceAll('"','""')); }); const csv=[headers.join(';')].concat(csvRows.map(cols=> cols.map(v=>'"'+v+'"').join(';'))).join('\n'); const blob=new Blob([csv],{type:'text/csv;charset=utf-8'}); const url=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download='classement_'+state.disciplineIndiv.replaceAll(' ','_')+'.csv'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url); }
 
     // ========= EVENTS =========
-    function wire(){ const viewMode=document.getElementById('viewMode'); const teamNote=document.getElementById('team-note'); viewMode.addEventListener('change',()=>{ state.viewMode=viewMode.value; state.filters.categorie=''; if(state.viewMode==='team'){ DISC_SELECT.innerHTML='<option value="">— Choisir —</option>'; ensureTeamLoaded().then(()=>{ populateDisciplineForTeam(); refresh(); }); teamNote.classList.remove('hidden'); } else { DISC_SELECT.innerHTML=INDIV_OPTIONS_HTML; teamNote.classList.add('hidden'); refresh(); } }); DISC_SELECT.addEventListener('change',()=>{ if(state.viewMode==='team'){ state.disciplineTeam=DISC_SELECT.value; } else { state.disciplineIndiv=DISC_SELECT.value; } state.filters={...state.filters,categorie:'',arme:'',distance:'',blason:'',catClass:'',catTir:'',classement:''}; state.hasApiData=false; ['categorie','arme','distance','blason','catClass','catTir','classement'].forEach(id=>{ const el=document.getElementById(id); if(el && el.tagName==='SELECT') el.value=''; }); const clField=document.getElementById('classement-field'); if(clField) clField.classList.add('hidden'); if(state.viewMode==='team'){ populateTeamCategories(); } refresh(); }); const ids={ categorie:'categorie', sexe:'sexe', arme:'arme', departement:'departement', distance:'distance', blason:'blason', catClass:'catClass', catTir:'catTir', classement:'classement' }; Object.entries(ids).forEach(function(pair){ const k=pair[0]; const id=pair[1]; const el=document.getElementById(id); if(!el) return; el.addEventListener('change',function(){ state.filters[k]=el.value; refresh(); }); }); document.getElementById('search').addEventListener('input',function(e){ state.filters.search=e.target.value.trim(); refresh(); }); document.getElementById('resetFilters').addEventListener('click',function(){ document.getElementById('viewMode').value='indiv'; state.viewMode='indiv'; state.disciplineIndiv=''; state.disciplineTeam=''; DISC_SELECT.innerHTML=INDIV_OPTIONS_HTML; DISC_SELECT.value=''; ['categorie','sexe','arme','departement','distance','blason','catClass','catTir','classement','search'].forEach(function(id){ const el=document.getElementById(id); if(el && el.tagName==='SELECT') el.value=''; else if(el) el.value=''; }); const clFieldReset=document.getElementById('classement-field'); if(clFieldReset) clFieldReset.classList.add('hidden'); state.hasApiData=false; state.filters={ categorie:'', sexe:'', arme:'', departement:'', distance:'', blason:'', catClass:'', catTir:'', classement:'', search:'' }; refresh(); }); document.getElementById('exportCSV').addEventListener('click', exportCurrentCSV); document.getElementById('modalClose').addEventListener('click', function(){ document.getElementById('modalOverlay').classList.add('hidden'); document.getElementById('teamModal').classList.add('hidden'); }); document.getElementById('modalOverlay').addEventListener('click', function(){ document.getElementById('modalOverlay').classList.add('hidden'); document.getElementById('teamModal').classList.add('hidden'); }); window.addEventListener('keydown', function(e){ if(e.key==='Escape'){ document.getElementById('modalOverlay').classList.add('hidden'); document.getElementById('teamModal').classList.add('hidden'); } }); }
+    function wire(){ const viewMode=document.getElementById('viewMode'); const teamNote=document.getElementById('team-note'); viewMode.addEventListener('change',()=>{ state.viewMode=viewMode.value; state.filters.categorie=''; if(state.viewMode==='team'){ DISC_SELECT.innerHTML='<option value="">— Choisir —</option>'; refresh(); teamNote.classList.remove('hidden'); } else { DISC_SELECT.innerHTML=INDIV_OPTIONS_HTML; teamNote.classList.add('hidden'); refresh(); } }); DISC_SELECT.addEventListener('change',()=>{ if(state.viewMode==='team'){ state.disciplineTeam=DISC_SELECT.value; } else { state.disciplineIndiv=DISC_SELECT.value; } state.filters={...state.filters,categorie:'',arme:'',distance:'',blason:'',catClass:'',catTir:'',classement:''}; state.hasApiData=false; ['categorie','arme','distance','blason','catClass','catTir','classement'].forEach(id=>{ const el=document.getElementById(id); if(el && el.tagName==='SELECT') el.value=''; }); const clField=document.getElementById('classement-field'); if(clField) clField.classList.add('hidden'); if(state.viewMode==='team'){ populateTeamCategories(); } refresh(); }); const ids={ categorie:'categorie', sexe:'sexe', arme:'arme', departement:'departement', distance:'distance', blason:'blason', catClass:'catClass', catTir:'catTir', classement:'classement' }; Object.entries(ids).forEach(function(pair){ const k=pair[0]; const id=pair[1]; const el=document.getElementById(id); if(!el) return; el.addEventListener('change',function(){ state.filters[k]=el.value; refresh(); }); }); document.getElementById('search').addEventListener('input',function(e){ state.filters.search=e.target.value.trim(); refresh(); }); document.getElementById('resetFilters').addEventListener('click',function(){ document.getElementById('viewMode').value='indiv'; state.viewMode='indiv'; state.disciplineIndiv=''; state.disciplineTeam=''; DISC_SELECT.innerHTML=INDIV_OPTIONS_HTML; DISC_SELECT.value=''; ['categorie','sexe','arme','departement','distance','blason','catClass','catTir','classement','search'].forEach(function(id){ const el=document.getElementById(id); if(el && el.tagName==='SELECT') el.value=''; else if(el) el.value=''; }); const clFieldReset=document.getElementById('classement-field'); if(clFieldReset) clFieldReset.classList.add('hidden'); state.hasApiData=false; state.filters={ categorie:'', sexe:'', arme:'', departement:'', distance:'', blason:'', catClass:'', catTir:'', classement:'', search:'' }; refresh(); }); document.getElementById('exportCSV').addEventListener('click', exportCurrentCSV); document.getElementById('modalClose').addEventListener('click', function(){ document.getElementById('modalOverlay').classList.add('hidden'); document.getElementById('teamModal').classList.add('hidden'); }); document.getElementById('modalOverlay').addEventListener('click', function(){ document.getElementById('modalOverlay').classList.add('hidden'); document.getElementById('teamModal').classList.add('hidden'); }); window.addEventListener('keydown', function(e){ if(e.key==='Escape'){ document.getElementById('modalOverlay').classList.add('hidden'); document.getElementById('teamModal').classList.add('hidden'); } }); }
 
     wire();
     refresh();
