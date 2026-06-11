@@ -1889,15 +1889,14 @@ const DISC_LABELS = {
 
     // ========= ÉQUIPE — depuis JSON, même logique que Individuel =========
 
-    // Disciplines équipe → code discipline dans equipes.csv (FFTA)
+    // Disciplines équipe → fichier JSON généré par fetch_ffta.py
     const TEAM_DISC_CONFIG = {
-      'TAE':      { discCode:'T', label:'TAE' },
-      'Tir 18m':  { discCode:'S', label:'Tir à 18m' },
-      'Campagne': { discCode:'C', label:'Tir campagne' },
-      '3D':       { discCode:'3', label:'Tir 3D' },
-      'Nature':   { discCode:'N', label:'Tir nature' },
+      'TAE':      { discCode:'T', label:'TAE',           file:'data/equipes_T.json' },
+      'Tir 18m':  { discCode:'S', label:'Tir à 18m',     file:'data/equipes_S.json' },
+      'Campagne': { discCode:'C', label:'Tir campagne',   file:'data/equipes_C.json' },
+      '3D':       { discCode:'3', label:'Tir 3D',         file:'data/equipes_3.json' },
+      'Nature':   { discCode:'N', label:'Tir nature',     file:'data/equipes_N.json' },
     };
-    const EQUIPES_CSV_FILE = 'equipes.csv';
 
     // Groupes Tir 18m : regroupement multi-catégories par arme/sexe (logique inchangée)
     const TEAM18_GROUPS = [
@@ -1910,30 +1909,23 @@ const DISC_LABELS = {
     // Cache JSON par discipline
     const teamDiscCache = new Map();
 
-    // Cache global equipes.csv (toutes disciplines)
-    let equipesAllRows = null;
-    async function loadEquipesAll() {
-      if(equipesAllRows) return equipesAllRows;
-      const raw = (await loadCSV(EQUIPES_CSV_FILE)) || [];
-      const _AN = { 'C':'CL', 'P':'CO', 'B':'BB' };
-      raw.forEach(r => {
-        if(r.ARME_EQUIPE && _AN[r.ARME_EQUIPE]) r.ARME_EQUIPE = _AN[r.ARME_EQUIPE];
-        // Calcule le département depuis le code structure
-        if(!r.DEPARTEMENT && r.CODE_STRUCTURE) {
-          const digits = r.CODE_STRUCTURE.replace(/\D/g,'');
-          r.DEPARTEMENT = digits.length >= 4 ? digits.slice(2,4) : '';
-        }
-      });
-      equipesAllRows = raw;
-      return raw;
-    }
-
     async function ensureTeamDiscLoaded(disc) {
       if(teamDiscCache.has(disc)) return teamDiscCache.get(disc);
       const cfg = TEAM_DISC_CONFIG[disc];
       if(!cfg) return [];
-      const all = await loadEquipesAll();
-      const rows = all.filter(r => r.DISCIPLINE === cfg.discCode);
+      let rows = [];
+      try {
+        const res = await fetch(cfg.file + '?_=' + Date.now());
+        if(res.ok){
+          const json = await res.json();
+          rows = json.rows || json || [];
+        }
+      } catch(e) { console.warn('equipes json', cfg.file, e); }
+      // Normalisation arme (déjà faite côté Python mais au cas où)
+      const _AN = { 'C':'CL', 'P':'CO', 'B':'BB' };
+      rows.forEach(r => {
+        if(r.ARME_EQUIPE && _AN[r.ARME_EQUIPE]) r.ARME_EQUIPE = _AN[r.ARME_EQUIPE];
+      });
       teamDiscCache.set(disc, rows);
       return rows;
     }
@@ -2121,7 +2113,7 @@ const DISC_LABELS = {
       }
       const cfg=TEAM_DISC_CONFIG[disc];
       const label=classement?' — '+classement:'';
-      document.getElementById('dataset-hint').textContent=EQUIPES_CSV_FILE+' / '+disc+(label||'');
+      document.getElementById('dataset-hint').textContent=(cfg?cfg.file:'equipes')+' / '+disc+(label||'');
     }
 
     // ========= REFRESH =========
