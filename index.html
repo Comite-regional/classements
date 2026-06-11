@@ -2038,7 +2038,7 @@ const DISC_LABELS = {
       thead.innerHTML=''; tbody.innerHTML='';
       const depFilter=state.filters.departement||'';
       const search=(state.filters.search||'').toLowerCase();
-      const headers=[{key:'RANG',label:'Rang'}];
+      const headers=[{key:'RANG',label:'Rang nat.'},{key:'RANG_LIGUE',label:'Rang CR'}];
       if(depFilter) headers.push({key:'RANG_DEP',label:'Rang dép.'});
       headers.push({key:'DIV',label:'Division'},{key:'NOM_STRUCTURE',label:'Club'},{key:'SCORE1',label:'Score 1'},{key:'SCORE2',label:'Score 2'},{key:'SCORE3',label:'Score 3'},{key:'MOY_SCORE',label:'Total'});
       headers.forEach(h=>{ const th=document.createElement('th'); th.textContent=h.label; thead.appendChild(th); });
