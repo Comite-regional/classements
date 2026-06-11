@@ -19,6 +19,7 @@ Les URLs exactes sont à vérifier dans la documentation Postman :
 """
 
 import os
+import csv
 import json
 import time
 import logging
@@ -43,6 +44,36 @@ OUTPUT_DIR = Path(os.environ.get("FFTA_OUTPUT_DIR", "data"))
 
 # Ligue cible : CR12 = Pays de la Loire
 LIGUE_CODE = "CR12"
+
+
+def _load_division_lookup() -> dict[str, str]:
+    """Charge le lookup CODE_STRUCTURE → division (D1/D2/DR) depuis equipes.csv."""
+    csv_path = OUTPUT_DIR / "equipes.csv"
+    if not csv_path.exists():
+        return {}
+    lookup: dict[str, str] = {}
+    try:
+        with open(csv_path, encoding="latin-1", newline="") as f:
+            reader = csv.DictReader(f, delimiter=";")
+            for row in reader:
+                if row.get("DISCIPLINE") != "T":
+                    continue
+                code = (row.get("CODE_STRUCTURE") or "").strip()
+                raw = (row.get("PRE_INSCRIT") or "").strip().upper()
+                if not code or not raw:
+                    continue
+                if raw.startswith("D1"):
+                    lookup[code] = "D1"
+                elif raw.startswith("D2"):
+                    lookup[code] = "D2"
+                elif raw.startswith("DR"):
+                    lookup[code] = "DR"
+    except Exception as e:
+        log.warning("Impossible de charger equipes.csv pour divisions: %s", e)
+    return lookup
+
+
+_DIVISION_LOOKUP: dict[str, str] = {}  # initialisé au premier appel de fetch_teams_disc
 
 # ─── Mapping Para : licence → CAT_CLASS / CAT_TIR ────────────────────────────
 # L'API FFTA ne retourne pas la classification fonctionnelle individuelle (W1, B2, ST…)
@@ -551,7 +582,7 @@ def _extract_division_from_libelle(libelle: str) -> str:
 
 
 def normalize_team(team: dict, disc_code: str, cl_libelle: str, rang_ligue: int,
-                   sexe_code: str, arme_code: str) -> dict:
+                   sexe_code: str, arme_code: str, division_lookup: dict | None = None) -> dict:
     """Normalise une entrée équipe depuis l'API FFTA."""
     nom_structure = str(team.get("StructureNom") or "")
     nom_abrege = str(
@@ -568,6 +599,9 @@ def normalize_team(team: dict, disc_code: str, cl_libelle: str, rang_ligue: int,
         team.get("PlaceDivision") or team.get("DivisionCode") or
         team.get("Division") or ""
     ) or _extract_division_from_libelle(cl_libelle)
+    # Enrichissement depuis equipes.csv si disponible
+    if not division and division_lookup and code_structure:
+        division = division_lookup.get(code_structure, "")
     pre_inscrit = str(team.get("PreInscrit") or team.get("PreInscription") or "")
     quota = str(team.get("Quota") or "")
     s1 = str(team.get("PlaceScore1") or "0")
@@ -602,6 +636,7 @@ def fetch_teams_disc(session: requests.Session, token: str, disc_code: str) -> l
     """Récupère les classements équipes PDL (CR12) pour une discipline."""
     log.info("→ Équipes discipline %s", disc_code)
     PDL_DEPTS = {"44", "49", "53", "72", "85"}
+    division_lookup = _load_division_lookup() if disc_code == "T" else {}
 
     # Liste complète des classements pour cette discipline
     all_cls = get_classements_list(session, token, disc_code)
@@ -680,7 +715,7 @@ def fetch_teams_disc(session: requests.Session, token: str, disc_code: str) -> l
                     if dept not in PDL_DEPTS:
                         continue
                 rang_ligue += 1
-                row = normalize_team(team, disc_code, cl_libelle, rang_ligue, item_sexe, item_arme)
+                row = normalize_team(team, disc_code, cl_libelle, rang_ligue, item_sexe, item_arme, division_lookup)
                 cl_rows.append(row)
 
         log.info("  %-50s → %d équipes PDL", cl_libelle[:50], len(cl_rows))
