@@ -1350,6 +1350,20 @@ select { transition: border-color .15s, box-shadow .15s, background .15s !import
     };
 
 // Libellés lisibles pour codes de discipline
+// Catégories scratch virtuelles : fusionnent plusieurs classements CO par catégorie d'âge
+    const VIRTUAL_SCRATCH_CATS = {
+      'TAE N': [
+        { label:'U13-U15 CO', arme:'CO', cats:['U13','U15'] },
+        { label:'U18-U21 CO', arme:'CO', cats:['U18','U21'] },
+      ],
+      'TAE I': [
+        { label:'U18-U21 CO', arme:'CO', cats:['U18','U21'] },
+      ],
+    };
+    function getVirtualCatDef(disc, catLabel){
+      return (VIRTUAL_SCRATCH_CATS[disc]||[]).find(v=>v.label===catLabel)||null;
+    }
+
 const DISC_LABELS = {
   // Codes API bruts
   'T': 'TAE',
@@ -1513,7 +1527,8 @@ const DISC_LABELS = {
         const dataIndiv = data.filter(r => !/scratch/i.test(r._classement_nom || ''));
         cats = uniqueSorted(dataIndiv.map(r => r.CAT || r.CATEGORIE || '').filter(Boolean));
         const hasScratch = data.some(r => /scratch/i.test(r._classement_nom || ''));
-        catOptions = hasScratch ? ['Toutes', 'Scratch', ...cats] : ['Toutes', ...cats];
+        const vCats = (VIRTUAL_SCRATCH_CATS[disc]||[]).map(v=>v.label);
+        catOptions = ['Toutes', ...vCats, ...(hasScratch?['Scratch']:[]), ...cats];
       }
       fillSelect(document.getElementById('categorie'), catOptions, true, f.categorie);
 
@@ -1637,8 +1652,9 @@ const DISC_LABELS = {
       // Masque les colonnes déjà fixées par un filtre actif
       if(f.sexe)                           headers = headers.filter(h => h.key !== 'SEXE');
       if(f.arme)                           headers = headers.filter(h => h.key !== 'ARME');
-      // En mode scratch : garder CAT_ORIG (catégories mélangées) ; sinon masquer si filtrée
-      if(f.categorie && f.categorie !== 'Scratch') headers = headers.filter(h => h.key !== 'CAT_ORIG');
+      // En mode scratch ou catégorie virtuelle : garder CAT_ORIG (catégories mélangées) ; sinon masquer si filtrée
+      const isVirtualCat = !!getVirtualCatDef(disc, f.categorie);
+      if(f.categorie && f.categorie !== 'Scratch' && !isVirtualCat) headers = headers.filter(h => h.key !== 'CAT_ORIG');
 
       // Département + rang dept si filtre département actif
       if(f.departement){
@@ -1680,8 +1696,26 @@ const DISC_LABELS = {
       }
 
       const isScratchMode = f.categorie === 'Scratch';
-      // Les disciplines Para utilisent exclusivement des classements scratch (W1, HV2-3, OPEN…)
       const isParaDisc = disc === 'Para ext' || disc === 'Para 18m';
+      const vCatDef = getVirtualCatDef(disc, f.categorie);
+
+      // Catégorie virtuelle (ex: U13-U15 CO, U18-U21 CO) : fusion de plusieurs classements
+      if(vCatDef){
+        let rows = (data||[]).filter(r => {
+          const isScr = /scratch/i.test(r._classement_nom || '');
+          if(isScr) return false; // exclure les scratch agrégats
+          const arme = r.ARME || '';
+          const cat  = r.CAT  || r.CATEGORIE || '';
+          return arme === vCatDef.arme && vCatDef.cats.includes(cat);
+        });
+        // Re-classer par MOY_SCORE décroissant et assigner __SCRATCH_RANK
+        rows.sort((a,b) => (parseFloat(b.MOY_SCORE)||0) - (parseFloat(a.MOY_SCORE)||0));
+        rows.forEach((r,i) => r.__SCRATCH_RANK = i+1);
+        // Appliquer les autres filtres (département, search)
+        if(f.departement) rows = rows.filter(r => (r.DEPARTEMENT||getDeptFromCodeStructure(r.CODE_STRUCTURE||'')) === f.departement);
+        if(f.search){ const q=f.search.toLowerCase(); rows=rows.filter(r=>{ const n=(r.NO_LICENCE||'').toLowerCase()+' '+(r.NOM_PERSONNE||'').toLowerCase()+' '+(r.PRENOM_PERSONNE||'').toLowerCase(); const c=(r.NOM_STRUCTURE||'').toLowerCase()+' '+(r.NOM_ABREGE||'').toLowerCase(); return n.includes(q)||c.includes(q); }); }
+        return rows;
+      }
 
       let rows = (data||[]).filter(r => {
         const isScr = /scratch/i.test(r._classement_nom || '');
