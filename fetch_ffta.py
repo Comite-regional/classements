@@ -35,7 +35,10 @@ except ImportError:
 
 SESSION_IDENTITE = os.environ.get("FFTA_SESSION_IDENTITE", "")
 BASE_URL = os.environ.get("FFTA_BASE_URL", "https://extranet.ffta.fr/ws/rest").rstrip("/")
-SAISON = os.environ.get("FFTA_SAISON", str(datetime.now().year))
+# Si FFTA_SAISON est défini mais vide (cas du déclenchement automatique GitHub Actions),
+# on retombe sur l'année courante pour éviter de passer SaisonAnnee="" à l'API.
+_env_saison = os.environ.get("FFTA_SAISON", "")
+SAISON = _env_saison.strip() if _env_saison.strip() else str(datetime.now().year)
 OUTPUT_DIR = Path(os.environ.get("FFTA_OUTPUT_DIR", "data"))
 
 # Ligue cible : CR12 = Pays de la Loire
