@@ -674,23 +674,55 @@ def fetch_teams_disc(session: requests.Session, token: str, disc_code: str) -> l
     return all_rows
 
 
+def get_disc_ids_dynamic(session, token, disc_code) -> list[str]:
+    """Découverte dynamique des IDs de classements via l'API (comme TAE).
+    Retourne tous les IDs de classements individuels pour une discipline.
+    """
+    data = api_get(session, "Classements/Classements", token,
+                   SaisonAnnee=SAISON, DisciplineCode=disc_code)
+    response = data.get("Response", {})
+    classements = response.get("ClassementsArray") or response.get("Classements") or []
+    if isinstance(response, list):
+        classements = response
+    ids = []
+    for cl in classements:
+        if not isinstance(cl, dict):
+            continue
+        cl_id = str(cl.get("id") or cl.get("ClassementId") or cl.get("Id") or "")
+        libelle = (cl.get("libelle") or "").strip()
+        # Exclure les classements équipes
+        if cl_id and not _is_team_libelle(libelle):
+            ids.append(cl_id)
+    log.info("  Découverte dynamique %s → %d classements individuels", disc_code, len(ids))
+    return ids
+
+
 def fetch_discipline(session: requests.Session, token: str, disc_code: str,
                      tae_map=None) -> list[dict]:
     """Récupère les archers PDL (CR12) pour une discipline.
 
-    Pour TAE (disc_code='T'), utilise tae_map (issu de GetClassements)
-    pour connaître le type I/N de chaque classement via la taille du blason.
-    Pour les autres disciplines, utilise la liste d'IDs hardcodée.
+    Pour TAE (disc_code='T'), utilise tae_map (issu de GetClassements).
+    Pour les autres disciplines, combine IDs hardcodés + découverte dynamique
+    pour s'assurer de ne pas rater de nouveaux classements publiés en cours de saison.
     """
     log.info("→ Discipline %s  (saison %s, ligue %s)", disc_code, SAISON, LIGUE_CODE)
 
     if disc_code == "T" and tae_map:
         cl_ids = list(tae_map.keys())
     else:
-        cl_ids = CLASSEMENT_IDS_BY_DISC.get(disc_code, [])
+        # Découverte dynamique des IDs courants
+        dynamic_ids = get_disc_ids_dynamic(session, token, disc_code)
+        # IDs hardcodés en fallback (au cas où l'API ne renvoit rien)
+        hardcoded_ids = CLASSEMENT_IDS_BY_DISC.get(disc_code, [])
+        # Union : dynamiques en premier, hardcodés en complément
+        seen = set(dynamic_ids)
+        extra = [i for i in hardcoded_ids if i not in seen]
+        if extra:
+            log.info("  + %d IDs hardcodés non présents dans la découverte dynamique", len(extra))
+        cl_ids = dynamic_ids + extra
 
     if not cl_ids:
-        log.warning("  Aucun ID de classement configuré pour %s", disc_code)
+        log.warning("  Aucun ID de classement trouvé pour %s", disc_code)
         return []
 
     log.info("  %d classement(s) à interroger", len(cl_ids))
