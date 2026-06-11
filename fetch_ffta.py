@@ -537,6 +537,19 @@ def _is_team_libelle(libelle: str) -> bool:
     return False
 
 
+def _extract_division_from_libelle(libelle: str) -> str:
+    """Extrait le code division (D1/D2/DR) depuis le libellé d'un classement."""
+    import re
+    lib = libelle.upper()
+    if re.search(r'\bD1\b', lib):
+        return "D1"
+    if re.search(r'\bD2\b', lib):
+        return "D2"
+    if re.search(r'\bDR\b', lib) or "DIV" in lib and "REG" in lib:
+        return "DR"
+    return ""
+
+
 def normalize_team(team: dict, disc_code: str, cl_libelle: str, rang_ligue: int,
                    sexe_code: str, arme_code: str) -> dict:
     """Normalise une entrée équipe depuis l'API FFTA."""
@@ -554,7 +567,7 @@ def normalize_team(team: dict, disc_code: str, cl_libelle: str, rang_ligue: int,
     division = str(
         team.get("PlaceDivision") or team.get("DivisionCode") or
         team.get("Division") or ""
-    )
+    ) or _extract_division_from_libelle(cl_libelle)
     pre_inscrit = str(team.get("PreInscrit") or team.get("PreInscription") or "")
     quota = str(team.get("Quota") or "")
     s1 = str(team.get("PlaceScore1") or "0")

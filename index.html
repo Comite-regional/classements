@@ -2048,7 +2048,7 @@ const DISC_LABELS = {
       const search=(state.filters.search||'').toLowerCase();
       const headers=[{key:'RANG',label:'Rang nat.'},{key:'RANG_LIGUE',label:'Rang CR'}];
       if(depFilter) headers.push({key:'RANG_DEP',label:'Rang dép.'});
-      headers.push({key:'DIV',label:'Division'},{key:'NOM_STRUCTURE',label:'Club'},{key:'SCORE1',label:'Score 1'},{key:'SCORE2',label:'Score 2'},{key:'SCORE3',label:'Score 3'},{key:'MOY_SCORE',label:'Total'});
+      headers.push({key:'NOM_STRUCTURE',label:'Club'},{key:'SCORE1',label:'Score 1'},{key:'SCORE2',label:'Score 2'},{key:'SCORE3',label:'Score 3'},{key:'MOY_SCORE',label:'Total'});
       headers.forEach(h=>{ const th=document.createElement('th'); th.textContent=h.label; thead.appendChild(th); });
       let displayed=depFilter?teams.filter(t=>t.DEPARTEMENT===depFilter):teams;
       if(search) displayed=displayed.filter(t=>(t.NOM_STRUCTURE||t.NOM_ABREGE||'').toLowerCase().includes(search));
@@ -2060,9 +2060,13 @@ const DISC_LABELS = {
         const divText=normalizedDivisionText(t);
         headers.forEach(h=>{
           const td=document.createElement('td');
-          if(h.key==='DIV'){ td.innerHTML=divisionBadgeHTML(divText); }
-          else if(h.key==='RANG_DEP'){ td.textContent=depIdx.get(t)||''; }
-          else if(h.key==='NOM_STRUCTURE'){ const btn=document.createElement('button'); btn.className='link-btn'; btn.textContent=t.NOM_STRUCTURE||t.NOM_ABREGE||''; btn.addEventListener('click',()=>openTeamModal(idx)); td.appendChild(btn); }
+          if(h.key==='RANG_DEP'){ td.textContent=depIdx.get(t)||''; }
+          else if(h.key==='NOM_STRUCTURE'){
+            const wrap=document.createElement('span'); wrap.style.display='flex'; wrap.style.alignItems='center'; wrap.style.gap='6px';
+            const btn=document.createElement('button'); btn.className='link-btn'; btn.textContent=t.NOM_STRUCTURE||t.NOM_ABREGE||''; btn.addEventListener('click',()=>openTeamModal(idx)); wrap.appendChild(btn);
+            if(divText){ const badge=document.createElement('span'); badge.className='badge badge-'+divText.toLowerCase(); badge.textContent=divText; wrap.appendChild(badge); }
+            td.appendChild(wrap);
+          }
           else td.textContent=t[h.key]!=null?t[h.key]:'';
           tr.appendChild(td);
         });
