@@ -2110,6 +2110,13 @@ const DISC_LABELS = {
       const classement=state.filters.categorie||'';
       // Tir 18m : calcul local depuis données individuelles
       if(disc===TEAM_18M_LABEL){
+        // Charger les données individuelles si pas encore en cache
+        if(!state.rawByDiscipline.has('Tir 18m')){
+          const raw=await loadCSV(filesMap['Tir 18m']);
+          const AN={'C':'CL','P':'CO','B':'BB'};
+          raw.forEach(r=>{if(r.ARME&&AN[r.ARME])r.ARME=AN[r.ARME];});
+          state.rawByDiscipline.set('Tir 18m',raw);
+        }
         const indiv=state.rawByDiscipline.get('Tir 18m')||[];
         const group=classement||TEAM18_GROUPS[0];
         teamCache=buildTeams18(indiv,group);
