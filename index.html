@@ -1890,13 +1890,16 @@ const DISC_LABELS = {
     // ========= ÉQUIPE — depuis JSON, même logique que Individuel =========
 
     // Disciplines équipe → fichier JSON généré par fetch_ffta.py
+    // NB : 'Tir 18m' est intentionnellement absent : ses équipes sont construites
+    //      localement depuis les données individuelles (buildTeams18).
     const TEAM_DISC_CONFIG = {
       'TAE':      { discCode:'T', label:'TAE',           file:'data/equipes_T.json' },
-      'Tir 18m':  { discCode:'S', label:'Tir à 18m',     file:'data/equipes_S.json' },
       'Campagne': { discCode:'C', label:'Tir campagne',   file:'data/equipes_C.json' },
       '3D':       { discCode:'3', label:'Tir 3D',         file:'data/equipes_3.json' },
       'Nature':   { discCode:'N', label:'Tir nature',     file:'data/equipes_N.json' },
     };
+    // Tir 18m équipe : construit depuis données individuelles
+    const TEAM_18M_LABEL = 'Tir 18m';
 
     // Groupes Tir 18m : regroupement multi-catégories par arme/sexe (logique inchangée)
     const TEAM18_GROUPS = [
@@ -1934,6 +1937,11 @@ const DISC_LABELS = {
       const sel = DISC_SELECT;
       const keep = state.disciplineTeam || '';
       sel.innerHTML = '<option value="">— Choisir —</option>';
+      // Tir 18m : option manuelle (construit depuis données individuelles)
+      const opt18 = document.createElement('option');
+      opt18.value = TEAM_18M_LABEL; opt18.textContent = 'Tir à 18m';
+      if(keep === TEAM_18M_LABEL) opt18.selected = true;
+      sel.appendChild(opt18);
       Object.entries(TEAM_DISC_CONFIG).forEach(([key, cfg]) => {
         const opt = document.createElement('option');
         opt.value = key;
@@ -1947,15 +1955,15 @@ const DISC_LABELS = {
       const sel = document.getElementById('categorie');
       const disc = state.disciplineTeam || '';
       if(!disc) { sel.innerHTML = '<option value="">Toutes</option>'; return; }
-      const rows = await ensureTeamDiscLoaded(disc);
-      // Fallback Tir 18m : données indiv rechargées → groupes prédéfinis
-      if(disc === 'Tir 18m' && rows._isFallback) {
+      // Tir 18m : groupes prédéfinis (calcul local depuis données individuelles)
+      if(disc === TEAM_18M_LABEL) {
         const cur = state.filters.categorie || TEAM18_GROUPS[0];
         fillSelect(sel, TEAM18_GROUPS, false, cur);
         if(!state.filters.categorie) state.filters.categorie = TEAM18_GROUPS[0];
         return;
       }
-      // FFTA equipes : classer par CATEGORIE_CLASSEMENT
+      // Autres disciplines FFTA : groupes depuis le JSON
+      const rows = await ensureTeamDiscLoaded(disc);
       const classements = uniqueSorted(rows
         .map(r => r.CATEGORIE_CLASSEMENT || r._classement_nom || '').filter(Boolean));
       const cur = classements.includes(state.filters.categorie) ? state.filters.categorie : (classements[0] || '');
@@ -2095,19 +2103,21 @@ const DISC_LABELS = {
       document.getElementById('totalChip').textContent=displayed.length+' équipe'+(displayed.length>1?'s':'');
     }
 
-    // Rendu principal équipes : données FFTA pré-calculées ou fallback buildTeams18
+    // Rendu principal équipes
     async function renderTableTeamAuto(){
       const disc=state.disciplineTeam||'';
       if(!disc) return;
-      const rows=await ensureTeamDiscLoaded(disc);
       const classement=state.filters.categorie||'';
-      if(rows._isFallback&&disc==='Tir 18m'){
+      // Tir 18m : calcul local depuis données individuelles
+      if(disc===TEAM_18M_LABEL){
+        const indiv=state.rawByDiscipline.get('Tir 18m')||[];
         const group=classement||TEAM18_GROUPS[0];
-        teamCache=buildTeams18(rows,group);
+        teamCache=buildTeams18(indiv,group);
         renderTeamTable(teamCache);
       } else {
+        const rows=await ensureTeamDiscLoaded(disc);
         let filtered=rows.filter(r=>!classement||(r.CATEGORIE_CLASSEMENT||r._classement_nom||'')===classement);
-        filtered.sort((a,b)=>(parseInt(a.RANG)||9999)-(parseInt(b.RANG)||9999));
+        filtered.sort((a,b)=>(parseInt(a.RANG_LIGUE)||parseInt(a.RANG)||9999)-(parseInt(b.RANG_LIGUE)||parseInt(b.RANG)||9999));
         teamCache=filtered;
         renderTeamTableFFTA(filtered);
       }
