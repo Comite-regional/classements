@@ -1708,6 +1708,16 @@ const DISC_LABELS = {
           const cat  = r.CAT  || r.CATEGORIE || '';
           return arme === vCatDef.arme && vCatDef.cats.includes(cat);
         });
+        // Dédupliquer par licence (un archer peut figurer dans plusieurs classements CO)
+        const seenLic = new Map();
+        rows.forEach(r => {
+          const lic = r.NO_LICENCE || r.Licence || '';
+          if(!lic){ return; } // sans licence on garde
+          const prev = seenLic.get(lic);
+          if(!prev || (parseFloat(r.MOY_SCORE)||0) > (parseFloat(prev.MOY_SCORE)||0))
+            seenLic.set(lic, r);
+        });
+        rows = [...seenLic.values(), ...rows.filter(r => !(r.NO_LICENCE||r.Licence))];
         // Re-classer par MOY_SCORE décroissant et assigner __SCRATCH_RANK
         rows.sort((a,b) => (parseFloat(b.MOY_SCORE)||0) - (parseFloat(a.MOY_SCORE)||0));
         rows.forEach((r,i) => r.__SCRATCH_RANK = i+1);
