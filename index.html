@@ -762,6 +762,9 @@ main.container {
   .filters .field:nth-child(9) { grid-column: span 2 !important; }
 }
 
+/* ── Empêche les cells de grid de déborder ── */
+.filters .field { min-width: 0 !important; }
+
 /* ── Labels ── */
 label {
   font-size: 10px !important;
