@@ -706,8 +706,9 @@ header h1, h1 {
    MAIN CONTAINER
 ══════════════════════ */
 main.container {
-  padding: 20px 16px !important;
-  max-width: 1280px !important;
+  padding: 24px 20px !important;
+  max-width: 960px !important;
+  margin: 0 auto !important;
   background: transparent !important;
   border: none !important;
 }
@@ -725,6 +726,10 @@ main.container {
   margin-bottom: 16px;
 }
 .card:hover { box-shadow: var(--sh2) !important; }
+
+/* ── Row toujours en colonne unique + chips card masquée ── */
+.row { display: block !important; }
+.row > .card:last-child { display: none !important; }
 
 /* ── Filtre card : léger teinte bleutée ── */
 #filters-card {
