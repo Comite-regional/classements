@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-06-14T06:48:21.959116Z",
+    "generated_at": "2026-06-15T07:28:25.644944Z",
     "saison": "2026",
     "ligue": "CR12"
   },
   "rows": [
     {
-      "RANG": "28",
+      "RANG": "29",
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -20,15 +20,57 @@
       "VILLE": "",
       "DEPARTEMENT": "44",
       "SCORE1": "1078",
-      "SCORE2": "1060",
-      "SCORE3": "1004",
-      "MOY_SCORE": "1069",
+      "SCORE2": "1078",
+      "SCORE3": "1060",
+      "MOY_SCORE": "1078",
       "_classement_nom": "Homme Equipe Tir sur cibles 3D",
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "68",
+      "RANG": "49",
       "RANG_LIGUE": "2",
+      "DIVISION": "",
+      "PRE_INSCRIT": "",
+      "QUOTA": "",
+      "NOM_ABREGE": "SAUMUR",
+      "NOM_STRUCTURE": "JEANNE D'ARC DE SAUMUR TIR A L'ARC",
+      "SEXE_EQUIPE": "H",
+      "ARME_EQUIPE": "C",
+      "CATEGORIE_CLASSEMENT": "Homme Equipe Tir sur cibles 3D",
+      "CODE_STRUCTURE": "1249066",
+      "VILLE": "",
+      "DEPARTEMENT": "49",
+      "SCORE1": "1044",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "1044",
+      "_classement_nom": "Homme Equipe Tir sur cibles 3D",
+      "DISCIPLINE": "3"
+    },
+    {
+      "RANG": "64",
+      "RANG_LIGUE": "3",
+      "DIVISION": "",
+      "PRE_INSCRIT": "",
+      "QUOTA": "",
+      "NOM_ABREGE": "BOULOIRE",
+      "NOM_STRUCTURE": "CIE ARCHERS BOIS DES VALLEES",
+      "SEXE_EQUIPE": "H",
+      "ARME_EQUIPE": "C",
+      "CATEGORIE_CLASSEMENT": "Homme Equipe Tir sur cibles 3D",
+      "CODE_STRUCTURE": "1272093",
+      "VILLE": "",
+      "DEPARTEMENT": "72",
+      "SCORE1": "1038",
+      "SCORE2": "984",
+      "SCORE3": "0",
+      "MOY_SCORE": "1011",
+      "_classement_nom": "Homme Equipe Tir sur cibles 3D",
+      "DISCIPLINE": "3"
+    },
+    {
+      "RANG": "75",
+      "RANG_LIGUE": "4",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -48,29 +90,8 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "69",
-      "RANG_LIGUE": "3",
-      "DIVISION": "",
-      "PRE_INSCRIT": "",
-      "QUOTA": "",
-      "NOM_ABREGE": "BOULOIRE",
-      "NOM_STRUCTURE": "CIE ARCHERS BOIS DES VALLEES",
-      "SEXE_EQUIPE": "H",
-      "ARME_EQUIPE": "C",
-      "CATEGORIE_CLASSEMENT": "Homme Equipe Tir sur cibles 3D",
-      "CODE_STRUCTURE": "1272093",
-      "VILLE": "",
-      "DEPARTEMENT": "72",
-      "SCORE1": "984",
-      "SCORE2": "0",
-      "SCORE3": "0",
-      "MOY_SCORE": "984",
-      "_classement_nom": "Homme Equipe Tir sur cibles 3D",
-      "DISCIPLINE": "3"
-    },
-    {
-      "RANG": "87",
-      "RANG_LIGUE": "4",
+      "RANG": "96",
+      "RANG_LIGUE": "5",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -90,8 +111,8 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "91",
-      "RANG_LIGUE": "5",
+      "RANG": "98",
+      "RANG_LIGUE": "6",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -111,8 +132,8 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "120",
-      "RANG_LIGUE": "6",
+      "RANG": "128",
+      "RANG_LIGUE": "7",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -132,7 +153,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "39",
+      "RANG": "43",
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -153,7 +174,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "44",
+      "RANG": "47",
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -174,7 +195,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "66",
+      "RANG": "68",
       "RANG_LIGUE": "2",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -195,7 +216,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "67",
+      "RANG": "70",
       "RANG_LIGUE": "3",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -216,7 +237,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "135",
+      "RANG": "142",
       "RANG_LIGUE": "4",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -237,7 +258,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "153",
+      "RANG": "163",
       "RANG_LIGUE": "5",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -258,7 +279,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "14",
+      "RANG": "16",
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -279,7 +300,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "28",
+      "RANG": "30",
       "RANG_LIGUE": "2",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -300,7 +321,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "44",
+      "RANG": "46",
       "RANG_LIGUE": "3",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -321,7 +342,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "73",
+      "RANG": "77",
       "RANG_LIGUE": "4",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -342,7 +363,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "111",
+      "RANG": "116",
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -405,7 +426,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "60",
+      "RANG": "61",
       "RANG_LIGUE": "3",
       "DIVISION": "",
       "PRE_INSCRIT": "",
