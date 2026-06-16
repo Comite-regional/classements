@@ -1396,8 +1396,8 @@ const DISC_LABELS = {
       // Normalisation codes ARME : API FFTA utilise C/P/B, on affiche CL/CO/BB
       const ARME_NORM = { 'C':'CL', 'P':'CO', 'B':'BB' };
       raw.forEach(r => { if(r.ARME && ARME_NORM[r.ARME]) r.ARME = ARME_NORM[r.ARME]; });
-      // 3D : libellés d'arme spécifiques à la discipline
-      if(disc === '3D'){
+      // 3D & Nature : libellés d'arme spécifiques à ces disciplines
+      if(disc === '3D' || disc === 'Nature'){
         const ARME_3D = { 'D':'Arc Droit', 'CL':'Arc Nu', 'CO':'Poulie Nu', 'H':'Arc Chasse', 'L':'Tir Libre' };
         raw.forEach(r => { const k=(r.ARME||'').trim().toUpperCase(); if(ARME_3D[k]) r.ARME = ARME_3D[k]; });
       }
