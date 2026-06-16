@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-15T07:28:25.644944Z",
+    "generated_at": "2026-06-16T07:34:03.456842Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -83,7 +83,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "FEDERAL",
       "CAT_CLASS": "NEI",
-      "RANG_NAT": "8",
+      "RANG_NAT": "9",
       "_classement_nom": "FEDERAL Scratch Hommes Arc Classique 2026"
     },
     {
@@ -272,7 +272,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
       "CAT_CLASS": "ST",
-      "RANG_NAT": "18",
+      "RANG_NAT": "19",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2026"
     },
     {
