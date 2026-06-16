@@ -4108,7 +4108,7 @@ document.addEventListener('DOMContentLoaded',function(){
 <script id="quota-banner-18m-from-quotas_18m">
 (function(){
   "use strict";
-  const QUOTAS_FILE = "quotas.csv"; // unique source of truth - unified quotas for all championships
+  const QUOTAS_FILE = "Quotas.csv"; // unique source of truth - unified quotas for all championships
   let quotas = null;
 
   function norm(v){
@@ -4217,9 +4217,17 @@ document.addEventListener('DOMContentLoaded',function(){
   }
 
   function findQuotaRow(rows, sel, mode){
-    const a = normKey(sel.arme);
+    let a = normKey(sel.arme);
     let c = normKey(sel.cat);
-    const s = normKey(sel.sexe);
+    let s = normKey(sel.sexe);
+
+    // --- Catégories scratch virtuelles CO (TAE N/I) → libellés du fichier quotas ---
+    // UI : "U18-U21 CO" / "U13-U15 CO" (mixte H/F)  →  quotas : "Mixte U18/U21" / "Mixte U13/U15", ARME CO, SEXE vide
+    if(/u18.*u21/.test(c) && /co/.test(c)){
+      c = normKey('Mixte U18/U21'); a = normKey('CO'); s = '';
+    } else if(/u13.*u15/.test(c) && /co/.test(c)){
+      c = normKey('Mixte U13/U15'); a = normKey('CO'); s = '';
+    }
 
     // --- Scratch aliases (BB/CO) ---
     // quotas_18m.csv uses labels like "Scratch Adultes BB" / "Scratch Jeunes BB" / "Scratch Jeune CO"
@@ -5737,7 +5745,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const sexe = normUp(r.SEXE||'');
       const arme = normUp(r.ARME||'');
       const q    = parseInt((r.QUOTA||'').toString().replace(/\D+/g,''), 10);
-      if(disc && sexe && arme && q>0) quotaMap[`${disc}|${cat}|${sexe}|${arme}`] = q;
+      // On stocke aussi les lignes à SEXE vide (catégories « Mixte U13/U15 », « Mixte U18/U21 »)
+      if(disc && arme && q>0) quotaMap[`${disc}|${cat}|${sexe}|${arme}`] = q;
     });
     function getQuota(disc, cat, sexe, arme){
       return quotaMap[`${disc}|${cat}|${sexe}|${arme}`]
@@ -5793,6 +5802,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const discHeaders = {'TAE I':hTaeI, 'TAE N':hTaeN, 'Tir 18m':hTir18m};
     const allGroups = {'TAE I':{}, 'TAE N':{}, 'Tir 18m':{}};
     const BB_SCRATCH_CATS = ['U21','S1','S2','S3'];
+    // Catégories scratch virtuelles CO (mixte H/F) — miroir des classements individuels
+    const VIRT_CO = {
+      'TAE I': [{label:'U18-U21 CO', cats:['U18','U21'], quotaCat:'MIXTE U18/U21'}],
+      'TAE N': [
+        {label:'U13-U15 CO', cats:['U13','U15'], quotaCat:'MIXTE U13/U15'},
+        {label:'U18-U21 CO', cats:['U18','U21'], quotaCat:'MIXTE U18/U21'},
+      ],
+    };
 
     inscRaw.forEach(r=>{
       const lic    = normLic(hLic ? r[hLic] : '');
@@ -5831,12 +5848,19 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const isBBScratch = arme==='BB' && BB_SCRATCH_CATS.includes(cat);
-        const gk = isBBScratch ? ('SCRATCH|'+sexe+'|BB') : (cat+'|'+sexe+'|'+arme);
+        const virtCO = arme==='CO' ? (VIRT_CO[disc]||[]).find(v=>v.cats.includes(cat)) : null;
+        const gk = isBBScratch ? ('SCRATCH|'+sexe+'|BB')
+                 : virtCO      ? ('VIRTCO|'+virtCO.label)
+                 :               (cat+'|'+sexe+'|'+arme);
 
         if(!allGroups[disc][gk]){
           if(isBBScratch){
             const quota = getQuota(disc, '', sexe, 'BB');
             allGroups[disc][gk] = {disc, cat:'SCRATCH', sexe, arme:'BB', label:`Scratch ${sexe} BB`, quota, archers:[], isScratch:true};
+          } else if(virtCO){
+            // Quota mixte (ligne « Mixte U… » à SEXE vide dans quotas.csv)
+            const quota = quotaMap[`${normUp(disc)}|${virtCO.quotaCat}||CO`] || null;
+            allGroups[disc][gk] = {disc, cat:virtCO.label, sexe:'Mixte', arme:'CO', label:virtCO.label, quota, archers:[], isScratch:true};
           } else {
             const quota = getQuota(disc, cat, sexe, arme);
             allGroups[disc][gk] = {disc, cat, sexe, arme, label:`${cat} ${sexe} ${arme}`, quota, archers:[], isScratch:false};
