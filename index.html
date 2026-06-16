@@ -1353,6 +1353,9 @@ const DISC_LABELS = {
       } else {
         d = new Date();
       }
+      // Conserve toujours la date la plus récente, peu importe l'ordre de chargement
+      if(window._lastUpdTs && d.getTime() <= window._lastUpdTs) return;
+      window._lastUpdTs = d.getTime();
       const dd=String(d.getDate()).padStart(2,'0');
       const mm=String(d.getMonth()+1).padStart(2,'0');
       const yyyy=d.getFullYear();
@@ -2175,6 +2178,18 @@ const filteredInd=applyFiltersIndiv(data); renderTableIndiv(filteredInd); }
         if (meta && meta.generated_at) {
           updateLastModified('data/meta.json', meta.generated_at);
         }
+      })
+      .catch(() => {});
+
+    // Date du dernier commit GitHub : couvre à la fois la synchro FFTA (workflow
+    // quotidien qui commite les données) et toute modification manuelle de fichier.
+    fetch('https://api.github.com/repos/Comite-regional/classements/commits?per_page=1', { cache: 'no-store' })
+      .then(r => r.ok ? r.json() : null)
+      .then(commits => {
+        const dt = commits && commits[0] && commits[0].commit
+          && (commits[0].commit.committer || commits[0].commit.author)
+          && (commits[0].commit.committer || commits[0].commit.author).date;
+        if (dt) updateLastModified('github', dt);
       })
       .catch(() => {});
   
