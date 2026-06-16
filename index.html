@@ -2851,7 +2851,12 @@ function isDiscMatchFFTA(rowToken, wantCode){
   const digitsOnly=v=>(v||'').toString().replace(/\D+/g,'');
   const valSet=v=>{ if(v==null) return false; const t=(v+'').trim().toUpperCase(); return t && !['TOUS','TOUTES','ALL','-','—','*','0',''].includes(t); };
   const isScratchCat = v => /^\s*SCRATCH\b/i.test((v||'').toString());
-  const isMixteMode  = v => /^\s*MIXTE\b/i.test((v||'').toString());
+  const isMixteMode  = v => {
+    const t=(v||'').toString().toUpperCase();
+    if(/^\s*MIXTE\b/.test(t)) return true;
+    // Catégories scratch virtuelles CO mixtes : "U13-U15 CO", "U18-U21 CO"
+    return /\bCO\b/.test(t) && (/U13.*U15|U13\/U15/.test(t) || /U18.*U21|U18\/U21/.test(t));
+  };
   // Retourne les [cats] et [sexes] constitutifs d'une catégorie mixte CO
   function mixteCatSexes(catLabel){
     const t=(catLabel||'').toUpperCase();
@@ -2912,8 +2917,8 @@ function isDiscMatchFFTA(rowToken, wantCode){
     if(!(f.cat && f.sex && f.arm)) return false;
     const catV=f.cat.value, sexV=f.sex.value, armV=f.arm.value;
     if(!valSet(catV)) return false;
-    // Catégories mixtes : le sexe n'est pas requis
-    if(isMixteMode(catV)) return valSet(armV);
+    // Catégories mixtes : le sexe n'est pas requis ; l'arme peut être déduite du libellé (… CO)
+    if(isMixteMode(catV)) return valSet(armV) || !!scratchArmFromCat(catV);
     if(!valSet(sexV)) return false;
     if(isScratchCat(catV) && !valSet(armV)) return !!scratchArmFromCat(catV);
     return valSet(armV);
@@ -3110,7 +3115,12 @@ function isDiscMatchFFTA(rowToken, wantCode){
       // Lookup direct (entrée prédéfinie dans Quotas.csv, ex: TAE I)
       const directF = quotaForKey(disc, catNoArm, 'F', effArmSel);
       const directH = quotaForKey(disc, catNoArm, 'H', effArmSel);
-      const directMix = quotaForKey(disc, catNoArm, '', effArmSel);
+      let directMix = quotaForKey(disc, catNoArm, '', effArmSel);
+      // Cats virtuelles CO ("U18-U21 CO") : la ligne quota s'appelle "Mixte U18/U21"
+      if(!directMix){
+        const mxL = mixteCatSexes(catSel);
+        if(mxL) directMix = quotaForKey(disc, 'MIXTE '+mxL.cats.join('/'), '', effArmSel);
+      }
       const direct = directF + directH + directMix;
       if(direct > 0){
         quota = direct;
