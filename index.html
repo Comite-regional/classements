@@ -1456,13 +1456,14 @@ const DISC_LABELS = {
       const classements = uniqueSorted(data.map(r => r._classement_nom || '').filter(Boolean));
       state.hasApiData = classements.length > 0;
       if(clSel && clField){
+        // Champ « Classement national » masqué (assez de filtres de base).
+        // Le select reste rempli pour la logique interne mais n'est plus affiché.
         if(classements.length > 0){
           fillSelect(clSel, ['Tous les classements', ...classements], true, f.classement);
-          clField.classList.remove('hidden');
         } else {
           clSel.innerHTML = '<option value="">Tous</option>';
-          clField.classList.add('hidden');
         }
+        clField.classList.add('hidden');
       }
 
       // Distance / blason uniquement pour Para ext
