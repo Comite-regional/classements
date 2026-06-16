@@ -77,7 +77,7 @@ tr.qi-warn td:first-child{ box-shadow: inset 4px 0 rgba(234,88,12,0.6); }
 
 
 </style>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;1,700&amp;display=swap" rel="stylesheet"/>
 <style id="force-inter-font">
   body, table, th, td, input, select, button, .btn, .rp-card, .rp-body, .rp-head {
     font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue",
@@ -625,12 +625,12 @@ td,th{vertical-align:top}
 
 /* ── Tokens ── */
 :root {
-  --brand:      #1a3a6e;   /* bleu marine CRTA PDL */
-  --brand-med:  #1e50a0;
-  --brand-light:#2e6fca;
-  --accent:     #009f6b;   /* vert Loire (accent régional) */
+  --brand:      #353089;   /* bleu charte CR PDL */
+  --brand-med:  #423c9e;
+  --brand-light:#5b54c4;
+  --accent:     #db2922;   /* rouge charte CR PDL */
   --cyan:       #00b5e2;
-  --danger:     #e30613;
+  --danger:     #db2922;   /* rouge charte */
   --surface:    #ffffff;
   --bg:         #f0f4f9;
   --ink:        #1a2332;
@@ -672,7 +672,7 @@ header::after {
   display: block;
   height: 4px;
   margin-top: 20px;
-  background: linear-gradient(90deg, var(--accent) 0%, var(--cyan) 33%, var(--brand-light) 66%, var(--danger) 100%);
+  background: linear-gradient(90deg, var(--brand) 0%, var(--brand-light) 50%, var(--accent) 100%);
 }
 header .container {
   max-width: 1180px !important;
@@ -683,9 +683,11 @@ header .container {
 }
 h1 {
   color: #fff !important;
-  font-size: 21px !important;
-  font-weight: 800 !important;
-  letter-spacing: -.2px !important;
+  font-family: 'Montserrat', system-ui, -apple-system, sans-serif !important;
+  font-size: 23px !important;
+  font-weight: 700 !important;
+  letter-spacing: .2px !important;
+  text-transform: uppercase !important;
   margin: 0 0 3px !important;
 }
 #lastUpdateLine {
