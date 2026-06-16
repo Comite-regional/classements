@@ -778,6 +778,9 @@ label {
 /* Filtre « Classement national » masqué (assez de filtres de base) */
 #classement-field { display: none !important; }
 
+/* .hidden doit primer sur .field { display:flex !important } (champs arme/sexe masqués en vue Équipe) */
+.field.hidden, .hidden { display: none !important; }
+
 /* ── Inputs & Selects ── */
 select, input[type="search"] {
   width: 100% !important;
