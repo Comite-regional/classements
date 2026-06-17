@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-16T07:34:03.456842Z",
+    "generated_at": "2026-06-17T07:19:57.397840Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -90,7 +90,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "20",
+      "RANG": "21",
       "RANG_LIGUE": "1",
       "DIVISION": "D2",
       "PRE_INSCRIT": "D2",
@@ -111,7 +111,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "23",
+      "RANG": "24",
       "RANG_LIGUE": "2",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -405,7 +405,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "167",
+      "RANG": "168",
       "RANG_LIGUE": "16",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -426,7 +426,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "170",
+      "RANG": "171",
       "RANG_LIGUE": "17",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -468,7 +468,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "206",
+      "RANG": "207",
       "RANG_LIGUE": "19",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -489,7 +489,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "214",
+      "RANG": "215",
       "RANG_LIGUE": "20",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -510,7 +510,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "235",
+      "RANG": "236",
       "RANG_LIGUE": "21",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1287,7 +1287,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "49",
+      "RANG": "50",
       "RANG_LIGUE": "5",
       "DIVISION": "D2",
       "PRE_INSCRIT": "D2",
@@ -1308,7 +1308,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "53",
+      "RANG": "54",
       "RANG_LIGUE": "6",
       "DIVISION": "",
       "PRE_INSCRIT": "",

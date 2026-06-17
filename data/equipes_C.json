@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-06-16T07:34:03.456842Z",
+    "generated_at": "2026-06-17T07:19:57.397840Z",
     "saison": "2026",
     "ligue": "CR12"
   },
   "rows": [
     {
-      "RANG": "10",
+      "RANG": "9",
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -27,71 +27,8 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "41",
+      "RANG": "51",
       "RANG_LIGUE": "2",
-      "DIVISION": "",
-      "PRE_INSCRIT": "",
-      "QUOTA": "",
-      "NOM_ABREGE": "MAZE",
-      "NOM_STRUCTURE": "ARCHERS DU VAL D'AUTHION",
-      "SEXE_EQUIPE": "X",
-      "ARME_EQUIPE": "B",
-      "CATEGORIE_CLASSEMENT": "Double Mixte Arc Nu",
-      "CODE_STRUCTURE": "1249049",
-      "VILLE": "",
-      "DEPARTEMENT": "49",
-      "SCORE1": "475",
-      "SCORE2": "0",
-      "SCORE3": "0",
-      "MOY_SCORE": "475",
-      "_classement_nom": "Double Mixte Arc Nu",
-      "DISCIPLINE": "C"
-    },
-    {
-      "RANG": "52",
-      "RANG_LIGUE": "3",
-      "DIVISION": "",
-      "PRE_INSCRIT": "",
-      "QUOTA": "",
-      "NOM_ABREGE": "MAYENNE",
-      "NOM_STRUCTURE": "LES CUPIDONS MAYENNAIS",
-      "SEXE_EQUIPE": "X",
-      "ARME_EQUIPE": "B",
-      "CATEGORIE_CLASSEMENT": "Double Mixte Arc Nu",
-      "CODE_STRUCTURE": "1253084",
-      "VILLE": "",
-      "DEPARTEMENT": "53",
-      "SCORE1": "449",
-      "SCORE2": "0",
-      "SCORE3": "0",
-      "MOY_SCORE": "449",
-      "_classement_nom": "Double Mixte Arc Nu",
-      "DISCIPLINE": "C"
-    },
-    {
-      "RANG": "59",
-      "RANG_LIGUE": "4",
-      "DIVISION": "",
-      "PRE_INSCRIT": "",
-      "QUOTA": "",
-      "NOM_ABREGE": "VALLET",
-      "NOM_STRUCTURE": "ARC NATURE VALLETAIS",
-      "SEXE_EQUIPE": "X",
-      "ARME_EQUIPE": "B",
-      "CATEGORIE_CLASSEMENT": "Double Mixte Arc Nu",
-      "CODE_STRUCTURE": "1244031",
-      "VILLE": "",
-      "DEPARTEMENT": "44",
-      "SCORE1": "432",
-      "SCORE2": "0",
-      "SCORE3": "0",
-      "MOY_SCORE": "432",
-      "_classement_nom": "Double Mixte Arc Nu",
-      "DISCIPLINE": "C"
-    },
-    {
-      "RANG": "67",
-      "RANG_LIGUE": "5",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -107,6 +44,69 @@
       "SCORE2": "416",
       "SCORE3": "0",
       "MOY_SCORE": "418",
+      "_classement_nom": "Double Mixte Arc Nu",
+      "DISCIPLINE": "C"
+    },
+    {
+      "RANG": "60",
+      "RANG_LIGUE": "3",
+      "DIVISION": "",
+      "PRE_INSCRIT": "",
+      "QUOTA": "",
+      "NOM_ABREGE": "MAZE",
+      "NOM_STRUCTURE": "ARCHERS DU VAL D'AUTHION",
+      "SEXE_EQUIPE": "X",
+      "ARME_EQUIPE": "B",
+      "CATEGORIE_CLASSEMENT": "Double Mixte Arc Nu",
+      "CODE_STRUCTURE": "1249049",
+      "VILLE": "",
+      "DEPARTEMENT": "49",
+      "SCORE1": "475",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "237",
+      "_classement_nom": "Double Mixte Arc Nu",
+      "DISCIPLINE": "C"
+    },
+    {
+      "RANG": "66",
+      "RANG_LIGUE": "4",
+      "DIVISION": "",
+      "PRE_INSCRIT": "",
+      "QUOTA": "",
+      "NOM_ABREGE": "MAYENNE",
+      "NOM_STRUCTURE": "LES CUPIDONS MAYENNAIS",
+      "SEXE_EQUIPE": "X",
+      "ARME_EQUIPE": "B",
+      "CATEGORIE_CLASSEMENT": "Double Mixte Arc Nu",
+      "CODE_STRUCTURE": "1253084",
+      "VILLE": "",
+      "DEPARTEMENT": "53",
+      "SCORE1": "449",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "224",
+      "_classement_nom": "Double Mixte Arc Nu",
+      "DISCIPLINE": "C"
+    },
+    {
+      "RANG": "69",
+      "RANG_LIGUE": "5",
+      "DIVISION": "",
+      "PRE_INSCRIT": "",
+      "QUOTA": "",
+      "NOM_ABREGE": "VALLET",
+      "NOM_STRUCTURE": "ARC NATURE VALLETAIS",
+      "SEXE_EQUIPE": "X",
+      "ARME_EQUIPE": "B",
+      "CATEGORIE_CLASSEMENT": "Double Mixte Arc Nu",
+      "CODE_STRUCTURE": "1244031",
+      "VILLE": "",
+      "DEPARTEMENT": "44",
+      "SCORE1": "432",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "216",
       "_classement_nom": "Double Mixte Arc Nu",
       "DISCIPLINE": "C"
     },
@@ -132,7 +132,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "27",
+      "RANG": "26",
       "RANG_LIGUE": "2",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -153,7 +153,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "51",
+      "RANG": "45",
       "RANG_LIGUE": "3",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -174,7 +174,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "55",
+      "RANG": "48",
       "RANG_LIGUE": "4",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -195,7 +195,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "58",
+      "RANG": "70",
       "RANG_LIGUE": "5",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -211,12 +211,12 @@
       "SCORE1": "869",
       "SCORE2": "0",
       "SCORE3": "0",
-      "MOY_SCORE": "869",
+      "MOY_SCORE": "434",
       "_classement_nom": "Homme Equipe Campagne",
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "66",
+      "RANG": "77",
       "RANG_LIGUE": "6",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -232,12 +232,12 @@
       "SCORE1": "855",
       "SCORE2": "0",
       "SCORE3": "0",
-      "MOY_SCORE": "855",
+      "MOY_SCORE": "427",
       "_classement_nom": "Homme Equipe Campagne",
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "76",
+      "RANG": "80",
       "RANG_LIGUE": "7",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -253,12 +253,12 @@
       "SCORE1": "816",
       "SCORE2": "0",
       "SCORE3": "0",
-      "MOY_SCORE": "816",
+      "MOY_SCORE": "408",
       "_classement_nom": "Homme Equipe Campagne",
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "82",
+      "RANG": "85",
       "RANG_LIGUE": "8",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -274,7 +274,7 @@
       "SCORE1": "795",
       "SCORE2": "0",
       "SCORE3": "0",
-      "MOY_SCORE": "795",
+      "MOY_SCORE": "397",
       "_classement_nom": "Homme Equipe Campagne",
       "DISCIPLINE": "C"
     },
@@ -295,12 +295,12 @@
       "SCORE1": "559",
       "SCORE2": "0",
       "SCORE3": "0",
-      "MOY_SCORE": "559",
+      "MOY_SCORE": "279",
       "_classement_nom": "Femme Equipe Campagne",
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "28",
+      "RANG": "25",
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -321,7 +321,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "33",
+      "RANG": "26",
       "RANG_LIGUE": "2",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -342,7 +342,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "55",
+      "RANG": "45",
       "RANG_LIGUE": "3",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -363,7 +363,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "60",
+      "RANG": "48",
       "RANG_LIGUE": "4",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -384,7 +384,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "70",
+      "RANG": "56",
       "RANG_LIGUE": "5",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -405,29 +405,8 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "85",
+      "RANG": "60",
       "RANG_LIGUE": "6",
-      "DIVISION": "",
-      "PRE_INSCRIT": "",
-      "QUOTA": "",
-      "NOM_ABREGE": "CHANGE",
-      "NOM_STRUCTURE": "LES ARCHERS DE L'US CHANGE",
-      "SEXE_EQUIPE": "X",
-      "ARME_EQUIPE": "C",
-      "CATEGORIE_CLASSEMENT": "Double Mixte Arc Classique",
-      "CODE_STRUCTURE": "1253078",
-      "VILLE": "",
-      "DEPARTEMENT": "53",
-      "SCORE1": "358",
-      "SCORE2": "0",
-      "SCORE3": "0",
-      "MOY_SCORE": "358",
-      "_classement_nom": "Double Mixte Arc Classique",
-      "DISCIPLINE": "C"
-    },
-    {
-      "RANG": "86",
-      "RANG_LIGUE": "7",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -443,6 +422,27 @@
       "SCORE2": "235",
       "SCORE3": "0",
       "MOY_SCORE": "352",
+      "_classement_nom": "Double Mixte Arc Classique",
+      "DISCIPLINE": "C"
+    },
+    {
+      "RANG": "86",
+      "RANG_LIGUE": "7",
+      "DIVISION": "",
+      "PRE_INSCRIT": "",
+      "QUOTA": "",
+      "NOM_ABREGE": "CHANGE",
+      "NOM_STRUCTURE": "LES ARCHERS DE L'US CHANGE",
+      "SEXE_EQUIPE": "X",
+      "ARME_EQUIPE": "C",
+      "CATEGORIE_CLASSEMENT": "Double Mixte Arc Classique",
+      "CODE_STRUCTURE": "1253078",
+      "VILLE": "",
+      "DEPARTEMENT": "53",
+      "SCORE1": "358",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "179",
       "_classement_nom": "Double Mixte Arc Classique",
       "DISCIPLINE": "C"
     },
@@ -552,7 +552,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "31",
+      "RANG": "30",
       "RANG_LIGUE": "4",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -573,29 +573,8 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "40",
+      "RANG": "55",
       "RANG_LIGUE": "5",
-      "DIVISION": "",
-      "PRE_INSCRIT": "",
-      "QUOTA": "",
-      "NOM_ABREGE": "LA GARNACHE",
-      "NOM_STRUCTURE": "LES GARNA'ARCHERS",
-      "SEXE_EQUIPE": "X",
-      "ARME_EQUIPE": "P",
-      "CATEGORIE_CLASSEMENT": "Double Mixte Arc à Poulies",
-      "CODE_STRUCTURE": "1285113",
-      "VILLE": "",
-      "DEPARTEMENT": "85",
-      "SCORE1": "711",
-      "SCORE2": "0",
-      "SCORE3": "0",
-      "MOY_SCORE": "711",
-      "_classement_nom": "Double Mixte Arc à Poulies",
-      "DISCIPLINE": "C"
-    },
-    {
-      "RANG": "63",
-      "RANG_LIGUE": "6",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -615,8 +594,8 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "74",
-      "RANG_LIGUE": "7",
+      "RANG": "62",
+      "RANG_LIGUE": "6",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -636,8 +615,8 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "91",
-      "RANG_LIGUE": "8",
+      "RANG": "72",
+      "RANG_LIGUE": "7",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -653,6 +632,27 @@
       "SCORE2": "559",
       "SCORE3": "0",
       "MOY_SCORE": "573",
+      "_classement_nom": "Double Mixte Arc à Poulies",
+      "DISCIPLINE": "C"
+    },
+    {
+      "RANG": "81",
+      "RANG_LIGUE": "8",
+      "DIVISION": "",
+      "PRE_INSCRIT": "",
+      "QUOTA": "",
+      "NOM_ABREGE": "LA GARNACHE",
+      "NOM_STRUCTURE": "LES GARNA'ARCHERS",
+      "SEXE_EQUIPE": "X",
+      "ARME_EQUIPE": "P",
+      "CATEGORIE_CLASSEMENT": "Double Mixte Arc à Poulies",
+      "CODE_STRUCTURE": "1285113",
+      "VILLE": "",
+      "DEPARTEMENT": "85",
+      "SCORE1": "711",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "355",
       "_classement_nom": "Double Mixte Arc à Poulies",
       "DISCIPLINE": "C"
     },
@@ -673,7 +673,7 @@
       "SCORE1": "433",
       "SCORE2": "0",
       "SCORE3": "0",
-      "MOY_SCORE": "433",
+      "MOY_SCORE": "216",
       "_classement_nom": "Double Mixte Arc à Poulies",
       "DISCIPLINE": "C"
     }
