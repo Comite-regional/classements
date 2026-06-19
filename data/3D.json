@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-18T06:59:13.676167Z",
+    "generated_at": "2026-06-19T07:18:59.194068Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -1109,7 +1109,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "603",
+      "RANG_NAT": "604",
       "_classement_nom": "Scratch Homme Bare Bow 2026"
     },
     {
@@ -1136,7 +1136,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "640",
+      "RANG_NAT": "639",
       "_classement_nom": "Scratch Homme Bare Bow 2026"
     },
     {
@@ -1163,7 +1163,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "646",
+      "RANG_NAT": "645",
       "_classement_nom": "Scratch Homme Bare Bow 2026"
     },
     {
@@ -1190,7 +1190,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "673",
+      "RANG_NAT": "672",
       "_classement_nom": "Scratch Homme Bare Bow 2026"
     },
     {
@@ -1244,7 +1244,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "716",
+      "RANG_NAT": "717",
       "_classement_nom": "Scratch Homme Bare Bow 2026"
     },
     {
@@ -1385,16 +1385,16 @@
     {
       "Rang_ligue": 45,
       "RANG": 45,
-      "NO_LICENCE": "0682212K",
-      "NOM_PERSONNE": "GABORIT",
-      "PRENOM_PERSONNE": "Pascal",
+      "NO_LICENCE": "0042750T",
+      "NOM_PERSONNE": "BALLESTEROS",
+      "PRENOM_PERSONNE": "Ethan",
       "SEXE": "H",
       "ARME": "C",
-      "CAT": "S3",
-      "CATEGORIE": "S3",
-      "NOM_STRUCTURE": "ARCHERY LEGACY VENDÉE",
-      "NOM_ABREGE": "ARCHERY LEGACY VENDÉE",
-      "CODE_STRUCTURE": "1285143",
+      "CAT": "U18",
+      "CATEGORIE": "U18",
+      "NOM_STRUCTURE": "ARCHERS DE LA CHOUANNERIE",
+      "NOM_ABREGE": "LES MAGNILS REIGNIERS",
+      "CODE_STRUCTURE": "1285130",
       "DEPARTEMENT": "85",
       "SCORE1": "175",
       "SCORE2": "0",
@@ -1412,16 +1412,16 @@
     {
       "Rang_ligue": 46,
       "RANG": 46,
-      "NO_LICENCE": "0042750T",
-      "NOM_PERSONNE": "BALLESTEROS",
-      "PRENOM_PERSONNE": "Ethan",
+      "NO_LICENCE": "0682212K",
+      "NOM_PERSONNE": "GABORIT",
+      "PRENOM_PERSONNE": "Pascal",
       "SEXE": "H",
       "ARME": "C",
-      "CAT": "U18",
-      "CATEGORIE": "U18",
-      "NOM_STRUCTURE": "ARCHERS DE LA CHOUANNERIE",
-      "NOM_ABREGE": "LES MAGNILS REIGNIERS",
-      "CODE_STRUCTURE": "1285130",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "ARCHERY LEGACY VENDÉE",
+      "NOM_ABREGE": "ARCHERY LEGACY VENDÉE",
+      "CODE_STRUCTURE": "1285143",
       "DEPARTEMENT": "85",
       "SCORE1": "175",
       "SCORE2": "0",
@@ -3566,7 +3566,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "231",
+      "RANG_NAT": "230",
       "_classement_nom": "Senior 3 Homme Arc Nu 2026"
     },
     {
@@ -6428,7 +6428,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "498",
+      "RANG_NAT": "495",
       "_classement_nom": "Scratch Homme Arc Chasse 2026"
     },
     {
@@ -6482,7 +6482,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "519",
+      "RANG_NAT": "520",
       "_classement_nom": "Scratch Homme Arc Chasse 2026"
     },
     {
@@ -6590,7 +6590,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "573",
+      "RANG_NAT": "572",
       "_classement_nom": "Scratch Homme Arc Chasse 2026"
     },
     {
@@ -6617,7 +6617,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "589",
+      "RANG_NAT": "590",
       "_classement_nom": "Scratch Homme Arc Chasse 2026"
     },
     {
@@ -6644,7 +6644,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "594",
+      "RANG_NAT": "593",
       "_classement_nom": "Scratch Homme Arc Chasse 2026"
     },
     {
@@ -6725,7 +6725,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "643",
+      "RANG_NAT": "644",
       "_classement_nom": "Scratch Homme Arc Chasse 2026"
     },
     {
@@ -8993,7 +8993,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "358",
+      "RANG_NAT": "360",
       "_classement_nom": "Scratch Homme Arc Libre 2026"
     },
     {
@@ -10964,7 +10964,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "190",
+      "RANG_NAT": "191",
       "_classement_nom": "Senior 2 Homme Arc Libre 2026"
     },
     {
@@ -10991,7 +10991,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "196",
+      "RANG_NAT": "197",
       "_classement_nom": "Senior 2 Homme Arc Libre 2026"
     },
     {
