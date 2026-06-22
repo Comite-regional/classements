@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-21T16:57:24.289669Z",
+    "generated_at": "2026-06-22T07:32:20.809778Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -272,7 +272,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
       "CAT_CLASS": "ST",
-      "RANG_NAT": "14",
+      "RANG_NAT": "15",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2026"
     },
     {
@@ -326,7 +326,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
       "CAT_CLASS": "ST",
-      "RANG_NAT": "2",
+      "RANG_NAT": "3",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2026"
     },
     {
