@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-22T07:32:20.809778Z",
+    "generated_at": "2026-06-22T10:44:09.171034Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -73,17 +73,17 @@
       "NOM_ABREGE": "MONTAIGU",
       "CODE_STRUCTURE": "1285121",
       "DEPARTEMENT": "85",
-      "SCORE1": "580",
-      "SCORE2": "568",
-      "SCORE3": "565",
-      "MOY_SCORE": "574",
+      "SCORE1": "583",
+      "SCORE2": "580",
+      "SCORE3": "568",
+      "MOY_SCORE": "581",
       "DISCIPLINE": "H",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "FEDERAL",
       "CAT_CLASS": "NEI",
-      "RANG_NAT": "10",
+      "RANG_NAT": "9",
       "_classement_nom": "FEDERAL Scratch Hommes Arc Classique 2026"
     },
     {

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-22T07:32:20.809778Z",
+    "generated_at": "2026-06-22T10:44:09.171034Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -128,16 +128,16 @@
       "CODE_STRUCTURE": "1285119",
       "DEPARTEMENT": "85",
       "SCORE1": "572",
-      "SCORE2": "533",
-      "SCORE3": "531",
-      "MOY_SCORE": "545",
+      "SCORE2": "560",
+      "SCORE3": "533",
+      "MOY_SCORE": "555",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "58",
+      "RANG_NAT": "48",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -170,6 +170,33 @@
     {
       "Rang_ligue": 7,
       "RANG": 7,
+      "NO_LICENCE": "1037279B",
+      "NOM_PERSONNE": "DE JOUX",
+      "PRENOM_PERSONNE": "Alan",
+      "SEXE": "H",
+      "ARME": "B",
+      "CAT": "S1",
+      "CATEGORIE": "S1",
+      "NOM_STRUCTURE": "LES GARNA'ARCHERS",
+      "NOM_ABREGE": "LA GARNACHE",
+      "CODE_STRUCTURE": "1285113",
+      "DEPARTEMENT": "85",
+      "SCORE1": "552",
+      "SCORE2": "528",
+      "SCORE3": "482",
+      "MOY_SCORE": "520",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "79",
+      "_classement_nom": "Adulte Homme Arc Nu 2026"
+    },
+    {
+      "Rang_ligue": 8,
+      "RANG": 8,
       "NO_LICENCE": "0429562R",
       "NOM_PERSONNE": "BEAUDOUIN",
       "PRENOM_PERSONNE": "Pascal",
@@ -191,12 +218,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "79",
+      "RANG_NAT": "80",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
-      "Rang_ligue": 8,
-      "RANG": 8,
+      "Rang_ligue": 9,
+      "RANG": 9,
       "NO_LICENCE": "1028916K",
       "NOM_PERSONNE": "LEMAIRE",
       "PRENOM_PERSONNE": "Marius",
@@ -208,22 +235,22 @@
       "NOM_ABREGE": "BEAUVOIR SUR MER",
       "CODE_STRUCTURE": "1285123",
       "DEPARTEMENT": "85",
-      "SCORE1": "515",
-      "SCORE2": "511",
-      "SCORE3": "508",
-      "MOY_SCORE": "511",
+      "SCORE1": "520",
+      "SCORE2": "515",
+      "SCORE3": "511",
+      "MOY_SCORE": "515",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "83",
+      "RANG_NAT": "82",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
-      "Rang_ligue": 9,
-      "RANG": 9,
+      "Rang_ligue": 10,
+      "RANG": 10,
       "NO_LICENCE": "0949806Y",
       "NOM_PERSONNE": "ROYEAU",
       "PRENOM_PERSONNE": "Freddy",
@@ -245,12 +272,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "85",
+      "RANG_NAT": "86",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
-      "Rang_ligue": 10,
-      "RANG": 10,
+      "Rang_ligue": 11,
+      "RANG": 11,
       "NO_LICENCE": "0869034C",
       "NOM_PERSONNE": "TREMANT",
       "PRENOM_PERSONNE": "Olivier",
@@ -272,12 +299,39 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "100",
+      "RANG_NAT": "101",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
-      "Rang_ligue": 11,
-      "RANG": 11,
+      "Rang_ligue": 12,
+      "RANG": 12,
+      "NO_LICENCE": "0737608Y",
+      "NOM_PERSONNE": "SURRAULT",
+      "PRENOM_PERSONNE": "Alain",
+      "SEXE": "H",
+      "ARME": "B",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "L'ARCHER CLUB D'AIZENAY",
+      "NOM_ABREGE": "AIZENAY",
+      "CODE_STRUCTURE": "1285133",
+      "DEPARTEMENT": "85",
+      "SCORE1": "503",
+      "SCORE2": "478",
+      "SCORE3": "456",
+      "MOY_SCORE": "479",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "115",
+      "_classement_nom": "Adulte Homme Arc Nu 2026"
+    },
+    {
+      "Rang_ligue": 13,
+      "RANG": 13,
       "NO_LICENCE": "1060086G",
       "NOM_PERSONNE": "BROUCKE",
       "PRENOM_PERSONNE": "Timothee",
@@ -299,39 +353,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "121",
+      "RANG_NAT": "123",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
-      "Rang_ligue": 12,
-      "RANG": 12,
-      "NO_LICENCE": "0737608Y",
-      "NOM_PERSONNE": "SURRAULT",
-      "PRENOM_PERSONNE": "Alain",
-      "SEXE": "H",
-      "ARME": "B",
-      "CAT": "S3",
-      "CATEGORIE": "S3",
-      "NOM_STRUCTURE": "L'ARCHER CLUB D'AIZENAY",
-      "NOM_ABREGE": "AIZENAY",
-      "CODE_STRUCTURE": "1285133",
-      "DEPARTEMENT": "85",
-      "SCORE1": "503",
-      "SCORE2": "456",
-      "SCORE3": "444",
-      "MOY_SCORE": "467",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "126",
-      "_classement_nom": "Adulte Homme Arc Nu 2026"
-    },
-    {
-      "Rang_ligue": 13,
-      "RANG": 13,
+      "Rang_ligue": 14,
+      "RANG": 14,
       "NO_LICENCE": "0041141U",
       "NOM_PERSONNE": "BLONDEL",
       "PRENOM_PERSONNE": "Valentin",
@@ -353,12 +380,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "130",
+      "RANG_NAT": "132",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
-      "Rang_ligue": 14,
-      "RANG": 14,
+      "Rang_ligue": 15,
+      "RANG": 15,
       "NO_LICENCE": "0392648S",
       "NOM_PERSONNE": "PELLAN",
       "PRENOM_PERSONNE": "Jeanfrancois",
@@ -380,12 +407,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "170",
+      "RANG_NAT": "172",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
-      "Rang_ligue": 15,
-      "RANG": 15,
+      "Rang_ligue": 16,
+      "RANG": 16,
       "NO_LICENCE": "1029246C",
       "NOM_PERSONNE": "ECOMARD",
       "PRENOM_PERSONNE": "Clément",
@@ -407,34 +434,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "171",
-      "_classement_nom": "Adulte Homme Arc Nu 2026"
-    },
-    {
-      "Rang_ligue": 16,
-      "RANG": 16,
-      "NO_LICENCE": "1037279B",
-      "NOM_PERSONNE": "DE JOUX",
-      "PRENOM_PERSONNE": "Alan",
-      "SEXE": "H",
-      "ARME": "B",
-      "CAT": "S1",
-      "CATEGORIE": "S1",
-      "NOM_STRUCTURE": "LES GARNA'ARCHERS",
-      "NOM_ABREGE": "LA GARNACHE",
-      "CODE_STRUCTURE": "1285113",
-      "DEPARTEMENT": "85",
-      "SCORE1": "528",
-      "SCORE2": "482",
-      "SCORE3": "0",
-      "MOY_SCORE": "336",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "183",
+      "RANG_NAT": "173",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -461,7 +461,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "207",
+      "RANG_NAT": "208",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -480,20 +480,47 @@
       "DEPARTEMENT": "85",
       "SCORE1": "314",
       "SCORE2": "298",
-      "SCORE3": "248",
-      "MOY_SCORE": "286",
+      "SCORE3": "274",
+      "MOY_SCORE": "295",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "212",
+      "RANG_NAT": "210",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
       "Rang_ligue": 19,
       "RANG": 19,
+      "NO_LICENCE": "0036197V",
+      "NOM_PERSONNE": "BATARD",
+      "PRENOM_PERSONNE": "Francois",
+      "SEXE": "H",
+      "ARME": "B",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "LES ARCHERS SABLAIS",
+      "NOM_ABREGE": "LES SABLES D'OLONNE",
+      "CODE_STRUCTURE": "1285132",
+      "DEPARTEMENT": "85",
+      "SCORE1": "289",
+      "SCORE2": "255",
+      "SCORE3": "241",
+      "MOY_SCORE": "261",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "223",
+      "_classement_nom": "Adulte Homme Arc Nu 2026"
+    },
+    {
+      "Rang_ligue": 20,
+      "RANG": 20,
       "NO_LICENCE": "1032519Z",
       "NOM_PERSONNE": "JAFFRE",
       "PRENOM_PERSONNE": "Marcel",
@@ -515,34 +542,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "227",
-      "_classement_nom": "Adulte Homme Arc Nu 2026"
-    },
-    {
-      "Rang_ligue": 20,
-      "RANG": 20,
-      "NO_LICENCE": "0036197V",
-      "NOM_PERSONNE": "BATARD",
-      "PRENOM_PERSONNE": "Francois",
-      "SEXE": "H",
-      "ARME": "B",
-      "CAT": "S3",
-      "CATEGORIE": "S3",
-      "NOM_STRUCTURE": "LES ARCHERS SABLAIS",
-      "NOM_ABREGE": "LES SABLES D'OLONNE",
-      "CODE_STRUCTURE": "1285132",
-      "DEPARTEMENT": "85",
-      "SCORE1": "289",
-      "SCORE2": "241",
-      "SCORE3": "0",
-      "MOY_SCORE": "176",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "248",
+      "RANG_NAT": "229",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -569,7 +569,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "259",
+      "RANG_NAT": "261",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -596,7 +596,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "260",
+      "RANG_NAT": "262",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -623,7 +623,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "264",
+      "RANG_NAT": "266",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -650,7 +650,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "266",
+      "RANG_NAT": "268",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -677,7 +677,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "269",
+      "RANG_NAT": "271",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -704,7 +704,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "291",
+      "RANG_NAT": "293",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -731,7 +731,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "300",
+      "RANG_NAT": "301",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -758,7 +758,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "334",
+      "RANG_NAT": "335",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -802,17 +802,17 @@
       "NOM_ABREGE": "LES SABLES D'OLONNE",
       "CODE_STRUCTURE": "1285132",
       "DEPARTEMENT": "85",
-      "SCORE1": "457",
-      "SCORE2": "443",
-      "SCORE3": "0",
-      "MOY_SCORE": "450",
+      "SCORE1": "487",
+      "SCORE2": "457",
+      "SCORE3": "443",
+      "MOY_SCORE": "462",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "13",
+      "RANG_NAT": "12",
       "_classement_nom": "U18 Homme Arc Nu 2026"
     },
     {
@@ -866,7 +866,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "26",
+      "RANG_NAT": "27",
       "_classement_nom": "Adulte Femme Arc Nu 2026"
     },
     {
@@ -893,7 +893,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "30",
+      "RANG_NAT": "31",
       "_classement_nom": "Adulte Femme Arc Nu 2026"
     },
     {
@@ -920,7 +920,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "40",
+      "RANG_NAT": "41",
       "_classement_nom": "Adulte Femme Arc Nu 2026"
     },
     {
@@ -1001,7 +1001,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "20",
+      "RANG_NAT": "21",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1028,7 +1028,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "23",
+      "RANG_NAT": "24",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1046,16 +1046,16 @@
       "CODE_STRUCTURE": "1285132",
       "DEPARTEMENT": "85",
       "SCORE1": "587",
-      "SCORE2": "562",
-      "SCORE3": "0",
-      "MOY_SCORE": "574",
+      "SCORE2": "566",
+      "SCORE3": "562",
+      "MOY_SCORE": "571",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "29",
+      "RANG_NAT": "34",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1082,7 +1082,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "69",
+      "RANG_NAT": "70",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1109,39 +1109,66 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "79",
+      "RANG_NAT": "80",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
       "Rang_ligue": 7,
       "RANG": 7,
-      "NO_LICENCE": "1030546C",
-      "NOM_PERSONNE": "BRANGERIEAU",
-      "PRENOM_PERSONNE": "Tom",
+      "NO_LICENCE": "0009487M",
+      "NOM_PERSONNE": "CHARTRON",
+      "PRENOM_PERSONNE": "Adrien",
       "SEXE": "H",
       "ARME": "C",
       "CAT": "U18",
       "CATEGORIE": "U18",
-      "NOM_STRUCTURE": "TIR ARC FONTENAISIEN",
-      "NOM_ABREGE": "FONTENAY LE COMTE",
-      "CODE_STRUCTURE": "1285122",
+      "NOM_STRUCTURE": "LES GARNA'ARCHERS",
+      "NOM_ABREGE": "LA GARNACHE",
+      "CODE_STRUCTURE": "1285113",
       "DEPARTEMENT": "85",
-      "SCORE1": "543",
-      "SCORE2": "504",
-      "SCORE3": "0",
-      "MOY_SCORE": "523",
+      "SCORE1": "546",
+      "SCORE2": "525",
+      "SCORE3": "511",
+      "MOY_SCORE": "527",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "94",
+      "RANG_NAT": "88",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
       "Rang_ligue": 8,
       "RANG": 8,
+      "NO_LICENCE": "1007838S",
+      "NOM_PERSONNE": "PERIN",
+      "PRENOM_PERSONNE": "Clement",
+      "SEXE": "H",
+      "ARME": "C",
+      "CAT": "U18",
+      "CATEGORIE": "U18",
+      "NOM_STRUCTURE": "ARCHERS RICHELIEU",
+      "NOM_ABREGE": "LUCON",
+      "CODE_STRUCTURE": "1285135",
+      "DEPARTEMENT": "85",
+      "SCORE1": "560",
+      "SCORE2": "513",
+      "SCORE3": "502",
+      "MOY_SCORE": "525",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "95",
+      "_classement_nom": "U18 Homme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 9,
+      "RANG": 9,
       "NO_LICENCE": "0010889L",
       "NOM_PERSONNE": "BONNAUD",
       "PRENOM_PERSONNE": "Tom",
@@ -1163,12 +1190,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "104",
+      "RANG_NAT": "106",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 9,
-      "RANG": 9,
+      "Rang_ligue": 10,
+      "RANG": 10,
       "NO_LICENCE": "0029411U",
       "NOM_PERSONNE": "MELET",
       "PRENOM_PERSONNE": "Fabian",
@@ -1190,26 +1217,53 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "109",
+      "RANG_NAT": "111",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 10,
-      "RANG": 10,
-      "NO_LICENCE": "0009487M",
-      "NOM_PERSONNE": "CHARTRON",
-      "PRENOM_PERSONNE": "Adrien",
+      "Rang_ligue": 11,
+      "RANG": 11,
+      "NO_LICENCE": "0004403L",
+      "NOM_PERSONNE": "LIPP",
+      "PRENOM_PERSONNE": "Nathanael",
       "SEXE": "H",
       "ARME": "C",
       "CAT": "U18",
       "CATEGORIE": "U18",
-      "NOM_STRUCTURE": "LES GARNA'ARCHERS",
-      "NOM_ABREGE": "LA GARNACHE",
-      "CODE_STRUCTURE": "1285113",
+      "NOM_STRUCTURE": "L'ARCHER CLUB D'AIZENAY",
+      "NOM_ABREGE": "AIZENAY",
+      "CODE_STRUCTURE": "1285133",
       "DEPARTEMENT": "85",
-      "SCORE1": "546",
-      "SCORE2": "511",
-      "SCORE3": "484",
+      "SCORE1": "552",
+      "SCORE2": "505",
+      "SCORE3": "485",
+      "MOY_SCORE": "514",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "114",
+      "_classement_nom": "U18 Homme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 12,
+      "RANG": 12,
+      "NO_LICENCE": "1030546C",
+      "NOM_PERSONNE": "BRANGERIEAU",
+      "PRENOM_PERSONNE": "Tom",
+      "SEXE": "H",
+      "ARME": "C",
+      "CAT": "U18",
+      "CATEGORIE": "U18",
+      "NOM_STRUCTURE": "TIR ARC FONTENAISIEN",
+      "NOM_ABREGE": "FONTENAY LE COMTE",
+      "CODE_STRUCTURE": "1285122",
+      "DEPARTEMENT": "85",
+      "SCORE1": "543",
+      "SCORE2": "504",
+      "SCORE3": "494",
       "MOY_SCORE": "513",
       "DISCIPLINE": "T",
       "DISTANCE": "",
@@ -1217,12 +1271,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "112",
+      "RANG_NAT": "115",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 11,
-      "RANG": 11,
+      "Rang_ligue": 13,
+      "RANG": 13,
       "NO_LICENCE": "0959233V",
       "NOM_PERSONNE": "NAUD-LARCEBAL",
       "PRENOM_PERSONNE": "Esteban",
@@ -1244,61 +1298,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "113",
-      "_classement_nom": "U18 Homme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 12,
-      "RANG": 12,
-      "NO_LICENCE": "0004403L",
-      "NOM_PERSONNE": "LIPP",
-      "PRENOM_PERSONNE": "Nathanael",
-      "SEXE": "H",
-      "ARME": "C",
-      "CAT": "U18",
-      "CATEGORIE": "U18",
-      "NOM_STRUCTURE": "L'ARCHER CLUB D'AIZENAY",
-      "NOM_ABREGE": "AIZENAY",
-      "CODE_STRUCTURE": "1285133",
-      "DEPARTEMENT": "85",
-      "SCORE1": "552",
-      "SCORE2": "505",
-      "SCORE3": "476",
-      "MOY_SCORE": "511",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
       "RANG_NAT": "116",
-      "_classement_nom": "U18 Homme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 13,
-      "RANG": 13,
-      "NO_LICENCE": "1007838S",
-      "NOM_PERSONNE": "PERIN",
-      "PRENOM_PERSONNE": "Clement",
-      "SEXE": "H",
-      "ARME": "C",
-      "CAT": "U18",
-      "CATEGORIE": "U18",
-      "NOM_STRUCTURE": "ARCHERS RICHELIEU",
-      "NOM_ABREGE": "LUCON",
-      "CODE_STRUCTURE": "1285135",
-      "DEPARTEMENT": "85",
-      "SCORE1": "513",
-      "SCORE2": "502",
-      "SCORE3": "487",
-      "MOY_SCORE": "500",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "132",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1317,15 +1317,15 @@
       "DEPARTEMENT": "85",
       "SCORE1": "522",
       "SCORE2": "501",
-      "SCORE3": "465",
-      "MOY_SCORE": "496",
+      "SCORE3": "482",
+      "MOY_SCORE": "501",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "137",
+      "RANG_NAT": "131",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1352,7 +1352,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "139",
+      "RANG_NAT": "141",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1379,7 +1379,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "148",
+      "RANG_NAT": "150",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1406,7 +1406,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "159",
+      "RANG_NAT": "161",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1433,7 +1433,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "174",
+      "RANG_NAT": "177",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1460,7 +1460,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "187",
+      "RANG_NAT": "192",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1487,7 +1487,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "189",
+      "RANG_NAT": "194",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1514,7 +1514,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "195",
+      "RANG_NAT": "200",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1541,7 +1541,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "200",
+      "RANG_NAT": "203",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1568,7 +1568,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "223",
+      "RANG_NAT": "227",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1595,7 +1595,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "242",
+      "RANG_NAT": "246",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1676,7 +1676,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "54",
+      "RANG_NAT": "55",
       "_classement_nom": "U13 Homme Arc Classique 2026"
     },
     {
@@ -1703,7 +1703,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "78",
+      "RANG_NAT": "79",
       "_classement_nom": "U13 Homme Arc Classique 2026"
     },
     {
@@ -1757,7 +1757,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "85",
+      "RANG_NAT": "87",
       "_classement_nom": "U13 Homme Arc Classique 2026"
     },
     {
@@ -1784,7 +1784,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "105",
+      "RANG_NAT": "107",
       "_classement_nom": "U13 Homme Arc Classique 2026"
     },
     {
@@ -1811,7 +1811,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "119",
+      "RANG_NAT": "121",
       "_classement_nom": "U13 Homme Arc Classique 2026"
     },
     {
@@ -1838,7 +1838,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "155",
+      "RANG_NAT": "156",
       "_classement_nom": "U13 Homme Arc Classique 2026"
     },
     {
@@ -1865,7 +1865,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "171",
+      "RANG_NAT": "173",
       "_classement_nom": "U13 Homme Arc Classique 2026"
     },
     {
@@ -1946,7 +1946,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "30",
+      "RANG_NAT": "31",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -1973,7 +1973,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "36",
+      "RANG_NAT": "37",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -2000,7 +2000,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "40",
+      "RANG_NAT": "41",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -2027,7 +2027,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "45",
+      "RANG_NAT": "46",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -2054,7 +2054,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "57",
+      "RANG_NAT": "58",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -2081,7 +2081,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "60",
+      "RANG_NAT": "61",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -2100,47 +2100,20 @@
       "DEPARTEMENT": "85",
       "SCORE1": "500",
       "SCORE2": "488",
-      "SCORE3": "0",
-      "MOY_SCORE": "494",
+      "SCORE3": "474",
+      "MOY_SCORE": "487",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "69",
+      "RANG_NAT": "74",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
       "Rang_ligue": 10,
       "RANG": 10,
-      "NO_LICENCE": "1027572S",
-      "NOM_PERSONNE": "BENUDEAU",
-      "PRENOM_PERSONNE": "Joseph",
-      "SEXE": "H",
-      "ARME": "C",
-      "CAT": "U15",
-      "CATEGORIE": "U15",
-      "NOM_STRUCTURE": "L'ARCHER CLUB D'AIZENAY",
-      "NOM_ABREGE": "AIZENAY",
-      "CODE_STRUCTURE": "1285133",
-      "DEPARTEMENT": "85",
-      "SCORE1": "487",
-      "SCORE2": "484",
-      "SCORE3": "0",
-      "MOY_SCORE": "485",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "75",
-      "_classement_nom": "U15 Homme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 11,
-      "RANG": 11,
       "NO_LICENCE": "1007265R",
       "NOM_PERSONNE": "HAGUE",
       "PRENOM_PERSONNE": "Robin",
@@ -2163,6 +2136,33 @@
       "CAT_TIR": "",
       "CAT_CLASS": "",
       "RANG_NAT": "81",
+      "_classement_nom": "U15 Homme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 11,
+      "RANG": 11,
+      "NO_LICENCE": "1027572S",
+      "NOM_PERSONNE": "BENUDEAU",
+      "PRENOM_PERSONNE": "Joseph",
+      "SEXE": "H",
+      "ARME": "C",
+      "CAT": "U15",
+      "CATEGORIE": "U15",
+      "NOM_STRUCTURE": "L'ARCHER CLUB D'AIZENAY",
+      "NOM_ABREGE": "AIZENAY",
+      "CODE_STRUCTURE": "1285133",
+      "DEPARTEMENT": "85",
+      "SCORE1": "487",
+      "SCORE2": "484",
+      "SCORE3": "464",
+      "MOY_SCORE": "478",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "85",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -2189,7 +2189,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "103",
+      "RANG_NAT": "104",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -2216,7 +2216,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "120",
+      "RANG_NAT": "121",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -2243,7 +2243,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "153",
+      "RANG_NAT": "154",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -2270,7 +2270,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "157",
+      "RANG_NAT": "158",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -2297,7 +2297,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "175",
+      "RANG_NAT": "176",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -2324,7 +2324,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "177",
+      "RANG_NAT": "178",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -2351,7 +2351,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "180",
+      "RANG_NAT": "181",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -2384,16 +2384,16 @@
     {
       "Rang_ligue": 2,
       "RANG": 2,
-      "NO_LICENCE": "0936464W",
-      "NOM_PERSONNE": "MARSAUD",
-      "PRENOM_PERSONNE": "Matteo",
+      "NO_LICENCE": "0022892H",
+      "NOM_PERSONNE": "SOULIARD",
+      "PRENOM_PERSONNE": "Tiphaine",
       "SEXE": "H",
       "ARME": "C",
       "CAT": "U21",
       "CATEGORIE": "U21",
-      "NOM_STRUCTURE": "ARCHERS DU VAL D'AUTHION",
-      "NOM_ABREGE": "MAZE",
-      "CODE_STRUCTURE": "1249049",
+      "NOM_STRUCTURE": "CIE DES ARCHERS DU S.O CANDEEN",
+      "NOM_ABREGE": "CANDE",
+      "CODE_STRUCTURE": "1249047",
       "DEPARTEMENT": "49",
       "SCORE1": "622",
       "SCORE2": "0",
@@ -2411,16 +2411,16 @@
     {
       "Rang_ligue": 3,
       "RANG": 3,
-      "NO_LICENCE": "0022892H",
-      "NOM_PERSONNE": "SOULIARD",
-      "PRENOM_PERSONNE": "Tiphaine",
+      "NO_LICENCE": "0936464W",
+      "NOM_PERSONNE": "MARSAUD",
+      "PRENOM_PERSONNE": "Matteo",
       "SEXE": "H",
       "ARME": "C",
       "CAT": "U21",
       "CATEGORIE": "U21",
-      "NOM_STRUCTURE": "CIE DES ARCHERS DU S.O CANDEEN",
-      "NOM_ABREGE": "CANDE",
-      "CODE_STRUCTURE": "1249047",
+      "NOM_STRUCTURE": "ARCHERS DU VAL D'AUTHION",
+      "NOM_ABREGE": "MAZE",
+      "CODE_STRUCTURE": "1249049",
       "DEPARTEMENT": "49",
       "SCORE1": "622",
       "SCORE2": "0",
@@ -2540,7 +2540,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "37",
+      "RANG_NAT": "38",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -2567,7 +2567,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "42",
+      "RANG_NAT": "43",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -2594,7 +2594,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "66",
+      "RANG_NAT": "68",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -2621,7 +2621,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "78",
+      "RANG_NAT": "82",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -2648,7 +2648,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "82",
+      "RANG_NAT": "86",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -2675,7 +2675,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "83",
+      "RANG_NAT": "87",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -2702,7 +2702,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "98",
+      "RANG_NAT": "101",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -2729,7 +2729,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "116",
+      "RANG_NAT": "119",
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
@@ -2756,12 +2756,39 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "20",
+      "RANG_NAT": "21",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
     {
       "Rang_ligue": 2,
       "RANG": 2,
+      "NO_LICENCE": "1000563X",
+      "NOM_PERSONNE": "VITRY",
+      "PRENOM_PERSONNE": "Camille",
+      "SEXE": "F",
+      "ARME": "C",
+      "CAT": "U13",
+      "CATEGORIE": "U13",
+      "NOM_STRUCTURE": "TIR A L'ARC DE CHATAIGNERAIE",
+      "NOM_ABREGE": "LA CHATAIGNERAIE",
+      "CODE_STRUCTURE": "1285115",
+      "DEPARTEMENT": "85",
+      "SCORE1": "565",
+      "SCORE2": "541",
+      "SCORE3": "463",
+      "MOY_SCORE": "523",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "45",
+      "_classement_nom": "U13 Femme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "1027827N",
       "NOM_PERSONNE": "BOISEAU",
       "PRENOM_PERSONNE": "Lola",
@@ -2783,12 +2810,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "63",
+      "RANG_NAT": "65",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 3,
-      "RANG": 3,
+      "Rang_ligue": 4,
+      "RANG": 4,
       "NO_LICENCE": "1054162K",
       "NOM_PERSONNE": "LUCAS",
       "PRENOM_PERSONNE": "Elise",
@@ -2804,33 +2831,6 @@
       "SCORE2": "0",
       "SCORE3": "0",
       "MOY_SCORE": "486",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "72",
-      "_classement_nom": "U13 Femme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 4,
-      "RANG": 4,
-      "NO_LICENCE": "1000563X",
-      "NOM_PERSONNE": "VITRY",
-      "PRENOM_PERSONNE": "Camille",
-      "SEXE": "F",
-      "ARME": "C",
-      "CAT": "U13",
-      "CATEGORIE": "U13",
-      "NOM_STRUCTURE": "TIR A L'ARC DE CHATAIGNERAIE",
-      "NOM_ABREGE": "LA CHATAIGNERAIE",
-      "CODE_STRUCTURE": "1285115",
-      "DEPARTEMENT": "85",
-      "SCORE1": "541",
-      "SCORE2": "463",
-      "SCORE3": "437",
-      "MOY_SCORE": "480",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
@@ -2864,7 +2864,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "92",
+      "RANG_NAT": "93",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
     {
@@ -2891,7 +2891,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "94",
+      "RANG_NAT": "96",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
     {
@@ -2918,7 +2918,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "129",
+      "RANG_NAT": "130",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
     {
@@ -2945,7 +2945,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "157",
+      "RANG_NAT": "158",
       "_classement_nom": "U13 Femme Arc Classique 2026"
     },
     {
@@ -3018,8 +3018,8 @@
       "DEPARTEMENT": "85",
       "SCORE1": "553",
       "SCORE2": "500",
-      "SCORE3": "491",
-      "MOY_SCORE": "514",
+      "SCORE3": "495",
+      "MOY_SCORE": "516",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
@@ -3059,6 +3059,33 @@
     {
       "Rang_ligue": 5,
       "RANG": 5,
+      "NO_LICENCE": "1034735F",
+      "NOM_PERSONNE": "PINGUET",
+      "PRENOM_PERSONNE": "Azélie",
+      "SEXE": "F",
+      "ARME": "C",
+      "CAT": "U15",
+      "CATEGORIE": "U15",
+      "NOM_STRUCTURE": "LES ARCHERS DE LA DIGUE",
+      "NOM_ABREGE": "MONTAIGU",
+      "CODE_STRUCTURE": "1285121",
+      "DEPARTEMENT": "85",
+      "SCORE1": "563",
+      "SCORE2": "512",
+      "SCORE3": "433",
+      "MOY_SCORE": "502",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "45",
+      "_classement_nom": "U15 Femme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 6,
+      "RANG": 6,
       "NO_LICENCE": "1007847B",
       "NOM_PERSONNE": "SEILLER",
       "PRENOM_PERSONNE": "Louise",
@@ -3080,12 +3107,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "48",
+      "RANG_NAT": "49",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 6,
-      "RANG": 6,
+      "Rang_ligue": 7,
+      "RANG": 7,
       "NO_LICENCE": "0054155P",
       "NOM_PERSONNE": "CHAUVEAU",
       "PRENOM_PERSONNE": "Melissa",
@@ -3107,12 +3134,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "61",
+      "RANG_NAT": "62",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 7,
-      "RANG": 7,
+      "Rang_ligue": 8,
+      "RANG": 8,
       "NO_LICENCE": "0057384Z",
       "NOM_PERSONNE": "STARCK",
       "PRENOM_PERSONNE": "Maiwenn",
@@ -3134,12 +3161,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "67",
+      "RANG_NAT": "69",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 8,
-      "RANG": 8,
+      "Rang_ligue": 9,
+      "RANG": 9,
       "NO_LICENCE": "1007915R",
       "NOM_PERSONNE": "BONNET",
       "PRENOM_PERSONNE": "Elsa",
@@ -3161,34 +3188,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "76",
-      "_classement_nom": "U15 Femme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 9,
-      "RANG": 9,
-      "NO_LICENCE": "1034735F",
-      "NOM_PERSONNE": "PINGUET",
-      "PRENOM_PERSONNE": "Azélie",
-      "SEXE": "F",
-      "ARME": "C",
-      "CAT": "U15",
-      "CATEGORIE": "U15",
-      "NOM_STRUCTURE": "LES ARCHERS DE LA DIGUE",
-      "NOM_ABREGE": "MONTAIGU",
-      "CODE_STRUCTURE": "1285121",
-      "DEPARTEMENT": "85",
-      "SCORE1": "512",
-      "SCORE2": "433",
-      "SCORE3": "433",
-      "MOY_SCORE": "459",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "84",
+      "RANG_NAT": "77",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -3242,7 +3242,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "122",
+      "RANG_NAT": "124",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -3269,7 +3269,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "135",
+      "RANG_NAT": "136",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -3323,7 +3323,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "150",
+      "RANG_NAT": "152",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -3404,7 +3404,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "186",
+      "RANG_NAT": "187",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -3431,7 +3431,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "198",
+      "RANG_NAT": "199",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -3458,7 +3458,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "199",
+      "RANG_NAT": "200",
       "_classement_nom": "U15 Femme Arc Classique 2026"
     },
     {
@@ -3504,15 +3504,15 @@
       "DEPARTEMENT": "85",
       "SCORE1": "588",
       "SCORE2": "576",
-      "SCORE3": "0",
-      "MOY_SCORE": "582",
+      "SCORE3": "554",
+      "MOY_SCORE": "572",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "22",
+      "RANG_NAT": "25",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -3545,9 +3545,9 @@
     {
       "Rang_ligue": 4,
       "RANG": 4,
-      "NO_LICENCE": "1019780A",
-      "NOM_PERSONNE": "VUIDEPOT",
-      "PRENOM_PERSONNE": "Lylou",
+      "NO_LICENCE": "0034330R",
+      "NOM_PERSONNE": "BIGOT",
+      "PRENOM_PERSONNE": "Apolline",
       "SEXE": "F",
       "ARME": "C",
       "CAT": "U18",
@@ -3556,17 +3556,17 @@
       "NOM_ABREGE": "LUCON",
       "CODE_STRUCTURE": "1285135",
       "DEPARTEMENT": "85",
-      "SCORE1": "527",
-      "SCORE2": "0",
-      "SCORE3": "0",
-      "MOY_SCORE": "527",
+      "SCORE1": "543",
+      "SCORE2": "542",
+      "SCORE3": "507",
+      "MOY_SCORE": "530",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "67",
+      "RANG_NAT": "63",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -3585,47 +3585,20 @@
       "DEPARTEMENT": "85",
       "SCORE1": "542",
       "SCORE2": "523",
-      "SCORE3": "504",
-      "MOY_SCORE": "523",
+      "SCORE3": "513",
+      "MOY_SCORE": "526",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "70",
+      "RANG_NAT": "68",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
       "Rang_ligue": 6,
       "RANG": 6,
-      "NO_LICENCE": "0034330R",
-      "NOM_PERSONNE": "BIGOT",
-      "PRENOM_PERSONNE": "Apolline",
-      "SEXE": "F",
-      "ARME": "C",
-      "CAT": "U18",
-      "CATEGORIE": "U18",
-      "NOM_STRUCTURE": "ARCHERS RICHELIEU",
-      "NOM_ABREGE": "LUCON",
-      "CODE_STRUCTURE": "1285135",
-      "DEPARTEMENT": "85",
-      "SCORE1": "543",
-      "SCORE2": "507",
-      "SCORE3": "489",
-      "MOY_SCORE": "513",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "76",
-      "_classement_nom": "U18 Femme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 7,
-      "RANG": 7,
       "NO_LICENCE": "1040227L",
       "NOM_PERSONNE": "GAUTIER",
       "PRENOM_PERSONNE": "Ashley",
@@ -3651,8 +3624,8 @@
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 8,
-      "RANG": 8,
+      "Rang_ligue": 7,
+      "RANG": 7,
       "NO_LICENCE": "0025147J",
       "NOM_PERSONNE": "THOMAS",
       "PRENOM_PERSONNE": "Adele",
@@ -3678,8 +3651,8 @@
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 9,
-      "RANG": 9,
+      "Rang_ligue": 8,
+      "RANG": 8,
       "NO_LICENCE": "1025531F",
       "NOM_PERSONNE": "MALENFANT",
       "PRENOM_PERSONNE": "Manon",
@@ -3701,12 +3674,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "93",
+      "RANG_NAT": "91",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 10,
-      "RANG": 10,
+      "Rang_ligue": 9,
+      "RANG": 9,
       "NO_LICENCE": "0017449S",
       "NOM_PERSONNE": "DELESTRE",
       "PRENOM_PERSONNE": "Hanae",
@@ -3728,12 +3701,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "95",
+      "RANG_NAT": "94",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 11,
-      "RANG": 11,
+      "Rang_ligue": 10,
+      "RANG": 10,
       "NO_LICENCE": "1033100I",
       "NOM_PERSONNE": "OUVRARD",
       "PRENOM_PERSONNE": "Justine",
@@ -3755,12 +3728,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "96",
+      "RANG_NAT": "95",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 12,
-      "RANG": 12,
+      "Rang_ligue": 11,
+      "RANG": 11,
       "NO_LICENCE": "0981678S",
       "NOM_PERSONNE": "BRIERE",
       "PRENOM_PERSONNE": "Madyson",
@@ -3782,12 +3755,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "100",
+      "RANG_NAT": "99",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 13,
-      "RANG": 13,
+      "Rang_ligue": 12,
+      "RANG": 12,
       "NO_LICENCE": "1029294Y",
       "NOM_PERSONNE": "BRAINVILLE",
       "PRENOM_PERSONNE": "Thais",
@@ -3809,12 +3782,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "104",
+      "RANG_NAT": "103",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 14,
-      "RANG": 14,
+      "Rang_ligue": 13,
+      "RANG": 13,
       "NO_LICENCE": "1012944C",
       "NOM_PERSONNE": "PICART",
       "PRENOM_PERSONNE": "Leia",
@@ -3836,7 +3809,34 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "119",
+      "RANG_NAT": "118",
+      "_classement_nom": "U18 Femme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 14,
+      "RANG": 14,
+      "NO_LICENCE": "0991931L",
+      "NOM_PERSONNE": "CHIRON",
+      "PRENOM_PERSONNE": "Léna",
+      "SEXE": "F",
+      "ARME": "C",
+      "CAT": "U18",
+      "CATEGORIE": "U18",
+      "NOM_STRUCTURE": "LES GARNA'ARCHERS",
+      "NOM_ABREGE": "LA GARNACHE",
+      "CODE_STRUCTURE": "1285113",
+      "DEPARTEMENT": "85",
+      "SCORE1": "459",
+      "SCORE2": "452",
+      "SCORE3": "433",
+      "MOY_SCORE": "448",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "135",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -3896,33 +3896,6 @@
     {
       "Rang_ligue": 17,
       "RANG": 17,
-      "NO_LICENCE": "0991931L",
-      "NOM_PERSONNE": "CHIRON",
-      "PRENOM_PERSONNE": "Léna",
-      "SEXE": "F",
-      "ARME": "C",
-      "CAT": "U18",
-      "CATEGORIE": "U18",
-      "NOM_STRUCTURE": "LES GARNA'ARCHERS",
-      "NOM_ABREGE": "LA GARNACHE",
-      "CODE_STRUCTURE": "1285113",
-      "DEPARTEMENT": "85",
-      "SCORE1": "459",
-      "SCORE2": "452",
-      "SCORE3": "375",
-      "MOY_SCORE": "428",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "157",
-      "_classement_nom": "U18 Femme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 18,
-      "RANG": 18,
       "NO_LICENCE": "1047756A",
       "NOM_PERSONNE": "PAYET",
       "PRENOM_PERSONNE": "Anais",
@@ -3944,7 +3917,34 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "162",
+      "RANG_NAT": "161",
+      "_classement_nom": "U18 Femme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 18,
+      "RANG": 18,
+      "NO_LICENCE": "1019780A",
+      "NOM_PERSONNE": "VUIDEPOT",
+      "PRENOM_PERSONNE": "Lylou",
+      "SEXE": "F",
+      "ARME": "C",
+      "CAT": "U18",
+      "CATEGORIE": "U18",
+      "NOM_STRUCTURE": "ARCHERS RICHELIEU",
+      "NOM_ABREGE": "LUCON",
+      "CODE_STRUCTURE": "1285135",
+      "DEPARTEMENT": "85",
+      "SCORE1": "527",
+      "SCORE2": "243",
+      "SCORE3": "0",
+      "MOY_SCORE": "385",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "180",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -4133,7 +4133,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "27",
+      "RANG_NAT": "28",
       "_classement_nom": "U21 Femme Arc Classique 2026"
     },
     {
@@ -4160,7 +4160,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "40",
+      "RANG_NAT": "41",
       "_classement_nom": "U21 Femme Arc Classique 2026"
     },
     {
@@ -4187,7 +4187,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "49",
+      "RANG_NAT": "50",
       "_classement_nom": "U21 Femme Arc Classique 2026"
     },
     {
@@ -4214,7 +4214,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "52",
+      "RANG_NAT": "53",
       "_classement_nom": "U21 Femme Arc Classique 2026"
     },
     {
@@ -4241,7 +4241,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "55",
+      "RANG_NAT": "56",
       "_classement_nom": "U21 Femme Arc Classique 2026"
     },
     {
@@ -4268,7 +4268,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "67",
+      "RANG_NAT": "68",
       "_classement_nom": "U21 Femme Arc Classique 2026"
     },
     {
@@ -4295,7 +4295,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "79",
+      "RANG_NAT": "80",
       "_classement_nom": "U21 Femme Arc Classique 2026"
     },
     {
@@ -4312,17 +4312,17 @@
       "NOM_ABREGE": "LES SABLES D'OLONNE",
       "CODE_STRUCTURE": "1285132",
       "DEPARTEMENT": "85",
-      "SCORE1": "488",
-      "SCORE2": "463",
+      "SCORE1": "494",
+      "SCORE2": "488",
       "SCORE3": "463",
-      "MOY_SCORE": "471",
+      "MOY_SCORE": "481",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "95",
+      "RANG_NAT": "94",
       "_classement_nom": "U21 Femme Arc Classique 2026"
     },
     {
@@ -4349,7 +4349,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "100",
+      "RANG_NAT": "101",
       "_classement_nom": "U21 Femme Arc Classique 2026"
     },
     {
@@ -4376,7 +4376,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "104",
+      "RANG_NAT": "105",
       "_classement_nom": "U21 Femme Arc Classique 2026"
     },
     {
@@ -4403,7 +4403,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "127",
+      "RANG_NAT": "128",
       "_classement_nom": "U21 Femme Arc Classique 2026"
     },
     {
@@ -4490,6 +4490,33 @@
     {
       "Rang_ligue": 4,
       "RANG": 4,
+      "NO_LICENCE": "0734739E",
+      "NOM_PERSONNE": "DUCHESNE",
+      "PRENOM_PERSONNE": "Axel",
+      "SEXE": "H",
+      "ARME": "C",
+      "CAT": "S1",
+      "CATEGORIE": "S1",
+      "NOM_STRUCTURE": "CIE ARCHERS DE VERTOU",
+      "NOM_ABREGE": "VERTOU",
+      "CODE_STRUCTURE": "1244041",
+      "DEPARTEMENT": "44",
+      "SCORE1": "642",
+      "SCORE2": "633",
+      "SCORE3": "626",
+      "MOY_SCORE": "633",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "42",
+      "_classement_nom": "Senior 1 Homme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "0040137C",
       "NOM_PERSONNE": "GESLIN",
       "PRENOM_PERSONNE": "Dylan",
@@ -4511,12 +4538,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "44",
+      "RANG_NAT": "45",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 5,
-      "RANG": 5,
+      "Rang_ligue": 6,
+      "RANG": 6,
       "NO_LICENCE": "0703594B",
       "NOM_PERSONNE": "BARRANGER",
       "PRENOM_PERSONNE": "Remi",
@@ -4538,34 +4565,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "59",
-      "_classement_nom": "Senior 1 Homme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 6,
-      "RANG": 6,
-      "NO_LICENCE": "0734739E",
-      "NOM_PERSONNE": "DUCHESNE",
-      "PRENOM_PERSONNE": "Axel",
-      "SEXE": "H",
-      "ARME": "C",
-      "CAT": "S1",
-      "CATEGORIE": "S1",
-      "NOM_STRUCTURE": "CIE ARCHERS DE VERTOU",
-      "NOM_ABREGE": "VERTOU",
-      "CODE_STRUCTURE": "1244041",
-      "DEPARTEMENT": "44",
-      "SCORE1": "633",
-      "SCORE2": "626",
-      "SCORE3": "609",
-      "MOY_SCORE": "622",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "64",
+      "RANG_NAT": "60",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -4598,6 +4598,33 @@
     {
       "Rang_ligue": 8,
       "RANG": 8,
+      "NO_LICENCE": "0794034F",
+      "NOM_PERSONNE": "GRUDE-DELAROUX",
+      "PRENOM_PERSONNE": "Pierre",
+      "SEXE": "H",
+      "ARME": "C",
+      "CAT": "S1",
+      "CATEGORIE": "S1",
+      "NOM_STRUCTURE": "L'ARCHER CLUB D'AIZENAY",
+      "NOM_ABREGE": "AIZENAY",
+      "CODE_STRUCTURE": "1285133",
+      "DEPARTEMENT": "85",
+      "SCORE1": "625",
+      "SCORE2": "613",
+      "SCORE3": "599",
+      "MOY_SCORE": "612",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "79",
+      "_classement_nom": "Senior 1 Homme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 9,
+      "RANG": 9,
       "NO_LICENCE": "0924388V",
       "NOM_PERSONNE": "LEDOUX",
       "PRENOM_PERSONNE": "Sylvain",
@@ -4619,12 +4646,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "79",
+      "RANG_NAT": "80",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 9,
-      "RANG": 9,
+      "Rang_ligue": 10,
+      "RANG": 10,
       "NO_LICENCE": "0817186W",
       "NOM_PERSONNE": "CHEREAU",
       "PRENOM_PERSONNE": "Cornel",
@@ -4646,12 +4673,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "83",
+      "RANG_NAT": "84",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 10,
-      "RANG": 10,
+      "Rang_ligue": 11,
+      "RANG": 11,
       "NO_LICENCE": "0808645M",
       "NOM_PERSONNE": "SORIN",
       "PRENOM_PERSONNE": "Benjamin",
@@ -4673,12 +4700,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "89",
+      "RANG_NAT": "91",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 11,
-      "RANG": 11,
+      "Rang_ligue": 12,
+      "RANG": 12,
       "NO_LICENCE": "0052362R",
       "NOM_PERSONNE": "JUILLERAT",
       "PRENOM_PERSONNE": "Valentin",
@@ -4700,12 +4727,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "91",
+      "RANG_NAT": "93",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 12,
-      "RANG": 12,
+      "Rang_ligue": 13,
+      "RANG": 13,
       "NO_LICENCE": "0841554H",
       "NOM_PERSONNE": "BONHOMME",
       "PRENOM_PERSONNE": "Carel",
@@ -4727,12 +4754,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "106",
+      "RANG_NAT": "107",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 13,
-      "RANG": 13,
+      "Rang_ligue": 14,
+      "RANG": 14,
       "NO_LICENCE": "1058933X",
       "NOM_PERSONNE": "SALLE",
       "PRENOM_PERSONNE": "Jules",
@@ -4754,12 +4781,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "137",
+      "RANG_NAT": "138",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 14,
-      "RANG": 14,
+      "Rang_ligue": 15,
+      "RANG": 15,
       "NO_LICENCE": "0897469K",
       "NOM_PERSONNE": "LECOMTE",
       "PRENOM_PERSONNE": "Dimitri",
@@ -4781,39 +4808,39 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "139",
-      "_classement_nom": "Senior 1 Homme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 15,
-      "RANG": 15,
-      "NO_LICENCE": "0794034F",
-      "NOM_PERSONNE": "GRUDE-DELAROUX",
-      "PRENOM_PERSONNE": "Pierre",
-      "SEXE": "H",
-      "ARME": "C",
-      "CAT": "S1",
-      "CATEGORIE": "S1",
-      "NOM_STRUCTURE": "L'ARCHER CLUB D'AIZENAY",
-      "NOM_ABREGE": "AIZENAY",
-      "CODE_STRUCTURE": "1285133",
-      "DEPARTEMENT": "85",
-      "SCORE1": "613",
-      "SCORE2": "599",
-      "SCORE3": "550",
-      "MOY_SCORE": "587",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
       "RANG_NAT": "140",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
       "Rang_ligue": 16,
       "RANG": 16,
+      "NO_LICENCE": "1060972I",
+      "NOM_PERSONNE": "LOZÉ",
+      "PRENOM_PERSONNE": "Thomas",
+      "SEXE": "H",
+      "ARME": "C",
+      "CAT": "S1",
+      "CATEGORIE": "S1",
+      "NOM_STRUCTURE": "LES GARNA'ARCHERS",
+      "NOM_ABREGE": "LA GARNACHE",
+      "CODE_STRUCTURE": "1285113",
+      "DEPARTEMENT": "85",
+      "SCORE1": "609",
+      "SCORE2": "561",
+      "SCORE3": "548",
+      "MOY_SCORE": "572",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "180",
+      "_classement_nom": "Senior 1 Homme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 17,
+      "RANG": 17,
       "NO_LICENCE": "0741970P",
       "NOM_PERSONNE": "HERIVEAU",
       "PRENOM_PERSONNE": "Sebastien",
@@ -4835,34 +4862,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "204",
-      "_classement_nom": "Senior 1 Homme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 17,
-      "RANG": 17,
-      "NO_LICENCE": "1060972I",
-      "NOM_PERSONNE": "LOZÉ",
-      "PRENOM_PERSONNE": "Thomas",
-      "SEXE": "H",
-      "ARME": "C",
-      "CAT": "S1",
-      "CATEGORIE": "S1",
-      "NOM_STRUCTURE": "LES GARNA'ARCHERS",
-      "NOM_ABREGE": "LA GARNACHE",
-      "CODE_STRUCTURE": "1285113",
-      "DEPARTEMENT": "85",
-      "SCORE1": "561",
-      "SCORE2": "548",
-      "SCORE3": "539",
-      "MOY_SCORE": "549",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "219",
+      "RANG_NAT": "205",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -4889,7 +4889,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "235",
+      "RANG_NAT": "237",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -4916,7 +4916,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "244",
+      "RANG_NAT": "246",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -4943,7 +4943,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "253",
+      "RANG_NAT": "255",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -4970,7 +4970,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "258",
+      "RANG_NAT": "260",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -4997,7 +4997,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "288",
+      "RANG_NAT": "289",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -5024,7 +5024,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "295",
+      "RANG_NAT": "296",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -5051,7 +5051,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "303",
+      "RANG_NAT": "305",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -5078,7 +5078,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "304",
+      "RANG_NAT": "306",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -5105,7 +5105,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "334",
+      "RANG_NAT": "336",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -5132,7 +5132,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "377",
+      "RANG_NAT": "378",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -5159,7 +5159,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "391",
+      "RANG_NAT": "392",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -5186,7 +5186,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "395",
+      "RANG_NAT": "396",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -5213,7 +5213,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "467",
+      "RANG_NAT": "469",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -5240,7 +5240,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "494",
+      "RANG_NAT": "495",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -5267,7 +5267,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "508",
+      "RANG_NAT": "511",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -5294,7 +5294,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "513",
+      "RANG_NAT": "516",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -5321,7 +5321,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "522",
+      "RANG_NAT": "525",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -5348,7 +5348,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "533",
+      "RANG_NAT": "538",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -5375,7 +5375,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "538",
+      "RANG_NAT": "541",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -5402,7 +5402,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "556",
+      "RANG_NAT": "559",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -5429,7 +5429,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "589",
+      "RANG_NAT": "592",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -5456,7 +5456,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "612",
+      "RANG_NAT": "614",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -5483,7 +5483,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "618",
+      "RANG_NAT": "621",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -5510,7 +5510,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "622",
+      "RANG_NAT": "624",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -5537,7 +5537,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "623",
+      "RANG_NAT": "629",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -5564,7 +5564,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "629",
+      "RANG_NAT": "631",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -5591,7 +5591,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "644",
+      "RANG_NAT": "647",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -5618,7 +5618,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "645",
+      "RANG_NAT": "648",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -5753,7 +5753,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "90",
+      "RANG_NAT": "91",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -5780,7 +5780,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "128",
+      "RANG_NAT": "129",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -5807,7 +5807,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "132",
+      "RANG_NAT": "133",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -5824,17 +5824,17 @@
       "NOM_ABREGE": "AIZENAY",
       "CODE_STRUCTURE": "1285133",
       "DEPARTEMENT": "85",
-      "SCORE1": "516",
-      "SCORE2": "491",
-      "SCORE3": "487",
-      "MOY_SCORE": "498",
+      "SCORE1": "528",
+      "SCORE2": "516",
+      "SCORE3": "491",
+      "MOY_SCORE": "511",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "164",
+      "RANG_NAT": "157",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -5861,7 +5861,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "178",
+      "RANG_NAT": "179",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -5888,7 +5888,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "191",
+      "RANG_NAT": "192",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -5915,7 +5915,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "235",
+      "RANG_NAT": "236",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -5942,7 +5942,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "247",
+      "RANG_NAT": "249",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -5969,7 +5969,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "264",
+      "RANG_NAT": "266",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -5996,7 +5996,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "290",
+      "RANG_NAT": "292",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -6023,7 +6023,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "304",
+      "RANG_NAT": "306",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -6050,7 +6050,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "306",
+      "RANG_NAT": "308",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -6077,7 +6077,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "309",
+      "RANG_NAT": "310",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -6104,7 +6104,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "318",
+      "RANG_NAT": "319",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -6131,7 +6131,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "333",
+      "RANG_NAT": "335",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -6158,7 +6158,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "372",
+      "RANG_NAT": "373",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -6185,7 +6185,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "386",
+      "RANG_NAT": "387",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -6212,7 +6212,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "399",
+      "RANG_NAT": "400",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -6239,7 +6239,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "403",
+      "RANG_NAT": "404",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -6266,7 +6266,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "407",
+      "RANG_NAT": "408",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -6293,7 +6293,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "422",
+      "RANG_NAT": "423",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -6320,7 +6320,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "427",
+      "RANG_NAT": "428",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
@@ -6347,12 +6347,39 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "440",
+      "RANG_NAT": "441",
       "_classement_nom": "Senior 1 Femme Arc Classique 2026 "
     },
     {
       "Rang_ligue": 1,
       "RANG": 1,
+      "NO_LICENCE": "0406888V",
+      "NOM_PERSONNE": "GIBEAUD",
+      "PRENOM_PERSONNE": "Emilien",
+      "SEXE": "H",
+      "ARME": "C",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "TIR ARC FONTENAISIEN",
+      "NOM_ABREGE": "FONTENAY LE COMTE",
+      "CODE_STRUCTURE": "1285122",
+      "DEPARTEMENT": "85",
+      "SCORE1": "668",
+      "SCORE2": "643",
+      "SCORE3": "642",
+      "MOY_SCORE": "651",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "10",
+      "_classement_nom": "Senior 2 Homme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0383710B",
       "NOM_PERSONNE": "PANCHEVRE",
       "PRENOM_PERSONNE": "Florent",
@@ -6374,34 +6401,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "14",
-      "_classement_nom": "Senior 2 Homme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 2,
-      "RANG": 2,
-      "NO_LICENCE": "0406888V",
-      "NOM_PERSONNE": "GIBEAUD",
-      "PRENOM_PERSONNE": "Emilien",
-      "SEXE": "H",
-      "ARME": "C",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "TIR ARC FONTENAISIEN",
-      "NOM_ABREGE": "FONTENAY LE COMTE",
-      "CODE_STRUCTURE": "1285122",
-      "DEPARTEMENT": "85",
-      "SCORE1": "643",
-      "SCORE2": "642",
-      "SCORE3": "639",
-      "MOY_SCORE": "641",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "19",
+      "RANG_NAT": "15",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -6590,7 +6590,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "102",
+      "RANG_NAT": "103",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -6617,7 +6617,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "110",
+      "RANG_NAT": "111",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -6644,7 +6644,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "113",
+      "RANG_NAT": "114",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -6671,7 +6671,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "118",
+      "RANG_NAT": "119",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -6698,7 +6698,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "128",
+      "RANG_NAT": "129",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -6725,7 +6725,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "134",
+      "RANG_NAT": "135",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -6752,7 +6752,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "136",
+      "RANG_NAT": "137",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -6779,7 +6779,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "145",
+      "RANG_NAT": "146",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -6806,7 +6806,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "147",
+      "RANG_NAT": "148",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -6833,7 +6833,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "151",
+      "RANG_NAT": "152",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -6860,7 +6860,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "190",
+      "RANG_NAT": "192",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -6887,7 +6887,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "191",
+      "RANG_NAT": "193",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -6914,7 +6914,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "209",
+      "RANG_NAT": "211",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -6941,12 +6941,39 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "226",
+      "RANG_NAT": "229",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
       "Rang_ligue": 23,
       "RANG": 23,
+      "NO_LICENCE": "0822157Z",
+      "NOM_PERSONNE": "TRAVERT",
+      "PRENOM_PERSONNE": "Fabien",
+      "SEXE": "H",
+      "ARME": "C",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "LES ARCHERS DU HAUT BOCAGE",
+      "NOM_ABREGE": "POUZAUGES",
+      "CODE_STRUCTURE": "1285128",
+      "DEPARTEMENT": "85",
+      "SCORE1": "603",
+      "SCORE2": "600",
+      "SCORE3": "585",
+      "MOY_SCORE": "596",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "232",
+      "_classement_nom": "Senior 2 Homme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 24,
+      "RANG": 24,
       "NO_LICENCE": "1005412K",
       "NOM_PERSONNE": "CHAIGNEAU",
       "PRENOM_PERSONNE": "Dominique",
@@ -6960,20 +6987,47 @@
       "DEPARTEMENT": "85",
       "SCORE1": "599",
       "SCORE2": "591",
-      "SCORE3": "585",
-      "MOY_SCORE": "591",
+      "SCORE3": "586",
+      "MOY_SCORE": "592",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "258",
+      "RANG_NAT": "261",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 24,
-      "RANG": 24,
+      "Rang_ligue": 25,
+      "RANG": 25,
+      "NO_LICENCE": "0945657N",
+      "NOM_PERSONNE": "JOUSSEMET",
+      "PRENOM_PERSONNE": "Emmanuel",
+      "SEXE": "H",
+      "ARME": "C",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "TIR ARC FONTENAISIEN",
+      "NOM_ABREGE": "FONTENAY LE COMTE",
+      "CODE_STRUCTURE": "1285122",
+      "DEPARTEMENT": "85",
+      "SCORE1": "616",
+      "SCORE2": "589",
+      "SCORE3": "567",
+      "MOY_SCORE": "590",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "266",
+      "_classement_nom": "Senior 2 Homme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 26,
+      "RANG": 26,
       "NO_LICENCE": "0861625Z",
       "NOM_PERSONNE": "BAREAU",
       "PRENOM_PERSONNE": "Anthony",
@@ -6995,39 +7049,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "264",
+      "RANG_NAT": "269",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 25,
-      "RANG": 25,
-      "NO_LICENCE": "0822157Z",
-      "NOM_PERSONNE": "TRAVERT",
-      "PRENOM_PERSONNE": "Fabien",
-      "SEXE": "H",
-      "ARME": "C",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "LES ARCHERS DU HAUT BOCAGE",
-      "NOM_ABREGE": "POUZAUGES",
-      "CODE_STRUCTURE": "1285128",
-      "DEPARTEMENT": "85",
-      "SCORE1": "603",
-      "SCORE2": "585",
-      "SCORE3": "576",
-      "MOY_SCORE": "588",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "274",
-      "_classement_nom": "Senior 2 Homme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 26,
-      "RANG": 26,
+      "Rang_ligue": 27,
+      "RANG": 27,
       "NO_LICENCE": "1032383T",
       "NOM_PERSONNE": "SORIN",
       "PRENOM_PERSONNE": "Philippe",
@@ -7049,12 +7076,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "292",
+      "RANG_NAT": "295",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 27,
-      "RANG": 27,
+      "Rang_ligue": 28,
+      "RANG": 28,
       "NO_LICENCE": "1019339B",
       "NOM_PERSONNE": "BOQUET",
       "PRENOM_PERSONNE": "François",
@@ -7076,12 +7103,39 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "304",
+      "RANG_NAT": "309",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 28,
-      "RANG": 28,
+      "Rang_ligue": 29,
+      "RANG": 29,
+      "NO_LICENCE": "0960081S",
+      "NOM_PERSONNE": "GUERIN",
+      "PRENOM_PERSONNE": "Gaetan",
+      "SEXE": "H",
+      "ARME": "C",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "LES ARCHERS DE LA DIGUE",
+      "NOM_ABREGE": "MONTAIGU",
+      "CODE_STRUCTURE": "1285121",
+      "DEPARTEMENT": "85",
+      "SCORE1": "583",
+      "SCORE2": "580",
+      "SCORE3": "568",
+      "MOY_SCORE": "577",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "349",
+      "_classement_nom": "Senior 2 Homme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 30,
+      "RANG": 30,
       "NO_LICENCE": "1010241D",
       "NOM_PERSONNE": "ROUILLÉ",
       "PRENOM_PERSONNE": "Noam",
@@ -7103,12 +7157,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "347",
+      "RANG_NAT": "351",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 29,
-      "RANG": 29,
+      "Rang_ligue": 31,
+      "RANG": 31,
       "NO_LICENCE": "0898811U",
       "NOM_PERSONNE": "REIGNER",
       "PRENOM_PERSONNE": "Tony",
@@ -7130,61 +7184,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "352",
-      "_classement_nom": "Senior 2 Homme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 30,
-      "RANG": 30,
-      "NO_LICENCE": "0945657N",
-      "NOM_PERSONNE": "JOUSSEMET",
-      "PRENOM_PERSONNE": "Emmanuel",
-      "SEXE": "H",
-      "ARME": "C",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "TIR ARC FONTENAISIEN",
-      "NOM_ABREGE": "FONTENAY LE COMTE",
-      "CODE_STRUCTURE": "1285122",
-      "DEPARTEMENT": "85",
-      "SCORE1": "589",
-      "SCORE2": "567",
-      "SCORE3": "564",
-      "MOY_SCORE": "573",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "360",
-      "_classement_nom": "Senior 2 Homme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 31,
-      "RANG": 31,
-      "NO_LICENCE": "0960081S",
-      "NOM_PERSONNE": "GUERIN",
-      "PRENOM_PERSONNE": "Gaetan",
-      "SEXE": "H",
-      "ARME": "C",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "LES ARCHERS DE LA DIGUE",
-      "NOM_ABREGE": "MONTAIGU",
-      "CODE_STRUCTURE": "1285121",
-      "DEPARTEMENT": "85",
-      "SCORE1": "580",
-      "SCORE2": "568",
-      "SCORE3": "565",
-      "MOY_SCORE": "571",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "374",
+      "RANG_NAT": "356",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7211,7 +7211,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "379",
+      "RANG_NAT": "381",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7238,7 +7238,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "402",
+      "RANG_NAT": "405",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7265,7 +7265,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "405",
+      "RANG_NAT": "408",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7292,7 +7292,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "436",
+      "RANG_NAT": "439",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7319,7 +7319,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "441",
+      "RANG_NAT": "444",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7338,15 +7338,15 @@
       "DEPARTEMENT": "85",
       "SCORE1": "566",
       "SCORE2": "548",
-      "SCORE3": "525",
-      "MOY_SCORE": "546",
+      "SCORE3": "541",
+      "MOY_SCORE": "551",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "473",
+      "RANG_NAT": "462",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7373,7 +7373,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "482",
+      "RANG_NAT": "485",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7400,7 +7400,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "488",
+      "RANG_NAT": "491",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7427,7 +7427,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "492",
+      "RANG_NAT": "497",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7454,7 +7454,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "505",
+      "RANG_NAT": "510",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7481,7 +7481,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "509",
+      "RANG_NAT": "514",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7508,7 +7508,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "514",
+      "RANG_NAT": "519",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7535,12 +7535,66 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "538",
+      "RANG_NAT": "543",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
       "Rang_ligue": 45,
       "RANG": 45,
+      "NO_LICENCE": "1052518E",
+      "NOM_PERSONNE": "ROCHER",
+      "PRENOM_PERSONNE": "Patrice",
+      "SEXE": "H",
+      "ARME": "C",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "TIR ARC FONTENAISIEN",
+      "NOM_ABREGE": "FONTENAY LE COMTE",
+      "CODE_STRUCTURE": "1285122",
+      "DEPARTEMENT": "85",
+      "SCORE1": "548",
+      "SCORE2": "512",
+      "SCORE3": "510",
+      "MOY_SCORE": "523",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "549",
+      "_classement_nom": "Senior 2 Homme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 46,
+      "RANG": 46,
+      "NO_LICENCE": "0061956U",
+      "NOM_PERSONNE": "CORBREJAUD",
+      "PRENOM_PERSONNE": "Anthony",
+      "SEXE": "H",
+      "ARME": "C",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "ARCHERS DE GROSBREUIL",
+      "NOM_ABREGE": "GROSBREUIL",
+      "CODE_STRUCTURE": "1285124",
+      "DEPARTEMENT": "85",
+      "SCORE1": "524",
+      "SCORE2": "523",
+      "SCORE3": "500",
+      "MOY_SCORE": "515",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "567",
+      "_classement_nom": "Senior 2 Homme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 47,
+      "RANG": 47,
       "NO_LICENCE": "0982931D",
       "NOM_PERSONNE": "ANGEBAUD",
       "PRENOM_PERSONNE": "Nicolas",
@@ -7562,61 +7616,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "562",
-      "_classement_nom": "Senior 2 Homme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 46,
-      "RANG": 46,
-      "NO_LICENCE": "0061956U",
-      "NOM_PERSONNE": "CORBREJAUD",
-      "PRENOM_PERSONNE": "Anthony",
-      "SEXE": "H",
-      "ARME": "C",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "ARCHERS DE GROSBREUIL",
-      "NOM_ABREGE": "GROSBREUIL",
-      "CODE_STRUCTURE": "1285124",
-      "DEPARTEMENT": "85",
-      "SCORE1": "524",
-      "SCORE2": "523",
-      "SCORE3": "472",
-      "MOY_SCORE": "506",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "577",
-      "_classement_nom": "Senior 2 Homme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 47,
-      "RANG": 47,
-      "NO_LICENCE": "1052518E",
-      "NOM_PERSONNE": "ROCHER",
-      "PRENOM_PERSONNE": "Patrice",
-      "SEXE": "H",
-      "ARME": "C",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "TIR ARC FONTENAISIEN",
-      "NOM_ABREGE": "FONTENAY LE COMTE",
-      "CODE_STRUCTURE": "1285122",
-      "DEPARTEMENT": "85",
-      "SCORE1": "548",
-      "SCORE2": "512",
-      "SCORE3": "456",
-      "MOY_SCORE": "505",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "579",
+      "RANG_NAT": "569",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7643,7 +7643,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "587",
+      "RANG_NAT": "592",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7670,7 +7670,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "598",
+      "RANG_NAT": "603",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7697,7 +7697,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "604",
+      "RANG_NAT": "609",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7724,7 +7724,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "609",
+      "RANG_NAT": "614",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7751,7 +7751,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "634",
+      "RANG_NAT": "640",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7778,7 +7778,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "674",
+      "RANG_NAT": "679",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7805,7 +7805,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "675",
+      "RANG_NAT": "680",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7832,7 +7832,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "753",
+      "RANG_NAT": "758",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7859,7 +7859,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "756",
+      "RANG_NAT": "761",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7886,7 +7886,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "760",
+      "RANG_NAT": "765",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7913,7 +7913,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "805",
+      "RANG_NAT": "808",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7940,7 +7940,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "880",
+      "RANG_NAT": "883",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7967,7 +7967,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "894",
+      "RANG_NAT": "897",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -7994,7 +7994,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "896",
+      "RANG_NAT": "899",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -8021,7 +8021,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "916",
+      "RANG_NAT": "919",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -8048,7 +8048,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "919",
+      "RANG_NAT": "922",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -8075,7 +8075,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "946",
+      "RANG_NAT": "950",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -8102,7 +8102,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "948",
+      "RANG_NAT": "952",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -8129,7 +8129,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "964",
+      "RANG_NAT": "969",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -8156,7 +8156,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "978",
+      "RANG_NAT": "982",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -8183,7 +8183,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "993",
+      "RANG_NAT": "996",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -8210,7 +8210,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1039",
+      "RANG_NAT": "1043",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -8237,7 +8237,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1041",
+      "RANG_NAT": "1045",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -8264,7 +8264,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1044",
+      "RANG_NAT": "1051",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -8291,7 +8291,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1084",
+      "RANG_NAT": "1088",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -8318,39 +8318,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1110",
+      "RANG_NAT": "1114",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
       "Rang_ligue": 74,
       "RANG": 74,
-      "NO_LICENCE": "1032518Y",
-      "NOM_PERSONNE": "FERNANDE",
-      "PRENOM_PERSONNE": "Nicolas",
-      "SEXE": "H",
-      "ARME": "C",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "CIE ARCHERS DE VERTOU",
-      "NOM_ABREGE": "VERTOU",
-      "CODE_STRUCTURE": "1244041",
-      "DEPARTEMENT": "44",
-      "SCORE1": "539",
-      "SCORE2": "0",
-      "SCORE3": "0",
-      "MOY_SCORE": "179",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "1131",
-      "_classement_nom": "Senior 2 Homme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 75,
-      "RANG": 75,
       "NO_LICENCE": "0041102B",
       "NOM_PERSONNE": "TEILLET",
       "PRENOM_PERSONNE": "Damien",
@@ -8373,6 +8346,33 @@
       "CAT_TIR": "",
       "CAT_CLASS": "",
       "RANG_NAT": "1132",
+      "_classement_nom": "Senior 2 Homme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 75,
+      "RANG": 75,
+      "NO_LICENCE": "1032518Y",
+      "NOM_PERSONNE": "FERNANDE",
+      "PRENOM_PERSONNE": "Nicolas",
+      "SEXE": "H",
+      "ARME": "C",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "CIE ARCHERS DE VERTOU",
+      "NOM_ABREGE": "VERTOU",
+      "CODE_STRUCTURE": "1244041",
+      "DEPARTEMENT": "44",
+      "SCORE1": "539",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "179",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "1133",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -8399,7 +8399,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1165",
+      "RANG_NAT": "1169",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -8426,7 +8426,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1166",
+      "RANG_NAT": "1174",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -8453,7 +8453,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1191",
+      "RANG_NAT": "1194",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -8480,7 +8480,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1195",
+      "RANG_NAT": "1203",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -8507,7 +8507,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1233",
+      "RANG_NAT": "1236",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -8534,7 +8534,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1253",
+      "RANG_NAT": "1256",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -8561,7 +8561,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1257",
+      "RANG_NAT": "1261",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -8588,7 +8588,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1259",
+      "RANG_NAT": "1262",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -8615,7 +8615,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1276",
+      "RANG_NAT": "1279",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -8642,7 +8642,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1280",
+      "RANG_NAT": "1283",
       "_classement_nom": "Senior 2 Homme Arc Classique 2026"
     },
     {
@@ -8822,16 +8822,16 @@
       "CODE_STRUCTURE": "1285138",
       "DEPARTEMENT": "85",
       "SCORE1": "575",
-      "SCORE2": "564",
-      "SCORE3": "552",
-      "MOY_SCORE": "563",
+      "SCORE2": "569",
+      "SCORE3": "564",
+      "MOY_SCORE": "569",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "136",
+      "RANG_NAT": "122",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -8858,7 +8858,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "168",
+      "RANG_NAT": "169",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -8885,7 +8885,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "180",
+      "RANG_NAT": "181",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -8939,7 +8939,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "222",
+      "RANG_NAT": "223",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -8966,7 +8966,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "234",
+      "RANG_NAT": "235",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -8993,12 +8993,39 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "241",
+      "RANG_NAT": "242",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
       "Rang_ligue": 14,
       "RANG": 14,
+      "NO_LICENCE": "1027798K",
+      "NOM_PERSONNE": "LEGUY",
+      "PRENOM_PERSONNE": "Severine",
+      "SEXE": "F",
+      "ARME": "C",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "ARCHERS DE GROSBREUIL",
+      "NOM_ABREGE": "GROSBREUIL",
+      "CODE_STRUCTURE": "1285124",
+      "DEPARTEMENT": "85",
+      "SCORE1": "532",
+      "SCORE2": "518",
+      "SCORE3": "463",
+      "MOY_SCORE": "504",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "248",
+      "_classement_nom": "Senior 2 Femme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 15,
+      "RANG": 15,
       "NO_LICENCE": "1051999F",
       "NOM_PERSONNE": "CONCHON",
       "PRENOM_PERSONNE": "Charlotte",
@@ -9020,12 +9047,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "248",
+      "RANG_NAT": "249",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 15,
-      "RANG": 15,
+      "Rang_ligue": 16,
+      "RANG": 16,
       "NO_LICENCE": "1054161J",
       "NOM_PERSONNE": "LUCAS",
       "PRENOM_PERSONNE": "Meriem",
@@ -9047,34 +9074,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "263",
-      "_classement_nom": "Senior 2 Femme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 16,
-      "RANG": 16,
-      "NO_LICENCE": "1027798K",
-      "NOM_PERSONNE": "LEGUY",
-      "PRENOM_PERSONNE": "Severine",
-      "SEXE": "F",
-      "ARME": "C",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "ARCHERS DE GROSBREUIL",
-      "NOM_ABREGE": "GROSBREUIL",
-      "CODE_STRUCTURE": "1285124",
-      "DEPARTEMENT": "85",
-      "SCORE1": "518",
-      "SCORE2": "463",
-      "SCORE3": "411",
-      "MOY_SCORE": "464",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "280",
+      "RANG_NAT": "264",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -9107,6 +9107,33 @@
     {
       "Rang_ligue": 18,
       "RANG": 18,
+      "NO_LICENCE": "1059658U",
+      "NOM_PERSONNE": "JADOUL",
+      "PRENOM_PERSONNE": "Aurélie",
+      "SEXE": "F",
+      "ARME": "C",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "LES CARQUOIS DE GRASLA",
+      "NOM_ABREGE": "LA RABATELIERE",
+      "CODE_STRUCTURE": "1285114",
+      "DEPARTEMENT": "85",
+      "SCORE1": "442",
+      "SCORE2": "437",
+      "SCORE3": "356",
+      "MOY_SCORE": "411",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "302",
+      "_classement_nom": "Senior 2 Femme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 19,
+      "RANG": 19,
       "NO_LICENCE": "0039425D",
       "NOM_PERSONNE": "MOREAU",
       "PRENOM_PERSONNE": "Tasha",
@@ -9128,34 +9155,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "360",
-      "_classement_nom": "Senior 2 Femme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 19,
-      "RANG": 19,
-      "NO_LICENCE": "1059658U",
-      "NOM_PERSONNE": "JADOUL",
-      "PRENOM_PERSONNE": "Aurélie",
-      "SEXE": "F",
-      "ARME": "C",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "LES CARQUOIS DE GRASLA",
-      "NOM_ABREGE": "LA RABATELIERE",
-      "CODE_STRUCTURE": "1285114",
-      "DEPARTEMENT": "85",
-      "SCORE1": "442",
-      "SCORE2": "356",
-      "SCORE3": "0",
-      "MOY_SCORE": "266",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "387",
+      "RANG_NAT": "365",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -9182,7 +9182,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "398",
+      "RANG_NAT": "401",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -9209,7 +9209,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "412",
+      "RANG_NAT": "415",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -9236,7 +9236,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "414",
+      "RANG_NAT": "418",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -9263,7 +9263,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "455",
+      "RANG_NAT": "457",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -9317,7 +9317,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "484",
+      "RANG_NAT": "485",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -9344,7 +9344,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "503",
+      "RANG_NAT": "504",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
@@ -9452,7 +9452,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "30",
+      "RANG_NAT": "31",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9471,15 +9471,15 @@
       "DEPARTEMENT": "44",
       "SCORE1": "622",
       "SCORE2": "614",
-      "SCORE3": "604",
-      "MOY_SCORE": "613",
+      "SCORE3": "614",
+      "MOY_SCORE": "616",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "37",
+      "RANG_NAT": "32",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9647,6 +9647,33 @@
     {
       "Rang_ligue": 11,
       "RANG": 11,
+      "NO_LICENCE": "0691036B",
+      "NOM_PERSONNE": "POIRAUD",
+      "PRENOM_PERSONNE": "Lionel",
+      "SEXE": "H",
+      "ARME": "C",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "LES FLECHES D ALIENOR",
+      "NOM_ABREGE": "LES FLÉCHES D'ALIÉNOR",
+      "CODE_STRUCTURE": "1285141",
+      "DEPARTEMENT": "85",
+      "SCORE1": "614",
+      "SCORE2": "580",
+      "SCORE3": "579",
+      "MOY_SCORE": "591",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "110",
+      "_classement_nom": "Senior 3 Homme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 12,
+      "RANG": 12,
       "NO_LICENCE": "0041654B",
       "NOM_PERSONNE": "MOTREUIL",
       "PRENOM_PERSONNE": "Luc",
@@ -9668,12 +9695,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "119",
+      "RANG_NAT": "120",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 12,
-      "RANG": 12,
+      "Rang_ligue": 13,
+      "RANG": 13,
       "NO_LICENCE": "0453378C",
       "NOM_PERSONNE": "BRACHET",
       "PRENOM_PERSONNE": "Bernard",
@@ -9695,12 +9722,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "121",
+      "RANG_NAT": "122",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 13,
-      "RANG": 13,
+      "Rang_ligue": 14,
+      "RANG": 14,
       "NO_LICENCE": "0629848T",
       "NOM_PERSONNE": "JAUMOTTE",
       "PRENOM_PERSONNE": "Patrick",
@@ -9722,12 +9749,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "138",
+      "RANG_NAT": "139",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 14,
-      "RANG": 14,
+      "Rang_ligue": 15,
+      "RANG": 15,
       "NO_LICENCE": "1048435D",
       "NOM_PERSONNE": "PERFEZOU",
       "PRENOM_PERSONNE": "Alain",
@@ -9749,12 +9776,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "152",
+      "RANG_NAT": "153",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 15,
-      "RANG": 15,
+      "Rang_ligue": 16,
+      "RANG": 16,
       "NO_LICENCE": "0931116H",
       "NOM_PERSONNE": "MOUSSET",
       "PRENOM_PERSONNE": "Olivier",
@@ -9769,33 +9796,6 @@
       "SCORE1": "590",
       "SCORE2": "588",
       "SCORE3": "551",
-      "MOY_SCORE": "576",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "161",
-      "_classement_nom": "Senior 3 Homme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 16,
-      "RANG": 16,
-      "NO_LICENCE": "0691036B",
-      "NOM_PERSONNE": "POIRAUD",
-      "PRENOM_PERSONNE": "Lionel",
-      "SEXE": "H",
-      "ARME": "C",
-      "CAT": "S3",
-      "CATEGORIE": "S3",
-      "NOM_STRUCTURE": "LES FLECHES D ALIENOR",
-      "NOM_ABREGE": "LES FLÉCHES D'ALIÉNOR",
-      "CODE_STRUCTURE": "1285141",
-      "DEPARTEMENT": "85",
-      "SCORE1": "580",
-      "SCORE2": "579",
-      "SCORE3": "569",
       "MOY_SCORE": "576",
       "DISCIPLINE": "T",
       "DISTANCE": "",
@@ -9836,6 +9836,33 @@
     {
       "Rang_ligue": 18,
       "RANG": 18,
+      "NO_LICENCE": "1010605D",
+      "NOM_PERSONNE": "MONNY",
+      "PRENOM_PERSONNE": "Gerard",
+      "SEXE": "H",
+      "ARME": "C",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "AMICALE DU BEIGNON BASSET",
+      "NOM_ABREGE": "BEIGNON BASSET",
+      "CODE_STRUCTURE": "1285131",
+      "DEPARTEMENT": "85",
+      "SCORE1": "574",
+      "SCORE2": "562",
+      "SCORE3": "560",
+      "MOY_SCORE": "565",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "191",
+      "_classement_nom": "Senior 3 Homme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 19,
+      "RANG": 19,
       "NO_LICENCE": "1048358E",
       "NOM_PERSONNE": "WROBLEWSKI",
       "PRENOM_PERSONNE": "Marc",
@@ -9857,12 +9884,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "213",
+      "RANG_NAT": "214",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 19,
-      "RANG": 19,
+      "Rang_ligue": 20,
+      "RANG": 20,
       "NO_LICENCE": "1005697J",
       "NOM_PERSONNE": "BEAUFILS",
       "PRENOM_PERSONNE": "Bertrand",
@@ -9884,34 +9911,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "221",
-      "_classement_nom": "Senior 3 Homme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 20,
-      "RANG": 20,
-      "NO_LICENCE": "1010605D",
-      "NOM_PERSONNE": "MONNY",
-      "PRENOM_PERSONNE": "Gerard",
-      "SEXE": "H",
-      "ARME": "C",
-      "CAT": "S3",
-      "CATEGORIE": "S3",
-      "NOM_STRUCTURE": "AMICALE DU BEIGNON BASSET",
-      "NOM_ABREGE": "BEIGNON BASSET",
-      "CODE_STRUCTURE": "1285131",
-      "DEPARTEMENT": "85",
-      "SCORE1": "574",
-      "SCORE2": "560",
-      "SCORE3": "528",
-      "MOY_SCORE": "554",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "233",
+      "RANG_NAT": "222",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9938,7 +9938,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "240",
+      "RANG_NAT": "241",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9998,6 +9998,60 @@
     {
       "Rang_ligue": 24,
       "RANG": 24,
+      "NO_LICENCE": "1053529B",
+      "NOM_PERSONNE": "DOUBLET-VEILLAT",
+      "PRENOM_PERSONNE": "Willy",
+      "SEXE": "H",
+      "ARME": "C",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "LES ARCHERS SABLAIS",
+      "NOM_ABREGE": "LES SABLES D'OLONNE",
+      "CODE_STRUCTURE": "1285132",
+      "DEPARTEMENT": "85",
+      "SCORE1": "558",
+      "SCORE2": "541",
+      "SCORE3": "529",
+      "MOY_SCORE": "542",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "263",
+      "_classement_nom": "Senior 3 Homme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 25,
+      "RANG": 25,
+      "NO_LICENCE": "0056113T",
+      "NOM_PERSONNE": "RUCHAUD",
+      "PRENOM_PERSONNE": "Philippe",
+      "SEXE": "H",
+      "ARME": "C",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "LES ROBINS DES FOY",
+      "NOM_ABREGE": "SAINTE FOY",
+      "CODE_STRUCTURE": "1285138",
+      "DEPARTEMENT": "85",
+      "SCORE1": "542",
+      "SCORE2": "540",
+      "SCORE3": "529",
+      "MOY_SCORE": "537",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "282",
+      "_classement_nom": "Senior 3 Homme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 26,
+      "RANG": 26,
       "NO_LICENCE": "0051685E",
       "NOM_PERSONNE": "GALLET",
       "PRENOM_PERSONNE": "Serge",
@@ -10019,12 +10073,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "282",
+      "RANG_NAT": "284",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 25,
-      "RANG": 25,
+      "Rang_ligue": 27,
+      "RANG": 27,
       "NO_LICENCE": "0616150D",
       "NOM_PERSONNE": "ROUX",
       "PRENOM_PERSONNE": "Gilles",
@@ -10046,39 +10100,39 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "283",
+      "RANG_NAT": "285",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 26,
-      "RANG": 26,
-      "NO_LICENCE": "0056113T",
-      "NOM_PERSONNE": "RUCHAUD",
-      "PRENOM_PERSONNE": "Philippe",
+      "Rang_ligue": 28,
+      "RANG": 28,
+      "NO_LICENCE": "0056947Z",
+      "NOM_PERSONNE": "PERRIN",
+      "PRENOM_PERSONNE": "Daniel",
       "SEXE": "H",
       "ARME": "C",
       "CAT": "S3",
       "CATEGORIE": "S3",
-      "NOM_STRUCTURE": "LES ROBINS DES FOY",
-      "NOM_ABREGE": "SAINTE FOY",
-      "CODE_STRUCTURE": "1285138",
+      "NOM_STRUCTURE": "L'ARCHER CLUB D'AIZENAY",
+      "NOM_ABREGE": "AIZENAY",
+      "CODE_STRUCTURE": "1285133",
       "DEPARTEMENT": "85",
-      "SCORE1": "542",
-      "SCORE2": "540",
-      "SCORE3": "518",
-      "MOY_SCORE": "533",
+      "SCORE1": "537",
+      "SCORE2": "534",
+      "SCORE3": "525",
+      "MOY_SCORE": "532",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "287",
+      "RANG_NAT": "296",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 27,
-      "RANG": 27,
+      "Rang_ligue": 29,
+      "RANG": 29,
       "NO_LICENCE": "0873182L",
       "NOM_PERSONNE": "DUMONT",
       "PRENOM_PERSONNE": "Jean luc",
@@ -10100,12 +10154,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "299",
+      "RANG_NAT": "302",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 28,
-      "RANG": 28,
+      "Rang_ligue": 30,
+      "RANG": 30,
       "NO_LICENCE": "0464299Y",
       "NOM_PERSONNE": "MOQUET",
       "PRENOM_PERSONNE": "Dominique",
@@ -10127,39 +10181,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "309",
+      "RANG_NAT": "312",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 29,
-      "RANG": 29,
-      "NO_LICENCE": "0056947Z",
-      "NOM_PERSONNE": "PERRIN",
-      "PRENOM_PERSONNE": "Daniel",
-      "SEXE": "H",
-      "ARME": "C",
-      "CAT": "S3",
-      "CATEGORIE": "S3",
-      "NOM_STRUCTURE": "L'ARCHER CLUB D'AIZENAY",
-      "NOM_ABREGE": "AIZENAY",
-      "CODE_STRUCTURE": "1285133",
-      "DEPARTEMENT": "85",
-      "SCORE1": "537",
-      "SCORE2": "525",
-      "SCORE3": "513",
-      "MOY_SCORE": "525",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "313",
-      "_classement_nom": "Senior 3 Homme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 30,
-      "RANG": 30,
+      "Rang_ligue": 31,
+      "RANG": 31,
       "NO_LICENCE": "0012991W",
       "NOM_PERSONNE": "VERGNAUD",
       "PRENOM_PERSONNE": "Jean",
@@ -10181,12 +10208,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "321",
+      "RANG_NAT": "324",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 31,
-      "RANG": 31,
+      "Rang_ligue": 32,
+      "RANG": 32,
       "NO_LICENCE": "1043962C",
       "NOM_PERSONNE": "LACASSAGNE",
       "PRENOM_PERSONNE": "Jean-françois",
@@ -10208,12 +10235,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "324",
+      "RANG_NAT": "327",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 32,
-      "RANG": 32,
+      "Rang_ligue": 33,
+      "RANG": 33,
       "NO_LICENCE": "1028933B",
       "NOM_PERSONNE": "BEAUMONT",
       "PRENOM_PERSONNE": "Laurent",
@@ -10235,12 +10262,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "338",
+      "RANG_NAT": "341",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 33,
-      "RANG": 33,
+      "Rang_ligue": 34,
+      "RANG": 34,
       "NO_LICENCE": "0651036Y",
       "NOM_PERSONNE": "RATTIER",
       "PRENOM_PERSONNE": "Gerard",
@@ -10262,12 +10289,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "346",
+      "RANG_NAT": "349",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 34,
-      "RANG": 34,
+      "Rang_ligue": 35,
+      "RANG": 35,
       "NO_LICENCE": "0913208T",
       "NOM_PERSONNE": "LUBERT",
       "PRENOM_PERSONNE": "Vincent",
@@ -10289,12 +10316,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "373",
+      "RANG_NAT": "379",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 35,
-      "RANG": 35,
+      "Rang_ligue": 36,
+      "RANG": 36,
       "NO_LICENCE": "0641835X",
       "NOM_PERSONNE": "GAUTIER",
       "PRENOM_PERSONNE": "Hubert",
@@ -10308,20 +10335,20 @@
       "DEPARTEMENT": "85",
       "SCORE1": "547",
       "SCORE2": "494",
-      "SCORE3": "417",
-      "MOY_SCORE": "486",
+      "SCORE3": "435",
+      "MOY_SCORE": "492",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "393",
+      "RANG_NAT": "391",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 36,
-      "RANG": 36,
+      "Rang_ligue": 37,
+      "RANG": 37,
       "NO_LICENCE": "0816803E",
       "NOM_PERSONNE": "FOUCHET",
       "PRENOM_PERSONNE": "Raymond",
@@ -10343,12 +10370,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "437",
+      "RANG_NAT": "444",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 37,
-      "RANG": 37,
+      "Rang_ligue": 38,
+      "RANG": 38,
       "NO_LICENCE": "0036197V",
       "NOM_PERSONNE": "BATARD",
       "PRENOM_PERSONNE": "Francois",
@@ -10370,12 +10397,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "454",
+      "RANG_NAT": "460",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 38,
-      "RANG": 38,
+      "Rang_ligue": 39,
+      "RANG": 39,
       "NO_LICENCE": "1055101N",
       "NOM_PERSONNE": "RETAILLEAU",
       "PRENOM_PERSONNE": "Denis",
@@ -10397,12 +10424,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "455",
+      "RANG_NAT": "461",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 39,
-      "RANG": 39,
+      "Rang_ligue": 40,
+      "RANG": 40,
       "NO_LICENCE": "0008597V",
       "NOM_PERSONNE": "GOUVAZE",
       "PRENOM_PERSONNE": "Daniel",
@@ -10424,12 +10451,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "476",
+      "RANG_NAT": "482",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 40,
-      "RANG": 40,
+      "Rang_ligue": 41,
+      "RANG": 41,
       "NO_LICENCE": "1008760E",
       "NOM_PERSONNE": "RUSAOUEN",
       "PRENOM_PERSONNE": "Franck",
@@ -10451,12 +10478,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "497",
+      "RANG_NAT": "503",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 41,
-      "RANG": 41,
+      "Rang_ligue": 42,
+      "RANG": 42,
       "NO_LICENCE": "0756566E",
       "NOM_PERSONNE": "GARNIER",
       "PRENOM_PERSONNE": "Gilles",
@@ -10478,12 +10505,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "500",
+      "RANG_NAT": "507",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 42,
-      "RANG": 42,
+      "Rang_ligue": 43,
+      "RANG": 43,
       "NO_LICENCE": "0612610F",
       "NOM_PERSONNE": "PETITJEAN",
       "PRENOM_PERSONNE": "Didier",
@@ -10505,34 +10532,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "503",
-      "_classement_nom": "Senior 3 Homme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 43,
-      "RANG": 43,
-      "NO_LICENCE": "1053529B",
-      "NOM_PERSONNE": "DOUBLET-VEILLAT",
-      "PRENOM_PERSONNE": "Willy",
-      "SEXE": "H",
-      "ARME": "C",
-      "CAT": "S3",
-      "CATEGORIE": "S3",
-      "NOM_STRUCTURE": "LES ARCHERS SABLAIS",
-      "NOM_ABREGE": "LES SABLES D'OLONNE",
-      "CODE_STRUCTURE": "1285132",
-      "DEPARTEMENT": "85",
-      "SCORE1": "541",
-      "SCORE2": "529",
-      "SCORE3": "0",
-      "MOY_SCORE": "356",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "517",
+      "RANG_NAT": "510",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10559,7 +10559,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "525",
+      "RANG_NAT": "531",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10586,7 +10586,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "564",
+      "RANG_NAT": "569",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10613,7 +10613,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "606",
+      "RANG_NAT": "611",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10640,7 +10640,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "625",
+      "RANG_NAT": "631",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10667,7 +10667,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "635",
+      "RANG_NAT": "641",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10694,7 +10694,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "670",
+      "RANG_NAT": "677",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10721,7 +10721,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "677",
+      "RANG_NAT": "684",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10748,7 +10748,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "722",
+      "RANG_NAT": "728",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10775,7 +10775,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "755",
+      "RANG_NAT": "760",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10802,7 +10802,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "762",
+      "RANG_NAT": "769",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10829,7 +10829,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "773",
+      "RANG_NAT": "776",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10856,7 +10856,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "808",
+      "RANG_NAT": "813",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10883,7 +10883,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "819",
+      "RANG_NAT": "824",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10910,7 +10910,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "823",
+      "RANG_NAT": "828",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10937,7 +10937,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "830",
+      "RANG_NAT": "836",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10964,7 +10964,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "834",
+      "RANG_NAT": "839",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -10991,7 +10991,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "845",
+      "RANG_NAT": "850",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -11018,7 +11018,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "850",
+      "RANG_NAT": "855",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -11045,7 +11045,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "856",
+      "RANG_NAT": "862",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -11072,7 +11072,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "864",
+      "RANG_NAT": "869",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -11099,7 +11099,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "881",
+      "RANG_NAT": "886",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -11126,7 +11126,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "883",
+      "RANG_NAT": "888",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -11240,6 +11240,33 @@
     {
       "Rang_ligue": 5,
       "RANG": 5,
+      "NO_LICENCE": "0016636H",
+      "NOM_PERSONNE": "CORNIERE",
+      "PRENOM_PERSONNE": "Marie-berangere",
+      "SEXE": "F",
+      "ARME": "C",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "ARCHERS CHALLANDAIS",
+      "NOM_ABREGE": "CHALLANS",
+      "CODE_STRUCTURE": "1285134",
+      "DEPARTEMENT": "85",
+      "SCORE1": "552",
+      "SCORE2": "550",
+      "SCORE3": "528",
+      "MOY_SCORE": "543",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "51",
+      "_classement_nom": "Senior 3 Femme Arc Classique 2026"
+    },
+    {
+      "Rang_ligue": 6,
+      "RANG": 6,
       "NO_LICENCE": "0312170R",
       "NOM_PERSONNE": "DURAND",
       "PRENOM_PERSONNE": "Claire",
@@ -11261,12 +11288,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "62",
+      "RANG_NAT": "64",
       "_classement_nom": "Senior 3 Femme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 6,
-      "RANG": 6,
+      "Rang_ligue": 7,
+      "RANG": 7,
       "NO_LICENCE": "0056948A",
       "NOM_PERSONNE": "PERRIN",
       "PRENOM_PERSONNE": "Elisabeth",
@@ -11288,39 +11315,39 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "79",
+      "RANG_NAT": "81",
       "_classement_nom": "Senior 3 Femme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 7,
-      "RANG": 7,
-      "NO_LICENCE": "0016636H",
-      "NOM_PERSONNE": "CORNIERE",
-      "PRENOM_PERSONNE": "Marie-berangere",
+      "Rang_ligue": 8,
+      "RANG": 8,
+      "NO_LICENCE": "1029401B",
+      "NOM_PERSONNE": "COURTAIS",
+      "PRENOM_PERSONNE": "Claudine",
       "SEXE": "F",
       "ARME": "C",
       "CAT": "S3",
       "CATEGORIE": "S3",
-      "NOM_STRUCTURE": "ARCHERS CHALLANDAIS",
-      "NOM_ABREGE": "CHALLANS",
-      "CODE_STRUCTURE": "1285134",
+      "NOM_STRUCTURE": "L'ARCHER CLUB D'AIZENAY",
+      "NOM_ABREGE": "AIZENAY",
+      "CODE_STRUCTURE": "1285133",
       "DEPARTEMENT": "85",
-      "SCORE1": "550",
-      "SCORE2": "528",
-      "SCORE3": "0",
-      "MOY_SCORE": "359",
+      "SCORE1": "488",
+      "SCORE2": "481",
+      "SCORE3": "418",
+      "MOY_SCORE": "462",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "117",
+      "RANG_NAT": "95",
       "_classement_nom": "Senior 3 Femme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 8,
-      "RANG": 8,
+      "Rang_ligue": 9,
+      "RANG": 9,
       "NO_LICENCE": "0331196W",
       "NOM_PERSONNE": "LEBOUC",
       "PRENOM_PERSONNE": "Catherine",
@@ -11342,12 +11369,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "133",
+      "RANG_NAT": "135",
       "_classement_nom": "Senior 3 Femme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 9,
-      "RANG": 9,
+      "Rang_ligue": 10,
+      "RANG": 10,
       "NO_LICENCE": "1061819X",
       "NOM_PERSONNE": "RADIGOIS",
       "PRENOM_PERSONNE": "Caroline",
@@ -11369,34 +11396,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "137",
-      "_classement_nom": "Senior 3 Femme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 10,
-      "RANG": 10,
-      "NO_LICENCE": "1029401B",
-      "NOM_PERSONNE": "COURTAIS",
-      "PRENOM_PERSONNE": "Claudine",
-      "SEXE": "F",
-      "ARME": "C",
-      "CAT": "S3",
-      "CATEGORIE": "S3",
-      "NOM_STRUCTURE": "L'ARCHER CLUB D'AIZENAY",
-      "NOM_ABREGE": "AIZENAY",
-      "CODE_STRUCTURE": "1285133",
-      "DEPARTEMENT": "85",
-      "SCORE1": "488",
-      "SCORE2": "418",
-      "SCORE3": "0",
-      "MOY_SCORE": "302",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "142",
+      "RANG_NAT": "139",
       "_classement_nom": "Senior 3 Femme Arc Classique 2026"
     },
     {
@@ -11685,15 +11685,15 @@
       "DEPARTEMENT": "85",
       "SCORE1": "673",
       "SCORE2": "670",
-      "SCORE3": "650",
-      "MOY_SCORE": "664",
+      "SCORE3": "670",
+      "MOY_SCORE": "671",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "5",
+      "RANG_NAT": "4",
       "_classement_nom": "U18 Homme Arc à Poulies 2026"
     },
     {
@@ -11820,15 +11820,15 @@
       "DEPARTEMENT": "85",
       "SCORE1": "673",
       "SCORE2": "670",
-      "SCORE3": "650",
-      "MOY_SCORE": "664",
+      "SCORE3": "670",
+      "MOY_SCORE": "671",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "10",
+      "RANG_NAT": "7",
       "_classement_nom": "U18-U21 Homme Arc à Poulies 2026"
     },
     {
@@ -12077,6 +12077,33 @@
     {
       "Rang_ligue": 1,
       "RANG": 1,
+      "NO_LICENCE": "0772342C",
+      "NOM_PERSONNE": "JEANNEAU",
+      "PRENOM_PERSONNE": "Quentin",
+      "SEXE": "H",
+      "ARME": "P",
+      "CAT": "S1",
+      "CATEGORIE": "S1",
+      "NOM_STRUCTURE": "L'ARCHER CLUB D'AIZENAY",
+      "NOM_ABREGE": "AIZENAY",
+      "CODE_STRUCTURE": "1285133",
+      "DEPARTEMENT": "85",
+      "SCORE1": "695",
+      "SCORE2": "688",
+      "SCORE3": "687",
+      "MOY_SCORE": "690",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "22",
+      "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
+    },
+    {
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "0692907K",
       "NOM_PERSONNE": "ORIEUX",
       "PRENOM_PERSONNE": "Alexis",
@@ -12098,12 +12125,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "21",
+      "RANG_NAT": "23",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 2,
-      "RANG": 2,
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "0841063Z",
       "NOM_PERSONNE": "LE ROUTIER",
       "PRENOM_PERSONNE": "Tristan",
@@ -12117,42 +12144,15 @@
       "DEPARTEMENT": "85",
       "SCORE1": "604",
       "SCORE2": "596",
-      "SCORE3": "566",
-      "MOY_SCORE": "588",
+      "SCORE3": "595",
+      "MOY_SCORE": "598",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "72",
-      "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
-    },
-    {
-      "Rang_ligue": 3,
-      "RANG": 3,
-      "NO_LICENCE": "0772342C",
-      "NOM_PERSONNE": "JEANNEAU",
-      "PRENOM_PERSONNE": "Quentin",
-      "SEXE": "H",
-      "ARME": "P",
-      "CAT": "S1",
-      "CATEGORIE": "S1",
-      "NOM_STRUCTURE": "L'ARCHER CLUB D'AIZENAY",
-      "NOM_ABREGE": "AIZENAY",
-      "CODE_STRUCTURE": "1285133",
-      "DEPARTEMENT": "85",
-      "SCORE1": "688",
-      "SCORE2": "687",
-      "SCORE3": "0",
-      "MOY_SCORE": "458",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "84",
+      "RANG_NAT": "74",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -12179,7 +12179,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "108",
+      "RANG_NAT": "109",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -12233,7 +12233,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "126",
+      "RANG_NAT": "128",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -12260,7 +12260,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "168",
+      "RANG_NAT": "169",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -12287,7 +12287,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "171",
+      "RANG_NAT": "172",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -12314,7 +12314,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "193",
+      "RANG_NAT": "194",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2026"
     },
     {
@@ -12395,7 +12395,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "70",
+      "RANG_NAT": "71",
       "_classement_nom": "Senior 1 Femme Arc à Poulies 2026"
     },
     {
@@ -12536,6 +12536,33 @@
     {
       "Rang_ligue": 6,
       "RANG": 6,
+      "NO_LICENCE": "1023253P",
+      "NOM_PERSONNE": "VEYRAT-JOURDAN",
+      "PRENOM_PERSONNE": "Adrien",
+      "SEXE": "H",
+      "ARME": "P",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "L'ARCHER CLUB D'AIZENAY",
+      "NOM_ABREGE": "AIZENAY",
+      "CODE_STRUCTURE": "1285133",
+      "DEPARTEMENT": "85",
+      "SCORE1": "698",
+      "SCORE2": "695",
+      "SCORE3": "688",
+      "MOY_SCORE": "693",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "34",
+      "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
+    },
+    {
+      "Rang_ligue": 7,
+      "RANG": 7,
       "NO_LICENCE": "0633679G",
       "NOM_PERSONNE": "NICOLEAU",
       "PRENOM_PERSONNE": "Benoit",
@@ -12557,12 +12584,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "34",
+      "RANG_NAT": "35",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 7,
-      "RANG": 7,
+      "Rang_ligue": 8,
+      "RANG": 8,
       "NO_LICENCE": "0707288S",
       "NOM_PERSONNE": "VALLOGNES",
       "PRENOM_PERSONNE": "Mickael",
@@ -12584,12 +12611,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "43",
+      "RANG_NAT": "44",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 8,
-      "RANG": 8,
+      "Rang_ligue": 9,
+      "RANG": 9,
       "NO_LICENCE": "0036826D",
       "NOM_PERSONNE": "BRENOT",
       "PRENOM_PERSONNE": "Adrien",
@@ -12611,34 +12638,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "44",
-      "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
-    },
-    {
-      "Rang_ligue": 9,
-      "RANG": 9,
-      "NO_LICENCE": "1023253P",
-      "NOM_PERSONNE": "VEYRAT-JOURDAN",
-      "PRENOM_PERSONNE": "Adrien",
-      "SEXE": "H",
-      "ARME": "P",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "L'ARCHER CLUB D'AIZENAY",
-      "NOM_ABREGE": "AIZENAY",
-      "CODE_STRUCTURE": "1285133",
-      "DEPARTEMENT": "85",
-      "SCORE1": "698",
-      "SCORE2": "688",
-      "SCORE3": "683",
-      "MOY_SCORE": "689",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "47",
+      "RANG_NAT": "45",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -12665,7 +12665,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "49",
+      "RANG_NAT": "50",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -12927,15 +12927,15 @@
       "DEPARTEMENT": "85",
       "SCORE1": "661",
       "SCORE2": "637",
-      "SCORE3": "611",
-      "MOY_SCORE": "636",
+      "SCORE3": "627",
+      "MOY_SCORE": "641",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "185",
+      "RANG_NAT": "176",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -13097,7 +13097,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "264",
+      "RANG_NAT": "265",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -13124,7 +13124,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "266",
+      "RANG_NAT": "267",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -13178,7 +13178,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "292",
+      "RANG_NAT": "293",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -13205,7 +13205,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "300",
+      "RANG_NAT": "301",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -13259,7 +13259,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "362",
+      "RANG_NAT": "365",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -13286,7 +13286,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "364",
+      "RANG_NAT": "367",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -13313,7 +13313,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "365",
+      "RANG_NAT": "369",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -13340,7 +13340,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "376",
+      "RANG_NAT": "381",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -13367,7 +13367,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "384",
+      "RANG_NAT": "389",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -13394,7 +13394,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "386",
+      "RANG_NAT": "390",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -13421,7 +13421,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "449",
+      "RANG_NAT": "452",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -13448,7 +13448,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "469",
+      "RANG_NAT": "472",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -13583,7 +13583,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "54",
+      "RANG_NAT": "55",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
@@ -13610,7 +13610,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "65",
+      "RANG_NAT": "66",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
@@ -13637,12 +13637,39 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "68",
+      "RANG_NAT": "69",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
       "Rang_ligue": 8,
       "RANG": 8,
+      "NO_LICENCE": "0028085C",
+      "NOM_PERSONNE": "BLANCHARD",
+      "PRENOM_PERSONNE": "Elodie",
+      "SEXE": "F",
+      "ARME": "P",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "LES GARNA'ARCHERS",
+      "NOM_ABREGE": "LA GARNACHE",
+      "CODE_STRUCTURE": "1285113",
+      "DEPARTEMENT": "85",
+      "SCORE1": "644",
+      "SCORE2": "638",
+      "SCORE3": "602",
+      "MOY_SCORE": "628",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "70",
+      "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
+    },
+    {
+      "Rang_ligue": 9,
+      "RANG": 9,
       "NO_LICENCE": "0845902J",
       "NOM_PERSONNE": "OLIVIER",
       "PRENOM_PERSONNE": "Evelyne",
@@ -13664,12 +13691,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "86",
+      "RANG_NAT": "88",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 9,
-      "RANG": 9,
+      "Rang_ligue": 10,
+      "RANG": 10,
       "NO_LICENCE": "0608743C",
       "NOM_PERSONNE": "ROFFI",
       "PRENOM_PERSONNE": "Valerie",
@@ -13691,12 +13718,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "95",
+      "RANG_NAT": "97",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 10,
-      "RANG": 10,
+      "Rang_ligue": 11,
+      "RANG": 11,
       "NO_LICENCE": "0326762B",
       "NOM_PERSONNE": "COUTOLLEAU",
       "PRENOM_PERSONNE": "Caroline",
@@ -13718,12 +13745,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "110",
+      "RANG_NAT": "111",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 11,
-      "RANG": 11,
+      "Rang_ligue": 12,
+      "RANG": 12,
       "NO_LICENCE": "0653032T",
       "NOM_PERSONNE": "CERISIER",
       "PRENOM_PERSONNE": "Emilie",
@@ -13745,34 +13772,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "120",
-      "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
-    },
-    {
-      "Rang_ligue": 12,
-      "RANG": 12,
-      "NO_LICENCE": "0028085C",
-      "NOM_PERSONNE": "BLANCHARD",
-      "PRENOM_PERSONNE": "Elodie",
-      "SEXE": "F",
-      "ARME": "P",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "LES GARNA'ARCHERS",
-      "NOM_ABREGE": "LA GARNACHE",
-      "CODE_STRUCTURE": "1285113",
-      "DEPARTEMENT": "85",
-      "SCORE1": "638",
-      "SCORE2": "602",
-      "SCORE3": "0",
-      "MOY_SCORE": "413",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "123",
+      "RANG_NAT": "121",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
@@ -13826,7 +13826,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "158",
+      "RANG_NAT": "159",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2026"
     },
     {
@@ -13880,7 +13880,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "23",
+      "RANG_NAT": "24",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -13907,7 +13907,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "37",
+      "RANG_NAT": "39",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -13934,7 +13934,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "84",
+      "RANG_NAT": "85",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -13961,7 +13961,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "91",
+      "RANG_NAT": "92",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -13988,7 +13988,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "93",
+      "RANG_NAT": "94",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -14015,7 +14015,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "121",
+      "RANG_NAT": "122",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -14042,7 +14042,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "168",
+      "RANG_NAT": "169",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -14060,16 +14060,16 @@
       "CODE_STRUCTURE": "1285141",
       "DEPARTEMENT": "85",
       "SCORE1": "632",
-      "SCORE2": "610",
-      "SCORE3": "575",
-      "MOY_SCORE": "605",
+      "SCORE2": "611",
+      "SCORE3": "610",
+      "MOY_SCORE": "617",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "182",
+      "RANG_NAT": "170",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -14086,22 +14086,49 @@
       "NOM_ABREGE": "CHANTONNAY",
       "CODE_STRUCTURE": "1285116",
       "DEPARTEMENT": "85",
-      "SCORE1": "614",
-      "SCORE2": "592",
-      "SCORE3": "571",
-      "MOY_SCORE": "592",
+      "SCORE1": "616",
+      "SCORE2": "614",
+      "SCORE3": "592",
+      "MOY_SCORE": "607",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "192",
+      "RANG_NAT": "184",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
       "Rang_ligue": 11,
       "RANG": 11,
+      "NO_LICENCE": "0065027G",
+      "NOM_PERSONNE": "GOUENNOU",
+      "PRENOM_PERSONNE": "Robert",
+      "SEXE": "H",
+      "ARME": "P",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "ARCHERS DE ST GILLES CROIX VIE",
+      "NOM_ABREGE": "ST GILLES CROIX DE VIE",
+      "CODE_STRUCTURE": "1285117",
+      "DEPARTEMENT": "85",
+      "SCORE1": "664",
+      "SCORE2": "646",
+      "SCORE3": "219",
+      "MOY_SCORE": "509",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "209",
+      "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
+    },
+    {
+      "Rang_ligue": 12,
+      "RANG": 12,
       "NO_LICENCE": "0010726J",
       "NOM_PERSONNE": "RENAUDINEAU",
       "PRENOM_PERSONNE": "Henri",
@@ -14123,12 +14150,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "235",
+      "RANG_NAT": "236",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 12,
-      "RANG": 12,
+      "Rang_ligue": 13,
+      "RANG": 13,
       "NO_LICENCE": "0370192H",
       "NOM_PERSONNE": "JOUSSELIN",
       "PRENOM_PERSONNE": "Nicol",
@@ -14150,12 +14177,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "237",
+      "RANG_NAT": "238",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 13,
-      "RANG": 13,
+      "Rang_ligue": 14,
+      "RANG": 14,
       "NO_LICENCE": "0708737S",
       "NOM_PERSONNE": "BENOIST",
       "PRENOM_PERSONNE": "Eric",
@@ -14177,12 +14204,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "251",
+      "RANG_NAT": "252",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 14,
-      "RANG": 14,
+      "Rang_ligue": 15,
+      "RANG": 15,
       "NO_LICENCE": "0977404W",
       "NOM_PERSONNE": "GIRARD",
       "PRENOM_PERSONNE": "Philippe",
@@ -14204,34 +14231,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "259",
-      "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
-    },
-    {
-      "Rang_ligue": 15,
-      "RANG": 15,
-      "NO_LICENCE": "0065027G",
-      "NOM_PERSONNE": "GOUENNOU",
-      "PRENOM_PERSONNE": "Robert",
-      "SEXE": "H",
-      "ARME": "P",
-      "CAT": "S3",
-      "CATEGORIE": "S3",
-      "NOM_STRUCTURE": "ARCHERS DE ST GILLES CROIX VIE",
-      "NOM_ABREGE": "ST GILLES CROIX DE VIE",
-      "CODE_STRUCTURE": "1285117",
-      "DEPARTEMENT": "85",
-      "SCORE1": "646",
-      "SCORE2": "219",
-      "SCORE3": "0",
-      "MOY_SCORE": "288",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "282",
+      "RANG_NAT": "260",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -14285,7 +14285,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "341",
+      "RANG_NAT": "342",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -14312,7 +14312,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "380",
+      "RANG_NAT": "381",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -14339,7 +14339,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "400",
+      "RANG_NAT": "401",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2026"
     },
     {
@@ -14474,7 +14474,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "62",
+      "RANG_NAT": "63",
       "_classement_nom": "Senior 3 Femme Arc à Poulies 2026"
     },
     {
@@ -14501,7 +14501,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "66",
+      "RANG_NAT": "67",
       "_classement_nom": "Senior 3 Femme Arc à Poulies 2026"
     }
   ]
