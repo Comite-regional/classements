@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-27T05:58:23.195997Z",
+    "generated_at": "2026-06-28T06:25:48.561659Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -974,7 +974,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "15",
+      "RANG_NAT": "18",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1001,7 +1001,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "21",
+      "RANG_NAT": "22",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1028,7 +1028,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "24",
+      "RANG_NAT": "25",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1082,7 +1082,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "70",
+      "RANG_NAT": "71",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -1325,7 +1325,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "131",
+      "RANG_NAT": "132",
       "_classement_nom": "U18 Homme Arc Classique 2026"
     },
     {
@@ -2027,7 +2027,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "46",
+      "RANG_NAT": "47",
       "_classement_nom": "U15 Homme Arc Classique 2026"
     },
     {
@@ -3539,7 +3539,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "46",
+      "RANG_NAT": "45",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
@@ -3566,7 +3566,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "63",
+      "RANG_NAT": "64",
       "_classement_nom": "U18 Femme Arc Classique 2026"
     },
     {
