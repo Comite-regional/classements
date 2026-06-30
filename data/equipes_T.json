@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-29T06:56:49.700588Z",
+    "generated_at": "2026-06-30T06:19:22.715850Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -279,7 +279,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "96",
+      "RANG": "97",
       "RANG_LIGUE": "10",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -342,7 +342,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "144",
+      "RANG": "145",
       "RANG_LIGUE": "13",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -573,7 +573,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "37",
+      "RANG": "33",
       "RANG_LIGUE": "2",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -586,10 +586,10 @@
       "CODE_STRUCTURE": "1285121",
       "VILLE": "",
       "DEPARTEMENT": "85",
-      "SCORE1": "553",
-      "SCORE2": "550",
+      "SCORE1": "554",
+      "SCORE2": "553",
       "SCORE3": "541",
-      "MOY_SCORE": "1644",
+      "MOY_SCORE": "1648",
       "_classement_nom": "Arc Classique Femme 2026",
       "DISCIPLINE": "T"
     },
@@ -867,7 +867,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "55",
+      "RANG": "56",
       "RANG_LIGUE": "6",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -881,14 +881,14 @@
       "VILLE": "",
       "DEPARTEMENT": "85",
       "SCORE1": "606",
-      "SCORE2": "553",
+      "SCORE2": "554",
       "SCORE3": "0",
-      "MOY_SCORE": "1159",
+      "MOY_SCORE": "1160",
       "_classement_nom": "Double Mixte Arc Classique 2026",
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "60",
+      "RANG": "61",
       "RANG_LIGUE": "7",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -993,7 +993,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "100",
+      "RANG": "101",
       "RANG_LIGUE": "12",
       "DIVISION": "D2",
       "PRE_INSCRIT": "D2",
@@ -1014,7 +1014,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "110",
+      "RANG": "112",
       "RANG_LIGUE": "13",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -1035,7 +1035,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "113",
+      "RANG": "114",
       "RANG_LIGUE": "14",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1098,7 +1098,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "156",
+      "RANG": "157",
       "RANG_LIGUE": "17",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1119,7 +1119,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "163",
+      "RANG": "164",
       "RANG_LIGUE": "18",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1140,7 +1140,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "169",
+      "RANG": "170",
       "RANG_LIGUE": "19",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1287,7 +1287,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "59",
+      "RANG": "60",
       "RANG_LIGUE": "5",
       "DIVISION": "D2",
       "PRE_INSCRIT": "D2",
@@ -1665,7 +1665,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "131",
+      "RANG": "132",
       "RANG_LIGUE": "8",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1686,7 +1686,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "142",
+      "RANG": "143",
       "RANG_LIGUE": "9",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1707,7 +1707,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "146",
+      "RANG": "147",
       "RANG_LIGUE": "10",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
