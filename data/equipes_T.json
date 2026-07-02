@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-01T06:39:21.068194Z",
+    "generated_at": "2026-07-02T06:05:35.134879Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -1581,8 +1581,29 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "62",
+      "RANG": "61",
       "RANG_LIGUE": "4",
+      "DIVISION": "DR",
+      "PRE_INSCRIT": "DR",
+      "QUOTA": "",
+      "NOM_ABREGE": "CHOLET TAC",
+      "NOM_STRUCTURE": "TIR A L ARC CHOLETAIS",
+      "SEXE_EQUIPE": "H",
+      "ARME_EQUIPE": "P",
+      "CATEGORIE_CLASSEMENT": "Arc à Poulies Homme 2026",
+      "CODE_STRUCTURE": "1249050",
+      "VILLE": "",
+      "DEPARTEMENT": "49",
+      "SCORE1": "676",
+      "SCORE2": "676",
+      "SCORE3": "623",
+      "MOY_SCORE": "1975",
+      "_classement_nom": "Arc à Poulies Homme 2026",
+      "DISCIPLINE": "T"
+    },
+    {
+      "RANG": "63",
+      "RANG_LIGUE": "5",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
       "QUOTA": "",
@@ -1598,27 +1619,6 @@
       "SCORE2": "671",
       "SCORE3": "630",
       "MOY_SCORE": "1974",
-      "_classement_nom": "Arc à Poulies Homme 2026",
-      "DISCIPLINE": "T"
-    },
-    {
-      "RANG": "63",
-      "RANG_LIGUE": "5",
-      "DIVISION": "DR",
-      "PRE_INSCRIT": "DR",
-      "QUOTA": "",
-      "NOM_ABREGE": "CHOLET TAC",
-      "NOM_STRUCTURE": "TIR A L ARC CHOLETAIS",
-      "SEXE_EQUIPE": "H",
-      "ARME_EQUIPE": "P",
-      "CATEGORIE_CLASSEMENT": "Arc à Poulies Homme 2026",
-      "CODE_STRUCTURE": "1249050",
-      "VILLE": "",
-      "DEPARTEMENT": "49",
-      "SCORE1": "676",
-      "SCORE2": "674",
-      "SCORE3": "623",
-      "MOY_SCORE": "1973",
       "_classement_nom": "Arc à Poulies Homme 2026",
       "DISCIPLINE": "T"
     },
