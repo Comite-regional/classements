@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-02T06:05:35.134879Z",
+    "generated_at": "2026-07-03T05:59:38.472022Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -29,7 +29,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "27",
+      "RANG_NAT": "28",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -56,7 +56,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "34",
+      "RANG_NAT": "35",
       "_classement_nom": "Adulte Homme Arc Nu 2026"
     },
     {
@@ -9884,7 +9884,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "220",
+      "RANG_NAT": "221",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -9911,7 +9911,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "229",
+      "RANG_NAT": "230",
       "_classement_nom": "Senior 3 Homme Arc Classique 2026"
     },
     {
@@ -12638,7 +12638,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "44",
+      "RANG_NAT": "45",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -12665,7 +12665,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "46",
+      "RANG_NAT": "47",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -13286,7 +13286,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "372",
+      "RANG_NAT": "373",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -13313,7 +13313,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "374",
+      "RANG_NAT": "375",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -13367,39 +13367,12 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "388",
+      "RANG_NAT": "389",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
       "Rang_ligue": 36,
       "RANG": 36,
-      "NO_LICENCE": "0054700G",
-      "NOM_PERSONNE": "DAVID",
-      "PRENOM_PERSONNE": "Christophe",
-      "SEXE": "H",
-      "ARME": "P",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "ARCHERS SUD ESTUAIRE",
-      "NOM_ABREGE": "FROSSAY-SAINT VIAUD",
-      "CODE_STRUCTURE": "1244029",
-      "DEPARTEMENT": "44",
-      "SCORE1": "654",
-      "SCORE2": "0",
-      "SCORE3": "0",
-      "MOY_SCORE": "218",
-      "DISCIPLINE": "T",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "N",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "396",
-      "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
-    },
-    {
-      "Rang_ligue": 37,
-      "RANG": 37,
       "NO_LICENCE": "0368711Y",
       "NOM_PERSONNE": "FONTENELLE",
       "PRENOM_PERSONNE": "Patrick",
@@ -13421,7 +13394,34 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "397",
+      "RANG_NAT": "398",
+      "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
+    },
+    {
+      "Rang_ligue": 37,
+      "RANG": 37,
+      "NO_LICENCE": "0054700G",
+      "NOM_PERSONNE": "DAVID",
+      "PRENOM_PERSONNE": "Christophe",
+      "SEXE": "H",
+      "ARME": "P",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "ARCHERS SUD ESTUAIRE",
+      "NOM_ABREGE": "FROSSAY-SAINT VIAUD",
+      "CODE_STRUCTURE": "1244029",
+      "DEPARTEMENT": "44",
+      "SCORE1": "654",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "218",
+      "DISCIPLINE": "T",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "N",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "399",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
