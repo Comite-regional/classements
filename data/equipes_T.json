@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-05T06:11:22.070427Z",
+    "generated_at": "2026-07-06T06:42:48.795864Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -48,7 +48,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "41",
+      "RANG": "42",
       "RANG_LIGUE": "3",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -132,7 +132,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "33",
+      "RANG": "34",
       "RANG_LIGUE": "3",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -153,7 +153,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "61",
+      "RANG": "62",
       "RANG_LIGUE": "4",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -195,7 +195,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "68",
+      "RANG": "69",
       "RANG_LIGUE": "6",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -216,7 +216,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "81",
+      "RANG": "82",
       "RANG_LIGUE": "7",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -237,7 +237,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "93",
+      "RANG": "94",
       "RANG_LIGUE": "8",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -258,7 +258,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "95",
+      "RANG": "97",
       "RANG_LIGUE": "9",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -279,7 +279,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "98",
+      "RANG": "100",
       "RANG_LIGUE": "10",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -300,7 +300,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "129",
+      "RANG": "131",
       "RANG_LIGUE": "11",
       "DIVISION": "D1",
       "PRE_INSCRIT": "D1",
@@ -321,7 +321,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "140",
+      "RANG": "134",
       "RANG_LIGUE": "12",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -335,14 +335,14 @@
       "VILLE": "",
       "DEPARTEMENT": "49",
       "SCORE1": "568",
-      "SCORE2": "538",
-      "SCORE3": "534",
-      "MOY_SCORE": "1640",
+      "SCORE2": "547",
+      "SCORE3": "538",
+      "MOY_SCORE": "1653",
       "_classement_nom": "Arc Classique Homme 2026",
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "145",
+      "RANG": "147",
       "RANG_LIGUE": "13",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -363,7 +363,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "149",
+      "RANG": "151",
       "RANG_LIGUE": "14",
       "DIVISION": "D2",
       "PRE_INSCRIT": "D2",
@@ -384,7 +384,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "159",
+      "RANG": "162",
       "RANG_LIGUE": "15",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -405,7 +405,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "183",
+      "RANG": "185",
       "RANG_LIGUE": "16",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -426,8 +426,29 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "191",
+      "RANG": "188",
       "RANG_LIGUE": "17",
+      "DIVISION": "",
+      "PRE_INSCRIT": "",
+      "QUOTA": "",
+      "NOM_ABREGE": "VERTOU",
+      "NOM_STRUCTURE": "CIE ARCHERS DE VERTOU",
+      "SEXE_EQUIPE": "H",
+      "ARME_EQUIPE": "C",
+      "CATEGORIE_CLASSEMENT": "Arc Classique Homme 2026",
+      "CODE_STRUCTURE": "1244041",
+      "VILLE": "",
+      "DEPARTEMENT": "44",
+      "SCORE1": "580",
+      "SCORE2": "489",
+      "SCORE3": "487",
+      "MOY_SCORE": "1556",
+      "_classement_nom": "Arc Classique Homme 2026",
+      "DISCIPLINE": "T"
+    },
+    {
+      "RANG": "193",
+      "RANG_LIGUE": "18",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
       "QUOTA": "",
@@ -447,28 +468,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "193",
-      "RANG_LIGUE": "18",
-      "DIVISION": "",
-      "PRE_INSCRIT": "",
-      "QUOTA": "",
-      "NOM_ABREGE": "VERTOU",
-      "NOM_STRUCTURE": "CIE ARCHERS DE VERTOU",
-      "SEXE_EQUIPE": "H",
-      "ARME_EQUIPE": "C",
-      "CATEGORIE_CLASSEMENT": "Arc Classique Homme 2026",
-      "CODE_STRUCTURE": "1244041",
-      "VILLE": "",
-      "DEPARTEMENT": "44",
-      "SCORE1": "574",
-      "SCORE2": "489",
-      "SCORE3": "487",
-      "MOY_SCORE": "1550",
-      "_classement_nom": "Arc Classique Homme 2026",
-      "DISCIPLINE": "T"
-    },
-    {
-      "RANG": "206",
+      "RANG": "207",
       "RANG_LIGUE": "19",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -552,7 +552,28 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "27",
+      "RANG": "315",
+      "RANG_LIGUE": "23",
+      "DIVISION": "",
+      "PRE_INSCRIT": "",
+      "QUOTA": "",
+      "NOM_ABREGE": "CLISSON",
+      "NOM_STRUCTURE": "CIE D'ARC OLIVIER DE CLISSON",
+      "SEXE_EQUIPE": "H",
+      "ARME_EQUIPE": "C",
+      "CATEGORIE_CLASSEMENT": "Arc Classique Homme 2026",
+      "CODE_STRUCTURE": "1244004",
+      "VILLE": "",
+      "DEPARTEMENT": "44",
+      "SCORE1": "162",
+      "SCORE2": "144",
+      "SCORE3": "136",
+      "MOY_SCORE": "442",
+      "_classement_nom": "Arc Classique Homme 2026",
+      "DISCIPLINE": "T"
+    },
+    {
+      "RANG": "28",
       "RANG_LIGUE": "1",
       "DIVISION": "D1",
       "PRE_INSCRIT": "D1",
@@ -573,7 +594,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "35",
+      "RANG": "36",
       "RANG_LIGUE": "2",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -594,7 +615,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "49",
+      "RANG": "48",
       "RANG_LIGUE": "3",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -607,10 +628,10 @@
       "CODE_STRUCTURE": "1244042",
       "VILLE": "",
       "DEPARTEMENT": "44",
-      "SCORE1": "558",
+      "SCORE1": "561",
       "SCORE2": "552",
       "SCORE3": "474",
-      "MOY_SCORE": "1584",
+      "MOY_SCORE": "1587",
       "_classement_nom": "Arc Classique Femme 2026",
       "DISCIPLINE": "T"
     },
@@ -783,7 +804,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "40",
+      "RANG": "41",
       "RANG_LIGUE": "2",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -804,7 +825,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "41",
+      "RANG": "42",
       "RANG_LIGUE": "3",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -860,9 +881,9 @@
       "VILLE": "",
       "DEPARTEMENT": "44",
       "SCORE1": "606",
-      "SCORE2": "558",
+      "SCORE2": "561",
       "SCORE3": "0",
-      "MOY_SCORE": "1164",
+      "MOY_SCORE": "1167",
       "_classement_nom": "Double Mixte Arc Classique 2026",
       "DISCIPLINE": "T"
     },
@@ -888,7 +909,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "61",
+      "RANG": "62",
       "RANG_LIGUE": "7",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -951,7 +972,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "82",
+      "RANG": "84",
       "RANG_LIGUE": "10",
       "DIVISION": "D1",
       "PRE_INSCRIT": "D1",
@@ -972,7 +993,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "84",
+      "RANG": "85",
       "RANG_LIGUE": "11",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -993,7 +1014,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "101",
+      "RANG": "102",
       "RANG_LIGUE": "12",
       "DIVISION": "D2",
       "PRE_INSCRIT": "D2",
@@ -1014,7 +1035,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "112",
+      "RANG": "115",
       "RANG_LIGUE": "13",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -1035,7 +1056,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "114",
+      "RANG": "117",
       "RANG_LIGUE": "14",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1056,7 +1077,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "124",
+      "RANG": "126",
       "RANG_LIGUE": "15",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1077,7 +1098,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "125",
+      "RANG": "127",
       "RANG_LIGUE": "16",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1098,8 +1119,29 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "157",
+      "RANG": "141",
       "RANG_LIGUE": "17",
+      "DIVISION": "",
+      "PRE_INSCRIT": "",
+      "QUOTA": "",
+      "NOM_ABREGE": "LA HAYE FOUASSIERE",
+      "NOM_STRUCTURE": "ARC'HAYE",
+      "SEXE_EQUIPE": "X",
+      "ARME_EQUIPE": "C",
+      "CATEGORIE_CLASSEMENT": "Double Mixte Arc Classique 2026",
+      "CODE_STRUCTURE": "1244013",
+      "VILLE": "",
+      "DEPARTEMENT": "44",
+      "SCORE1": "543",
+      "SCORE2": "485",
+      "SCORE3": "0",
+      "MOY_SCORE": "1028",
+      "_classement_nom": "Double Mixte Arc Classique 2026",
+      "DISCIPLINE": "T"
+    },
+    {
+      "RANG": "159",
+      "RANG_LIGUE": "18",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -1119,8 +1161,8 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "164",
-      "RANG_LIGUE": "18",
+      "RANG": "167",
+      "RANG_LIGUE": "19",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -1140,28 +1182,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "170",
-      "RANG_LIGUE": "19",
-      "DIVISION": "",
-      "PRE_INSCRIT": "",
-      "QUOTA": "",
-      "NOM_ABREGE": "LA HAYE FOUASSIERE",
-      "NOM_STRUCTURE": "ARC'HAYE",
-      "SEXE_EQUIPE": "X",
-      "ARME_EQUIPE": "C",
-      "CATEGORIE_CLASSEMENT": "Double Mixte Arc Classique 2026",
-      "CODE_STRUCTURE": "1244013",
-      "VILLE": "",
-      "DEPARTEMENT": "44",
-      "SCORE1": "485",
-      "SCORE2": "461",
-      "SCORE3": "0",
-      "MOY_SCORE": "946",
-      "_classement_nom": "Double Mixte Arc Classique 2026",
-      "DISCIPLINE": "T"
-    },
-    {
-      "RANG": "219",
+      "RANG": "221",
       "RANG_LIGUE": "20",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1287,7 +1308,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "60",
+      "RANG": "61",
       "RANG_LIGUE": "5",
       "DIVISION": "D2",
       "PRE_INSCRIT": "D2",
@@ -1350,7 +1371,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "79",
+      "RANG": "80",
       "RANG_LIGUE": "8",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1371,7 +1392,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "83",
+      "RANG": "85",
       "RANG_LIGUE": "9",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1385,14 +1406,14 @@
       "VILLE": "",
       "DEPARTEMENT": "85",
       "SCORE1": "491",
-      "SCORE2": "483",
+      "SCORE2": "484",
       "SCORE3": "0",
-      "MOY_SCORE": "974",
+      "MOY_SCORE": "975",
       "_classement_nom": "Double Mixte Jeune 2026",
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "87",
+      "RANG": "88",
       "RANG_LIGUE": "10",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -1413,7 +1434,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "93",
+      "RANG": "94",
       "RANG_LIGUE": "11",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1455,7 +1476,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "88",
+      "RANG": "90",
       "RANG_LIGUE": "1",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -1476,7 +1497,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "113",
+      "RANG": "117",
       "RANG_LIGUE": "2",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1497,7 +1518,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "125",
+      "RANG": "126",
       "RANG_LIGUE": "3",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1539,7 +1560,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "50",
+      "RANG": "51",
       "RANG_LIGUE": "2",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -1623,7 +1644,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "86",
+      "RANG": "87",
       "RANG_LIGUE": "6",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -1686,7 +1707,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "144",
+      "RANG": "147",
       "RANG_LIGUE": "9",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1707,7 +1728,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "148",
+      "RANG": "149",
       "RANG_LIGUE": "10",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -1833,7 +1854,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "22",
+      "RANG": "23",
       "RANG_LIGUE": "3",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -1854,7 +1875,28 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "22",
+      "RANG": "49",
+      "RANG_LIGUE": "4",
+      "DIVISION": "DR",
+      "PRE_INSCRIT": "DR",
+      "QUOTA": "",
+      "NOM_ABREGE": "CANDE",
+      "NOM_STRUCTURE": "CIE DES ARCHERS DU S.O CANDEEN",
+      "SEXE_EQUIPE": "F",
+      "ARME_EQUIPE": "P",
+      "CATEGORIE_CLASSEMENT": "Arc à Poulies Femme 2026",
+      "CODE_STRUCTURE": "1249047",
+      "VILLE": "",
+      "DEPARTEMENT": "49",
+      "SCORE1": "362",
+      "SCORE2": "199",
+      "SCORE3": "189",
+      "MOY_SCORE": "750",
+      "_classement_nom": "Arc à Poulies Femme 2026",
+      "DISCIPLINE": "T"
+    },
+    {
+      "RANG": "24",
       "RANG_LIGUE": "1",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -1875,7 +1917,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "25",
+      "RANG": "27",
       "RANG_LIGUE": "2",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -1896,7 +1938,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "31",
+      "RANG": "34",
       "RANG_LIGUE": "3",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -1917,7 +1959,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "43",
+      "RANG": "45",
       "RANG_LIGUE": "4",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -1938,7 +1980,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "47",
+      "RANG": "48",
       "RANG_LIGUE": "5",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1959,7 +2001,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "58",
+      "RANG": "59",
       "RANG_LIGUE": "6",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1980,8 +2022,29 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "99",
+      "RANG": "69",
       "RANG_LIGUE": "7",
+      "DIVISION": "",
+      "PRE_INSCRIT": "",
+      "QUOTA": "",
+      "NOM_ABREGE": "LA HAYE FOUASSIERE",
+      "NOM_STRUCTURE": "ARC'HAYE",
+      "SEXE_EQUIPE": "X",
+      "ARME_EQUIPE": "P",
+      "CATEGORIE_CLASSEMENT": "Double Mixte Arc à Poulies 2026",
+      "CODE_STRUCTURE": "1244013",
+      "VILLE": "",
+      "DEPARTEMENT": "44",
+      "SCORE1": "644",
+      "SCORE2": "633",
+      "SCORE3": "0",
+      "MOY_SCORE": "1277",
+      "_classement_nom": "Double Mixte Arc à Poulies 2026",
+      "DISCIPLINE": "T"
+    },
+    {
+      "RANG": "100",
+      "RANG_LIGUE": "8",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
       "QUOTA": "",
@@ -2001,28 +2064,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "102",
-      "RANG_LIGUE": "8",
-      "DIVISION": "",
-      "PRE_INSCRIT": "",
-      "QUOTA": "",
-      "NOM_ABREGE": "LA HAYE FOUASSIERE",
-      "NOM_STRUCTURE": "ARC'HAYE",
-      "SEXE_EQUIPE": "X",
-      "ARME_EQUIPE": "P",
-      "CATEGORIE_CLASSEMENT": "Double Mixte Arc à Poulies 2026",
-      "CODE_STRUCTURE": "1244013",
-      "VILLE": "",
-      "DEPARTEMENT": "44",
-      "SCORE1": "626",
-      "SCORE2": "429",
-      "SCORE3": "0",
-      "MOY_SCORE": "1055",
-      "_classement_nom": "Double Mixte Arc à Poulies 2026",
-      "DISCIPLINE": "T"
-    },
-    {
-      "RANG": "125",
+      "RANG": "105",
       "RANG_LIGUE": "9",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -2036,14 +2078,14 @@
       "VILLE": "",
       "DEPARTEMENT": "49",
       "SCORE1": "671",
-      "SCORE2": "191",
+      "SCORE2": "363",
       "SCORE3": "0",
-      "MOY_SCORE": "862",
+      "MOY_SCORE": "1034",
       "_classement_nom": "Double Mixte Arc à Poulies 2026",
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "164",
+      "RANG": "157",
       "RANG_LIGUE": "10",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -2056,15 +2098,15 @@
       "CODE_STRUCTURE": "1249047",
       "VILLE": "",
       "DEPARTEMENT": "49",
-      "SCORE1": "199",
-      "SCORE2": "167",
+      "SCORE1": "362",
+      "SCORE2": "199",
       "SCORE3": "0",
-      "MOY_SCORE": "366",
+      "MOY_SCORE": "561",
       "_classement_nom": "Double Mixte Arc à Poulies 2026",
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "165",
+      "RANG": "167",
       "RANG_LIGUE": "11",
       "DIVISION": "D1",
       "PRE_INSCRIT": "D1",

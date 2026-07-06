@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-05T06:11:22.070427Z",
+    "generated_at": "2026-07-06T06:42:48.795864Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -195,7 +195,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "70",
+      "RANG": "71",
       "RANG_LIGUE": "5",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -489,7 +489,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "11",
+      "RANG": "12",
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -510,7 +510,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "15",
+      "RANG": "16",
       "RANG_LIGUE": "2",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -531,7 +531,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "17",
+      "RANG": "18",
       "RANG_LIGUE": "3",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -636,7 +636,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "81",
+      "RANG": "82",
       "RANG_LIGUE": "8",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -657,7 +657,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "107",
+      "RANG": "108",
       "RANG_LIGUE": "9",
       "DIVISION": "",
       "PRE_INSCRIT": "",
