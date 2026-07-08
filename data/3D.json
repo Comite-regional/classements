@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-07T06:14:50.256260Z",
+    "generated_at": "2026-07-08T05:27:29.606227Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -1163,7 +1163,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "621",
+      "RANG_NAT": "622",
       "_classement_nom": "Scratch Homme Bare Bow 2026"
     },
     {
@@ -1217,7 +1217,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "672",
+      "RANG_NAT": "673",
       "_classement_nom": "Scratch Homme Bare Bow 2026"
     },
     {
@@ -1352,7 +1352,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "760",
+      "RANG_NAT": "759",
       "_classement_nom": "Scratch Homme Bare Bow 2026"
     },
     {
@@ -1514,7 +1514,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "878",
+      "RANG_NAT": "879",
       "_classement_nom": "Scratch Homme Bare Bow 2026"
     },
     {
@@ -4754,7 +4754,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "493",
+      "RANG_NAT": "494",
       "_classement_nom": "Scratch Homme Arc Droit 2026"
     },
     {
@@ -5537,7 +5537,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "220",
+      "RANG_NAT": "219",
       "_classement_nom": "Senior 2 Homme Arc Droit 2026"
     },
     {
@@ -6617,7 +6617,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "525",
+      "RANG_NAT": "526",
       "_classement_nom": "Scratch Homme Arc Chasse 2026"
     },
     {
@@ -6671,7 +6671,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "555",
+      "RANG_NAT": "553",
       "_classement_nom": "Scratch Homme Arc Chasse 2026"
     },
     {
@@ -6779,7 +6779,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "616",
+      "RANG_NAT": "617",
       "_classement_nom": "Scratch Homme Arc Chasse 2026"
     },
     {
@@ -6833,7 +6833,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "639",
+      "RANG_NAT": "637",
       "_classement_nom": "Scratch Homme Arc Chasse 2026"
     },
     {
@@ -7481,7 +7481,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "69",
+      "RANG_NAT": "70",
       "_classement_nom": "Senior 1 Homme Arc Chasse 2026"
     },
     {
@@ -8729,6 +8729,33 @@
     {
       "Rang_ligue": 12,
       "RANG": 12,
+      "NO_LICENCE": "0835938D",
+      "NOM_PERSONNE": "RATEL",
+      "PRENOM_PERSONNE": "Christophe",
+      "SEXE": "H",
+      "ARME": "L",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "ARC DU MAINE (LE MANS)",
+      "NOM_ABREGE": "LE MANS MAINE",
+      "CODE_STRUCTURE": "1272108",
+      "DEPARTEMENT": "72",
+      "SCORE1": "474",
+      "SCORE2": "465",
+      "SCORE3": "459",
+      "MOY_SCORE": "466",
+      "DISCIPLINE": "3",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "93",
+      "_classement_nom": "Scratch Homme Arc Libre 2026"
+    },
+    {
+      "Rang_ligue": 13,
+      "RANG": 13,
       "NO_LICENCE": "0766549F",
       "NOM_PERSONNE": "RONCO",
       "PRENOM_PERSONNE": "Christophe",
@@ -8750,34 +8777,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "98",
-      "_classement_nom": "Scratch Homme Arc Libre 2026"
-    },
-    {
-      "Rang_ligue": 13,
-      "RANG": 13,
-      "NO_LICENCE": "0835938D",
-      "NOM_PERSONNE": "RATEL",
-      "PRENOM_PERSONNE": "Christophe",
-      "SEXE": "H",
-      "ARME": "L",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "ARC DU MAINE (LE MANS)",
-      "NOM_ABREGE": "LE MANS MAINE",
-      "CODE_STRUCTURE": "1272108",
-      "DEPARTEMENT": "72",
-      "SCORE1": "474",
-      "SCORE2": "457",
-      "SCORE3": "453",
-      "MOY_SCORE": "461",
-      "DISCIPLINE": "3",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "103",
+      "RANG_NAT": "99",
       "_classement_nom": "Scratch Homme Arc Libre 2026"
     },
     {
@@ -10889,6 +10889,33 @@
     {
       "Rang_ligue": 6,
       "RANG": 6,
+      "NO_LICENCE": "0835938D",
+      "NOM_PERSONNE": "RATEL",
+      "PRENOM_PERSONNE": "Christophe",
+      "SEXE": "H",
+      "ARME": "L",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "ARC DU MAINE (LE MANS)",
+      "NOM_ABREGE": "LE MANS MAINE",
+      "CODE_STRUCTURE": "1272108",
+      "DEPARTEMENT": "72",
+      "SCORE1": "474",
+      "SCORE2": "465",
+      "SCORE3": "459",
+      "MOY_SCORE": "466",
+      "DISCIPLINE": "3",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "48",
+      "_classement_nom": "Senior 2 Homme Arc Libre 2026"
+    },
+    {
+      "Rang_ligue": 7,
+      "RANG": 7,
       "NO_LICENCE": "0766549F",
       "NOM_PERSONNE": "RONCO",
       "PRENOM_PERSONNE": "Christophe",
@@ -10910,34 +10937,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "52",
-      "_classement_nom": "Senior 2 Homme Arc Libre 2026"
-    },
-    {
-      "Rang_ligue": 7,
-      "RANG": 7,
-      "NO_LICENCE": "0835938D",
-      "NOM_PERSONNE": "RATEL",
-      "PRENOM_PERSONNE": "Christophe",
-      "SEXE": "H",
-      "ARME": "L",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "ARC DU MAINE (LE MANS)",
-      "NOM_ABREGE": "LE MANS MAINE",
-      "CODE_STRUCTURE": "1272108",
-      "DEPARTEMENT": "72",
-      "SCORE1": "474",
-      "SCORE2": "457",
-      "SCORE3": "453",
-      "MOY_SCORE": "461",
-      "DISCIPLINE": "3",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "56",
+      "RANG_NAT": "53",
       "_classement_nom": "Senior 2 Homme Arc Libre 2026"
     },
     {
@@ -11753,33 +11753,6 @@
     {
       "Rang_ligue": 2,
       "RANG": 2,
-      "NO_LICENCE": "0835938D",
-      "NOM_PERSONNE": "RATEL",
-      "PRENOM_PERSONNE": "Christophe",
-      "SEXE": "H",
-      "ARME": "P",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "ARC DU MAINE (LE MANS)",
-      "NOM_ABREGE": "LE MANS MAINE",
-      "CODE_STRUCTURE": "1272108",
-      "DEPARTEMENT": "72",
-      "SCORE1": "465",
-      "SCORE2": "459",
-      "SCORE3": "0",
-      "MOY_SCORE": "308",
-      "DISCIPLINE": "3",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "49",
-      "_classement_nom": "Scratch Homme Arc à Poulies nu 2026"
-    },
-    {
-      "Rang_ligue": 3,
-      "RANG": 3,
       "NO_LICENCE": "0685829S",
       "NOM_PERSONNE": "TEILLET",
       "PRENOM_PERSONNE": "Sylvain",
@@ -11801,12 +11774,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "77",
+      "RANG_NAT": "76",
       "_classement_nom": "Scratch Homme Arc à Poulies nu 2026"
     },
     {
-      "Rang_ligue": 4,
-      "RANG": 4,
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "0380572R",
       "NOM_PERSONNE": "BOUET",
       "PRENOM_PERSONNE": "Benoit",
@@ -11828,7 +11801,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "97",
+      "RANG_NAT": "96",
       "_classement_nom": "Scratch Homme Arc à Poulies nu 2026"
     },
     {
@@ -11861,33 +11834,6 @@
     {
       "Rang_ligue": 1,
       "RANG": 1,
-      "NO_LICENCE": "0835938D",
-      "NOM_PERSONNE": "RATEL",
-      "PRENOM_PERSONNE": "Christophe",
-      "SEXE": "H",
-      "ARME": "P",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "ARC DU MAINE (LE MANS)",
-      "NOM_ABREGE": "LE MANS MAINE",
-      "CODE_STRUCTURE": "1272108",
-      "DEPARTEMENT": "72",
-      "SCORE1": "465",
-      "SCORE2": "459",
-      "SCORE3": "0",
-      "MOY_SCORE": "462",
-      "DISCIPLINE": "3",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "1",
-      "_classement_nom": "Senior 2 Homme Arc à poulies nu 2026"
-    },
-    {
-      "Rang_ligue": 2,
-      "RANG": 2,
       "NO_LICENCE": "0380572R",
       "NOM_PERSONNE": "BOUET",
       "PRENOM_PERSONNE": "Benoit",
@@ -11909,7 +11855,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "42",
+      "RANG_NAT": "41",
       "_classement_nom": "Senior 2 Homme Arc à poulies nu 2026"
     },
     {
