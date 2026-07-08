@@ -1106,8 +1106,34 @@ tr.qi-warn td:first-child { box-shadow: inset 4px 0 rgba(234,88,12,.7) !importan
    → overflow:visible sur .card et .toolbar garanti ci-dessus
 ══════════════════════════════════════ */
 </style>
+<style id="quotas-gate">
+/* Hors période de championnat (fichier Quotas.csv absent) :
+   ni le bouton « Inscrits CR », ni les bandeaux/légende de quotas.
+   Masqué par défaut, révélé seulement si le fichier est détecté. */
+html.no-quotas .btn-stars-wrapper,
+html.no-quotas #btnTaeCR,
+html.no-quotas #quotaBanner,
+html.no-quotas #quotaLegend,
+html.no-quotas #quota-banner { display: none !important; }
+</style>
 </head>
 <body>
+<script id="quotas-gate-script">
+(function(){
+  // Masque bouton + bandeaux tant que la présence de Quotas.csv n'est pas confirmée
+  document.documentElement.classList.add('no-quotas');
+  function reveal(){ document.documentElement.classList.remove('no-quotas'); }
+  fetch('Quotas.csv?_=' + Date.now(), { cache: 'no-store' })
+    .then(function(r){ return r.ok ? r.text() : null; })
+    .then(function(txt){
+      if(!txt) return; // 404 → reste masqué (hors championnat)
+      // Considéré présent s'il y a au moins une ligne de données (au-delà de l'entête)
+      var lines = txt.split(/\r?\n/).filter(function(l){ return l.trim(); });
+      if(lines.length >= 2) reveal();
+    })
+    .catch(function(){ /* réseau : reste masqué */ });
+})();
+</script>
 <div class="quota-banner" hidden="" id="quota-banner"></div>
 <main class="container">
 <div class="card" id="filters-card">
@@ -1207,7 +1233,7 @@ tr.qi-warn td:first-child { box-shadow: inset 4px 0 rgba(234,88,12,.7) !importan
 <div class="card">
 <div class="toolbar" style="margin-bottom:10px;display:flex;align-items:center;justify-content:space-between;gap:10px;">
 <div style="display:flex;gap:8px;align-items:center;flex-shrink:0;">
-<button id="btnTaeCR" type="button">Inscrits CR TAE</button>
+<button id="btnTaeCR" type="button">Inscrits CR</button>
 </div>
 <div id="lastUpdateLine" style="flex:1;text-align:center;font-size:12.5px;color:#667085;font-weight:600;">—</div>
 <span class="hint" id="dataset-hint" hidden>Aucun fichier chargé.</span>
