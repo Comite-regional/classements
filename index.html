@@ -1547,7 +1547,7 @@ const DISC_LABELS = {
         NO_LICENCE: String(r.NO_LICENCE || ''),
         NOM_PRENOM: [r.NOM_PERSONNE, r.PRENOM_PERSONNE].filter(Boolean).join(' '),
         CAT_ORIG:   String(r.CAT || r.CATEGORIE || ''),
-        SEXE:       String(r.SEXE || ''),
+        SEXE:       String(r.SEXE || r.SEXE_PERSONNE || ''),
         ARME:       String(r.ARME || ''),
         DEPARTEMENT: dept,
         CLUB:       club,
@@ -1572,15 +1572,23 @@ const DISC_LABELS = {
       const f    = state.filters || {};
 
       if(disc === 'Beursault'){
-        return [
+        let h = [
           {key:'RANG',       label:'Rang'},
           {key:'NO_LICENCE', label:'N° licence'},
           {key:'NOM_PRENOM', label:'Nom prénom'},
           {key:'CLUB',       label:'Club / Cie'},
+          {key:'CAT_ORIG',   label:'Catégorie'},
+          {key:'ARME',       label:'Arme'},
+          {key:'SEXE',       label:'Sexe'},
           {key:'SCORE1',     label:'Résultat 1'},
           {key:'SCORE2',     label:'Résultat 2'},
           {key:'SCORE3',     label:'Résultat 3'},
         ];
+        // Masque les colonnes déjà fixées par un filtre actif
+        if(f.categorie) h = h.filter(x => x.key !== 'CAT_ORIG');
+        if(f.arme)      h = h.filter(x => x.key !== 'ARME');
+        if(f.sexe)      h = h.filter(x => x.key !== 'SEXE');
+        return h;
       }
 
       // Colonnes de base (données API)
@@ -1634,9 +1642,14 @@ const DISC_LABELS = {
       const f    = state.filters || {};
       const disc = state.disciplineIndiv;
 
-      // Beursault : pas de filtre cat/arme/sexe (géré par consolidateBeursaultData)
+      // Beursault : filtres catégorie / arme / sexe / département appliqués sur les
+      // lignes brutes AVANT la consolidation (qui re-classe le sous-ensemble filtré).
       if(disc === 'Beursault'){
         return (data||[]).filter(r => {
+          if(f.categorie && (r.CAT||r.CATEGORIE||'') !== f.categorie) return false;
+          if(f.arme && (r.ARME||'') !== f.arme) return false;
+          if(f.sexe){ const sx=(r.SEXE||r.SEXE_PERSONNE||'').toUpperCase(); if(sx !== f.sexe) return false; }
+          if(f.departement && (r.DEPARTEMENT||getDeptFromCodeStructure(r.CODE_STRUCTURE||'')) !== f.departement) return false;
           if(f.search){
             const q = f.search.toLowerCase();
             const nom  = (r.NO_LICENCE||'').toLowerCase() + ' ' + (r.NOM_PERSONNE||'').toLowerCase() + ' ' + (r.PRENOM_PERSONNE||'').toLowerCase();
