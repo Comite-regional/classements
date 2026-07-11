@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-10T06:10:34.588528Z",
+    "generated_at": "2026-07-11T05:18:34.949203Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -594,7 +594,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "36",
+      "RANG": "35",
       "RANG_LIGUE": "2",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -609,8 +609,8 @@
       "DEPARTEMENT": "85",
       "SCORE1": "554",
       "SCORE2": "553",
-      "SCORE3": "541",
-      "MOY_SCORE": "1648",
+      "SCORE3": "546",
+      "MOY_SCORE": "1653",
       "_classement_nom": "Arc Classique Femme 2026",
       "DISCIPLINE": "T"
     },
@@ -1539,7 +1539,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "24",
+      "RANG": "23",
       "RANG_LIGUE": "1",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
