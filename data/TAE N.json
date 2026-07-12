@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-11T05:18:34.949203Z",
+    "generated_at": "2026-07-12T05:34:31.062260Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -4376,7 +4376,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "96",
+      "RANG_NAT": "97",
       "_classement_nom": "U21 Femme Arc Classique 2026"
     },
     {
@@ -4403,7 +4403,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "103",
+      "RANG_NAT": "104",
       "_classement_nom": "U21 Femme Arc Classique 2026"
     },
     {
@@ -4430,7 +4430,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "107",
+      "RANG_NAT": "108",
       "_classement_nom": "U21 Femme Arc Classique 2026"
     },
     {
@@ -4457,7 +4457,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "130",
+      "RANG_NAT": "131",
       "_classement_nom": "U21 Femme Arc Classique 2026"
     },
     {
@@ -4511,7 +4511,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "20",
+      "RANG_NAT": "21",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -4538,7 +4538,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "25",
+      "RANG_NAT": "26",
       "_classement_nom": "Senior 1 Homme Arc Classique 2026"
     },
     {
@@ -9155,7 +9155,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "130",
+      "RANG_NAT": "131",
       "_classement_nom": "Senior 2 Femme Arc Classique 2026"
     },
     {
