@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-12T05:34:31.062260Z",
+    "generated_at": "2026-07-13T05:44:10.351044Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -90,7 +90,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "27",
+      "RANG": "28",
       "RANG_LIGUE": "1",
       "DIVISION": "D2",
       "PRE_INSCRIT": "D2",
@@ -111,7 +111,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "28",
+      "RANG": "29",
       "RANG_LIGUE": "2",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -132,7 +132,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "34",
+      "RANG": "35",
       "RANG_LIGUE": "3",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -384,7 +384,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "161",
+      "RANG": "162",
       "RANG_LIGUE": "15",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -405,7 +405,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "163",
+      "RANG": "164",
       "RANG_LIGUE": "16",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -615,7 +615,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "48",
+      "RANG": "50",
       "RANG_LIGUE": "3",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -636,7 +636,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "53",
+      "RANG": "55",
       "RANG_LIGUE": "4",
       "DIVISION": "D2",
       "PRE_INSCRIT": "D2",
@@ -670,15 +670,15 @@
       "CODE_STRUCTURE": "1249058",
       "VILLE": "",
       "DEPARTEMENT": "49",
-      "SCORE1": "576",
-      "SCORE2": "476",
+      "SCORE1": "578",
+      "SCORE2": "483",
       "SCORE3": "455",
-      "MOY_SCORE": "1507",
+      "MOY_SCORE": "1516",
       "_classement_nom": "Arc Classique Femme 2026",
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "69",
+      "RANG": "71",
       "RANG_LIGUE": "6",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -804,7 +804,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "41",
+      "RANG": "40",
       "RANG_LIGUE": "2",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -818,9 +818,9 @@
       "VILLE": "",
       "DEPARTEMENT": "49",
       "SCORE1": "609",
-      "SCORE2": "576",
+      "SCORE2": "578",
       "SCORE3": "0",
-      "MOY_SCORE": "1185",
+      "MOY_SCORE": "1187",
       "_classement_nom": "Double Mixte Arc Classique 2026",
       "DISCIPLINE": "T"
     },
@@ -846,7 +846,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "44",
+      "RANG": "45",
       "RANG_LIGUE": "4",
       "DIVISION": "D2",
       "PRE_INSCRIT": "D2",
@@ -888,7 +888,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "57",
+      "RANG": "59",
       "RANG_LIGUE": "6",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -909,7 +909,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "63",
+      "RANG": "64",
       "RANG_LIGUE": "7",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -930,7 +930,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "72",
+      "RANG": "73",
       "RANG_LIGUE": "8",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -1518,7 +1518,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "126",
+      "RANG": "127",
       "RANG_LIGUE": "3",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1686,7 +1686,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "134",
+      "RANG": "135",
       "RANG_LIGUE": "8",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1707,7 +1707,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "148",
+      "RANG": "149",
       "RANG_LIGUE": "9",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1770,7 +1770,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "159",
+      "RANG": "160",
       "RANG_LIGUE": "12",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1791,7 +1791,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "162",
+      "RANG": "163",
       "RANG_LIGUE": "13",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -2043,7 +2043,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "69",
+      "RANG": "70",
       "RANG_LIGUE": "7",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -2106,7 +2106,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "157",
+      "RANG": "159",
       "RANG_LIGUE": "10",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
@@ -2127,7 +2127,7 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "168",
+      "RANG": "169",
       "RANG_LIGUE": "11",
       "DIVISION": "D1",
       "PRE_INSCRIT": "D1",
