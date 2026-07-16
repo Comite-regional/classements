@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-15T04:56:39.895432Z",
+    "generated_at": "2026-07-16T05:16:23.006965Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -1122,9 +1122,9 @@
       "ARME": "B",
       "CAT": "S3",
       "CATEGORIE": "S3",
-      "NOM_STRUCTURE": "L'ARCHER CLUB D'AIZENAY",
-      "NOM_ABREGE": "AIZENAY",
-      "CODE_STRUCTURE": "1285133",
+      "NOM_STRUCTURE": "LES ARCHERS SABLAIS",
+      "NOM_ABREGE": "LES SABLES D'OLONNE",
+      "CODE_STRUCTURE": "1285132",
       "DEPARTEMENT": "85",
       "SCORE1": "451",
       "SCORE2": "441",
@@ -4119,9 +4119,9 @@
       "ARME": "B",
       "CAT": "S3",
       "CATEGORIE": "S3",
-      "NOM_STRUCTURE": "L'ARCHER CLUB D'AIZENAY",
-      "NOM_ABREGE": "AIZENAY",
-      "CODE_STRUCTURE": "1285133",
+      "NOM_STRUCTURE": "LES ARCHERS SABLAIS",
+      "NOM_ABREGE": "LES SABLES D'OLONNE",
+      "CODE_STRUCTURE": "1285132",
       "DEPARTEMENT": "85",
       "SCORE1": "451",
       "SCORE2": "441",

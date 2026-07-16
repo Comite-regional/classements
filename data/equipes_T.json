@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-15T04:56:39.895432Z",
+    "generated_at": "2026-07-16T05:16:23.006965Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -1228,7 +1228,7 @@
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",
-      "QUOTA": "",
+      "QUOTA": "13",
       "NOM_ABREGE": "GROSBREUIL",
       "NOM_STRUCTURE": "ARCHERS DE GROSBREUIL",
       "SEXE_EQUIPE": "X",
@@ -1984,7 +1984,7 @@
       "RANG_LIGUE": "4",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
-      "QUOTA": "",
+      "QUOTA": "16",
       "NOM_ABREGE": "LA TURBALLE",
       "NOM_STRUCTURE": "LES FLECHES TURBALLAISES",
       "SEXE_EQUIPE": "X",
