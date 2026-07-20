@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-19T05:28:36.522660Z",
+    "generated_at": "2026-07-20T05:46:35.871384Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -27,7 +27,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "51",
+      "RANG": "44",
       "RANG_LIGUE": "2",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -40,10 +40,10 @@
       "CODE_STRUCTURE": "1244046",
       "VILLE": "",
       "DEPARTEMENT": "44",
-      "SCORE1": "420",
-      "SCORE2": "416",
+      "SCORE1": "454",
+      "SCORE2": "454",
       "SCORE3": "0",
-      "MOY_SCORE": "418",
+      "MOY_SCORE": "454",
       "_classement_nom": "Double Mixte Arc Nu",
       "DISCIPLINE": "C"
     },
@@ -300,7 +300,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "25",
+      "RANG": "20",
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -314,9 +314,9 @@
       "VILLE": "",
       "DEPARTEMENT": "44",
       "SCORE1": "592",
-      "SCORE2": "545",
+      "SCORE2": "592",
       "SCORE3": "0",
-      "MOY_SCORE": "568",
+      "MOY_SCORE": "592",
       "_classement_nom": "Double Mixte Arc Classique",
       "DISCIPLINE": "C"
     },
@@ -510,7 +510,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "16",
+      "RANG": "13",
       "RANG_LIGUE": "2",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -523,10 +523,10 @@
       "CODE_STRUCTURE": "1244036",
       "VILLE": "",
       "DEPARTEMENT": "44",
-      "SCORE1": "755",
-      "SCORE2": "748",
+      "SCORE1": "758",
+      "SCORE2": "758",
       "SCORE3": "0",
-      "MOY_SCORE": "751",
+      "MOY_SCORE": "758",
       "_classement_nom": "Double Mixte Arc à Poulies",
       "DISCIPLINE": "C"
     },
@@ -573,8 +573,29 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "56",
+      "RANG": "41",
       "RANG_LIGUE": "5",
+      "DIVISION": "",
+      "PRE_INSCRIT": "",
+      "QUOTA": "",
+      "NOM_ABREGE": "LA GARNACHE",
+      "NOM_STRUCTURE": "LES GARNA'ARCHERS",
+      "SEXE_EQUIPE": "X",
+      "ARME_EQUIPE": "P",
+      "CATEGORIE_CLASSEMENT": "Double Mixte Arc à Poulies",
+      "CODE_STRUCTURE": "1285113",
+      "VILLE": "",
+      "DEPARTEMENT": "85",
+      "SCORE1": "711",
+      "SCORE2": "700",
+      "SCORE3": "0",
+      "MOY_SCORE": "705",
+      "_classement_nom": "Double Mixte Arc à Poulies",
+      "DISCIPLINE": "C"
+    },
+    {
+      "RANG": "57",
+      "RANG_LIGUE": "6",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -594,8 +615,8 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "63",
-      "RANG_LIGUE": "6",
+      "RANG": "64",
+      "RANG_LIGUE": "7",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -615,8 +636,8 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "73",
-      "RANG_LIGUE": "7",
+      "RANG": "74",
+      "RANG_LIGUE": "8",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -632,27 +653,6 @@
       "SCORE2": "559",
       "SCORE3": "0",
       "MOY_SCORE": "573",
-      "_classement_nom": "Double Mixte Arc à Poulies",
-      "DISCIPLINE": "C"
-    },
-    {
-      "RANG": "83",
-      "RANG_LIGUE": "8",
-      "DIVISION": "",
-      "PRE_INSCRIT": "",
-      "QUOTA": "",
-      "NOM_ABREGE": "LA GARNACHE",
-      "NOM_STRUCTURE": "LES GARNA'ARCHERS",
-      "SEXE_EQUIPE": "X",
-      "ARME_EQUIPE": "P",
-      "CATEGORIE_CLASSEMENT": "Double Mixte Arc à Poulies",
-      "CODE_STRUCTURE": "1285113",
-      "VILLE": "",
-      "DEPARTEMENT": "85",
-      "SCORE1": "711",
-      "SCORE2": "0",
-      "SCORE3": "0",
-      "MOY_SCORE": "355",
       "_classement_nom": "Double Mixte Arc à Poulies",
       "DISCIPLINE": "C"
     },
