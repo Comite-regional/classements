@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-20T05:46:35.871384Z",
+    "generated_at": "2026-07-21T05:26:28.537903Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -27,7 +27,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "44",
+      "RANG": "46",
       "RANG_LIGUE": "2",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -41,9 +41,9 @@
       "VILLE": "",
       "DEPARTEMENT": "44",
       "SCORE1": "454",
-      "SCORE2": "454",
+      "SCORE2": "420",
       "SCORE3": "0",
-      "MOY_SCORE": "454",
+      "MOY_SCORE": "437",
       "_classement_nom": "Double Mixte Arc Nu",
       "DISCIPLINE": "C"
     },
@@ -510,7 +510,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "13",
+      "RANG": "14",
       "RANG_LIGUE": "2",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -524,9 +524,9 @@
       "VILLE": "",
       "DEPARTEMENT": "44",
       "SCORE1": "758",
-      "SCORE2": "758",
+      "SCORE2": "755",
       "SCORE3": "0",
-      "MOY_SCORE": "758",
+      "MOY_SCORE": "756",
       "_classement_nom": "Double Mixte Arc à Poulies",
       "DISCIPLINE": "C"
     },
