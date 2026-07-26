@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-25T05:19:32.104101Z",
+    "generated_at": "2026-07-26T05:37:40.170957Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -2106,8 +2106,29 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "159",
+      "RANG": "152",
       "RANG_LIGUE": "10",
+      "DIVISION": "",
+      "PRE_INSCRIT": "",
+      "QUOTA": "",
+      "NOM_ABREGE": "MONTREUIL JUIGNE",
+      "NOM_STRUCTURE": "MONTREUIL JUIGNE TIR A L'ARC",
+      "SEXE_EQUIPE": "X",
+      "ARME_EQUIPE": "P",
+      "CATEGORIE_CLASSEMENT": "Double Mixte Arc à Poulies 2026",
+      "CODE_STRUCTURE": "1249067",
+      "VILLE": "",
+      "DEPARTEMENT": "49",
+      "SCORE1": "426",
+      "SCORE2": "190",
+      "SCORE3": "0",
+      "MOY_SCORE": "616",
+      "_classement_nom": "Double Mixte Arc à Poulies 2026",
+      "DISCIPLINE": "T"
+    },
+    {
+      "RANG": "160",
+      "RANG_LIGUE": "11",
       "DIVISION": "DR",
       "PRE_INSCRIT": "DR",
       "QUOTA": "",
@@ -2127,8 +2148,8 @@
       "DISCIPLINE": "T"
     },
     {
-      "RANG": "169",
-      "RANG_LIGUE": "11",
+      "RANG": "170",
+      "RANG_LIGUE": "12",
       "DIVISION": "D1",
       "PRE_INSCRIT": "D1",
       "QUOTA": "",

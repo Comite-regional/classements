@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-25T05:19:32.104101Z",
+    "generated_at": "2026-07-26T05:37:40.170957Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -9053,33 +9053,6 @@
     {
       "Rang_ligue": 20,
       "RANG": 20,
-      "NO_LICENCE": "0935224Y",
-      "NOM_PERSONNE": "CHIARABINI",
-      "PRENOM_PERSONNE": "Jason",
-      "SEXE": "H",
-      "ARME": "C",
-      "CAT": "U21",
-      "CATEGORIE": "U21",
-      "NOM_STRUCTURE": "CIE ST GEORGES DE LAVAL",
-      "NOM_ABREGE": "LAVAL",
-      "CODE_STRUCTURE": "1253075",
-      "DEPARTEMENT": "53",
-      "SCORE1": "509",
-      "SCORE2": "485",
-      "SCORE3": "476",
-      "MOY_SCORE": "490",
-      "DISCIPLINE": "S",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "192",
-      "_classement_nom": "U21 Homme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 21,
-      "RANG": 21,
       "NO_LICENCE": "0958018Z",
       "NOM_PERSONNE": "DIS",
       "PRENOM_PERSONNE": "Clement",
@@ -9105,8 +9078,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 22,
-      "RANG": 22,
+      "Rang_ligue": 21,
+      "RANG": 21,
       "NO_LICENCE": "0980385L",
       "NOM_PERSONNE": "JEHANNO",
       "PRENOM_PERSONNE": "Axel",
@@ -9132,8 +9105,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 23,
-      "RANG": 23,
+      "Rang_ligue": 22,
+      "RANG": 22,
       "NO_LICENCE": "0962583L",
       "NOM_PERSONNE": "RINCE",
       "PRENOM_PERSONNE": "Malo",
@@ -9159,8 +9132,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 24,
-      "RANG": 24,
+      "Rang_ligue": 23,
+      "RANG": 23,
       "NO_LICENCE": "0029165B",
       "NOM_PERSONNE": "SAGITTI EHERMANN",
       "PRENOM_PERSONNE": "Sacha",
@@ -9186,8 +9159,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 25,
-      "RANG": 25,
+      "Rang_ligue": 24,
+      "RANG": 24,
       "NO_LICENCE": "0944226H",
       "NOM_PERSONNE": "CORNIERE",
       "PRENOM_PERSONNE": "Gwendal",
@@ -9213,8 +9186,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 26,
-      "RANG": 26,
+      "Rang_ligue": 25,
+      "RANG": 25,
       "NO_LICENCE": "0025552Z",
       "NOM_PERSONNE": "HUCHET",
       "PRENOM_PERSONNE": "Paul",
@@ -9240,8 +9213,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 27,
-      "RANG": 27,
+      "Rang_ligue": 26,
+      "RANG": 26,
       "NO_LICENCE": "0910822Z",
       "NOM_PERSONNE": "SEMETEY",
       "PRENOM_PERSONNE": "Simon",
@@ -9267,8 +9240,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 28,
-      "RANG": 28,
+      "Rang_ligue": 27,
+      "RANG": 27,
       "NO_LICENCE": "0957579X",
       "NOM_PERSONNE": "BLANCHOUIN",
       "PRENOM_PERSONNE": "Alexis",
@@ -9294,8 +9267,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 29,
-      "RANG": 29,
+      "Rang_ligue": 28,
+      "RANG": 28,
       "NO_LICENCE": "0962897C",
       "NOM_PERSONNE": "FRANCHET",
       "PRENOM_PERSONNE": "Thomas",
@@ -9321,8 +9294,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 30,
-      "RANG": 30,
+      "Rang_ligue": 29,
+      "RANG": 29,
       "NO_LICENCE": "0936613H",
       "NOM_PERSONNE": "RENAUD",
       "PRENOM_PERSONNE": "Isaac",
@@ -9348,8 +9321,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 31,
-      "RANG": 31,
+      "Rang_ligue": 30,
+      "RANG": 30,
       "NO_LICENCE": "0011678U",
       "NOM_PERSONNE": "JOUNY",
       "PRENOM_PERSONNE": "Jason",
@@ -9375,8 +9348,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 32,
-      "RANG": 32,
+      "Rang_ligue": 31,
+      "RANG": 31,
       "NO_LICENCE": "0995507Y",
       "NOM_PERSONNE": "VENDE",
       "PRENOM_PERSONNE": "Dorian",
@@ -9402,8 +9375,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 33,
-      "RANG": 33,
+      "Rang_ligue": 32,
+      "RANG": 32,
       "NO_LICENCE": "0015390D",
       "NOM_PERSONNE": "AUGER",
       "PRENOM_PERSONNE": "Alexis",
@@ -9429,8 +9402,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 34,
-      "RANG": 34,
+      "Rang_ligue": 33,
+      "RANG": 33,
       "NO_LICENCE": "1021102W",
       "NOM_PERSONNE": "ROUILLON",
       "PRENOM_PERSONNE": "Erwan",
@@ -9456,8 +9429,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 35,
-      "RANG": 35,
+      "Rang_ligue": 34,
+      "RANG": 34,
       "NO_LICENCE": "0033219H",
       "NOM_PERSONNE": "COMTOIS",
       "PRENOM_PERSONNE": "Tom",
@@ -9483,8 +9456,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 36,
-      "RANG": 36,
+      "Rang_ligue": 35,
+      "RANG": 35,
       "NO_LICENCE": "0882726K",
       "NOM_PERSONNE": "MULLER",
       "PRENOM_PERSONNE": "Noam",
@@ -9510,8 +9483,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 37,
-      "RANG": 37,
+      "Rang_ligue": 36,
+      "RANG": 36,
       "NO_LICENCE": "1017831B",
       "NOM_PERSONNE": "GASCOGNE",
       "PRENOM_PERSONNE": "Cyprien",
@@ -9537,8 +9510,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 38,
-      "RANG": 38,
+      "Rang_ligue": 37,
+      "RANG": 37,
       "NO_LICENCE": "1001773L",
       "NOM_PERSONNE": "MOREAU",
       "PRENOM_PERSONNE": "Eliott",
@@ -9564,8 +9537,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 39,
-      "RANG": 39,
+      "Rang_ligue": 38,
+      "RANG": 38,
       "NO_LICENCE": "0004732U",
       "NOM_PERSONNE": "MAJOLI",
       "PRENOM_PERSONNE": "Paul",
@@ -9591,8 +9564,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 40,
-      "RANG": 40,
+      "Rang_ligue": 39,
+      "RANG": 39,
       "NO_LICENCE": "0971325N",
       "NOM_PERSONNE": "VOLERIT",
       "PRENOM_PERSONNE": "Serge",
@@ -9618,8 +9591,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 41,
-      "RANG": 41,
+      "Rang_ligue": 40,
+      "RANG": 40,
       "NO_LICENCE": "0977929S",
       "NOM_PERSONNE": "GROSEIL",
       "PRENOM_PERSONNE": "Nolan",
@@ -9645,8 +9618,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 42,
-      "RANG": 42,
+      "Rang_ligue": 41,
+      "RANG": 41,
       "NO_LICENCE": "0945783A",
       "NOM_PERSONNE": "LAURET-COLIN",
       "PRENOM_PERSONNE": "Loic",
@@ -9672,8 +9645,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 43,
-      "RANG": 43,
+      "Rang_ligue": 42,
+      "RANG": 42,
       "NO_LICENCE": "0968396E",
       "NOM_PERSONNE": "MEUNIER",
       "PRENOM_PERSONNE": "Elie",
@@ -9699,8 +9672,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 44,
-      "RANG": 44,
+      "Rang_ligue": 43,
+      "RANG": 43,
       "NO_LICENCE": "0017703T",
       "NOM_PERSONNE": "GENDRON",
       "PRENOM_PERSONNE": "Liam",
@@ -9726,8 +9699,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 45,
-      "RANG": 45,
+      "Rang_ligue": 44,
+      "RANG": 44,
       "NO_LICENCE": "0997707P",
       "NOM_PERSONNE": "BRICARD",
       "PRENOM_PERSONNE": "Enzo",
@@ -9753,8 +9726,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 46,
-      "RANG": 46,
+      "Rang_ligue": 45,
+      "RANG": 45,
       "NO_LICENCE": "0912669G",
       "NOM_PERSONNE": "HOPCHTEIDRE",
       "PRENOM_PERSONNE": "Alexian",
@@ -9780,8 +9753,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 47,
-      "RANG": 47,
+      "Rang_ligue": 46,
+      "RANG": 46,
       "NO_LICENCE": "0020507R",
       "NOM_PERSONNE": "SOUTON",
       "PRENOM_PERSONNE": "Valentin",
@@ -9807,8 +9780,8 @@
       "_classement_nom": "U21 Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 48,
-      "RANG": 48,
+      "Rang_ligue": 47,
+      "RANG": 47,
       "NO_LICENCE": "1032041P",
       "NOM_PERSONNE": "COMPAIN",
       "PRENOM_PERSONNE": "Arthur",
@@ -17315,33 +17288,6 @@
     {
       "Rang_ligue": 278,
       "RANG": 278,
-      "NO_LICENCE": "0935224Y",
-      "NOM_PERSONNE": "CHIARABINI",
-      "PRENOM_PERSONNE": "Jason",
-      "SEXE": "H",
-      "ARME": "C",
-      "CAT": "U21",
-      "CATEGORIE": "U21",
-      "NOM_STRUCTURE": "CIE ST GEORGES DE LAVAL",
-      "NOM_ABREGE": "LAVAL",
-      "CODE_STRUCTURE": "1253075",
-      "DEPARTEMENT": "53",
-      "SCORE1": "509",
-      "SCORE2": "485",
-      "SCORE3": "476",
-      "MOY_SCORE": "490",
-      "DISCIPLINE": "S",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "3368",
-      "_classement_nom": "Scratch Homme Arc Classique 2026"
-    },
-    {
-      "Rang_ligue": 279,
-      "RANG": 279,
       "NO_LICENCE": "0638481B",
       "NOM_PERSONNE": "MINVIELLE",
       "PRENOM_PERSONNE": "Laurent",
@@ -17367,8 +17313,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 280,
-      "RANG": 280,
+      "Rang_ligue": 279,
+      "RANG": 279,
       "NO_LICENCE": "0064194B",
       "NOM_PERSONNE": "LEMOINE",
       "PRENOM_PERSONNE": "Bruno",
@@ -17394,8 +17340,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 281,
-      "RANG": 281,
+      "Rang_ligue": 280,
+      "RANG": 280,
       "NO_LICENCE": "1014665H",
       "NOM_PERSONNE": "GOULAS",
       "PRENOM_PERSONNE": "Eric",
@@ -17421,8 +17367,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 282,
-      "RANG": 282,
+      "Rang_ligue": 281,
+      "RANG": 281,
       "NO_LICENCE": "0033408N",
       "NOM_PERSONNE": "BEAUCLAIR",
       "PRENOM_PERSONNE": "Romain",
@@ -17448,8 +17394,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 283,
-      "RANG": 283,
+      "Rang_ligue": 282,
+      "RANG": 282,
       "NO_LICENCE": "1000550K",
       "NOM_PERSONNE": "NAUD",
       "PRENOM_PERSONNE": "Mathieu",
@@ -17475,8 +17421,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 284,
-      "RANG": 284,
+      "Rang_ligue": 283,
+      "RANG": 283,
       "NO_LICENCE": "0912147P",
       "NOM_PERSONNE": "PUBERT",
       "PRENOM_PERSONNE": "Emmanuel",
@@ -17502,8 +17448,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 285,
-      "RANG": 285,
+      "Rang_ligue": 284,
+      "RANG": 284,
       "NO_LICENCE": "0977596E",
       "NOM_PERSONNE": "BESNARD",
       "PRENOM_PERSONNE": "Cyril",
@@ -17529,8 +17475,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 286,
-      "RANG": 286,
+      "Rang_ligue": 285,
+      "RANG": 285,
       "NO_LICENCE": "0023794N",
       "NOM_PERSONNE": "RICHARD",
       "PRENOM_PERSONNE": "Philippe",
@@ -17556,8 +17502,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 287,
-      "RANG": 287,
+      "Rang_ligue": 286,
+      "RANG": 286,
       "NO_LICENCE": "0462193J",
       "NOM_PERSONNE": "SEROUX",
       "PRENOM_PERSONNE": "Jean francois",
@@ -17583,8 +17529,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 288,
-      "RANG": 288,
+      "Rang_ligue": 287,
+      "RANG": 287,
       "NO_LICENCE": "1005150I",
       "NOM_PERSONNE": "GREFFARD",
       "PRENOM_PERSONNE": "Hervé",
@@ -17610,8 +17556,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 289,
-      "RANG": 289,
+      "Rang_ligue": 288,
+      "RANG": 288,
       "NO_LICENCE": "0837738K",
       "NOM_PERSONNE": "BRUDES",
       "PRENOM_PERSONNE": "Yann",
@@ -17637,8 +17583,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 290,
-      "RANG": 290,
+      "Rang_ligue": 289,
+      "RANG": 289,
       "NO_LICENCE": "0889858M",
       "NOM_PERSONNE": "LEDUC",
       "PRENOM_PERSONNE": "Christopher",
@@ -17664,8 +17610,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 291,
-      "RANG": 291,
+      "Rang_ligue": 290,
+      "RANG": 290,
       "NO_LICENCE": "0958018Z",
       "NOM_PERSONNE": "DIS",
       "PRENOM_PERSONNE": "Clement",
@@ -17691,8 +17637,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 292,
-      "RANG": 292,
+      "Rang_ligue": 291,
+      "RANG": 291,
       "NO_LICENCE": "0453517D",
       "NOM_PERSONNE": "RICHARD",
       "PRENOM_PERSONNE": "Regis",
@@ -17718,8 +17664,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 293,
-      "RANG": 293,
+      "Rang_ligue": 292,
+      "RANG": 292,
       "NO_LICENCE": "0029411U",
       "NOM_PERSONNE": "MELET",
       "PRENOM_PERSONNE": "Fabian",
@@ -17745,8 +17691,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 294,
-      "RANG": 294,
+      "Rang_ligue": 293,
+      "RANG": 293,
       "NO_LICENCE": "0824803A",
       "NOM_PERSONNE": "CLENET",
       "PRENOM_PERSONNE": "Valentin",
@@ -17772,8 +17718,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 295,
-      "RANG": 295,
+      "Rang_ligue": 294,
+      "RANG": 294,
       "NO_LICENCE": "0008597V",
       "NOM_PERSONNE": "GOUVAZE",
       "PRENOM_PERSONNE": "Daniel",
@@ -17799,8 +17745,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 296,
-      "RANG": 296,
+      "Rang_ligue": 295,
+      "RANG": 295,
       "NO_LICENCE": "0009623K",
       "NOM_PERSONNE": "PERRE",
       "PRENOM_PERSONNE": "Hubert",
@@ -17826,8 +17772,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 297,
-      "RANG": 297,
+      "Rang_ligue": 296,
+      "RANG": 296,
       "NO_LICENCE": "0774514N",
       "NOM_PERSONNE": "LE BRAS",
       "PRENOM_PERSONNE": "Marc",
@@ -17853,8 +17799,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 298,
-      "RANG": 298,
+      "Rang_ligue": 297,
+      "RANG": 297,
       "NO_LICENCE": "0632180C",
       "NOM_PERSONNE": "ROUAYROUS",
       "PRENOM_PERSONNE": "Nicolas",
@@ -17880,8 +17826,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 299,
-      "RANG": 299,
+      "Rang_ligue": 298,
+      "RANG": 298,
       "NO_LICENCE": "0719680L",
       "NOM_PERSONNE": "BLACHE-COMTE",
       "PRENOM_PERSONNE": "Nicolas",
@@ -17907,8 +17853,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 300,
-      "RANG": 300,
+      "Rang_ligue": 299,
+      "RANG": 299,
       "NO_LICENCE": "1027470U",
       "NOM_PERSONNE": "MAGNAUDEIX",
       "PRENOM_PERSONNE": "Eric",
@@ -17934,8 +17880,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 301,
-      "RANG": 301,
+      "Rang_ligue": 300,
+      "RANG": 300,
       "NO_LICENCE": "0294493B",
       "NOM_PERSONNE": "BILLON",
       "PRENOM_PERSONNE": "Pascal",
@@ -17961,8 +17907,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 302,
-      "RANG": 302,
+      "Rang_ligue": 301,
+      "RANG": 301,
       "NO_LICENCE": "1041821T",
       "NOM_PERSONNE": "SYLVAIN",
       "PRENOM_PERSONNE": "Yannick",
@@ -17988,8 +17934,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 303,
-      "RANG": 303,
+      "Rang_ligue": 302,
+      "RANG": 302,
       "NO_LICENCE": "0909108L",
       "NOM_PERSONNE": "ARNOT",
       "PRENOM_PERSONNE": "Dylan",
@@ -18015,8 +17961,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 304,
-      "RANG": 304,
+      "Rang_ligue": 303,
+      "RANG": 303,
       "NO_LICENCE": "0422181T",
       "NOM_PERSONNE": "CAQUINEAU",
       "PRENOM_PERSONNE": "Stanilas",
@@ -18042,8 +17988,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 305,
-      "RANG": 305,
+      "Rang_ligue": 304,
+      "RANG": 304,
       "NO_LICENCE": "0873182L",
       "NOM_PERSONNE": "DUMONT",
       "PRENOM_PERSONNE": "Jean luc",
@@ -18069,8 +18015,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 306,
-      "RANG": 306,
+      "Rang_ligue": 305,
+      "RANG": 305,
       "NO_LICENCE": "0059621F",
       "NOM_PERSONNE": "GRIVET",
       "PRENOM_PERSONNE": "Stephane",
@@ -18096,8 +18042,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 307,
-      "RANG": 307,
+      "Rang_ligue": 306,
+      "RANG": 306,
       "NO_LICENCE": "0440625R",
       "NOM_PERSONNE": "BOSMAN",
       "PRENOM_PERSONNE": "Jean-philippe",
@@ -18123,8 +18069,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 308,
-      "RANG": 308,
+      "Rang_ligue": 307,
+      "RANG": 307,
       "NO_LICENCE": "1030537T",
       "NOM_PERSONNE": "LAURI",
       "PRENOM_PERSONNE": "Xavier",
@@ -18150,8 +18096,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 309,
-      "RANG": 309,
+      "Rang_ligue": 308,
+      "RANG": 308,
       "NO_LICENCE": "0959233V",
       "NOM_PERSONNE": "NAUD-LARCEBAL",
       "PRENOM_PERSONNE": "Esteban",
@@ -18177,8 +18123,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 310,
-      "RANG": 310,
+      "Rang_ligue": 309,
+      "RANG": 309,
       "NO_LICENCE": "0453378C",
       "NOM_PERSONNE": "BRACHET",
       "PRENOM_PERSONNE": "Bernard",
@@ -18204,8 +18150,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 311,
-      "RANG": 311,
+      "Rang_ligue": 310,
+      "RANG": 310,
       "NO_LICENCE": "0875719U",
       "NOM_PERSONNE": "GUILLOTON",
       "PRENOM_PERSONNE": "Marcel",
@@ -18231,8 +18177,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 312,
-      "RANG": 312,
+      "Rang_ligue": 311,
+      "RANG": 311,
       "NO_LICENCE": "0980385L",
       "NOM_PERSONNE": "JEHANNO",
       "PRENOM_PERSONNE": "Axel",
@@ -18258,8 +18204,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 313,
-      "RANG": 313,
+      "Rang_ligue": 312,
+      "RANG": 312,
       "NO_LICENCE": "1008107B",
       "NOM_PERSONNE": "MOINARD",
       "PRENOM_PERSONNE": "Régis",
@@ -18285,8 +18231,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 314,
-      "RANG": 314,
+      "Rang_ligue": 313,
+      "RANG": 313,
       "NO_LICENCE": "0003159J",
       "NOM_PERSONNE": "DEROUET",
       "PRENOM_PERSONNE": "Bruno",
@@ -18312,8 +18258,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 315,
-      "RANG": 315,
+      "Rang_ligue": 314,
+      "RANG": 314,
       "NO_LICENCE": "0983351K",
       "NOM_PERSONNE": "MURY",
       "PRENOM_PERSONNE": "Julien",
@@ -18339,8 +18285,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 316,
-      "RANG": 316,
+      "Rang_ligue": 315,
+      "RANG": 315,
       "NO_LICENCE": "1007838S",
       "NOM_PERSONNE": "PERIN",
       "PRENOM_PERSONNE": "Clement",
@@ -18366,8 +18312,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 317,
-      "RANG": 317,
+      "Rang_ligue": 316,
+      "RANG": 316,
       "NO_LICENCE": "0898811U",
       "NOM_PERSONNE": "REIGNER",
       "PRENOM_PERSONNE": "Tony",
@@ -18393,8 +18339,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 318,
-      "RANG": 318,
+      "Rang_ligue": 317,
+      "RANG": 317,
       "NO_LICENCE": "0936213Y",
       "NOM_PERSONNE": "HUAULME",
       "PRENOM_PERSONNE": "Samuel",
@@ -18420,8 +18366,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 319,
-      "RANG": 319,
+      "Rang_ligue": 318,
+      "RANG": 318,
       "NO_LICENCE": "0985928L",
       "NOM_PERSONNE": "DENHAERINCK",
       "PRENOM_PERSONNE": "Axel",
@@ -18447,8 +18393,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 320,
-      "RANG": 320,
+      "Rang_ligue": 319,
+      "RANG": 319,
       "NO_LICENCE": "0836850V",
       "NOM_PERSONNE": "DUFRESNE DE VIREL",
       "PRENOM_PERSONNE": "Olivier",
@@ -18474,8 +18420,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 321,
-      "RANG": 321,
+      "Rang_ligue": 320,
+      "RANG": 320,
       "NO_LICENCE": "0026923P",
       "NOM_PERSONNE": "ARNAULT",
       "PRENOM_PERSONNE": "Johnny",
@@ -18501,8 +18447,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 322,
-      "RANG": 322,
+      "Rang_ligue": 321,
+      "RANG": 321,
       "NO_LICENCE": "0075266L",
       "NOM_PERSONNE": "COLIN",
       "PRENOM_PERSONNE": "Alain",
@@ -18528,8 +18474,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 323,
-      "RANG": 323,
+      "Rang_ligue": 322,
+      "RANG": 322,
       "NO_LICENCE": "0934684L",
       "NOM_PERSONNE": "ADVENARD",
       "PRENOM_PERSONNE": "Dominique",
@@ -18555,8 +18501,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 324,
-      "RANG": 324,
+      "Rang_ligue": 323,
+      "RANG": 323,
       "NO_LICENCE": "0999393X",
       "NOM_PERSONNE": "RELION",
       "PRENOM_PERSONNE": "Jean",
@@ -18582,8 +18528,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 325,
-      "RANG": 325,
+      "Rang_ligue": 324,
+      "RANG": 324,
       "NO_LICENCE": "0662017J",
       "NOM_PERSONNE": "RENAUD",
       "PRENOM_PERSONNE": "Romain",
@@ -18609,8 +18555,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 326,
-      "RANG": 326,
+      "Rang_ligue": 325,
+      "RANG": 325,
       "NO_LICENCE": "1010584I",
       "NOM_PERSONNE": "LEON",
       "PRENOM_PERSONNE": "Cyril",
@@ -18636,8 +18582,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 327,
-      "RANG": 327,
+      "Rang_ligue": 326,
+      "RANG": 326,
       "NO_LICENCE": "0048869U",
       "NOM_PERSONNE": "GODERE",
       "PRENOM_PERSONNE": "Didier",
@@ -18663,8 +18609,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 328,
-      "RANG": 328,
+      "Rang_ligue": 327,
+      "RANG": 327,
       "NO_LICENCE": "0891091C",
       "NOM_PERSONNE": "ROLLAND",
       "PRENOM_PERSONNE": "Yanis",
@@ -18690,8 +18636,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 329,
-      "RANG": 329,
+      "Rang_ligue": 328,
+      "RANG": 328,
       "NO_LICENCE": "0053793W",
       "NOM_PERSONNE": "MAGNE",
       "PRENOM_PERSONNE": "Sebastien",
@@ -18717,8 +18663,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 330,
-      "RANG": 330,
+      "Rang_ligue": 329,
+      "RANG": 329,
       "NO_LICENCE": "1003050O",
       "NOM_PERSONNE": "TROADEC",
       "PRENOM_PERSONNE": "Cyril",
@@ -18744,8 +18690,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 331,
-      "RANG": 331,
+      "Rang_ligue": 330,
+      "RANG": 330,
       "NO_LICENCE": "0778446M",
       "NOM_PERSONNE": "FOUILHAUX",
       "PRENOM_PERSONNE": "Nicolas",
@@ -18771,8 +18717,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 332,
-      "RANG": 332,
+      "Rang_ligue": 331,
+      "RANG": 331,
       "NO_LICENCE": "0016642P",
       "NOM_PERSONNE": "GOURDET",
       "PRENOM_PERSONNE": "Etienne",
@@ -18798,8 +18744,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 333,
-      "RANG": 333,
+      "Rang_ligue": 332,
+      "RANG": 332,
       "NO_LICENCE": "0048690Z",
       "NOM_PERSONNE": "DEGRIECK",
       "PRENOM_PERSONNE": "Michel",
@@ -18825,8 +18771,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 334,
-      "RANG": 334,
+      "Rang_ligue": 333,
+      "RANG": 333,
       "NO_LICENCE": "1033746E",
       "NOM_PERSONNE": "GODARD",
       "PRENOM_PERSONNE": "Patrice",
@@ -18852,8 +18798,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 335,
-      "RANG": 335,
+      "Rang_ligue": 334,
+      "RANG": 334,
       "NO_LICENCE": "0375556N",
       "NOM_PERSONNE": "MARSAUD",
       "PRENOM_PERSONNE": "Thierry",
@@ -18879,8 +18825,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 336,
-      "RANG": 336,
+      "Rang_ligue": 335,
+      "RANG": 335,
       "NO_LICENCE": "0012991W",
       "NOM_PERSONNE": "VERGNAUD",
       "PRENOM_PERSONNE": "Jean",
@@ -18906,8 +18852,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 337,
-      "RANG": 337,
+      "Rang_ligue": 336,
+      "RANG": 336,
       "NO_LICENCE": "1029398Y",
       "NOM_PERSONNE": "DALIGNY",
       "PRENOM_PERSONNE": "Thibault",
@@ -18933,8 +18879,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 338,
-      "RANG": 338,
+      "Rang_ligue": 337,
+      "RANG": 337,
       "NO_LICENCE": "1050080K",
       "NOM_PERSONNE": "SEVIN",
       "PRENOM_PERSONNE": "Grégory",
@@ -18960,8 +18906,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 339,
-      "RANG": 339,
+      "Rang_ligue": 338,
+      "RANG": 338,
       "NO_LICENCE": "1040284Q",
       "NOM_PERSONNE": "MICHAUD",
       "PRENOM_PERSONNE": "Jean charles",
@@ -18987,8 +18933,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 340,
-      "RANG": 340,
+      "Rang_ligue": 339,
+      "RANG": 339,
       "NO_LICENCE": "1050055L",
       "NOM_PERSONNE": "PARIS",
       "PRENOM_PERSONNE": "Willy",
@@ -19014,8 +18960,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 341,
-      "RANG": 341,
+      "Rang_ligue": 340,
+      "RANG": 340,
       "NO_LICENCE": "0953811B",
       "NOM_PERSONNE": "EVANS",
       "PRENOM_PERSONNE": "Theo",
@@ -19041,8 +18987,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 342,
-      "RANG": 342,
+      "Rang_ligue": 341,
+      "RANG": 341,
       "NO_LICENCE": "0041102B",
       "NOM_PERSONNE": "TEILLET",
       "PRENOM_PERSONNE": "Damien",
@@ -19068,8 +19014,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 343,
-      "RANG": 343,
+      "Rang_ligue": 342,
+      "RANG": 342,
       "NO_LICENCE": "0612610F",
       "NOM_PERSONNE": "PETITJEAN",
       "PRENOM_PERSONNE": "Didier",
@@ -19095,8 +19041,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 344,
-      "RANG": 344,
+      "Rang_ligue": 343,
+      "RANG": 343,
       "NO_LICENCE": "0781731H",
       "NOM_PERSONNE": "NOTTEBAERT",
       "PRENOM_PERSONNE": "Alain",
@@ -19122,8 +19068,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 345,
-      "RANG": 345,
+      "Rang_ligue": 344,
+      "RANG": 344,
       "NO_LICENCE": "0973971P",
       "NOM_PERSONNE": "GARCIA",
       "PRENOM_PERSONNE": "Seraphin",
@@ -19149,8 +19095,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 346,
-      "RANG": 346,
+      "Rang_ligue": 345,
+      "RANG": 345,
       "NO_LICENCE": "0045838Z",
       "NOM_PERSONNE": "DELACHAUME",
       "PRENOM_PERSONNE": "Lilian",
@@ -19176,8 +19122,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 347,
-      "RANG": 347,
+      "Rang_ligue": 346,
+      "RANG": 346,
       "NO_LICENCE": "1042439N",
       "NOM_PERSONNE": "PEAN SPIRE",
       "PRENOM_PERSONNE": "Alexandre",
@@ -19203,8 +19149,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 348,
-      "RANG": 348,
+      "Rang_ligue": 347,
+      "RANG": 347,
       "NO_LICENCE": "1015660O",
       "NOM_PERSONNE": "CHEFSON",
       "PRENOM_PERSONNE": "Renaud",
@@ -19230,8 +19176,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 349,
-      "RANG": 349,
+      "Rang_ligue": 348,
+      "RANG": 348,
       "NO_LICENCE": "1012610G",
       "NOM_PERSONNE": "BOURCIER",
       "PRENOM_PERSONNE": "Patrice",
@@ -19257,8 +19203,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 350,
-      "RANG": 350,
+      "Rang_ligue": 349,
+      "RANG": 349,
       "NO_LICENCE": "0962583L",
       "NOM_PERSONNE": "RINCE",
       "PRENOM_PERSONNE": "Malo",
@@ -19284,8 +19230,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 351,
-      "RANG": 351,
+      "Rang_ligue": 350,
+      "RANG": 350,
       "NO_LICENCE": "0451601W",
       "NOM_PERSONNE": "JARRY",
       "PRENOM_PERSONNE": "Jean-marc",
@@ -19311,8 +19257,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 352,
-      "RANG": 352,
+      "Rang_ligue": 351,
+      "RANG": 351,
       "NO_LICENCE": "0663797U",
       "NOM_PERSONNE": "LEROLE",
       "PRENOM_PERSONNE": "Bertrand",
@@ -19338,8 +19284,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 353,
-      "RANG": 353,
+      "Rang_ligue": 352,
+      "RANG": 352,
       "NO_LICENCE": "0969684E",
       "NOM_PERSONNE": "MORIN",
       "PRENOM_PERSONNE": "Dominique",
@@ -19365,8 +19311,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 354,
-      "RANG": 354,
+      "Rang_ligue": 353,
+      "RANG": 353,
       "NO_LICENCE": "0372726M",
       "NOM_PERSONNE": "CHATELAIN",
       "PRENOM_PERSONNE": "Jean-paul",
@@ -19392,8 +19338,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 355,
-      "RANG": 355,
+      "Rang_ligue": 354,
+      "RANG": 354,
       "NO_LICENCE": "0651029R",
       "NOM_PERSONNE": "LESELLIER",
       "PRENOM_PERSONNE": "Alban",
@@ -19419,8 +19365,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 356,
-      "RANG": 356,
+      "Rang_ligue": 355,
+      "RANG": 355,
       "NO_LICENCE": "0651036Y",
       "NOM_PERSONNE": "RATTIER",
       "PRENOM_PERSONNE": "Gerard",
@@ -19446,8 +19392,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 357,
-      "RANG": 357,
+      "Rang_ligue": 356,
+      "RANG": 356,
       "NO_LICENCE": "0820507F",
       "NOM_PERSONNE": "GUEDON",
       "PRENOM_PERSONNE": "Stephane",
@@ -19473,8 +19419,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 358,
-      "RANG": 358,
+      "Rang_ligue": 357,
+      "RANG": 357,
       "NO_LICENCE": "0029165B",
       "NOM_PERSONNE": "SAGITTI EHERMANN",
       "PRENOM_PERSONNE": "Sacha",
@@ -19500,8 +19446,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 359,
-      "RANG": 359,
+      "Rang_ligue": 358,
+      "RANG": 358,
       "NO_LICENCE": "1003109V",
       "NOM_PERSONNE": "THEBAUD",
       "PRENOM_PERSONNE": "Denis",
@@ -19527,8 +19473,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 360,
-      "RANG": 360,
+      "Rang_ligue": 359,
+      "RANG": 359,
       "NO_LICENCE": "0047080Z",
       "NOM_PERSONNE": "GRECU",
       "PRENOM_PERSONNE": "Vasile",
@@ -19554,8 +19500,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 361,
-      "RANG": 361,
+      "Rang_ligue": 360,
+      "RANG": 360,
       "NO_LICENCE": "1022121B",
       "NOM_PERSONNE": "YVARD",
       "PRENOM_PERSONNE": "Adrien",
@@ -19581,8 +19527,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 362,
-      "RANG": 362,
+      "Rang_ligue": 361,
+      "RANG": 361,
       "NO_LICENCE": "0997515F",
       "NOM_PERSONNE": "MESSAGER",
       "PRENOM_PERSONNE": "Sean",
@@ -19608,8 +19554,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 363,
-      "RANG": 363,
+      "Rang_ligue": 362,
+      "RANG": 362,
       "NO_LICENCE": "0847129T",
       "NOM_PERSONNE": "HARDY",
       "PRENOM_PERSONNE": "Quentin",
@@ -19635,8 +19581,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 364,
-      "RANG": 364,
+      "Rang_ligue": 363,
+      "RANG": 363,
       "NO_LICENCE": "1034716M",
       "NOM_PERSONNE": "GENTREAU",
       "PRENOM_PERSONNE": "Valentin",
@@ -19662,8 +19608,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 365,
-      "RANG": 365,
+      "Rang_ligue": 364,
+      "RANG": 364,
       "NO_LICENCE": "1013481T",
       "NOM_PERSONNE": "RABU",
       "PRENOM_PERSONNE": "Patrick",
@@ -19689,8 +19635,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 366,
-      "RANG": 366,
+      "Rang_ligue": 365,
+      "RANG": 365,
       "NO_LICENCE": "0980126E",
       "NOM_PERSONNE": "FILLONNEAU",
       "PRENOM_PERSONNE": "Frederic",
@@ -19716,8 +19662,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 367,
-      "RANG": 367,
+      "Rang_ligue": 366,
+      "RANG": 366,
       "NO_LICENCE": "0451773H",
       "NOM_PERSONNE": "WEISS",
       "PRENOM_PERSONNE": "Jacky",
@@ -19743,8 +19689,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 368,
-      "RANG": 368,
+      "Rang_ligue": 367,
+      "RANG": 367,
       "NO_LICENCE": "1032519Z",
       "NOM_PERSONNE": "JAFFRE",
       "PRENOM_PERSONNE": "Marcel",
@@ -19770,8 +19716,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 369,
-      "RANG": 369,
+      "Rang_ligue": 368,
+      "RANG": 368,
       "NO_LICENCE": "0010175K",
       "NOM_PERSONNE": "LANDREAU",
       "PRENOM_PERSONNE": "David",
@@ -19797,8 +19743,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 370,
-      "RANG": 370,
+      "Rang_ligue": 369,
+      "RANG": 369,
       "NO_LICENCE": "0995503U",
       "NOM_PERSONNE": "VENDE",
       "PRENOM_PERSONNE": "Gregory",
@@ -19824,8 +19770,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 371,
-      "RANG": 371,
+      "Rang_ligue": 370,
+      "RANG": 370,
       "NO_LICENCE": "0225004V",
       "NOM_PERSONNE": "PROUST",
       "PRENOM_PERSONNE": "Michel",
@@ -19851,8 +19797,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 372,
-      "RANG": 372,
+      "Rang_ligue": 371,
+      "RANG": 371,
       "NO_LICENCE": "0924494K",
       "NOM_PERSONNE": "SURCQ",
       "PRENOM_PERSONNE": "Adrien",
@@ -19878,8 +19824,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 373,
-      "RANG": 373,
+      "Rang_ligue": 372,
+      "RANG": 372,
       "NO_LICENCE": "1018199F",
       "NOM_PERSONNE": "BAUDROUET",
       "PRENOM_PERSONNE": "Yohann",
@@ -19905,8 +19851,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 374,
-      "RANG": 374,
+      "Rang_ligue": 373,
+      "RANG": 373,
       "NO_LICENCE": "0403205S",
       "NOM_PERSONNE": "CAMBOT",
       "PRENOM_PERSONNE": "Florian",
@@ -19932,8 +19878,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 375,
-      "RANG": 375,
+      "Rang_ligue": 374,
+      "RANG": 374,
       "NO_LICENCE": "0054485Y",
       "NOM_PERSONNE": "AMIOT",
       "PRENOM_PERSONNE": "Serge",
@@ -19959,8 +19905,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 376,
-      "RANG": 376,
+      "Rang_ligue": 375,
+      "RANG": 375,
       "NO_LICENCE": "0040107V",
       "NOM_PERSONNE": "ALLARD",
       "PRENOM_PERSONNE": "Sebastien",
@@ -19986,8 +19932,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 377,
-      "RANG": 377,
+      "Rang_ligue": 376,
+      "RANG": 376,
       "NO_LICENCE": "0782769L",
       "NOM_PERSONNE": "CHAMBIRON",
       "PRENOM_PERSONNE": "Nicolas",
@@ -20013,8 +19959,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 378,
-      "RANG": 378,
+      "Rang_ligue": 377,
+      "RANG": 377,
       "NO_LICENCE": "1041999P",
       "NOM_PERSONNE": "COUTANT",
       "PRENOM_PERSONNE": "Anthony",
@@ -20040,8 +19986,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 379,
-      "RANG": 379,
+      "Rang_ligue": 378,
+      "RANG": 378,
       "NO_LICENCE": "1009659T",
       "NOM_PERSONNE": "GASNIER",
       "PRENOM_PERSONNE": "Kévin",
@@ -20067,8 +20013,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 380,
-      "RANG": 380,
+      "Rang_ligue": 379,
+      "RANG": 379,
       "NO_LICENCE": "0982428G",
       "NOM_PERSONNE": "DEFER",
       "PRENOM_PERSONNE": "Jacky",
@@ -20094,8 +20040,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 381,
-      "RANG": 381,
+      "Rang_ligue": 380,
+      "RANG": 380,
       "NO_LICENCE": "1043823T",
       "NOM_PERSONNE": "BOURGEAIS",
       "PRENOM_PERSONNE": "Marc",
@@ -20121,8 +20067,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 382,
-      "RANG": 382,
+      "Rang_ligue": 381,
+      "RANG": 381,
       "NO_LICENCE": "0846828R",
       "NOM_PERSONNE": "DENIEULLE",
       "PRENOM_PERSONNE": "Eric",
@@ -20148,8 +20094,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 383,
-      "RANG": 383,
+      "Rang_ligue": 382,
+      "RANG": 382,
       "NO_LICENCE": "0426043R",
       "NOM_PERSONNE": "MARTIN",
       "PRENOM_PERSONNE": "Philippe",
@@ -20175,8 +20121,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 384,
-      "RANG": 384,
+      "Rang_ligue": 383,
+      "RANG": 383,
       "NO_LICENCE": "0011954U",
       "NOM_PERSONNE": "ROSSI",
       "PRENOM_PERSONNE": "Alain",
@@ -20202,8 +20148,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 385,
-      "RANG": 385,
+      "Rang_ligue": 384,
+      "RANG": 384,
       "NO_LICENCE": "0004403L",
       "NOM_PERSONNE": "LIPP",
       "PRENOM_PERSONNE": "Nathanael",
@@ -20229,8 +20175,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 386,
-      "RANG": 386,
+      "Rang_ligue": 385,
+      "RANG": 385,
       "NO_LICENCE": "0977929S",
       "NOM_PERSONNE": "GROSEIL",
       "PRENOM_PERSONNE": "Nolan",
@@ -20256,8 +20202,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 387,
-      "RANG": 387,
+      "Rang_ligue": 386,
+      "RANG": 386,
       "NO_LICENCE": "0707078N",
       "NOM_PERSONNE": "FERNANDEZ",
       "PRENOM_PERSONNE": "Jose manuel",
@@ -20283,8 +20229,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 388,
-      "RANG": 388,
+      "Rang_ligue": 387,
+      "RANG": 387,
       "NO_LICENCE": "0943042W",
       "NOM_PERSONNE": "BASSARD",
       "PRENOM_PERSONNE": "Hubert",
@@ -20310,8 +20256,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 389,
-      "RANG": 389,
+      "Rang_ligue": 388,
+      "RANG": 388,
       "NO_LICENCE": "0027447J",
       "NOM_PERSONNE": "LEROUX",
       "PRENOM_PERSONNE": "Jeanpierre",
@@ -20337,8 +20283,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 390,
-      "RANG": 390,
+      "Rang_ligue": 389,
+      "RANG": 389,
       "NO_LICENCE": "0022763T",
       "NOM_PERSONNE": "MAUDET",
       "PRENOM_PERSONNE": "Lucas",
@@ -20364,8 +20310,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 391,
-      "RANG": 391,
+      "Rang_ligue": 390,
+      "RANG": 390,
       "NO_LICENCE": "0764790U",
       "NOM_PERSONNE": "BIZOLIER",
       "PRENOM_PERSONNE": "Quentin",
@@ -20391,8 +20337,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 392,
-      "RANG": 392,
+      "Rang_ligue": 391,
+      "RANG": 391,
       "NO_LICENCE": "0899314R",
       "NOM_PERSONNE": "GIRAUD",
       "PRENOM_PERSONNE": "Ethan",
@@ -20418,8 +20364,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 393,
-      "RANG": 393,
+      "Rang_ligue": 392,
+      "RANG": 392,
       "NO_LICENCE": "1030425L",
       "NOM_PERSONNE": "AIRAULT",
       "PRENOM_PERSONNE": "Gabriel",
@@ -20445,8 +20391,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 394,
-      "RANG": 394,
+      "Rang_ligue": 393,
+      "RANG": 393,
       "NO_LICENCE": "0334349Y",
       "NOM_PERSONNE": "ANGOT",
       "PRENOM_PERSONNE": "Christian",
@@ -20472,8 +20418,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 395,
-      "RANG": 395,
+      "Rang_ligue": 394,
+      "RANG": 394,
       "NO_LICENCE": "0944226H",
       "NOM_PERSONNE": "CORNIERE",
       "PRENOM_PERSONNE": "Gwendal",
@@ -20499,8 +20445,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 396,
-      "RANG": 396,
+      "Rang_ligue": 395,
+      "RANG": 395,
       "NO_LICENCE": "0229399X",
       "NOM_PERSONNE": "DELHOMMEAU",
       "PRENOM_PERSONNE": "Roger",
@@ -20526,8 +20472,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 397,
-      "RANG": 397,
+      "Rang_ligue": 396,
+      "RANG": 396,
       "NO_LICENCE": "0970994D",
       "NOM_PERSONNE": "BOUTOLLEAU",
       "PRENOM_PERSONNE": "Luc",
@@ -20553,8 +20499,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 398,
-      "RANG": 398,
+      "Rang_ligue": 397,
+      "RANG": 397,
       "NO_LICENCE": "1010605D",
       "NOM_PERSONNE": "MONNY",
       "PRENOM_PERSONNE": "Gerard",
@@ -20580,8 +20526,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 399,
-      "RANG": 399,
+      "Rang_ligue": 398,
+      "RANG": 398,
       "NO_LICENCE": "0042596A",
       "NOM_PERSONNE": "CARABASSE",
       "PRENOM_PERSONNE": "Yoann",
@@ -20607,8 +20553,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 400,
-      "RANG": 400,
+      "Rang_ligue": 399,
+      "RANG": 399,
       "NO_LICENCE": "0056113T",
       "NOM_PERSONNE": "RUCHAUD",
       "PRENOM_PERSONNE": "Philippe",
@@ -20634,8 +20580,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 401,
-      "RANG": 401,
+      "Rang_ligue": 400,
+      "RANG": 400,
       "NO_LICENCE": "0826591U",
       "NOM_PERSONNE": "DELRUE",
       "PRENOM_PERSONNE": "Sebastien",
@@ -20661,8 +20607,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 402,
-      "RANG": 402,
+      "Rang_ligue": 401,
+      "RANG": 401,
       "NO_LICENCE": "1047095P",
       "NOM_PERSONNE": "FONTENEAU",
       "PRENOM_PERSONNE": "Didier",
@@ -20688,8 +20634,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 403,
-      "RANG": 403,
+      "Rang_ligue": 402,
+      "RANG": 402,
       "NO_LICENCE": "0916691D",
       "NOM_PERSONNE": "PEAUD",
       "PRENOM_PERSONNE": "James",
@@ -20715,8 +20661,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 404,
-      "RANG": 404,
+      "Rang_ligue": 403,
+      "RANG": 403,
       "NO_LICENCE": "1052518E",
       "NOM_PERSONNE": "ROCHER",
       "PRENOM_PERSONNE": "Patrice",
@@ -20742,8 +20688,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 405,
-      "RANG": 405,
+      "Rang_ligue": 404,
+      "RANG": 404,
       "NO_LICENCE": "1032518Y",
       "NOM_PERSONNE": "FERNANDE",
       "PRENOM_PERSONNE": "Nicolas",
@@ -20769,8 +20715,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 406,
-      "RANG": 406,
+      "Rang_ligue": 405,
+      "RANG": 405,
       "NO_LICENCE": "0025552Z",
       "NOM_PERSONNE": "HUCHET",
       "PRENOM_PERSONNE": "Paul",
@@ -20796,8 +20742,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 407,
-      "RANG": 407,
+      "Rang_ligue": 406,
+      "RANG": 406,
       "NO_LICENCE": "0816803E",
       "NOM_PERSONNE": "FOUCHET",
       "PRENOM_PERSONNE": "Raymond",
@@ -20823,8 +20769,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 408,
-      "RANG": 408,
+      "Rang_ligue": 407,
+      "RANG": 407,
       "NO_LICENCE": "0458777W",
       "NOM_PERSONNE": "MENARD",
       "PRENOM_PERSONNE": "Florian",
@@ -20850,8 +20796,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 409,
-      "RANG": 409,
+      "Rang_ligue": 408,
+      "RANG": 408,
       "NO_LICENCE": "0921191V",
       "NOM_PERSONNE": "BOUTET",
       "PRENOM_PERSONNE": "Jacques",
@@ -20877,8 +20823,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 410,
-      "RANG": 410,
+      "Rang_ligue": 409,
+      "RANG": 409,
       "NO_LICENCE": "1028505P",
       "NOM_PERSONNE": "BONIN",
       "PRENOM_PERSONNE": "Kévin",
@@ -20904,8 +20850,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 411,
-      "RANG": 411,
+      "Rang_ligue": 410,
+      "RANG": 410,
       "NO_LICENCE": "0038064Z",
       "NOM_PERSONNE": "VULLIN",
       "PRENOM_PERSONNE": "Michel",
@@ -20931,8 +20877,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 412,
-      "RANG": 412,
+      "Rang_ligue": 411,
+      "RANG": 411,
       "NO_LICENCE": "0671987W",
       "NOM_PERSONNE": "BALS",
       "PRENOM_PERSONNE": "Jean louis",
@@ -20958,8 +20904,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 413,
-      "RANG": 413,
+      "Rang_ligue": 412,
+      "RANG": 412,
       "NO_LICENCE": "0975681Y",
       "NOM_PERSONNE": "LESAGE",
       "PRENOM_PERSONNE": "Christian",
@@ -20985,8 +20931,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 414,
-      "RANG": 414,
+      "Rang_ligue": 413,
+      "RANG": 413,
       "NO_LICENCE": "0720910Y",
       "NOM_PERSONNE": "LODE",
       "PRENOM_PERSONNE": "Gael",
@@ -21012,8 +20958,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 415,
-      "RANG": 415,
+      "Rang_ligue": 414,
+      "RANG": 414,
       "NO_LICENCE": "1030494C",
       "NOM_PERSONNE": "JUGIAU",
       "PRENOM_PERSONNE": "Christophe",
@@ -21039,8 +20985,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 416,
-      "RANG": 416,
+      "Rang_ligue": 415,
+      "RANG": 415,
       "NO_LICENCE": "1041981X",
       "NOM_PERSONNE": "OLIVIER",
       "PRENOM_PERSONNE": "Quentin",
@@ -21066,8 +21012,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 417,
-      "RANG": 417,
+      "Rang_ligue": 416,
+      "RANG": 416,
       "NO_LICENCE": "1004693T",
       "NOM_PERSONNE": "QUAIREAU",
       "PRENOM_PERSONNE": "Yoan",
@@ -21093,8 +21039,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 418,
-      "RANG": 418,
+      "Rang_ligue": 417,
+      "RANG": 417,
       "NO_LICENCE": "0005654W",
       "NOM_PERSONNE": "SIGOGNE",
       "PRENOM_PERSONNE": "Alain",
@@ -21120,8 +21066,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 419,
-      "RANG": 419,
+      "Rang_ligue": 418,
+      "RANG": 418,
       "NO_LICENCE": "1026657N",
       "NOM_PERSONNE": "CHAUSSEPIED",
       "PRENOM_PERSONNE": "Jérémy",
@@ -21147,8 +21093,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 420,
-      "RANG": 420,
+      "Rang_ligue": 419,
+      "RANG": 419,
       "NO_LICENCE": "0596108U",
       "NOM_PERSONNE": "BREGEON",
       "PRENOM_PERSONNE": "Fabien",
@@ -21174,8 +21120,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 421,
-      "RANG": 421,
+      "Rang_ligue": 420,
+      "RANG": 420,
       "NO_LICENCE": "0746237C",
       "NOM_PERSONNE": "NOVERRAZ",
       "PRENOM_PERSONNE": "Samuel",
@@ -21201,8 +21147,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 422,
-      "RANG": 422,
+      "Rang_ligue": 421,
+      "RANG": 421,
       "NO_LICENCE": "0960081S",
       "NOM_PERSONNE": "GUERIN",
       "PRENOM_PERSONNE": "Gaetan",
@@ -21228,8 +21174,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 423,
-      "RANG": 423,
+      "Rang_ligue": 422,
+      "RANG": 422,
       "NO_LICENCE": "0830607J",
       "NOM_PERSONNE": "HECK",
       "PRENOM_PERSONNE": "Valentin",
@@ -21255,8 +21201,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 424,
-      "RANG": 424,
+      "Rang_ligue": 423,
+      "RANG": 423,
       "NO_LICENCE": "1031322Y",
       "NOM_PERSONNE": "DELAUNAY",
       "PRENOM_PERSONNE": "Antoine",
@@ -21282,8 +21228,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 425,
-      "RANG": 425,
+      "Rang_ligue": 424,
+      "RANG": 424,
       "NO_LICENCE": "0063682V",
       "NOM_PERSONNE": "BUCHER",
       "PRENOM_PERSONNE": "Jean pierre",
@@ -21309,8 +21255,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 426,
-      "RANG": 426,
+      "Rang_ligue": 425,
+      "RANG": 425,
       "NO_LICENCE": "0914372H",
       "NOM_PERSONNE": "TIGNER",
       "PRENOM_PERSONNE": "Pierre",
@@ -21336,8 +21282,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 427,
-      "RANG": 427,
+      "Rang_ligue": 426,
+      "RANG": 426,
       "NO_LICENCE": "0051676V",
       "NOM_PERSONNE": "MACHEFER",
       "PRENOM_PERSONNE": "Cedric",
@@ -21363,8 +21309,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 428,
-      "RANG": 428,
+      "Rang_ligue": 427,
+      "RANG": 427,
       "NO_LICENCE": "0079206U",
       "NOM_PERSONNE": "GROSEIL",
       "PRENOM_PERSONNE": "Thierry",
@@ -21390,8 +21336,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 429,
-      "RANG": 429,
+      "Rang_ligue": 428,
+      "RANG": 428,
       "NO_LICENCE": "1040834U",
       "NOM_PERSONNE": "MADEC",
       "PRENOM_PERSONNE": "Christian",
@@ -21417,8 +21363,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 430,
-      "RANG": 430,
+      "Rang_ligue": 429,
+      "RANG": 429,
       "NO_LICENCE": "1025605B",
       "NOM_PERSONNE": "TUSSEAU",
       "PRENOM_PERSONNE": "Jean-françois",
@@ -21444,8 +21390,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 431,
-      "RANG": 431,
+      "Rang_ligue": 430,
+      "RANG": 430,
       "NO_LICENCE": "1057054Q",
       "NOM_PERSONNE": "ROBERT",
       "PRENOM_PERSONNE": "Jean marie",
@@ -21471,8 +21417,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 432,
-      "RANG": 432,
+      "Rang_ligue": 431,
+      "RANG": 431,
       "NO_LICENCE": "1001893B",
       "NOM_PERSONNE": "BIROT",
       "PRENOM_PERSONNE": "Yvonnick",
@@ -21498,8 +21444,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 433,
-      "RANG": 433,
+      "Rang_ligue": 432,
+      "RANG": 432,
       "NO_LICENCE": "1009013X",
       "NOM_PERSONNE": "STRAUSS",
       "PRENOM_PERSONNE": "Gino",
@@ -21525,8 +21471,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 434,
-      "RANG": 434,
+      "Rang_ligue": 433,
+      "RANG": 433,
       "NO_LICENCE": "1033787T",
       "NOM_PERSONNE": "CORNEC",
       "PRENOM_PERSONNE": "Robin",
@@ -21552,8 +21498,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 435,
-      "RANG": 435,
+      "Rang_ligue": 434,
+      "RANG": 434,
       "NO_LICENCE": "0018792B",
       "NOM_PERSONNE": "DION",
       "PRENOM_PERSONNE": "Mickael",
@@ -21579,8 +21525,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 436,
-      "RANG": 436,
+      "Rang_ligue": 435,
+      "RANG": 435,
       "NO_LICENCE": "1053529B",
       "NOM_PERSONNE": "DOUBLET-VEILLAT",
       "PRENOM_PERSONNE": "Willy",
@@ -21606,8 +21552,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 437,
-      "RANG": 437,
+      "Rang_ligue": 436,
+      "RANG": 436,
       "NO_LICENCE": "0663996K",
       "NOM_PERSONNE": "VIOT",
       "PRENOM_PERSONNE": "Damien",
@@ -21633,8 +21579,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 438,
-      "RANG": 438,
+      "Rang_ligue": 437,
+      "RANG": 437,
       "NO_LICENCE": "0729932E",
       "NOM_PERSONNE": "MENGUY",
       "PRENOM_PERSONNE": "Franck",
@@ -21660,8 +21606,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 439,
-      "RANG": 439,
+      "Rang_ligue": 438,
+      "RANG": 438,
       "NO_LICENCE": "0981461F",
       "NOM_PERSONNE": "BEAUDOIN",
       "PRENOM_PERSONNE": "Nathan",
@@ -21687,8 +21633,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 440,
-      "RANG": 440,
+      "Rang_ligue": 439,
+      "RANG": 439,
       "NO_LICENCE": "0910822Z",
       "NOM_PERSONNE": "SEMETEY",
       "PRENOM_PERSONNE": "Simon",
@@ -21714,8 +21660,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 441,
-      "RANG": 441,
+      "Rang_ligue": 440,
+      "RANG": 440,
       "NO_LICENCE": "0051685E",
       "NOM_PERSONNE": "GALLET",
       "PRENOM_PERSONNE": "Serge",
@@ -21741,8 +21687,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 442,
-      "RANG": 442,
+      "Rang_ligue": 441,
+      "RANG": 441,
       "NO_LICENCE": "0786603D",
       "NOM_PERSONNE": "JEANNEAU",
       "PRENOM_PERSONNE": "Michel",
@@ -21768,8 +21714,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 443,
-      "RANG": 443,
+      "Rang_ligue": 442,
+      "RANG": 442,
       "NO_LICENCE": "1000566A",
       "NOM_PERSONNE": "VITRY",
       "PRENOM_PERSONNE": "Jean christophe",
@@ -21795,8 +21741,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 444,
-      "RANG": 444,
+      "Rang_ligue": 443,
+      "RANG": 443,
       "NO_LICENCE": "0700301X",
       "NOM_PERSONNE": "GUIGNOT",
       "PRENOM_PERSONNE": "Killian",
@@ -21822,8 +21768,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 445,
-      "RANG": 445,
+      "Rang_ligue": 444,
+      "RANG": 444,
       "NO_LICENCE": "0785933A",
       "NOM_PERSONNE": "HOUDAYER",
       "PRENOM_PERSONNE": "Jean yves",
@@ -21849,8 +21795,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 446,
-      "RANG": 446,
+      "Rang_ligue": 445,
+      "RANG": 445,
       "NO_LICENCE": "0957579X",
       "NOM_PERSONNE": "BLANCHOUIN",
       "PRENOM_PERSONNE": "Alexis",
@@ -21876,8 +21822,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 447,
-      "RANG": 447,
+      "Rang_ligue": 446,
+      "RANG": 446,
       "NO_LICENCE": "0811304C",
       "NOM_PERSONNE": "DENIEL",
       "PRENOM_PERSONNE": "Corentin",
@@ -21903,8 +21849,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 448,
-      "RANG": 448,
+      "Rang_ligue": 447,
+      "RANG": 447,
       "NO_LICENCE": "0255460Z",
       "NOM_PERSONNE": "COUDRET",
       "PRENOM_PERSONNE": "Yves",
@@ -21930,8 +21876,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 449,
-      "RANG": 449,
+      "Rang_ligue": 448,
+      "RANG": 448,
       "NO_LICENCE": "1017290G",
       "NOM_PERSONNE": "RICHARD",
       "PRENOM_PERSONNE": "Gaël",
@@ -21957,8 +21903,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 450,
-      "RANG": 450,
+      "Rang_ligue": 449,
+      "RANG": 449,
       "NO_LICENCE": "1024351V",
       "NOM_PERSONNE": "HAGUE",
       "PRENOM_PERSONNE": "Mickael",
@@ -21984,8 +21930,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 451,
-      "RANG": 451,
+      "Rang_ligue": 450,
+      "RANG": 450,
       "NO_LICENCE": "0945783A",
       "NOM_PERSONNE": "LAURET-COLIN",
       "PRENOM_PERSONNE": "Loic",
@@ -22011,8 +21957,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 452,
-      "RANG": 452,
+      "Rang_ligue": 451,
+      "RANG": 451,
       "NO_LICENCE": "1038957P",
       "NOM_PERSONNE": "FRANCO SANCHEZ",
       "PRENOM_PERSONNE": "Guillaume",
@@ -22038,8 +21984,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 453,
-      "RANG": 453,
+      "Rang_ligue": 452,
+      "RANG": 452,
       "NO_LICENCE": "1044088Y",
       "NOM_PERSONNE": "LAIDIN",
       "PRENOM_PERSONNE": "Franck",
@@ -22065,8 +22011,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 454,
-      "RANG": 454,
+      "Rang_ligue": 453,
+      "RANG": 453,
       "NO_LICENCE": "0884171F",
       "NOM_PERSONNE": "GRIGNON",
       "PRENOM_PERSONNE": "Philippe",
@@ -22092,8 +22038,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 455,
-      "RANG": 455,
+      "Rang_ligue": 454,
+      "RANG": 454,
       "NO_LICENCE": "0016198G",
       "NOM_PERSONNE": "HERVY",
       "PRENOM_PERSONNE": "Jean-baptiste",
@@ -22119,8 +22065,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 456,
-      "RANG": 456,
+      "Rang_ligue": 455,
+      "RANG": 455,
       "NO_LICENCE": "0745691J",
       "NOM_PERSONNE": "DAHERON",
       "PRENOM_PERSONNE": "Jimmy",
@@ -22146,8 +22092,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 457,
-      "RANG": 457,
+      "Rang_ligue": 456,
+      "RANG": 456,
       "NO_LICENCE": "0907004Z",
       "NOM_PERSONNE": "BOISSONNEAU",
       "PRENOM_PERSONNE": "Fabrice",
@@ -22173,8 +22119,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 458,
-      "RANG": 458,
+      "Rang_ligue": 457,
+      "RANG": 457,
       "NO_LICENCE": "0042084U",
       "NOM_PERSONNE": "DENIS",
       "PRENOM_PERSONNE": "Ladislas",
@@ -22200,8 +22146,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 459,
-      "RANG": 459,
+      "Rang_ligue": 458,
+      "RANG": 458,
       "NO_LICENCE": "1041413B",
       "NOM_PERSONNE": "MONDOUT",
       "PRENOM_PERSONNE": "Henri-jacques",
@@ -22227,8 +22173,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 460,
-      "RANG": 460,
+      "Rang_ligue": 459,
+      "RANG": 459,
       "NO_LICENCE": "1006405P",
       "NOM_PERSONNE": "MAUREL",
       "PRENOM_PERSONNE": "Ethan",
@@ -22254,8 +22200,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 461,
-      "RANG": 461,
+      "Rang_ligue": 460,
+      "RANG": 460,
       "NO_LICENCE": "0023318W",
       "NOM_PERSONNE": "LOYEN",
       "PRENOM_PERSONNE": "Clement",
@@ -22281,8 +22227,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 462,
-      "RANG": 462,
+      "Rang_ligue": 461,
+      "RANG": 461,
       "NO_LICENCE": "0006884H",
       "NOM_PERSONNE": "MILLEVILLE",
       "PRENOM_PERSONNE": "Maxence",
@@ -22308,8 +22254,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 463,
-      "RANG": 463,
+      "Rang_ligue": 462,
+      "RANG": 462,
       "NO_LICENCE": "1022611X",
       "NOM_PERSONNE": "BERNARD",
       "PRENOM_PERSONNE": "Florent",
@@ -22335,8 +22281,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 464,
-      "RANG": 464,
+      "Rang_ligue": 463,
+      "RANG": 463,
       "NO_LICENCE": "0015847A",
       "NOM_PERSONNE": "L'HOMME",
       "PRENOM_PERSONNE": "Matteo",
@@ -22362,8 +22308,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 465,
-      "RANG": 465,
+      "Rang_ligue": 464,
+      "RANG": 464,
       "NO_LICENCE": "1036117J",
       "NOM_PERSONNE": "ROUGEAU",
       "PRENOM_PERSONNE": "Gaël",
@@ -22389,8 +22335,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 466,
-      "RANG": 466,
+      "Rang_ligue": 465,
+      "RANG": 465,
       "NO_LICENCE": "0009487M",
       "NOM_PERSONNE": "CHARTRON",
       "PRENOM_PERSONNE": "Adrien",
@@ -22416,8 +22362,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 467,
-      "RANG": 467,
+      "Rang_ligue": 466,
+      "RANG": 466,
       "NO_LICENCE": "0049116M",
       "NOM_PERSONNE": "JABLONSKI",
       "PRENOM_PERSONNE": "Michel",
@@ -22443,8 +22389,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 468,
-      "RANG": 468,
+      "Rang_ligue": 467,
+      "RANG": 467,
       "NO_LICENCE": "0026302P",
       "NOM_PERSONNE": "GENET",
       "PRENOM_PERSONNE": "Alexi",
@@ -22470,8 +22416,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 469,
-      "RANG": 469,
+      "Rang_ligue": 468,
+      "RANG": 468,
       "NO_LICENCE": "0295519S",
       "NOM_PERSONNE": "GALLET",
       "PRENOM_PERSONNE": "Joseph",
@@ -22497,8 +22443,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 470,
-      "RANG": 470,
+      "Rang_ligue": 469,
+      "RANG": 469,
       "NO_LICENCE": "1020424U",
       "NOM_PERSONNE": "MAUZ TIUCA",
       "PRENOM_PERSONNE": "Mattei",
@@ -22524,8 +22470,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 471,
-      "RANG": 471,
+      "Rang_ligue": 470,
+      "RANG": 470,
       "NO_LICENCE": "1048081N",
       "NOM_PERSONNE": "ESTIENNEY",
       "PRENOM_PERSONNE": "Jean-côme",
@@ -22551,8 +22497,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 472,
-      "RANG": 472,
+      "Rang_ligue": 471,
+      "RANG": 471,
       "NO_LICENCE": "1041356W",
       "NOM_PERSONNE": "LEBRETON",
       "PRENOM_PERSONNE": "Alexis",
@@ -22578,8 +22524,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 473,
-      "RANG": 473,
+      "Rang_ligue": 472,
+      "RANG": 472,
       "NO_LICENCE": "1066825L",
       "NOM_PERSONNE": "HEURTEBISE",
       "PRENOM_PERSONNE": "Remy",
@@ -22605,8 +22551,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 474,
-      "RANG": 474,
+      "Rang_ligue": 473,
+      "RANG": 473,
       "NO_LICENCE": "1046018E",
       "NOM_PERSONNE": "RAFIN",
       "PRENOM_PERSONNE": "Romain",
@@ -22632,8 +22578,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 475,
-      "RANG": 475,
+      "Rang_ligue": 474,
+      "RANG": 474,
       "NO_LICENCE": "1031467N",
       "NOM_PERSONNE": "POUPARD",
       "PRENOM_PERSONNE": "Vincent",
@@ -22659,8 +22605,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 476,
-      "RANG": 476,
+      "Rang_ligue": 475,
+      "RANG": 475,
       "NO_LICENCE": "0375505H",
       "NOM_PERSONNE": "GERBAUD",
       "PRENOM_PERSONNE": "Francis",
@@ -22686,8 +22632,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 477,
-      "RANG": 477,
+      "Rang_ligue": 476,
+      "RANG": 476,
       "NO_LICENCE": "0049304S",
       "NOM_PERSONNE": "CAUVIN",
       "PRENOM_PERSONNE": "Pierre",
@@ -22713,8 +22659,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 478,
-      "RANG": 478,
+      "Rang_ligue": 477,
+      "RANG": 477,
       "NO_LICENCE": "0992130C",
       "NOM_PERSONNE": "TORCHE",
       "PRENOM_PERSONNE": "Mickael",
@@ -22740,8 +22686,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 479,
-      "RANG": 479,
+      "Rang_ligue": 478,
+      "RANG": 478,
       "NO_LICENCE": "1029693H",
       "NOM_PERSONNE": "QUERVILLE",
       "PRENOM_PERSONNE": "David",
@@ -22767,8 +22713,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 480,
-      "RANG": 480,
+      "Rang_ligue": 479,
+      "RANG": 479,
       "NO_LICENCE": "0029148H",
       "NOM_PERSONNE": "MASSONNEAU",
       "PRENOM_PERSONNE": "Evan",
@@ -22794,8 +22740,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 481,
-      "RANG": 481,
+      "Rang_ligue": 480,
+      "RANG": 480,
       "NO_LICENCE": "0962897C",
       "NOM_PERSONNE": "FRANCHET",
       "PRENOM_PERSONNE": "Thomas",
@@ -22821,8 +22767,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 482,
-      "RANG": 482,
+      "Rang_ligue": 481,
+      "RANG": 481,
       "NO_LICENCE": "0050295U",
       "NOM_PERSONNE": "ALAMI OUEHHABI",
       "PRENOM_PERSONNE": "Mounir",
@@ -22848,8 +22794,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 483,
-      "RANG": 483,
+      "Rang_ligue": 482,
+      "RANG": 482,
       "NO_LICENCE": "1033094C",
       "NOM_PERSONNE": "PITOCCO",
       "PRENOM_PERSONNE": "Florent",
@@ -22875,8 +22821,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 484,
-      "RANG": 484,
+      "Rang_ligue": 483,
+      "RANG": 483,
       "NO_LICENCE": "1033871Z",
       "NOM_PERSONNE": "MAKAROF",
       "PRENOM_PERSONNE": "Sébastien",
@@ -22902,8 +22848,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 485,
-      "RANG": 485,
+      "Rang_ligue": 484,
+      "RANG": 484,
       "NO_LICENCE": "0973914C",
       "NOM_PERSONNE": "MISRAKI-DUPUIS",
       "PRENOM_PERSONNE": "Mael",
@@ -22929,8 +22875,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 486,
-      "RANG": 486,
+      "Rang_ligue": 485,
+      "RANG": 485,
       "NO_LICENCE": "0067007J",
       "NOM_PERSONNE": "THOMAS",
       "PRENOM_PERSONNE": "Michel",
@@ -22956,8 +22902,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 487,
-      "RANG": 487,
+      "Rang_ligue": 486,
+      "RANG": 486,
       "NO_LICENCE": "1060496A",
       "NOM_PERSONNE": "NISSLE",
       "PRENOM_PERSONNE": "David",
@@ -22983,8 +22929,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 488,
-      "RANG": 488,
+      "Rang_ligue": 487,
+      "RANG": 487,
       "NO_LICENCE": "0985008L",
       "NOM_PERSONNE": "COURNEE",
       "PRENOM_PERSONNE": "Florian",
@@ -23010,8 +22956,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 489,
-      "RANG": 489,
+      "Rang_ligue": 488,
+      "RANG": 488,
       "NO_LICENCE": "1040327H",
       "NOM_PERSONNE": "GOURLAOUEN",
       "PRENOM_PERSONNE": "Alexandre",
@@ -23037,8 +22983,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 490,
-      "RANG": 490,
+      "Rang_ligue": 489,
+      "RANG": 489,
       "NO_LICENCE": "0890276S",
       "NOM_PERSONNE": "LAURENT",
       "PRENOM_PERSONNE": "Fabrice",
@@ -23064,8 +23010,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 491,
-      "RANG": 491,
+      "Rang_ligue": 490,
+      "RANG": 490,
       "NO_LICENCE": "0994370M",
       "NOM_PERSONNE": "DENIS",
       "PRENOM_PERSONNE": "David",
@@ -23091,8 +23037,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 492,
-      "RANG": 492,
+      "Rang_ligue": 491,
+      "RANG": 491,
       "NO_LICENCE": "0450647J",
       "NOM_PERSONNE": "PORTRON",
       "PRENOM_PERSONNE": "Gerard",
@@ -23118,8 +23064,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 493,
-      "RANG": 493,
+      "Rang_ligue": 492,
+      "RANG": 492,
       "NO_LICENCE": "1036503F",
       "NOM_PERSONNE": "DENEUVILLE",
       "PRENOM_PERSONNE": "Baptiste",
@@ -23145,8 +23091,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 494,
-      "RANG": 494,
+      "Rang_ligue": 493,
+      "RANG": 493,
       "NO_LICENCE": "1030145R",
       "NOM_PERSONNE": "CHARTEAU",
       "PRENOM_PERSONNE": "Jean yves",
@@ -23172,8 +23118,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 495,
-      "RANG": 495,
+      "Rang_ligue": 494,
+      "RANG": 494,
       "NO_LICENCE": "0931840V",
       "NOM_PERSONNE": "CORMIER",
       "PRENOM_PERSONNE": "Christophe",
@@ -23199,8 +23145,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 496,
-      "RANG": 496,
+      "Rang_ligue": 495,
+      "RANG": 495,
       "NO_LICENCE": "0018643P",
       "NOM_PERSONNE": "VILLENEUVE",
       "PRENOM_PERSONNE": "Laurent",
@@ -23226,8 +23172,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 497,
-      "RANG": 497,
+      "Rang_ligue": 496,
+      "RANG": 496,
       "NO_LICENCE": "0464299Y",
       "NOM_PERSONNE": "MOQUET",
       "PRENOM_PERSONNE": "Dominique",
@@ -23253,8 +23199,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 498,
-      "RANG": 498,
+      "Rang_ligue": 497,
+      "RANG": 497,
       "NO_LICENCE": "0301080L",
       "NOM_PERSONNE": "MONTAUDON",
       "PRENOM_PERSONNE": "Eric",
@@ -23280,8 +23226,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 499,
-      "RANG": 499,
+      "Rang_ligue": 498,
+      "RANG": 498,
       "NO_LICENCE": "1032614Q",
       "NOM_PERSONNE": "ESNAULT",
       "PRENOM_PERSONNE": "Mickaël",
@@ -23307,8 +23253,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 500,
-      "RANG": 500,
+      "Rang_ligue": 499,
+      "RANG": 499,
       "NO_LICENCE": "0817253U",
       "NOM_PERSONNE": "DUBE",
       "PRENOM_PERSONNE": "Jerome",
@@ -23334,8 +23280,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 501,
-      "RANG": 501,
+      "Rang_ligue": 500,
+      "RANG": 500,
       "NO_LICENCE": "1069635N",
       "NOM_PERSONNE": "DUBAS",
       "PRENOM_PERSONNE": "Nicolas",
@@ -23361,8 +23307,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 502,
-      "RANG": 502,
+      "Rang_ligue": 501,
+      "RANG": 501,
       "NO_LICENCE": "1037099D",
       "NOM_PERSONNE": "PONCELET",
       "PRENOM_PERSONNE": "Didier",
@@ -23388,8 +23334,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 503,
-      "RANG": 503,
+      "Rang_ligue": 502,
+      "RANG": 502,
       "NO_LICENCE": "0051686F",
       "NOM_PERSONNE": "BOSSARD",
       "PRENOM_PERSONNE": "Patrick",
@@ -23415,8 +23361,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 504,
-      "RANG": 504,
+      "Rang_ligue": 503,
+      "RANG": 503,
       "NO_LICENCE": "0912155Y",
       "NOM_PERSONNE": "BEAUVILLAIN",
       "PRENOM_PERSONNE": "Yves",
@@ -23442,8 +23388,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 505,
-      "RANG": 505,
+      "Rang_ligue": 504,
+      "RANG": 504,
       "NO_LICENCE": "1034483N",
       "NOM_PERSONNE": "LEROUX",
       "PRENOM_PERSONNE": "Alain",
@@ -23469,8 +23415,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 506,
-      "RANG": 506,
+      "Rang_ligue": 505,
+      "RANG": 505,
       "NO_LICENCE": "0968396E",
       "NOM_PERSONNE": "MEUNIER",
       "PRENOM_PERSONNE": "Elie",
@@ -23496,8 +23442,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 507,
-      "RANG": 507,
+      "Rang_ligue": 506,
+      "RANG": 506,
       "NO_LICENCE": "1006968G",
       "NOM_PERSONNE": "TECHER",
       "PRENOM_PERSONNE": "Zyan",
@@ -23523,8 +23469,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 508,
-      "RANG": 508,
+      "Rang_ligue": 507,
+      "RANG": 507,
       "NO_LICENCE": "0404385Z",
       "NOM_PERSONNE": "HAMON",
       "PRENOM_PERSONNE": "Steve",
@@ -23550,8 +23496,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 509,
-      "RANG": 509,
+      "Rang_ligue": 508,
+      "RANG": 508,
       "NO_LICENCE": "1012737D",
       "NOM_PERSONNE": "THUON",
       "PRENOM_PERSONNE": "Thierry",
@@ -23577,8 +23523,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 510,
-      "RANG": 510,
+      "Rang_ligue": 509,
+      "RANG": 509,
       "NO_LICENCE": "0885073L",
       "NOM_PERSONNE": "LAURENT",
       "PRENOM_PERSONNE": "Pascal",
@@ -23604,8 +23550,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 511,
-      "RANG": 511,
+      "Rang_ligue": 510,
+      "RANG": 510,
       "NO_LICENCE": "1048082O",
       "NOM_PERSONNE": "ROBINOT",
       "PRENOM_PERSONNE": "Victorien",
@@ -23631,8 +23577,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 512,
-      "RANG": 512,
+      "Rang_ligue": 511,
+      "RANG": 511,
       "NO_LICENCE": "1035924Y",
       "NOM_PERSONNE": "DOUDEAU",
       "PRENOM_PERSONNE": "Fabien",
@@ -23658,8 +23604,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 513,
-      "RANG": 513,
+      "Rang_ligue": 512,
+      "RANG": 512,
       "NO_LICENCE": "0045149A",
       "NOM_PERSONNE": "PAUL",
       "PRENOM_PERSONNE": "Olivier",
@@ -23685,8 +23631,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 514,
-      "RANG": 514,
+      "Rang_ligue": 513,
+      "RANG": 513,
       "NO_LICENCE": "0033219H",
       "NOM_PERSONNE": "COMTOIS",
       "PRENOM_PERSONNE": "Tom",
@@ -23712,8 +23658,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 515,
-      "RANG": 515,
+      "Rang_ligue": 514,
+      "RANG": 514,
       "NO_LICENCE": "0909264F",
       "NOM_PERSONNE": "BERRUER",
       "PRENOM_PERSONNE": "Mathis",
@@ -23739,8 +23685,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 516,
-      "RANG": 516,
+      "Rang_ligue": 515,
+      "RANG": 515,
       "NO_LICENCE": "0748431M",
       "NOM_PERSONNE": "GODIER",
       "PRENOM_PERSONNE": "Max",
@@ -23766,8 +23712,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 517,
-      "RANG": 517,
+      "Rang_ligue": 516,
+      "RANG": 516,
       "NO_LICENCE": "0041423A",
       "NOM_PERSONNE": "MONTEIRO",
       "PRENOM_PERSONNE": "Luis",
@@ -23793,8 +23739,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 518,
-      "RANG": 518,
+      "Rang_ligue": 517,
+      "RANG": 517,
       "NO_LICENCE": "0028892E",
       "NOM_PERSONNE": "FIGUREAU",
       "PRENOM_PERSONNE": "Jonathan",
@@ -23820,8 +23766,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 519,
-      "RANG": 519,
+      "Rang_ligue": 518,
+      "RANG": 518,
       "NO_LICENCE": "0014434P",
       "NOM_PERSONNE": "MEUNIER",
       "PRENOM_PERSONNE": "Lorenzo",
@@ -23847,8 +23793,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 520,
-      "RANG": 520,
+      "Rang_ligue": 519,
+      "RANG": 519,
       "NO_LICENCE": "1018099J",
       "NOM_PERSONNE": "LEBLOND",
       "PRENOM_PERSONNE": "Patrick",
@@ -23874,8 +23820,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 521,
-      "RANG": 521,
+      "Rang_ligue": 520,
+      "RANG": 520,
       "NO_LICENCE": "0015949L",
       "NOM_PERSONNE": "MILLET",
       "PRENOM_PERSONNE": "Denis",
@@ -23901,8 +23847,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 522,
-      "RANG": 522,
+      "Rang_ligue": 521,
+      "RANG": 521,
       "NO_LICENCE": "0392151B",
       "NOM_PERSONNE": "POMMIER",
       "PRENOM_PERSONNE": "Bernard",
@@ -23928,8 +23874,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 523,
-      "RANG": 523,
+      "Rang_ligue": 522,
+      "RANG": 522,
       "NO_LICENCE": "0989666Z",
       "NOM_PERSONNE": "NAZARALLY",
       "PRENOM_PERSONNE": "Damien",
@@ -23955,8 +23901,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 524,
-      "RANG": 524,
+      "Rang_ligue": 523,
+      "RANG": 523,
       "NO_LICENCE": "0000331K",
       "NOM_PERSONNE": "BOULANGER",
       "PRENOM_PERSONNE": "Patrick",
@@ -23982,8 +23928,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 525,
-      "RANG": 525,
+      "Rang_ligue": 524,
+      "RANG": 524,
       "NO_LICENCE": "0788207X",
       "NOM_PERSONNE": "CHEVILLON",
       "PRENOM_PERSONNE": "Yoan",
@@ -24009,8 +23955,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 526,
-      "RANG": 526,
+      "Rang_ligue": 525,
+      "RANG": 525,
       "NO_LICENCE": "1019189H",
       "NOM_PERSONNE": "AUGEREAU",
       "PRENOM_PERSONNE": "Killian",
@@ -24036,8 +23982,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 527,
-      "RANG": 527,
+      "Rang_ligue": 526,
+      "RANG": 526,
       "NO_LICENCE": "0717485A",
       "NOM_PERSONNE": "BOISARD",
       "PRENOM_PERSONNE": "Guy",
@@ -24063,8 +24009,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 528,
-      "RANG": 528,
+      "Rang_ligue": 527,
+      "RANG": 527,
       "NO_LICENCE": "0933610U",
       "NOM_PERSONNE": "JOUSSAUME",
       "PRENOM_PERSONNE": "Alexis",
@@ -24090,8 +24036,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 529,
-      "RANG": 529,
+      "Rang_ligue": 528,
+      "RANG": 528,
       "NO_LICENCE": "1027771J",
       "NOM_PERSONNE": "VAN DER MAELEN",
       "PRENOM_PERSONNE": "Eric",
@@ -24117,8 +24063,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 530,
-      "RANG": 530,
+      "Rang_ligue": 529,
+      "RANG": 529,
       "NO_LICENCE": "1030645X",
       "NOM_PERSONNE": "APHECETCHE",
       "PRENOM_PERSONNE": "Laurent",
@@ -24144,8 +24090,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 531,
-      "RANG": 531,
+      "Rang_ligue": 530,
+      "RANG": 530,
       "NO_LICENCE": "0968750P",
       "NOM_PERSONNE": "MAUSSION",
       "PRENOM_PERSONNE": "Constant",
@@ -24171,8 +24117,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 532,
-      "RANG": 532,
+      "Rang_ligue": 531,
+      "RANG": 531,
       "NO_LICENCE": "0901797P",
       "NOM_PERSONNE": "PRAUD",
       "PRENOM_PERSONNE": "Christian",
@@ -24198,8 +24144,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 533,
-      "RANG": 533,
+      "Rang_ligue": 532,
+      "RANG": 532,
       "NO_LICENCE": "0027188C",
       "NOM_PERSONNE": "GOUIN",
       "PRENOM_PERSONNE": "Maxime",
@@ -24225,8 +24171,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 534,
-      "RANG": 534,
+      "Rang_ligue": 533,
+      "RANG": 533,
       "NO_LICENCE": "1020500S",
       "NOM_PERSONNE": "YVON",
       "PRENOM_PERSONNE": "Frédéric",
@@ -24252,8 +24198,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 535,
-      "RANG": 535,
+      "Rang_ligue": 534,
+      "RANG": 534,
       "NO_LICENCE": "0984630A",
       "NOM_PERSONNE": "ROCARD",
       "PRENOM_PERSONNE": "John",
@@ -24279,8 +24225,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 536,
-      "RANG": 536,
+      "Rang_ligue": 535,
+      "RANG": 535,
       "NO_LICENCE": "1039282C",
       "NOM_PERSONNE": "LE SAOUT",
       "PRENOM_PERSONNE": "Fabien",
@@ -24306,8 +24252,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 537,
-      "RANG": 537,
+      "Rang_ligue": 536,
+      "RANG": 536,
       "NO_LICENCE": "1054606M",
       "NOM_PERSONNE": "METAY",
       "PRENOM_PERSONNE": "Anthony",
@@ -24333,8 +24279,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 538,
-      "RANG": 538,
+      "Rang_ligue": 537,
+      "RANG": 537,
       "NO_LICENCE": "1032000A",
       "NOM_PERSONNE": "LEGER",
       "PRENOM_PERSONNE": "Xavier",
@@ -24360,8 +24306,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 539,
-      "RANG": 539,
+      "Rang_ligue": 538,
+      "RANG": 538,
       "NO_LICENCE": "1005159R",
       "NOM_PERSONNE": "ROCHER",
       "PRENOM_PERSONNE": "Hugo",
@@ -24387,8 +24333,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 540,
-      "RANG": 540,
+      "Rang_ligue": 539,
+      "RANG": 539,
       "NO_LICENCE": "1029205N",
       "NOM_PERSONNE": "MORAINE",
       "PRENOM_PERSONNE": "Frederic",
@@ -24414,8 +24360,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 541,
-      "RANG": 541,
+      "Rang_ligue": 540,
+      "RANG": 540,
       "NO_LICENCE": "0039530T",
       "NOM_PERSONNE": "POIRIER",
       "PRENOM_PERSONNE": "Fabrice",
@@ -24441,8 +24387,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 542,
-      "RANG": 542,
+      "Rang_ligue": 541,
+      "RANG": 541,
       "NO_LICENCE": "0383121L",
       "NOM_PERSONNE": "MAHAUD",
       "PRENOM_PERSONNE": "Bernard",
@@ -24468,8 +24414,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 543,
-      "RANG": 543,
+      "Rang_ligue": 542,
+      "RANG": 542,
       "NO_LICENCE": "0010889L",
       "NOM_PERSONNE": "BONNAUD",
       "PRENOM_PERSONNE": "Tom",
@@ -24495,8 +24441,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 544,
-      "RANG": 544,
+      "Rang_ligue": 543,
+      "RANG": 543,
       "NO_LICENCE": "0051696S",
       "NOM_PERSONNE": "FORTEAUX",
       "PRENOM_PERSONNE": "Marc",
@@ -24522,8 +24468,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 545,
-      "RANG": 545,
+      "Rang_ligue": 544,
+      "RANG": 544,
       "NO_LICENCE": "0682274C",
       "NOM_PERSONNE": "MIRAD",
       "PRENOM_PERSONNE": "Charly",
@@ -24549,8 +24495,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 546,
-      "RANG": 546,
+      "Rang_ligue": 545,
+      "RANG": 545,
       "NO_LICENCE": "0040475V",
       "NOM_PERSONNE": "SADI",
       "PRENOM_PERSONNE": "Bruno",
@@ -24576,8 +24522,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 547,
-      "RANG": 547,
+      "Rang_ligue": 546,
+      "RANG": 546,
       "NO_LICENCE": "1006000A",
       "NOM_PERSONNE": "JULLIARD",
       "PRENOM_PERSONNE": "Rodolphe",
@@ -24603,8 +24549,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 548,
-      "RANG": 548,
+      "Rang_ligue": 547,
+      "RANG": 547,
       "NO_LICENCE": "0056947Z",
       "NOM_PERSONNE": "PERRIN",
       "PRENOM_PERSONNE": "Daniel",
@@ -24630,8 +24576,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 549,
-      "RANG": 549,
+      "Rang_ligue": 548,
+      "RANG": 548,
       "NO_LICENCE": "0683602W",
       "NOM_PERSONNE": "SFARTZ",
       "PRENOM_PERSONNE": "Patrick",
@@ -24657,8 +24603,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 550,
-      "RANG": 550,
+      "Rang_ligue": 549,
+      "RANG": 549,
       "NO_LICENCE": "0837006P",
       "NOM_PERSONNE": "UCKMAN",
       "PRENOM_PERSONNE": "Theo",
@@ -24684,8 +24630,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 551,
-      "RANG": 551,
+      "Rang_ligue": 550,
+      "RANG": 550,
       "NO_LICENCE": "1026877Z",
       "NOM_PERSONNE": "ELLUARD",
       "PRENOM_PERSONNE": "David",
@@ -24711,8 +24657,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 552,
-      "RANG": 552,
+      "Rang_ligue": 551,
+      "RANG": 551,
       "NO_LICENCE": "0825120V",
       "NOM_PERSONNE": "BURON",
       "PRENOM_PERSONNE": "Marc",
@@ -24738,8 +24684,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 553,
-      "RANG": 553,
+      "Rang_ligue": 552,
+      "RANG": 552,
       "NO_LICENCE": "0962130U",
       "NOM_PERSONNE": "TITON",
       "PRENOM_PERSONNE": "Gilles",
@@ -24765,8 +24711,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 554,
-      "RANG": 554,
+      "Rang_ligue": 553,
+      "RANG": 553,
       "NO_LICENCE": "0726741L",
       "NOM_PERSONNE": "DEPEYRE",
       "PRENOM_PERSONNE": "Sylvain",
@@ -24792,8 +24738,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 555,
-      "RANG": 555,
+      "Rang_ligue": 554,
+      "RANG": 554,
       "NO_LICENCE": "0808388H",
       "NOM_PERSONNE": "LE ROCH",
       "PRENOM_PERSONNE": "Andre",
@@ -24819,8 +24765,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 556,
-      "RANG": 556,
+      "Rang_ligue": 555,
+      "RANG": 555,
       "NO_LICENCE": "1028560S",
       "NOM_PERSONNE": "DESMOTS",
       "PRENOM_PERSONNE": "Mickael",
@@ -24846,8 +24792,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 557,
-      "RANG": 557,
+      "Rang_ligue": 556,
+      "RANG": 556,
       "NO_LICENCE": "0042860M",
       "NOM_PERSONNE": "TERRIEN",
       "PRENOM_PERSONNE": "Franck",
@@ -24873,8 +24819,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 558,
-      "RANG": 558,
+      "Rang_ligue": 557,
+      "RANG": 557,
       "NO_LICENCE": "0943350F",
       "NOM_PERSONNE": "LE MOIGNE",
       "PRENOM_PERSONNE": "Alain",
@@ -24900,8 +24846,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 559,
-      "RANG": 559,
+      "Rang_ligue": 558,
+      "RANG": 558,
       "NO_LICENCE": "0805038S",
       "NOM_PERSONNE": "LUBINEAU",
       "PRENOM_PERSONNE": "Alexandre",
@@ -24927,8 +24873,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 560,
-      "RANG": 560,
+      "Rang_ligue": 559,
+      "RANG": 559,
       "NO_LICENCE": "0001641J",
       "NOM_PERSONNE": "GBENOU",
       "PRENOM_PERSONNE": "Etienne",
@@ -24954,8 +24900,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 561,
-      "RANG": 561,
+      "Rang_ligue": 560,
+      "RANG": 560,
       "NO_LICENCE": "0400410D",
       "NOM_PERSONNE": "THAREAU",
       "PRENOM_PERSONNE": "Gerald",
@@ -24981,8 +24927,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 562,
-      "RANG": 562,
+      "Rang_ligue": 561,
+      "RANG": 561,
       "NO_LICENCE": "0883960B",
       "NOM_PERSONNE": "SIGNORI",
       "PRENOM_PERSONNE": "Olivier",
@@ -25008,8 +24954,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 563,
-      "RANG": 563,
+      "Rang_ligue": 562,
+      "RANG": 562,
       "NO_LICENCE": "1051011F",
       "NOM_PERSONNE": "PONT",
       "PRENOM_PERSONNE": "Dominique",
@@ -25035,8 +24981,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 564,
-      "RANG": 564,
+      "Rang_ligue": 563,
+      "RANG": 563,
       "NO_LICENCE": "1043962C",
       "NOM_PERSONNE": "LACASSAGNE",
       "PRENOM_PERSONNE": "Jean-françois",
@@ -25062,8 +25008,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 565,
-      "RANG": 565,
+      "Rang_ligue": 564,
+      "RANG": 564,
       "NO_LICENCE": "1041401P",
       "NOM_PERSONNE": "ENTEME",
       "PRENOM_PERSONNE": "Morgan",
@@ -25089,8 +25035,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 566,
-      "RANG": 566,
+      "Rang_ligue": 565,
+      "RANG": 565,
       "NO_LICENCE": "1065578M",
       "NOM_PERSONNE": "LEGUY",
       "PRENOM_PERSONNE": "Jean-bernard",
@@ -25116,8 +25062,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 567,
-      "RANG": 567,
+      "Rang_ligue": 566,
+      "RANG": 566,
       "NO_LICENCE": "0054488B",
       "NOM_PERSONNE": "BIZON",
       "PRENOM_PERSONNE": "Kevin",
@@ -25143,8 +25089,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 568,
-      "RANG": 568,
+      "Rang_ligue": 567,
+      "RANG": 567,
       "NO_LICENCE": "0002823U",
       "NOM_PERSONNE": "DA SILVA GOMES",
       "PRENOM_PERSONNE": "Charlie",
@@ -25170,8 +25116,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 569,
-      "RANG": 569,
+      "Rang_ligue": 568,
+      "RANG": 568,
       "NO_LICENCE": "1047875P",
       "NOM_PERSONNE": "BOYER",
       "PRENOM_PERSONNE": "Olivier",
@@ -25197,8 +25143,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 570,
-      "RANG": 570,
+      "Rang_ligue": 569,
+      "RANG": 569,
       "NO_LICENCE": "1035056O",
       "NOM_PERSONNE": "ROBERT",
       "PRENOM_PERSONNE": "Olivier",
@@ -25224,8 +25170,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 571,
-      "RANG": 571,
+      "Rang_ligue": 570,
+      "RANG": 570,
       "NO_LICENCE": "0019440F",
       "NOM_PERSONNE": "DAGUE THAREAU",
       "PRENOM_PERSONNE": "Enzo",
@@ -25251,8 +25197,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 572,
-      "RANG": 572,
+      "Rang_ligue": 571,
+      "RANG": 571,
       "NO_LICENCE": "0694532B",
       "NOM_PERSONNE": "ROBERT",
       "PRENOM_PERSONNE": "Dominique",
@@ -25278,8 +25224,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 573,
-      "RANG": 573,
+      "Rang_ligue": 572,
+      "RANG": 572,
       "NO_LICENCE": "0994606U",
       "NOM_PERSONNE": "LOUICHON",
       "PRENOM_PERSONNE": "Raymond",
@@ -25305,8 +25251,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 574,
-      "RANG": 574,
+      "Rang_ligue": 573,
+      "RANG": 573,
       "NO_LICENCE": "0390442U",
       "NOM_PERSONNE": "BROSSEAU",
       "PRENOM_PERSONNE": "Maurice",
@@ -25332,8 +25278,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 575,
-      "RANG": 575,
+      "Rang_ligue": 574,
+      "RANG": 574,
       "NO_LICENCE": "1025485L",
       "NOM_PERSONNE": "DURANDO",
       "PRENOM_PERSONNE": "Louis",
@@ -25359,8 +25305,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 576,
-      "RANG": 576,
+      "Rang_ligue": 575,
+      "RANG": 575,
       "NO_LICENCE": "1036747P",
       "NOM_PERSONNE": "VIELLE",
       "PRENOM_PERSONNE": "Bruno",
@@ -25386,8 +25332,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 577,
-      "RANG": 577,
+      "Rang_ligue": 576,
+      "RANG": 576,
       "NO_LICENCE": "1019583L",
       "NOM_PERSONNE": "DROUARD",
       "PRENOM_PERSONNE": "Mathieu",
@@ -25413,8 +25359,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 578,
-      "RANG": 578,
+      "Rang_ligue": 577,
+      "RANG": 577,
       "NO_LICENCE": "0936613H",
       "NOM_PERSONNE": "RENAUD",
       "PRENOM_PERSONNE": "Isaac",
@@ -25440,8 +25386,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 579,
-      "RANG": 579,
+      "Rang_ligue": 578,
+      "RANG": 578,
       "NO_LICENCE": "0057286T",
       "NOM_PERSONNE": "FRASLIN",
       "PRENOM_PERSONNE": "Erwan",
@@ -25467,8 +25413,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 580,
-      "RANG": 580,
+      "Rang_ligue": 579,
+      "RANG": 579,
       "NO_LICENCE": "1044285N",
       "NOM_PERSONNE": "OLIVIER",
       "PRENOM_PERSONNE": "Hubert",
@@ -25494,8 +25440,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 581,
-      "RANG": 581,
+      "Rang_ligue": 580,
+      "RANG": 580,
       "NO_LICENCE": "1025536K",
       "NOM_PERSONNE": "POUSSET",
       "PRENOM_PERSONNE": "Benoît",
@@ -25521,8 +25467,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 582,
-      "RANG": 582,
+      "Rang_ligue": 581,
+      "RANG": 581,
       "NO_LICENCE": "1005070G",
       "NOM_PERSONNE": "VERONET",
       "PRENOM_PERSONNE": "Ryan",
@@ -25548,8 +25494,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 583,
-      "RANG": 583,
+      "Rang_ligue": 582,
+      "RANG": 582,
       "NO_LICENCE": "0913208T",
       "NOM_PERSONNE": "LUBERT",
       "PRENOM_PERSONNE": "Vincent",
@@ -25575,8 +25521,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 584,
-      "RANG": 584,
+      "Rang_ligue": 583,
+      "RANG": 583,
       "NO_LICENCE": "0861490C",
       "NOM_PERSONNE": "PUREN",
       "PRENOM_PERSONNE": "Mewen",
@@ -25602,8 +25548,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 585,
-      "RANG": 585,
+      "Rang_ligue": 584,
+      "RANG": 584,
       "NO_LICENCE": "0861967W",
       "NOM_PERSONNE": "ZITTE",
       "PRENOM_PERSONNE": "Lionel",
@@ -25629,8 +25575,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 586,
-      "RANG": 586,
+      "Rang_ligue": 585,
+      "RANG": 585,
       "NO_LICENCE": "0037750H",
       "NOM_PERSONNE": "POUVREAU",
       "PRENOM_PERSONNE": "Michael",
@@ -25656,8 +25602,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 587,
-      "RANG": 587,
+      "Rang_ligue": 586,
+      "RANG": 586,
       "NO_LICENCE": "1030498G",
       "NOM_PERSONNE": "ARNAULT",
       "PRENOM_PERSONNE": "Laurent",
@@ -25683,8 +25629,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 588,
-      "RANG": 588,
+      "Rang_ligue": 587,
+      "RANG": 587,
       "NO_LICENCE": "0039365N",
       "NOM_PERSONNE": "CHAUSSEE",
       "PRENOM_PERSONNE": "Gerard",
@@ -25710,8 +25656,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 589,
-      "RANG": 589,
+      "Rang_ligue": 588,
+      "RANG": 588,
       "NO_LICENCE": "0025850Y",
       "NOM_PERSONNE": "MOIGNARD",
       "PRENOM_PERSONNE": "Ylann",
@@ -25737,8 +25683,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 590,
-      "RANG": 590,
+      "Rang_ligue": 589,
+      "RANG": 589,
       "NO_LICENCE": "0937601G",
       "NOM_PERSONNE": "BOLTEAU",
       "PRENOM_PERSONNE": "Fabien",
@@ -25764,8 +25710,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 591,
-      "RANG": 591,
+      "Rang_ligue": 590,
+      "RANG": 590,
       "NO_LICENCE": "0857775P",
       "NOM_PERSONNE": "RETRO",
       "PRENOM_PERSONNE": "Michel",
@@ -25791,8 +25737,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 592,
-      "RANG": 592,
+      "Rang_ligue": 591,
+      "RANG": 591,
       "NO_LICENCE": "0982931D",
       "NOM_PERSONNE": "ANGEBAUD",
       "PRENOM_PERSONNE": "Nicolas",
@@ -25818,8 +25764,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 593,
-      "RANG": 593,
+      "Rang_ligue": 592,
+      "RANG": 592,
       "NO_LICENCE": "1039710O",
       "NOM_PERSONNE": "MAZAILLIER",
       "PRENOM_PERSONNE": "Anthony",
@@ -25845,8 +25791,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 594,
-      "RANG": 594,
+      "Rang_ligue": 593,
+      "RANG": 593,
       "NO_LICENCE": "1021672U",
       "NOM_PERSONNE": "BOUVIER",
       "PRENOM_PERSONNE": "Alain",
@@ -25872,8 +25818,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 595,
-      "RANG": 595,
+      "Rang_ligue": 594,
+      "RANG": 594,
       "NO_LICENCE": "0037204P",
       "NOM_PERSONNE": "CABIN",
       "PRENOM_PERSONNE": "Joseph",
@@ -25899,8 +25845,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 596,
-      "RANG": 596,
+      "Rang_ligue": 595,
+      "RANG": 595,
       "NO_LICENCE": "0004730S",
       "NOM_PERSONNE": "LAVAUT",
       "PRENOM_PERSONNE": "Jean noel",
@@ -25926,8 +25872,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 597,
-      "RANG": 597,
+      "Rang_ligue": 596,
+      "RANG": 596,
       "NO_LICENCE": "1010085D",
       "NOM_PERSONNE": "COMPAIN",
       "PRENOM_PERSONNE": "David",
@@ -25953,8 +25899,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 598,
-      "RANG": 598,
+      "Rang_ligue": 597,
+      "RANG": 597,
       "NO_LICENCE": "0011678U",
       "NOM_PERSONNE": "JOUNY",
       "PRENOM_PERSONNE": "Jason",
@@ -25980,8 +25926,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 599,
-      "RANG": 599,
+      "Rang_ligue": 598,
+      "RANG": 598,
       "NO_LICENCE": "1028556O",
       "NOM_PERSONNE": "FOSSE",
       "PRENOM_PERSONNE": "Alain",
@@ -26007,8 +25953,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 600,
-      "RANG": 600,
+      "Rang_ligue": 599,
+      "RANG": 599,
       "NO_LICENCE": "1027000S",
       "NOM_PERSONNE": "TOURBIER",
       "PRENOM_PERSONNE": "Matheo",
@@ -26034,8 +25980,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 601,
-      "RANG": 601,
+      "Rang_ligue": 600,
+      "RANG": 600,
       "NO_LICENCE": "0995507Y",
       "NOM_PERSONNE": "VENDE",
       "PRENOM_PERSONNE": "Dorian",
@@ -26061,8 +26007,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 602,
-      "RANG": 602,
+      "Rang_ligue": 601,
+      "RANG": 601,
       "NO_LICENCE": "0017703T",
       "NOM_PERSONNE": "GENDRON",
       "PRENOM_PERSONNE": "Liam",
@@ -26088,8 +26034,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 603,
-      "RANG": 603,
+      "Rang_ligue": 602,
+      "RANG": 602,
       "NO_LICENCE": "0982648W",
       "NOM_PERSONNE": "BARBEAU",
       "PRENOM_PERSONNE": "Theo",
@@ -26115,8 +26061,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 604,
-      "RANG": 604,
+      "Rang_ligue": 603,
+      "RANG": 603,
       "NO_LICENCE": "1030637P",
       "NOM_PERSONNE": "MAHE",
       "PRENOM_PERSONNE": "Pierre",
@@ -26142,8 +26088,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 605,
-      "RANG": 605,
+      "Rang_ligue": 604,
+      "RANG": 604,
       "NO_LICENCE": "1044577T",
       "NOM_PERSONNE": "ROGER",
       "PRENOM_PERSONNE": "Jean michel",
@@ -26169,8 +26115,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 606,
-      "RANG": 606,
+      "Rang_ligue": 605,
+      "RANG": 605,
       "NO_LICENCE": "1040569P",
       "NOM_PERSONNE": "MARTIN",
       "PRENOM_PERSONNE": "Brice",
@@ -26196,8 +26142,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 607,
-      "RANG": 607,
+      "Rang_ligue": 606,
+      "RANG": 606,
       "NO_LICENCE": "1031522Q",
       "NOM_PERSONNE": "DELSOUC",
       "PRENOM_PERSONNE": "Alexi",
@@ -26223,8 +26169,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 608,
-      "RANG": 608,
+      "Rang_ligue": 607,
+      "RANG": 607,
       "NO_LICENCE": "1006399J",
       "NOM_PERSONNE": "DOURNEAU",
       "PRENOM_PERSONNE": "Erwan",
@@ -26250,8 +26196,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 609,
-      "RANG": 609,
+      "Rang_ligue": 608,
+      "RANG": 608,
       "NO_LICENCE": "1031768C",
       "NOM_PERSONNE": "PESEUX",
       "PRENOM_PERSONNE": "Matthieu",
@@ -26277,8 +26223,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 610,
-      "RANG": 610,
+      "Rang_ligue": 609,
+      "RANG": 609,
       "NO_LICENCE": "0064656D",
       "NOM_PERSONNE": "HUCHEDE",
       "PRENOM_PERSONNE": "Maxence",
@@ -26304,8 +26250,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 611,
-      "RANG": 611,
+      "Rang_ligue": 610,
+      "RANG": 610,
       "NO_LICENCE": "0015391E",
       "NOM_PERSONNE": "RENOU",
       "PRENOM_PERSONNE": "Bastien",
@@ -26331,8 +26277,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 612,
-      "RANG": 612,
+      "Rang_ligue": 611,
+      "RANG": 611,
       "NO_LICENCE": "0957687P",
       "NOM_PERSONNE": "SAUBIETTE",
       "PRENOM_PERSONNE": "Jacques",
@@ -26358,8 +26304,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 613,
-      "RANG": 613,
+      "Rang_ligue": 612,
+      "RANG": 612,
       "NO_LICENCE": "0016910F",
       "NOM_PERSONNE": "GENDRON",
       "PRENOM_PERSONNE": "Selyann",
@@ -26385,8 +26331,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 614,
-      "RANG": 614,
+      "Rang_ligue": 613,
+      "RANG": 613,
       "NO_LICENCE": "0075285G",
       "NOM_PERSONNE": "GOUIN",
       "PRENOM_PERSONNE": "Patrice",
@@ -26412,8 +26358,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 615,
-      "RANG": 615,
+      "Rang_ligue": 614,
+      "RANG": 614,
       "NO_LICENCE": "1006842K",
       "NOM_PERSONNE": "BRICOT",
       "PRENOM_PERSONNE": "Didier",
@@ -26439,8 +26385,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 616,
-      "RANG": 616,
+      "Rang_ligue": 615,
+      "RANG": 615,
       "NO_LICENCE": "0028089G",
       "NOM_PERSONNE": "POUILLAS",
       "PRENOM_PERSONNE": "Axel",
@@ -26466,8 +26412,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 617,
-      "RANG": 617,
+      "Rang_ligue": 616,
+      "RANG": 616,
       "NO_LICENCE": "1033457B",
       "NOM_PERSONNE": "KURKIEWICZ",
       "PRENOM_PERSONNE": "Paul",
@@ -26493,8 +26439,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 618,
-      "RANG": 618,
+      "Rang_ligue": 617,
+      "RANG": 617,
       "NO_LICENCE": "0022871K",
       "NOM_PERSONNE": "LEBRIN",
       "PRENOM_PERSONNE": "Tino",
@@ -26520,8 +26466,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 619,
-      "RANG": 619,
+      "Rang_ligue": 618,
+      "RANG": 618,
       "NO_LICENCE": "1026692W",
       "NOM_PERSONNE": "ROULEAU",
       "PRENOM_PERSONNE": "Mickael",
@@ -26547,8 +26493,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 620,
-      "RANG": 620,
+      "Rang_ligue": 619,
+      "RANG": 619,
       "NO_LICENCE": "1043359X",
       "NOM_PERSONNE": "ROUEIL",
       "PRENOM_PERSONNE": "Johakim",
@@ -26574,8 +26520,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 621,
-      "RANG": 621,
+      "Rang_ligue": 620,
+      "RANG": 620,
       "NO_LICENCE": "0971990L",
       "NOM_PERSONNE": "MASSICOT",
       "PRENOM_PERSONNE": "Jean pierre",
@@ -26601,8 +26547,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 622,
-      "RANG": 622,
+      "Rang_ligue": 621,
+      "RANG": 621,
       "NO_LICENCE": "0934235Y",
       "NOM_PERSONNE": "DALIX",
       "PRENOM_PERSONNE": "Dominique",
@@ -26628,8 +26574,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 623,
-      "RANG": 623,
+      "Rang_ligue": 622,
+      "RANG": 622,
       "NO_LICENCE": "0637508U",
       "NOM_PERSONNE": "ARNAUDEAU",
       "PRENOM_PERSONNE": "Claude",
@@ -26655,8 +26601,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 624,
-      "RANG": 624,
+      "Rang_ligue": 623,
+      "RANG": 623,
       "NO_LICENCE": "1030420G",
       "NOM_PERSONNE": "CASSIN",
       "PRENOM_PERSONNE": "Fabrice",
@@ -26682,8 +26628,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 625,
-      "RANG": 625,
+      "Rang_ligue": 624,
+      "RANG": 624,
       "NO_LICENCE": "1058390A",
       "NOM_PERSONNE": "CAJADO",
       "PRENOM_PERSONNE": "Victor",
@@ -26709,8 +26655,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 626,
-      "RANG": 626,
+      "Rang_ligue": 625,
+      "RANG": 625,
       "NO_LICENCE": "0045468X",
       "NOM_PERSONNE": "BODILIS",
       "PRENOM_PERSONNE": "Alain",
@@ -26736,8 +26682,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 627,
-      "RANG": 627,
+      "Rang_ligue": 626,
+      "RANG": 626,
       "NO_LICENCE": "0016533W",
       "NOM_PERSONNE": "RABIER",
       "PRENOM_PERSONNE": "Manoah",
@@ -26763,8 +26709,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 628,
-      "RANG": 628,
+      "Rang_ligue": 627,
+      "RANG": 627,
       "NO_LICENCE": "1067030I",
       "NOM_PERSONNE": "GUEDON",
       "PRENOM_PERSONNE": "Frédéric",
@@ -26790,8 +26736,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 629,
-      "RANG": 629,
+      "Rang_ligue": 628,
+      "RANG": 628,
       "NO_LICENCE": "1044590G",
       "NOM_PERSONNE": "CANTIN",
       "PRENOM_PERSONNE": "Jacques",
@@ -26817,8 +26763,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 630,
-      "RANG": 630,
+      "Rang_ligue": 629,
+      "RANG": 629,
       "NO_LICENCE": "1058482O",
       "NOM_PERSONNE": "BORDEUX",
       "PRENOM_PERSONNE": "Quentin",
@@ -26844,8 +26790,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 631,
-      "RANG": 631,
+      "Rang_ligue": 630,
+      "RANG": 630,
       "NO_LICENCE": "1028830C",
       "NOM_PERSONNE": "GRELET",
       "PRENOM_PERSONNE": "Sébastien",
@@ -26871,8 +26817,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 632,
-      "RANG": 632,
+      "Rang_ligue": 631,
+      "RANG": 631,
       "NO_LICENCE": "1035449R",
       "NOM_PERSONNE": "COURANT",
       "PRENOM_PERSONNE": "Eric",
@@ -26898,8 +26844,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 633,
-      "RANG": 633,
+      "Rang_ligue": 632,
+      "RANG": 632,
       "NO_LICENCE": "0995074C",
       "NOM_PERSONNE": "CHAUVEAU",
       "PRENOM_PERSONNE": "Youen",
@@ -26925,8 +26871,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 634,
-      "RANG": 634,
+      "Rang_ligue": 633,
+      "RANG": 633,
       "NO_LICENCE": "0591468A",
       "NOM_PERSONNE": "FAJOLE",
       "PRENOM_PERSONNE": "Bernard",
@@ -26952,8 +26898,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 635,
-      "RANG": 635,
+      "Rang_ligue": 634,
+      "RANG": 634,
       "NO_LICENCE": "1007101J",
       "NOM_PERSONNE": "BLAITEAU",
       "PRENOM_PERSONNE": "Luc",
@@ -26979,8 +26925,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 636,
-      "RANG": 636,
+      "Rang_ligue": 635,
+      "RANG": 635,
       "NO_LICENCE": "0682599F",
       "NOM_PERSONNE": "GIROUX",
       "PRENOM_PERSONNE": "Armand",
@@ -27006,8 +26952,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 637,
-      "RANG": 637,
+      "Rang_ligue": 636,
+      "RANG": 636,
       "NO_LICENCE": "0017848A",
       "NOM_PERSONNE": "FLEURIAU",
       "PRENOM_PERSONNE": "Nathan",
@@ -27033,8 +26979,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 638,
-      "RANG": 638,
+      "Rang_ligue": 637,
+      "RANG": 637,
       "NO_LICENCE": "0004739B",
       "NOM_PERSONNE": "SIMAILLEAU",
       "PRENOM_PERSONNE": "Quentin",
@@ -27060,8 +27006,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 639,
-      "RANG": 639,
+      "Rang_ligue": 638,
+      "RANG": 638,
       "NO_LICENCE": "1003718G",
       "NOM_PERSONNE": "GAUTIER",
       "PRENOM_PERSONNE": "Ethan",
@@ -27087,8 +27033,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 640,
-      "RANG": 640,
+      "Rang_ligue": 639,
+      "RANG": 639,
       "NO_LICENCE": "1028414C",
       "NOM_PERSONNE": "LOUNISSI",
       "PRENOM_PERSONNE": "Jean",
@@ -27114,8 +27060,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 641,
-      "RANG": 641,
+      "Rang_ligue": 640,
+      "RANG": 640,
       "NO_LICENCE": "0828115A",
       "NOM_PERSONNE": "GIRAULT",
       "PRENOM_PERSONNE": "Stéphane",
@@ -27141,8 +27087,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 642,
-      "RANG": 642,
+      "Rang_ligue": 641,
+      "RANG": 641,
       "NO_LICENCE": "0004160X",
       "NOM_PERSONNE": "SAUPIN",
       "PRENOM_PERSONNE": "Ethan",
@@ -27168,8 +27114,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 643,
-      "RANG": 643,
+      "Rang_ligue": 642,
+      "RANG": 642,
       "NO_LICENCE": "1052193R",
       "NOM_PERSONNE": "HELLER",
       "PRENOM_PERSONNE": "Francois",
@@ -27195,8 +27141,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 644,
-      "RANG": 644,
+      "Rang_ligue": 643,
+      "RANG": 643,
       "NO_LICENCE": "1017831B",
       "NOM_PERSONNE": "GASCOGNE",
       "PRENOM_PERSONNE": "Cyprien",
@@ -27222,8 +27168,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 645,
-      "RANG": 645,
+      "Rang_ligue": 644,
+      "RANG": 644,
       "NO_LICENCE": "0714904V",
       "NOM_PERSONNE": "LEROY",
       "PRENOM_PERSONNE": "Jean-jacques",
@@ -27249,8 +27195,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 646,
-      "RANG": 646,
+      "Rang_ligue": 645,
+      "RANG": 645,
       "NO_LICENCE": "0022803L",
       "NOM_PERSONNE": "BARGUIL",
       "PRENOM_PERSONNE": "Armel",
@@ -27276,8 +27222,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 647,
-      "RANG": 647,
+      "Rang_ligue": 646,
+      "RANG": 646,
       "NO_LICENCE": "1008760E",
       "NOM_PERSONNE": "RUSAOUEN",
       "PRENOM_PERSONNE": "Franck",
@@ -27303,8 +27249,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 648,
-      "RANG": 648,
+      "Rang_ligue": 647,
+      "RANG": 647,
       "NO_LICENCE": "0912669G",
       "NOM_PERSONNE": "HOPCHTEIDRE",
       "PRENOM_PERSONNE": "Alexian",
@@ -27330,8 +27276,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 649,
-      "RANG": 649,
+      "Rang_ligue": 648,
+      "RANG": 648,
       "NO_LICENCE": "0023774S",
       "NOM_PERSONNE": "MINOS",
       "PRENOM_PERSONNE": "André",
@@ -27357,8 +27303,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 650,
-      "RANG": 650,
+      "Rang_ligue": 649,
+      "RANG": 649,
       "NO_LICENCE": "1001773L",
       "NOM_PERSONNE": "MOREAU",
       "PRENOM_PERSONNE": "Eliott",
@@ -27384,8 +27330,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 651,
-      "RANG": 651,
+      "Rang_ligue": 650,
+      "RANG": 650,
       "NO_LICENCE": "0048579D",
       "NOM_PERSONNE": "BOULAND",
       "PRENOM_PERSONNE": "Xavier",
@@ -27411,8 +27357,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 652,
-      "RANG": 652,
+      "Rang_ligue": 651,
+      "RANG": 651,
       "NO_LICENCE": "0016860B",
       "NOM_PERSONNE": "CARFANTAN",
       "PRENOM_PERSONNE": "Baptiste",
@@ -27438,8 +27384,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 653,
-      "RANG": 653,
+      "Rang_ligue": 652,
+      "RANG": 652,
       "NO_LICENCE": "1055101N",
       "NOM_PERSONNE": "RETAILLEAU",
       "PRENOM_PERSONNE": "Denis",
@@ -27465,8 +27411,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 654,
-      "RANG": 654,
+      "Rang_ligue": 653,
+      "RANG": 653,
       "NO_LICENCE": "0015390D",
       "NOM_PERSONNE": "AUGER",
       "PRENOM_PERSONNE": "Alexis",
@@ -27492,8 +27438,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 655,
-      "RANG": 655,
+      "Rang_ligue": 654,
+      "RANG": 654,
       "NO_LICENCE": "0768490R",
       "NOM_PERSONNE": "KIPPEST",
       "PRENOM_PERSONNE": "Ethan",
@@ -27519,8 +27465,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 656,
-      "RANG": 656,
+      "Rang_ligue": 655,
+      "RANG": 655,
       "NO_LICENCE": "0044728T",
       "NOM_PERSONNE": "GRIFFON",
       "PRENOM_PERSONNE": "Quentin",
@@ -27546,8 +27492,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 657,
-      "RANG": 657,
+      "Rang_ligue": 656,
+      "RANG": 656,
       "NO_LICENCE": "1018983J",
       "NOM_PERSONNE": "BLANES",
       "PRENOM_PERSONNE": "Eric",
@@ -27573,8 +27519,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 658,
-      "RANG": 658,
+      "Rang_ligue": 657,
+      "RANG": 657,
       "NO_LICENCE": "1041992I",
       "NOM_PERSONNE": "PAPETTI",
       "PRENOM_PERSONNE": "Clément",
@@ -27600,8 +27546,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 659,
-      "RANG": 659,
+      "Rang_ligue": 658,
+      "RANG": 658,
       "NO_LICENCE": "1030695V",
       "NOM_PERSONNE": "DEROUET",
       "PRENOM_PERSONNE": "Mewen",
@@ -27627,8 +27573,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 660,
-      "RANG": 660,
+      "Rang_ligue": 659,
+      "RANG": 659,
       "NO_LICENCE": "1021102W",
       "NOM_PERSONNE": "ROUILLON",
       "PRENOM_PERSONNE": "Erwan",
@@ -27654,8 +27600,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 661,
-      "RANG": 661,
+      "Rang_ligue": 660,
+      "RANG": 660,
       "NO_LICENCE": "0054817J",
       "NOM_PERSONNE": "RICHARD",
       "PRENOM_PERSONNE": "Christophe",
@@ -27681,8 +27627,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 662,
-      "RANG": 662,
+      "Rang_ligue": 661,
+      "RANG": 661,
       "NO_LICENCE": "1028572E",
       "NOM_PERSONNE": "DOUSSIN",
       "PRENOM_PERSONNE": "Emmanuel",
@@ -27708,8 +27654,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 663,
-      "RANG": 663,
+      "Rang_ligue": 662,
+      "RANG": 662,
       "NO_LICENCE": "1026822W",
       "NOM_PERSONNE": "MUSY",
       "PRENOM_PERSONNE": "Arthur",
@@ -27735,8 +27681,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 664,
-      "RANG": 664,
+      "Rang_ligue": 663,
+      "RANG": 663,
       "NO_LICENCE": "1030546C",
       "NOM_PERSONNE": "BRANGERIEAU",
       "PRENOM_PERSONNE": "Tom",
@@ -27762,8 +27708,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 665,
-      "RANG": 665,
+      "Rang_ligue": 664,
+      "RANG": 664,
       "NO_LICENCE": "1036732A",
       "NOM_PERSONNE": "QUENAULT",
       "PRENOM_PERSONNE": "Gerard",
@@ -27789,8 +27735,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 666,
-      "RANG": 666,
+      "Rang_ligue": 665,
+      "RANG": 665,
       "NO_LICENCE": "0890551R",
       "NOM_PERSONNE": "MOULIN",
       "PRENOM_PERSONNE": "Christophe",
@@ -27816,8 +27762,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 667,
-      "RANG": 667,
+      "Rang_ligue": 666,
+      "RANG": 666,
       "NO_LICENCE": "1052046A",
       "NOM_PERSONNE": "MARIANO",
       "PRENOM_PERSONNE": "Pierre",
@@ -27843,8 +27789,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 668,
-      "RANG": 668,
+      "Rang_ligue": 667,
+      "RANG": 667,
       "NO_LICENCE": "1044431D",
       "NOM_PERSONNE": "CORNEC",
       "PRENOM_PERSONNE": "Alexandre",
@@ -27870,8 +27816,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 669,
-      "RANG": 669,
+      "Rang_ligue": 668,
+      "RANG": 668,
       "NO_LICENCE": "1055494Q",
       "NOM_PERSONNE": "SAID",
       "PRENOM_PERSONNE": "Guillaume",
@@ -27897,8 +27843,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 670,
-      "RANG": 670,
+      "Rang_ligue": 669,
+      "RANG": 669,
       "NO_LICENCE": "0716982D",
       "NOM_PERSONNE": "ONFROY",
       "PRENOM_PERSONNE": "Pierre",
@@ -27924,8 +27870,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 671,
-      "RANG": 671,
+      "Rang_ligue": 670,
+      "RANG": 670,
       "NO_LICENCE": "0044722L",
       "NOM_PERSONNE": "BODILIS",
       "PRENOM_PERSONNE": "Tim",
@@ -27951,8 +27897,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 672,
-      "RANG": 672,
+      "Rang_ligue": 671,
+      "RANG": 671,
       "NO_LICENCE": "1038563L",
       "NOM_PERSONNE": "CHAPOTON",
       "PRENOM_PERSONNE": "Gilles",
@@ -27978,8 +27924,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 673,
-      "RANG": 673,
+      "Rang_ligue": 672,
+      "RANG": 672,
       "NO_LICENCE": "1005098I",
       "NOM_PERSONNE": "PERRON",
       "PRENOM_PERSONNE": "Maxime",
@@ -28005,8 +27951,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 674,
-      "RANG": 674,
+      "Rang_ligue": 673,
+      "RANG": 673,
       "NO_LICENCE": "1040861V",
       "NOM_PERSONNE": "CARLIER",
       "PRENOM_PERSONNE": "Nathan",
@@ -28032,8 +27978,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 675,
-      "RANG": 675,
+      "Rang_ligue": 674,
+      "RANG": 674,
       "NO_LICENCE": "1041772W",
       "NOM_PERSONNE": "FORET",
       "PRENOM_PERSONNE": "Gilles",
@@ -28059,8 +28005,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 676,
-      "RANG": 676,
+      "Rang_ligue": 675,
+      "RANG": 675,
       "NO_LICENCE": "0057203C",
       "NOM_PERSONNE": "DELESTRE",
       "PRENOM_PERSONNE": "Emmanuel",
@@ -28086,8 +28032,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 677,
-      "RANG": 677,
+      "Rang_ligue": 676,
+      "RANG": 676,
       "NO_LICENCE": "0674334X",
       "NOM_PERSONNE": "CALBRIX",
       "PRENOM_PERSONNE": "Gerard",
@@ -28113,8 +28059,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 678,
-      "RANG": 678,
+      "Rang_ligue": 677,
+      "RANG": 677,
       "NO_LICENCE": "1033395R",
       "NOM_PERSONNE": "SERPAULT",
       "PRENOM_PERSONNE": "Louis",
@@ -28140,8 +28086,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 679,
-      "RANG": 679,
+      "Rang_ligue": 678,
+      "RANG": 678,
       "NO_LICENCE": "1035589B",
       "NOM_PERSONNE": "PRAT",
       "PRENOM_PERSONNE": "Xavier",
@@ -28167,8 +28113,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 680,
-      "RANG": 680,
+      "Rang_ligue": 679,
+      "RANG": 679,
       "NO_LICENCE": "1002006K",
       "NOM_PERSONNE": "DONNART",
       "PRENOM_PERSONNE": "Blaise",
@@ -28194,8 +28140,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 681,
-      "RANG": 681,
+      "Rang_ligue": 680,
+      "RANG": 680,
       "NO_LICENCE": "0046172M",
       "NOM_PERSONNE": "ROGER",
       "PRENOM_PERSONNE": "Gil",
@@ -28221,8 +28167,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 682,
-      "RANG": 682,
+      "Rang_ligue": 681,
+      "RANG": 681,
       "NO_LICENCE": "0880635M",
       "NOM_PERSONNE": "RIMBAUD",
       "PRENOM_PERSONNE": "Florentin",
@@ -28248,8 +28194,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 683,
-      "RANG": 683,
+      "Rang_ligue": 682,
+      "RANG": 682,
       "NO_LICENCE": "0709873B",
       "NOM_PERSONNE": "NEVEU",
       "PRENOM_PERSONNE": "Nicolas",
@@ -28275,8 +28221,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 684,
-      "RANG": 684,
+      "Rang_ligue": 683,
+      "RANG": 683,
       "NO_LICENCE": "1029267X",
       "NOM_PERSONNE": "WOODWARD",
       "PRENOM_PERSONNE": "Celestin",
@@ -28302,8 +28248,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 685,
-      "RANG": 685,
+      "Rang_ligue": 684,
+      "RANG": 684,
       "NO_LICENCE": "0004732U",
       "NOM_PERSONNE": "MAJOLI",
       "PRENOM_PERSONNE": "Paul",
@@ -28329,8 +28275,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 686,
-      "RANG": 686,
+      "Rang_ligue": 685,
+      "RANG": 685,
       "NO_LICENCE": "1030003F",
       "NOM_PERSONNE": "OSSANT",
       "PRENOM_PERSONNE": "Philippe",
@@ -28356,8 +28302,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 687,
-      "RANG": 687,
+      "Rang_ligue": 686,
+      "RANG": 686,
       "NO_LICENCE": "1035908I",
       "NOM_PERSONNE": "PETKOFF",
       "PRENOM_PERSONNE": "Pascal",
@@ -28383,8 +28329,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 688,
-      "RANG": 688,
+      "Rang_ligue": 687,
+      "RANG": 687,
       "NO_LICENCE": "0015075L",
       "NOM_PERSONNE": "HUET",
       "PRENOM_PERSONNE": "Mathias",
@@ -28410,8 +28356,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 689,
-      "RANG": 689,
+      "Rang_ligue": 688,
+      "RANG": 688,
       "NO_LICENCE": "1040805R",
       "NOM_PERSONNE": "CHOIMET",
       "PRENOM_PERSONNE": "Ivaé",
@@ -28437,8 +28383,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 690,
-      "RANG": 690,
+      "Rang_ligue": 689,
+      "RANG": 689,
       "NO_LICENCE": "1025504E",
       "NOM_PERSONNE": "ROUSSEL",
       "PRENOM_PERSONNE": "Nolhan",
@@ -28464,8 +28410,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 691,
-      "RANG": 691,
+      "Rang_ligue": 690,
+      "RANG": 690,
       "NO_LICENCE": "1030621Z",
       "NOM_PERSONNE": "DURAND",
       "PRENOM_PERSONNE": "Benoit",
@@ -28491,8 +28437,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 692,
-      "RANG": 692,
+      "Rang_ligue": 691,
+      "RANG": 691,
       "NO_LICENCE": "0015056R",
       "NOM_PERSONNE": "RIO",
       "PRENOM_PERSONNE": "Corentin",
@@ -28518,8 +28464,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 693,
-      "RANG": 693,
+      "Rang_ligue": 692,
+      "RANG": 692,
       "NO_LICENCE": "1033293T",
       "NOM_PERSONNE": "PREVOST",
       "PRENOM_PERSONNE": "Arthur",
@@ -28545,8 +28491,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 694,
-      "RANG": 694,
+      "Rang_ligue": 693,
+      "RANG": 693,
       "NO_LICENCE": "1028597D",
       "NOM_PERSONNE": "BROSSEAU",
       "PRENOM_PERSONNE": "Aurélien",
@@ -28572,8 +28518,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 695,
-      "RANG": 695,
+      "Rang_ligue": 694,
+      "RANG": 694,
       "NO_LICENCE": "1041302U",
       "NOM_PERSONNE": "GELE",
       "PRENOM_PERSONNE": "Christian",
@@ -28599,8 +28545,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 696,
-      "RANG": 696,
+      "Rang_ligue": 695,
+      "RANG": 695,
       "NO_LICENCE": "0041914J",
       "NOM_PERSONNE": "BRUNET",
       "PRENOM_PERSONNE": "Mathurin",
@@ -28626,8 +28572,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 697,
-      "RANG": 697,
+      "Rang_ligue": 696,
+      "RANG": 696,
       "NO_LICENCE": "1004471F",
       "NOM_PERSONNE": "BLOURDIER",
       "PRENOM_PERSONNE": "Lenzo",
@@ -28653,8 +28599,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 698,
-      "RANG": 698,
+      "Rang_ligue": 697,
+      "RANG": 697,
       "NO_LICENCE": "0020507R",
       "NOM_PERSONNE": "SOUTON",
       "PRENOM_PERSONNE": "Valentin",
@@ -28680,8 +28626,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 699,
-      "RANG": 699,
+      "Rang_ligue": 698,
+      "RANG": 698,
       "NO_LICENCE": "0792122C",
       "NOM_PERSONNE": "PLASSAIS",
       "PRENOM_PERSONNE": "Victor",
@@ -28707,8 +28653,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 700,
-      "RANG": 700,
+      "Rang_ligue": 699,
+      "RANG": 699,
       "NO_LICENCE": "0882726K",
       "NOM_PERSONNE": "MULLER",
       "PRENOM_PERSONNE": "Noam",
@@ -28734,8 +28680,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 701,
-      "RANG": 701,
+      "Rang_ligue": 700,
+      "RANG": 700,
       "NO_LICENCE": "0041551P",
       "NOM_PERSONNE": "FRASLIN",
       "PRENOM_PERSONNE": "Loan",
@@ -28761,8 +28707,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 702,
-      "RANG": 702,
+      "Rang_ligue": 701,
+      "RANG": 701,
       "NO_LICENCE": "1008849P",
       "NOM_PERSONNE": "MOREAU",
       "PRENOM_PERSONNE": "Flavien",
@@ -28788,8 +28734,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 703,
-      "RANG": 703,
+      "Rang_ligue": 702,
+      "RANG": 702,
       "NO_LICENCE": "1032041P",
       "NOM_PERSONNE": "COMPAIN",
       "PRENOM_PERSONNE": "Arthur",
@@ -28815,8 +28761,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 704,
-      "RANG": 704,
+      "Rang_ligue": 703,
+      "RANG": 703,
       "NO_LICENCE": "0052137W",
       "NOM_PERSONNE": "VERY",
       "PRENOM_PERSONNE": "Eliott",
@@ -28842,8 +28788,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 705,
-      "RANG": 705,
+      "Rang_ligue": 704,
+      "RANG": 704,
       "NO_LICENCE": "0057383Y",
       "NOM_PERSONNE": "MARCOUX",
       "PRENOM_PERSONNE": "Ruben",
@@ -28869,8 +28815,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 706,
-      "RANG": 706,
+      "Rang_ligue": 705,
+      "RANG": 705,
       "NO_LICENCE": "0035408M",
       "NOM_PERSONNE": "BARBIER",
       "PRENOM_PERSONNE": "Noah",
@@ -28896,8 +28842,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 707,
-      "RANG": 707,
+      "Rang_ligue": 706,
+      "RANG": 706,
       "NO_LICENCE": "0058827T",
       "NOM_PERSONNE": "PENOCHET",
       "PRENOM_PERSONNE": "Alexis",
@@ -28923,8 +28869,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 708,
-      "RANG": 708,
+      "Rang_ligue": 707,
+      "RANG": 707,
       "NO_LICENCE": "0032417L",
       "NOM_PERSONNE": "GRESSIER",
       "PRENOM_PERSONNE": "Lucas",
@@ -28950,8 +28896,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 709,
-      "RANG": 709,
+      "Rang_ligue": 708,
+      "RANG": 708,
       "NO_LICENCE": "0040038V",
       "NOM_PERSONNE": "GRANDVALET",
       "PRENOM_PERSONNE": "Lucas",
@@ -28977,8 +28923,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 710,
-      "RANG": 710,
+      "Rang_ligue": 709,
+      "RANG": 709,
       "NO_LICENCE": "0023474R",
       "NOM_PERSONNE": "MERIENNE",
       "PRENOM_PERSONNE": "Alexis",
@@ -29004,8 +28950,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 711,
-      "RANG": 711,
+      "Rang_ligue": 710,
+      "RANG": 710,
       "NO_LICENCE": "0997707P",
       "NOM_PERSONNE": "BRICARD",
       "PRENOM_PERSONNE": "Enzo",
@@ -29031,8 +28977,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 712,
-      "RANG": 712,
+      "Rang_ligue": 711,
+      "RANG": 711,
       "NO_LICENCE": "0968036N",
       "NOM_PERSONNE": "METIVIER",
       "PRENOM_PERSONNE": "Armand",
@@ -29058,8 +29004,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 713,
-      "RANG": 713,
+      "Rang_ligue": 712,
+      "RANG": 712,
       "NO_LICENCE": "1036716K",
       "NOM_PERSONNE": "DIASCORN",
       "PRENOM_PERSONNE": "Yannick",
@@ -29085,8 +29031,8 @@
       "_classement_nom": "Scratch Homme Arc Classique 2026"
     },
     {
-      "Rang_ligue": 714,
-      "RANG": 714,
+      "Rang_ligue": 713,
+      "RANG": 713,
       "NO_LICENCE": "0882913N",
       "NOM_PERSONNE": "LAUDRIEC",
       "PRENOM_PERSONNE": "Jean michel",
