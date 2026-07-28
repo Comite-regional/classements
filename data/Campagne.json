@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-27T05:56:20.254027Z",
+    "generated_at": "2026-07-28T05:20:05.874789Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -8999,33 +8999,6 @@
     {
       "Rang_ligue": 58,
       "RANG": 58,
-      "NO_LICENCE": "0008207W",
-      "NOM_PERSONNE": "BOUSSEMART",
-      "PRENOM_PERSONNE": "Christophe",
-      "SEXE": "H",
-      "ARME": "P",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "MONTREUIL JUIGNE TIR A L'ARC",
-      "NOM_ABREGE": "MONTREUIL JUIGNE",
-      "CODE_STRUCTURE": "1249067",
-      "DEPARTEMENT": "49",
-      "SCORE1": "296",
-      "SCORE2": "0",
-      "SCORE3": "0",
-      "MOY_SCORE": "296",
-      "DISCIPLINE": "C",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "590",
-      "_classement_nom": "Scratch Homme Poulies 2026"
-    },
-    {
-      "Rang_ligue": 59,
-      "RANG": 59,
       "NO_LICENCE": "1026248U",
       "NOM_PERSONNE": "DENIS",
       "PRENOM_PERSONNE": "Jérôme",
@@ -9051,8 +9024,8 @@
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
-      "Rang_ligue": 60,
-      "RANG": 60,
+      "Rang_ligue": 59,
+      "RANG": 59,
       "NO_LICENCE": "0914167K",
       "NOM_PERSONNE": "MOREAU DESCHENNES",
       "PRENOM_PERSONNE": "Baptiste",
@@ -9078,8 +9051,8 @@
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
-      "Rang_ligue": 61,
-      "RANG": 61,
+      "Rang_ligue": 60,
+      "RANG": 60,
       "NO_LICENCE": "0430101B",
       "NOM_PERSONNE": "DEBRY",
       "PRENOM_PERSONNE": "Sylvain",
@@ -9105,8 +9078,8 @@
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
-      "Rang_ligue": 62,
-      "RANG": 62,
+      "Rang_ligue": 61,
+      "RANG": 61,
       "NO_LICENCE": "0598597Z",
       "NOM_PERSONNE": "PRIOUX",
       "PRENOM_PERSONNE": "Jean luc",
@@ -9132,8 +9105,8 @@
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
-      "Rang_ligue": 63,
-      "RANG": 63,
+      "Rang_ligue": 62,
+      "RANG": 62,
       "NO_LICENCE": "0809577A",
       "NOM_PERSONNE": "LECAS",
       "PRENOM_PERSONNE": "Gilles",
@@ -9159,8 +9132,8 @@
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
-      "Rang_ligue": 64,
-      "RANG": 64,
+      "Rang_ligue": 63,
+      "RANG": 63,
       "NO_LICENCE": "0837738K",
       "NOM_PERSONNE": "BRUDES",
       "PRENOM_PERSONNE": "Yann",
@@ -9186,8 +9159,8 @@
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
-      "Rang_ligue": 65,
-      "RANG": 65,
+      "Rang_ligue": 64,
+      "RANG": 64,
       "NO_LICENCE": "0593753J",
       "NOM_PERSONNE": "BOMPOIL",
       "PRENOM_PERSONNE": "Nicolas",
@@ -9213,8 +9186,8 @@
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
-      "Rang_ligue": 66,
-      "RANG": 66,
+      "Rang_ligue": 65,
+      "RANG": 65,
       "NO_LICENCE": "1052046A",
       "NOM_PERSONNE": "MARIANO",
       "PRENOM_PERSONNE": "Pierre",
@@ -9240,8 +9213,8 @@
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
-      "Rang_ligue": 67,
-      "RANG": 67,
+      "Rang_ligue": 66,
+      "RANG": 66,
       "NO_LICENCE": "1017891J",
       "NOM_PERSONNE": "LEBASTARD",
       "PRENOM_PERSONNE": "Franck",
@@ -9267,8 +9240,8 @@
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
-      "Rang_ligue": 68,
-      "RANG": 68,
+      "Rang_ligue": 67,
+      "RANG": 67,
       "NO_LICENCE": "0633369V",
       "NOM_PERSONNE": "TALBOURDEL",
       "PRENOM_PERSONNE": "Brendan",
@@ -9294,8 +9267,8 @@
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
-      "Rang_ligue": 69,
-      "RANG": 69,
+      "Rang_ligue": 68,
+      "RANG": 68,
       "NO_LICENCE": "0353931H",
       "NOM_PERSONNE": "HABERKORN",
       "PRENOM_PERSONNE": "Nicolas",
@@ -9321,8 +9294,8 @@
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
-      "Rang_ligue": 70,
-      "RANG": 70,
+      "Rang_ligue": 69,
+      "RANG": 69,
       "NO_LICENCE": "0956175W",
       "NOM_PERSONNE": "BURAY",
       "PRENOM_PERSONNE": "Daniel",
@@ -9348,8 +9321,8 @@
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
-      "Rang_ligue": 71,
-      "RANG": 71,
+      "Rang_ligue": 70,
+      "RANG": 70,
       "NO_LICENCE": "0035617P",
       "NOM_PERSONNE": "MEUNIER",
       "PRENOM_PERSONNE": "Cyrille",
@@ -11456,33 +11429,6 @@
     {
       "Rang_ligue": 37,
       "RANG": 37,
-      "NO_LICENCE": "0008207W",
-      "NOM_PERSONNE": "BOUSSEMART",
-      "PRENOM_PERSONNE": "Christophe",
-      "SEXE": "H",
-      "ARME": "P",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "MONTREUIL JUIGNE TIR A L'ARC",
-      "NOM_ABREGE": "MONTREUIL JUIGNE",
-      "CODE_STRUCTURE": "1249067",
-      "DEPARTEMENT": "49",
-      "SCORE1": "296",
-      "SCORE2": "0",
-      "SCORE3": "0",
-      "MOY_SCORE": "98",
-      "DISCIPLINE": "C",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "289",
-      "_classement_nom": "Senior 2 Homme Arc à poulies 2026"
-    },
-    {
-      "Rang_ligue": 38,
-      "RANG": 38,
       "NO_LICENCE": "1017891J",
       "NOM_PERSONNE": "LEBASTARD",
       "PRENOM_PERSONNE": "Franck",

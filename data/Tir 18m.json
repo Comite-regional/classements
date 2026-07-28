@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-27T05:56:20.254027Z",
+    "generated_at": "2026-07-28T05:20:05.874789Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -75770,33 +75770,6 @@
     {
       "Rang_ligue": 137,
       "RANG": 137,
-      "NO_LICENCE": "0008207W",
-      "NOM_PERSONNE": "BOUSSEMART",
-      "PRENOM_PERSONNE": "Christophe",
-      "SEXE": "H",
-      "ARME": "P",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "MONTREUIL JUIGNE TIR A L'ARC",
-      "NOM_ABREGE": "MONTREUIL JUIGNE",
-      "CODE_STRUCTURE": "1249067",
-      "DEPARTEMENT": "49",
-      "SCORE1": "539",
-      "SCORE2": "530",
-      "SCORE3": "525",
-      "MOY_SCORE": "531",
-      "DISCIPLINE": "S",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "1954",
-      "_classement_nom": "Scratch Homme Arc à Poulies 2026"
-    },
-    {
-      "Rang_ligue": 138,
-      "RANG": 138,
       "NO_LICENCE": "0808388H",
       "NOM_PERSONNE": "LE ROCH",
       "PRENOM_PERSONNE": "Andre",
@@ -75822,8 +75795,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 139,
-      "RANG": 139,
+      "Rang_ligue": 138,
+      "RANG": 138,
       "NO_LICENCE": "0768348L",
       "NOM_PERSONNE": "GUERIN",
       "PRENOM_PERSONNE": "Jerome",
@@ -75849,8 +75822,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 140,
-      "RANG": 140,
+      "Rang_ligue": 139,
+      "RANG": 139,
       "NO_LICENCE": "0058055D",
       "NOM_PERSONNE": "KERMEN",
       "PRENOM_PERSONNE": "Nicolas",
@@ -75876,8 +75849,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 141,
-      "RANG": 141,
+      "Rang_ligue": 140,
+      "RANG": 140,
       "NO_LICENCE": "0867416U",
       "NOM_PERSONNE": "BARONNAT",
       "PRENOM_PERSONNE": "Lucas",
@@ -75903,8 +75876,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 142,
-      "RANG": 142,
+      "Rang_ligue": 141,
+      "RANG": 141,
       "NO_LICENCE": "0082905P",
       "NOM_PERSONNE": "LETULLE",
       "PRENOM_PERSONNE": "Damien",
@@ -75930,8 +75903,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 143,
-      "RANG": 143,
+      "Rang_ligue": 142,
+      "RANG": 142,
       "NO_LICENCE": "0786850X",
       "NOM_PERSONNE": "DUCLOS",
       "PRENOM_PERSONNE": "Michel",
@@ -75957,8 +75930,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 144,
-      "RANG": 144,
+      "Rang_ligue": 143,
+      "RANG": 143,
       "NO_LICENCE": "0598597Z",
       "NOM_PERSONNE": "PRIOUX",
       "PRENOM_PERSONNE": "Jean luc",
@@ -75984,8 +75957,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 145,
-      "RANG": 145,
+      "Rang_ligue": 144,
+      "RANG": 144,
       "NO_LICENCE": "0794949A",
       "NOM_PERSONNE": "LE FLEM",
       "PRENOM_PERSONNE": "Bastien",
@@ -76011,8 +75984,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 146,
-      "RANG": 146,
+      "Rang_ligue": 145,
+      "RANG": 145,
       "NO_LICENCE": "0730623F",
       "NOM_PERSONNE": "MABIT",
       "PRENOM_PERSONNE": "Herve",
@@ -76038,8 +76011,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 147,
-      "RANG": 147,
+      "Rang_ligue": 146,
+      "RANG": 146,
       "NO_LICENCE": "0012729L",
       "NOM_PERSONNE": "GOISBAULT",
       "PRENOM_PERSONNE": "Ethan",
@@ -76065,8 +76038,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 148,
-      "RANG": 148,
+      "Rang_ligue": 147,
+      "RANG": 147,
       "NO_LICENCE": "1026248U",
       "NOM_PERSONNE": "DENIS",
       "PRENOM_PERSONNE": "Jérôme",
@@ -76092,8 +76065,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 149,
-      "RANG": 149,
+      "Rang_ligue": 148,
+      "RANG": 148,
       "NO_LICENCE": "0826591U",
       "NOM_PERSONNE": "DELRUE",
       "PRENOM_PERSONNE": "Sebastien",
@@ -76119,8 +76092,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 150,
-      "RANG": 150,
+      "Rang_ligue": 149,
+      "RANG": 149,
       "NO_LICENCE": "1013502O",
       "NOM_PERSONNE": "BERGOT",
       "PRENOM_PERSONNE": "Michael",
@@ -76146,8 +76119,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 151,
-      "RANG": 151,
+      "Rang_ligue": 150,
+      "RANG": 150,
       "NO_LICENCE": "0841063Z",
       "NOM_PERSONNE": "LE ROUTIER",
       "PRENOM_PERSONNE": "Tristan",
@@ -76173,8 +76146,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 152,
-      "RANG": 152,
+      "Rang_ligue": 151,
+      "RANG": 151,
       "NO_LICENCE": "1037417J",
       "NOM_PERSONNE": "VERBIGUIE",
       "PRENOM_PERSONNE": "Guillaume",
@@ -76200,8 +76173,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 153,
-      "RANG": 153,
+      "Rang_ligue": 152,
+      "RANG": 152,
       "NO_LICENCE": "0035617P",
       "NOM_PERSONNE": "MEUNIER",
       "PRENOM_PERSONNE": "Cyrille",
@@ -76227,8 +76200,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 154,
-      "RANG": 154,
+      "Rang_ligue": 153,
+      "RANG": 153,
       "NO_LICENCE": "0922351F",
       "NOM_PERSONNE": "SAUVE",
       "PRENOM_PERSONNE": "Guillaume",
@@ -76254,8 +76227,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 155,
-      "RANG": 155,
+      "Rang_ligue": 154,
+      "RANG": 154,
       "NO_LICENCE": "0019333P",
       "NOM_PERSONNE": "BUGEON-BACHMATCH",
       "PRENOM_PERSONNE": "Boris",
@@ -76281,8 +76254,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 156,
-      "RANG": 156,
+      "Rang_ligue": 155,
+      "RANG": 155,
       "NO_LICENCE": "0058013H",
       "NOM_PERSONNE": "MARIE",
       "PRENOM_PERSONNE": "Damien",
@@ -76308,8 +76281,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 157,
-      "RANG": 157,
+      "Rang_ligue": 156,
+      "RANG": 156,
       "NO_LICENCE": "0862820Y",
       "NOM_PERSONNE": "BILLARD",
       "PRENOM_PERSONNE": "Sebastien",
@@ -76335,8 +76308,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 158,
-      "RANG": 158,
+      "Rang_ligue": 157,
+      "RANG": 157,
       "NO_LICENCE": "0610484V",
       "NOM_PERSONNE": "HERVE",
       "PRENOM_PERSONNE": "Florian",
@@ -76362,8 +76335,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 159,
-      "RANG": 159,
+      "Rang_ligue": 158,
+      "RANG": 158,
       "NO_LICENCE": "0059591Y",
       "NOM_PERSONNE": "GUERRIER",
       "PRENOM_PERSONNE": "Jacques",
@@ -76389,8 +76362,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 160,
-      "RANG": 160,
+      "Rang_ligue": 159,
+      "RANG": 159,
       "NO_LICENCE": "0974429M",
       "NOM_PERSONNE": "AUBRUN",
       "PRENOM_PERSONNE": "Cedric",
@@ -76416,8 +76389,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 161,
-      "RANG": 161,
+      "Rang_ligue": 160,
+      "RANG": 160,
       "NO_LICENCE": "0919293G",
       "NOM_PERSONNE": "LEBLANC",
       "PRENOM_PERSONNE": "Jerome",
@@ -76443,8 +76416,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 162,
-      "RANG": 162,
+      "Rang_ligue": 161,
+      "RANG": 161,
       "NO_LICENCE": "0417988K",
       "NOM_PERSONNE": "VIDOT",
       "PRENOM_PERSONNE": "Bertrand",
@@ -76470,8 +76443,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 163,
-      "RANG": 163,
+      "Rang_ligue": 162,
+      "RANG": 162,
       "NO_LICENCE": "0787802G",
       "NOM_PERSONNE": "GREMILLON",
       "PRENOM_PERSONNE": "Herve",
@@ -76497,8 +76470,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 164,
-      "RANG": 164,
+      "Rang_ligue": 163,
+      "RANG": 163,
       "NO_LICENCE": "0014282Z",
       "NOM_PERSONNE": "CHAILLOU",
       "PRENOM_PERSONNE": "Patrice",
@@ -76524,8 +76497,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 165,
-      "RANG": 165,
+      "Rang_ligue": 164,
+      "RANG": 164,
       "NO_LICENCE": "0057365D",
       "NOM_PERSONNE": "LE VAILLANT",
       "PRENOM_PERSONNE": "Fabien",
@@ -76551,8 +76524,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 166,
-      "RANG": 166,
+      "Rang_ligue": 165,
+      "RANG": 165,
       "NO_LICENCE": "0036250C",
       "NOM_PERSONNE": "MICHAUD",
       "PRENOM_PERSONNE": "Vincent",
@@ -76578,8 +76551,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 167,
-      "RANG": 167,
+      "Rang_ligue": 166,
+      "RANG": 166,
       "NO_LICENCE": "0397550V",
       "NOM_PERSONNE": "HULLIN",
       "PRENOM_PERSONNE": "Bruno",
@@ -76605,8 +76578,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 168,
-      "RANG": 168,
+      "Rang_ligue": 167,
+      "RANG": 167,
       "NO_LICENCE": "0913631C",
       "NOM_PERSONNE": "ALBERT",
       "PRENOM_PERSONNE": "Clement",
@@ -76632,8 +76605,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 169,
-      "RANG": 169,
+      "Rang_ligue": 168,
+      "RANG": 168,
       "NO_LICENCE": "0904954W",
       "NOM_PERSONNE": "GUILLOTON",
       "PRENOM_PERSONNE": "Vincent",
@@ -76659,8 +76632,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 170,
-      "RANG": 170,
+      "Rang_ligue": 169,
+      "RANG": 169,
       "NO_LICENCE": "0001282U",
       "NOM_PERSONNE": "LONGEPE",
       "PRENOM_PERSONNE": "Louis-jean",
@@ -76686,8 +76659,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 171,
-      "RANG": 171,
+      "Rang_ligue": 170,
+      "RANG": 170,
       "NO_LICENCE": "0593752H",
       "NOM_PERSONNE": "BOMPOIL",
       "PRENOM_PERSONNE": "Martial",
@@ -76713,8 +76686,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 172,
-      "RANG": 172,
+      "Rang_ligue": 171,
+      "RANG": 171,
       "NO_LICENCE": "0895563N",
       "NOM_PERSONNE": "BOISAUBERT",
       "PRENOM_PERSONNE": "Lucas",
@@ -76740,8 +76713,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 173,
-      "RANG": 173,
+      "Rang_ligue": 172,
+      "RANG": 172,
       "NO_LICENCE": "0854167T",
       "NOM_PERSONNE": "LORTEEUW",
       "PRENOM_PERSONNE": "Philippe",
@@ -76767,8 +76740,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 174,
-      "RANG": 174,
+      "Rang_ligue": 173,
+      "RANG": 173,
       "NO_LICENCE": "0708737S",
       "NOM_PERSONNE": "BENOIST",
       "PRENOM_PERSONNE": "Eric",
@@ -76794,8 +76767,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 175,
-      "RANG": 175,
+      "Rang_ligue": 174,
+      "RANG": 174,
       "NO_LICENCE": "1048267R",
       "NOM_PERSONNE": "MENGUAL",
       "PRENOM_PERSONNE": "Basile",
@@ -76821,8 +76794,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 176,
-      "RANG": 176,
+      "Rang_ligue": 175,
+      "RANG": 175,
       "NO_LICENCE": "0060562D",
       "NOM_PERSONNE": "CAIGNARD",
       "PRENOM_PERSONNE": "Remi",
@@ -76848,8 +76821,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 177,
-      "RANG": 177,
+      "Rang_ligue": 176,
+      "RANG": 176,
       "NO_LICENCE": "0005536T",
       "NOM_PERSONNE": "ROUSSELON",
       "PRENOM_PERSONNE": "Regis",
@@ -76875,8 +76848,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 178,
-      "RANG": 178,
+      "Rang_ligue": 177,
+      "RANG": 177,
       "NO_LICENCE": "0858372N",
       "NOM_PERSONNE": "CRUSSON",
       "PRENOM_PERSONNE": "Leo",
@@ -76902,8 +76875,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 179,
-      "RANG": 179,
+      "Rang_ligue": 178,
+      "RANG": 178,
       "NO_LICENCE": "0401889L",
       "NOM_PERSONNE": "CHERHAL",
       "PRENOM_PERSONNE": "Fanch",
@@ -76929,8 +76902,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 180,
-      "RANG": 180,
+      "Rang_ligue": 179,
+      "RANG": 179,
       "NO_LICENCE": "0593753J",
       "NOM_PERSONNE": "BOMPOIL",
       "PRENOM_PERSONNE": "Nicolas",
@@ -76956,8 +76929,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 181,
-      "RANG": 181,
+      "Rang_ligue": 180,
+      "RANG": 180,
       "NO_LICENCE": "0877931Y",
       "NOM_PERSONNE": "MULLER",
       "PRENOM_PERSONNE": "Maurice",
@@ -76983,8 +76956,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 182,
-      "RANG": 182,
+      "Rang_ligue": 181,
+      "RANG": 181,
       "NO_LICENCE": "0822612U",
       "NOM_PERSONNE": "ALBERT",
       "PRENOM_PERSONNE": "Jean-marc",
@@ -77010,8 +76983,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 183,
-      "RANG": 183,
+      "Rang_ligue": 182,
+      "RANG": 182,
       "NO_LICENCE": "0701611W",
       "NOM_PERSONNE": "POUPET",
       "PRENOM_PERSONNE": "Michel",
@@ -77037,8 +77010,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 184,
-      "RANG": 184,
+      "Rang_ligue": 183,
+      "RANG": 183,
       "NO_LICENCE": "1026118U",
       "NOM_PERSONNE": "MAINGUET",
       "PRENOM_PERSONNE": "Yves",
@@ -77064,8 +77037,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 185,
-      "RANG": 185,
+      "Rang_ligue": 184,
+      "RANG": 184,
       "NO_LICENCE": "1052046A",
       "NOM_PERSONNE": "MARIANO",
       "PRENOM_PERSONNE": "Pierre",
@@ -77091,8 +77064,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 186,
-      "RANG": 186,
+      "Rang_ligue": 185,
+      "RANG": 185,
       "NO_LICENCE": "0403796J",
       "NOM_PERSONNE": "DEPEYRE",
       "PRENOM_PERSONNE": "Pascal",
@@ -77118,8 +77091,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 187,
-      "RANG": 187,
+      "Rang_ligue": 186,
+      "RANG": 186,
       "NO_LICENCE": "0054546P",
       "NOM_PERSONNE": "BARRE",
       "PRENOM_PERSONNE": "Valentin",
@@ -77145,8 +77118,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 188,
-      "RANG": 188,
+      "Rang_ligue": 187,
+      "RANG": 187,
       "NO_LICENCE": "0058017M",
       "NOM_PERSONNE": "ROCHONSANZ",
       "PRENOM_PERSONNE": "Damien",
@@ -77172,8 +77145,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 189,
-      "RANG": 189,
+      "Rang_ligue": 188,
+      "RANG": 188,
       "NO_LICENCE": "1024086Q",
       "NOM_PERSONNE": "HEMERY",
       "PRENOM_PERSONNE": "Jakez",
@@ -77199,8 +77172,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 190,
-      "RANG": 190,
+      "Rang_ligue": 189,
+      "RANG": 189,
       "NO_LICENCE": "1034252Q",
       "NOM_PERSONNE": "CHAGNEAU",
       "PRENOM_PERSONNE": "Laurent",
@@ -77226,8 +77199,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 191,
-      "RANG": 191,
+      "Rang_ligue": 190,
+      "RANG": 190,
       "NO_LICENCE": "1017583N",
       "NOM_PERSONNE": "BURTON",
       "PRENOM_PERSONNE": "Lloyd",
@@ -77253,8 +77226,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 192,
-      "RANG": 192,
+      "Rang_ligue": 191,
+      "RANG": 191,
       "NO_LICENCE": "0850576P",
       "NOM_PERSONNE": "PADIOLEAU",
       "PRENOM_PERSONNE": "Gerard",
@@ -77280,8 +77253,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 193,
-      "RANG": 193,
+      "Rang_ligue": 192,
+      "RANG": 192,
       "NO_LICENCE": "0725265G",
       "NOM_PERSONNE": "GAULT",
       "PRENOM_PERSONNE": "Ludovic",
@@ -77307,8 +77280,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 194,
-      "RANG": 194,
+      "Rang_ligue": 193,
+      "RANG": 193,
       "NO_LICENCE": "0876817M",
       "NOM_PERSONNE": "DUHOUX",
       "PRENOM_PERSONNE": "Pascal",
@@ -77334,8 +77307,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 195,
-      "RANG": 195,
+      "Rang_ligue": 194,
+      "RANG": 194,
       "NO_LICENCE": "1021320G",
       "NOM_PERSONNE": "MOQUEREAU",
       "PRENOM_PERSONNE": "Thierry",
@@ -77361,8 +77334,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 196,
-      "RANG": 196,
+      "Rang_ligue": 195,
+      "RANG": 195,
       "NO_LICENCE": "0040455Y",
       "NOM_PERSONNE": "CUSSEY",
       "PRENOM_PERSONNE": "Daniel",
@@ -77388,8 +77361,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 197,
-      "RANG": 197,
+      "Rang_ligue": 196,
+      "RANG": 196,
       "NO_LICENCE": "0024164R",
       "NOM_PERSONNE": "BEAUPRES DE MONSALES",
       "PRENOM_PERSONNE": "Serge",
@@ -77415,8 +77388,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 198,
-      "RANG": 198,
+      "Rang_ligue": 197,
+      "RANG": 197,
       "NO_LICENCE": "1008752W",
       "NOM_PERSONNE": "VALLÉE",
       "PRENOM_PERSONNE": "Vincent",
@@ -77442,8 +77415,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 199,
-      "RANG": 199,
+      "Rang_ligue": 198,
+      "RANG": 198,
       "NO_LICENCE": "0971896J",
       "NOM_PERSONNE": "MEZIERE",
       "PRENOM_PERSONNE": "Remi",
@@ -77469,8 +77442,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 200,
-      "RANG": 200,
+      "Rang_ligue": 199,
+      "RANG": 199,
       "NO_LICENCE": "0011232J",
       "NOM_PERSONNE": "FRADET",
       "PRENOM_PERSONNE": "Jauris",
@@ -77496,8 +77469,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 201,
-      "RANG": 201,
+      "Rang_ligue": 200,
+      "RANG": 200,
       "NO_LICENCE": "0843979U",
       "NOM_PERSONNE": "MABILLEAU",
       "PRENOM_PERSONNE": "Nicolas",
@@ -77523,8 +77496,8 @@
       "_classement_nom": "Scratch Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 202,
-      "RANG": 202,
+      "Rang_ligue": 201,
+      "RANG": 201,
       "NO_LICENCE": "0224650K",
       "NOM_PERSONNE": "BOURREAU",
       "PRENOM_PERSONNE": "Olivier",
@@ -77958,7 +77931,7 @@
       "Rang_ligue": 4,
       "RANG": 4,
       "NO_LICENCE": "0047296J",
-      "NOM_PERSONNE": "ADAM",
+      "NOM_PERSONNE": "KONCKI",
       "PRENOM_PERSONNE": "Olympe",
       "SEXE": "F",
       "ARME": "P",
@@ -80685,7 +80658,7 @@
       "Rang_ligue": 2,
       "RANG": 2,
       "NO_LICENCE": "0047296J",
-      "NOM_PERSONNE": "ADAM",
+      "NOM_PERSONNE": "KONCKI",
       "PRENOM_PERSONNE": "Olympe",
       "SEXE": "F",
       "ARME": "P",
@@ -82493,33 +82466,6 @@
     {
       "Rang_ligue": 55,
       "RANG": 55,
-      "NO_LICENCE": "0008207W",
-      "NOM_PERSONNE": "BOUSSEMART",
-      "PRENOM_PERSONNE": "Christophe",
-      "SEXE": "H",
-      "ARME": "P",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "MONTREUIL JUIGNE TIR A L'ARC",
-      "NOM_ABREGE": "MONTREUIL JUIGNE",
-      "CODE_STRUCTURE": "1249067",
-      "DEPARTEMENT": "49",
-      "SCORE1": "539",
-      "SCORE2": "530",
-      "SCORE3": "525",
-      "MOY_SCORE": "531",
-      "DISCIPLINE": "S",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "724",
-      "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
-    },
-    {
-      "Rang_ligue": 56,
-      "RANG": 56,
       "NO_LICENCE": "0768348L",
       "NOM_PERSONNE": "GUERIN",
       "PRENOM_PERSONNE": "Jerome",
@@ -82545,8 +82491,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 57,
-      "RANG": 57,
+      "Rang_ligue": 56,
+      "RANG": 56,
       "NO_LICENCE": "1026248U",
       "NOM_PERSONNE": "DENIS",
       "PRENOM_PERSONNE": "Jérôme",
@@ -82572,8 +82518,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 58,
-      "RANG": 58,
+      "Rang_ligue": 57,
+      "RANG": 57,
       "NO_LICENCE": "0826591U",
       "NOM_PERSONNE": "DELRUE",
       "PRENOM_PERSONNE": "Sebastien",
@@ -82599,8 +82545,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 59,
-      "RANG": 59,
+      "Rang_ligue": 58,
+      "RANG": 58,
       "NO_LICENCE": "1013502O",
       "NOM_PERSONNE": "BERGOT",
       "PRENOM_PERSONNE": "Michael",
@@ -82626,8 +82572,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 60,
-      "RANG": 60,
+      "Rang_ligue": 59,
+      "RANG": 59,
       "NO_LICENCE": "0035617P",
       "NOM_PERSONNE": "MEUNIER",
       "PRENOM_PERSONNE": "Cyrille",
@@ -82653,8 +82599,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 61,
-      "RANG": 61,
+      "Rang_ligue": 60,
+      "RANG": 60,
       "NO_LICENCE": "0058013H",
       "NOM_PERSONNE": "MARIE",
       "PRENOM_PERSONNE": "Damien",
@@ -82680,8 +82626,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 62,
-      "RANG": 62,
+      "Rang_ligue": 61,
+      "RANG": 61,
       "NO_LICENCE": "0610484V",
       "NOM_PERSONNE": "HERVE",
       "PRENOM_PERSONNE": "Florian",
@@ -82707,8 +82653,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 63,
-      "RANG": 63,
+      "Rang_ligue": 62,
+      "RANG": 62,
       "NO_LICENCE": "0919293G",
       "NOM_PERSONNE": "LEBLANC",
       "PRENOM_PERSONNE": "Jerome",
@@ -82734,8 +82680,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 64,
-      "RANG": 64,
+      "Rang_ligue": 63,
+      "RANG": 63,
       "NO_LICENCE": "0904954W",
       "NOM_PERSONNE": "GUILLOTON",
       "PRENOM_PERSONNE": "Vincent",
@@ -82761,8 +82707,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 65,
-      "RANG": 65,
+      "Rang_ligue": 64,
+      "RANG": 64,
       "NO_LICENCE": "0005536T",
       "NOM_PERSONNE": "ROUSSELON",
       "PRENOM_PERSONNE": "Regis",
@@ -82788,8 +82734,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 66,
-      "RANG": 66,
+      "Rang_ligue": 65,
+      "RANG": 65,
       "NO_LICENCE": "0593753J",
       "NOM_PERSONNE": "BOMPOIL",
       "PRENOM_PERSONNE": "Nicolas",
@@ -82815,8 +82761,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 67,
-      "RANG": 67,
+      "Rang_ligue": 66,
+      "RANG": 66,
       "NO_LICENCE": "0937022C",
       "NOM_PERSONNE": "CHENAUX",
       "PRENOM_PERSONNE": "Alexandre",
@@ -82842,8 +82788,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 68,
-      "RANG": 68,
+      "Rang_ligue": 67,
+      "RANG": 67,
       "NO_LICENCE": "0835938D",
       "NOM_PERSONNE": "RATEL",
       "PRENOM_PERSONNE": "Christophe",
@@ -82869,8 +82815,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 69,
-      "RANG": 69,
+      "Rang_ligue": 68,
+      "RANG": 68,
       "NO_LICENCE": "0305782X",
       "NOM_PERSONNE": "SALLE",
       "PRENOM_PERSONNE": "Olivier",
@@ -82896,8 +82842,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 70,
-      "RANG": 70,
+      "Rang_ligue": 69,
+      "RANG": 69,
       "NO_LICENCE": "0876817M",
       "NOM_PERSONNE": "DUHOUX",
       "PRENOM_PERSONNE": "Pascal",
@@ -82923,8 +82869,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 71,
-      "RANG": 71,
+      "Rang_ligue": 70,
+      "RANG": 70,
       "NO_LICENCE": "1013941L",
       "NOM_PERSONNE": "SAUX",
       "PRENOM_PERSONNE": "David",
@@ -82950,8 +82896,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 72,
-      "RANG": 72,
+      "Rang_ligue": 71,
+      "RANG": 71,
       "NO_LICENCE": "0429985A",
       "NOM_PERSONNE": "MEZERETTE",
       "PRENOM_PERSONNE": "Laurent",
@@ -82977,8 +82923,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 73,
-      "RANG": 73,
+      "Rang_ligue": 72,
+      "RANG": 72,
       "NO_LICENCE": "0715262J",
       "NOM_PERSONNE": "MICHON",
       "PRENOM_PERSONNE": "Jean-paul",
@@ -83004,8 +82950,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 74,
-      "RANG": 74,
+      "Rang_ligue": 73,
+      "RANG": 73,
       "NO_LICENCE": "0082905P",
       "NOM_PERSONNE": "LETULLE",
       "PRENOM_PERSONNE": "Damien",
@@ -83031,8 +82977,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 75,
-      "RANG": 75,
+      "Rang_ligue": 74,
+      "RANG": 74,
       "NO_LICENCE": "0730623F",
       "NOM_PERSONNE": "MABIT",
       "PRENOM_PERSONNE": "Herve",
@@ -83058,8 +83004,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 76,
-      "RANG": 76,
+      "Rang_ligue": 75,
+      "RANG": 75,
       "NO_LICENCE": "0057365D",
       "NOM_PERSONNE": "LE VAILLANT",
       "PRENOM_PERSONNE": "Fabien",
@@ -83085,8 +83031,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 77,
-      "RANG": 77,
+      "Rang_ligue": 76,
+      "RANG": 76,
       "NO_LICENCE": "1008752W",
       "NOM_PERSONNE": "VALLÉE",
       "PRENOM_PERSONNE": "Vincent",
@@ -83112,8 +83058,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 78,
-      "RANG": 78,
+      "Rang_ligue": 77,
+      "RANG": 77,
       "NO_LICENCE": "0913608C",
       "NOM_PERSONNE": "PEDRON",
       "PRENOM_PERSONNE": "Anthony",
@@ -83139,8 +83085,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 79,
-      "RANG": 79,
+      "Rang_ligue": 78,
+      "RANG": 78,
       "NO_LICENCE": "0959117U",
       "NOM_PERSONNE": "GAZEAU",
       "PRENOM_PERSONNE": "Teddy",
@@ -83166,8 +83112,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 80,
-      "RANG": 80,
+      "Rang_ligue": 79,
+      "RANG": 79,
       "NO_LICENCE": "0617097H",
       "NOM_PERSONNE": "THEBAUD",
       "PRENOM_PERSONNE": "Samuel",
@@ -83193,8 +83139,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 81,
-      "RANG": 81,
+      "Rang_ligue": 80,
+      "RANG": 80,
       "NO_LICENCE": "0870542S",
       "NOM_PERSONNE": "NICOLAS",
       "PRENOM_PERSONNE": "Philippe",
@@ -83220,8 +83166,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 82,
-      "RANG": 82,
+      "Rang_ligue": 81,
+      "RANG": 81,
       "NO_LICENCE": "0845056P",
       "NOM_PERSONNE": "VENTURINI",
       "PRENOM_PERSONNE": "Marc",
@@ -83247,8 +83193,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 83,
-      "RANG": 83,
+      "Rang_ligue": 82,
+      "RANG": 82,
       "NO_LICENCE": "1059088W",
       "NOM_PERSONNE": "CHANTREL FOURÉ",
       "PRENOM_PERSONNE": "Damien",
@@ -83274,8 +83220,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 84,
-      "RANG": 84,
+      "Rang_ligue": 83,
+      "RANG": 83,
       "NO_LICENCE": "1030328S",
       "NOM_PERSONNE": "PRADARIES",
       "PRENOM_PERSONNE": "Julien",
@@ -83301,8 +83247,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 85,
-      "RANG": 85,
+      "Rang_ligue": 84,
+      "RANG": 84,
       "NO_LICENCE": "0715536G",
       "NOM_PERSONNE": "CRUSSON",
       "PRENOM_PERSONNE": "Sebastien",
@@ -83328,8 +83274,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 86,
-      "RANG": 86,
+      "Rang_ligue": 85,
+      "RANG": 85,
       "NO_LICENCE": "0058055D",
       "NOM_PERSONNE": "KERMEN",
       "PRENOM_PERSONNE": "Nicolas",
@@ -83355,8 +83301,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 87,
-      "RANG": 87,
+      "Rang_ligue": 86,
+      "RANG": 86,
       "NO_LICENCE": "0862820Y",
       "NOM_PERSONNE": "BILLARD",
       "PRENOM_PERSONNE": "Sebastien",
@@ -83382,8 +83328,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 88,
-      "RANG": 88,
+      "Rang_ligue": 87,
+      "RANG": 87,
       "NO_LICENCE": "0974429M",
       "NOM_PERSONNE": "AUBRUN",
       "PRENOM_PERSONNE": "Cedric",
@@ -83409,8 +83355,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 89,
-      "RANG": 89,
+      "Rang_ligue": 88,
+      "RANG": 88,
       "NO_LICENCE": "0036250C",
       "NOM_PERSONNE": "MICHAUD",
       "PRENOM_PERSONNE": "Vincent",
@@ -83436,8 +83382,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 90,
-      "RANG": 90,
+      "Rang_ligue": 89,
+      "RANG": 89,
       "NO_LICENCE": "0401889L",
       "NOM_PERSONNE": "CHERHAL",
       "PRENOM_PERSONNE": "Fanch",
@@ -83463,8 +83409,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 91,
-      "RANG": 91,
+      "Rang_ligue": 90,
+      "RANG": 90,
       "NO_LICENCE": "0877931Y",
       "NOM_PERSONNE": "MULLER",
       "PRENOM_PERSONNE": "Maurice",
@@ -83490,8 +83436,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 92,
-      "RANG": 92,
+      "Rang_ligue": 91,
+      "RANG": 91,
       "NO_LICENCE": "0725265G",
       "NOM_PERSONNE": "GAULT",
       "PRENOM_PERSONNE": "Ludovic",
@@ -83517,8 +83463,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 93,
-      "RANG": 93,
+      "Rang_ligue": 92,
+      "RANG": 92,
       "NO_LICENCE": "0843979U",
       "NOM_PERSONNE": "MABILLEAU",
       "PRENOM_PERSONNE": "Nicolas",
@@ -83544,8 +83490,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
-      "Rang_ligue": 94,
-      "RANG": 94,
+      "Rang_ligue": 93,
+      "RANG": 93,
       "NO_LICENCE": "0224650K",
       "NOM_PERSONNE": "BOURREAU",
       "PRENOM_PERSONNE": "Olivier",

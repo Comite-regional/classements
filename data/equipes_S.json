@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-27T05:56:20.254027Z",
+    "generated_at": "2026-07-28T05:20:05.874789Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -4164,7 +4164,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "541",
+      "RANG": "536",
       "RANG_LIGUE": "36",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -4185,7 +4185,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "552",
+      "RANG": "554",
       "RANG_LIGUE": "37",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -4248,7 +4248,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "635",
+      "RANG": "632",
       "RANG_LIGUE": "40",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -4374,29 +4374,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "729",
+      "RANG": "731",
       "RANG_LIGUE": "46",
-      "DIVISION": "",
-      "PRE_INSCRIT": "",
-      "QUOTA": "",
-      "NOM_ABREGE": "MONTREUIL JUIGNE",
-      "NOM_STRUCTURE": "MONTREUIL JUIGNE TIR A L'ARC",
-      "SEXE_EQUIPE": "H",
-      "ARME_EQUIPE": "P",
-      "CATEGORIE_CLASSEMENT": "Arc à Poulies Homme 2026",
-      "CODE_STRUCTURE": "1249067",
-      "VILLE": "",
-      "DEPARTEMENT": "49",
-      "SCORE1": "531",
-      "SCORE2": "520",
-      "SCORE3": "0",
-      "MOY_SCORE": "1051",
-      "_classement_nom": "Arc à Poulies Homme 2026",
-      "DISCIPLINE": "S"
-    },
-    {
-      "RANG": "732",
-      "RANG_LIGUE": "47",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -4416,8 +4395,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "733",
-      "RANG_LIGUE": "48",
+      "RANG": "732",
+      "RANG_LIGUE": "47",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -4437,8 +4416,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "742",
-      "RANG_LIGUE": "49",
+      "RANG": "741",
+      "RANG_LIGUE": "48",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -4454,6 +4433,27 @@
       "SCORE2": "0",
       "SCORE3": "0",
       "MOY_SCORE": "524",
+      "_classement_nom": "Arc à Poulies Homme 2026",
+      "DISCIPLINE": "S"
+    },
+    {
+      "RANG": "765",
+      "RANG_LIGUE": "49",
+      "DIVISION": "",
+      "PRE_INSCRIT": "",
+      "QUOTA": "",
+      "NOM_ABREGE": "MONTREUIL JUIGNE",
+      "NOM_STRUCTURE": "MONTREUIL JUIGNE TIR A L'ARC",
+      "SEXE_EQUIPE": "H",
+      "ARME_EQUIPE": "P",
+      "CATEGORIE_CLASSEMENT": "Arc à Poulies Homme 2026",
+      "CODE_STRUCTURE": "1249067",
+      "VILLE": "",
+      "DEPARTEMENT": "49",
+      "SCORE1": "520",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "520",
       "_classement_nom": "Arc à Poulies Homme 2026",
       "DISCIPLINE": "S"
     },
@@ -4542,7 +4542,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "832",
+      "RANG": "833",
       "RANG_LIGUE": "54",
       "DIVISION": "",
       "PRE_INSCRIT": "",
