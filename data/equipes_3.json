@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-03T05:49:04.775498Z",
+    "generated_at": "2026-08-04T05:19:57.540206Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -426,7 +426,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "129",
+      "RANG": "130",
       "RANG_LIGUE": "2",
       "DIVISION": "",
       "PRE_INSCRIT": "",
