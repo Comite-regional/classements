@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-17T03:04:55.511733Z",
+    "generated_at": "2026-08-18T03:00:29.973587Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -380,7 +380,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "90",
+      "RANG_NAT": "92",
       "_classement_nom": "Scratch Homme Bare Bow 2026"
     },
     {
@@ -407,7 +407,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "108",
+      "RANG_NAT": "109",
       "_classement_nom": "Scratch Homme Bare Bow 2026"
     },
     {
@@ -488,7 +488,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "138",
+      "RANG_NAT": "139",
       "_classement_nom": "Scratch Homme Bare Bow 2026"
     },
     {
@@ -515,7 +515,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "143",
+      "RANG_NAT": "144",
       "_classement_nom": "Scratch Homme Bare Bow 2026"
     },
     {
@@ -542,7 +542,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "167",
+      "RANG_NAT": "168",
       "_classement_nom": "Scratch Homme Bare Bow 2026"
     },
     {
@@ -656,6 +656,33 @@
     {
       "Rang_ligue": 15,
       "RANG": 15,
+      "NO_LICENCE": "0997697D",
+      "NOM_PERSONNE": "ANGEBAUD",
+      "PRENOM_PERSONNE": "Romain",
+      "SEXE": "H",
+      "ARME": "C",
+      "CAT": "U18",
+      "CATEGORIE": "U18",
+      "NOM_STRUCTURE": "LES ARCHERS DU BIGNON",
+      "NOM_ABREGE": "LE BIGNON",
+      "CODE_STRUCTURE": "1244008",
+      "DEPARTEMENT": "44",
+      "SCORE1": "349",
+      "SCORE2": "305",
+      "SCORE3": "303",
+      "MOY_SCORE": "319",
+      "DISCIPLINE": "3",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "298",
+      "_classement_nom": "Scratch Homme Bare Bow 2026"
+    },
+    {
+      "Rang_ligue": 16,
+      "RANG": 16,
       "NO_LICENCE": "0761524U",
       "NOM_PERSONNE": "CHARLES",
       "PRENOM_PERSONNE": "Camille",
@@ -677,12 +704,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "302",
+      "RANG_NAT": "303",
       "_classement_nom": "Scratch Homme Bare Bow 2026"
     },
     {
-      "Rang_ligue": 16,
-      "RANG": 16,
+      "Rang_ligue": 17,
+      "RANG": 17,
       "NO_LICENCE": "0977434D",
       "NOM_PERSONNE": "BARRAUD",
       "PRENOM_PERSONNE": "Christophe",
@@ -698,33 +725,6 @@
       "SCORE2": "0",
       "SCORE3": "0",
       "MOY_SCORE": "317",
-      "DISCIPLINE": "3",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "306",
-      "_classement_nom": "Scratch Homme Bare Bow 2026"
-    },
-    {
-      "Rang_ligue": 17,
-      "RANG": 17,
-      "NO_LICENCE": "0997697D",
-      "NOM_PERSONNE": "ANGEBAUD",
-      "PRENOM_PERSONNE": "Romain",
-      "SEXE": "H",
-      "ARME": "C",
-      "CAT": "U18",
-      "CATEGORIE": "U18",
-      "NOM_STRUCTURE": "LES ARCHERS DU BIGNON",
-      "NOM_ABREGE": "LE BIGNON",
-      "CODE_STRUCTURE": "1244008",
-      "DEPARTEMENT": "44",
-      "SCORE1": "349",
-      "SCORE2": "305",
-      "SCORE3": "295",
-      "MOY_SCORE": "316",
       "DISCIPLINE": "3",
       "DISTANCE": "",
       "BLASON": "",
@@ -1163,7 +1163,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "528",
+      "RANG_NAT": "529",
       "_classement_nom": "Scratch Homme Bare Bow 2026"
     },
     {
@@ -1190,7 +1190,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "533",
+      "RANG_NAT": "534",
       "_classement_nom": "Scratch Homme Bare Bow 2026"
     },
     {
@@ -1217,7 +1217,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "534",
+      "RANG_NAT": "535",
       "_classement_nom": "Scratch Homme Bare Bow 2026"
     },
     {
@@ -1992,8 +1992,8 @@
       "DEPARTEMENT": "44",
       "SCORE1": "349",
       "SCORE2": "305",
-      "SCORE3": "295",
-      "MOY_SCORE": "316",
+      "SCORE3": "303",
+      "MOY_SCORE": "319",
       "DISCIPLINE": "3",
       "DISTANCE": "",
       "BLASON": "",
@@ -2324,7 +2324,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "84",
+      "RANG_NAT": "85",
       "_classement_nom": "Scratch Femme Bare Bow 2026"
     },
     {
@@ -3053,7 +3053,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "38",
+      "RANG_NAT": "39",
       "_classement_nom": "Senior 2 Homme Arc Nu 2026"
     },
     {
@@ -3107,7 +3107,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "60",
+      "RANG_NAT": "61",
       "_classement_nom": "Senior 2 Homme Arc Nu 2026"
     },
     {
@@ -3134,7 +3134,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "64",
+      "RANG_NAT": "65",
       "_classement_nom": "Senior 2 Homme Arc Nu 2026"
     },
     {
@@ -3674,7 +3674,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "32",
+      "RANG_NAT": "33",
       "_classement_nom": "Senior 3 Homme Arc Nu 2026"
     },
     {
@@ -4409,6 +4409,33 @@
     {
       "Rang_ligue": 2,
       "RANG": 2,
+      "NO_LICENCE": "0722399S",
+      "NOM_PERSONNE": "PITON",
+      "PRENOM_PERSONNE": "Alain",
+      "SEXE": "H",
+      "ARME": "D",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "ARCHERS DE ST HERBLAIN",
+      "NOM_ABREGE": "ST HERBLAIN",
+      "CODE_STRUCTURE": "1244002",
+      "DEPARTEMENT": "44",
+      "SCORE1": "336",
+      "SCORE2": "277",
+      "SCORE3": "266",
+      "MOY_SCORE": "293",
+      "DISCIPLINE": "3",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "73",
+      "_classement_nom": "Scratch Homme Arc Droit 2026"
+    },
+    {
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "1044036Y",
       "NOM_PERSONNE": "BENETEAU",
       "PRENOM_PERSONNE": "Eddy",
@@ -4430,34 +4457,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "74",
-      "_classement_nom": "Scratch Homme Arc Droit 2026"
-    },
-    {
-      "Rang_ligue": 3,
-      "RANG": 3,
-      "NO_LICENCE": "0722399S",
-      "NOM_PERSONNE": "PITON",
-      "PRENOM_PERSONNE": "Alain",
-      "SEXE": "H",
-      "ARME": "D",
-      "CAT": "S3",
-      "CATEGORIE": "S3",
-      "NOM_STRUCTURE": "ARCHERS DE ST HERBLAIN",
-      "NOM_ABREGE": "ST HERBLAIN",
-      "CODE_STRUCTURE": "1244002",
-      "DEPARTEMENT": "44",
-      "SCORE1": "336",
-      "SCORE2": "277",
-      "SCORE3": "255",
-      "MOY_SCORE": "289",
-      "DISCIPLINE": "3",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "82",
+      "RANG_NAT": "75",
       "_classement_nom": "Scratch Homme Arc Droit 2026"
     },
     {
@@ -4476,15 +4476,15 @@
       "DEPARTEMENT": "72",
       "SCORE1": "287",
       "SCORE2": "283",
-      "SCORE3": "280",
-      "MOY_SCORE": "283",
+      "SCORE3": "282",
+      "MOY_SCORE": "284",
       "DISCIPLINE": "3",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "94",
+      "RANG_NAT": "93",
       "_classement_nom": "Scratch Homme Arc Droit 2026"
     },
     {
@@ -4511,7 +4511,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "100",
+      "RANG_NAT": "102",
       "_classement_nom": "Scratch Homme Arc Droit 2026"
     },
     {
@@ -4538,7 +4538,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "120",
+      "RANG_NAT": "121",
       "_classement_nom": "Scratch Homme Arc Droit 2026"
     },
     {
@@ -4646,7 +4646,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "181",
+      "RANG_NAT": "182",
       "_classement_nom": "Scratch Homme Arc Droit 2026"
     },
     {
@@ -6123,15 +6123,15 @@
       "DEPARTEMENT": "44",
       "SCORE1": "336",
       "SCORE2": "277",
-      "SCORE3": "255",
-      "MOY_SCORE": "289",
+      "SCORE3": "266",
+      "MOY_SCORE": "293",
       "DISCIPLINE": "3",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "23",
+      "RANG_NAT": "20",
       "_classement_nom": "Senior 3 Homme Arc Droit 2026"
     },
     {
@@ -6150,15 +6150,15 @@
       "DEPARTEMENT": "72",
       "SCORE1": "287",
       "SCORE2": "283",
-      "SCORE3": "280",
-      "MOY_SCORE": "283",
+      "SCORE3": "282",
+      "MOY_SCORE": "284",
       "DISCIPLINE": "3",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "32",
+      "RANG_NAT": "31",
       "_classement_nom": "Senior 3 Homme Arc Droit 2026"
     },
     {
@@ -6185,7 +6185,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "44",
+      "RANG_NAT": "45",
       "_classement_nom": "Senior 3 Homme Arc Droit 2026"
     },
     {
@@ -6752,7 +6752,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "43",
+      "RANG_NAT": "44",
       "_classement_nom": "Scratch Homme Arc Chasse 2026"
     },
     {
@@ -6941,7 +6941,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "292",
+      "RANG_NAT": "293",
       "_classement_nom": "Scratch Homme Arc Chasse 2026"
     },
     {
@@ -7130,7 +7130,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "411",
+      "RANG_NAT": "412",
       "_classement_nom": "Scratch Homme Arc Chasse 2026"
     },
     {
@@ -7265,7 +7265,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "565",
+      "RANG_NAT": "566",
       "_classement_nom": "Scratch Homme Arc Chasse 2026"
     },
     {
@@ -7319,7 +7319,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "594",
+      "RANG_NAT": "593",
       "_classement_nom": "Scratch Homme Arc Chasse 2026"
     },
     {
@@ -7454,7 +7454,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "679",
+      "RANG_NAT": "678",
       "_classement_nom": "Scratch Homme Arc Chasse 2026"
     },
     {
@@ -7562,7 +7562,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "728",
+      "RANG_NAT": "727",
       "_classement_nom": "Scratch Homme Arc Chasse 2026"
     },
     {
@@ -7697,7 +7697,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "799",
+      "RANG_NAT": "798",
       "_classement_nom": "Scratch Homme Arc Chasse 2026"
     },
     {
@@ -8615,7 +8615,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "296",
+      "RANG_NAT": "295",
       "_classement_nom": "Senior 2 Homme Arc Chasse 2026"
     },
     {
@@ -8642,7 +8642,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "301",
+      "RANG_NAT": "300",
       "_classement_nom": "Senior 2 Homme Arc Chasse 2026"
     },
     {
@@ -9020,7 +9020,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "152",
+      "RANG_NAT": "153",
       "_classement_nom": "Senior 3 Homme Arc Chasse 2026"
     },
     {
@@ -10848,8 +10848,8 @@
       "DEPARTEMENT": "44",
       "SCORE1": "457",
       "SCORE2": "456",
-      "SCORE3": "448",
-      "MOY_SCORE": "453",
+      "SCORE3": "453",
+      "MOY_SCORE": "455",
       "DISCIPLINE": "3",
       "DISTANCE": "",
       "BLASON": "",
@@ -12549,8 +12549,8 @@
       "DEPARTEMENT": "44",
       "SCORE1": "457",
       "SCORE2": "456",
-      "SCORE3": "448",
-      "MOY_SCORE": "453",
+      "SCORE3": "453",
+      "MOY_SCORE": "455",
       "DISCIPLINE": "3",
       "DISTANCE": "",
       "BLASON": "",
@@ -12576,8 +12576,8 @@
       "DEPARTEMENT": "44",
       "SCORE1": "457",
       "SCORE2": "456",
-      "SCORE3": "448",
-      "MOY_SCORE": "453",
+      "SCORE3": "453",
+      "MOY_SCORE": "455",
       "DISCIPLINE": "3",
       "DISTANCE": "",
       "BLASON": "",
@@ -12935,7 +12935,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "14",
+      "RANG_NAT": "15",
       "_classement_nom": "Scratch Homme Arc à Poulies nu 2026"
     },
     {
