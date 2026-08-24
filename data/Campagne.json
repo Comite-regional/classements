@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-23T03:08:28.558596Z",
+    "generated_at": "2026-08-24T03:09:10.981315Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -7325,6 +7325,33 @@
     {
       "Rang_ligue": 2,
       "RANG": 2,
+      "NO_LICENCE": "0642848Y",
+      "NOM_PERSONNE": "VEZON",
+      "PRENOM_PERSONNE": "Brigitte",
+      "SEXE": "F",
+      "ARME": "D",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "JEANNE D'ARC DE SAUMUR TIR A L'ARC",
+      "NOM_ABREGE": "SAUMUR",
+      "CODE_STRUCTURE": "1249066",
+      "DEPARTEMENT": "49",
+      "SCORE1": "167",
+      "SCORE2": "155",
+      "SCORE3": "145",
+      "MOY_SCORE": "155",
+      "DISCIPLINE": "C",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "19",
+      "_classement_nom": "Scratch Femme Longbow 2026"
+    },
+    {
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "0857437X",
       "NOM_PERSONNE": "HENIN",
       "PRENOM_PERSONNE": "Sylvie",
@@ -7350,8 +7377,8 @@
       "_classement_nom": "Scratch Femme Longbow 2026"
     },
     {
-      "Rang_ligue": 3,
-      "RANG": 3,
+      "Rang_ligue": 4,
+      "RANG": 4,
       "NO_LICENCE": "0321633B",
       "NOM_PERSONNE": "GOISNEAU",
       "PRENOM_PERSONNE": "Nathalie",
@@ -7377,8 +7404,8 @@
       "_classement_nom": "Scratch Femme Longbow 2026"
     },
     {
-      "Rang_ligue": 4,
-      "RANG": 4,
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "1009188Q",
       "NOM_PERSONNE": "LE POUL",
       "PRENOM_PERSONNE": "Régine",
@@ -7404,8 +7431,8 @@
       "_classement_nom": "Scratch Femme Longbow 2026"
     },
     {
-      "Rang_ligue": 5,
-      "RANG": 5,
+      "Rang_ligue": 6,
+      "RANG": 6,
       "NO_LICENCE": "0055657X",
       "NOM_PERSONNE": "FERRAULT",
       "PRENOM_PERSONNE": "Laura",
@@ -7431,8 +7458,8 @@
       "_classement_nom": "Scratch Femme Longbow 2026"
     },
     {
-      "Rang_ligue": 6,
-      "RANG": 6,
+      "Rang_ligue": 7,
+      "RANG": 7,
       "NO_LICENCE": "0030906U",
       "NOM_PERSONNE": "MARTIN",
       "PRENOM_PERSONNE": "Nelly",
@@ -9296,6 +9323,33 @@
     {
       "Rang_ligue": 69,
       "RANG": 69,
+      "NO_LICENCE": "0416568S",
+      "NOM_PERSONNE": "VEZON",
+      "PRENOM_PERSONNE": "Gilles",
+      "SEXE": "H",
+      "ARME": "P",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "JEANNE D'ARC DE SAUMUR TIR A L'ARC",
+      "NOM_ABREGE": "SAUMUR",
+      "CODE_STRUCTURE": "1249066",
+      "DEPARTEMENT": "49",
+      "SCORE1": "245",
+      "SCORE2": "226",
+      "SCORE3": "207",
+      "MOY_SCORE": "226",
+      "DISCIPLINE": "C",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "706",
+      "_classement_nom": "Scratch Homme Poulies 2026"
+    },
+    {
+      "Rang_ligue": 70,
+      "RANG": 70,
       "NO_LICENCE": "0956175W",
       "NOM_PERSONNE": "BURAY",
       "PRENOM_PERSONNE": "Daniel",
@@ -9321,8 +9375,8 @@
       "_classement_nom": "Scratch Homme Poulies 2026"
     },
     {
-      "Rang_ligue": 70,
-      "RANG": 70,
+      "Rang_ligue": 71,
+      "RANG": 71,
       "NO_LICENCE": "0035617P",
       "NOM_PERSONNE": "MEUNIER",
       "PRENOM_PERSONNE": "Cyrille",
@@ -12050,6 +12104,33 @@
     {
       "Rang_ligue": 16,
       "RANG": 16,
+      "NO_LICENCE": "0416568S",
+      "NOM_PERSONNE": "VEZON",
+      "PRENOM_PERSONNE": "Gilles",
+      "SEXE": "H",
+      "ARME": "P",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "JEANNE D'ARC DE SAUMUR TIR A L'ARC",
+      "NOM_ABREGE": "SAUMUR",
+      "CODE_STRUCTURE": "1249066",
+      "DEPARTEMENT": "49",
+      "SCORE1": "245",
+      "SCORE2": "226",
+      "SCORE3": "207",
+      "MOY_SCORE": "226",
+      "DISCIPLINE": "C",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "119",
+      "_classement_nom": "Senior 3 Homme Arc à poulies 2026"
+    },
+    {
+      "Rang_ligue": 17,
+      "RANG": 17,
       "NO_LICENCE": "0214425W",
       "NOM_PERSONNE": "NICOLAS",
       "PRENOM_PERSONNE": "Philippe",
@@ -12075,8 +12156,8 @@
       "_classement_nom": "Senior 3 Homme Arc à poulies 2026"
     },
     {
-      "Rang_ligue": 17,
-      "RANG": 17,
+      "Rang_ligue": 18,
+      "RANG": 18,
       "NO_LICENCE": "0370192H",
       "NOM_PERSONNE": "JOUSSELIN",
       "PRENOM_PERSONNE": "Nicol",
@@ -12102,8 +12183,8 @@
       "_classement_nom": "Senior 3 Homme Arc à poulies 2026"
     },
     {
-      "Rang_ligue": 18,
-      "RANG": 18,
+      "Rang_ligue": 19,
+      "RANG": 19,
       "NO_LICENCE": "0598597Z",
       "NOM_PERSONNE": "PRIOUX",
       "PRENOM_PERSONNE": "Jean luc",
@@ -12129,8 +12210,8 @@
       "_classement_nom": "Senior 3 Homme Arc à poulies 2026"
     },
     {
-      "Rang_ligue": 19,
-      "RANG": 19,
+      "Rang_ligue": 20,
+      "RANG": 20,
       "NO_LICENCE": "0956175W",
       "NOM_PERSONNE": "BURAY",
       "PRENOM_PERSONNE": "Daniel",

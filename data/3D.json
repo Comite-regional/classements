@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-23T03:08:28.558596Z",
+    "generated_at": "2026-08-24T03:09:10.981315Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -5219,6 +5219,33 @@
     {
       "Rang_ligue": 32,
       "RANG": 32,
+      "NO_LICENCE": "0416568S",
+      "NOM_PERSONNE": "VEZON",
+      "PRENOM_PERSONNE": "Gilles",
+      "SEXE": "H",
+      "ARME": "D",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "JEANNE D'ARC DE SAUMUR TIR A L'ARC",
+      "NOM_ABREGE": "SAUMUR",
+      "CODE_STRUCTURE": "1249066",
+      "DEPARTEMENT": "49",
+      "SCORE1": "173",
+      "SCORE2": "133",
+      "SCORE3": "117",
+      "MOY_SCORE": "141",
+      "DISCIPLINE": "3",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "571",
+      "_classement_nom": "Scratch Homme Arc Droit 2026"
+    },
+    {
+      "Rang_ligue": 33,
+      "RANG": 33,
       "NO_LICENCE": "0010726J",
       "NOM_PERSONNE": "RENAUDINEAU",
       "PRENOM_PERSONNE": "Henri",
@@ -5244,8 +5271,8 @@
       "_classement_nom": "Scratch Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": 33,
-      "RANG": 33,
+      "Rang_ligue": 34,
+      "RANG": 34,
       "NO_LICENCE": "0008386R",
       "NOM_PERSONNE": "JORE",
       "PRENOM_PERSONNE": "Phillippe",
@@ -5271,8 +5298,8 @@
       "_classement_nom": "Scratch Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": 34,
-      "RANG": 34,
+      "Rang_ligue": 35,
+      "RANG": 35,
       "NO_LICENCE": "1050632Q",
       "NOM_PERSONNE": "KOHLER",
       "PRENOM_PERSONNE": "Jean-marc",
@@ -5298,8 +5325,8 @@
       "_classement_nom": "Scratch Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": 35,
-      "RANG": 35,
+      "Rang_ligue": 36,
+      "RANG": 36,
       "NO_LICENCE": "0660449E",
       "NOM_PERSONNE": "RONDINEAU",
       "PRENOM_PERSONNE": "Thomas",
@@ -5489,6 +5516,33 @@
     {
       "Rang_ligue": 4,
       "RANG": 4,
+      "NO_LICENCE": "0642848Y",
+      "NOM_PERSONNE": "VEZON",
+      "PRENOM_PERSONNE": "Brigitte",
+      "SEXE": "F",
+      "ARME": "D",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "JEANNE D'ARC DE SAUMUR TIR A L'ARC",
+      "NOM_ABREGE": "SAUMUR",
+      "CODE_STRUCTURE": "1249066",
+      "DEPARTEMENT": "49",
+      "SCORE1": "187",
+      "SCORE2": "179",
+      "SCORE3": "178",
+      "MOY_SCORE": "181",
+      "DISCIPLINE": "3",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "106",
+      "_classement_nom": "Scratch Femme Arc Droit 2026"
+    },
+    {
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "0757317W",
       "NOM_PERSONNE": "LACROIX",
       "PRENOM_PERSONNE": "Sylvie",
@@ -5514,8 +5568,8 @@
       "_classement_nom": "Scratch Femme Arc Droit 2026"
     },
     {
-      "Rang_ligue": 5,
-      "RANG": 5,
+      "Rang_ligue": 6,
+      "RANG": 6,
       "NO_LICENCE": "0030906U",
       "NOM_PERSONNE": "MARTIN",
       "PRENOM_PERSONNE": "Nelly",
@@ -5541,8 +5595,8 @@
       "_classement_nom": "Scratch Femme Arc Droit 2026"
     },
     {
-      "Rang_ligue": 6,
-      "RANG": 6,
+      "Rang_ligue": 7,
+      "RANG": 7,
       "NO_LICENCE": "0053895G",
       "NOM_PERSONNE": "BARRAUD",
       "PRENOM_PERSONNE": "Elise",
@@ -5568,8 +5622,8 @@
       "_classement_nom": "Scratch Femme Arc Droit 2026"
     },
     {
-      "Rang_ligue": 7,
-      "RANG": 7,
+      "Rang_ligue": 8,
+      "RANG": 8,
       "NO_LICENCE": "0036196U",
       "NOM_PERSONNE": "BATARD",
       "PRENOM_PERSONNE": "Catherine",
@@ -6461,6 +6515,33 @@
     {
       "Rang_ligue": 15,
       "RANG": 15,
+      "NO_LICENCE": "0416568S",
+      "NOM_PERSONNE": "VEZON",
+      "PRENOM_PERSONNE": "Gilles",
+      "SEXE": "H",
+      "ARME": "D",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "JEANNE D'ARC DE SAUMUR TIR A L'ARC",
+      "NOM_ABREGE": "SAUMUR",
+      "CODE_STRUCTURE": "1249066",
+      "DEPARTEMENT": "49",
+      "SCORE1": "173",
+      "SCORE2": "133",
+      "SCORE3": "117",
+      "MOY_SCORE": "141",
+      "DISCIPLINE": "3",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "223",
+      "_classement_nom": "Senior 3 Homme Arc Droit 2026"
+    },
+    {
+      "Rang_ligue": 16,
+      "RANG": 16,
       "NO_LICENCE": "0008297U",
       "NOM_PERSONNE": "BELLOIR",
       "PRENOM_PERSONNE": "Alain",
@@ -6486,8 +6567,8 @@
       "_classement_nom": "Senior 3 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": 16,
-      "RANG": 16,
+      "Rang_ligue": 17,
+      "RANG": 17,
       "NO_LICENCE": "0010726J",
       "NOM_PERSONNE": "RENAUDINEAU",
       "PRENOM_PERSONNE": "Henri",
@@ -6513,8 +6594,8 @@
       "_classement_nom": "Senior 3 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": 17,
-      "RANG": 17,
+      "Rang_ligue": 18,
+      "RANG": 18,
       "NO_LICENCE": "0008386R",
       "NOM_PERSONNE": "JORE",
       "PRENOM_PERSONNE": "Phillippe",
@@ -6540,8 +6621,8 @@
       "_classement_nom": "Senior 3 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": 18,
-      "RANG": 18,
+      "Rang_ligue": 19,
+      "RANG": 19,
       "NO_LICENCE": "0799974M",
       "NOM_PERSONNE": "JAMAULT",
       "PRENOM_PERSONNE": "Francis",
@@ -6567,8 +6648,8 @@
       "_classement_nom": "Senior 3 Homme Arc Droit 2026"
     },
     {
-      "Rang_ligue": 19,
-      "RANG": 19,
+      "Rang_ligue": 20,
+      "RANG": 20,
       "NO_LICENCE": "1050632Q",
       "NOM_PERSONNE": "KOHLER",
       "PRENOM_PERSONNE": "Jean-marc",
@@ -6650,6 +6731,33 @@
     {
       "Rang_ligue": 3,
       "RANG": 3,
+      "NO_LICENCE": "0642848Y",
+      "NOM_PERSONNE": "VEZON",
+      "PRENOM_PERSONNE": "Brigitte",
+      "SEXE": "F",
+      "ARME": "D",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "JEANNE D'ARC DE SAUMUR TIR A L'ARC",
+      "NOM_ABREGE": "SAUMUR",
+      "CODE_STRUCTURE": "1249066",
+      "DEPARTEMENT": "49",
+      "SCORE1": "187",
+      "SCORE2": "179",
+      "SCORE3": "178",
+      "MOY_SCORE": "181",
+      "DISCIPLINE": "3",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "38",
+      "_classement_nom": "Senior 3 Femme Arc Droit 2026"
+    },
+    {
+      "Rang_ligue": 4,
+      "RANG": 4,
       "NO_LICENCE": "0757317W",
       "NOM_PERSONNE": "LACROIX",
       "PRENOM_PERSONNE": "Sylvie",
@@ -6675,8 +6783,8 @@
       "_classement_nom": "Senior 3 Femme Arc Droit 2026"
     },
     {
-      "Rang_ligue": 4,
-      "RANG": 4,
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "0036196U",
       "NOM_PERSONNE": "BATARD",
       "PRENOM_PERSONNE": "Catherine",
@@ -10376,6 +10484,33 @@
     {
       "Rang_ligue": 37,
       "RANG": 37,
+      "NO_LICENCE": "0416568S",
+      "NOM_PERSONNE": "VEZON",
+      "PRENOM_PERSONNE": "Gilles",
+      "SEXE": "H",
+      "ARME": "L",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "JEANNE D'ARC DE SAUMUR TIR A L'ARC",
+      "NOM_ABREGE": "SAUMUR",
+      "CODE_STRUCTURE": "1249066",
+      "DEPARTEMENT": "49",
+      "SCORE1": "417",
+      "SCORE2": "274",
+      "SCORE3": "235",
+      "MOY_SCORE": "308",
+      "DISCIPLINE": "3",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "556",
+      "_classement_nom": "Scratch Homme Arc Libre 2026"
+    },
+    {
+      "Rang_ligue": 38,
+      "RANG": 38,
       "NO_LICENCE": "0593753J",
       "NOM_PERSONNE": "BOMPOIL",
       "PRENOM_PERSONNE": "Nicolas",
@@ -10401,8 +10536,8 @@
       "_classement_nom": "Scratch Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": 38,
-      "RANG": 38,
+      "Rang_ligue": 39,
+      "RANG": 39,
       "NO_LICENCE": "1050632Q",
       "NOM_PERSONNE": "KOHLER",
       "PRENOM_PERSONNE": "Jean-marc",
@@ -10428,8 +10563,8 @@
       "_classement_nom": "Scratch Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": 39,
-      "RANG": 39,
+      "Rang_ligue": 40,
+      "RANG": 40,
       "NO_LICENCE": "0598597Z",
       "NOM_PERSONNE": "PRIOUX",
       "PRENOM_PERSONNE": "Jean luc",
@@ -10455,8 +10590,8 @@
       "_classement_nom": "Scratch Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": 40,
-      "RANG": 40,
+      "Rang_ligue": 41,
+      "RANG": 41,
       "NO_LICENCE": "0615887T",
       "NOM_PERSONNE": "BOUTIN",
       "PRENOM_PERSONNE": "Laurent",
@@ -10482,8 +10617,8 @@
       "_classement_nom": "Scratch Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": 41,
-      "RANG": 41,
+      "Rang_ligue": 42,
+      "RANG": 42,
       "NO_LICENCE": "0448921H",
       "NOM_PERSONNE": "RICHOU",
       "PRENOM_PERSONNE": "Bernard",
@@ -10509,8 +10644,8 @@
       "_classement_nom": "Scratch Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": 42,
-      "RANG": 42,
+      "Rang_ligue": 43,
+      "RANG": 43,
       "NO_LICENCE": "0430101B",
       "NOM_PERSONNE": "DEBRY",
       "PRENOM_PERSONNE": "Sylvain",
@@ -10536,8 +10671,8 @@
       "_classement_nom": "Scratch Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": 43,
-      "RANG": 43,
+      "Rang_ligue": 44,
+      "RANG": 44,
       "NO_LICENCE": "1060972I",
       "NOM_PERSONNE": "LOZÉ",
       "PRENOM_PERSONNE": "Thomas",
@@ -10563,8 +10698,8 @@
       "_classement_nom": "Scratch Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": 44,
-      "RANG": 44,
+      "Rang_ligue": 45,
+      "RANG": 45,
       "NO_LICENCE": "1038090G",
       "NOM_PERSONNE": "RABALLAND",
       "PRENOM_PERSONNE": "Mathieu",
@@ -10590,8 +10725,8 @@
       "_classement_nom": "Scratch Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": 45,
-      "RANG": 45,
+      "Rang_ligue": 46,
+      "RANG": 46,
       "NO_LICENCE": "1038095L",
       "NOM_PERSONNE": "CHAPRON",
       "PRENOM_PERSONNE": "François",
@@ -10617,8 +10752,8 @@
       "_classement_nom": "Scratch Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": 46,
-      "RANG": 46,
+      "Rang_ligue": 47,
+      "RANG": 47,
       "NO_LICENCE": "1031467N",
       "NOM_PERSONNE": "POUPARD",
       "PRENOM_PERSONNE": "Vincent",
@@ -10644,8 +10779,8 @@
       "_classement_nom": "Scratch Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": 47,
-      "RANG": 47,
+      "Rang_ligue": 48,
+      "RANG": 48,
       "NO_LICENCE": "0945783A",
       "NOM_PERSONNE": "LAURET-COLIN",
       "PRENOM_PERSONNE": "Loic",
@@ -10671,8 +10806,8 @@
       "_classement_nom": "Scratch Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": 48,
-      "RANG": 48,
+      "Rang_ligue": 49,
+      "RANG": 49,
       "NO_LICENCE": "0353931H",
       "NOM_PERSONNE": "HABERKORN",
       "PRENOM_PERSONNE": "Nicolas",
@@ -10698,8 +10833,8 @@
       "_classement_nom": "Scratch Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": 49,
-      "RANG": 49,
+      "Rang_ligue": 50,
+      "RANG": 50,
       "NO_LICENCE": "0986949W",
       "NOM_PERSONNE": "HEURTAUX",
       "PRENOM_PERSONNE": "Christophe",
@@ -12806,6 +12941,33 @@
     {
       "Rang_ligue": 9,
       "RANG": 9,
+      "NO_LICENCE": "0416568S",
+      "NOM_PERSONNE": "VEZON",
+      "PRENOM_PERSONNE": "Gilles",
+      "SEXE": "H",
+      "ARME": "L",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "JEANNE D'ARC DE SAUMUR TIR A L'ARC",
+      "NOM_ABREGE": "SAUMUR",
+      "CODE_STRUCTURE": "1249066",
+      "DEPARTEMENT": "49",
+      "SCORE1": "417",
+      "SCORE2": "274",
+      "SCORE3": "235",
+      "MOY_SCORE": "308",
+      "DISCIPLINE": "3",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "77",
+      "_classement_nom": "Senior 3 Homme Arc Libre 2026"
+    },
+    {
+      "Rang_ligue": 10,
+      "RANG": 10,
       "NO_LICENCE": "1005697J",
       "NOM_PERSONNE": "BEAUFILS",
       "PRENOM_PERSONNE": "Bertrand",
@@ -12831,8 +12993,8 @@
       "_classement_nom": "Senior 3 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": 10,
-      "RANG": 10,
+      "Rang_ligue": 11,
+      "RANG": 11,
       "NO_LICENCE": "0598597Z",
       "NOM_PERSONNE": "PRIOUX",
       "PRENOM_PERSONNE": "Jean luc",
@@ -12858,8 +13020,8 @@
       "_classement_nom": "Senior 3 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": 11,
-      "RANG": 11,
+      "Rang_ligue": 12,
+      "RANG": 12,
       "NO_LICENCE": "1050632Q",
       "NOM_PERSONNE": "KOHLER",
       "PRENOM_PERSONNE": "Jean-marc",
@@ -12885,8 +13047,8 @@
       "_classement_nom": "Senior 3 Homme Arc Libre 2026"
     },
     {
-      "Rang_ligue": 12,
-      "RANG": 12,
+      "Rang_ligue": 13,
+      "RANG": 13,
       "NO_LICENCE": "0448921H",
       "NOM_PERSONNE": "RICHOU",
       "PRENOM_PERSONNE": "Bernard",
