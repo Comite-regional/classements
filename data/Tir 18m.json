@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-01T07:36:55.895717Z",
+    "generated_at": "2026-09-02T06:59:42.938884Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -71779,8 +71779,8 @@
       "PRENOM_PERSONNE": "Largo",
       "SEXE": "H",
       "ARME": "P",
-      "CAT": "U15",
-      "CATEGORIE": "U15",
+      "CAT": "U18",
+      "CATEGORIE": "U18",
       "NOM_STRUCTURE": "LES CUPIDONS MAYENNAIS",
       "NOM_ABREGE": "MAYENNE",
       "CODE_STRUCTURE": "1253084",
