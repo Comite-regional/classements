@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-06T07:01:09.801546Z",
+    "generated_at": "2026-09-07T07:12:38.320871Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -20,16 +20,16 @@
       "CODE_STRUCTURE": "1253084",
       "DEPARTEMENT": "53",
       "SCORE1": "592",
-      "SCORE2": "574",
-      "SCORE3": "565",
-      "MOY_SCORE": "577",
+      "SCORE2": "584",
+      "SCORE3": "574",
+      "MOY_SCORE": "583",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "30",
+      "RANG_NAT": "26",
       "_classement_nom": "Seniors Homme Arc Nu 2026"
     },
     {
@@ -884,16 +884,16 @@
       "CODE_STRUCTURE": "1253084",
       "DEPARTEMENT": "53",
       "SCORE1": "480",
-      "SCORE2": "457",
-      "SCORE3": "432",
-      "MOY_SCORE": "456",
+      "SCORE2": "475",
+      "SCORE3": "457",
+      "MOY_SCORE": "470",
       "DISCIPLINE": "T",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "34",
+      "RANG_NAT": "31",
       "_classement_nom": "Seniors Femme Arc Nu 2026"
     },
     {
@@ -5953,8 +5953,8 @@
       "PRENOM_PERSONNE": "Virginie",
       "SEXE": "F",
       "ARME": "C",
-      "CAT": "S1",
-      "CATEGORIE": "S1",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
       "NOM_STRUCTURE": "LES CUPIDONS MAYENNAIS",
       "NOM_ABREGE": "MAYENNE",
       "CODE_STRUCTURE": "1253084",
@@ -13691,7 +13691,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "380",
+      "RANG_NAT": "381",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -13718,7 +13718,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "382",
+      "RANG_NAT": "383",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -13772,7 +13772,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "403",
+      "RANG_NAT": "402",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -13799,7 +13799,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "405",
+      "RANG_NAT": "403",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {
@@ -13826,7 +13826,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "406",
+      "RANG_NAT": "407",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2026"
     },
     {

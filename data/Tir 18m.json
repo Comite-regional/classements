@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-06T07:01:09.801546Z",
+    "generated_at": "2026-09-07T07:12:38.320871Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -39892,8 +39892,8 @@
       "PRENOM_PERSONNE": "Virginie",
       "SEXE": "F",
       "ARME": "C",
-      "CAT": "S1",
-      "CATEGORIE": "S1",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
       "NOM_STRUCTURE": "LES CUPIDONS MAYENNAIS",
       "NOM_ABREGE": "MAYENNE",
       "CODE_STRUCTURE": "1253084",
@@ -55174,8 +55174,8 @@
       "PRENOM_PERSONNE": "Virginie",
       "SEXE": "F",
       "ARME": "C",
-      "CAT": "S1",
-      "CATEGORIE": "S1",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
       "NOM_STRUCTURE": "LES CUPIDONS MAYENNAIS",
       "NOM_ABREGE": "MAYENNE",
       "CODE_STRUCTURE": "1253084",

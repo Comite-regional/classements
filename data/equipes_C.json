@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-06T07:01:09.801546Z",
+    "generated_at": "2026-09-07T07:12:38.320871Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -48,7 +48,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "59",
+      "RANG": "60",
       "RANG_LIGUE": "3",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -69,7 +69,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "64",
+      "RANG": "65",
       "RANG_LIGUE": "4",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -107,6 +107,27 @@
       "SCORE2": "0",
       "SCORE3": "0",
       "MOY_SCORE": "216",
+      "_classement_nom": "Double Mixte Arc Nu",
+      "DISCIPLINE": "C"
+    },
+    {
+      "RANG": "78",
+      "RANG_LIGUE": "6",
+      "DIVISION": "",
+      "PRE_INSCRIT": "",
+      "QUOTA": "",
+      "NOM_ABREGE": "SAUMUR",
+      "NOM_STRUCTURE": "JEANNE D'ARC DE SAUMUR TIR A L'ARC",
+      "SEXE_EQUIPE": "X",
+      "ARME_EQUIPE": "B",
+      "CATEGORIE_CLASSEMENT": "Double Mixte Arc Nu",
+      "CODE_STRUCTURE": "1249066",
+      "VILLE": "",
+      "DEPARTEMENT": "49",
+      "SCORE1": "391",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "195",
       "_classement_nom": "Double Mixte Arc Nu",
       "DISCIPLINE": "C"
     },
@@ -195,7 +216,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "71",
+      "RANG": "72",
       "RANG_LIGUE": "5",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -300,7 +321,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "19",
+      "RANG": "17",
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -313,10 +334,10 @@
       "CODE_STRUCTURE": "1244027",
       "VILLE": "",
       "DEPARTEMENT": "44",
-      "SCORE1": "592",
-      "SCORE2": "592",
+      "SCORE1": "604",
+      "SCORE2": "603",
       "SCORE3": "0",
-      "MOY_SCORE": "592",
+      "MOY_SCORE": "603",
       "_classement_nom": "Double Mixte Arc Classique",
       "DISCIPLINE": "C"
     },
@@ -405,7 +426,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "61",
+      "RANG": "62",
       "RANG_LIGUE": "6",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -426,7 +447,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "87",
+      "RANG": "88",
       "RANG_LIGUE": "7",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -544,10 +565,10 @@
       "CODE_STRUCTURE": "1244010",
       "VILLE": "",
       "DEPARTEMENT": "44",
-      "SCORE1": "750",
-      "SCORE2": "749",
+      "SCORE1": "751",
+      "SCORE2": "750",
       "SCORE3": "0",
-      "MOY_SCORE": "749",
+      "MOY_SCORE": "750",
       "_classement_nom": "Double Mixte Arc à Poulies",
       "DISCIPLINE": "C"
     },
@@ -594,7 +615,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "57",
+      "RANG": "58",
       "RANG_LIGUE": "6",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -615,7 +636,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "64",
+      "RANG": "67",
       "RANG_LIGUE": "7",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -636,7 +657,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "74",
+      "RANG": "76",
       "RANG_LIGUE": "8",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -657,7 +678,7 @@
       "DISCIPLINE": "C"
     },
     {
-      "RANG": "109",
+      "RANG": "110",
       "RANG_LIGUE": "9",
       "DIVISION": "",
       "PRE_INSCRIT": "",
