@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-07T07:12:38.320871Z",
+    "generated_at": "2026-09-08T07:08:15.313579Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -1363,8 +1363,8 @@
       "PRENOM_PERSONNE": "Marius",
       "SEXE": "H",
       "ARME": "C",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
       "NOM_STRUCTURE": "LES ARCHERS DU PAYS DU GOIS",
       "NOM_ABREGE": "BEAUVOIR SUR MER",
       "CODE_STRUCTURE": "1285123",

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-07T07:12:38.320871Z",
+    "generated_at": "2026-09-08T07:08:15.313579Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -16645,8 +16645,8 @@
       "PRENOM_PERSONNE": "Francois",
       "SEXE": "H",
       "ARME": "P",
-      "CAT": "S1",
-      "CATEGORIE": "S1",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
       "NOM_STRUCTURE": "LES ARCHERS DE L'US CHANGE",
       "NOM_ABREGE": "CHANGE",
       "CODE_STRUCTURE": "1253078",
@@ -18346,8 +18346,8 @@
       "PRENOM_PERSONNE": "Francois",
       "SEXE": "H",
       "ARME": "P",
-      "CAT": "S1",
-      "CATEGORIE": "S1",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
       "NOM_STRUCTURE": "LES ARCHERS DE L'US CHANGE",
       "NOM_ABREGE": "CHANGE",
       "CODE_STRUCTURE": "1253078",
