@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-08T07:08:15.313579Z",
+    "generated_at": "2026-09-09T07:15:20.058094Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -40,8 +40,8 @@
       "PRENOM_PERSONNE": "Romain",
       "SEXE": "H",
       "ARME": "C",
-      "CAT": "U18",
-      "CATEGORIE": "U18",
+      "CAT": "U21",
+      "CATEGORIE": "U21",
       "NOM_STRUCTURE": "LES ARCHERS DU BIGNON",
       "NOM_ABREGE": "LE BIGNON",
       "CODE_STRUCTURE": "1244008",
