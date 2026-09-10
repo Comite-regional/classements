@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-09T07:15:20.058094Z",
+    "generated_at": "2026-09-10T07:11:37.805969Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -10,7 +10,7 @@
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",
-      "QUOTA": "",
+      "QUOTA": "30",
       "NOM_ABREGE": "ST HERBLAIN",
       "NOM_STRUCTURE": "ARCHERS DE ST HERBLAIN",
       "SEXE_EQUIPE": "H",
@@ -31,7 +31,7 @@
       "RANG_LIGUE": "2",
       "DIVISION": "",
       "PRE_INSCRIT": "",
-      "QUOTA": "",
+      "QUOTA": "35",
       "NOM_ABREGE": "VALLET",
       "NOM_STRUCTURE": "ARC NATURE VALLETAIS",
       "SEXE_EQUIPE": "H",
@@ -451,7 +451,7 @@
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",
-      "QUOTA": "",
+      "QUOTA": "5",
       "NOM_ABREGE": "DONGES",
       "NOM_STRUCTURE": "CIE LES FLECHES DONGEOISES",
       "SEXE_EQUIPE": "X",
@@ -472,7 +472,7 @@
       "RANG_LIGUE": "2",
       "DIVISION": "",
       "PRE_INSCRIT": "",
-      "QUOTA": "",
+      "QUOTA": "9",
       "NOM_ABREGE": "LA TURBALLE",
       "NOM_STRUCTURE": "LES FLECHES TURBALLAISES",
       "SEXE_EQUIPE": "X",
