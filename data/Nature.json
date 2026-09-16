@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-15T07:31:02.885463Z",
+    "generated_at": "2026-09-16T07:30:28.487245Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -283,8 +283,8 @@
       "PRENOM_PERSONNE": "Antoine",
       "SEXE": "H",
       "ARME": "C",
-      "CAT": "U15",
-      "CATEGORIE": "U15",
+      "CAT": "U18",
+      "CATEGORIE": "U18",
       "NOM_STRUCTURE": "ARC NATURE VALLETAIS",
       "NOM_ABREGE": "VALLET",
       "CODE_STRUCTURE": "1244031",
@@ -364,8 +364,8 @@
       "PRENOM_PERSONNE": "Rubbens",
       "SEXE": "H",
       "ARME": "C",
-      "CAT": "U15",
-      "CATEGORIE": "U15",
+      "CAT": "U18",
+      "CATEGORIE": "U18",
       "NOM_STRUCTURE": "LES ARCHERS SABLAIS",
       "NOM_ABREGE": "LES SABLES D'OLONNE",
       "CODE_STRUCTURE": "1285132",

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-15T07:31:02.885463Z",
+    "generated_at": "2026-09-16T07:30:28.487245Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -175,8 +175,8 @@
       "PRENOM_PERSONNE": "Gustave",
       "SEXE": "H",
       "ARME": "C",
-      "CAT": "U21",
-      "CATEGORIE": "U21",
+      "CAT": "S1",
+      "CATEGORIE": "S1",
       "NOM_STRUCTURE": "ARCHERS NANTAIS",
       "NOM_ABREGE": "NANTES",
       "CODE_STRUCTURE": "1244044",
@@ -3361,8 +3361,8 @@
       "PRENOM_PERSONNE": "Gustave",
       "SEXE": "H",
       "ARME": "C",
-      "CAT": "U21",
-      "CATEGORIE": "U21",
+      "CAT": "S1",
+      "CATEGORIE": "S1",
       "NOM_STRUCTURE": "ARCHERS NANTAIS",
       "NOM_ABREGE": "NANTES",
       "CODE_STRUCTURE": "1244044",
