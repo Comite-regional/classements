@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-20T07:38:19.497290Z",
+    "generated_at": "2026-09-21T07:50:32.054396Z",
     "saison": "2026",
     "ligue": "CR12"
   },
@@ -6817,8 +6817,8 @@
       "PRENOM_PERSONNE": "Jean-luc",
       "SEXE": "H",
       "ARME": "C",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
       "NOM_STRUCTURE": "TIR ARC FONTENAISIEN",
       "NOM_ABREGE": "FONTENAY LE COMTE",
       "CODE_STRUCTURE": "1285122",
@@ -13783,8 +13783,8 @@
       "PRENOM_PERSONNE": "Patrick",
       "SEXE": "H",
       "ARME": "P",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
       "NOM_STRUCTURE": "ARCHERS DE GROSBREUIL",
       "NOM_ABREGE": "GROSBREUIL",
       "CODE_STRUCTURE": "1285124",
