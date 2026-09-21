@@ -36,10 +36,16 @@ except ImportError:
 
 SESSION_IDENTITE = os.environ.get("FFTA_SESSION_IDENTITE", "")
 BASE_URL = os.environ.get("FFTA_BASE_URL", "https://extranet.ffta.fr/ws/rest").rstrip("/")
-# Si FFTA_SAISON est défini mais vide (cas du déclenchement automatique GitHub Actions),
-# on retombe sur l'année courante pour éviter de passer SaisonAnnee="" à l'API.
+# Saison courante FFTA : une saison N démarre le 1er septembre de l'année N-1.
+# Donc à partir du 1er septembre, on bascule automatiquement sur la saison suivante.
+# Ex : 2026-09-21 → saison 2027 ; 2027-03-10 → saison 2027 ; 2027-09-05 → saison 2028.
+def _saison_courante() -> str:
+    now = datetime.now(ZoneInfo("Europe/Paris"))
+    return str(now.year + 1 if now.month >= 9 else now.year)
+
+# FFTA_SAISON permet de forcer une saison précise ; sinon, calcul automatique.
 _env_saison = os.environ.get("FFTA_SAISON", "")
-SAISON = _env_saison.strip() if _env_saison.strip() else str(datetime.now().year)
+SAISON = _env_saison.strip() if _env_saison.strip() else _saison_courante()
 OUTPUT_DIR = Path(os.environ.get("FFTA_OUTPUT_DIR", "data"))
 
 # Ligue cible : CR12 = Pays de la Loire

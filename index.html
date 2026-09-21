@@ -1233,6 +1233,8 @@ html.no-quotas #quota-banner { display: none !important; }
 <div class="card">
 <div class="toolbar" style="margin-bottom:10px;display:flex;align-items:center;justify-content:space-between;gap:10px;">
 <div style="display:flex;gap:8px;align-items:center;flex-shrink:0;">
+<label for="season" style="font-size:10px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--muted);margin:0;">Saison</label>
+<select id="season" style="width:auto;padding:7px 10px;font-weight:700;"></select>
 <button id="btnTaeCR" type="button">Inscrits CR</button>
 </div>
 <div id="lastUpdateLine" style="flex:1;text-align:center;font-size:12.5px;color:#667085;font-weight:600;">—</div>
@@ -1285,6 +1287,7 @@ html.no-quotas #quota-banner { display: none !important; }
     const state = {
       rawByDiscipline: new Map(), // Individuel
       teamRaw: null,              // Équipe (equipes.csv)
+      season: '',                 // saison sélectionnée (défini à l'init sur CURRENT_SEASON)
       viewMode: 'indiv',
       disciplineIndiv: '',
       disciplineTeam: '', // 'C','T','3','N' ou '18M_AUTO'
@@ -1345,6 +1348,30 @@ const DISC_LABELS = {
     window._filesMap = filesMap; // exposé pour la modale de fiche archer
     const TEAM_FILE = 'equipes.csv';
     const TEAM18_FILE = filesMap['Tir 18m'];
+
+    // ========= SAISONS =========
+    // Une saison FFTA N démarre le 1er septembre de l'année N-1.
+    // La saison "courante" utilise les fichiers à leur emplacement normal ;
+    // les saisons archivées sont sous data/<année>/ (mêmes noms de fichiers).
+    // Pour archiver une nouvelle saison l'an prochain : copier les fichiers dans
+    // data/<année>/ et ajouter une entrée { year, label, archived:true } ci-dessous,
+    // en passant l'ancienne "courante" à archived:true.
+    const CURRENT_SEASON = (() => {
+      const d = new Date();
+      return String((d.getMonth() + 1) >= 9 ? d.getFullYear() + 1 : d.getFullYear());
+    })();
+    const SEASONS = [
+      { year: CURRENT_SEASON, label: CURRENT_SEASON + ' (en cours)', archived: false },
+      { year: '2026',         label: '2026',                          archived: true },
+    ].filter((s, i, arr) => arr.findIndex(x => x.year === s.year) === i); // dédoublonne
+    function seasonDef(y){ return SEASONS.find(s => s.year === y) || SEASONS[0]; }
+    // Transforme un chemin de fichier vers la saison sélectionnée.
+    function resolveSeasonPath(path){
+      const def = seasonDef(state.season || CURRENT_SEASON);
+      if(!def.archived) return path;                       // saison courante : chemin normal
+      const base = 'data/' + def.year + '/';
+      return path.startsWith('data/') ? base + path.slice(5) : base + path;
+    }
 
     // ========= HELPERS JSON (API FFTA) =========
     async function loadJSON(filePath) {
@@ -1416,7 +1443,7 @@ const DISC_LABELS = {
       if(state.rawByDiscipline.has(disc)) return state.rawByDiscipline.get(disc);
       const file = filesMap[disc];
       if(!file) return [];
-      const raw = await loadCSV(file);
+      const raw = await loadCSV(resolveSeasonPath(file));
       // Normalisation codes ARME : API FFTA utilise C/P/B, on affiche CL/CO/BB
       const ARME_NORM = { 'C':'CL', 'P':'CO', 'B':'BB' };
       raw.forEach(r => { if(r.ARME && ARME_NORM[r.ARME]) r.ARME = ARME_NORM[r.ARME]; });
@@ -1427,7 +1454,10 @@ const DISC_LABELS = {
       }
       let filtered = raw;
       // Beursault : filtrage sur colonne DISCIPLINE=B (fichier CSV multi-discipline)
-      if(disc === 'Beursault') filtered = raw.filter(r => (r.DISCIPLINE||'').trim() === 'B');
+      if(disc === 'Beursault'){
+        // filesMap pointe déjà sur Resultat indiv.csv (résolu par saison ci-dessus)
+        filtered = raw.filter(r => (r.DISCIPLINE||'').trim() === 'B');
+      }
       state.rawByDiscipline.set(disc, filtered);
       return filtered;
     }
@@ -1926,7 +1956,7 @@ const DISC_LABELS = {
 
     async function ensureTeamCsvLoaded() {
       if(teamCsvRaw) return teamCsvRaw;
-      teamCsvRaw = await loadCSV(TEAM_CSV_FILE);
+      teamCsvRaw = await loadCSV(resolveSeasonPath(TEAM_CSV_FILE));
       return teamCsvRaw;
     }
 
@@ -2142,7 +2172,7 @@ const DISC_LABELS = {
       if(disc===TEAM_18M_LABEL){
         // Charger les données individuelles si pas encore en cache
         if(!state.rawByDiscipline.has('Tir 18m')){
-          const raw=await loadCSV(filesMap['Tir 18m']);
+          const raw=await loadCSV(resolveSeasonPath(filesMap['Tir 18m']));
           const AN={'C':'CL','P':'CO','B':'BB'};
           raw.forEach(r=>{if(r.ARME&&AN[r.ARME])r.ARME=AN[r.ARME];});
           state.rawByDiscipline.set('Tir 18m',raw);
@@ -2200,13 +2230,31 @@ const filteredInd=applyFiltersIndiv(data); renderTableIndiv(filteredInd); }
       if(!state.disciplineIndiv){ alert('Choisissez une discipline (Individuel).'); return; } const data=state.rawByDiscipline.get(state.disciplineIndiv)||[]; const filtered=applyFiltersIndiv(data); const depFilter=state.filters.departement||''; let displayed=filtered.slice(); const depIdx=new Map(); if(depFilter){ const ligueRank = r=> (parseInt(r.Rang_ligue||r.RANG||r.Rang||'999999')||999999); displayed.sort((a,b)=> ligueRank(a)-ligueRank(b) || (toNum(b.MOY_SCORE)-toNum(a.MOY_SCORE)) ); displayed.forEach((r,i)=> depIdx.set(r,i+1)); } const headersDef=headersForIndiv(); const headers=headersDef.map(h=>h.label); const keys=headersDef.map(h=>h.key); const csvRows=displayed.map(r=>{ const disp=buildDisplayRowIndiv(r); if(depFilter) disp.RANG_DEP=depIdx.get(r)||''; return keys.map(k=> String((k==='RANG_DEP'?disp.RANG_DEP:disp[k])??'').replaceAll('"','""')); }); const csv=[headers.join(';')].concat(csvRows.map(cols=> cols.map(v=>'"'+v+'"').join(';'))).join('\n'); const blob=new Blob([csv],{type:'text/csv;charset=utf-8'}); const url=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download='classement_'+state.disciplineIndiv.replaceAll(' ','_')+'.csv'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url); } }
 
     // ========= EVENTS =========
-    function wire(){ const viewMode=document.getElementById('viewMode'); const teamNote=document.getElementById('team-note'); viewMode.addEventListener('change',()=>{ state.viewMode=viewMode.value; state.filters.categorie=''; if(state.viewMode==='team'){ DISC_SELECT.innerHTML='<option value="">— Choisir —</option>'; refresh(); teamNote.classList.remove('hidden'); } else { DISC_SELECT.innerHTML=INDIV_OPTIONS_HTML; teamNote.classList.add('hidden'); refresh(); } }); DISC_SELECT.addEventListener('change',()=>{ if(state.viewMode==='team'){ state.disciplineTeam=DISC_SELECT.value; } else { state.disciplineIndiv=DISC_SELECT.value; } state.filters={...state.filters,categorie:'',arme:'',distance:'',blason:'',catClass:'',catTir:'',classement:''}; state.hasApiData=false; ['categorie','arme','distance','blason','catClass','catTir','classement'].forEach(id=>{ const el=document.getElementById(id); if(el && el.tagName==='SELECT') el.value=''; }); const clField=document.getElementById('classement-field'); if(clField) clField.classList.add('hidden'); refresh(); }); const ids={ categorie:'categorie', sexe:'sexe', arme:'arme', departement:'departement', distance:'distance', blason:'blason', catClass:'catClass', catTir:'catTir', classement:'classement' }; Object.entries(ids).forEach(function(pair){ const k=pair[0]; const id=pair[1]; const el=document.getElementById(id); if(!el) return; el.addEventListener('change',function(){ state.filters[k]=el.value; refresh(); }); }); let _searchDebounce=null; document.getElementById('search').addEventListener('input',function(e){ state.filters.search=e.target.value.trim(); clearTimeout(_searchDebounce); _searchDebounce=setTimeout(refresh,200); }); document.getElementById('resetFilters').addEventListener('click',function(){ document.getElementById('viewMode').value='indiv'; state.viewMode='indiv'; state.disciplineIndiv=''; state.disciplineTeam=''; DISC_SELECT.innerHTML=INDIV_OPTIONS_HTML; DISC_SELECT.value=''; ['categorie','sexe','arme','departement','distance','blason','catClass','catTir','classement','search'].forEach(function(id){ const el=document.getElementById(id); if(el && el.tagName==='SELECT') el.value=''; else if(el) el.value=''; }); const clFieldReset=document.getElementById('classement-field'); if(clFieldReset) clFieldReset.classList.add('hidden'); state.hasApiData=false; state.filters={ categorie:'', sexe:'', arme:'', departement:'', distance:'', blason:'', catClass:'', catTir:'', classement:'', search:'' }; refresh(); }); document.getElementById('exportCSV').addEventListener('click', exportCurrentCSV); document.getElementById('modalClose').addEventListener('click', function(){ document.getElementById('modalOverlay').classList.add('hidden'); document.getElementById('teamModal').classList.add('hidden'); }); document.getElementById('modalOverlay').addEventListener('click', function(){ document.getElementById('modalOverlay').classList.add('hidden'); document.getElementById('teamModal').classList.add('hidden'); }); window.addEventListener('keydown', function(e){ if(e.key==='Escape'){ document.getElementById('modalOverlay').classList.add('hidden'); document.getElementById('teamModal').classList.add('hidden'); } }); }
+    function wire(){
+      // ── Sélecteur de saison ──
+      const seasonSel=document.getElementById('season');
+      if(seasonSel){
+        seasonSel.innerHTML='';
+        SEASONS.forEach(s=>{ const o=document.createElement('option'); o.value=s.year; o.textContent=s.label; seasonSel.appendChild(o); });
+        if(!state.season) state.season=CURRENT_SEASON;
+        seasonSel.value=state.season;
+        seasonSel.addEventListener('change',()=>{
+          state.season=seasonSel.value;
+          // Vide les caches pour recharger les données de la saison sélectionnée
+          state.rawByDiscipline.clear();
+          teamCsvRaw=null; teamDiscCache.clear(); teamCache=[];
+          window._lastUpdTs=0;
+          fetch(resolveSeasonPath('data/meta.json'),{cache:'no-store'}).then(r=>r.ok?r.json():null).then(m=>{ if(m&&m.generated_at) updateLastModified('data/meta.json',m.generated_at); }).catch(()=>{});
+          refresh();
+        });
+      }
+      const viewMode=document.getElementById('viewMode'); const teamNote=document.getElementById('team-note'); viewMode.addEventListener('change',()=>{ state.viewMode=viewMode.value; state.filters.categorie=''; if(state.viewMode==='team'){ DISC_SELECT.innerHTML='<option value="">— Choisir —</option>'; refresh(); teamNote.classList.remove('hidden'); } else { DISC_SELECT.innerHTML=INDIV_OPTIONS_HTML; teamNote.classList.add('hidden'); refresh(); } }); DISC_SELECT.addEventListener('change',()=>{ if(state.viewMode==='team'){ state.disciplineTeam=DISC_SELECT.value; } else { state.disciplineIndiv=DISC_SELECT.value; } state.filters={...state.filters,categorie:'',arme:'',distance:'',blason:'',catClass:'',catTir:'',classement:''}; state.hasApiData=false; ['categorie','arme','distance','blason','catClass','catTir','classement'].forEach(id=>{ const el=document.getElementById(id); if(el && el.tagName==='SELECT') el.value=''; }); const clField=document.getElementById('classement-field'); if(clField) clField.classList.add('hidden'); refresh(); }); const ids={ categorie:'categorie', sexe:'sexe', arme:'arme', departement:'departement', distance:'distance', blason:'blason', catClass:'catClass', catTir:'catTir', classement:'classement' }; Object.entries(ids).forEach(function(pair){ const k=pair[0]; const id=pair[1]; const el=document.getElementById(id); if(!el) return; el.addEventListener('change',function(){ state.filters[k]=el.value; refresh(); }); }); let _searchDebounce=null; document.getElementById('search').addEventListener('input',function(e){ state.filters.search=e.target.value.trim(); clearTimeout(_searchDebounce); _searchDebounce=setTimeout(refresh,200); }); document.getElementById('resetFilters').addEventListener('click',function(){ document.getElementById('viewMode').value='indiv'; state.viewMode='indiv'; state.disciplineIndiv=''; state.disciplineTeam=''; DISC_SELECT.innerHTML=INDIV_OPTIONS_HTML; DISC_SELECT.value=''; ['categorie','sexe','arme','departement','distance','blason','catClass','catTir','classement','search'].forEach(function(id){ const el=document.getElementById(id); if(el && el.tagName==='SELECT') el.value=''; else if(el) el.value=''; }); const clFieldReset=document.getElementById('classement-field'); if(clFieldReset) clFieldReset.classList.add('hidden'); state.hasApiData=false; state.filters={ categorie:'', sexe:'', arme:'', departement:'', distance:'', blason:'', catClass:'', catTir:'', classement:'', search:'' }; refresh(); }); document.getElementById('exportCSV').addEventListener('click', exportCurrentCSV); document.getElementById('modalClose').addEventListener('click', function(){ document.getElementById('modalOverlay').classList.add('hidden'); document.getElementById('teamModal').classList.add('hidden'); }); document.getElementById('modalOverlay').addEventListener('click', function(){ document.getElementById('modalOverlay').classList.add('hidden'); document.getElementById('teamModal').classList.add('hidden'); }); window.addEventListener('keydown', function(e){ if(e.key==='Escape'){ document.getElementById('modalOverlay').classList.add('hidden'); document.getElementById('teamModal').classList.add('hidden'); } }); }
 
     wire();
     refresh();
 
-    // Charge la date de synchro depuis meta.json (API FFTA)
-    fetch('data/meta.json', { cache: 'no-store' })
+    // Charge la date de synchro depuis meta.json (API FFTA) de la saison affichée
+    fetch(resolveSeasonPath('data/meta.json'), { cache: 'no-store' })
       .then(r => r.ok ? r.json() : null)
       .then(meta => {
         if (meta && meta.generated_at) {

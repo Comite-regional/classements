@@ -1,0 +1,61 @@
+{
+  "_comment": "Mapping licence → CAT_CLASS/CAT_TIR Para. Mis à jour manuellement depuis CSV FFTA.",
+  "map": {
+    "0082905P": {
+      "CAT_CLASS": "W1",
+      "CAT_TIR": "W1"
+    },
+    "0031619U": {
+      "CAT_CLASS": "B2",
+      "CAT_TIR": "HV 2-3"
+    },
+    "0042670F": {
+      "CAT_CLASS": "ST",
+      "CAT_TIR": "OPEN"
+    },
+    "0336193C": {
+      "CAT_CLASS": "W2",
+      "CAT_TIR": "OPEN"
+    },
+    "0867466Y": {
+      "CAT_CLASS": "ST",
+      "CAT_TIR": "OPEN"
+    },
+    "0804481L": {
+      "CAT_CLASS": "ST",
+      "CAT_TIR": "OPEN"
+    },
+    "0794949A": {
+      "CAT_CLASS": "ST",
+      "CAT_TIR": "OPEN"
+    },
+    "1028192O": {
+      "CAT_CLASS": "ST",
+      "CAT_TIR": "OPEN"
+    },
+    "0960081S": {
+      "CAT_CLASS": "NEI",
+      "CAT_TIR": "FEDERAL"
+    },
+    "0041102B": {
+      "CAT_CLASS": "SOURD",
+      "CAT_TIR": "FEDERAL"
+    },
+    "0637116T": {
+      "CAT_CLASS": "ST",
+      "CAT_TIR": "OPEN"
+    },
+    "1043962C": {
+      "CAT_CLASS": "ST",
+      "CAT_TIR": "OPEN"
+    },
+    "0270003G": {
+      "CAT_CLASS": "ST",
+      "CAT_TIR": "OPEN"
+    },
+    "0016103D": {
+      "CAT_CLASS": "SOURD",
+      "CAT_TIR": "FEDERAL"
+    }
+  }
+}
