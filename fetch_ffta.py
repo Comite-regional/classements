@@ -132,6 +132,11 @@ _TEAM_KW = ("double mixte", "equipe", "équipe", "jeune mixte", "mixte jeune",
 # IDs de classements nationaux FFTA 2026 extraits du PDF officiel.
 # On les appelle directement (sans passer par GetClassements) en ajoutant
 # Ligue=CR12 pour récupérer uniquement les archers Pays de la Loire.
+# ⚠️ Ces IDs sont SPÉCIFIQUES À LA SAISON 2026 : l'endpoint Classement renvoie
+# les données par ID quelle que soit la saison demandée, donc les réutiliser pour
+# une autre saison réinjecterait des archers 2026. On ne les utilise donc en
+# fallback que si la saison courante correspond (voir fetch_discipline).
+HARDCODED_IDS_SEASON = "2026"
 CLASSEMENT_IDS_BY_DISC: dict[str, list[str]] = {
     "S": [  # Tir à 18m — 40 classements
         "14023","14024","14025","14026","14027","14028",
@@ -767,16 +772,20 @@ def fetch_discipline(session: requests.Session, token: str, disc_code: str,
     if disc_code == "T" and tae_map:
         cl_ids = list(tae_map.keys())
     else:
-        # Découverte dynamique des IDs courants
+        # Découverte dynamique des IDs courants (filtrée par SaisonAnnee=SAISON)
         dynamic_ids = get_disc_ids_dynamic(session, token, disc_code)
-        # IDs hardcodés en fallback (au cas où l'API ne renvoit rien)
-        hardcoded_ids = CLASSEMENT_IDS_BY_DISC.get(disc_code, [])
-        # Union : dynamiques en premier, hardcodés en complément
-        seen = set(dynamic_ids)
-        extra = [i for i in hardcoded_ids if i not in seen]
-        if extra:
-            log.info("  + %d IDs hardcodés non présents dans la découverte dynamique", len(extra))
-        cl_ids = dynamic_ids + extra
+        # IDs hardcodés en fallback — UNIQUEMENT pour la saison à laquelle ils
+        # appartiennent (2026), sinon ils réinjecteraient des données 2026.
+        if SAISON == HARDCODED_IDS_SEASON:
+            hardcoded_ids = CLASSEMENT_IDS_BY_DISC.get(disc_code, [])
+            seen = set(dynamic_ids)
+            extra = [i for i in hardcoded_ids if i not in seen]
+            if extra:
+                log.info("  + %d IDs hardcodés (saison %s) en complément", len(extra), HARDCODED_IDS_SEASON)
+            cl_ids = dynamic_ids + extra
+        else:
+            log.info("  Saison %s ≠ %s : découverte dynamique seule (pas d'IDs hardcodés)", SAISON, HARDCODED_IDS_SEASON)
+            cl_ids = dynamic_ids
 
     if not cl_ids:
         log.warning("  Aucun ID de classement trouvé pour %s", disc_code)
