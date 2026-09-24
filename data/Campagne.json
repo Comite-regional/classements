@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-23T07:36:44.979967Z",
+    "generated_at": "2026-09-24T07:28:40.669931Z",
     "saison": "2027",
     "ligue": "CR12"
   },
@@ -386,6 +386,33 @@
     {
       "Rang_ligue": 14,
       "RANG": 14,
+      "NO_LICENCE": "1051116G",
+      "NOM_PERSONNE": "ATKINS",
+      "PRENOM_PERSONNE": "Jean-marc",
+      "SEXE": "H",
+      "ARME": "B",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "ARC ECOUFLANT",
+      "NOM_ABREGE": "ECOUFLANT",
+      "CODE_STRUCTURE": "1249071",
+      "DEPARTEMENT": "49",
+      "SCORE1": "194",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "194",
+      "DISCIPLINE": "C",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "68",
+      "_classement_nom": "Scratch Homme Bare Bow 2027"
+    },
+    {
+      "Rang_ligue": 15,
+      "RANG": 15,
       "NO_LICENCE": "0626848G",
       "NOM_PERSONNE": "LESUEUR",
       "PRENOM_PERSONNE": "Michel",
@@ -411,8 +438,8 @@
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
-      "Rang_ligue": 15,
-      "RANG": 15,
+      "Rang_ligue": 16,
+      "RANG": 16,
       "NO_LICENCE": "1032519Z",
       "NOM_PERSONNE": "JAFFRE",
       "PRENOM_PERSONNE": "Marcel",
@@ -786,6 +813,33 @@
       "CAT_TIR": "",
       "CAT_CLASS": "",
       "RANG_NAT": "16",
+      "_classement_nom": "Senior 2 Homme Arc Nu 2027"
+    },
+    {
+      "Rang_ligue": 5,
+      "RANG": 5,
+      "NO_LICENCE": "1051116G",
+      "NOM_PERSONNE": "ATKINS",
+      "PRENOM_PERSONNE": "Jean-marc",
+      "SEXE": "H",
+      "ARME": "B",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "ARC ECOUFLANT",
+      "NOM_ABREGE": "ECOUFLANT",
+      "CODE_STRUCTURE": "1249071",
+      "DEPARTEMENT": "49",
+      "SCORE1": "194",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "194",
+      "DISCIPLINE": "C",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "31",
       "_classement_nom": "Senior 2 Homme Arc Nu 2027"
     },
     {
@@ -3248,6 +3302,33 @@
     {
       "Rang_ligue": 10,
       "RANG": 10,
+      "NO_LICENCE": "0311470E",
+      "NOM_PERSONNE": "RIBEYROLLES",
+      "PRENOM_PERSONNE": "Jerome",
+      "SEXE": "H",
+      "ARME": "P",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "LES ARCHERS PORNICAIS",
+      "NOM_ABREGE": "PORNIC",
+      "CODE_STRUCTURE": "1244046",
+      "DEPARTEMENT": "44",
+      "SCORE1": "360",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "360",
+      "DISCIPLINE": "C",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "82",
+      "_classement_nom": "Scratch Homme Poulies 2027"
+    },
+    {
+      "Rang_ligue": 11,
+      "RANG": 11,
       "NO_LICENCE": "0715262J",
       "NOM_PERSONNE": "MICHON",
       "PRENOM_PERSONNE": "Jean-paul",
@@ -3273,8 +3354,8 @@
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
-      "Rang_ligue": 11,
-      "RANG": 11,
+      "Rang_ligue": 12,
+      "RANG": 12,
       "NO_LICENCE": "0400254J",
       "NOM_PERSONNE": "LAMBERT",
       "PRENOM_PERSONNE": "Francois",
@@ -3300,8 +3381,8 @@
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
-      "Rang_ligue": 12,
-      "RANG": 12,
+      "Rang_ligue": 13,
+      "RANG": 13,
       "NO_LICENCE": "0806905W",
       "NOM_PERSONNE": "GRISON",
       "PRENOM_PERSONNE": "Didier",
@@ -3327,8 +3408,8 @@
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
-      "Rang_ligue": 13,
-      "RANG": 13,
+      "Rang_ligue": 14,
+      "RANG": 14,
       "NO_LICENCE": "0224650K",
       "NOM_PERSONNE": "BOURREAU",
       "PRENOM_PERSONNE": "Olivier",
@@ -3354,8 +3435,8 @@
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
-      "Rang_ligue": 14,
-      "RANG": 14,
+      "Rang_ligue": 15,
+      "RANG": 15,
       "NO_LICENCE": "0628652T",
       "NOM_PERSONNE": "ARBONA",
       "PRENOM_PERSONNE": "Gwennael",
@@ -3381,8 +3462,8 @@
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
-      "Rang_ligue": 15,
-      "RANG": 15,
+      "Rang_ligue": 16,
+      "RANG": 16,
       "NO_LICENCE": "0017223W",
       "NOM_PERSONNE": "TETREL",
       "PRENOM_PERSONNE": "Julien",
@@ -3408,8 +3489,8 @@
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
-      "Rang_ligue": 16,
-      "RANG": 16,
+      "Rang_ligue": 17,
+      "RANG": 17,
       "NO_LICENCE": "0036826D",
       "NOM_PERSONNE": "BRENOT",
       "PRENOM_PERSONNE": "Adrien",
@@ -3435,8 +3516,8 @@
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
-      "Rang_ligue": 17,
-      "RANG": 17,
+      "Rang_ligue": 18,
+      "RANG": 18,
       "NO_LICENCE": "0056207V",
       "NOM_PERSONNE": "COLOMBIER",
       "PRENOM_PERSONNE": "Jean marie",
@@ -3462,8 +3543,8 @@
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
-      "Rang_ligue": 18,
-      "RANG": 18,
+      "Rang_ligue": 19,
+      "RANG": 19,
       "NO_LICENCE": "0214425W",
       "NOM_PERSONNE": "NICOLAS",
       "PRENOM_PERSONNE": "Philippe",
@@ -3489,8 +3570,8 @@
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
-      "Rang_ligue": 19,
-      "RANG": 19,
+      "Rang_ligue": 20,
+      "RANG": 20,
       "NO_LICENCE": "1026248U",
       "NOM_PERSONNE": "DENIS",
       "PRENOM_PERSONNE": "Jérôme",
@@ -3516,8 +3597,8 @@
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
-      "Rang_ligue": 20,
-      "RANG": 20,
+      "Rang_ligue": 21,
+      "RANG": 21,
       "NO_LICENCE": "0008516G",
       "NOM_PERSONNE": "BRIER",
       "PRENOM_PERSONNE": "Philippe",
@@ -3543,8 +3624,8 @@
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
-      "Rang_ligue": 21,
-      "RANG": 21,
+      "Rang_ligue": 22,
+      "RANG": 22,
       "NO_LICENCE": "0099446U",
       "NOM_PERSONNE": "SEGRETAIN",
       "PRENOM_PERSONNE": "Fabien",
@@ -3570,8 +3651,8 @@
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
-      "Rang_ligue": 22,
-      "RANG": 22,
+      "Rang_ligue": 23,
+      "RANG": 23,
       "NO_LICENCE": "0332503S",
       "NOM_PERSONNE": "GAUTHIER-HATET",
       "PRENOM_PERSONNE": "Patrick",
@@ -3597,8 +3678,8 @@
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
-      "Rang_ligue": 23,
-      "RANG": 23,
+      "Rang_ligue": 24,
+      "RANG": 24,
       "NO_LICENCE": "0610484V",
       "NOM_PERSONNE": "HERVE",
       "PRENOM_PERSONNE": "Florian",
@@ -3624,8 +3705,8 @@
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
-      "Rang_ligue": 24,
-      "RANG": 24,
+      "Rang_ligue": 25,
+      "RANG": 25,
       "NO_LICENCE": "0236416Z",
       "NOM_PERSONNE": "LAUNAY",
       "PRENOM_PERSONNE": "Thierry",
@@ -3651,8 +3732,8 @@
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
-      "Rang_ligue": 25,
-      "RANG": 25,
+      "Rang_ligue": 26,
+      "RANG": 26,
       "NO_LICENCE": "0429985A",
       "NOM_PERSONNE": "MEZERETTE",
       "PRENOM_PERSONNE": "Laurent",
@@ -3678,8 +3759,8 @@
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
-      "Rang_ligue": 26,
-      "RANG": 26,
+      "Rang_ligue": 27,
+      "RANG": 27,
       "NO_LICENCE": "0430101B",
       "NOM_PERSONNE": "DEBRY",
       "PRENOM_PERSONNE": "Sylvain",
@@ -3705,8 +3786,8 @@
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
-      "Rang_ligue": 27,
-      "RANG": 27,
+      "Rang_ligue": 28,
+      "RANG": 28,
       "NO_LICENCE": "0809577A",
       "NOM_PERSONNE": "LECAS",
       "PRENOM_PERSONNE": "Gilles",
@@ -3732,8 +3813,8 @@
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
-      "Rang_ligue": 28,
-      "RANG": 28,
+      "Rang_ligue": 29,
+      "RANG": 29,
       "NO_LICENCE": "0353931H",
       "NOM_PERSONNE": "HABERKORN",
       "PRENOM_PERSONNE": "Nicolas",
@@ -3759,8 +3840,8 @@
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
-      "Rang_ligue": 29,
-      "RANG": 29,
+      "Rang_ligue": 30,
+      "RANG": 30,
       "NO_LICENCE": "1052046A",
       "NOM_PERSONNE": "MARIANO",
       "PRENOM_PERSONNE": "Pierre",
@@ -3786,8 +3867,8 @@
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
-      "Rang_ligue": 30,
-      "RANG": 30,
+      "Rang_ligue": 31,
+      "RANG": 31,
       "NO_LICENCE": "0956175W",
       "NOM_PERSONNE": "BURAY",
       "PRENOM_PERSONNE": "Daniel",
@@ -3813,8 +3894,8 @@
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
-      "Rang_ligue": 31,
-      "RANG": 31,
+      "Rang_ligue": 32,
+      "RANG": 32,
       "NO_LICENCE": "0035617P",
       "NOM_PERSONNE": "MEUNIER",
       "PRENOM_PERSONNE": "Cyrille",
@@ -4436,6 +4517,33 @@
     {
       "Rang_ligue": 5,
       "RANG": 5,
+      "NO_LICENCE": "0311470E",
+      "NOM_PERSONNE": "RIBEYROLLES",
+      "PRENOM_PERSONNE": "Jerome",
+      "SEXE": "H",
+      "ARME": "P",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "LES ARCHERS PORNICAIS",
+      "NOM_ABREGE": "PORNIC",
+      "CODE_STRUCTURE": "1244046",
+      "DEPARTEMENT": "44",
+      "SCORE1": "360",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "360",
+      "DISCIPLINE": "C",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "40",
+      "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
+    },
+    {
+      "Rang_ligue": 6,
+      "RANG": 6,
       "NO_LICENCE": "0715262J",
       "NOM_PERSONNE": "MICHON",
       "PRENOM_PERSONNE": "Jean-paul",
@@ -4461,8 +4569,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 6,
-      "RANG": 6,
+      "Rang_ligue": 7,
+      "RANG": 7,
       "NO_LICENCE": "0400254J",
       "NOM_PERSONNE": "LAMBERT",
       "PRENOM_PERSONNE": "Francois",
@@ -4488,8 +4596,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 7,
-      "RANG": 7,
+      "Rang_ligue": 8,
+      "RANG": 8,
       "NO_LICENCE": "0224650K",
       "NOM_PERSONNE": "BOURREAU",
       "PRENOM_PERSONNE": "Olivier",
@@ -4515,8 +4623,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 8,
-      "RANG": 8,
+      "Rang_ligue": 9,
+      "RANG": 9,
       "NO_LICENCE": "0017223W",
       "NOM_PERSONNE": "TETREL",
       "PRENOM_PERSONNE": "Julien",
@@ -4542,8 +4650,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 9,
-      "RANG": 9,
+      "Rang_ligue": 10,
+      "RANG": 10,
       "NO_LICENCE": "0036826D",
       "NOM_PERSONNE": "BRENOT",
       "PRENOM_PERSONNE": "Adrien",
@@ -4569,8 +4677,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 10,
-      "RANG": 10,
+      "Rang_ligue": 11,
+      "RANG": 11,
       "NO_LICENCE": "0056207V",
       "NOM_PERSONNE": "COLOMBIER",
       "PRENOM_PERSONNE": "Jean marie",
@@ -4596,8 +4704,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 11,
-      "RANG": 11,
+      "Rang_ligue": 12,
+      "RANG": 12,
       "NO_LICENCE": "1026248U",
       "NOM_PERSONNE": "DENIS",
       "PRENOM_PERSONNE": "Jérôme",
@@ -4623,8 +4731,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 12,
-      "RANG": 12,
+      "Rang_ligue": 13,
+      "RANG": 13,
       "NO_LICENCE": "0610484V",
       "NOM_PERSONNE": "HERVE",
       "PRENOM_PERSONNE": "Florian",
@@ -4650,8 +4758,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 13,
-      "RANG": 13,
+      "Rang_ligue": 14,
+      "RANG": 14,
       "NO_LICENCE": "0429985A",
       "NOM_PERSONNE": "MEZERETTE",
       "PRENOM_PERSONNE": "Laurent",
@@ -4677,8 +4785,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 14,
-      "RANG": 14,
+      "Rang_ligue": 15,
+      "RANG": 15,
       "NO_LICENCE": "0430101B",
       "NOM_PERSONNE": "DEBRY",
       "PRENOM_PERSONNE": "Sylvain",
@@ -4704,8 +4812,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 15,
-      "RANG": 15,
+      "Rang_ligue": 16,
+      "RANG": 16,
       "NO_LICENCE": "0353931H",
       "NOM_PERSONNE": "HABERKORN",
       "PRENOM_PERSONNE": "Nicolas",
@@ -4731,8 +4839,8 @@
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 16,
-      "RANG": 16,
+      "Rang_ligue": 17,
+      "RANG": 17,
       "NO_LICENCE": "0035617P",
       "NOM_PERSONNE": "MEUNIER",
       "PRENOM_PERSONNE": "Cyrille",
