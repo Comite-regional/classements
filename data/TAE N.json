@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-27T07:55:11.147094Z",
+    "generated_at": "2026-09-28T08:30:35.261910Z",
     "saison": "2027",
     "ligue": "CR12"
   },
@@ -56,7 +56,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "2",
+      "RANG_NAT": "4",
       "_classement_nom": "Seniors Femme Arc Nu 2027"
     },
     {
@@ -110,7 +110,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "2",
+      "RANG_NAT": "4",
       "_classement_nom": "Senior 2 Femme Arc Nu 2027"
     },
     {
@@ -353,7 +353,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1",
+      "RANG_NAT": "2",
       "_classement_nom": "U13 Femme Arc Classique 2027"
     },
     {
@@ -380,7 +380,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "4",
+      "RANG_NAT": "6",
       "_classement_nom": "U13 Femme Arc Classique 2027"
     },
     {
@@ -461,7 +461,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "4",
+      "RANG_NAT": "7",
       "_classement_nom": "U18 Femme Arc Classique 2027"
     },
     {
@@ -488,7 +488,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "5",
+      "RANG_NAT": "8",
       "_classement_nom": "U18 Femme Arc Classique 2027"
     },
     {
@@ -515,7 +515,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "18",
+      "RANG_NAT": "34",
       "_classement_nom": "Senior 1 Homme Arc Classique 2027"
     },
     {
@@ -542,7 +542,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "2",
+      "RANG_NAT": "3",
       "_classement_nom": "Senior 1 Femme Arc Classique 2027 "
     },
     {
@@ -569,7 +569,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "6",
+      "RANG_NAT": "13",
       "_classement_nom": "Senior 1 Femme Arc Classique 2027 "
     },
     {
@@ -596,7 +596,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "9",
+      "RANG_NAT": "14",
       "_classement_nom": "Senior 2 Homme Arc Classique 2027"
     },
     {
@@ -623,7 +623,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "16",
+      "RANG_NAT": "25",
       "_classement_nom": "Senior 2 Homme Arc Classique 2027"
     },
     {
@@ -650,7 +650,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "24",
+      "RANG_NAT": "53",
       "_classement_nom": "Senior 2 Homme Arc Classique 2027"
     },
     {
@@ -677,7 +677,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "28",
+      "RANG_NAT": "61",
       "_classement_nom": "Senior 2 Homme Arc Classique 2027"
     },
     {
@@ -704,7 +704,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "31",
+      "RANG_NAT": "64",
       "_classement_nom": "Senior 2 Homme Arc Classique 2027"
     },
     {
@@ -731,7 +731,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "3",
+      "RANG_NAT": "6",
       "_classement_nom": "Senior 2 Femme Arc Classique 2027"
     },
     {
@@ -758,7 +758,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "10",
+      "RANG_NAT": "19",
       "_classement_nom": "Senior 2 Femme Arc Classique 2027"
     },
     {
@@ -785,7 +785,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "24",
+      "RANG_NAT": "36",
       "_classement_nom": "Senior 2 Femme Arc Classique 2027"
     },
     {
@@ -812,7 +812,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "27",
+      "RANG_NAT": "39",
       "_classement_nom": "Senior 2 Femme Arc Classique 2027"
     },
     {
@@ -839,7 +839,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1",
+      "RANG_NAT": "3",
       "_classement_nom": "Senior 3 Homme Arc Classique 2027"
     },
     {
@@ -866,7 +866,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "16",
+      "RANG_NAT": "23",
       "_classement_nom": "Senior 3 Homme Arc Classique 2027"
     },
     {
@@ -893,7 +893,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "22",
+      "RANG_NAT": "32",
       "_classement_nom": "Senior 3 Homme Arc Classique 2027"
     },
     {
@@ -920,7 +920,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "26",
+      "RANG_NAT": "37",
       "_classement_nom": "Senior 3 Homme Arc Classique 2027"
     },
     {
@@ -947,7 +947,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "30",
+      "RANG_NAT": "44",
       "_classement_nom": "Senior 3 Homme Arc Classique 2027"
     },
     {
@@ -974,7 +974,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "32",
+      "RANG_NAT": "49",
       "_classement_nom": "Senior 3 Homme Arc Classique 2027"
     },
     {
@@ -1001,7 +1001,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "35",
+      "RANG_NAT": "53",
       "_classement_nom": "Senior 3 Homme Arc Classique 2027"
     },
     {
@@ -1028,7 +1028,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "14",
+      "RANG_NAT": "19",
       "_classement_nom": "Senior 3 Femme Arc Classique 2027"
     },
     {
@@ -1055,7 +1055,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "16",
+      "RANG_NAT": "21",
       "_classement_nom": "Senior 3 Femme Arc Classique 2027"
     },
     {
@@ -1109,7 +1109,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "14",
+      "RANG_NAT": "19",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
@@ -1136,7 +1136,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "23",
+      "RANG_NAT": "29",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
@@ -1163,7 +1163,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "19",
+      "RANG_NAT": "24",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2027"
     },
     {
@@ -1190,7 +1190,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "21",
+      "RANG_NAT": "26",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2027"
     }
   ]
