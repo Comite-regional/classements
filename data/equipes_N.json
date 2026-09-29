@@ -1,8 +1,30 @@
 {
   "meta": {
-    "generated_at": "2026-09-28T08:30:35.261910Z",
+    "generated_at": "2026-09-29T08:14:25.961409Z",
     "saison": "2027",
     "ligue": "CR12"
   },
-  "rows": []
+  "rows": [
+    {
+      "RANG": "8",
+      "RANG_LIGUE": "1",
+      "DIVISION": "",
+      "PRE_INSCRIT": "",
+      "QUOTA": "",
+      "NOM_ABREGE": "BOULOIRE",
+      "NOM_STRUCTURE": "CIE ARCHERS BOIS DES VALLEES",
+      "SEXE_EQUIPE": "H",
+      "ARME_EQUIPE": "C",
+      "CATEGORIE_CLASSEMENT": "Homme Equipe Parcours Nature",
+      "CODE_STRUCTURE": "1272093",
+      "VILLE": "",
+      "DEPARTEMENT": "72",
+      "SCORE1": "1715",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "1715",
+      "_classement_nom": "Homme Equipe Parcours Nature",
+      "DISCIPLINE": "N"
+    }
+  ]
 }
