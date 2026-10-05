@@ -1,13 +1,34 @@
 {
   "meta": {
-    "generated_at": "2026-10-04T08:15:12.102396Z",
+    "generated_at": "2026-10-05T08:44:58.394835Z",
     "saison": "2027",
     "ligue": "CR12"
   },
   "rows": [
     {
-      "RANG": "8",
+      "RANG": "16",
       "RANG_LIGUE": "1",
+      "DIVISION": "",
+      "PRE_INSCRIT": "",
+      "QUOTA": "",
+      "NOM_ABREGE": "ST HERBLAIN",
+      "NOM_STRUCTURE": "ARCHERS DE ST HERBLAIN",
+      "SEXE_EQUIPE": "H",
+      "ARME_EQUIPE": "C",
+      "CATEGORIE_CLASSEMENT": "Homme Equipe Parcours Nature",
+      "CODE_STRUCTURE": "1244002",
+      "VILLE": "",
+      "DEPARTEMENT": "44",
+      "SCORE1": "1735",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "1735",
+      "_classement_nom": "Homme Equipe Parcours Nature",
+      "DISCIPLINE": "N"
+    },
+    {
+      "RANG": "19",
+      "RANG_LIGUE": "2",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
