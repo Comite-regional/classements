@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-06T08:48:20.011080Z",
+    "generated_at": "2026-10-07T08:26:34.511464Z",
     "saison": "2027",
     "ligue": "CR12"
   },
@@ -137,7 +137,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "32",
+      "RANG_NAT": "33",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -299,7 +299,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "51",
+      "RANG_NAT": "50",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -326,7 +326,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "53",
+      "RANG_NAT": "52",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -353,7 +353,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "56",
+      "RANG_NAT": "57",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -380,39 +380,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "71",
+      "RANG_NAT": "70",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
       "Rang_ligue": 14,
       "RANG": 14,
-      "NO_LICENCE": "1050632Q",
-      "NOM_PERSONNE": "KOHLER",
-      "PRENOM_PERSONNE": "Jean-marc",
-      "SEXE": "H",
-      "ARME": "B",
-      "CAT": "S3",
-      "CATEGORIE": "S3",
-      "NOM_STRUCTURE": "LES FLECHES D ALIENOR",
-      "NOM_ABREGE": "LES FLÉCHES D'ALIÉNOR",
-      "CODE_STRUCTURE": "1285141",
-      "DEPARTEMENT": "85",
-      "SCORE1": "230",
-      "SCORE2": "0",
-      "SCORE3": "0",
-      "MOY_SCORE": "230",
-      "DISCIPLINE": "C",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "73",
-      "_classement_nom": "Scratch Homme Bare Bow 2027"
-    },
-    {
-      "Rang_ligue": 15,
-      "RANG": 15,
       "NO_LICENCE": "0997697D",
       "NOM_PERSONNE": "ANGEBAUD",
       "PRENOM_PERSONNE": "Romain",
@@ -435,6 +408,33 @@
       "CAT_TIR": "",
       "CAT_CLASS": "",
       "RANG_NAT": "78",
+      "_classement_nom": "Scratch Homme Bare Bow 2027"
+    },
+    {
+      "Rang_ligue": 15,
+      "RANG": 15,
+      "NO_LICENCE": "1050632Q",
+      "NOM_PERSONNE": "KOHLER",
+      "PRENOM_PERSONNE": "Jean-marc",
+      "SEXE": "H",
+      "ARME": "B",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "LES FLECHES D ALIENOR",
+      "NOM_ABREGE": "LES FLÉCHES D'ALIÉNOR",
+      "CODE_STRUCTURE": "1285141",
+      "DEPARTEMENT": "85",
+      "SCORE1": "230",
+      "SCORE2": "188",
+      "SCORE3": "0",
+      "MOY_SCORE": "209",
+      "DISCIPLINE": "C",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "87",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -461,7 +461,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "89",
+      "RANG_NAT": "90",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -488,7 +488,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "94",
+      "RANG_NAT": "97",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -515,7 +515,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "98",
+      "RANG_NAT": "100",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -542,7 +542,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "104",
+      "RANG_NAT": "106",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -569,7 +569,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "111",
+      "RANG_NAT": "114",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -600,8 +600,8 @@
       "_classement_nom": "U18-U21 Homme Arc Nu 2027"
     },
     {
-      "Rang_ligue": 1,
-      "RANG": 1,
+      "Rang_ligue": 2,
+      "RANG": 2,
       "NO_LICENCE": "1071351N",
       "NOM_PERSONNE": "NIMMEGEERS",
       "PRENOM_PERSONNE": "Rubbens",
@@ -623,8 +623,8 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "1",
-      "_classement_nom": "U13-U15 Homme Arc Nu 2027"
+      "RANG_NAT": "2",
+      "_classement_nom": "U18-U21 Homme Arc Nu 2027"
     },
     {
       "Rang_ligue": 1,
@@ -651,7 +651,7 @@
       "CAT_TIR": "",
       "CAT_CLASS": "",
       "RANG_NAT": "1",
-      "_classement_nom": "U15 Homme Arc Nu 2027"
+      "_classement_nom": "U18 Homme Arc Nu 2027"
     },
     {
       "Rang_ligue": 1,
@@ -677,7 +677,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "25",
+      "RANG_NAT": "24",
       "_classement_nom": "Scratch Femme Bare Bow 2027"
     },
     {
@@ -866,7 +866,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "2",
+      "RANG_NAT": "3",
       "_classement_nom": "Senior 1 Femme Arc Nu 2027"
     },
     {
@@ -893,7 +893,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "3",
+      "RANG_NAT": "5",
       "_classement_nom": "Senior 1 Femme Arc Nu 2027"
     },
     {
@@ -911,8 +911,8 @@
       "CODE_STRUCTURE": "1244035",
       "DEPARTEMENT": "44",
       "SCORE1": "312",
-      "SCORE2": "303",
-      "SCORE3": "0",
+      "SCORE2": "306",
+      "SCORE3": "303",
       "MOY_SCORE": "307",
       "DISCIPLINE": "C",
       "DISTANCE": "",
@@ -947,7 +947,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "10",
+      "RANG_NAT": "11",
       "_classement_nom": "Senior 2 Homme Arc Nu 2027"
     },
     {
@@ -974,7 +974,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "15",
+      "RANG_NAT": "16",
       "_classement_nom": "Senior 2 Homme Arc Nu 2027"
     },
     {
@@ -1001,7 +1001,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "17",
+      "RANG_NAT": "19",
       "_classement_nom": "Senior 2 Homme Arc Nu 2027"
     },
     {
@@ -1020,15 +1020,15 @@
       "DEPARTEMENT": "44",
       "SCORE1": "259",
       "SCORE2": "259",
-      "SCORE3": "233",
-      "MOY_SCORE": "250",
+      "SCORE3": "247",
+      "MOY_SCORE": "255",
       "DISCIPLINE": "C",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "19",
+      "RANG_NAT": "20",
       "_classement_nom": "Senior 2 Homme Arc Nu 2027"
     },
     {
@@ -1055,7 +1055,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "37",
+      "RANG_NAT": "39",
       "_classement_nom": "Senior 2 Homme Arc Nu 2027"
     },
     {
@@ -1082,7 +1082,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "16",
+      "RANG_NAT": "19",
       "_classement_nom": "Senior 2 Femme Arc Nu 2027"
     },
     {
@@ -1109,12 +1109,39 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "3",
+      "RANG_NAT": "4",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
       "Rang_ligue": 2,
       "RANG": 2,
+      "NO_LICENCE": "0863592M",
+      "NOM_PERSONNE": "LOIRAT",
+      "PRENOM_PERSONNE": "Thierry",
+      "SEXE": "H",
+      "ARME": "B",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "LES ARCHERS PORNICAIS",
+      "NOM_ABREGE": "PORNIC",
+      "CODE_STRUCTURE": "1244046",
+      "DEPARTEMENT": "44",
+      "SCORE1": "295",
+      "SCORE2": "275",
+      "SCORE3": "239",
+      "MOY_SCORE": "269",
+      "DISCIPLINE": "C",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "20",
+      "_classement_nom": "Senior 3 Homme Arc Nu 2027"
+    },
+    {
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "0630593C",
       "NOM_PERSONNE": "MOUTAULT",
       "PRENOM_PERSONNE": "Denis",
@@ -1136,12 +1163,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "19",
+      "RANG_NAT": "22",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
-      "Rang_ligue": 3,
-      "RANG": 3,
+      "Rang_ligue": 4,
+      "RANG": 4,
       "NO_LICENCE": "0969492W",
       "NOM_PERSONNE": "SOUCHET",
       "PRENOM_PERSONNE": "Yann",
@@ -1163,12 +1190,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "22",
+      "RANG_NAT": "25",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
-      "Rang_ligue": 4,
-      "RANG": 4,
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "0440625R",
       "NOM_PERSONNE": "BOSMAN",
       "PRENOM_PERSONNE": "Jean-philippe",
@@ -1190,34 +1217,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "24",
-      "_classement_nom": "Senior 3 Homme Arc Nu 2027"
-    },
-    {
-      "Rang_ligue": 5,
-      "RANG": 5,
-      "NO_LICENCE": "0863592M",
-      "NOM_PERSONNE": "LOIRAT",
-      "PRENOM_PERSONNE": "Thierry",
-      "SEXE": "H",
-      "ARME": "B",
-      "CAT": "S3",
-      "CATEGORIE": "S3",
-      "NOM_STRUCTURE": "LES ARCHERS PORNICAIS",
-      "NOM_ABREGE": "PORNIC",
-      "CODE_STRUCTURE": "1244046",
-      "DEPARTEMENT": "44",
-      "SCORE1": "275",
-      "SCORE2": "239",
-      "SCORE3": "0",
-      "MOY_SCORE": "257",
-      "DISCIPLINE": "C",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "28",
+      "RANG_NAT": "27",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -1244,7 +1244,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "30",
+      "RANG_NAT": "34",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -1271,7 +1271,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "35",
+      "RANG_NAT": "39",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -1298,7 +1298,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "37",
+      "RANG_NAT": "41",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -1325,7 +1325,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "39",
+      "RANG_NAT": "44",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -1352,7 +1352,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "45",
+      "RANG_NAT": "52",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -1379,7 +1379,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "48",
+      "RANG_NAT": "57",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -1460,7 +1460,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "3",
+      "RANG_NAT": "4",
       "_classement_nom": "U21 Homme Arc Classique 2027"
     },
     {
@@ -1487,7 +1487,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "5",
+      "RANG_NAT": "7",
       "_classement_nom": "U21 Homme Arc Classique 2027"
     },
     {
@@ -1541,7 +1541,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "8",
+      "RANG_NAT": "11",
       "_classement_nom": "U18 Homme Arc Classique 2027"
     },
     {
@@ -1558,10 +1558,10 @@
       "NOM_ABREGE": "LA TURBALLE",
       "CODE_STRUCTURE": "1244036",
       "DEPARTEMENT": "44",
-      "SCORE1": "200",
-      "SCORE2": "0",
+      "SCORE1": "206",
+      "SCORE2": "200",
       "SCORE3": "0",
-      "MOY_SCORE": "200",
+      "MOY_SCORE": "203",
       "DISCIPLINE": "C",
       "DISTANCE": "",
       "BLASON": "",
@@ -1595,7 +1595,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "5",
+      "RANG_NAT": "6",
       "_classement_nom": "U15 Homme Arc Classique 2027"
     },
     {
@@ -1757,7 +1757,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "30",
+      "RANG_NAT": "31",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -1811,7 +1811,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "58",
+      "RANG_NAT": "62",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -1838,7 +1838,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "67",
+      "RANG_NAT": "69",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -1865,7 +1865,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "68",
+      "RANG_NAT": "70",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -1892,7 +1892,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "74",
+      "RANG_NAT": "76",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -1919,7 +1919,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "78",
+      "RANG_NAT": "80",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -1946,7 +1946,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "79",
+      "RANG_NAT": "82",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -1973,7 +1973,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "88",
+      "RANG_NAT": "89",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -2000,7 +2000,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "91",
+      "RANG_NAT": "92",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -2027,7 +2027,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "95",
+      "RANG_NAT": "96",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -2054,7 +2054,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "96",
+      "RANG_NAT": "97",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -2081,7 +2081,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "109",
+      "RANG_NAT": "111",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -2108,7 +2108,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "117",
+      "RANG_NAT": "120",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -2135,7 +2135,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "122",
+      "RANG_NAT": "124",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -2162,7 +2162,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "125",
+      "RANG_NAT": "127",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -2189,7 +2189,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "129",
+      "RANG_NAT": "131",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -2216,7 +2216,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "131",
+      "RANG_NAT": "133",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -2243,7 +2243,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "132",
+      "RANG_NAT": "134",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -2270,7 +2270,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "133",
+      "RANG_NAT": "135",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -2297,7 +2297,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "136",
+      "RANG_NAT": "138",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -2324,7 +2324,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "138",
+      "RANG_NAT": "139",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -2351,7 +2351,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "142",
+      "RANG_NAT": "144",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -2378,7 +2378,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "144",
+      "RANG_NAT": "146",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -2405,7 +2405,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "3",
+      "RANG_NAT": "4",
       "_classement_nom": "U18 Femme Arc Classique 2027"
     },
     {
@@ -2432,7 +2432,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "5",
+      "RANG_NAT": "8",
       "_classement_nom": "U21 Femme Arc Classique 2027"
     },
     {
@@ -2459,7 +2459,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "7",
+      "RANG_NAT": "10",
       "_classement_nom": "U21 Femme Arc Classique 2027"
     },
     {
@@ -2594,7 +2594,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "48",
+      "RANG_NAT": "49",
       "_classement_nom": "Scratch Femme Classique 2027"
     },
     {
@@ -2621,7 +2621,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "53",
+      "RANG_NAT": "54",
       "_classement_nom": "Scratch Femme Classique 2027"
     },
     {
@@ -2648,7 +2648,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "59",
+      "RANG_NAT": "60",
       "_classement_nom": "Scratch Femme Classique 2027"
     },
     {
@@ -2675,7 +2675,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "7",
+      "RANG_NAT": "9",
       "_classement_nom": "Senior 1 Homme Arc Classique 2027"
     },
     {
@@ -2702,7 +2702,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "8",
+      "RANG_NAT": "10",
       "_classement_nom": "Senior 1 Homme Arc Classique 2027"
     },
     {
@@ -2729,7 +2729,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "13",
+      "RANG_NAT": "15",
       "_classement_nom": "Senior 1 Homme Arc Classique 2027"
     },
     {
@@ -2756,7 +2756,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "15",
+      "RANG_NAT": "17",
       "_classement_nom": "Senior 1 Homme Arc Classique 2027"
     },
     {
@@ -2783,7 +2783,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "21",
+      "RANG_NAT": "27",
       "_classement_nom": "Senior 1 Homme Arc Classique 2027"
     },
     {
@@ -2810,7 +2810,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "26",
+      "RANG_NAT": "32",
       "_classement_nom": "Senior 1 Homme Arc Classique 2027"
     },
     {
@@ -2837,7 +2837,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "27",
+      "RANG_NAT": "35",
       "_classement_nom": "Senior 1 Homme Arc Classique 2027"
     },
     {
@@ -2864,7 +2864,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "28",
+      "RANG_NAT": "36",
       "_classement_nom": "Senior 1 Homme Arc Classique 2027"
     },
     {
@@ -2891,7 +2891,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "34",
+      "RANG_NAT": "41",
       "_classement_nom": "Senior 1 Homme Arc Classique 2027"
     },
     {
@@ -2918,7 +2918,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "35",
+      "RANG_NAT": "42",
       "_classement_nom": "Senior 1 Homme Arc Classique 2027"
     },
     {
@@ -2945,7 +2945,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "36",
+      "RANG_NAT": "43",
       "_classement_nom": "Senior 1 Homme Arc Classique 2027"
     },
     {
@@ -2972,7 +2972,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "8",
+      "RANG_NAT": "11",
       "_classement_nom": "Senior 1 Femme Arc Classique 2027"
     },
     {
@@ -2999,7 +2999,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "10",
+      "RANG_NAT": "13",
       "_classement_nom": "Senior 1 Femme Arc Classique 2027"
     },
     {
@@ -3026,7 +3026,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "11",
+      "RANG_NAT": "14",
       "_classement_nom": "Senior 1 Femme Arc Classique 2027"
     },
     {
@@ -3053,7 +3053,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "15",
+      "RANG_NAT": "20",
       "_classement_nom": "Senior 1 Femme Arc Classique 2027"
     },
     {
@@ -3080,7 +3080,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "17",
+      "RANG_NAT": "22",
       "_classement_nom": "Senior 1 Femme Arc Classique 2027"
     },
     {
@@ -3161,7 +3161,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "10",
+      "RANG_NAT": "12",
       "_classement_nom": "Senior 2 Homme Arc Classique 2027"
     },
     {
@@ -3188,7 +3188,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "19",
+      "RANG_NAT": "23",
       "_classement_nom": "Senior 2 Homme Arc Classique 2027"
     },
     {
@@ -3215,7 +3215,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "23",
+      "RANG_NAT": "28",
       "_classement_nom": "Senior 2 Homme Arc Classique 2027"
     },
     {
@@ -3242,7 +3242,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "26",
+      "RANG_NAT": "32",
       "_classement_nom": "Senior 2 Homme Arc Classique 2027"
     },
     {
@@ -3269,7 +3269,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "27",
+      "RANG_NAT": "33",
       "_classement_nom": "Senior 2 Homme Arc Classique 2027"
     },
     {
@@ -3296,7 +3296,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "31",
+      "RANG_NAT": "37",
       "_classement_nom": "Senior 2 Homme Arc Classique 2027"
     },
     {
@@ -3323,7 +3323,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "43",
+      "RANG_NAT": "53",
       "_classement_nom": "Senior 2 Homme Arc Classique 2027"
     },
     {
@@ -3350,7 +3350,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "44",
+      "RANG_NAT": "55",
       "_classement_nom": "Senior 2 Homme Arc Classique 2027"
     },
     {
@@ -3377,7 +3377,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "46",
+      "RANG_NAT": "58",
       "_classement_nom": "Senior 2 Homme Arc Classique 2027"
     },
     {
@@ -3404,7 +3404,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "49",
+      "RANG_NAT": "60",
       "_classement_nom": "Senior 2 Homme Arc Classique 2027"
     },
     {
@@ -3431,7 +3431,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "51",
+      "RANG_NAT": "63",
       "_classement_nom": "Senior 2 Homme Arc Classique 2027"
     },
     {
@@ -3458,7 +3458,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "16",
+      "RANG_NAT": "19",
       "_classement_nom": "Senior 3 Homme Arc Classique 2027"
     },
     {
@@ -3485,7 +3485,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "21",
+      "RANG_NAT": "25",
       "_classement_nom": "Senior 3 Homme Arc Classique 2027"
     },
     {
@@ -3512,7 +3512,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "22",
+      "RANG_NAT": "26",
       "_classement_nom": "Senior 3 Homme Arc Classique 2027"
     },
     {
@@ -3539,7 +3539,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "17",
+      "RANG_NAT": "21",
       "_classement_nom": "Seniors Homme Arc Droit 2027"
     },
     {
@@ -3566,7 +3566,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "31",
+      "RANG_NAT": "37",
       "_classement_nom": "Seniors Homme Arc Droit 2027"
     },
     {
@@ -3593,7 +3593,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "33",
+      "RANG_NAT": "39",
       "_classement_nom": "Seniors Homme Arc Droit 2027"
     },
     {
@@ -3620,7 +3620,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "35",
+      "RANG_NAT": "42",
       "_classement_nom": "Seniors Homme Arc Droit 2027"
     },
     {
@@ -3647,7 +3647,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "6",
+      "RANG_NAT": "5",
       "_classement_nom": "Seniors Femme Arc Droit 2027"
     },
     {
@@ -3701,7 +3701,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "16",
+      "RANG_NAT": "17",
       "_classement_nom": "Seniors Femme Arc Droit 2027"
     },
     {
@@ -3728,7 +3728,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "14",
+      "RANG_NAT": "17",
       "_classement_nom": "Senior 3 Homme Arc Droit 2027"
     },
     {
@@ -3755,7 +3755,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "22",
+      "RANG_NAT": "25",
       "_classement_nom": "Senior 3 Homme Arc Droit 2027"
     },
     {
@@ -3782,7 +3782,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "24",
+      "RANG_NAT": "27",
       "_classement_nom": "Senior 3 Homme Arc Droit 2027"
     },
     {
@@ -3809,7 +3809,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "25",
+      "RANG_NAT": "28",
       "_classement_nom": "Senior 3 Homme Arc Droit 2027"
     },
     {
@@ -3971,7 +3971,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "16",
+      "RANG_NAT": "17",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -3998,7 +3998,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "37",
+      "RANG_NAT": "36",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4106,7 +4106,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "67",
+      "RANG_NAT": "68",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4187,7 +4187,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "87",
+      "RANG_NAT": "89",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4241,7 +4241,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "95",
+      "RANG_NAT": "96",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4268,7 +4268,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "98",
+      "RANG_NAT": "99",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4322,7 +4322,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "108",
+      "RANG_NAT": "109",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4349,7 +4349,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "109",
+      "RANG_NAT": "110",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4376,7 +4376,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "119",
+      "RANG_NAT": "120",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4403,7 +4403,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "133",
+      "RANG_NAT": "134",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4430,7 +4430,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "142",
+      "RANG_NAT": "143",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4511,7 +4511,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "153",
+      "RANG_NAT": "152",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4538,7 +4538,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "162",
+      "RANG_NAT": "163",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4565,7 +4565,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "164",
+      "RANG_NAT": "165",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4619,7 +4619,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "167",
+      "RANG_NAT": "168",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4646,7 +4646,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "175",
+      "RANG_NAT": "177",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4673,7 +4673,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "183",
+      "RANG_NAT": "184",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4700,7 +4700,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "191",
+      "RANG_NAT": "193",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4727,7 +4727,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "195",
+      "RANG_NAT": "198",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4754,7 +4754,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "202",
+      "RANG_NAT": "204",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4772,8 +4772,8 @@
       "CODE_STRUCTURE": "1244010",
       "DEPARTEMENT": "44",
       "SCORE1": "317",
-      "SCORE2": "305",
-      "SCORE3": "0",
+      "SCORE2": "311",
+      "SCORE3": "305",
       "MOY_SCORE": "311",
       "DISCIPLINE": "C",
       "DISTANCE": "",
@@ -4781,7 +4781,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "203",
+      "RANG_NAT": "205",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4798,17 +4798,17 @@
       "NOM_ABREGE": "LES SABLES D'OLONNE",
       "CODE_STRUCTURE": "1285132",
       "DEPARTEMENT": "85",
-      "SCORE1": "287",
-      "SCORE2": "0",
+      "SCORE1": "294",
+      "SCORE2": "287",
       "SCORE3": "0",
-      "MOY_SCORE": "287",
+      "MOY_SCORE": "290",
       "DISCIPLINE": "C",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "223",
+      "RANG_NAT": "221",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4835,7 +4835,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "228",
+      "RANG_NAT": "231",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4862,7 +4862,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "231",
+      "RANG_NAT": "234",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4889,7 +4889,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "233",
+      "RANG_NAT": "236",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4916,7 +4916,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "235",
+      "RANG_NAT": "237",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4943,7 +4943,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "236",
+      "RANG_NAT": "238",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -4970,7 +4970,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "239",
+      "RANG_NAT": "241",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -5338,17 +5338,17 @@
       "NOM_ABREGE": "LA TURBALLE",
       "CODE_STRUCTURE": "1244036",
       "DEPARTEMENT": "44",
-      "SCORE1": "396",
-      "SCORE2": "386",
-      "SCORE3": "382",
-      "MOY_SCORE": "388",
+      "SCORE1": "405",
+      "SCORE2": "396",
+      "SCORE3": "386",
+      "MOY_SCORE": "395",
       "DISCIPLINE": "C",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "13",
+      "RANG_NAT": "9",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2027"
     },
     {
@@ -5375,7 +5375,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "28",
+      "RANG_NAT": "30",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2027"
     },
     {
@@ -5402,7 +5402,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "34",
+      "RANG_NAT": "38",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2027"
     },
     {
@@ -5429,7 +5429,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "42",
+      "RANG_NAT": "48",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2027"
     },
     {
@@ -5456,7 +5456,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "45",
+      "RANG_NAT": "50",
       "_classement_nom": "Senior 1 Homme Arc à Poulies 2027"
     },
     {
@@ -5537,7 +5537,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "13",
+      "RANG_NAT": "14",
       "_classement_nom": "Senior 1 Femme Arc à Poulies 2027"
     },
     {
@@ -5564,7 +5564,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "18",
+      "RANG_NAT": "21",
       "_classement_nom": "Senior 1 Femme Arc à Poulies 2027"
     },
     {
@@ -5608,17 +5608,17 @@
       "NOM_ABREGE": "DONGES",
       "CODE_STRUCTURE": "1244010",
       "DEPARTEMENT": "44",
-      "SCORE1": "392",
-      "SCORE2": "389",
-      "SCORE3": "381",
-      "MOY_SCORE": "387",
+      "SCORE1": "400",
+      "SCORE2": "392",
+      "SCORE3": "389",
+      "MOY_SCORE": "393",
       "DISCIPLINE": "C",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "12",
+      "RANG_NAT": "7",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
@@ -5645,39 +5645,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "22",
+      "RANG_NAT": "25",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
       "Rang_ligue": 4,
       "RANG": 4,
-      "NO_LICENCE": "0676889Z",
-      "NOM_PERSONNE": "GUYON",
-      "PRENOM_PERSONNE": "Dominique",
-      "SEXE": "H",
-      "ARME": "P",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "ASSO NOUVELLE DES ARCHERS DE LA NATURE - LE MANS",
-      "NOM_ABREGE": "LE MANS NATURE",
-      "CODE_STRUCTURE": "1272103",
-      "DEPARTEMENT": "72",
-      "SCORE1": "365",
-      "SCORE2": "0",
-      "SCORE3": "0",
-      "MOY_SCORE": "365",
-      "DISCIPLINE": "C",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "37",
-      "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
-    },
-    {
-      "Rang_ligue": 5,
-      "RANG": 5,
       "NO_LICENCE": "0835938D",
       "NOM_PERSONNE": "RATEL",
       "PRENOM_PERSONNE": "Christophe",
@@ -5699,12 +5672,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "39",
+      "RANG_NAT": "41",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 6,
-      "RANG": 6,
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "0434306X",
       "NOM_PERSONNE": "CAVELLEC",
       "PRENOM_PERSONNE": "Solen",
@@ -5726,12 +5699,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "41",
+      "RANG_NAT": "43",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 7,
-      "RANG": 7,
+      "Rang_ligue": 6,
+      "RANG": 6,
       "NO_LICENCE": "0311470E",
       "NOM_PERSONNE": "RIBEYROLLES",
       "PRENOM_PERSONNE": "Jerome",
@@ -5753,12 +5726,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "44",
+      "RANG_NAT": "46",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 8,
-      "RANG": 8,
+      "Rang_ligue": 7,
+      "RANG": 7,
       "NO_LICENCE": "0400254J",
       "NOM_PERSONNE": "LAMBERT",
       "PRENOM_PERSONNE": "Francois",
@@ -5780,12 +5753,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "46",
+      "RANG_NAT": "48",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 9,
-      "RANG": 9,
+      "Rang_ligue": 8,
+      "RANG": 8,
       "NO_LICENCE": "0715262J",
       "NOM_PERSONNE": "MICHON",
       "PRENOM_PERSONNE": "Jean-paul",
@@ -5807,12 +5780,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "52",
+      "RANG_NAT": "54",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 10,
-      "RANG": 10,
+      "Rang_ligue": 9,
+      "RANG": 9,
       "NO_LICENCE": "0937022C",
       "NOM_PERSONNE": "CHENAUX",
       "PRENOM_PERSONNE": "Alexandre",
@@ -5834,12 +5807,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "54",
+      "RANG_NAT": "55",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 11,
-      "RANG": 11,
+      "Rang_ligue": 10,
+      "RANG": 10,
       "NO_LICENCE": "0224650K",
       "NOM_PERSONNE": "BOURREAU",
       "PRENOM_PERSONNE": "Olivier",
@@ -5861,12 +5834,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "62",
+      "RANG_NAT": "67",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 12,
-      "RANG": 12,
+      "Rang_ligue": 11,
+      "RANG": 11,
       "NO_LICENCE": "0017223W",
       "NOM_PERSONNE": "TETREL",
       "PRENOM_PERSONNE": "Julien",
@@ -5888,12 +5861,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "67",
+      "RANG_NAT": "72",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 13,
-      "RANG": 13,
+      "Rang_ligue": 12,
+      "RANG": 12,
       "NO_LICENCE": "0056207V",
       "NOM_PERSONNE": "COLOMBIER",
       "PRENOM_PERSONNE": "Jean marie",
@@ -5915,12 +5888,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "72",
+      "RANG_NAT": "76",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 14,
-      "RANG": 14,
+      "Rang_ligue": 13,
+      "RANG": 13,
       "NO_LICENCE": "0036826D",
       "NOM_PERSONNE": "BRENOT",
       "PRENOM_PERSONNE": "Adrien",
@@ -5942,12 +5915,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "74",
+      "RANG_NAT": "77",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 15,
-      "RANG": 15,
+      "Rang_ligue": 14,
+      "RANG": 14,
       "NO_LICENCE": "1026248U",
       "NOM_PERSONNE": "DENIS",
       "PRENOM_PERSONNE": "Jérôme",
@@ -5959,22 +5932,22 @@
       "NOM_ABREGE": "CHANGE",
       "CODE_STRUCTURE": "1253078",
       "DEPARTEMENT": "53",
-      "SCORE1": "329",
-      "SCORE2": "0",
+      "SCORE1": "333",
+      "SCORE2": "329",
       "SCORE3": "0",
-      "MOY_SCORE": "329",
+      "MOY_SCORE": "331",
       "DISCIPLINE": "C",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "84",
+      "RANG_NAT": "87",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 16,
-      "RANG": 16,
+      "Rang_ligue": 15,
+      "RANG": 15,
       "NO_LICENCE": "0610484V",
       "NOM_PERSONNE": "HERVE",
       "PRENOM_PERSONNE": "Florian",
@@ -5996,12 +5969,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "94",
+      "RANG_NAT": "100",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 17,
-      "RANG": 17,
+      "Rang_ligue": 16,
+      "RANG": 16,
       "NO_LICENCE": "0429985A",
       "NOM_PERSONNE": "MEZERETTE",
       "PRENOM_PERSONNE": "Laurent",
@@ -6023,12 +5996,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "100",
+      "RANG_NAT": "105",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 18,
-      "RANG": 18,
+      "Rang_ligue": 17,
+      "RANG": 17,
       "NO_LICENCE": "0430101B",
       "NOM_PERSONNE": "DEBRY",
       "PRENOM_PERSONNE": "Sylvain",
@@ -6050,12 +6023,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "108",
+      "RANG_NAT": "114",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 19,
-      "RANG": 19,
+      "Rang_ligue": 18,
+      "RANG": 18,
       "NO_LICENCE": "0353931H",
       "NOM_PERSONNE": "HABERKORN",
       "PRENOM_PERSONNE": "Nicolas",
@@ -6077,12 +6050,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "111",
+      "RANG_NAT": "117",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 20,
-      "RANG": 20,
+      "Rang_ligue": 19,
+      "RANG": 19,
       "NO_LICENCE": "0035617P",
       "NOM_PERSONNE": "MEUNIER",
       "PRENOM_PERSONNE": "Cyrille",
@@ -6104,12 +6077,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "112",
+      "RANG_NAT": "118",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 21,
-      "RANG": 21,
+      "Rang_ligue": 20,
+      "RANG": 20,
       "NO_LICENCE": "0639741W",
       "NOM_PERSONNE": "AUBE",
       "PRENOM_PERSONNE": "Emmanuel",
@@ -6131,7 +6104,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "113",
+      "RANG_NAT": "119",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
@@ -6158,7 +6131,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "2",
+      "RANG_NAT": "3",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2027"
     },
     {
@@ -6185,7 +6158,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "6",
+      "RANG_NAT": "7",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2027"
     },
     {
@@ -6212,7 +6185,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "7",
+      "RANG_NAT": "8",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2027"
     },
     {
@@ -6239,7 +6212,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "8",
+      "RANG_NAT": "9",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2027"
     },
     {
@@ -6266,7 +6239,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "23",
+      "RANG_NAT": "26",
       "_classement_nom": "Senior 2 Femme Arc à Poulies 2027"
     },
     {
@@ -6326,6 +6299,60 @@
     {
       "Rang_ligue": 3,
       "RANG": 3,
+      "NO_LICENCE": "0863592M",
+      "NOM_PERSONNE": "LOIRAT",
+      "PRENOM_PERSONNE": "Thierry",
+      "SEXE": "H",
+      "ARME": "P",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "LES ARCHERS PORNICAIS",
+      "NOM_ABREGE": "PORNIC",
+      "CODE_STRUCTURE": "1244046",
+      "DEPARTEMENT": "44",
+      "SCORE1": "368",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "368",
+      "DISCIPLINE": "C",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "6",
+      "_classement_nom": "Senior 3 Homme Arc à Poulies 2027"
+    },
+    {
+      "Rang_ligue": 4,
+      "RANG": 4,
+      "NO_LICENCE": "0676889Z",
+      "NOM_PERSONNE": "GUYON",
+      "PRENOM_PERSONNE": "Dominique",
+      "SEXE": "H",
+      "ARME": "P",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "ASSO NOUVELLE DES ARCHERS DE LA NATURE - LE MANS",
+      "NOM_ABREGE": "LE MANS NATURE",
+      "CODE_STRUCTURE": "1272103",
+      "DEPARTEMENT": "72",
+      "SCORE1": "365",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "365",
+      "DISCIPLINE": "C",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "8",
+      "_classement_nom": "Senior 3 Homme Arc à Poulies 2027"
+    },
+    {
+      "Rang_ligue": 5,
+      "RANG": 5,
       "NO_LICENCE": "0083238B",
       "NOM_PERSONNE": "PICOT",
       "PRENOM_PERSONNE": "Rene",
@@ -6347,12 +6374,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "7",
+      "RANG_NAT": "9",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 4,
-      "RANG": 4,
+      "Rang_ligue": 6,
+      "RANG": 6,
       "NO_LICENCE": "0806905W",
       "NOM_PERSONNE": "GRISON",
       "PRENOM_PERSONNE": "Didier",
@@ -6374,12 +6401,39 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "15",
+      "RANG_NAT": "18",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 5,
-      "RANG": 5,
+      "Rang_ligue": 7,
+      "RANG": 7,
+      "NO_LICENCE": "0099446U",
+      "NOM_PERSONNE": "SEGRETAIN",
+      "PRENOM_PERSONNE": "Fabien",
+      "SEXE": "H",
+      "ARME": "P",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "CIE ST GEORGES DE LAVAL",
+      "NOM_ABREGE": "LAVAL",
+      "CODE_STRUCTURE": "1253075",
+      "DEPARTEMENT": "53",
+      "SCORE1": "337",
+      "SCORE2": "328",
+      "SCORE3": "0",
+      "MOY_SCORE": "332",
+      "DISCIPLINE": "C",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "25",
+      "_classement_nom": "Senior 3 Homme Arc à Poulies 2027"
+    },
+    {
+      "Rang_ligue": 8,
+      "RANG": 8,
       "NO_LICENCE": "0351343V",
       "NOM_PERSONNE": "ROBET",
       "PRENOM_PERSONNE": "Christophe",
@@ -6401,39 +6455,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "23",
+      "RANG_NAT": "27",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 6,
-      "RANG": 6,
-      "NO_LICENCE": "0099446U",
-      "NOM_PERSONNE": "SEGRETAIN",
-      "PRENOM_PERSONNE": "Fabien",
-      "SEXE": "H",
-      "ARME": "P",
-      "CAT": "S3",
-      "CATEGORIE": "S3",
-      "NOM_STRUCTURE": "CIE ST GEORGES DE LAVAL",
-      "NOM_ABREGE": "LAVAL",
-      "CODE_STRUCTURE": "1253075",
-      "DEPARTEMENT": "53",
-      "SCORE1": "328",
-      "SCORE2": "0",
-      "SCORE3": "0",
-      "MOY_SCORE": "328",
-      "DISCIPLINE": "C",
-      "DISTANCE": "",
-      "BLASON": "",
-      "TAE_TYPE": "",
-      "CAT_TIR": "",
-      "CAT_CLASS": "",
-      "RANG_NAT": "24",
-      "_classement_nom": "Senior 3 Homme Arc à Poulies 2027"
-    },
-    {
-      "Rang_ligue": 7,
-      "RANG": 7,
+      "Rang_ligue": 9,
+      "RANG": 9,
       "NO_LICENCE": "0008516G",
       "NOM_PERSONNE": "BRIER",
       "PRENOM_PERSONNE": "Philippe",
@@ -6455,12 +6482,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "25",
+      "RANG_NAT": "30",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 8,
-      "RANG": 8,
+      "Rang_ligue": 10,
+      "RANG": 10,
       "NO_LICENCE": "0214425W",
       "NOM_PERSONNE": "NICOLAS",
       "PRENOM_PERSONNE": "Philippe",
@@ -6482,12 +6509,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "29",
+      "RANG_NAT": "33",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 9,
-      "RANG": 9,
+      "Rang_ligue": 11,
+      "RANG": 11,
       "NO_LICENCE": "0332503S",
       "NOM_PERSONNE": "GAUTHIER-HATET",
       "PRENOM_PERSONNE": "Patrick",
@@ -6509,12 +6536,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "31",
+      "RANG_NAT": "35",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 10,
-      "RANG": 10,
+      "Rang_ligue": 12,
+      "RANG": 12,
       "NO_LICENCE": "0236416Z",
       "NOM_PERSONNE": "LAUNAY",
       "PRENOM_PERSONNE": "Thierry",
@@ -6536,12 +6563,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "34",
+      "RANG_NAT": "38",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 11,
-      "RANG": 11,
+      "Rang_ligue": 13,
+      "RANG": 13,
       "NO_LICENCE": "0809577A",
       "NOM_PERSONNE": "LECAS",
       "PRENOM_PERSONNE": "Gilles",
@@ -6563,12 +6590,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "46",
+      "RANG_NAT": "50",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 12,
-      "RANG": 12,
+      "Rang_ligue": 14,
+      "RANG": 14,
       "NO_LICENCE": "1052046A",
       "NOM_PERSONNE": "MARIANO",
       "PRENOM_PERSONNE": "Pierre",
@@ -6590,12 +6617,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "50",
+      "RANG_NAT": "54",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2027"
     },
     {
-      "Rang_ligue": 13,
-      "RANG": 13,
+      "Rang_ligue": 15,
+      "RANG": 15,
       "NO_LICENCE": "0956175W",
       "NOM_PERSONNE": "BURAY",
       "PRENOM_PERSONNE": "Daniel",
@@ -6617,7 +6644,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "51",
+      "RANG_NAT": "55",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2027"
     }
   ]
