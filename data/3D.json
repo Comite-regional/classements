@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-07T08:26:34.511464Z",
+    "generated_at": "2026-10-08T08:42:04.536689Z",
     "saison": "2027",
     "ligue": "CR12"
   },
@@ -83,7 +83,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "3",
+      "RANG_NAT": "4",
       "_classement_nom": "U18 Homme Arc Nu 2027"
     },
     {
@@ -110,7 +110,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "8",
+      "RANG_NAT": "9",
       "_classement_nom": "U18 Homme Arc Nu 2027"
     },
     {
@@ -137,7 +137,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "16",
+      "RANG_NAT": "18",
       "_classement_nom": "U18 Homme Arc Nu 2027"
     },
     {
@@ -245,7 +245,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "3",
+      "RANG_NAT": "4",
       "_classement_nom": "U18-U21 Homme Arc Nu 2027"
     },
     {
@@ -272,7 +272,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "4",
+      "RANG_NAT": "5",
       "_classement_nom": "U18-U21 Homme Arc Nu 2027"
     },
     {
@@ -299,7 +299,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "11",
+      "RANG_NAT": "12",
       "_classement_nom": "U18-U21 Homme Arc Nu 2027"
     },
     {
@@ -326,7 +326,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "22",
+      "RANG_NAT": "24",
       "_classement_nom": "U18-U21 Homme Arc Nu 2027"
     },
     {
@@ -461,7 +461,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "24",
+      "RANG_NAT": "26",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -542,7 +542,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "52",
+      "RANG_NAT": "55",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -569,7 +569,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "62",
+      "RANG_NAT": "65",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -596,7 +596,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "68",
+      "RANG_NAT": "71",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -623,7 +623,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "69",
+      "RANG_NAT": "72",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -650,7 +650,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "70",
+      "RANG_NAT": "73",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -677,7 +677,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "73",
+      "RANG_NAT": "76",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -704,7 +704,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "77",
+      "RANG_NAT": "80",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -731,7 +731,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "129",
+      "RANG_NAT": "134",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -758,7 +758,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "136",
+      "RANG_NAT": "143",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -785,7 +785,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "143",
+      "RANG_NAT": "151",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -812,7 +812,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "150",
+      "RANG_NAT": "158",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -839,7 +839,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "159",
+      "RANG_NAT": "168",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -866,7 +866,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "174",
+      "RANG_NAT": "183",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -893,7 +893,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "181",
+      "RANG_NAT": "190",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -920,7 +920,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "186",
+      "RANG_NAT": "195",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -947,7 +947,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "194",
+      "RANG_NAT": "203",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -974,7 +974,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "203",
+      "RANG_NAT": "213",
       "_classement_nom": "Scratch Homme Bare Bow 2027"
     },
     {
@@ -1055,7 +1055,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "5",
+      "RANG_NAT": "4",
       "_classement_nom": "U18 Femme Arc Nu 2027"
     },
     {
@@ -1163,7 +1163,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "32",
+      "RANG_NAT": "34",
       "_classement_nom": "Scratch Femme Bare Bow 2027"
     },
     {
@@ -1190,7 +1190,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "34",
+      "RANG_NAT": "36",
       "_classement_nom": "Scratch Femme Bare Bow 2027"
     },
     {
@@ -1217,7 +1217,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "35",
+      "RANG_NAT": "37",
       "_classement_nom": "Scratch Femme Bare Bow 2027"
     },
     {
@@ -1244,7 +1244,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "60",
+      "RANG_NAT": "63",
       "_classement_nom": "Scratch Femme Bare Bow 2027"
     },
     {
@@ -1271,7 +1271,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "105",
+      "RANG_NAT": "112",
       "_classement_nom": "Scratch Femme Bare Bow 2027"
     },
     {
@@ -1298,7 +1298,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "107",
+      "RANG_NAT": "114",
       "_classement_nom": "Scratch Femme Bare Bow 2027"
     },
     {
@@ -1325,7 +1325,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "110",
+      "RANG_NAT": "117",
       "_classement_nom": "Scratch Femme Bare Bow 2027"
     },
     {
@@ -1352,7 +1352,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "114",
+      "RANG_NAT": "121",
       "_classement_nom": "Scratch Femme Bare Bow 2027"
     },
     {
@@ -1730,7 +1730,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "60",
+      "RANG_NAT": "61",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -1757,7 +1757,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "74",
+      "RANG_NAT": "75",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -1784,7 +1784,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "76",
+      "RANG_NAT": "77",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -1811,7 +1811,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "79",
+      "RANG_NAT": "80",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -1838,7 +1838,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "82",
+      "RANG_NAT": "83",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -2000,7 +2000,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "28",
+      "RANG_NAT": "29",
       "_classement_nom": "Scratch Homme Arc Droit 2027"
     },
     {
@@ -2027,7 +2027,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "40",
+      "RANG_NAT": "41",
       "_classement_nom": "Scratch Homme Arc Droit 2027"
     },
     {
@@ -2054,7 +2054,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "55",
+      "RANG_NAT": "56",
       "_classement_nom": "Scratch Homme Arc Droit 2027"
     },
     {
@@ -2081,7 +2081,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "60",
+      "RANG_NAT": "61",
       "_classement_nom": "Scratch Homme Arc Droit 2027"
     },
     {
@@ -2189,7 +2189,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "95",
+      "RANG_NAT": "96",
       "_classement_nom": "Scratch Homme Arc Droit 2027"
     },
     {
@@ -2216,7 +2216,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "96",
+      "RANG_NAT": "97",
       "_classement_nom": "Scratch Homme Arc Droit 2027"
     },
     {
@@ -2243,7 +2243,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "98",
+      "RANG_NAT": "99",
       "_classement_nom": "Scratch Homme Arc Droit 2027"
     },
     {
@@ -2270,7 +2270,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "109",
+      "RANG_NAT": "111",
       "_classement_nom": "Scratch Homme Arc Droit 2027"
     },
     {
@@ -2297,7 +2297,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "116",
+      "RANG_NAT": "117",
       "_classement_nom": "Scratch Homme Arc Droit 2027"
     },
     {
@@ -2324,7 +2324,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "118",
+      "RANG_NAT": "120",
       "_classement_nom": "Scratch Homme Arc Droit 2027"
     },
     {
@@ -2351,7 +2351,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "122",
+      "RANG_NAT": "125",
       "_classement_nom": "Scratch Homme Arc Droit 2027"
     },
     {
@@ -2378,7 +2378,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "130",
+      "RANG_NAT": "134",
       "_classement_nom": "Scratch Homme Arc Droit 2027"
     },
     {
@@ -2405,7 +2405,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "132",
+      "RANG_NAT": "136",
       "_classement_nom": "Scratch Homme Arc Droit 2027"
     },
     {
@@ -2432,7 +2432,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "133",
+      "RANG_NAT": "138",
       "_classement_nom": "Scratch Homme Arc Droit 2027"
     },
     {
@@ -2486,7 +2486,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "47",
+      "RANG_NAT": "49",
       "_classement_nom": "Scratch Femme Arc Droit 2027"
     },
     {
@@ -3161,7 +3161,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "32",
+      "RANG_NAT": "33",
       "_classement_nom": "Scratch Homme Arc Chasse 2027"
     },
     {
@@ -3188,7 +3188,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "35",
+      "RANG_NAT": "36",
       "_classement_nom": "Scratch Homme Arc Chasse 2027"
     },
     {
@@ -3215,7 +3215,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "60",
+      "RANG_NAT": "63",
       "_classement_nom": "Scratch Homme Arc Chasse 2027"
     },
     {
@@ -3242,7 +3242,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "64",
+      "RANG_NAT": "67",
       "_classement_nom": "Scratch Homme Arc Chasse 2027"
     },
     {
@@ -3269,7 +3269,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "65",
+      "RANG_NAT": "68",
       "_classement_nom": "Scratch Homme Arc Chasse 2027"
     },
     {
@@ -3296,7 +3296,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "66",
+      "RANG_NAT": "69",
       "_classement_nom": "Scratch Homme Arc Chasse 2027"
     },
     {
@@ -3323,7 +3323,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "77",
+      "RANG_NAT": "80",
       "_classement_nom": "Scratch Homme Arc Chasse 2027"
     },
     {
@@ -3350,7 +3350,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "80",
+      "RANG_NAT": "83",
       "_classement_nom": "Scratch Homme Arc Chasse 2027"
     },
     {
@@ -3377,7 +3377,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "92",
+      "RANG_NAT": "96",
       "_classement_nom": "Scratch Homme Arc Chasse 2027"
     },
     {
@@ -3404,7 +3404,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "101",
+      "RANG_NAT": "105",
       "_classement_nom": "Scratch Homme Arc Chasse 2027"
     },
     {
@@ -3431,7 +3431,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "115",
+      "RANG_NAT": "119",
       "_classement_nom": "Scratch Homme Arc Chasse 2027"
     },
     {
@@ -3458,7 +3458,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "121",
+      "RANG_NAT": "125",
       "_classement_nom": "Scratch Homme Arc Chasse 2027"
     },
     {
@@ -3485,7 +3485,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "127",
+      "RANG_NAT": "131",
       "_classement_nom": "Scratch Homme Arc Chasse 2027"
     },
     {
@@ -3512,7 +3512,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "129",
+      "RANG_NAT": "134",
       "_classement_nom": "Scratch Homme Arc Chasse 2027"
     },
     {
@@ -3539,7 +3539,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "137",
+      "RANG_NAT": "144",
       "_classement_nom": "Scratch Homme Arc Chasse 2027"
     },
     {
@@ -3566,7 +3566,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "150",
+      "RANG_NAT": "158",
       "_classement_nom": "Scratch Homme Arc Chasse 2027"
     },
     {
@@ -3593,7 +3593,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "152",
+      "RANG_NAT": "162",
       "_classement_nom": "Scratch Homme Arc Chasse 2027"
     },
     {
@@ -3620,7 +3620,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "157",
+      "RANG_NAT": "168",
       "_classement_nom": "Scratch Homme Arc Chasse 2027"
     },
     {
@@ -3647,7 +3647,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "161",
+      "RANG_NAT": "172",
       "_classement_nom": "Scratch Homme Arc Chasse 2027"
     },
     {
@@ -3674,7 +3674,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "169",
+      "RANG_NAT": "179",
       "_classement_nom": "Scratch Homme Arc Chasse 2027"
     },
     {
@@ -3701,7 +3701,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "170",
+      "RANG_NAT": "180",
       "_classement_nom": "Scratch Homme Arc Chasse 2027"
     },
     {
@@ -3836,7 +3836,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "45",
+      "RANG_NAT": "46",
       "_classement_nom": "Scratch Femme Arc Chasse 2027"
     },
     {
@@ -3863,7 +3863,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "57",
+      "RANG_NAT": "58",
       "_classement_nom": "Scratch Femme Arc Chasse 2027"
     },
     {
@@ -3890,7 +3890,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "58",
+      "RANG_NAT": "59",
       "_classement_nom": "Scratch Femme Arc Chasse 2027"
     },
     {
@@ -3917,7 +3917,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "60",
+      "RANG_NAT": "61",
       "_classement_nom": "Scratch Femme Arc Chasse 2027"
     },
     {
@@ -4808,7 +4808,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "24",
+      "RANG_NAT": "25",
       "_classement_nom": "Scratch Homme Arc Libre 2027"
     },
     {
@@ -4835,12 +4835,39 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "25",
+      "RANG_NAT": "26",
       "_classement_nom": "Scratch Homme Arc Libre 2027"
     },
     {
       "Rang_ligue": 8,
       "RANG": 8,
+      "NO_LICENCE": "1011036S",
+      "NOM_PERSONNE": "PERRET",
+      "PRENOM_PERSONNE": "Josselin",
+      "SEXE": "H",
+      "ARME": "L",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "CIE ARCHERS BOIS DES VALLEES",
+      "NOM_ABREGE": "BOULOIRE",
+      "CODE_STRUCTURE": "1272093",
+      "DEPARTEMENT": "72",
+      "SCORE1": "453",
+      "SCORE2": "450",
+      "SCORE3": "0",
+      "MOY_SCORE": "451",
+      "DISCIPLINE": "3",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "36",
+      "_classement_nom": "Scratch Homme Arc Libre 2027"
+    },
+    {
+      "Rang_ligue": 9,
+      "RANG": 9,
       "NO_LICENCE": "0715262J",
       "NOM_PERSONNE": "MICHON",
       "PRENOM_PERSONNE": "Jean-paul",
@@ -4862,12 +4889,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "47",
+      "RANG_NAT": "48",
       "_classement_nom": "Scratch Homme Arc Libre 2027"
     },
     {
-      "Rang_ligue": 9,
-      "RANG": 9,
+      "Rang_ligue": 10,
+      "RANG": 10,
       "NO_LICENCE": "0236416Z",
       "NOM_PERSONNE": "LAUNAY",
       "PRENOM_PERSONNE": "Thierry",
@@ -4889,12 +4916,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "66",
+      "RANG_NAT": "68",
       "_classement_nom": "Scratch Homme Arc Libre 2027"
     },
     {
-      "Rang_ligue": 10,
-      "RANG": 10,
+      "Rang_ligue": 11,
+      "RANG": 11,
       "NO_LICENCE": "0083238B",
       "NOM_PERSONNE": "PICOT",
       "PRENOM_PERSONNE": "Rene",
@@ -4916,12 +4943,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "71",
+      "RANG_NAT": "75",
       "_classement_nom": "Scratch Homme Arc Libre 2027"
     },
     {
-      "Rang_ligue": 11,
-      "RANG": 11,
+      "Rang_ligue": 12,
+      "RANG": 12,
       "NO_LICENCE": "0718218X",
       "NOM_PERSONNE": "BLANDIN",
       "PRENOM_PERSONNE": "Benoit",
@@ -4943,12 +4970,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "104",
+      "RANG_NAT": "106",
       "_classement_nom": "Scratch Homme Arc Libre 2027"
     },
     {
-      "Rang_ligue": 12,
-      "RANG": 12,
+      "Rang_ligue": 13,
+      "RANG": 13,
       "NO_LICENCE": "0959117U",
       "NOM_PERSONNE": "GAZEAU",
       "PRENOM_PERSONNE": "Teddy",
@@ -4970,12 +4997,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "111",
+      "RANG_NAT": "114",
       "_classement_nom": "Scratch Homme Arc Libre 2027"
     },
     {
-      "Rang_ligue": 13,
-      "RANG": 13,
+      "Rang_ligue": 14,
+      "RANG": 14,
       "NO_LICENCE": "0469727Y",
       "NOM_PERSONNE": "TREMBLIN",
       "PRENOM_PERSONNE": "Olivier",
@@ -4997,12 +5024,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "112",
+      "RANG_NAT": "115",
       "_classement_nom": "Scratch Homme Arc Libre 2027"
     },
     {
-      "Rang_ligue": 14,
-      "RANG": 14,
+      "Rang_ligue": 15,
+      "RANG": 15,
       "NO_LICENCE": "0914167K",
       "NOM_PERSONNE": "MOREAU DESCHENNES",
       "PRENOM_PERSONNE": "Baptiste",
@@ -5024,12 +5051,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "121",
+      "RANG_NAT": "124",
       "_classement_nom": "Scratch Homme Arc Libre 2027"
     },
     {
-      "Rang_ligue": 15,
-      "RANG": 15,
+      "Rang_ligue": 16,
+      "RANG": 16,
       "NO_LICENCE": "0332503S",
       "NOM_PERSONNE": "GAUTHIER-HATET",
       "PRENOM_PERSONNE": "Patrick",
@@ -5051,12 +5078,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "135",
+      "RANG_NAT": "138",
       "_classement_nom": "Scratch Homme Arc Libre 2027"
     },
     {
-      "Rang_ligue": 16,
-      "RANG": 16,
+      "Rang_ligue": 17,
+      "RANG": 17,
       "NO_LICENCE": "0933287T",
       "NOM_PERSONNE": "CHAUVEAU",
       "PRENOM_PERSONNE": "Gustave",
@@ -5078,12 +5105,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "136",
+      "RANG_NAT": "139",
       "_classement_nom": "Scratch Homme Arc Libre 2027"
     },
     {
-      "Rang_ligue": 17,
-      "RANG": 17,
+      "Rang_ligue": 18,
+      "RANG": 18,
       "NO_LICENCE": "0448921H",
       "NOM_PERSONNE": "RICHOU",
       "PRENOM_PERSONNE": "Bernard",
@@ -5105,12 +5132,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "140",
+      "RANG_NAT": "143",
       "_classement_nom": "Scratch Homme Arc Libre 2027"
     },
     {
-      "Rang_ligue": 18,
-      "RANG": 18,
+      "Rang_ligue": 19,
+      "RANG": 19,
       "NO_LICENCE": "0430101B",
       "NOM_PERSONNE": "DEBRY",
       "PRENOM_PERSONNE": "Sylvain",
@@ -5132,12 +5159,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "143",
+      "RANG_NAT": "146",
       "_classement_nom": "Scratch Homme Arc Libre 2027"
     },
     {
-      "Rang_ligue": 19,
-      "RANG": 19,
+      "Rang_ligue": 20,
+      "RANG": 20,
       "NO_LICENCE": "0598597Z",
       "NOM_PERSONNE": "PRIOUX",
       "PRENOM_PERSONNE": "Jean luc",
@@ -5159,12 +5186,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "153",
+      "RANG_NAT": "156",
       "_classement_nom": "Scratch Homme Arc Libre 2027"
     },
     {
-      "Rang_ligue": 20,
-      "RANG": 20,
+      "Rang_ligue": 21,
+      "RANG": 21,
       "NO_LICENCE": "1038090G",
       "NOM_PERSONNE": "RABALLAND",
       "PRENOM_PERSONNE": "Mathieu",
@@ -5186,12 +5213,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "155",
+      "RANG_NAT": "158",
       "_classement_nom": "Scratch Homme Arc Libre 2027"
     },
     {
-      "Rang_ligue": 21,
-      "RANG": 21,
+      "Rang_ligue": 22,
+      "RANG": 22,
       "NO_LICENCE": "1031467N",
       "NOM_PERSONNE": "POUPARD",
       "PRENOM_PERSONNE": "Vincent",
@@ -5213,12 +5240,12 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "157",
+      "RANG_NAT": "160",
       "_classement_nom": "Scratch Homme Arc Libre 2027"
     },
     {
-      "Rang_ligue": 22,
-      "RANG": 22,
+      "Rang_ligue": 23,
+      "RANG": 23,
       "NO_LICENCE": "0353931H",
       "NOM_PERSONNE": "HABERKORN",
       "PRENOM_PERSONNE": "Nicolas",
@@ -5240,7 +5267,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "159",
+      "RANG_NAT": "162",
       "_classement_nom": "Scratch Homme Arc Libre 2027"
     },
     {
@@ -5375,7 +5402,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "31",
+      "RANG_NAT": "32",
       "_classement_nom": "Scratch Femme Arc Libre 2027"
     },
     {
@@ -5678,6 +5705,33 @@
     {
       "Rang_ligue": 6,
       "RANG": 6,
+      "NO_LICENCE": "1011036S",
+      "NOM_PERSONNE": "PERRET",
+      "PRENOM_PERSONNE": "Josselin",
+      "SEXE": "H",
+      "ARME": "L",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "CIE ARCHERS BOIS DES VALLEES",
+      "NOM_ABREGE": "BOULOIRE",
+      "CODE_STRUCTURE": "1272093",
+      "DEPARTEMENT": "72",
+      "SCORE1": "453",
+      "SCORE2": "450",
+      "SCORE3": "0",
+      "MOY_SCORE": "451",
+      "DISCIPLINE": "3",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "23",
+      "_classement_nom": "Senior 2 Homme Arc Libre 2027"
+    },
+    {
+      "Rang_ligue": 7,
+      "RANG": 7,
       "NO_LICENCE": "0715262J",
       "NOM_PERSONNE": "MICHON",
       "PRENOM_PERSONNE": "Jean-paul",
@@ -5703,8 +5757,8 @@
       "_classement_nom": "Senior 2 Homme Arc Libre 2027"
     },
     {
-      "Rang_ligue": 7,
-      "RANG": 7,
+      "Rang_ligue": 8,
+      "RANG": 8,
       "NO_LICENCE": "0959117U",
       "NOM_PERSONNE": "GAZEAU",
       "PRENOM_PERSONNE": "Teddy",
@@ -5730,8 +5784,8 @@
       "_classement_nom": "Senior 2 Homme Arc Libre 2027"
     },
     {
-      "Rang_ligue": 8,
-      "RANG": 8,
+      "Rang_ligue": 9,
+      "RANG": 9,
       "NO_LICENCE": "0430101B",
       "NOM_PERSONNE": "DEBRY",
       "PRENOM_PERSONNE": "Sylvain",
@@ -5757,8 +5811,8 @@
       "_classement_nom": "Senior 2 Homme Arc Libre 2027"
     },
     {
-      "Rang_ligue": 9,
-      "RANG": 9,
+      "Rang_ligue": 10,
+      "RANG": 10,
       "NO_LICENCE": "1038090G",
       "NOM_PERSONNE": "RABALLAND",
       "PRENOM_PERSONNE": "Mathieu",
@@ -5784,8 +5838,8 @@
       "_classement_nom": "Senior 2 Homme Arc Libre 2027"
     },
     {
-      "Rang_ligue": 10,
-      "RANG": 10,
+      "Rang_ligue": 11,
+      "RANG": 11,
       "NO_LICENCE": "1031467N",
       "NOM_PERSONNE": "POUPARD",
       "PRENOM_PERSONNE": "Vincent",
@@ -5811,8 +5865,8 @@
       "_classement_nom": "Senior 2 Homme Arc Libre 2027"
     },
     {
-      "Rang_ligue": 11,
-      "RANG": 11,
+      "Rang_ligue": 12,
+      "RANG": 12,
       "NO_LICENCE": "0353931H",
       "NOM_PERSONNE": "HABERKORN",
       "PRENOM_PERSONNE": "Nicolas",

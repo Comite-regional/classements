@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-07T08:26:34.511464Z",
+    "generated_at": "2026-10-08T08:42:04.536689Z",
     "saison": "2027",
     "ligue": "CR12"
   },
@@ -543,6 +543,33 @@
       "CAT_TIR": "",
       "CAT_CLASS": "",
       "RANG_NAT": "12",
+      "_classement_nom": "Senior 2 Homme Arc Libre 2027"
+    },
+    {
+      "Rang_ligue": 5,
+      "RANG": 5,
+      "NO_LICENCE": "1011036S",
+      "NOM_PERSONNE": "PERRET",
+      "PRENOM_PERSONNE": "Josselin",
+      "SEXE": "H",
+      "ARME": "L",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "CIE ARCHERS BOIS DES VALLEES",
+      "NOM_ABREGE": "BOULOIRE",
+      "CODE_STRUCTURE": "1272093",
+      "DEPARTEMENT": "72",
+      "SCORE1": "690",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "690",
+      "DISCIPLINE": "N",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "24",
       "_classement_nom": "Senior 2 Homme Arc Libre 2027"
     },
     {
