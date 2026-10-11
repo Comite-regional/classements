@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-10T08:18:31.841408Z",
+    "generated_at": "2026-10-11T08:35:39.379856Z",
     "saison": "2027",
     "ligue": "CR12"
   },
@@ -29,7 +29,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "16",
+      "RANG_NAT": "17",
       "_classement_nom": "Senior 1 Homme Arc Nu 2027"
     },
     {
@@ -56,7 +56,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "18",
+      "RANG_NAT": "23",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -83,7 +83,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "67",
+      "RANG_NAT": "74",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -110,7 +110,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "3",
+      "RANG_NAT": "4",
       "_classement_nom": "Senior 1 Homme Arc Droit 2027"
     },
     {
@@ -137,7 +137,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "19",
+      "RANG_NAT": "25",
       "_classement_nom": "Senior 3 Homme Arc Droit 2027"
     },
     {
@@ -164,7 +164,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "61",
+      "RANG_NAT": "69",
       "_classement_nom": "Senior 3 Homme Arc Droit 2027"
     },
     {
@@ -191,7 +191,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "103",
+      "RANG_NAT": "113",
       "_classement_nom": "Senior 3 Homme Arc Droit 2027"
     },
     {
@@ -326,7 +326,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "22",
+      "RANG_NAT": "23",
       "_classement_nom": "Senior 3 Homme Arc Chasse 2027"
     },
     {
@@ -353,7 +353,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "41",
+      "RANG_NAT": "43",
       "_classement_nom": "Senior 3 Homme Arc Chasse 2027"
     },
     {
@@ -380,7 +380,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "76",
+      "RANG_NAT": "80",
       "_classement_nom": "Senior 3 Homme Arc Chasse 2027"
     },
     {
@@ -542,7 +542,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "12",
+      "RANG_NAT": "13",
       "_classement_nom": "Senior 2 Homme Arc Libre 2027"
     },
     {
@@ -650,7 +650,34 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "14",
+      "RANG_NAT": "15",
+      "_classement_nom": "Senior 3 Homme Arc Libre 2027"
+    },
+    {
+      "Rang_ligue": 3,
+      "RANG": 3,
+      "NO_LICENCE": "0417988K",
+      "NOM_PERSONNE": "VIDOT",
+      "PRENOM_PERSONNE": "Bertrand",
+      "SEXE": "H",
+      "ARME": "L",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "ARCHERS D'ORVAULT",
+      "NOM_ABREGE": "ORVAULT",
+      "CODE_STRUCTURE": "1244042",
+      "DEPARTEMENT": "44",
+      "SCORE1": "670",
+      "SCORE2": "655",
+      "SCORE3": "0",
+      "MOY_SCORE": "662",
+      "DISCIPLINE": "N",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "20",
       "_classement_nom": "Senior 3 Homme Arc Libre 2027"
     }
   ]
