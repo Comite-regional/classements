@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-11T08:35:39.379856Z",
+    "generated_at": "2026-10-12T08:56:47.741102Z",
     "saison": "2027",
     "ligue": "CR12"
   },
@@ -29,7 +29,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "17",
+      "RANG_NAT": "20",
       "_classement_nom": "Senior 1 Homme Arc Nu 2027"
     },
     {
@@ -56,7 +56,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "23",
+      "RANG_NAT": "25",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -83,7 +83,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "74",
+      "RANG_NAT": "80",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -110,7 +110,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "4",
+      "RANG_NAT": "5",
       "_classement_nom": "Senior 1 Homme Arc Droit 2027"
     },
     {
@@ -137,7 +137,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "25",
+      "RANG_NAT": "30",
       "_classement_nom": "Senior 3 Homme Arc Droit 2027"
     },
     {
@@ -164,7 +164,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "69",
+      "RANG_NAT": "76",
       "_classement_nom": "Senior 3 Homme Arc Droit 2027"
     },
     {
@@ -191,7 +191,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "113",
+      "RANG_NAT": "124",
       "_classement_nom": "Senior 3 Homme Arc Droit 2027"
     },
     {
@@ -353,7 +353,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "43",
+      "RANG_NAT": "49",
       "_classement_nom": "Senior 3 Homme Arc Chasse 2027"
     },
     {
@@ -380,7 +380,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "80",
+      "RANG_NAT": "92",
       "_classement_nom": "Senior 3 Homme Arc Chasse 2027"
     },
     {
@@ -488,7 +488,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "3",
+      "RANG_NAT": "4",
       "_classement_nom": "Senior 2 Homme Arc Libre 2027"
     },
     {
@@ -515,7 +515,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "7",
+      "RANG_NAT": "8",
       "_classement_nom": "Senior 2 Homme Arc Libre 2027"
     },
     {
@@ -542,7 +542,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "13",
+      "RANG_NAT": "16",
       "_classement_nom": "Senior 2 Homme Arc Libre 2027"
     },
     {
@@ -569,7 +569,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "24",
+      "RANG_NAT": "26",
       "_classement_nom": "Senior 2 Homme Arc Libre 2027"
     },
     {
@@ -597,6 +597,33 @@
       "CAT_TIR": "",
       "CAT_CLASS": "",
       "RANG_NAT": "14",
+      "_classement_nom": "Senior 2 Femme Arc Libre 2027"
+    },
+    {
+      "Rang_ligue": 2,
+      "RANG": 2,
+      "NO_LICENCE": "1070633X",
+      "NOM_PERSONNE": "BARRAUD",
+      "PRENOM_PERSONNE": "Céline",
+      "SEXE": "F",
+      "ARME": "L",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "ARCHERS DE LA CHOUANNERIE",
+      "NOM_ABREGE": "LES MAGNILS REIGNIERS",
+      "CODE_STRUCTURE": "1285130",
+      "DEPARTEMENT": "85",
+      "SCORE1": "110",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "110",
+      "DISCIPLINE": "N",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "",
+      "CAT_CLASS": "",
+      "RANG_NAT": "27",
       "_classement_nom": "Senior 2 Femme Arc Libre 2027"
     },
     {
@@ -650,7 +677,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "15",
+      "RANG_NAT": "17",
       "_classement_nom": "Senior 3 Homme Arc Libre 2027"
     },
     {
@@ -668,16 +695,16 @@
       "CODE_STRUCTURE": "1244042",
       "DEPARTEMENT": "44",
       "SCORE1": "670",
-      "SCORE2": "655",
-      "SCORE3": "0",
-      "MOY_SCORE": "662",
+      "SCORE2": "660",
+      "SCORE3": "655",
+      "MOY_SCORE": "661",
       "DISCIPLINE": "N",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "20",
+      "RANG_NAT": "21",
       "_classement_nom": "Senior 3 Homme Arc Libre 2027"
     }
   ]

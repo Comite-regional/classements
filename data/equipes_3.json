@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-10-11T08:35:39.379856Z",
+    "generated_at": "2026-10-12T08:56:47.741102Z",
     "saison": "2027",
     "ligue": "CR12"
   },
   "rows": [
     {
-      "RANG": "1",
+      "RANG": "2",
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -27,7 +27,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "14",
+      "RANG": "15",
       "RANG_LIGUE": "2",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -48,7 +48,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "22",
+      "RANG": "23",
       "RANG_LIGUE": "3",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -69,7 +69,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "26",
+      "RANG": "27",
       "RANG_LIGUE": "4",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -90,7 +90,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "28",
+      "RANG": "29",
       "RANG_LIGUE": "5",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -111,7 +111,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "32",
+      "RANG": "33",
       "RANG_LIGUE": "6",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -153,7 +153,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "24",
+      "RANG": "26",
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -174,7 +174,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "29",
+      "RANG": "30",
       "RANG_LIGUE": "2",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -195,7 +195,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "30",
+      "RANG": "31",
       "RANG_LIGUE": "3",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -216,8 +216,29 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "42",
+      "RANG": "33",
       "RANG_LIGUE": "4",
+      "DIVISION": "",
+      "PRE_INSCRIT": "",
+      "QUOTA": "",
+      "NOM_ABREGE": "MAYENNE",
+      "NOM_STRUCTURE": "LES CUPIDONS MAYENNAIS",
+      "SEXE_EQUIPE": "X",
+      "ARME_EQUIPE": "C",
+      "CATEGORIE_CLASSEMENT": "Double Mixte Arc Nu",
+      "CODE_STRUCTURE": "1253084",
+      "VILLE": "",
+      "DEPARTEMENT": "53",
+      "SCORE1": "590",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "590",
+      "_classement_nom": "Double Mixte Arc Nu",
+      "DISCIPLINE": "3"
+    },
+    {
+      "RANG": "44",
+      "RANG_LIGUE": "5",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -237,8 +258,8 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "49",
-      "RANG_LIGUE": "5",
+      "RANG": "51",
+      "RANG_LIGUE": "6",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -258,7 +279,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "22",
+      "RANG": "23",
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -279,7 +300,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "29",
+      "RANG": "31",
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -300,7 +321,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "33",
+      "RANG": "35",
       "RANG_LIGUE": "2",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -321,7 +342,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "34",
+      "RANG": "36",
       "RANG_LIGUE": "3",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -342,7 +363,7 @@
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "37",
+      "RANG": "39",
       "RANG_LIGUE": "4",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -398,14 +419,14 @@
       "VILLE": "",
       "DEPARTEMENT": "44",
       "SCORE1": "941",
-      "SCORE2": "0",
+      "SCORE2": "940",
       "SCORE3": "0",
-      "MOY_SCORE": "941",
+      "MOY_SCORE": "940",
       "_classement_nom": "Double Mixte Arc Libre",
       "DISCIPLINE": "3"
     },
     {
-      "RANG": "20",
+      "RANG": "23",
       "RANG_LIGUE": "3",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -422,6 +443,27 @@
       "SCORE2": "0",
       "SCORE3": "0",
       "MOY_SCORE": "355",
+      "_classement_nom": "Double Mixte Arc Libre",
+      "DISCIPLINE": "3"
+    },
+    {
+      "RANG": "24",
+      "RANG_LIGUE": "4",
+      "DIVISION": "",
+      "PRE_INSCRIT": "",
+      "QUOTA": "",
+      "NOM_ABREGE": "MAYENNE",
+      "NOM_STRUCTURE": "LES CUPIDONS MAYENNAIS",
+      "SEXE_EQUIPE": "X",
+      "ARME_EQUIPE": "L",
+      "CATEGORIE_CLASSEMENT": "Double Mixte Arc Libre",
+      "CODE_STRUCTURE": "1253084",
+      "VILLE": "",
+      "DEPARTEMENT": "53",
+      "SCORE1": "321",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "321",
       "_classement_nom": "Double Mixte Arc Libre",
       "DISCIPLINE": "3"
     }
