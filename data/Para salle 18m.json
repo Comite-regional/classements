@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-12T08:56:47.741102Z",
+    "generated_at": "2026-10-13T09:11:35.029677Z",
     "saison": "2027",
     "ligue": "CR12"
   },
@@ -29,12 +29,39 @@
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
       "CAT_CLASS": "ST",
-      "RANG_NAT": "1",
+      "RANG_NAT": "2",
       "_classement_nom": "OPEN Scratch Hommes Arc Classique 2027"
     },
     {
       "Rang_ligue": 2,
       "RANG": 2,
+      "NO_LICENCE": "1020500S",
+      "NOM_PERSONNE": "YVON",
+      "PRENOM_PERSONNE": "Frédéric",
+      "SEXE": "H",
+      "ARME": "C",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "AMICALE DU BEIGNON BASSET",
+      "NOM_ABREGE": "BEIGNON BASSET",
+      "CODE_STRUCTURE": "1285131",
+      "DEPARTEMENT": "85",
+      "SCORE1": "402",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "402",
+      "DISCIPLINE": "I",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "OPEN",
+      "CAT_CLASS": "",
+      "RANG_NAT": "3",
+      "_classement_nom": "OPEN Scratch Hommes Arc Classique 2027"
+    },
+    {
+      "Rang_ligue": 3,
+      "RANG": 3,
       "NO_LICENCE": "0270003G",
       "NOM_PERSONNE": "PEREZ",
       "PRENOM_PERSONNE": "Alain",
@@ -56,7 +83,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
       "CAT_CLASS": "ST",
-      "RANG_NAT": "2",
+      "RANG_NAT": "4",
       "_classement_nom": "OPEN Scratch Hommes Arc Classique 2027"
     },
     {
@@ -110,7 +137,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
       "CAT_CLASS": "W2",
-      "RANG_NAT": "1",
+      "RANG_NAT": "2",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2027"
     },
     {
@@ -137,7 +164,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
       "CAT_CLASS": "ST",
-      "RANG_NAT": "2",
+      "RANG_NAT": "3",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2027"
     },
     {
@@ -164,7 +191,34 @@
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
       "CAT_CLASS": "ST",
-      "RANG_NAT": "3",
+      "RANG_NAT": "4",
+      "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2027"
+    },
+    {
+      "Rang_ligue": 4,
+      "RANG": 4,
+      "NO_LICENCE": "0804481L",
+      "NOM_PERSONNE": "WILLEKENS",
+      "PRENOM_PERSONNE": "Frederic",
+      "SEXE": "H",
+      "ARME": "P",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "SOCIÉTÉ DE TIR À L'ARC LA CHÂTAIGNERAIE",
+      "NOM_ABREGE": "STAC",
+      "CODE_STRUCTURE": "1285142",
+      "DEPARTEMENT": "85",
+      "SCORE1": "543",
+      "SCORE2": "0",
+      "SCORE3": "0",
+      "MOY_SCORE": "543",
+      "DISCIPLINE": "I",
+      "DISTANCE": "",
+      "BLASON": "",
+      "TAE_TYPE": "",
+      "CAT_TIR": "OPEN",
+      "CAT_CLASS": "ST",
+      "RANG_NAT": "5",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2027"
     }
   ]
