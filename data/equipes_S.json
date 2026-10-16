@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-10-15T07:13:14.764981Z",
+    "generated_at": "2026-10-16T06:56:22.998285Z",
     "saison": "2027",
     "ligue": "CR12"
   },
   "rows": [
     {
-      "RANG": "6",
+      "RANG": "5",
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -27,7 +27,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "11",
+      "RANG": "9",
       "RANG_LIGUE": "2",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -48,7 +48,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "20",
+      "RANG": "18",
       "RANG_LIGUE": "3",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -69,7 +69,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "26",
+      "RANG": "24",
       "RANG_LIGUE": "4",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -90,7 +90,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "27",
+      "RANG": "25",
       "RANG_LIGUE": "5",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -111,7 +111,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "42",
+      "RANG": "40",
       "RANG_LIGUE": "6",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -132,7 +132,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "45",
+      "RANG": "44",
       "RANG_LIGUE": "7",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -153,7 +153,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "49",
+      "RANG": "48",
       "RANG_LIGUE": "8",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -174,7 +174,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "55",
+      "RANG": "54",
       "RANG_LIGUE": "9",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -195,7 +195,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "64",
+      "RANG": "63",
       "RANG_LIGUE": "10",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -216,7 +216,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "80",
+      "RANG": "79",
       "RANG_LIGUE": "11",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -237,7 +237,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "85",
+      "RANG": "84",
       "RANG_LIGUE": "12",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -258,7 +258,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "86",
+      "RANG": "85",
       "RANG_LIGUE": "13",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -279,7 +279,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "90",
+      "RANG": "89",
       "RANG_LIGUE": "14",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -300,7 +300,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "92",
+      "RANG": "91",
       "RANG_LIGUE": "15",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -321,7 +321,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "95",
+      "RANG": "94",
       "RANG_LIGUE": "16",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -342,7 +342,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "108",
+      "RANG": "107",
       "RANG_LIGUE": "17",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -363,7 +363,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "112",
+      "RANG": "111",
       "RANG_LIGUE": "18",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -384,7 +384,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "115",
+      "RANG": "114",
       "RANG_LIGUE": "19",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -405,7 +405,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "123",
+      "RANG": "122",
       "RANG_LIGUE": "20",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -426,7 +426,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "128",
+      "RANG": "127",
       "RANG_LIGUE": "21",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -447,7 +447,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "135",
+      "RANG": "134",
       "RANG_LIGUE": "22",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -468,7 +468,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "154",
+      "RANG": "153",
       "RANG_LIGUE": "23",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -489,7 +489,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "161",
+      "RANG": "160",
       "RANG_LIGUE": "24",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -510,7 +510,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "171",
+      "RANG": "170",
       "RANG_LIGUE": "25",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -699,7 +699,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "223",
+      "RANG": "224",
       "RANG_LIGUE": "34",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -741,7 +741,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "244",
+      "RANG": "243",
       "RANG_LIGUE": "36",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -762,7 +762,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "246",
+      "RANG": "245",
       "RANG_LIGUE": "37",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -783,7 +783,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "251",
+      "RANG": "249",
       "RANG_LIGUE": "38",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -804,7 +804,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "252",
+      "RANG": "250",
       "RANG_LIGUE": "39",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -825,7 +825,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "270",
+      "RANG": "269",
       "RANG_LIGUE": "40",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -846,7 +846,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "275",
+      "RANG": "274",
       "RANG_LIGUE": "41",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -867,7 +867,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "293",
+      "RANG": "291",
       "RANG_LIGUE": "42",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -888,7 +888,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "295",
+      "RANG": "293",
       "RANG_LIGUE": "43",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -909,7 +909,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "305",
+      "RANG": "304",
       "RANG_LIGUE": "44",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -930,7 +930,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "320",
+      "RANG": "318",
       "RANG_LIGUE": "45",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -951,7 +951,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "328",
+      "RANG": "326",
       "RANG_LIGUE": "46",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -972,7 +972,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "336",
+      "RANG": "334",
       "RANG_LIGUE": "47",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -993,7 +993,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "345",
+      "RANG": "343",
       "RANG_LIGUE": "48",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1014,7 +1014,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "349",
+      "RANG": "347",
       "RANG_LIGUE": "49",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1035,7 +1035,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "353",
+      "RANG": "351",
       "RANG_LIGUE": "50",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1056,7 +1056,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "355",
+      "RANG": "353",
       "RANG_LIGUE": "51",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1077,7 +1077,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "364",
+      "RANG": "363",
       "RANG_LIGUE": "52",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1098,7 +1098,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "26",
+      "RANG": "28",
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1119,7 +1119,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "27",
+      "RANG": "29",
       "RANG_LIGUE": "2",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1140,7 +1140,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "37",
+      "RANG": "40",
       "RANG_LIGUE": "3",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1161,7 +1161,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "39",
+      "RANG": "42",
       "RANG_LIGUE": "4",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1182,7 +1182,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "50",
+      "RANG": "52",
       "RANG_LIGUE": "5",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1203,7 +1203,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "51",
+      "RANG": "54",
       "RANG_LIGUE": "6",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1224,7 +1224,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "59",
+      "RANG": "62",
       "RANG_LIGUE": "7",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1245,7 +1245,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "62",
+      "RANG": "66",
       "RANG_LIGUE": "8",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1266,7 +1266,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "66",
+      "RANG": "69",
       "RANG_LIGUE": "9",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1287,8 +1287,29 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "70",
+      "RANG": "72",
       "RANG_LIGUE": "10",
+      "DIVISION": "",
+      "PRE_INSCRIT": "",
+      "QUOTA": "",
+      "NOM_ABREGE": "MONTAIGU",
+      "NOM_STRUCTURE": "LES ARCHERS DE LA DIGUE",
+      "SEXE_EQUIPE": "F",
+      "ARME_EQUIPE": "C",
+      "CATEGORIE_CLASSEMENT": "Arc Classique Femme 2027",
+      "CODE_STRUCTURE": "1285121",
+      "VILLE": "",
+      "DEPARTEMENT": "85",
+      "SCORE1": "499",
+      "SCORE2": "488",
+      "SCORE3": "461",
+      "MOY_SCORE": "1448",
+      "_classement_nom": "Arc Classique Femme 2027",
+      "DISCIPLINE": "S"
+    },
+    {
+      "RANG": "74",
+      "RANG_LIGUE": "11",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -1308,8 +1329,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "75",
-      "RANG_LIGUE": "11",
+      "RANG": "79",
+      "RANG_LIGUE": "12",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -1329,8 +1350,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "79",
-      "RANG_LIGUE": "12",
+      "RANG": "83",
+      "RANG_LIGUE": "13",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -1350,8 +1371,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "80",
-      "RANG_LIGUE": "13",
+      "RANG": "84",
+      "RANG_LIGUE": "14",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -1371,8 +1392,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "89",
-      "RANG_LIGUE": "14",
+      "RANG": "93",
+      "RANG_LIGUE": "15",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -1392,28 +1413,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "94",
-      "RANG_LIGUE": "15",
-      "DIVISION": "",
-      "PRE_INSCRIT": "",
-      "QUOTA": "",
-      "NOM_ABREGE": "MONTAIGU",
-      "NOM_STRUCTURE": "LES ARCHERS DE LA DIGUE",
-      "SEXE_EQUIPE": "F",
-      "ARME_EQUIPE": "C",
-      "CATEGORIE_CLASSEMENT": "Arc Classique Femme 2027",
-      "CODE_STRUCTURE": "1285121",
-      "VILLE": "",
-      "DEPARTEMENT": "85",
-      "SCORE1": "488",
-      "SCORE2": "461",
-      "SCORE3": "455",
-      "MOY_SCORE": "1404",
-      "_classement_nom": "Arc Classique Femme 2027",
-      "DISCIPLINE": "S"
-    },
-    {
-      "RANG": "98",
+      "RANG": "101",
       "RANG_LIGUE": "16",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1434,7 +1434,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "101",
+      "RANG": "104",
       "RANG_LIGUE": "17",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1455,7 +1455,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "106",
+      "RANG": "109",
       "RANG_LIGUE": "18",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1476,7 +1476,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "118",
+      "RANG": "121",
       "RANG_LIGUE": "19",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1497,7 +1497,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "128",
+      "RANG": "130",
       "RANG_LIGUE": "20",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1518,7 +1518,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "132",
+      "RANG": "133",
       "RANG_LIGUE": "21",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1539,7 +1539,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "139",
+      "RANG": "143",
       "RANG_LIGUE": "22",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1560,7 +1560,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "140",
+      "RANG": "144",
       "RANG_LIGUE": "23",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1581,7 +1581,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "151",
+      "RANG": "154",
       "RANG_LIGUE": "24",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1602,7 +1602,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "156",
+      "RANG": "159",
       "RANG_LIGUE": "25",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1623,7 +1623,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "160",
+      "RANG": "163",
       "RANG_LIGUE": "26",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1644,7 +1644,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "169",
+      "RANG": "172",
       "RANG_LIGUE": "27",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1665,7 +1665,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "172",
+      "RANG": "175",
       "RANG_LIGUE": "28",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1686,7 +1686,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "179",
+      "RANG": "182",
       "RANG_LIGUE": "29",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1707,7 +1707,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "185",
+      "RANG": "188",
       "RANG_LIGUE": "30",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1728,7 +1728,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "190",
+      "RANG": "193",
       "RANG_LIGUE": "31",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1749,7 +1749,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "194",
+      "RANG": "197",
       "RANG_LIGUE": "32",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1770,7 +1770,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "202",
+      "RANG": "205",
       "RANG_LIGUE": "33",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1791,7 +1791,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "221",
+      "RANG": "223",
       "RANG_LIGUE": "34",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1812,7 +1812,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "222",
+      "RANG": "226",
       "RANG_LIGUE": "35",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1833,7 +1833,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "226",
+      "RANG": "229",
       "RANG_LIGUE": "36",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1854,7 +1854,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "228",
+      "RANG": "231",
       "RANG_LIGUE": "37",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1875,7 +1875,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "239",
+      "RANG": "242",
       "RANG_LIGUE": "38",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1896,7 +1896,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "243",
+      "RANG": "246",
       "RANG_LIGUE": "39",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1917,7 +1917,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "245",
+      "RANG": "248",
       "RANG_LIGUE": "40",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -1980,7 +1980,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "15",
+      "RANG": "16",
       "RANG_LIGUE": "3",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -2001,29 +2001,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "16",
+      "RANG": "19",
       "RANG_LIGUE": "4",
-      "DIVISION": "",
-      "PRE_INSCRIT": "",
-      "QUOTA": "",
-      "NOM_ABREGE": "VALLET",
-      "NOM_STRUCTURE": "ARC NATURE VALLETAIS",
-      "SEXE_EQUIPE": "H",
-      "ARME_EQUIPE": "P",
-      "CATEGORIE_CLASSEMENT": "Arc à Poulies Homme 2027",
-      "CODE_STRUCTURE": "1244031",
-      "VILLE": "",
-      "DEPARTEMENT": "44",
-      "SCORE1": "574",
-      "SCORE2": "0",
-      "SCORE3": "0",
-      "MOY_SCORE": "574",
-      "_classement_nom": "Arc à Poulies Homme 2027",
-      "DISCIPLINE": "S"
-    },
-    {
-      "RANG": "20",
-      "RANG_LIGUE": "5",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2043,8 +2022,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "21",
-      "RANG_LIGUE": "6",
+      "RANG": "20",
+      "RANG_LIGUE": "5",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2064,8 +2043,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "23",
-      "RANG_LIGUE": "7",
+      "RANG": "21",
+      "RANG_LIGUE": "6",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2085,8 +2064,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "32",
-      "RANG_LIGUE": "8",
+      "RANG": "33",
+      "RANG_LIGUE": "7",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2106,8 +2085,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "44",
-      "RANG_LIGUE": "9",
+      "RANG": "43",
+      "RANG_LIGUE": "8",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2127,8 +2106,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "47",
-      "RANG_LIGUE": "10",
+      "RANG": "49",
+      "RANG_LIGUE": "9",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2148,8 +2127,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "49",
-      "RANG_LIGUE": "11",
+      "RANG": "50",
+      "RANG_LIGUE": "10",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2169,8 +2148,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "64",
-      "RANG_LIGUE": "12",
+      "RANG": "63",
+      "RANG_LIGUE": "11",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2191,7 +2170,7 @@
     },
     {
       "RANG": "66",
-      "RANG_LIGUE": "13",
+      "RANG_LIGUE": "12",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2212,7 +2191,7 @@
     },
     {
       "RANG": "67",
-      "RANG_LIGUE": "14",
+      "RANG_LIGUE": "13",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2232,8 +2211,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "74",
-      "RANG_LIGUE": "15",
+      "RANG": "75",
+      "RANG_LIGUE": "14",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2253,8 +2232,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "81",
-      "RANG_LIGUE": "16",
+      "RANG": "82",
+      "RANG_LIGUE": "15",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2274,8 +2253,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "92",
-      "RANG_LIGUE": "17",
+      "RANG": "93",
+      "RANG_LIGUE": "16",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2295,8 +2274,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "100",
-      "RANG_LIGUE": "18",
+      "RANG": "101",
+      "RANG_LIGUE": "17",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2316,8 +2295,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "101",
-      "RANG_LIGUE": "19",
+      "RANG": "102",
+      "RANG_LIGUE": "18",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2337,8 +2316,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "108",
-      "RANG_LIGUE": "20",
+      "RANG": "111",
+      "RANG_LIGUE": "19",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2358,8 +2337,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "114",
-      "RANG_LIGUE": "21",
+      "RANG": "115",
+      "RANG_LIGUE": "20",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2379,8 +2358,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "121",
-      "RANG_LIGUE": "22",
+      "RANG": "122",
+      "RANG_LIGUE": "21",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2400,8 +2379,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "127",
-      "RANG_LIGUE": "23",
+      "RANG": "128",
+      "RANG_LIGUE": "22",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2421,8 +2400,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "128",
-      "RANG_LIGUE": "24",
+      "RANG": "130",
+      "RANG_LIGUE": "23",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2442,8 +2421,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "138",
-      "RANG_LIGUE": "25",
+      "RANG": "139",
+      "RANG_LIGUE": "24",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2463,8 +2442,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "142",
-      "RANG_LIGUE": "26",
+      "RANG": "144",
+      "RANG_LIGUE": "25",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2484,8 +2463,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "150",
-      "RANG_LIGUE": "27",
+      "RANG": "151",
+      "RANG_LIGUE": "26",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2505,8 +2484,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "157",
-      "RANG_LIGUE": "28",
+      "RANG": "160",
+      "RANG_LIGUE": "27",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2526,8 +2505,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "172",
-      "RANG_LIGUE": "29",
+      "RANG": "175",
+      "RANG_LIGUE": "28",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2547,8 +2526,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "188",
-      "RANG_LIGUE": "30",
+      "RANG": "191",
+      "RANG_LIGUE": "29",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2568,8 +2547,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "189",
-      "RANG_LIGUE": "31",
+      "RANG": "192",
+      "RANG_LIGUE": "30",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2589,8 +2568,8 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "195",
-      "RANG_LIGUE": "32",
+      "RANG": "197",
+      "RANG_LIGUE": "31",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -2610,7 +2589,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "1",
+      "RANG": "2",
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -2631,7 +2610,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "2",
+      "RANG": "3",
       "RANG_LIGUE": "2",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -2715,7 +2694,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "45",
+      "RANG": "46",
       "RANG_LIGUE": "6",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -2757,7 +2736,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "58",
+      "RANG": "59",
       "RANG_LIGUE": "8",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -2778,7 +2757,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "74",
+      "RANG": "75",
       "RANG_LIGUE": "9",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -2799,7 +2778,7 @@
       "DISCIPLINE": "S"
     },
     {
-      "RANG": "80",
+      "RANG": "81",
       "RANG_LIGUE": "10",
       "DIVISION": "",
       "PRE_INSCRIT": "",

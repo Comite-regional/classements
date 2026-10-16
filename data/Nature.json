@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-15T07:13:14.764981Z",
+    "generated_at": "2026-10-16T06:56:22.998285Z",
     "saison": "2027",
     "ligue": "CR12"
   },
@@ -29,7 +29,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "22",
+      "RANG_NAT": "21",
       "_classement_nom": "Senior 1 Homme Arc Nu 2027"
     },
     {
@@ -56,7 +56,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "31",
+      "RANG_NAT": "29",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -83,7 +83,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "87",
+      "RANG_NAT": "84",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -191,7 +191,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "133",
+      "RANG_NAT": "132",
       "_classement_nom": "Senior 3 Homme Arc Droit 2027"
     },
     {
@@ -596,7 +596,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "15",
+      "RANG_NAT": "14",
       "_classement_nom": "Senior 2 Femme Arc Libre 2027"
     },
     {
@@ -623,7 +623,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "32",
+      "RANG_NAT": "31",
       "_classement_nom": "Senior 2 Femme Arc Libre 2027"
     },
     {
