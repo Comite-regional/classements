@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-21T07:22:04.161598Z",
+    "generated_at": "2026-10-22T07:22:53.911914Z",
     "saison": "2027",
     "ligue": "CR12"
   },
@@ -353,7 +353,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "CHALLENGE",
       "CAT_CLASS": "",
-      "RANG_NAT": "2",
+      "RANG_NAT": "3",
       "_classement_nom": "CHALLENGE Scratch Mixte Arc à Poulies 2027"
     },
     {
@@ -380,7 +380,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "CHALLENGE",
       "CAT_CLASS": "",
-      "RANG_NAT": "4",
+      "RANG_NAT": "5",
       "_classement_nom": "CHALLENGE Scratch Mixte Arc à Poulies 2027"
     }
   ]
