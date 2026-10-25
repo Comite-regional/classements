@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-10-24T07:04:45.592352Z",
+    "generated_at": "2026-10-25T07:28:24.791619Z",
     "saison": "2027",
     "ligue": "CR12"
   },
   "rows": [
     {
-      "RANG": "19",
+      "RANG": "18",
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -27,7 +27,7 @@
       "DISCIPLINE": "N"
     },
     {
-      "RANG": "25",
+      "RANG": "52",
       "RANG_LIGUE": "2",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -41,10 +41,31 @@
       "VILLE": "",
       "DEPARTEMENT": "72",
       "SCORE1": "1715",
+      "SCORE2": "1300",
+      "SCORE3": "0",
+      "MOY_SCORE": "1507",
+      "_classement_nom": "Homme Equipe Parcours Nature",
+      "DISCIPLINE": "N"
+    },
+    {
+      "RANG": "19",
+      "RANG_LIGUE": "1",
+      "DIVISION": "",
+      "PRE_INSCRIT": "",
+      "QUOTA": "",
+      "NOM_ABREGE": "LE MANS NATURE",
+      "NOM_STRUCTURE": "ASSO NOUVELLE DES ARCHERS DE LA NATURE - LE MANS",
+      "SEXE_EQUIPE": "F",
+      "ARME_EQUIPE": "C",
+      "CATEGORIE_CLASSEMENT": "Femme Equipe Parcours Nature",
+      "CODE_STRUCTURE": "1272103",
+      "VILLE": "",
+      "DEPARTEMENT": "72",
+      "SCORE1": "1255",
       "SCORE2": "0",
       "SCORE3": "0",
-      "MOY_SCORE": "1715",
-      "_classement_nom": "Homme Equipe Parcours Nature",
+      "MOY_SCORE": "1255",
+      "_classement_nom": "Femme Equipe Parcours Nature",
       "DISCIPLINE": "N"
     }
   ]

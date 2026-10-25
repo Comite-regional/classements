@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-24T07:04:45.592352Z",
+    "generated_at": "2026-10-25T07:28:24.791619Z",
     "saison": "2027",
     "ligue": "CR12"
   },
@@ -236,16 +236,16 @@
       "CODE_STRUCTURE": "1249050",
       "DEPARTEMENT": "49",
       "SCORE1": "574",
-      "SCORE2": "563",
-      "SCORE3": "0",
-      "MOY_SCORE": "568",
+      "SCORE2": "573",
+      "SCORE3": "563",
+      "MOY_SCORE": "570",
       "DISCIPLINE": "I",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
       "CAT_CLASS": "W2",
-      "RANG_NAT": "5",
+      "RANG_NAT": "4",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2027"
     },
     {
