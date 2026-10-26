@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-25T07:28:24.791619Z",
+    "generated_at": "2026-10-26T07:38:23.880963Z",
     "saison": "2027",
     "ligue": "CR12"
   },
@@ -4117,8 +4117,8 @@
       "PRENOM_PERSONNE": "Dominique",
       "SEXE": "H",
       "ARME": "P",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
       "NOM_STRUCTURE": "ASSO NOUVELLE DES ARCHERS DE LA NATURE - LE MANS",
       "NOM_ABREGE": "LE MANS NATURE",
       "CODE_STRUCTURE": "1272103",
@@ -6331,8 +6331,8 @@
       "PRENOM_PERSONNE": "Dominique",
       "SEXE": "H",
       "ARME": "P",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
       "NOM_STRUCTURE": "ASSO NOUVELLE DES ARCHERS DE LA NATURE - LE MANS",
       "NOM_ABREGE": "LE MANS NATURE",
       "CODE_STRUCTURE": "1272103",
