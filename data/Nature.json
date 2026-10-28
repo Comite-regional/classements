@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-27T07:35:58.643045Z",
+    "generated_at": "2026-10-28T08:08:56.756134Z",
     "saison": "2027",
     "ligue": "CR12"
   },
@@ -326,7 +326,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "100",
+      "RANG_NAT": "101",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -407,7 +407,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "53",
+      "RANG_NAT": "54",
       "_classement_nom": "Senior 2 Homme Arc Droit 2027"
     },
     {
@@ -461,7 +461,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "43",
+      "RANG_NAT": "44",
       "_classement_nom": "Senior 3 Homme Arc Droit 2027"
     },
     {
@@ -488,7 +488,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "45",
+      "RANG_NAT": "46",
       "_classement_nom": "Senior 3 Homme Arc Droit 2027"
     },
     {
@@ -515,7 +515,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "151",
+      "RANG_NAT": "154",
       "_classement_nom": "Senior 3 Homme Arc Droit 2027"
     },
     {
@@ -569,7 +569,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "19",
+      "RANG_NAT": "20",
       "_classement_nom": "Senior 3 Femme Arc Droit 2027"
     },
     {
@@ -704,7 +704,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "66",
+      "RANG_NAT": "67",
       "_classement_nom": "Senior 3 Homme Arc Chasse 2027"
     },
     {
@@ -1001,7 +1001,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "15",
+      "RANG_NAT": "16",
       "_classement_nom": "Senior 2 Femme Arc Libre 2027"
     },
     {
@@ -1028,7 +1028,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "35",
+      "RANG_NAT": "36",
       "_classement_nom": "Senior 2 Femme Arc Libre 2027"
     },
     {

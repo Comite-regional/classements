@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-27T07:35:58.643045Z",
+    "generated_at": "2026-10-28T08:08:56.756134Z",
     "saison": "2027",
     "ligue": "CR12"
   },
@@ -56,7 +56,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "5",
+      "RANG_NAT": "8",
       "_classement_nom": "U18 Homme Arc Classique 2027"
     },
     {
@@ -110,7 +110,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "2",
+      "RANG_NAT": "4",
       "_classement_nom": "U13 Homme Arc Classique 2027"
     },
     {
@@ -137,7 +137,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "55",
+      "RANG_NAT": "58",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -164,7 +164,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "70",
+      "RANG_NAT": "74",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -191,7 +191,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "82",
+      "RANG_NAT": "86",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -218,7 +218,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "84",
+      "RANG_NAT": "89",
       "_classement_nom": "Scratch Homme Classique 2027"
     },
     {
@@ -299,7 +299,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "10",
+      "RANG_NAT": "11",
       "_classement_nom": "Scratch Femme Classique 2027"
     },
     {
@@ -326,7 +326,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "14",
+      "RANG_NAT": "16",
       "_classement_nom": "Scratch Femme Classique 2027"
     },
     {
@@ -353,7 +353,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "19",
+      "RANG_NAT": "21",
       "_classement_nom": "Scratch Femme Classique 2027"
     },
     {
@@ -380,7 +380,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "23",
+      "RANG_NAT": "25",
       "_classement_nom": "Scratch Femme Classique 2027"
     },
     {
@@ -488,7 +488,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "7",
+      "RANG_NAT": "9",
       "_classement_nom": "Senior 1 Femme Arc Classique 2027"
     },
     {
@@ -515,7 +515,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "10",
+      "RANG_NAT": "12",
       "_classement_nom": "Senior 1 Femme Arc Classique 2027"
     },
     {
@@ -569,7 +569,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "30",
+      "RANG_NAT": "31",
       "_classement_nom": "Senior 2 Homme Arc Classique 2027"
     },
     {
@@ -596,7 +596,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "40",
+      "RANG_NAT": "42",
       "_classement_nom": "Senior 2 Homme Arc Classique 2027"
     },
     {
@@ -758,7 +758,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "16",
+      "RANG_NAT": "17",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -785,7 +785,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "27",
+      "RANG_NAT": "28",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -812,7 +812,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "45",
+      "RANG_NAT": "46",
       "_classement_nom": "Scratch Homme Poulies 2027"
     },
     {
@@ -893,7 +893,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "2",
+      "RANG_NAT": "3",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2027"
     },
     {
@@ -920,7 +920,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "3",
+      "RANG_NAT": "4",
       "_classement_nom": "Senior 3 Homme Arc à Poulies 2027"
     }
   ]
