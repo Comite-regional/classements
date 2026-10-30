@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-29T08:16:36.071374Z",
+    "generated_at": "2026-10-30T08:24:20.928495Z",
     "saison": "2027",
     "ligue": "CR12"
   },
@@ -245,7 +245,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "2",
+      "RANG_NAT": "3",
       "_classement_nom": "Arc Classique Femme 2027"
     },
     {
@@ -407,7 +407,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "6",
+      "RANG_NAT": "7",
       "_classement_nom": "Double Mixte Arc Classique 2027"
     },
     {
@@ -434,7 +434,7 @@
       "TAE_TYPE": "I",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "7",
+      "RANG_NAT": "8",
       "_classement_nom": "Double Mixte Arc Classique 2027"
     },
     {
