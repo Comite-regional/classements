@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-01T08:58:28.592594Z",
+    "generated_at": "2026-11-02T09:10:29.522629Z",
     "saison": "2027",
     "ligue": "CR12"
   },
@@ -191,7 +191,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "3",
+      "RANG_NAT": "2",
       "_classement_nom": "Senior 1 Femme arc Nu 2027"
     },
     {
@@ -218,7 +218,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "56",
+      "RANG_NAT": "57",
       "_classement_nom": "Senior 2 Homme Arc Nu 2027"
     },
     {
@@ -299,7 +299,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "76",
+      "RANG_NAT": "77",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -326,7 +326,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "100",
+      "RANG_NAT": "103",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -353,7 +353,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "131",
+      "RANG_NAT": "134",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -434,7 +434,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "26",
+      "RANG_NAT": "24",
       "_classement_nom": "Senior 2 Femme Arc Droit 2027"
     },
     {
@@ -623,7 +623,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "6",
+      "RANG_NAT": "5",
       "_classement_nom": "Senior 1 Femme Arc Chasse 2027"
     },
     {
@@ -677,7 +677,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "52",
+      "RANG_NAT": "53",
       "_classement_nom": "Senior 3 Homme Arc Chasse 2027"
     },
     {
@@ -704,7 +704,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "67",
+      "RANG_NAT": "68",
       "_classement_nom": "Senior 3 Homme Arc Chasse 2027"
     },
     {
@@ -731,7 +731,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "154",
+      "RANG_NAT": "155",
       "_classement_nom": "Senior 3 Homme Arc Chasse 2027"
     },
     {
@@ -839,7 +839,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "8",
+      "RANG_NAT": "9",
       "_classement_nom": "Senior 1 Femme Arc Libre 2027"
     },
     {

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-01T08:58:28.592594Z",
+    "generated_at": "2026-11-02T09:10:29.522629Z",
     "saison": "2027",
     "ligue": "CR12"
   },
@@ -6493,8 +6493,8 @@
       "PRENOM_PERSONNE": "Baptiste",
       "SEXE": "H",
       "ARME": "L",
-      "CAT": "U21",
-      "CATEGORIE": "U21",
+      "CAT": "S1",
+      "CATEGORIE": "S1",
       "NOM_STRUCTURE": "ARC ECOUFLANT",
       "NOM_ABREGE": "ECOUFLANT",
       "CODE_STRUCTURE": "1249071",
@@ -7249,8 +7249,8 @@
       "PRENOM_PERSONNE": "Baptiste",
       "SEXE": "H",
       "ARME": "L",
-      "CAT": "U21",
-      "CATEGORIE": "U21",
+      "CAT": "S1",
+      "CATEGORIE": "S1",
       "NOM_STRUCTURE": "ARC ECOUFLANT",
       "NOM_ABREGE": "ECOUFLANT",
       "CODE_STRUCTURE": "1249071",
