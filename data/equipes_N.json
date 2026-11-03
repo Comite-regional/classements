@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-11-02T09:10:29.522629Z",
+    "generated_at": "2026-11-03T09:16:45.562668Z",
     "saison": "2027",
     "ligue": "CR12"
   },
   "rows": [
     {
-      "RANG": "19",
+      "RANG": "21",
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -27,7 +27,7 @@
       "DISCIPLINE": "N"
     },
     {
-      "RANG": "51",
+      "RANG": "53",
       "RANG_LIGUE": "2",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -48,7 +48,7 @@
       "DISCIPLINE": "N"
     },
     {
-      "RANG": "22",
+      "RANG": "23",
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-02T09:10:29.522629Z",
+    "generated_at": "2026-11-03T09:16:45.562668Z",
     "saison": "2027",
     "ligue": "CR12"
   },
@@ -758,7 +758,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "20",
+      "RANG_NAT": "19",
       "_classement_nom": "Senior 2 Femme Arc Classique 2027"
     },
     {
@@ -1109,7 +1109,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "19",
+      "RANG_NAT": "20",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
@@ -1136,7 +1136,7 @@
       "TAE_TYPE": "N",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "30",
+      "RANG_NAT": "31",
       "_classement_nom": "Senior 2 Homme Arc à Poulies 2027"
     },
     {
