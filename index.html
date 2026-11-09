@@ -2043,7 +2043,18 @@ const DISC_LABELS = {
 
     // Construit les équipes tir 18m (groupes multi-catégories, 3 archers/club avec 3 scores)
     function buildTeams18(data, group){
-      const rows=data.filter(r=>qualifies18(r,group)&&has3scores(r));
+      let rows=data.filter(r=>qualifies18(r,group)&&has3scores(r));
+      // Déduplication par licence : un archer figure dans plusieurs classements
+      // (sa catégorie + le scratch), ce qui le ferait compter plusieurs fois dans
+      // le top 3 d'un club (scores « doublés »). On conserve sa meilleure moyenne.
+      const byLic=new Map();
+      rows.forEach(r=>{
+        const lic=(r.NO_LICENCE||'').toString().trim();
+        if(!lic){ byLic.set('__no_lic_'+byLic.size, r); return; }
+        const prev=byLic.get(lic);
+        if(!prev || moyOf(r)>moyOf(prev)) byLic.set(lic, r);
+      });
+      rows=[...byLic.values()];
       const byClub=new Map();
       rows.forEach(r=>{ const k=clubKey(r); if(!byClub.has(k)) byClub.set(k,[]); byClub.get(k).push(r); });
       const teams=[];
