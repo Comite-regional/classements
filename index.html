@@ -447,6 +447,7 @@ tr.hover-sync, #inscriptions-panel .item.hover-sync{ outline: 2px solid #94a3b8;
       background:#f8fafc !important;
       border-bottom:1px solid #e5e7eb !important;
     }
+    #teamModal .modal-header h3{ color:var(--brand, #353089) !important; }
     #teamModal .modal-body{
       background:#ffffff !important;
     }
@@ -1839,6 +1840,7 @@ const DISC_LABELS = {
     }
 
     function renderTableIndiv(rows){
+      window.__teamMode18 = false; // vue individuelle : lignes non cliquables (équipe)
       const thead   = document.getElementById('thead-row');
       const tbody   = document.getElementById('tbody');
       const depFilter = state.filters.departement || '';
@@ -2178,6 +2180,8 @@ const DISC_LABELS = {
     async function renderTableTeamAuto(){
       const disc=state.disciplineTeam||'';
       if(!disc) return;
+      // Flag pour le clic sur ligne : seules les équipes 18m (avec MEMBERS) sont cliquables
+      window.__teamMode18 = (disc===TEAM_18M_LABEL);
       const classement=state.filters.categorie||'';
       // Tir 18m : calcul local depuis données individuelles
       if(disc===TEAM_18M_LABEL){
@@ -2191,6 +2195,7 @@ const DISC_LABELS = {
         const indiv=state.rawByDiscipline.get('Tir 18m')||[];
         const group=classement||TEAM18_GROUPS[0];
         teamCache=buildTeams18(indiv,group);
+        window.__teamCache=teamCache; window.__openTeamModal=openTeamModal;
         renderTeamTable(teamCache);
       } else {
         const rows=await ensureTeamDiscLoaded(disc);
@@ -6411,6 +6416,49 @@ table{border-collapse:collapse;}h2{margin:16px 0 4px;font-size:14px;}h3{margin:1
     document.addEventListener('DOMContentLoaded', initStars);
   else
     initStars();
+})();
+</script>
+<style id="team18-clickable-style">
+  /* Lignes d'équipe 18m cliquables (ouvre le détail des archers) */
+  #tbody.team18-clickable tr { cursor: pointer; }
+  #tbody.team18-clickable tr:hover td { background: #eef2ff !important; }
+  #tbody.team18-clickable tr td:nth-child(2) { text-decoration: underline dotted; text-underline-offset: 2px; }
+</style>
+<script id="team18-row-click">
+(function(){
+  function isTeam18(){
+    return window.__teamMode18 === true && Array.isArray(window.__teamCache);
+  }
+  function init(){
+    const tbody=document.getElementById('tbody');
+    if(!tbody || tbody.__team18ClickWired) return;
+    tbody.__team18ClickWired=true;
+
+    // Affordance : (dé)marque le tbody comme cliquable selon la vue
+    const sync=()=>{ tbody.classList.toggle('team18-clickable', isTeam18()); };
+    new MutationObserver(sync).observe(tbody,{childList:true});
+    sync();
+
+    // Clic sur une ligne d'équipe 18m → ouvre la modale avec les archers
+    tbody.addEventListener('click', function(e){
+      if(!isTeam18()) return;
+      if(e.target.closest('a,button')) return; // laisse les éléments interactifs gérer leur clic
+      const tr=e.target.closest('tr'); if(!tr) return;
+      const cache=window.__teamCache;
+      if(!Array.isArray(cache) || typeof window.__openTeamModal!=='function') return;
+      // Retrouve l'équipe en matchant le texte d'une cellule avec un nom de club du cache
+      const cells=[...tr.children].map(td=>(td.textContent||'').trim());
+      let idx=-1;
+      for(const txt of cells){
+        if(!txt) continue;
+        const k=cache.findIndex(t=>((t.CLUB||t.NOM_STRUCTURE||'')+'').trim()===txt);
+        if(k>=0){ idx=k; break; }
+      }
+      if(idx>=0) window.__openTeamModal(idx);
+    });
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
 })();
 </script>
 </body>
