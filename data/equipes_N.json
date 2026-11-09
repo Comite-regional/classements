@@ -1,13 +1,34 @@
 {
   "meta": {
-    "generated_at": "2026-11-08T08:48:12.204688Z",
+    "generated_at": "2026-11-09T09:30:53.425728Z",
     "saison": "2027",
     "ligue": "CR12"
   },
   "rows": [
     {
-      "RANG": "21",
+      "RANG": "14",
       "RANG_LIGUE": "1",
+      "DIVISION": "",
+      "PRE_INSCRIT": "",
+      "QUOTA": "",
+      "NOM_ABREGE": "BOULOIRE",
+      "NOM_STRUCTURE": "CIE ARCHERS BOIS DES VALLEES",
+      "SEXE_EQUIPE": "H",
+      "ARME_EQUIPE": "C",
+      "CATEGORIE_CLASSEMENT": "Homme Equipe Parcours Nature",
+      "CODE_STRUCTURE": "1272093",
+      "VILLE": "",
+      "DEPARTEMENT": "72",
+      "SCORE1": "1835",
+      "SCORE2": "1715",
+      "SCORE3": "1355",
+      "MOY_SCORE": "1775",
+      "_classement_nom": "Homme Equipe Parcours Nature",
+      "DISCIPLINE": "N"
+    },
+    {
+      "RANG": "22",
+      "RANG_LIGUE": "2",
       "DIVISION": "",
       "PRE_INSCRIT": "",
       "QUOTA": "",
@@ -27,28 +48,7 @@
       "DISCIPLINE": "N"
     },
     {
-      "RANG": "53",
-      "RANG_LIGUE": "2",
-      "DIVISION": "",
-      "PRE_INSCRIT": "",
-      "QUOTA": "",
-      "NOM_ABREGE": "BOULOIRE",
-      "NOM_STRUCTURE": "CIE ARCHERS BOIS DES VALLEES",
-      "SEXE_EQUIPE": "H",
-      "ARME_EQUIPE": "C",
-      "CATEGORIE_CLASSEMENT": "Homme Equipe Parcours Nature",
-      "CODE_STRUCTURE": "1272093",
-      "VILLE": "",
-      "DEPARTEMENT": "72",
-      "SCORE1": "1715",
-      "SCORE2": "1355",
-      "SCORE3": "0",
-      "MOY_SCORE": "1535",
-      "_classement_nom": "Homme Equipe Parcours Nature",
-      "DISCIPLINE": "N"
-    },
-    {
-      "RANG": "23",
+      "RANG": "26",
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -62,9 +62,9 @@
       "VILLE": "",
       "DEPARTEMENT": "72",
       "SCORE1": "1265",
-      "SCORE2": "0",
+      "SCORE2": "1115",
       "SCORE3": "0",
-      "MOY_SCORE": "1265",
+      "MOY_SCORE": "1190",
       "_classement_nom": "Femme Equipe Parcours Nature",
       "DISCIPLINE": "N"
     }
