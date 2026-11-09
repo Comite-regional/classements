@@ -6444,7 +6444,9 @@ table{border-collapse:collapse;}h2{margin:16px 0 4px;font-size:14px;}h3{margin:1
     // Clic sur une ligne d'équipe 18m → ouvre la modale avec les archers
     tbody.addEventListener('click', function(e){
       if(!isTeam18()) return;
-      if(e.target.closest('a,button')) return; // laisse les éléments interactifs gérer leur clic
+      // On traite aussi les clics sur le bouton-club (.link-btn), dont le gestionnaire
+      // d'origine est perdu quand un patch reconstruit le tableau via innerHTML.
+      if(e.target.closest('a, button:not(.link-btn)')) return;
       const tr=e.target.closest('tr'); if(!tr) return;
       const cache=window.__teamCache;
       if(!Array.isArray(cache) || typeof window.__openTeamModal!=='function') return;
