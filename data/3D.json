@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-10T09:31:39.827339Z",
+    "generated_at": "2026-11-11T09:07:28.239268Z",
     "saison": "2027",
     "ligue": "CR12"
   },
@@ -1622,7 +1622,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "101",
+      "RANG_NAT": "100",
       "_classement_nom": "Scratch Femme Bare Bow 2027"
     },
     {
@@ -2999,7 +2999,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "152",
+      "RANG_NAT": "153",
       "_classement_nom": "Scratch Homme Arc Droit 2027"
     },
     {
@@ -4193,17 +4193,17 @@
     {
       "Rang_ligue": 3,
       "RANG": 3,
-      "NO_LICENCE": "0427934W",
-      "NOM_PERSONNE": "ADET",
-      "PRENOM_PERSONNE": "Yves",
+      "NO_LICENCE": "0970386T",
+      "NOM_PERSONNE": "BARRAUD",
+      "PRENOM_PERSONNE": "Eric",
       "SEXE": "H",
       "ARME": "H",
-      "CAT": "S3",
-      "CATEGORIE": "S3",
-      "NOM_STRUCTURE": "ASSO NOUVELLE DES ARCHERS DE LA NATURE - LE MANS",
-      "NOM_ABREGE": "LE MANS NATURE",
-      "CODE_STRUCTURE": "1272103",
-      "DEPARTEMENT": "72",
+      "CAT": "S2",
+      "CATEGORIE": "S2",
+      "NOM_STRUCTURE": "ARCHERS DE LA CHOUANNERIE",
+      "NOM_ABREGE": "LES MAGNILS REIGNIERS",
+      "CODE_STRUCTURE": "1285130",
+      "DEPARTEMENT": "85",
       "SCORE1": "298",
       "SCORE2": "0",
       "SCORE3": "0",
@@ -4220,17 +4220,17 @@
     {
       "Rang_ligue": 4,
       "RANG": 4,
-      "NO_LICENCE": "0970386T",
-      "NOM_PERSONNE": "BARRAUD",
-      "PRENOM_PERSONNE": "Eric",
+      "NO_LICENCE": "0427934W",
+      "NOM_PERSONNE": "ADET",
+      "PRENOM_PERSONNE": "Yves",
       "SEXE": "H",
       "ARME": "H",
-      "CAT": "S2",
-      "CATEGORIE": "S2",
-      "NOM_STRUCTURE": "ARCHERS DE LA CHOUANNERIE",
-      "NOM_ABREGE": "LES MAGNILS REIGNIERS",
-      "CODE_STRUCTURE": "1285130",
-      "DEPARTEMENT": "85",
+      "CAT": "S3",
+      "CATEGORIE": "S3",
+      "NOM_STRUCTURE": "ASSO NOUVELLE DES ARCHERS DE LA NATURE - LE MANS",
+      "NOM_ABREGE": "LE MANS NATURE",
+      "CODE_STRUCTURE": "1272103",
+      "DEPARTEMENT": "72",
       "SCORE1": "298",
       "SCORE2": "0",
       "SCORE3": "0",
@@ -4484,7 +4484,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "201",
+      "RANG_NAT": "202",
       "_classement_nom": "Scratch Homme Arc Chasse 2027"
     },
     {
@@ -6590,7 +6590,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "190",
+      "RANG_NAT": "189",
       "_classement_nom": "Scratch Homme Arc Libre 2027"
     },
     {
@@ -8156,7 +8156,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "52",
+      "RANG_NAT": "51",
       "_classement_nom": "Senior 3 Homme Arc Libre 2027"
     },
     {
