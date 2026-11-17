@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-16T09:19:42.513024Z",
+    "generated_at": "2026-11-17T10:27:26.217021Z",
     "saison": "2027",
     "ligue": "CR12"
   },
@@ -73,17 +73,17 @@
       "NOM_ABREGE": "BEIGNON BASSET",
       "CODE_STRUCTURE": "1285131",
       "DEPARTEMENT": "85",
-      "SCORE1": "402",
-      "SCORE2": "388",
+      "SCORE1": "411",
+      "SCORE2": "402",
       "SCORE3": "388",
-      "MOY_SCORE": "392",
+      "MOY_SCORE": "400",
       "DISCIPLINE": "I",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
       "CAT_CLASS": "",
-      "RANG_NAT": "24",
+      "RANG_NAT": "23",
       "_classement_nom": "OPEN Scratch Hommes Arc Classique 2027"
     },
     {
@@ -137,7 +137,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
       "CAT_CLASS": "",
-      "RANG_NAT": "29",
+      "RANG_NAT": "28",
       "_classement_nom": "OPEN Scratch Hommes Arc Classique 2027"
     },
     {
@@ -289,10 +289,10 @@
       "NOM_ABREGE": "CHOLET TAC",
       "CODE_STRUCTURE": "1249050",
       "DEPARTEMENT": "49",
-      "SCORE1": "582",
-      "SCORE2": "580",
-      "SCORE3": "574",
-      "MOY_SCORE": "578",
+      "SCORE1": "583",
+      "SCORE2": "582",
+      "SCORE3": "581",
+      "MOY_SCORE": "582",
       "DISCIPLINE": "I",
       "DISTANCE": "",
       "BLASON": "",
@@ -380,7 +380,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
       "CAT_CLASS": "ST",
-      "RANG_NAT": "15",
+      "RANG_NAT": "16",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2027"
     },
     {
@@ -434,7 +434,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
       "CAT_CLASS": "",
-      "RANG_NAT": "27",
+      "RANG_NAT": "28",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2027"
     },
     {
