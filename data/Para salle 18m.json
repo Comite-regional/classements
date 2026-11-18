@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-17T10:27:26.217021Z",
+    "generated_at": "2026-11-18T09:57:12.152272Z",
     "saison": "2027",
     "ligue": "CR12"
   },
@@ -208,17 +208,17 @@
       "NOM_ABREGE": "ST NAZAIRE",
       "CODE_STRUCTURE": "1244024",
       "DEPARTEMENT": "44",
-      "SCORE1": "541",
-      "SCORE2": "538",
-      "SCORE3": "534",
-      "MOY_SCORE": "537",
+      "SCORE1": "542",
+      "SCORE2": "541",
+      "SCORE3": "538",
+      "MOY_SCORE": "540",
       "DISCIPLINE": "I",
       "DISTANCE": "",
       "BLASON": "",
       "TAE_TYPE": "",
       "CAT_TIR": "FEDERAL",
       "CAT_CLASS": "SOURD",
-      "RANG_NAT": "2",
+      "RANG_NAT": "1",
       "_classement_nom": "FEDERAL Scratch Femmes Arc Classique 2027"
     },
     {
@@ -434,7 +434,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
       "CAT_CLASS": "",
-      "RANG_NAT": "28",
+      "RANG_NAT": "29",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2027"
     },
     {
@@ -569,7 +569,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "HV1",
       "CAT_CLASS": "",
-      "RANG_NAT": "3",
+      "RANG_NAT": "4",
       "_classement_nom": "HV1 Scratch Mixte 2027"
     },
     {
