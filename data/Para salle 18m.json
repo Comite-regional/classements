@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-18T09:57:12.152272Z",
+    "generated_at": "2026-11-19T10:04:48.411219Z",
     "saison": "2027",
     "ligue": "CR12"
   },
@@ -110,7 +110,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
       "CAT_CLASS": "ST",
-      "RANG_NAT": "25",
+      "RANG_NAT": "26",
       "_classement_nom": "OPEN Scratch Hommes Arc Classique 2027"
     },
     {
@@ -137,7 +137,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
       "CAT_CLASS": "",
-      "RANG_NAT": "28",
+      "RANG_NAT": "29",
       "_classement_nom": "OPEN Scratch Hommes Arc Classique 2027"
     },
     {
@@ -164,7 +164,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "FEDERAL",
       "CAT_CLASS": "SOURD",
-      "RANG_NAT": "13",
+      "RANG_NAT": "14",
       "_classement_nom": "FEDERAL Scratch Hommes Arc Classique 2027"
     },
     {
@@ -191,7 +191,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "FEDERAL",
       "CAT_CLASS": "",
-      "RANG_NAT": "17",
+      "RANG_NAT": "18",
       "_classement_nom": "FEDERAL Scratch Hommes Arc Classique 2027"
     },
     {
@@ -245,7 +245,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "HV LIBRE",
       "CAT_CLASS": "",
-      "RANG_NAT": "4",
+      "RANG_NAT": "6",
       "_classement_nom": "HV LIBRE Scratch Mixte Arc Classique 2027"
     },
     {
@@ -569,7 +569,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "HV1",
       "CAT_CLASS": "",
-      "RANG_NAT": "4",
+      "RANG_NAT": "5",
       "_classement_nom": "HV1 Scratch Mixte 2027"
     },
     {
