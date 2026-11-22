@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-11-21T09:29:07.917906Z",
+    "generated_at": "2026-11-22T09:34:33.827703Z",
     "saison": "2027",
     "ligue": "CR12"
   },
   "rows": [
     {
-      "RANG": "16",
+      "RANG": "17",
       "RANG_LIGUE": "1",
       "DIVISION": "",
       "PRE_INSCRIT": "",
@@ -62,9 +62,9 @@
       "VILLE": "",
       "DEPARTEMENT": "72",
       "SCORE1": "1265",
-      "SCORE2": "1115",
-      "SCORE3": "0",
-      "MOY_SCORE": "1190",
+      "SCORE2": "1205",
+      "SCORE3": "1115",
+      "MOY_SCORE": "1235",
       "_classement_nom": "Femme Equipe Parcours Nature",
       "DISCIPLINE": "N"
     }
