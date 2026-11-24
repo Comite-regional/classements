@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-23T10:32:37.388349Z",
+    "generated_at": "2026-11-24T12:15:12.234659Z",
     "saison": "2027",
     "ligue": "CR12"
   },
@@ -29,7 +29,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
       "CAT_CLASS": "ST",
-      "RANG_NAT": "6",
+      "RANG_NAT": "5",
       "_classement_nom": "OPEN Scratch Hommes Arc Classique 2027"
     },
     {
@@ -434,7 +434,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "OPEN",
       "CAT_CLASS": "",
-      "RANG_NAT": "29",
+      "RANG_NAT": "30",
       "_classement_nom": "OPEN Scratch Hommes Arc à Poulies 2027"
     },
     {
