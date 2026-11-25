@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-24T12:15:12.234659Z",
+    "generated_at": "2026-11-25T11:02:57.301279Z",
     "saison": "2027",
     "ligue": "CR12"
   },
@@ -380,7 +380,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "29",
+      "RANG_NAT": "30",
       "_classement_nom": "Senior 1 Homme Arc Nu 2027"
     },
     {
@@ -515,7 +515,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "39",
+      "RANG_NAT": "40",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -542,7 +542,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "84",
+      "RANG_NAT": "85",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -569,7 +569,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "93",
+      "RANG_NAT": "94",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -596,7 +596,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "111",
+      "RANG_NAT": "112",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -623,7 +623,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "144",
+      "RANG_NAT": "145",
       "_classement_nom": "Senior 3 Homme Arc Nu 2027"
     },
     {
@@ -731,7 +731,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "60",
+      "RANG_NAT": "61",
       "_classement_nom": "Senior 2 Homme Arc Droit 2027"
     },
     {
@@ -866,7 +866,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "162",
+      "RANG_NAT": "163",
       "_classement_nom": "Senior 3 Homme Arc Droit 2027"
     },
     {
@@ -1460,7 +1460,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "17",
+      "RANG_NAT": "18",
       "_classement_nom": "Senior 2 Femme Arc Libre 2027"
     },
     {
@@ -1541,7 +1541,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "18",
+      "RANG_NAT": "19",
       "_classement_nom": "Senior 3 Homme Arc Libre 2027"
     },
     {
@@ -1595,7 +1595,7 @@
       "TAE_TYPE": "",
       "CAT_TIR": "",
       "CAT_CLASS": "",
-      "RANG_NAT": "27",
+      "RANG_NAT": "28",
       "_classement_nom": "Senior 3 Homme Arc Libre 2027"
     }
   ]
